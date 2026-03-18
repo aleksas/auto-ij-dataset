@@ -115,7 +115,7 @@ auto-dataset run datasets/public-validation-v1/manifest.yaml \
   --repo-id aleksasp/auto-ij-dataset
 ```
 
-The worker command is executed by `/bin/bash -lc`, receives the runner prompt on stdin, and also gets:
+The worker command is executed by `/bin/bash -c`, receives the runner prompt on stdin, and also gets:
 
 - `AUTO_DATASET_REPO_ROOT`
 - `AUTO_DATASET_MANIFEST`
