@@ -117,7 +117,10 @@ auto-dataset publish datasets/public-validation-v1/manifest.yaml --repo-name aut
 `auto-dataset publish` does three things:
 
 - builds a fresh snapshot under `artifacts/hf-staging/<suite_id>/`
-- publishes that snapshot to Hugging Face
-- commits and pushes this git repo if tracked files changed
+- commits tracked git changes if tracked files changed
+- pushes the current git branch to GitHub after a new commit
+- publishes that snapshot as a new revision in the Hugging Face dataset repo
 
 If you want a fixed destination, pass `--repo-id <namespace>/<name>`. If you omit it, the command resolves the namespace from the Hugging Face token and uses `auto-ij-dataset` as the dataset repo name.
+
+The intended unattended-loop contract is: accepted dataset changes should be pushed to GitHub, and intermediate dataset snapshots should be pushed to Hugging Face on the same cadence.
