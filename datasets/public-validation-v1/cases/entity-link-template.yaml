@@ -1,0 +1,31 @@
+id: entity-link-template
+status: template
+title: Public entity-link recovery template
+task_type: entity_linking
+answer_mode: exact
+source_family: public_entity_link_dataset
+source_tier: primary
+target_entity: "<fill entity or intermediary name>"
+sources:
+  - label: Offshore Leaks database
+    url: https://offshoreleaks.icij.org/
+    checked_on: 2026-03-18
+    provenance: public_link_dataset
+evidence_bundle:
+  kind: entity_link_graph
+  required_artifacts:
+    - entity_snapshot
+    - relationship_snapshot
+expected_output:
+  fields_required:
+    - canonical_entity_name
+    - relationship_type
+    - linked_entity_name
+answer_key:
+  type: known_relationships
+  relationships:
+    - subject: "<fill>"
+      predicate: "<officer_of|linked_to|address_match|intermediary_for>"
+      object: "<fill>"
+notes:
+  - Published relationships act as partial ground truth for linking and graph navigation.

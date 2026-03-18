@@ -1,0 +1,28 @@
+id: followup-gold-template
+status: template
+title: Manual gold-set follow-up suggestion template
+task_type: next_step_suggestion
+answer_mode: rubric
+source_family: journalist_style_case
+source_tier: manual_annotation
+target_entity: "<fill case bundle>"
+sources:
+  - label: Gold annotation packet
+    url: https://example.org/manual-gold-set-placeholder
+    checked_on: 2026-03-18
+    provenance: manual_annotation_packet
+evidence_bundle:
+  kind: bounded_investigative_bundle
+  required_artifacts:
+    - case_brief
+    - source_pack
+    - annotation_notes
+expected_output:
+  fields_required:
+    - lead_statement
+    - supporting_datapoints
+    - missing_evidence
+    - next_record_request
+rubric: ../../../rubrics/followup-suggestion-quality.md
+notes:
+  - This case type exists for tasks that do not have one exact machine-readable answer.

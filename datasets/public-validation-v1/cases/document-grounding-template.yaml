@@ -1,0 +1,31 @@
+id: document-grounding-template
+status: template
+title: Metadata-backed document grounding template
+task_type: citation_grounding
+answer_mode: mixed
+source_family: public_documents_with_metadata
+source_tier: primary
+target_entity: "<fill document or dossier>"
+sources:
+  - label: DocumentCloud public documents
+    url: https://www.documentcloud.org/
+    checked_on: 2026-03-18
+    provenance: public_document_collection
+evidence_bundle:
+  kind: document_plus_metadata
+  required_artifacts:
+    - source_document
+    - attached_metadata
+expected_output:
+  fields_required:
+    - cited_claim
+    - citation_location
+    - source_url
+answer_key:
+  type: metadata_backed
+  required_matches:
+    - metadata_to_document_consistency
+    - claim_to_passage_consistency
+rubric: ../../../rubrics/citation-grounding.md
+notes:
+  - Use source-file content together with metadata to test citation grounding and restraint.

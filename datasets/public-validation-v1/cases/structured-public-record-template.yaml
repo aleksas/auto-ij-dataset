@@ -1,0 +1,35 @@
+id: structured-public-record-template
+status: template
+title: Structured public-record extraction template
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "<fill target record or contracting authority>"
+sources:
+  - label: TED procurement portal
+    url: https://ted.europa.eu/
+    checked_on: 2026-03-18
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: "<fill>"
+    supplier_name: "<fill>"
+    award_date: "<YYYY-MM-DD>"
+    amount: "<numeric>"
+    category_code: "<fill>"
+notes:
+  - Official fields act as the answer key for extraction and normalization.

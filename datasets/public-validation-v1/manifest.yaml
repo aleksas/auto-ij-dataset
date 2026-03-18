@@ -1,0 +1,83 @@
+suite_id: public-validation-v1
+version: 0.1.0
+status: bootstrap
+objective: >
+  Build a first public validation suite for investigative-journalism workflow
+  automation using source-grounded cases, explicit answer-key modes, and small
+  manual gold annotations.
+origin_notes:
+  - ../../../local-agent/docs/ideas/public-validation-and-gold-set-methodology.md
+  - ../../../local-agent/docs/ideas/journalistic-training-test-suite.md
+  - ../../../local-agent/docs/ideas/autonomous-investigation-loop.md
+  - ../../../local-agent/grants/notes/nlnet-validation-methodology-2026-03-18.md
+  - ../../../local-agent/grants/notes/draft-ngi-workplan-attachment.md
+  - ../../../investigative-journalism-ai-stack/README.md
+source_mix:
+  - structured_public_records
+  - public_entity_link_datasets
+  - public_documents_with_metadata
+  - manual_gold_annotations
+target_counts:
+  documents: "50-100"
+  entity_link_cases: "100-300"
+  structured_records: "100-300"
+  manual_gold_cases: "20-40"
+autonomous_loop:
+  duration_days: 7
+  run_budget:
+    runs_per_day: 8
+    max_total_runs: 56
+    max_case_edits_per_run: 4
+    max_new_cases_per_run: 3
+  batch_size:
+    min_cases: 2
+    max_cases: 4
+  mutable_paths:
+    - datasets/public-validation-v1/cases
+    - datasets/public-validation-v1/manifest.yaml
+    - rubrics
+    - docs
+  frozen_paths:
+    - src/auto_dataset/validation.py
+    - src/auto_dataset/cli.py
+    - tests/test_validation.py
+  priorities:
+    - source_family: structured_public_records
+      goal: Grow exact-answer extraction cases from official fields before harder gold annotations.
+    - source_family: public_entity_link_datasets
+      goal: Expand published-relationship cases that test linking and weak-clue graph navigation.
+    - source_family: public_documents_with_metadata
+      goal: Add citation-grounding cases only when a source file and metadata packet both exist.
+    - source_family: manual_gold_annotations
+      goal: Spend the smallest amount of human annotation budget on overclaim control and next-step quality.
+  daily_loop:
+    - Read README.md, program.md, docs/foundations.md, and this manifest before changing anything.
+    - Pick one source family and ship one bounded batch of 2-4 cases.
+    - Run auto-dataset validate datasets/public-validation-v1/manifest.yaml after each batch.
+    - Run auto-dataset summary datasets/public-validation-v1/manifest.yaml and compare coverage gaps before keeping the batch.
+    - Append one row to results/runs.tsv for every kept or rejected batch.
+  keep_if:
+    - The batch adds a new public source family slice or materially improves provenance completeness.
+    - The batch turns a vague idea into replayable exact, rubric, or mixed cases with the right answer-key discipline.
+    - The batch improves follow-up quality or overclaim-control coverage without loosening citation rules.
+  discard_if:
+    - The batch adds cases without a source trail or preserved local record.
+    - The batch weakens the distinction between exact, rubric, and mixed scoring.
+    - The batch mostly rewrites framework code instead of improving the dataset itself.
+  logging:
+    results_path: ../../results/runs.tsv
+    required_columns:
+      - run_id
+      - timestamp
+      - manifest
+      - cases_total
+      - validation_status
+      - change_kind
+      - source_family
+      - kept
+      - description
+case_files:
+  - cases/structured-public-record-template.yaml
+  - cases/entity-link-template.yaml
+  - cases/document-grounding-template.yaml
+  - cases/followup-gold-template.yaml
