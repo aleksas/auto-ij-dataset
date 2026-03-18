@@ -103,3 +103,21 @@ Use `auto-dataset brief <manifest>` before leaving an agent alone. The brief is 
 The manifest is the source of truth for those details. `program.md` explains the operating principles, while the brief renders the current concrete budget and log contract.
 
 That keeps the dataset-building loop reviewable in the Karpathy sense: small mutable surface, fixed harness, hard budget, durable logs.
+
+## Intermediate Publishing
+
+The simplest publishing path is to build intermediate exports under ignored `artifacts/` and publish those snapshots to a public Hugging Face dataset repo.
+
+```bash
+export HF_TOKEN=...
+auto-dataset export datasets/public-validation-v1/manifest.yaml
+auto-dataset publish datasets/public-validation-v1/manifest.yaml --repo-name auto-ij-dataset
+```
+
+`auto-dataset publish` does three things:
+
+- builds a fresh snapshot under `artifacts/hf-staging/<suite_id>/`
+- publishes that snapshot to Hugging Face
+- commits and pushes this git repo if tracked files changed
+
+If you want a fixed destination, pass `--repo-id <namespace>/<name>`. If you omit it, the command resolves the namespace from the Hugging Face token and uses `auto-ij-dataset` as the dataset repo name.

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import sys
+import tempfile
 import unittest
 from contextlib import redirect_stdout
 from io import StringIO
@@ -14,6 +15,7 @@ if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
 from auto_dataset.cli import main as cli_main  # noqa: E402
+from auto_dataset.publishing import build_intermediate_snapshot  # noqa: E402
 from auto_dataset.validation import REQUIRED_RUN_LOG_COLUMNS, load_suite, summarize_cases  # noqa: E402
 
 
@@ -55,6 +57,21 @@ class ValidationTests(unittest.TestCase):
         self.assertIn("7 days", brief)
         self.assertIn("2-4 cases per run", brief)
         self.assertIn("results/runs.tsv", brief)
+
+    def test_export_builds_intermediate_snapshot(self) -> None:
+        manifest_path = PROJECT_ROOT / "datasets" / "public-validation-v1" / "manifest.yaml"
+        manifest, cases = load_suite(manifest_path)
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            snapshot_dir = build_intermediate_snapshot(manifest_path, manifest, cases, Path(tmpdir))
+
+            self.assertTrue((snapshot_dir / "README.md").exists())
+            self.assertTrue((snapshot_dir / "summary.json").exists())
+            self.assertTrue((snapshot_dir / "brief.txt").exists())
+            self.assertTrue(
+                (snapshot_dir / "datasets" / "cases" / "structured-public-record-template.yaml").exists()
+            )
+            self.assertTrue((snapshot_dir / "rubrics" / "citation-grounding.md").exists())
 
 
 if __name__ == "__main__":

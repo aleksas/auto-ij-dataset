@@ -36,7 +36,8 @@ The agent should spend most of its time here:
 4. Run `auto-dataset validate <manifest>`.
 5. Run `auto-dataset summary <manifest>`.
 6. Append a structured line to `results/runs.tsv`.
-7. Keep the change only if it improves source-grounded coverage, answer-key quality, or rubric clarity.
+7. Every few accepted batches, run `auto-dataset publish <manifest>` to export the current suite into ignored `artifacts/`, publish it to Hugging Face, and commit/push repo changes if any.
+8. Keep the change only if it improves source-grounded coverage, answer-key quality, or rubric clarity.
 
 ## Keep criteria
 
