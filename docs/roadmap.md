@@ -27,3 +27,6 @@
 - publish the public suite under an open license
 - harden the autonomous loop and publishing workflow
 - document how other investigative projects can contribute cases without breaking provenance requirements
+- evaluate whether the first stable public release should be accompanied by an academic dataset paper
+
+See also [`ideas.md`](ideas.md) for follow-on directions that are not yet part of the core roadmap.
