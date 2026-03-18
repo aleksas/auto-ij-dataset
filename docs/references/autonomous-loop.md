@@ -1,6 +1,6 @@
 # Autonomous Loop
 
-This note copies the useful part of the local `autoresearch` interpretation and narrows it to dataset building.
+This note captures the useful autonomous-loop constraint and narrows it to dataset building.
 
 ## Transferable idea
 
@@ -74,7 +74,6 @@ This is the operational model for the project:
 - logged runs
 - keep only the changes that improve dataset quality
 
-## Source references
+## Design inspiration
 
-- `../../local-agent/docs/ideas/autonomous-investigation-loop.md`
 - `https://github.com/karpathy/autoresearch`

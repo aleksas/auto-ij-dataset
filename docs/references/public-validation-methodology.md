@@ -1,6 +1,6 @@
 # Public Validation Methodology
 
-This note copies the parts of the existing repo and grant notes that directly matter for `auto-dataset`.
+This note summarizes the validation methodology that `auto-dataset` uses.
 
 ## Purpose
 
@@ -31,14 +31,14 @@ Use a mixed public suite rather than a single generic benchmark:
 
 ## Candidate public source families
 
-The recurring source families named in the existing notes are:
+Useful source families include:
 
 - procurement notices and related structured fields from official procurement portals such as TED
 - public investigative document collections such as DocumentCloud public documents
 - public entity-link datasets such as Offshore Leaks
-- Lithuania-specific official open-data slices for local workflow validation
+- regional or country-specific official open-data slices for local workflow validation
 
-The goal is not classroom-style benchmark trivia. The goal is to test the actual workflow layers the broader investigative stack claims to support.
+The goal is not benchmark trivia. The goal is to test the workflow layers that an investigative assistant actually claims to support.
 
 ## Ground-truth construction
 
@@ -54,7 +54,7 @@ Typical fields:
 - amount
 - category or code
 
-This supports extraction, normalization, and retrieval-validation tasks.
+This supports extraction, normalization, and retrieval checks.
 
 ### 2. Known relationship answer keys
 
@@ -124,9 +124,3 @@ This is the core design contract for the project:
 - answer-key mode must be explicit per case
 - provenance is mandatory, not optional
 - the project should generate eval-ready datasets rather than only harvest raw files
-
-## Source references
-
-- `../../local-agent/docs/ideas/public-validation-and-gold-set-methodology.md`
-- `../../local-agent/grants/notes/nlnet-validation-methodology-2026-03-18.md`
-- `../../local-agent/grants/notes/draft-ngi-workplan-attachment.md`

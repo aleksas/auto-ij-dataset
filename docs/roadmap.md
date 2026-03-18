@@ -18,12 +18,12 @@
 
 ## Phase 3: Integration
 
-- export cases into the sibling retrieval stack for retrieval-validation runs
+- export cases into retrieval and evaluation stacks for benchmark runs
 - export rubric-ready prompts for agent evaluation
 - add result artifacts comparable across models and workflow versions
 
 ## Phase 4: Release path
 
-- split this directory into its own repository
 - publish the public suite under an open license
+- harden the autonomous loop and publishing workflow
 - document how other investigative projects can contribute cases without breaking provenance requirements

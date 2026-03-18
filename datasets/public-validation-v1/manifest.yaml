@@ -6,12 +6,11 @@ objective: >
   automation using source-grounded cases, explicit answer-key modes, and small
   manual gold annotations.
 origin_notes:
-  - ../../../local-agent/docs/ideas/public-validation-and-gold-set-methodology.md
-  - ../../../local-agent/docs/ideas/journalistic-training-test-suite.md
-  - ../../../local-agent/docs/ideas/autonomous-investigation-loop.md
-  - ../../../local-agent/grants/notes/nlnet-validation-methodology-2026-03-18.md
-  - ../../../local-agent/grants/notes/draft-ngi-workplan-attachment.md
-  - ../../../investigative-journalism-ai-stack/README.md
+  - ../../docs/foundations.md
+  - ../../docs/references/public-validation-methodology.md
+  - ../../docs/references/journalistic-training-suite.md
+  - ../../docs/references/autonomous-loop.md
+  - ../../docs/references/system-boundaries.md
 source_mix:
   - structured_public_records
   - public_entity_link_datasets

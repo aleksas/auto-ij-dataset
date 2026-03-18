@@ -1,46 +1,37 @@
 # Foundations
 
-This subproject is grounded in five source strands.
+This project is grounded in four design strands.
 
-For portability, local copies and adaptations of the most relevant source notes now live in [`references/README.md`](references/README.md).
+The supporting notes live in [`references/README.md`](references/README.md).
 
-## 1. Current repo validation notes
+## 1. Public validation methodology
 
-The clearest local process note is [`../../local-agent/docs/ideas/public-validation-and-gold-set-methodology.md`](../../local-agent/docs/ideas/public-validation-and-gold-set-methodology.md).
-
-It defines four answer-key families:
+[`references/public-validation-methodology.md`](references/public-validation-methodology.md) defines the core answer-key families:
 
 - structured-record answer keys
 - known-relationship answer keys
 - metadata-backed document answer keys
 - manual gold annotations
 
-The related note [`../../local-agent/docs/ideas/journalistic-training-test-suite.md`](../../local-agent/docs/ideas/journalistic-training-test-suite.md) adds the case-based investigative angle:
+## 2. Journalistic case design
+
+[`references/journalistic-training-suite.md`](references/journalistic-training-suite.md) adds the case-based investigative angle:
 
 - suspicious-pattern detection
 - restraint against overclaiming
 - provenance discipline
 - next-step usefulness
 
-## 2. Grants notes
-
-The same validation story is restated in:
-
-- [`../../local-agent/grants/notes/nlnet-validation-methodology-2026-03-18.md`](../../local-agent/grants/notes/nlnet-validation-methodology-2026-03-18.md)
-- [`../../local-agent/grants/notes/draft-ngi-workplan-attachment.md`](../../local-agent/grants/notes/draft-ngi-workplan-attachment.md)
-
-These notes are useful because they turn the idea into milestone language:
+The important operating implications are:
 
 - public source families first
 - partial ground truth where possible
 - small manual gold set where exact keys do not exist
 - explicit degradation testing between stronger online models and weaker local ones
 
-## 3. Autonomous loop idea
+## 3. Autonomous loop discipline
 
-[`../../local-agent/docs/ideas/autonomous-investigation-loop.md`](../../local-agent/docs/ideas/autonomous-investigation-loop.md) is the right local interpretation of `autoresearch`.
-
-The important transfer is:
+[`references/autonomous-loop.md`](references/autonomous-loop.md) captures the useful autonomous-loop constraint:
 
 - small mutable surface
 - fixed harness
@@ -50,27 +41,14 @@ The important transfer is:
 
 For `auto-dataset`, that means the agent should mostly mutate cases, manifests, and rubrics, not invent new orchestration layers on every pass.
 
-## 4. Separate eval packaging
+## 4. Boundaries and integration
 
-`poemswe/co-researcher` is relevant less for its academic domain and more for its evaluation packaging:
+[`references/system-boundaries.md`](references/system-boundaries.md) defines what this project should and should not own.
 
-- a separate `evals/` tree
-- explicit test cases
-- explicit rubrics
-- a runner
-- durable benchmark artifacts
+The main boundary is:
 
-This project uses the same separation idea, but for investigative-public-record workflows.
-
-## 5. Sibling retrieval stack
-
-The grants notes describe a sibling repo as the retrieval and indexing substrate. In this workspace that is most likely [`../../investigative-journalism-ai-stack/README.md`](../../investigative-journalism-ai-stack/README.md).
-
-Relevant observations:
-
-- the sibling stack already handles ingestion, indexing, and retrieval validation
-- this repo already handles source-tier rules, evidence chains, and investigative workflow discipline
-- `auto-dataset` should bridge them by producing evaluation-ready cases, answer keys, and gold annotations
+- this project defines cases, answer keys, rubrics, provenance, and exports
+- other systems may consume those artifacts for retrieval, generation, or evaluation
 
 ## Working scope
 

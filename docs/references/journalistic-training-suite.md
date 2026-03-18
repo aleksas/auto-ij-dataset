@@ -1,6 +1,6 @@
 # Journalistic Training Suite
 
-This note copies the parts of the training-suite idea that directly guide `auto-dataset`.
+This note captures the journalistic case-design principles that directly guide `auto-dataset`.
 
 ## Core goal
 
@@ -90,7 +90,3 @@ Start small:
 - the scoring dimensions are explicit
 - restraint is tested, not assumed
 - follow-up quality is judged as part of system performance
-
-## Source references
-
-- `../../local-agent/docs/ideas/journalistic-training-test-suite.md`

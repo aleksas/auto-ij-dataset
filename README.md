@@ -1,6 +1,6 @@
 # auto-dataset
 
-`auto-dataset` is a separate project incubated inside this repository. It is meant to move out into its own repository later.
+`auto-dataset` builds source-grounded validation datasets for investigative journalism and public-record research systems.
 
 Its job is narrow:
 
@@ -8,29 +8,23 @@ Its job is narrow:
 - turn public records into repeatable cases, answer keys, and rubrics
 - give LLM agents a constrained loop for improving dataset coverage without loosening evidentiary discipline
 
-This project sits between two existing layers:
-
-- the current repository's investigative workflow, source-tier, and evidence rules
-- the sibling retrieval stack in [`../investigative-journalism-ai-stack`](../investigative-journalism-ai-stack/README.md)
-
-It does not replace either one. It produces the cases, manifests, and gold annotations needed to evaluate them.
-
 ## Why this exists
 
-The strongest local note for this direction is [`../local-agent/docs/ideas/public-validation-and-gold-set-methodology.md`](../local-agent/docs/ideas/public-validation-and-gold-set-methodology.md). That note already defines the process for building a validation dataset:
+Investigative workflows need more than raw corpora or prompt benchmarks. They need:
+
+- task definitions
+- explicit answer keys or rubrics
+- preserved source provenance
+- scoring that treats unsupported or overclaimed outputs as failures
+
+This project starts from four practical case families:
 
 - use structured public records where official fields are answer keys
 - use public entity-link datasets where published links are partial ground truth
 - use document collections with metadata for conversion and citation-grounding checks
 - add a small manual gold set for journalist-style tasks such as follow-up quality and overclaim control
 
-That same framing is repeated in:
-
-- [`../local-agent/docs/ideas/journalistic-training-test-suite.md`](../local-agent/docs/ideas/journalistic-training-test-suite.md)
-- [`../local-agent/grants/notes/nlnet-validation-methodology-2026-03-18.md`](../local-agent/grants/notes/nlnet-validation-methodology-2026-03-18.md)
-- [`../local-agent/grants/notes/draft-ngi-workplan-attachment.md`](../local-agent/grants/notes/draft-ngi-workplan-attachment.md)
-
-Local reference copies for this new project live in [`docs/references/README.md`](docs/references/README.md).
+Supporting design notes live in [`docs/references/README.md`](docs/references/README.md).
 
 ## External design inspiration
 
@@ -65,7 +59,7 @@ auto-dataset/
 3. Every case stays attached to a public source URL or a preserved local file.
 4. Exact-answer tasks and rubric-scored tasks are separated explicitly.
 5. Unsupported or overclaimed outputs count as failures.
-6. The suite should be able to feed both this repo's workflows and the sibling retrieval stack's retrieval-validation layer.
+6. The suite should be exportable into other evaluation or retrieval systems without changing its evidence contract.
 
 ## Bootstrap workflow
 
@@ -81,7 +75,7 @@ auto-dataset brief datasets/public-validation-v1/manifest.yaml
 
 ## Initial suite shape
 
-The bootstrap suite mirrors the current repo's own validation notes:
+The bootstrap suite mirrors the project's core methodology:
 
 - structured public-record extraction
 - entity-link recovery
