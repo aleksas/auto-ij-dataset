@@ -1,1 +1,2 @@
 run_id	timestamp	manifest	cases_total	validation_status	change_kind	source_family	kept	description
+run-001	2026-03-18T21:38:52+00:00	datasets/public-validation-v1/manifest.yaml	5	ok	worker_batch	autonomous_loop	true	accepted autonomous batch; 2 mutable file(s) changed

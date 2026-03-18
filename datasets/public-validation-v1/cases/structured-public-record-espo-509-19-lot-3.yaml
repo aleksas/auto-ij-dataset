@@ -1,0 +1,40 @@
+id: structured-public-record-espo-509-19-lot-3
+status: draft
+title: ESPO parking management solutions lot 3 contractor extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 205756-2019, lot 3 (Cashless Parking Solutions)"
+sources:
+  - label: TED notice PDF 205756-2019
+    url: https://ted.europa.eu/en/notice/205756-2019/pdfs
+    checked_on: 2026-03-18
+    provenance: official_portal
+  - label: TED notice HTML 205756-2019
+    url: https://ted.europa.eu/udl?uri=TED:NOTICE:205756-2019:TEXT:EN:HTML
+    checked_on: 2026-03-18
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: ESPO
+    supplier_name: APCOA Parking (UK) Ltd
+    award_date: "2019-04-04"
+    amount: 20000000.00
+    category_code: "34926000"
+notes:
+  - Buyer name, main CPV code, lot title, contractor name, contract date, and lot value are extractable from the TED award notice.
+  - This case expects the supplier for lot 3 specifically, not one of the contractors listed for other awarded lots in the same notice.

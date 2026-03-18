@@ -81,3 +81,4 @@ case_files:
   - cases/entity-link-template.yaml
   - cases/document-grounding-template.yaml
   - cases/followup-gold-template.yaml
+  - cases/structured-public-record-espo-509-19-lot-3.yaml
