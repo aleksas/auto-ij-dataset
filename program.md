@@ -10,6 +10,8 @@ The system should improve case coverage, answer keys, and rubrics without weaken
 
 The exact run budget, source-family priority order, and run-log schema live in the target suite manifest. Treat the manifest as the source of truth, and use `auto-dataset brief <manifest>` to render the current operating contract before each unattended run.
 
+The preferred unattended entrypoint is `auto-dataset run <manifest> --worker-cmd '...'`. The runner drives one worker cycle at a time, validates the suite, appends the run log, and performs git/Hugging Face sync on publish cadence.
+
 ## Fixed surfaces
 
 Treat these as the evaluation harness and change them only with strong reason:

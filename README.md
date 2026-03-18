@@ -104,6 +104,34 @@ The manifest is the source of truth for those details. `program.md` explains the
 
 That keeps the dataset-building loop reviewable in the Karpathy sense: small mutable surface, fixed harness, hard budget, durable logs.
 
+## Autonomous Runner
+
+`auto-dataset run` is the one-command orchestration entrypoint for unattended work. It does not bundle a model runtime; instead it drives an external worker command in a loop, validates after each cycle, appends to `results/runs.tsv`, and on publish cadence it commits and pushes git changes and publishes an intermediate Hugging Face snapshot.
+
+```bash
+export HF_TOKEN=...
+auto-dataset run datasets/public-validation-v1/manifest.yaml \
+  --worker-cmd 'your-agent-command' \
+  --repo-id aleksasp/auto-ij-dataset
+```
+
+The worker command is executed by `/bin/bash -lc`, receives the runner prompt on stdin, and also gets:
+
+- `AUTO_DATASET_REPO_ROOT`
+- `AUTO_DATASET_MANIFEST`
+- `AUTO_DATASET_RUN_PROMPT_FILE`
+
+If you want to drive it from Docker, the simplest shape is:
+
+```bash
+docker run --rm -it \
+  -e HF_TOKEN="$HF_TOKEN" \
+  -v "$PWD":/app \
+  -w /app \
+  python:3.12-slim \
+  bash -lc "apt-get update && apt-get install -y git && python -m pip install -e . && python -m auto_dataset.cli run datasets/public-validation-v1/manifest.yaml --worker-cmd 'your-agent-command' --repo-id aleksasp/auto-ij-dataset"
+```
+
 ## Intermediate Publishing
 
 The simplest publishing path is to build intermediate exports under ignored `artifacts/` and publish those snapshots to a public Hugging Face dataset repo.

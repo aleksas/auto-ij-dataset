@@ -16,6 +16,7 @@ from auto_dataset.publishing import (
     resolve_hf_repo_id,
     resolve_hf_token,
 )
+from auto_dataset.runner import DEFAULT_PUBLISH_EVERY, RunnerError, run_autonomous_loop
 from auto_dataset.validation import ValidationError, load_suite, render_agent_brief, summarize_cases
 
 
@@ -54,6 +55,23 @@ def _build_parser() -> argparse.ArgumentParser:
     publish_parser.add_argument("--git-commit-message")
     publish_parser.add_argument("--hf-commit-message")
 
+    run_parser = subparsers.add_parser(
+        "run",
+        help="Run an autonomous loop around an external worker command.",
+    )
+    run_parser.add_argument("manifest", type=Path)
+    run_parser.add_argument("--worker-cmd", required=True, help="Shell command for the worker; prompt is sent on stdin.")
+    run_parser.add_argument("--max-runs", type=int)
+    run_parser.add_argument("--publish-every", type=int, default=DEFAULT_PUBLISH_EVERY)
+    run_parser.add_argument("--skip-publish", action="store_true")
+    run_parser.add_argument("--output-root", type=Path, default=DEFAULT_STAGING_ROOT)
+    run_parser.add_argument("--hf-token")
+    run_parser.add_argument("--repo-id")
+    run_parser.add_argument("--repo-name", default="auto-ij-dataset")
+    run_parser.add_argument("--private", action="store_true")
+    run_parser.add_argument("--worker-timeout-seconds", type=int)
+    run_parser.add_argument("--sleep-seconds", type=float, default=0.0)
+
     return parser
 
 
@@ -63,7 +81,7 @@ def main() -> int:
 
     try:
         manifest, cases = load_suite(args.manifest)
-    except (PublishError, ValidationError) as exc:
+    except (PublishError, RunnerError, ValidationError) as exc:
         print(f"validation failed: {exc}", file=sys.stderr)
         return 1
 
@@ -119,6 +137,24 @@ def main() -> int:
                 indent=2,
             )
         )
+        return 0
+
+    if args.command == "run":
+        result = run_autonomous_loop(
+            args.manifest,
+            worker_command=args.worker_cmd,
+            max_runs=args.max_runs,
+            publish_every=args.publish_every,
+            publish_enabled=not args.skip_publish,
+            output_root=args.output_root,
+            hf_token=args.hf_token,
+            hf_repo_id=args.repo_id,
+            hf_repo_name=args.repo_name,
+            hf_public=not args.private,
+            worker_timeout_seconds=args.worker_timeout_seconds,
+            sleep_seconds=args.sleep_seconds,
+        )
+        print(json.dumps(result, indent=2))
         return 0
 
     parser.error(f"unknown command {args.command}")

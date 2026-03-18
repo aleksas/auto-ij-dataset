@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import shutil
 import sys
 import tempfile
 import unittest
@@ -16,6 +17,7 @@ if str(SRC_ROOT) not in sys.path:
 
 from auto_dataset.cli import main as cli_main  # noqa: E402
 from auto_dataset.publishing import build_intermediate_snapshot  # noqa: E402
+from auto_dataset.runner import run_autonomous_loop  # noqa: E402
 from auto_dataset.validation import REQUIRED_RUN_LOG_COLUMNS, load_suite, summarize_cases  # noqa: E402
 
 
@@ -72,6 +74,36 @@ class ValidationTests(unittest.TestCase):
                 (snapshot_dir / "datasets" / "cases" / "structured-public-record-template.yaml").exists()
             )
             self.assertTrue((snapshot_dir / "rubrics" / "citation-grounding.md").exists())
+
+    def test_run_executes_worker_cycle_and_logs_result(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            project_copy = Path(tmpdir) / "project"
+            shutil.copytree(
+                PROJECT_ROOT,
+                project_copy,
+                ignore=shutil.ignore_patterns(".git", ".venv", "__pycache__", "*.pyc", "artifacts"),
+            )
+            manifest_path = project_copy / "datasets" / "public-validation-v1" / "manifest.yaml"
+            worker_command = (
+                f"{sys.executable} -c "
+                "\"from pathlib import Path; "
+                "path = Path('docs/roadmap.md'); "
+                "path.write_text(path.read_text(encoding='utf-8') + '\\n# runner test\\n', encoding='utf-8')\""
+            )
+
+            result = run_autonomous_loop(
+                manifest_path,
+                worker_command=worker_command,
+                max_runs=1,
+                publish_enabled=False,
+                output_root=project_copy / "artifacts" / "hf-staging",
+            )
+
+            self.assertEqual(result["accepted_runs"], 1)
+            self.assertEqual(result["published_runs"], 0)
+            runs_lines = (project_copy / "results" / "runs.tsv").read_text(encoding="utf-8").strip().splitlines()
+            self.assertEqual(len(runs_lines), 2)
+            self.assertIn("accepted autonomous batch", runs_lines[1])
 
 
 if __name__ == "__main__":
