@@ -17,8 +17,8 @@ if str(SRC_ROOT) not in sys.path:
 
 from auto_dataset.cli import main as cli_main  # noqa: E402
 from auto_dataset.publishing import build_intermediate_snapshot  # noqa: E402
-from auto_dataset.runner import run_autonomous_loop  # noqa: E402
-from auto_dataset.validation import REQUIRED_RUN_LOG_COLUMNS, load_suite, summarize_cases  # noqa: E402
+from auto_dataset.runner import RunnerError, run_autonomous_loop  # noqa: E402
+from auto_dataset.validation import REQUIRED_RUN_LOG_COLUMNS, ValidationError, load_suite, summarize_cases  # noqa: E402
 
 
 class ValidationTests(unittest.TestCase):
@@ -75,6 +75,25 @@ class ValidationTests(unittest.TestCase):
             )
             self.assertTrue((snapshot_dir / "rubrics" / "citation-grounding.md").exists())
 
+    def test_load_suite_rejects_orphan_case_file(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            project_copy = Path(tmpdir) / "project"
+            shutil.copytree(
+                PROJECT_ROOT,
+                project_copy,
+                ignore=shutil.ignore_patterns(".git", ".venv", "__pycache__", "*.pyc", "artifacts"),
+            )
+            manifest_path = project_copy / "datasets" / "public-validation-v1" / "manifest.yaml"
+            orphan_case_path = project_copy / "datasets" / "public-validation-v1" / "cases" / "orphan.yaml"
+            template_path = project_copy / "datasets" / "public-validation-v1" / "cases" / "structured-public-record-template.yaml"
+            orphan_case_path.write_text(template_path.read_text(encoding="utf-8"), encoding="utf-8")
+
+            with self.assertRaises(ValidationError) as exc:
+                load_suite(manifest_path)
+
+            self.assertIn("case_files is missing declared entries", str(exc.exception))
+            self.assertIn("cases/orphan.yaml", str(exc.exception))
+
     def test_run_executes_worker_cycle_and_logs_result(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:
             project_copy = Path(tmpdir) / "project"
@@ -104,6 +123,37 @@ class ValidationTests(unittest.TestCase):
             runs_lines = (project_copy / "results" / "runs.tsv").read_text(encoding="utf-8").strip().splitlines()
             self.assertEqual(len(runs_lines), 2)
             self.assertIn("accepted autonomous batch", runs_lines[1])
+
+    def test_run_rejects_orphan_case_file_batch(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            project_copy = Path(tmpdir) / "project"
+            shutil.copytree(
+                PROJECT_ROOT,
+                project_copy,
+                ignore=shutil.ignore_patterns(".git", ".venv", "__pycache__", "*.pyc", "artifacts"),
+            )
+            manifest_path = project_copy / "datasets" / "public-validation-v1" / "manifest.yaml"
+            worker_command = (
+                f"{sys.executable} -c "
+                "\"from pathlib import Path; "
+                "src = Path('datasets/public-validation-v1/cases/structured-public-record-template.yaml'); "
+                "dst = Path('datasets/public-validation-v1/cases/orphan.yaml'); "
+                "dst.write_text(src.read_text(encoding='utf-8'), encoding='utf-8')\""
+            )
+
+            with self.assertRaises(RunnerError) as exc:
+                run_autonomous_loop(
+                    manifest_path,
+                    worker_command=worker_command,
+                    max_runs=1,
+                    publish_enabled=False,
+                    output_root=project_copy / "artifacts" / "hf-staging",
+                )
+
+            self.assertIn("case_files is missing declared entries", str(exc.exception))
+            runs_lines = (project_copy / "results" / "runs.tsv").read_text(encoding="utf-8").strip().splitlines()
+            self.assertEqual(len(runs_lines), 2)
+            self.assertIn("\tfailed\t", runs_lines[1])
 
 
 if __name__ == "__main__":

@@ -277,6 +277,18 @@ def load_suite(manifest_path: Path) -> tuple[dict[str, Any], list[dict[str, Any]
 
     base_dir = manifest_path.parent
     _validate_results_log(manifest, manifest_path)
+    declared_case_paths = {str((base_dir / relative_case_path).resolve()) for relative_case_path in case_files}
+    cases_dir = base_dir / "cases"
+    if cases_dir.exists():
+        orphan_case_paths = sorted(
+            str(path.relative_to(base_dir))
+            for path in cases_dir.rglob("*.yaml")
+            if str(path.resolve()) not in declared_case_paths
+        )
+        if orphan_case_paths:
+            raise ValidationError(
+                f"{manifest_path}: case_files is missing declared entries for {', '.join(orphan_case_paths)}"
+            )
     cases: list[dict[str, Any]] = []
     seen_ids: set[str] = set()
 
