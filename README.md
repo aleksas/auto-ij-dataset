@@ -119,12 +119,15 @@ If you want to drive it from Docker, the simplest shape is:
 
 ```bash
 docker run --rm -it \
+  --user "$(id -u):$(id -g)" \
   -e HF_TOKEN="$HF_TOKEN" \
   -v "$PWD":/app \
   -w /app \
   python:3.12-slim \
   bash -lc "apt-get update && apt-get install -y git && python -m pip install -e . && python -m auto_dataset.cli run datasets/public-validation-v1/manifest.yaml --worker-cmd 'your-agent-command' --repo-id aleksasp/auto-ij-dataset"
 ```
+
+Using `--user "$(id -u):$(id -g)"` keeps `artifacts/` writable on the host after Docker-based runs and publishes.
 
 ## Intermediate Publishing
 

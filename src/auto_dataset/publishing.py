@@ -134,6 +134,22 @@ def _build_dataset_card(
 ) -> str:
     objective = " ".join(str(manifest["objective"]).split())
     source_commit_text = source_commit or "uncommitted"
+    card_header = [
+        "---",
+        f"pretty_name: {manifest['suite_id']}",
+        "language:",
+        "  - en",
+        "task_categories:",
+        "  - question-answering",
+        "size_categories:",
+        "  - n<1K",
+        "tags:",
+        "  - investigative-journalism",
+        "  - evaluation",
+        "  - public-records",
+        "---",
+        "",
+    ]
     lines = [
         f"# {manifest['suite_id']}",
         "",
@@ -160,7 +176,7 @@ def _build_dataset_card(
         "",
         "This dataset repo is an intermediate publishing target for in-progress suite building.",
     ]
-    return "\n".join(lines) + "\n"
+    return "\n".join([*card_header, *lines]) + "\n"
 
 
 def build_intermediate_snapshot(

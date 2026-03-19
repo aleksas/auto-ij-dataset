@@ -27,7 +27,7 @@ class ValidationTests(unittest.TestCase):
         manifest, cases = load_suite(manifest_path)
 
         self.assertEqual(manifest["suite_id"], "public-validation-v1")
-        self.assertEqual(len(cases), 4)
+        self.assertEqual(len(cases), 5)
         self.assertEqual(manifest["autonomous_loop"]["duration_days"], 7)
         self.assertEqual(
             tuple(manifest["autonomous_loop"]["logging"]["required_columns"]),
@@ -39,11 +39,12 @@ class ValidationTests(unittest.TestCase):
         _, cases = load_suite(manifest_path)
         summary = summarize_cases(cases)
 
-        self.assertEqual(summary["cases_total"], 4)
-        self.assertEqual(summary["by_answer_mode"]["exact"], 2)
+        self.assertEqual(summary["cases_total"], 5)
+        self.assertEqual(summary["by_answer_mode"]["exact"], 3)
         self.assertEqual(summary["by_answer_mode"]["mixed"], 1)
         self.assertEqual(summary["by_answer_mode"]["rubric"], 1)
         self.assertEqual(summary["by_source_family"]["journalist_style_case"], 1)
+        self.assertEqual(summary["by_source_family"]["official_procurement"], 2)
 
     def test_brief_command_renders_autonomous_loop(self) -> None:
         manifest_path = PROJECT_ROOT / "datasets" / "public-validation-v1" / "manifest.yaml"
@@ -73,7 +74,14 @@ class ValidationTests(unittest.TestCase):
             self.assertTrue(
                 (snapshot_dir / "datasets" / "cases" / "structured-public-record-template.yaml").exists()
             )
+            self.assertTrue(
+                (snapshot_dir / "datasets" / "cases" / "structured-public-record-espo-509-19-lot-3.yaml").exists()
+            )
             self.assertTrue((snapshot_dir / "rubrics" / "citation-grounding.md").exists())
+            readme = (snapshot_dir / "README.md").read_text(encoding="utf-8")
+            self.assertTrue(readme.startswith("---\n"))
+            self.assertIn("task_categories:", readme)
+            self.assertIn("# public-validation-v1", readme)
 
     def test_load_suite_rejects_orphan_case_file(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:
@@ -120,9 +128,10 @@ class ValidationTests(unittest.TestCase):
 
             self.assertEqual(result["accepted_runs"], 1)
             self.assertEqual(result["published_runs"], 0)
+            initial_runs = (PROJECT_ROOT / "results" / "runs.tsv").read_text(encoding="utf-8").strip().splitlines()
             runs_lines = (project_copy / "results" / "runs.tsv").read_text(encoding="utf-8").strip().splitlines()
-            self.assertEqual(len(runs_lines), 2)
-            self.assertIn("accepted autonomous batch", runs_lines[1])
+            self.assertEqual(len(runs_lines), len(initial_runs) + 1)
+            self.assertIn("accepted autonomous batch", runs_lines[-1])
 
     def test_run_rejects_orphan_case_file_batch(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:
@@ -151,9 +160,10 @@ class ValidationTests(unittest.TestCase):
                 )
 
             self.assertIn("case_files is missing declared entries", str(exc.exception))
+            initial_runs = (PROJECT_ROOT / "results" / "runs.tsv").read_text(encoding="utf-8").strip().splitlines()
             runs_lines = (project_copy / "results" / "runs.tsv").read_text(encoding="utf-8").strip().splitlines()
-            self.assertEqual(len(runs_lines), 2)
-            self.assertIn("\tfailed\t", runs_lines[1])
+            self.assertEqual(len(runs_lines), len(initial_runs) + 1)
+            self.assertIn("\tfailed\t", runs_lines[-1])
 
 
 if __name__ == "__main__":
