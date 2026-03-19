@@ -129,6 +129,23 @@ docker run --rm -it \
 
 Using `--user "$(id -u):$(id -g)"` keeps `artifacts/` writable on the host after Docker-based runs and publishes.
 
+For a repeatable headless setup, use the included container files instead of a long shell command:
+
+```bash
+export HF_TOKEN=...
+export OPENAI_API_KEY=...
+export AUTO_DATASET_UID=$(id -u)
+export AUTO_DATASET_GID=$(id -g)
+docker compose up --build auto-dataset-runner
+```
+
+The compose service runs headless for `3600` seconds by default, uses `50` max runs, and gives Codex full execution permissions inside the container via `codex exec --dangerously-bypass-approvals-and-sandbox`. To detach it, use:
+
+```bash
+docker compose up -d --build auto-dataset-runner
+docker compose logs -f auto-dataset-runner
+```
+
 ## Intermediate Publishing
 
 The simplest publishing path is to build intermediate exports under ignored `artifacts/` and publish those snapshots to a public Hugging Face dataset repo.
