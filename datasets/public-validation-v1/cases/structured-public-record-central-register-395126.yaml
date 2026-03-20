@@ -1,0 +1,40 @@
+id: structured-public-record-central-register-395126
+status: draft
+title: Central Register Microsoft licenses contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 395126-2020"
+sources:
+  - label: TED notice PDF 395126-2020
+    url: https://ted.europa.eu/en/notice/395126-2020/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice detail 395126-2020
+    url: https://ted.europa.eu/en/notice/-/detail/395126-2020
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: Central Register of Republic of North Macedonia
+    supplier_name: Telelink MK DOO Skopje
+    award_date: "2020-08-07"
+    amount: 20432210.00
+    category_code: "48000000"
+notes:
+  - This single-winner software procurement separates the notice-level estimated value from the awarded contract value in Macedonian denars.
+  - The answer key uses the authority name from section I, the main CPV code from II.1.2, the contractor from V.2.3, and the awarded amount from V.2.4.

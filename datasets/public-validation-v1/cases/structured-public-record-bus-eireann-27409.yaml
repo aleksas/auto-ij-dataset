@@ -1,0 +1,40 @@
+id: structured-public-record-bus-eireann-27409
+status: draft
+title: Bus Eireann tyres supply and maintenance contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 27409-2021"
+sources:
+  - label: TED notice PDF 27409-2021
+    url: https://ted.europa.eu/en/notice/27409-2021/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice detail 27409-2021
+    url: https://ted.europa.eu/en/notice/-/detail/27409-2021
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: Bus Eireann/Irish Bus
+    supplier_name: Bridgestone Ireland Ltd
+    award_date: "2020-09-22"
+    amount: 13250000.00
+    category_code: "34352200"
+notes:
+  - The award pairs a supplies CPV for bus tyres with a contract title that also mentions maintenance, so extraction should stay anchored to the official main CPV field.
+  - The notice-level total procurement value in section II matches the awarded contract value in section V, which makes this a clean exact-answer baseline.

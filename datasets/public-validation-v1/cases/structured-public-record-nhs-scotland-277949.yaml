@@ -1,0 +1,40 @@
+id: structured-public-record-nhs-scotland-277949
+status: draft
+title: NHS National Services Scotland hand sanitiser contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 277949-2020"
+sources:
+  - label: TED notice PDF 277949-2020
+    url: https://ted.europa.eu/en/notice/277949-2020/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice detail 277949-2020
+    url: https://ted.europa.eu/en/notice/-/detail/277949-2020
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: "The Common Services Agency (more commonly known as NHS National Services Scotland)"
+    supplier_name: Trichem Scotland
+    award_date: "2020-05-14"
+    amount: 235690.00
+    category_code: "33741300"
+notes:
+  - This emergency COVID-19 negotiated procurement received one tender and has no lots, which keeps the contractor field unambiguous.
+  - The answer key uses the V.2.4 awarded value rather than relying on the short-description bottle count.
