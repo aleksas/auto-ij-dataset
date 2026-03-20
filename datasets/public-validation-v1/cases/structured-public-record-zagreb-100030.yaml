@@ -1,0 +1,44 @@
+id: structured-public-record-zagreb-100030
+status: draft
+title: Zagreb office cleaning contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 100030-2021"
+sources:
+  - label: TED notice XML 100030-2021
+    url: https://ted.europa.eu/en/notice/100030-2021/xml
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice PDF 100030-2021 (HR)
+    url: https://ted.europa.eu/hr/notice/100030-2021/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice detail 100030-2021
+    url: https://ted.europa.eu/en/notice/-/detail/100030-2021
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: Grad Zagreb
+    supplier_name: Samsic d.o.o.
+    award_date: "2021-02-16"
+    amount: 2770250.00
+    category_code: "90910000"
+notes:
+  - This Croatian notice expands the suite into a new country slice while keeping the same exact field-extraction contract structure.
+  - The XML exposes both an estimated value and the awarded total; the answer key uses the signed contract value rather than the estimate.

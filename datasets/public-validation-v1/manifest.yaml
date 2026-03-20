@@ -112,3 +112,6 @@ case_files:
   - cases/structured-public-record-gddkia-100001.yaml
   - cases/structured-public-record-lyon-100004.yaml
   - cases/structured-public-record-ancona-100008.yaml
+  - cases/structured-public-record-val-de-fensch-100011.yaml
+  - cases/structured-public-record-msz-100022.yaml
+  - cases/structured-public-record-zagreb-100030.yaml

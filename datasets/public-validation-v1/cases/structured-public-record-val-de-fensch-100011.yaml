@@ -1,0 +1,44 @@
+id: structured-public-record-val-de-fensch-100011
+status: draft
+title: Val de Fensch DSI advisory contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 100011-2021"
+sources:
+  - label: TED notice XML 100011-2021
+    url: https://ted.europa.eu/en/notice/100011-2021/xml
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice PDF 100011-2021 (FR)
+    url: https://ted.europa.eu/fr/notice/100011-2021/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice detail 100011-2021
+    url: https://ted.europa.eu/en/notice/-/detail/100011-2021
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: Communauté d'agglomération du Val de Fensch
+    supplier_name: VICQ Consultants SAS
+    award_date: "2020-11-05"
+    amount: 90000.00
+    category_code: "72220000"
+notes:
+  - The award and notice-level totals match, so this notice is a clean single-award baseline for extracting buyer, supplier, date, value, and CPV.
+  - The buyer name includes an apostrophe and French diacritics, so normalization should preserve the official spelling from the XML record.
