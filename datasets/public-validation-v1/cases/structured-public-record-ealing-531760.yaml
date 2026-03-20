@@ -1,0 +1,40 @@
+id: structured-public-record-ealing-531760
+status: draft
+title: Ealing High Lane Estate regeneration contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 531760-2019"
+sources:
+  - label: TED notice PDF 531760-2019
+    url: https://ted.europa.eu/en/notice/531760-2019/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice HTML 531760-2019
+    url: https://ted.europa.eu/udl?uri=TED:NOTICE:531760-2019:TEXT:EN:HTML
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: London Borough of Ealing
+    supplier_name: Rydon Group Ltd
+    award_date: "2019-10-08"
+    amount: 99000000.00
+    category_code: "45000000"
+notes:
+  - This works award extends the procurement slice beyond supplies and services while keeping a single contractor and a no-lot notice.
+  - The buyer, main CPV code, contractor, contract date, and awarded value are all explicit in the signed TED PDF.

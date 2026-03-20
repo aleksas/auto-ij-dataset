@@ -1,0 +1,40 @@
+id: structured-public-record-bank-of-england-9040
+status: draft
+title: Bank of England catering services contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 9040-2020"
+sources:
+  - label: TED notice PDF 9040-2020
+    url: https://ted.europa.eu/en/notice/9040-2020/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice HTML 9040-2020
+    url: https://ted.europa.eu/udl?uri=TED:NOTICE:9040-2020:TEXT:EN:HTML
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: Bank of England
+    supplier_name: Elior UK
+    award_date: "2019-12-17"
+    amount: 7500000.00
+    category_code: "55500000"
+notes:
+  - This no-lot award notice is a compact single-supplier UK services case with matching notice-level and award-level values.
+  - The answer key comes from the contracting authority, main CPV code, contract conclusion date, contractor, and total contract value fields in the TED notice.

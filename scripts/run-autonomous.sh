@@ -33,8 +33,10 @@ mkdir -p artifacts
 git -C /app config user.name "${AUTO_DATASET_GIT_USER_NAME}"
 git -C /app config user.email "${AUTO_DATASET_GIT_USER_EMAIL}"
 if [[ -n "${AUTO_DATASET_GITHUB_TOKEN}" ]]; then
-  github_auth="$(printf 'x-access-token:%s' "${AUTO_DATASET_GITHUB_TOKEN}" | base64 | tr -d '\n')"
-  git -C /app config http.https://github.com/.extraheader "AUTHORIZATION: basic ${github_auth}"
+  origin_url="$(git -C /app remote get-url origin 2>/dev/null || true)"
+  if [[ "${origin_url}" == https://github.com/* ]]; then
+    git -C /app remote set-url origin "https://x-access-token:${AUTO_DATASET_GITHUB_TOKEN}@${origin_url#https://}"
+  fi
 fi
 
 worker_cmd="codex exec --dangerously-bypass-approvals-and-sandbox -C /app -m ${AUTO_DATASET_CODEX_MODEL}"

@@ -97,3 +97,6 @@ case_files:
   - cases/structured-public-record-coventry-3037.yaml
   - cases/structured-public-record-cumbria-356021.yaml
   - cases/structured-public-record-siva-355878.yaml
+  - cases/structured-public-record-bank-of-england-9040.yaml
+  - cases/structured-public-record-ealing-531760.yaml
+  - cases/structured-public-record-rikiskaup-545849.yaml

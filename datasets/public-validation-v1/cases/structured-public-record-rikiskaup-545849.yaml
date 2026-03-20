@@ -1,0 +1,40 @@
+id: structured-public-record-rikiskaup-545849
+status: draft
+title: Rikiskaup tipper truck contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 545849-2019"
+sources:
+  - label: TED notice PDF 545849-2019
+    url: https://ted.europa.eu/en/notice/545849-2019/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice HTML 545849-2019
+    url: https://ted.europa.eu/udl?uri=TED:NOTICE:545849-2019:TEXT:EN:HTML
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: Ríkiskaup
+    supplier_name: Klettur-sala og þjónusta
+    award_date: "2019-05-29"
+    amount: 23970000.00
+    category_code: "34134200"
+notes:
+  - This Icelandic supplies case is useful because the notice-level total in section II differs by a factor of ten from the awarded contract total in section V.
+  - The answer key intentionally uses the V.2.4 awarded value together with the authority, main CPV code, contractor name, and contract date.
