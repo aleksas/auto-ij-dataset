@@ -1,0 +1,40 @@
+id: structured-public-record-coventry-3037
+status: draft
+title: Coventry timber street furniture framework extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 3037-2020"
+sources:
+  - label: TED notice PDF 3037-2020
+    url: https://ted.europa.eu/en/notice/3037-2020/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice HTML 3037-2020
+    url: https://ted.europa.eu/udl?uri=TED:NOTICE:3037-2020:TEXT:EN:HTML
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: Coventry City Council
+    supplier_name: Creactive Design (Engineering) Ltd
+    award_date: "2019-12-06"
+    amount: 700000.00
+    category_code: "34928400"
+notes:
+  - This is a simple no-lot award notice with one named contractor and one total contract value.
+  - The case checks extraction from a procurement where the framework title differs from the CPV description and the answer should stay anchored to the official fields.

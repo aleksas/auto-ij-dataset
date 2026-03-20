@@ -94,3 +94,6 @@ case_files:
   - cases/structured-public-record-dhsc-428580.yaml
   - cases/structured-public-record-ec-cloud-2020-9906.yaml
   - cases/structured-public-record-nhsbt-470502.yaml
+  - cases/structured-public-record-coventry-3037.yaml
+  - cases/structured-public-record-cumbria-356021.yaml
+  - cases/structured-public-record-siva-355878.yaml

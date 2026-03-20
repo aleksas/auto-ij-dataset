@@ -9,6 +9,7 @@ services:
       HOME: /tmp/codex-home
       HF_TOKEN: "${HF_TOKEN}"
       OPENAI_API_KEY: "${OPENAI_API_KEY:-}"
+      AUTO_DATASET_GITHUB_TOKEN: "${AUTO_DATASET_GITHUB_TOKEN:-}"
       AUTO_DATASET_MANIFEST: "${AUTO_DATASET_MANIFEST:-datasets/public-validation-v1/manifest.yaml}"
       AUTO_DATASET_MAX_RUNS: "${AUTO_DATASET_MAX_RUNS:-1}"
       AUTO_DATASET_RUN_SECONDS: "${AUTO_DATASET_RUN_SECONDS:-3600}"

@@ -8,6 +8,7 @@ set -euo pipefail
 : "${AUTO_DATASET_WORKER_TIMEOUT_SECONDS:=900}"
 : "${AUTO_DATASET_SLEEP_SECONDS:=10}"
 : "${AUTO_DATASET_REPO_ID:=aleksasp/auto-ij-dataset}"
+: "${AUTO_DATASET_GITHUB_TOKEN:=}"
 : "${AUTO_DATASET_GIT_USER_NAME:=Aleksas Pielikis}"
 : "${AUTO_DATASET_GIT_USER_EMAIL:=ant.kampo@gmail.com}"
 : "${AUTO_DATASET_CODEX_MODEL:=gpt-5.4}"
@@ -29,9 +30,12 @@ fi
 cd /app
 mkdir -p artifacts
 
-git config --global --add safe.directory /app >/dev/null 2>&1 || true
 git -C /app config user.name "${AUTO_DATASET_GIT_USER_NAME}"
 git -C /app config user.email "${AUTO_DATASET_GIT_USER_EMAIL}"
+if [[ -n "${AUTO_DATASET_GITHUB_TOKEN}" ]]; then
+  github_auth="$(printf 'x-access-token:%s' "${AUTO_DATASET_GITHUB_TOKEN}" | base64 | tr -d '\n')"
+  git -C /app config http.https://github.com/.extraheader "AUTHORIZATION: basic ${github_auth}"
+fi
 
 worker_cmd="codex exec --dangerously-bypass-approvals-and-sandbox -C /app -m ${AUTO_DATASET_CODEX_MODEL}"
 if codex exec --help 2>/dev/null | grep -q -- "--reasoning-effort"; then

@@ -1,0 +1,40 @@
+id: structured-public-record-cumbria-356021
+status: draft
+title: Cumbria 65+ physical disability services extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 356021-2020"
+sources:
+  - label: TED notice PDF 356021-2020
+    url: https://ted.europa.eu/en/notice/356021-2020/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice HTML 356021-2020
+    url: https://ted.europa.eu/udl?uri=TED:NOTICE:356021-2020:TEXT:EN:HTML
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: Cumbria County Council
+    supplier_name: Combe Domiciliary Care Ltd
+    award_date: "2020-07-24"
+    amount: 1082.83
+    category_code: "85300000"
+notes:
+  - This no-lot award notice has a very small contract value, which makes it useful for testing amount normalization on non-rounded figures.
+  - The answer key is taken from the main CPV code, contractor section, date of conclusion, and total value fields in the award notice.

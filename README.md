@@ -148,6 +148,7 @@ docker compose logs -f auto-dataset-runner
 
 By default, the compose runner uses `gpt-5.4` with `--reasoning-effort medium`. Override them with `AUTO_DATASET_CODEX_MODEL` and `AUTO_DATASET_CODEX_REASONING_EFFORT` if needed.
 It also configures git author identity from `AUTO_DATASET_GIT_USER_NAME` and `AUTO_DATASET_GIT_USER_EMAIL` before publishing.
+For HTTPS pushes to GitHub from inside the container, set `AUTO_DATASET_GITHUB_TOKEN`.
 
 ## Intermediate Publishing
 

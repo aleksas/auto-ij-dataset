@@ -1,0 +1,40 @@
+id: structured-public-record-siva-355878
+status: draft
+title: SIVA mobile telephony services extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 355878-2020"
+sources:
+  - label: TED notice PDF 355878-2020
+    url: https://ted.europa.eu/en/notice/355878-2020/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice HTML 355878-2020
+    url: https://ted.europa.eu/udl?uri=TED:NOTICE:355878-2020:TEXT:EN:HTML
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: "SIVA — Selskapet for industrivekst SF"
+    supplier_name: Telenor Norge AS (hovedenhet)
+    award_date: "2020-06-16"
+    amount: 4000000.00
+    category_code: "64212000"
+notes:
+  - This no-lot Norwegian TED award case extends the exact extraction slice beyond UK and EU institution buyers while keeping the same official notice structure.
+  - The case checks whether extraction preserves the contractor name punctuation and returns the notice-level main CPV code rather than a paraphrase of the service title.
