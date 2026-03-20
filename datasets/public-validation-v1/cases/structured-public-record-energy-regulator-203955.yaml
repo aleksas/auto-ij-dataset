@@ -1,0 +1,44 @@
+id: structured-public-record-energy-regulator-203955
+status: draft
+title: Lithuania energy regulator data analysis system services contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 203955-2023, contract F5-28/23"
+sources:
+  - label: TED notice XML 203955-2023
+    url: https://ted.europa.eu/en/notice/203955-2023/xml
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice PDF 203955-2023
+    url: https://ted.europa.eu/en/notice/203955-2023/pdf
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice detail 203955-2023
+    url: https://ted.europa.eu/en/notice/-/detail/203955-2023
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: Valstybinė energetikos reguliavimo taryba
+    supplier_name: 'UAB "ATEA"'
+    award_date: "2023-03-21"
+    amount: 200000.00
+    category_code: "72250000"
+notes:
+  - The multilingual title block contains a typo variant of the system name, so the answer key should come from the XML award fields instead of title text alone.
+  - This is a compact Lithuania single-award case where the buyer, contractor, contract date, total value, and main CPV all appear in one structured award block.

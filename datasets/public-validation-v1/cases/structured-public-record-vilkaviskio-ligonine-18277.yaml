@@ -1,0 +1,44 @@
+id: structured-public-record-vilkaviskio-ligonine-18277
+status: draft
+title: Vilkaviškio hospital CT tube contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 018277-2022, contract B7-360"
+sources:
+  - label: TED notice XML 018277-2022
+    url: https://ted.europa.eu/en/notice/018277-2022/xml
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice PDF 018277-2022
+    url: https://ted.europa.eu/en/notice/018277-2022/pdf
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice detail 018277-2022
+    url: https://ted.europa.eu/en/notice/-/detail/018277-2022
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: Viešoji įstaiga Vilkaviškio ligoninė
+    supplier_name: 'UAB "Graina"'
+    award_date: "2021-12-31"
+    amount: 74300.00
+    category_code: "33100000"
+notes:
+  - This Lithuania hospital award is a no-lot single-supplier notice with a single contract value, which keeps the extraction target tight.
+  - The contract title is specific to a CT scanner tube, but the official main CPV remains the broader 33100000 medical equipment code, so the case checks whether extraction prefers recorded fields over narrative specificity.

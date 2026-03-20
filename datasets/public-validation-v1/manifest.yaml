@@ -118,3 +118,6 @@ case_files:
   - cases/structured-public-record-sligo-county-119076.yaml
   - cases/structured-public-record-dfe-322329.yaml
   - cases/structured-public-record-home-office-409374-lot-3.yaml
+  - cases/structured-public-record-social-ministry-207356.yaml
+  - cases/structured-public-record-energy-regulator-203955.yaml
+  - cases/structured-public-record-vilkaviskio-ligonine-18277.yaml

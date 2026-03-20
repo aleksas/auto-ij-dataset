@@ -1,0 +1,44 @@
+id: structured-public-record-social-ministry-207356
+status: draft
+title: Lithuania social ministry EPLSAFIS modernization contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 207356-2023, contract D4-63"
+sources:
+  - label: TED notice XML 207356-2023
+    url: https://ted.europa.eu/en/notice/207356-2023/xml
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice PDF 207356-2023
+    url: https://ted.europa.eu/en/notice/207356-2023/pdf
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice detail 207356-2023
+    url: https://ted.europa.eu/en/notice/-/detail/207356-2023
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: Lietuvos Respublikos socialinės apsaugos ir darbo ministerija
+    supplier_name: 'UAB ,,NNovian Systems"'
+    award_date: "2023-03-30"
+    amount: 139692.00
+    category_code: "72262000"
+notes:
+  - This Lithuania-specific XML-backed award notice is a no-lot single-award case with one contractor and one total value.
+  - The supplier legal name includes Lithuanian-style punctuation, so extraction should preserve the awarded-contractor field rather than normalizing it away from the official record.
