@@ -1,0 +1,44 @@
+id: structured-public-record-wreczyca-540831
+status: draft
+title: Wręczyca Wielka municipal waste collection sector III contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 540831-2023, contract SZ.271.9.2023"
+sources:
+  - label: TED notice XML 540831-2023
+    url: https://ted.europa.eu/en/notice/540831-2023/xml
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice PDF 540831-2023 (PL)
+    url: https://ted.europa.eu/pl/notice/540831-2023/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice detail 540831-2023
+    url: https://ted.europa.eu/en/notice/-/detail/540831-2023
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: Gmina Wręczyca Wielka
+    supplier_name: EKO SYSTEM BIS SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWA
+    award_date: "2023-08-02"
+    amount: 1187500.00
+    category_code: "90500000"
+notes:
+  - The XML leaves both the object title and the award title blank, so extraction has to rely on the contracting-body, CPV, and awarded-contract fields instead of title text.
+  - The awarded amount is published as a whole-number value in the XML, which makes this a useful numeric-normalization case without weakening the official supplier spelling.

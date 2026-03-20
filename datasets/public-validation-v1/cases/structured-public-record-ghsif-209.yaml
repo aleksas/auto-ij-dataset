@@ -1,0 +1,44 @@
+id: structured-public-record-ghsif-209
+status: draft
+title: South Ile-de-France hospital fire-prevention works contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 000209-2024"
+sources:
+  - label: TED notice XML 000209-2024
+    url: https://ted.europa.eu/en/notice/000209-2024/xml
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice PDF 000209-2024 (FR)
+    url: https://ted.europa.eu/fr/notice/000209-2024/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice detail 000209-2024
+    url: https://ted.europa.eu/en/notice/-/detail/000209-2024
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: gpe hospitalier du sud ile de france
+    supplier_name: a.I.Tec
+    award_date: "2023-12-26"
+    amount: 139175.64
+    category_code: "45343000"
+notes:
+  - The award block provides the contractor, date, and value but leaves the award title blank, so the CPV must come from the object-contract section.
+  - The official buyer name is lowercase in the XML and the supplier name includes punctuation, which makes normalization mistakes easy to detect.

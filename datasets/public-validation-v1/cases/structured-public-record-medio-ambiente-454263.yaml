@@ -1,0 +1,44 @@
+id: structured-public-record-medio-ambiente-454263
+status: draft
+title: Spanish Environment Secretariat river Pas hydromorphology study contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 454263-2023, contract 49"
+sources:
+  - label: TED notice XML 454263-2023
+    url: https://ted.europa.eu/en/notice/454263-2023/xml
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice PDF 454263-2023 (ES)
+    url: https://ted.europa.eu/es/notice/454263-2023/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice detail 454263-2023
+    url: https://ted.europa.eu/en/notice/-/detail/454263-2023
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: Secretaría de Estado de Medio Ambiente
+    supplier_name: WSP SPAIN-APIA S.A.U.
+    award_date: "2023-07-20"
+    amount: 367658.08
+    category_code: "71242000"
+notes:
+  - The title is a long river-restoration description, but the exact answer key should return the structured main CPV code 71242000 from the official notice fields.
+  - This single-award case keeps the source-language buyer name and the contractor's legal-style capitalization from the XML award block.
