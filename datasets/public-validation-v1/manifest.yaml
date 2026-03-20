@@ -106,3 +106,6 @@ case_files:
   - cases/structured-public-record-central-register-395126.yaml
   - cases/structured-public-record-bus-eireann-27409.yaml
   - cases/structured-public-record-nhs-scotland-277949.yaml
+  - cases/structured-public-record-dugny-100000.yaml
+  - cases/structured-public-record-ceska-televize-100002.yaml
+  - cases/structured-public-record-adra-100005.yaml

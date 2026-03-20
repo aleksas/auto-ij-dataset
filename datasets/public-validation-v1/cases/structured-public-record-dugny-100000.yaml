@@ -1,0 +1,44 @@
+id: structured-public-record-dugny-100000
+status: draft
+title: Dugny statutory benefits insurance contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 100000-2021"
+sources:
+  - label: TED notice XML 100000-2021
+    url: https://ted.europa.eu/en/notice/100000-2021/xml
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice PDF 100000-2021 (FR)
+    url: https://ted.europa.eu/fr/notice/100000-2021/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice detail 100000-2021
+    url: https://ted.europa.eu/en/notice/-/detail/100000-2021
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: Ville de Dugny
+    supplier_name: Gras Savoye
+    award_date: "2020-12-28"
+    amount: 1110844.80
+    category_code: "66512000"
+notes:
+  - The source notice is filed in French, but the XML exposes the official buyer, winner, contract date, value, and main CPV as structured fields.
+  - This is a single-award notice, so the award-block value matches the notice-level procurement total.

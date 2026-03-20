@@ -1,0 +1,44 @@
+id: structured-public-record-ceska-televize-100002
+status: draft
+title: Ceska televize Ostrava cleaning services contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 100002-2021"
+sources:
+  - label: TED notice XML 100002-2021
+    url: https://ted.europa.eu/en/notice/100002-2021/xml
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice PDF 100002-2021 (CS)
+    url: https://ted.europa.eu/cs/notice/100002-2021/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice detail 100002-2021
+    url: https://ted.europa.eu/en/notice/-/detail/100002-2021
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: Česká televize
+    supplier_name: Simacek HS, spol. s.r.o.
+    award_date: "2021-02-11"
+    amount: 7565764.50
+    category_code: "90910000"
+notes:
+  - The official buyer name includes Czech diacritics in the XML, so extraction should preserve the recorded spelling instead of anglicizing it.
+  - The notice has one awarded contract, which makes the supplier and awarded value a clean exact-answer baseline.

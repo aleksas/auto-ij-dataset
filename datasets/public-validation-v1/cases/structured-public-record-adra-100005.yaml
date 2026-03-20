@@ -1,0 +1,44 @@
+id: structured-public-record-adra-100005
+status: draft
+title: AdRA Mouquim wastewater works supervision contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 100005-2021"
+sources:
+  - label: TED notice XML 100005-2021
+    url: https://ted.europa.eu/en/notice/100005-2021/xml
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice PDF 100005-2021 (PT)
+    url: https://ted.europa.eu/pt/notice/100005-2021/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice detail 100005-2021
+    url: https://ted.europa.eu/en/notice/-/detail/100005-2021
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: Águas da Região de Aveiro (AdRA), S. A.
+    supplier_name: Engenharia, Fiscalização e Serviços (EFS), Lda.
+    award_date: "2021-01-25"
+    amount: 55880.00
+    category_code: "71540000"
+notes:
+  - The official record is in Portuguese and the contract title describes works supervision, so extraction should keep the supplier separate from the project description.
+  - The XML-backed award block exposes the exact contract date and awarded amount without requiring arithmetic across multiple lots.
