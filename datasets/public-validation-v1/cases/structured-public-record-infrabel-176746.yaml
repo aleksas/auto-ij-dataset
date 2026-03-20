@@ -1,0 +1,44 @@
+id: structured-public-record-infrabel-176746
+status: draft
+title: Infrabel Area North-East railway works framework extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 176746-2021, reference I-I.NO-5752219024-F06_0"
+sources:
+  - label: TED notice XML 176746-2021
+    url: https://ted.europa.eu/en/notice/176746-2021/xml
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice PDF 176746-2021
+    url: https://ted.europa.eu/en/notice/176746-2021/pdf
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice detail 176746-2021
+    url: https://ted.europa.eu/en/notice/-/detail/176746-2021
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: Infrabel - Directie Asset Management - Area North-East
+    supplier_name: Vanormelingen-Stas
+    award_date: "2021-03-31"
+    amount: 5944010.55
+    category_code: "45234100"
+notes:
+  - This Belgium utilities notice adds a new country slice while keeping the standard TED XML, PDF, and detail provenance pattern.
+  - The title and description are in Dutch, but the exact answer key stays on the published buyer, contractor, award date, total value, and main CPV fields.

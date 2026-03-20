@@ -1,0 +1,44 @@
+id: structured-public-record-etf-265872
+status: draft
+title: European Training Foundation creative design services extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 265872-2024, reference ETF/2023/OP/0011"
+sources:
+  - label: TED notice XML 265872-2024
+    url: https://ted.europa.eu/en/notice/265872-2024/xml
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice PDF 265872-2024
+    url: https://ted.europa.eu/en/notice/265872-2024/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice detail 265872-2024
+    url: https://ted.europa.eu/en/notice/-/detail/265872-2024
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: European Training Foundation (ETF), ETF.PR.PUB - Policy and Public Outreach Department
+    supplier_name: Bording Danmark A/S
+    award_date: "2024-04-16"
+    amount: 750000.00
+    category_code: "79822500"
+notes:
+  - The XML repeats contracting-body and contractor blocks across language variants, so the answer key fixes the English buyer name and the shared numeric award fields.
+  - This single-award EU-agency services notice broadens the procurement mix beyond the current local-authority and ministry-heavy slice.

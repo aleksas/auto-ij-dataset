@@ -1,0 +1,44 @@
+id: structured-public-record-dunea-334859
+status: draft
+title: Dunea Zonnepanelen 2.0 works contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 334859-2021, contract 2020-050"
+sources:
+  - label: TED notice XML 334859-2021
+    url: https://ted.europa.eu/en/notice/334859-2021/xml
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice PDF 334859-2021
+    url: https://ted.europa.eu/en/notice/334859-2021/pdf
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice detail 334859-2021
+    url: https://ted.europa.eu/en/notice/-/detail/334859-2021
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: Dunea nv
+    supplier_name: Hoppenbrouwers Techniek bv
+    award_date: "2021-06-16"
+    amount: 2932690.87
+    category_code: "45000000"
+notes:
+  - This Netherlands case adds a new country slice and keeps the answer key on the main TED fields even though the notice also publishes an additional CPV for solar panels.
+  - The object reference, contract number, and Dutch title differ from one another, which makes identifier drift and over-specific CPV extraction easy failure modes.

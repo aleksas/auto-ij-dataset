@@ -136,3 +136,6 @@ case_files:
   - cases/structured-public-record-stockholms-lans-100066.yaml
   - cases/structured-public-record-sidec-100084.yaml
   - cases/structured-public-record-wien-ma19-100109.yaml
+  - cases/structured-public-record-infrabel-176746.yaml
+  - cases/structured-public-record-dunea-334859.yaml
+  - cases/structured-public-record-etf-265872.yaml
