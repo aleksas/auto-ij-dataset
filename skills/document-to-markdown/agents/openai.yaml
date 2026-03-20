@@ -1,0 +1,4 @@
+interface:
+  display_name: "Document to Markdown"
+  short_description: "Convert local docs to Markdown refs"
+  default_prompt: "Use $document-to-markdown to convert these source files into Markdown reference docs for this project."

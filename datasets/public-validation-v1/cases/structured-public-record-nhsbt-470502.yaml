@@ -1,0 +1,40 @@
+id: structured-public-record-nhsbt-470502
+status: draft
+title: NHS Blood and Transplant stem cell storage bags extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 470502-2020"
+sources:
+  - label: TED notice PDF 470502-2020
+    url: https://ted.europa.eu/en/notice/470502-2020/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice HTML 470502-2020
+    url: https://ted.europa.eu/udl?uri=TED:NOTICE:470502-2020:TEXT:EN:HTML
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: NHS Blood and Transplant
+    supplier_name: Miltenyi Biotec
+    award_date: "2020-10-01"
+    amount: 1228712.00
+    category_code: "34221000"
+notes:
+  - The title and narrative concern stem cell cryogenic storage bags, but the notice's main CPV code is the official answer key field expected here.
+  - This case checks extraction from a no-lot award notice where the award value equals the procurement total.

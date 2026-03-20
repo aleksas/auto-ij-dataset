@@ -15,6 +15,7 @@ source_mix:
   - structured_public_records
   - public_entity_link_datasets
   - public_documents_with_metadata
+  - cross_country_leak_reporting
   - manual_gold_annotations
 target_counts:
   documents: "50-100"
@@ -47,11 +48,14 @@ autonomous_loop:
       goal: Expand published-relationship cases that test linking and weak-clue graph navigation.
     - source_family: public_documents_with_metadata
       goal: Add citation-grounding cases only when a source file and metadata packet both exist.
+    - source_family: cross_country_leak_reporting
+      goal: Harvest country-specific leak reporting from reputable outlets, preserve local reference copies with source URL and collection timestamp, and collect academic analysis when it materially strengthens grounded comparison or outcome-tracking cases.
     - source_family: manual_gold_annotations
       goal: Spend the smallest amount of human annotation budget on overclaim control and next-step quality.
   daily_loop:
     - Read README.md, program.md, docs/foundations.md, and this manifest before changing anything.
     - Pick one source family and ship one bounded batch of 2-4 cases.
+    - When working from leak-related reporting, preserve markdownified outlet or academic references under ignored local storage and mark every preserved reference with its source URL and collection timestamp.
     - Run auto-dataset validate datasets/public-validation-v1/manifest.yaml after each batch.
     - Run auto-dataset summary datasets/public-validation-v1/manifest.yaml and compare coverage gaps before keeping the batch.
     - Append one row to results/runs.tsv for every kept or rejected batch.
@@ -60,10 +64,12 @@ autonomous_loop:
     - The batch adds a new public source family slice or materially improves provenance completeness.
     - The batch turns a vague idea into replayable exact, rubric, or mixed cases with the right answer-key discipline.
     - The batch improves follow-up quality or overclaim-control coverage without loosening citation rules.
+    - The batch captures a country-specific leak angle or downstream outcome trail, including successful, unsuccessful, inconclusive, or unclear results only when source-supported.
   discard_if:
     - The batch adds cases without a source trail or preserved local record.
     - The batch weakens the distinction between exact, rubric, and mixed scoring.
     - The batch mostly rewrites framework code instead of improving the dataset itself.
+    - The batch relies on article summaries without preserving source URLs, collection timestamps, or linked official or academic context when those are available.
   logging:
     results_path: ../../results/runs.tsv
     required_columns:
@@ -82,3 +88,9 @@ case_files:
   - cases/document-grounding-template.yaml
   - cases/followup-gold-template.yaml
   - cases/structured-public-record-espo-509-19-lot-3.yaml
+  - cases/structured-public-record-reykjavik-14387.yaml
+  - cases/structured-public-record-coventry-6650.yaml
+  - cases/structured-public-record-southampton-16-prof-07-lot-2.yaml
+  - cases/structured-public-record-dhsc-428580.yaml
+  - cases/structured-public-record-ec-cloud-2020-9906.yaml
+  - cases/structured-public-record-nhsbt-470502.yaml

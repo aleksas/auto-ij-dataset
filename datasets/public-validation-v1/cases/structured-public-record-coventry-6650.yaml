@@ -1,0 +1,40 @@
+id: structured-public-record-coventry-6650
+status: draft
+title: Coventry bin lifts contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 17149-2020, contract reference 6650"
+sources:
+  - label: TED notice PDF 17149-2020
+    url: https://ted.europa.eu/en/notice/17149-2020/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice HTML 17149-2020
+    url: https://ted.europa.eu/udl?uri=TED:NOTICE:17149-2020:TEXT:EN:HTML
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: Coventry City Council
+    supplier_name: Vehicle Weighing Solutions Ltd
+    award_date: "2019-11-06"
+    amount: 125000.00
+    category_code: "31610000"
+notes:
+  - The notice clarifies that the procurement was awarded under contract reference 6650 even though section II lists reference 5542.
+  - This case tests extraction from a no-lot contract award with a single named contractor and a lower awarded value than the initial estimate.

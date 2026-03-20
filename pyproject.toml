@@ -10,6 +10,7 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
   "huggingface_hub>=0.30.0",
+  "markitdown[docx,outlook,pdf,pptx,xls,xlsx]>=0.1.5",
   "PyYAML>=6.0",
 ]
 

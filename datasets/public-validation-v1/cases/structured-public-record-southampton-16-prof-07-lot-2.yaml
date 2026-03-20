@@ -1,0 +1,40 @@
+id: structured-public-record-southampton-16-prof-07-lot-2
+status: draft
+title: Southampton electrical maintenance lot 2 contractor extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 438853-2017, lot 2 (Academic Sites)"
+sources:
+  - label: TED notice PDF 438853-2017
+    url: https://ted.europa.eu/en/notice/438853-2017/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice HTML 438853-2017
+    url: http://ted.europa.eu/udl?uri=TED:NOTICE:438853-2017:TEXT:EN:HTML
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: University of Southampton
+    supplier_name: CEI Electrical Ltd
+    award_date: "2017-09-08"
+    amount: 2400000.00
+    category_code: "45310000"
+notes:
+  - This is a lot-specific extraction case: the contract has two lots, and the answer key is for lot 2 only.
+  - The lot 2 CPV code differs from the notice-level main CPV code, so the case checks whether extraction stays anchored to the requested lot.

@@ -1,0 +1,40 @@
+id: structured-public-record-dhsc-428580
+status: draft
+title: DHSC hand sanitiser contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 428580-2020"
+sources:
+  - label: TED notice PDF 428580-2020
+    url: https://ted.europa.eu/en/notice/428580-2020/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice HTML 428580-2020
+    url: https://ted.europa.eu/udl?uri=TED:NOTICE:428580-2020:TEXT:EN:HTML
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: Department of Health and Social Care
+    supplier_name: Meller Designs Ltd
+    award_date: "2020-06-13"
+    amount: 2610000.00
+    category_code: "33741300"
+notes:
+  - This is a single-award no-lot TED notice with the supplier, contract date, and total awarded value repeated in both the object and award sections.
+  - The case checks whether extraction normalizes the CPV code and date while preserving the named contractor exactly.

@@ -139,12 +139,15 @@ export AUTO_DATASET_GID=$(id -g)
 docker compose up --build auto-dataset-runner
 ```
 
-The compose service runs headless for `3600` seconds by default, uses `50` max runs, and gives Codex full execution permissions inside the container via `codex exec --dangerously-bypass-approvals-and-sandbox`. To detach it, use:
+The compose service runs headless for `3600` seconds by default, uses `1` max run, gives each worker cycle `900` seconds before timeout, publishes on every run, and gives Codex full execution permissions inside the container via `codex exec --dangerously-bypass-approvals-and-sandbox`. To detach it, use:
 
 ```bash
 docker compose up -d --build auto-dataset-runner
 docker compose logs -f auto-dataset-runner
 ```
+
+By default, the compose runner uses `gpt-5.4` with `--reasoning-effort medium`. Override them with `AUTO_DATASET_CODEX_MODEL` and `AUTO_DATASET_CODEX_REASONING_EFFORT` if needed.
+It also configures git author identity from `AUTO_DATASET_GIT_USER_NAME` and `AUTO_DATASET_GIT_USER_EMAIL` before publishing.
 
 ## Intermediate Publishing
 

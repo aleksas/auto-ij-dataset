@@ -3,7 +3,8 @@ FROM python:3.12-slim
 ARG CODEX_NPM_PACKAGE=@openai/codex@0.115.0
 
 ENV PYTHONUNBUFFERED=1 \
-    PIP_DISABLE_PIP_VERSION_CHECK=1
+    PIP_DISABLE_PIP_VERSION_CHECK=1 \
+    PYTHONPATH=/app/src
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
@@ -16,6 +17,11 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/*
 
 RUN npm install -g "${CODEX_NPM_PACKAGE}"
+
+COPY pyproject.toml README.md /tmp/auto-dataset-build/
+COPY src /tmp/auto-dataset-build/src
+
+RUN python -m pip install --no-cache-dir /tmp/auto-dataset-build
 
 WORKDIR /app
 

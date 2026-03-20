@@ -1,0 +1,40 @@
+id: structured-public-record-ec-cloud-2020-9906
+status: draft
+title: European Commission CLOUD II contract 2020-9906 extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 189843-2020, contract no. 2020-9906"
+sources:
+  - label: TED notice PDF 189843-2020
+    url: https://ted.europa.eu/en/notice/189843-2020/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice HTML 189843-2020
+    url: https://ted.europa.eu/udl?uri=TED:NOTICE:189843-2020:TEXT:EN:HTML
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: "European Commission, Directorate-General for Informatics, Directorate A: Strategy and Resources, Unit A3: ICT Procurement and Contracts"
+    supplier_name: Microsoft Ireland Operations Ltd
+    award_date: "2020-03-30"
+    amount: 53997323.00
+    category_code: "72000000"
+notes:
+  - This notice contains multiple awarded contracts under one procurement; the answer key is anchored to contract no. 2020-9906 only.
+  - The case tests whether extraction stays contract-specific instead of returning the first contractor listed elsewhere in the same notice.

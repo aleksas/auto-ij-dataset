@@ -4,6 +4,7 @@ import hashlib
 import json
 import os
 import subprocess
+import tempfile
 import time
 from datetime import UTC, datetime
 from pathlib import Path
@@ -117,11 +118,19 @@ def _path_allowed(path: str, allowed_roots: list[str]) -> bool:
 
 
 def _write_prompt_file(repo_root: Path, suite_id: str, run_number: int, prompt: str) -> Path:
-    prompt_dir = repo_root / "artifacts" / "run-prompts" / suite_id
-    prompt_dir.mkdir(parents=True, exist_ok=True)
-    prompt_path = prompt_dir / f"run-{run_number:03d}.txt"
-    prompt_path.write_text(prompt, encoding="utf-8")
-    return prompt_path
+    prompt_name = f"run-{run_number:03d}.txt"
+    primary_dir = repo_root / "artifacts" / "run-prompts" / suite_id
+    try:
+        primary_dir.mkdir(parents=True, exist_ok=True)
+        prompt_path = primary_dir / prompt_name
+        prompt_path.write_text(prompt, encoding="utf-8")
+        return prompt_path
+    except PermissionError:
+        fallback_dir = Path(tempfile.gettempdir()) / "auto-dataset" / "run-prompts" / suite_id
+        fallback_dir.mkdir(parents=True, exist_ok=True)
+        prompt_path = fallback_dir / prompt_name
+        prompt_path.write_text(prompt, encoding="utf-8")
+        return prompt_path
 
 
 def _build_worker_prompt(
@@ -261,6 +270,14 @@ def run_autonomous_loop(
     for run_number in range(1, max_runs + 1):
         manifest, cases = load_suite(manifest_path)
         before = _collect_snapshot(repo_root, mutable_paths)
+        try:
+            before_git_changed_paths = _list_git_changed_paths(repo_root)
+        except (FileNotFoundError, PublishError):
+            before_git_changed_paths = []
+        before_disallowed_snapshot = _collect_snapshot(
+            repo_root,
+            [path for path in before_git_changed_paths if not _path_allowed(path, allowed_git_paths)],
+        )
         prompt = _build_worker_prompt(repo_root, manifest_path, manifest, cases, run_number, max_runs)
         prompt_path = _write_prompt_file(repo_root, manifest["suite_id"], run_number, prompt)
 
@@ -308,8 +325,11 @@ def run_autonomous_loop(
             git_changed_paths = _list_git_changed_paths(repo_root)
         except (FileNotFoundError, PublishError):
             git_changed_paths = []
-
-        disallowed_changes = [path for path in git_changed_paths if not _path_allowed(path, allowed_git_paths)]
+        after_disallowed_snapshot = _collect_snapshot(
+            repo_root,
+            [path for path in git_changed_paths if not _path_allowed(path, allowed_git_paths)],
+        )
+        disallowed_changes = _changed_paths(before_disallowed_snapshot, after_disallowed_snapshot)
         if disallowed_changes:
             _append_run_log(
                 manifest_path,

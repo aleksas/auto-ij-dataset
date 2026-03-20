@@ -3,14 +3,17 @@
 set -euo pipefail
 
 : "${AUTO_DATASET_MANIFEST:=datasets/public-validation-v1/manifest.yaml}"
-: "${AUTO_DATASET_MAX_RUNS:=50}"
+: "${AUTO_DATASET_MAX_RUNS:=1}"
 : "${AUTO_DATASET_RUN_SECONDS:=3600}"
-: "${AUTO_DATASET_WORKER_TIMEOUT_SECONDS:=60}"
+: "${AUTO_DATASET_WORKER_TIMEOUT_SECONDS:=900}"
 : "${AUTO_DATASET_SLEEP_SECONDS:=10}"
 : "${AUTO_DATASET_REPO_ID:=aleksasp/auto-ij-dataset}"
-: "${AUTO_DATASET_CODEX_MODEL:=gpt-5.2}"
+: "${AUTO_DATASET_GIT_USER_NAME:=Aleksas Pielikis}"
+: "${AUTO_DATASET_GIT_USER_EMAIL:=ant.kampo@gmail.com}"
+: "${AUTO_DATASET_CODEX_MODEL:=gpt-5.4}"
+: "${AUTO_DATASET_CODEX_REASONING_EFFORT:=medium}"
 : "${AUTO_DATASET_CODEX_EXTRA_ARGS:=}"
-: "${AUTO_DATASET_PUBLISH_EVERY:=3}"
+: "${AUTO_DATASET_PUBLISH_EVERY:=1}"
 : "${AUTO_DATASET_SKIP_PUBLISH:=0}"
 
 if [[ -z "${HF_TOKEN:-}" ]]; then
@@ -18,13 +21,24 @@ if [[ -z "${HF_TOKEN:-}" ]]; then
   exit 1
 fi
 
+if [[ -z "${OPENAI_API_KEY:-}" ]]; then
+  echo "OPENAI_API_KEY is required" >&2
+  exit 1
+fi
+
 cd /app
 mkdir -p artifacts
 
 git config --global --add safe.directory /app >/dev/null 2>&1 || true
-python -m pip install -e /app
+git -C /app config user.name "${AUTO_DATASET_GIT_USER_NAME}"
+git -C /app config user.email "${AUTO_DATASET_GIT_USER_EMAIL}"
 
 worker_cmd="codex exec --dangerously-bypass-approvals-and-sandbox -C /app -m ${AUTO_DATASET_CODEX_MODEL}"
+if codex exec --help 2>/dev/null | grep -q -- "--reasoning-effort"; then
+  worker_cmd+=" --reasoning-effort ${AUTO_DATASET_CODEX_REASONING_EFFORT}"
+else
+  echo "codex exec does not support --reasoning-effort; continuing without it" >&2
+fi
 if [[ -n "${AUTO_DATASET_CODEX_EXTRA_ARGS}" ]]; then
   worker_cmd+=" ${AUTO_DATASET_CODEX_EXTRA_ARGS}"
 fi

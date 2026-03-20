@@ -1,0 +1,40 @@
+id: structured-public-record-reykjavik-14387
+status: draft
+title: Reykjavik grass cutting contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 254314-2019, contract 14387"
+sources:
+  - label: TED notice PDF 254314-2019
+    url: https://ted.europa.eu/en/notice/254314-2019/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice HTML 254314-2019
+    url: https://ted.europa.eu/udl?uri=TED:NOTICE:254314-2019:TEXT:EN:HTML
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: Reykjavik Procurement Department
+    supplier_name: "Garðlist ehf"
+    award_date: "2019-05-16"
+    amount: 10464428.00
+    category_code: "77314100"
+notes:
+  - This is a no-lot TED award notice with one named contractor and a single contract value.
+  - The buyer, main CPV code, contract conclusion date, contractor, and total value are all stated in the signed notice.
