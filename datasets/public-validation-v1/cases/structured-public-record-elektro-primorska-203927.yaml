@@ -1,0 +1,44 @@
+id: structured-public-record-elektro-primorska-203927
+status: draft
+title: Elektro Primorska civil engineering works extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 203927-2023, reference 21-G/2021"
+sources:
+  - label: TED notice XML 203927-2023
+    url: https://ted.europa.eu/en/notice/203927-2023/xml
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice PDF 203927-2023 (SL)
+    url: https://ted.europa.eu/sl/notice/203927-2023/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice detail 203927-2023
+    url: https://ted.europa.eu/en/notice/-/detail/203927-2023
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: "ELEKTRO PRIMORSKA podjetje za distribucijo električne energije, d.d."
+    supplier_name: "PREVOZI, NIZKE GRADNJE ERIK SEVER, S.P."
+    award_date: "2023-03-24"
+    amount: 67425.38
+    category_code: "45200000"
+notes:
+  - This Slovenia-specific utility works case adds a new country slice and preserves the XML, native-language PDF, and detail page for the same single-award TED notice.
+  - The XML includes a reference number but no contract title, and both legal names contain commas or abbreviations, which makes exact string preservation part of the extraction task.

@@ -1,0 +1,44 @@
+id: structured-public-record-attica-203906
+status: draft
+title: Attica building-cleaning services contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 203906-2023"
+sources:
+  - label: TED notice XML 203906-2023
+    url: https://ted.europa.eu/en/notice/203906-2023/xml
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice PDF 203906-2023 (EL)
+    url: https://ted.europa.eu/el/notice/203906-2023/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice detail 203906-2023
+    url: https://ted.europa.eu/en/notice/-/detail/203906-2023
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: "ΑΠΟΚΕΝΤΡΩΜΕΝΗ ΔΙΟΙΚΗΣΗ ΑΤΤΙΚΗΣ"
+    supplier_name: "ΝΙΚΟΛΟΠΟΥΛΟΣ ΧΡΗΣΤΟΣ – ΑΝΤΩΝΟΠΟΥΛΟΥ ΒΑΣΙΛΙΚΗ ΕΕ"
+    award_date: "2023-03-31"
+    amount: 149712.00
+    category_code: "90911200"
+notes:
+  - This Greece-specific single-award notice adds a Greek-script procurement slice while keeping the XML, native-language PDF, and detail-page provenance bundle.
+  - The XML leaves the contract title blank, so the answer key must come from the buyer, contractor, contract date, value, and original CPV fields without transliterating the official names.

@@ -141,3 +141,6 @@ case_files:
   - cases/structured-public-record-etf-265872.yaml
   - cases/structured-public-record-latvijas-banka-100294.yaml
   - cases/structured-public-record-national-anti-doping-100160.yaml
+  - cases/structured-public-record-attica-203906.yaml
+  - cases/structured-public-record-topolovgrad-203912.yaml
+  - cases/structured-public-record-elektro-primorska-203927.yaml

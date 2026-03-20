@@ -1,0 +1,44 @@
+id: structured-public-record-topolovgrad-203912
+status: draft
+title: Topolovgrad fuels contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 203912-2023"
+sources:
+  - label: TED notice XML 203912-2023
+    url: https://ted.europa.eu/en/notice/203912-2023/xml
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice PDF 203912-2023 (BG)
+    url: https://ted.europa.eu/bg/notice/203912-2023/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice detail 203912-2023
+    url: https://ted.europa.eu/en/notice/-/detail/203912-2023
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: "ОБЩИНА ТОПОЛОВГРАД"
+    supplier_name: "ДИТОН ООД"
+    award_date: "2023-03-30"
+    amount: 587997.50
+    category_code: "09100000"
+notes:
+  - This Bulgaria-specific notice adds Cyrillic buyer and supplier names plus a non-euro award amount, expanding the exact-answer procurement slice without changing the scoring shape.
+  - The XML is a single-award record with no object title, so extraction should copy the official winner, date, value, and original CPV fields rather than infer a normalized subject line.
