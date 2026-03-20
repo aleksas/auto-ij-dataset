@@ -1,0 +1,40 @@
+id: structured-public-record-dfe-322329
+status: draft
+title: Department for Education social care board secretariat contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 322329-2019, contract RD1002226"
+sources:
+  - label: TED notice PDF 322329-2019
+    url: https://ted.europa.eu/en/notice/322329-2019/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice HTML 322329-2019
+    url: https://ted.europa.eu/udl?uri=TED:NOTICE:322329-2019:TEXT:EN:HTML
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: Department for Education
+    supplier_name: Coram Trading Ltd
+    award_date: "2019-06-14"
+    amount: 1000000.00
+    category_code: "85300000"
+notes:
+  - This no-lot award pairs a very specific contract title with the broader main CPV code 85300000, which makes the category field easy to overfit from the narrative title alone.
+  - The answer key uses the authority name from section I and the contract-specific V.2 fields rather than paraphrasing the description of the service.

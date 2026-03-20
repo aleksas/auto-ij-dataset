@@ -1,0 +1,40 @@
+id: structured-public-record-sligo-county-119076
+status: draft
+title: Sligo County plaza design services contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 119076-2020, contract 1"
+sources:
+  - label: TED notice PDF 119076-2020
+    url: https://ted.europa.eu/en/notice/119076-2020/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice HTML 119076-2020
+    url: https://ted.europa.eu/udl?uri=TED:NOTICE:119076-2020:TEXT:EN:HTML
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: Sligo County Council
+    supplier_name: BDP
+    award_date: "2020-03-05"
+    amount: 219000.00
+    category_code: "71000000"
+notes:
+  - The main CPV code in section II.1.2 is 71000000 even though the notice lists more specific design-service CPVs under II.2.2.
+  - This is a single-tender, no-lot award, so the answer key stays anchored to the sole contractor and the V.2.4 contract value.

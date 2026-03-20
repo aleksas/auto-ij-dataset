@@ -1,0 +1,40 @@
+id: structured-public-record-home-office-409374-lot-3
+status: draft
+title: Home Office ESN lot 3 contract variation extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 409374-2019, contract C9264 lot 3"
+sources:
+  - label: TED notice PDF 409374-2019
+    url: https://ted.europa.eu/en/notice/409374-2019/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice HTML 409374-2019
+    url: https://ted.europa.eu/udl?uri=TED:NOTICE:409374-2019:TEXT:EN:HTML
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: "The Secretary of State for the Home Department, Emergency Services Mobile Communications Programme (ESMCP)"
+    supplier_name: EE Ltd
+    award_date: "2019-07-31"
+    amount: 681400000.00
+    category_code: "64200000"
+notes:
+  - The notice-level object describes the ESN procurement broadly, but section V identifies the awarded contract specifically as contract C9264, lot 3.
+  - This case tests whether extraction stays on the awarded lot and uses EE Ltd with the amended lot value instead of earlier notice-level figures from the contract-variation narrative.
