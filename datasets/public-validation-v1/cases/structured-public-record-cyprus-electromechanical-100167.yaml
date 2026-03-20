@@ -1,0 +1,44 @@
+id: structured-public-record-cyprus-electromechanical-100167
+status: draft
+title: Cyprus electromechanical services endoscope maintenance contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 100167-2021"
+sources:
+  - label: TED notice XML 100167-2021
+    url: https://ted.europa.eu/en/notice/100167-2021/xml
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice PDF 100167-2021 (EL)
+    url: https://ted.europa.eu/el/notice/100167-2021/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice detail 100167-2021
+    url: https://ted.europa.eu/en/notice/-/detail/100167-2021
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: "Τμήμα Ηλεκτρομηχανολογικών Υπηρεσιών"
+    supplier_name: "A. Papaetis Services Ltd."
+    award_date: "2021-02-23"
+    amount: 400845.00
+    category_code: "50420000"
+notes:
+  - This Cyprus case adds a new Greek-script procurement slice with the standard XML, native-language PDF, and detail-page provenance pattern.
+  - The buyer stays in official Greek while the contractor is published in Latin script, which helps test whether extraction preserves the exact multilingual field values instead of transliterating both sides.

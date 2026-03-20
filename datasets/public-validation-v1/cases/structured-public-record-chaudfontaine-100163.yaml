@@ -1,0 +1,44 @@
+id: structured-public-record-chaudfontaine-100163
+status: draft
+title: Chaudfontaine administrative archiving services contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 100163-2021, reference DG2018/847"
+sources:
+  - label: TED notice XML 100163-2021
+    url: https://ted.europa.eu/en/notice/100163-2021/xml
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice PDF 100163-2021 (FR)
+    url: https://ted.europa.eu/fr/notice/100163-2021/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice detail 100163-2021
+    url: https://ted.europa.eu/en/notice/-/detail/100163-2021
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: Commune de Chaudfontaine
+    supplier_name: Mahut & Fils SPRL
+    award_date: "2021-01-20"
+    amount: 297180.20
+    category_code: "79560000"
+notes:
+  - This French-language Belgian municipal notice complements the existing Belgium utilities case with a local-authority record and the same exact-field extraction contract.
+  - The supplier appears in the XML as an escaped entity string, so the normalized answer key uses the rendered official name rather than the raw `&amp;` encoding.

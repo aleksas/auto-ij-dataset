@@ -144,3 +144,6 @@ case_files:
   - cases/structured-public-record-attica-203906.yaml
   - cases/structured-public-record-topolovgrad-203912.yaml
   - cases/structured-public-record-elektro-primorska-203927.yaml
+  - cases/structured-public-record-statens-serum-100130.yaml
+  - cases/structured-public-record-chaudfontaine-100163.yaml
+  - cases/structured-public-record-cyprus-electromechanical-100167.yaml

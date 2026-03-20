@@ -1,0 +1,44 @@
+id: structured-public-record-statens-serum-100130
+status: draft
+title: Statens Serum Institut mass spectrometer service contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 100130-2021, reference 20/13391"
+sources:
+  - label: TED notice XML 100130-2021
+    url: https://ted.europa.eu/en/notice/100130-2021/xml
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice PDF 100130-2021 (EN)
+    url: https://ted.europa.eu/en/notice/100130-2021/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice detail 100130-2021
+    url: https://ted.europa.eu/en/notice/-/detail/100130-2021
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: Statens Serum Institut
+    supplier_name: Spectrometry Vision B.V.
+    award_date: "2021-01-13"
+    amount: 2000000.00
+    category_code: "71630000"
+notes:
+  - This Denmark slice adds an English-original Scandinavian award notice while keeping the standard XML, native-language PDF, and detail-page provenance bundle.
+  - The published total value is in DKK, so the amount field should stay on the official numeric award value without currency conversion.
