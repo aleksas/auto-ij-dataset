@@ -1,0 +1,44 @@
+id: structured-public-record-bassano-romano-100032
+status: draft
+title: Bassano Romano social services contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 100032-2021"
+sources:
+  - label: TED notice XML 100032-2021
+    url: https://ted.europa.eu/en/notice/100032-2021/xml
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice PDF 100032-2021 (IT)
+    url: https://ted.europa.eu/it/notice/100032-2021/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice detail 100032-2021
+    url: https://ted.europa.eu/en/notice/-/detail/100032-2021
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: Comune di Bassano Romano
+    supplier_name: "Cooperativa ARCI Solidarietà"
+    award_date: "2021-02-22"
+    amount: 629960.04
+    category_code: "85300000"
+notes:
+  - The XML presents one procurement total and one contract conclusion date, which keeps this Italian social-services case in the exact-answer lane.
+  - The supplier name includes the accented official cooperative form, so the answer key checks that extraction preserves the published contractor string.
