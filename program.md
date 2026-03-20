@@ -10,7 +10,7 @@ The system should improve case coverage, answer keys, and rubrics without weaken
 
 The exact run budget, source-family priority order, and run-log schema live in the target suite manifest. Treat the manifest as the source of truth, and use `auto-dataset brief <manifest>` to render the current operating contract before each unattended run.
 
-The preferred unattended entrypoint is `auto-dataset run <manifest> --worker-cmd '...'`. The runner drives one worker cycle at a time, validates the suite, appends the run log, and performs git/Hugging Face sync on publish cadence.
+The preferred unattended entrypoint is `auto-dataset run <manifest> --worker-cmd '...'`. The runner drives one worker cycle at a time, validates the suite, appends the run log, and performs git/Hugging Face sync on publish cadence. In that mode, the worker should stop after making one bounded batch and leave log/publish work to the runner.
 
 ## Fixed surfaces
 
@@ -37,9 +37,11 @@ The agent should spend most of its time here:
 3. Pick one source family and ship one bounded batch of cases.
 4. Run `auto-dataset validate <manifest>`.
 5. Run `auto-dataset summary <manifest>`.
-6. Append a structured line to `results/runs.tsv`.
-7. Every few accepted batches, run `auto-dataset publish <manifest>` to export the current suite into ignored `artifacts/`, commit and push tracked git changes to GitHub if any, and publish a fresh intermediate snapshot to Hugging Face.
+6. In manual mode, append a structured line to `results/runs.tsv`.
+7. In manual mode, every few accepted batches, run `auto-dataset publish <manifest>` to export the current suite into ignored `artifacts/`, commit and push git changes to GitHub if any, and publish a fresh intermediate snapshot to Hugging Face.
 8. Keep the change only if it improves source-grounded coverage, answer-key quality, or rubric clarity.
+
+If you are running through `auto-dataset run`, stop after step 5 and leave the repository ready for validation; the runner appends log rows and handles publish cadence itself.
 
 ## Keep criteria
 

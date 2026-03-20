@@ -58,8 +58,8 @@ autonomous_loop:
     - When working from leak-related reporting, preserve markdownified outlet or academic references under ignored local storage and mark every preserved reference with its source URL and collection timestamp.
     - Run auto-dataset validate datasets/public-validation-v1/manifest.yaml after each batch.
     - Run auto-dataset summary datasets/public-validation-v1/manifest.yaml and compare coverage gaps before keeping the batch.
-    - Append one row to results/runs.tsv for every kept or rejected batch.
-    - After accepted batches, run auto-dataset publish datasets/public-validation-v1/manifest.yaml so tracked git changes are committed and pushed to GitHub and the intermediate snapshot is pushed to Hugging Face.
+    - In manual mode, append one row to results/runs.tsv for every kept or rejected batch.
+    - In manual mode, after accepted batches, run auto-dataset publish datasets/public-validation-v1/manifest.yaml so git changes are committed and pushed to GitHub and the intermediate snapshot is pushed to Hugging Face.
   keep_if:
     - The batch adds a new public source family slice or materially improves provenance completeness.
     - The batch turns a vague idea into replayable exact, rubric, or mixed cases with the right answer-key discipline.

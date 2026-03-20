@@ -17,7 +17,7 @@ if str(SRC_ROOT) not in sys.path:
 
 from auto_dataset.cli import main as cli_main  # noqa: E402
 from auto_dataset.publishing import build_intermediate_snapshot  # noqa: E402
-from auto_dataset.runner import RunnerError, run_autonomous_loop  # noqa: E402
+from auto_dataset.runner import RunnerError, _build_worker_prompt, run_autonomous_loop  # noqa: E402
 from auto_dataset.validation import REQUIRED_RUN_LOG_COLUMNS, ValidationError, load_suite, summarize_cases  # noqa: E402
 
 
@@ -27,7 +27,8 @@ class ValidationTests(unittest.TestCase):
         manifest, cases = load_suite(manifest_path)
 
         self.assertEqual(manifest["suite_id"], "public-validation-v1")
-        self.assertEqual(len(cases), 5)
+        self.assertEqual(len(cases), len(manifest["case_files"]))
+        self.assertGreaterEqual(len(cases), 5)
         self.assertEqual(manifest["autonomous_loop"]["duration_days"], 7)
         self.assertEqual(
             tuple(manifest["autonomous_loop"]["logging"]["required_columns"]),
@@ -39,12 +40,17 @@ class ValidationTests(unittest.TestCase):
         _, cases = load_suite(manifest_path)
         summary = summarize_cases(cases)
 
-        self.assertEqual(summary["cases_total"], 5)
-        self.assertEqual(summary["by_answer_mode"]["exact"], 3)
-        self.assertEqual(summary["by_answer_mode"]["mixed"], 1)
-        self.assertEqual(summary["by_answer_mode"]["rubric"], 1)
-        self.assertEqual(summary["by_source_family"]["journalist_style_case"], 1)
-        self.assertEqual(summary["by_source_family"]["official_procurement"], 2)
+        self.assertEqual(summary["cases_total"], len(cases))
+        self.assertEqual(sum(summary["by_task_type"].values()), len(cases))
+        self.assertEqual(sum(summary["by_answer_mode"].values()), len(cases))
+        self.assertEqual(sum(summary["by_source_family"].values()), len(cases))
+        self.assertIn("exact", summary["by_answer_mode"])
+        self.assertIn("mixed", summary["by_answer_mode"])
+        self.assertIn("rubric", summary["by_answer_mode"])
+        self.assertIn("journalist_style_case", summary["by_source_family"])
+        self.assertIn("official_procurement", summary["by_source_family"])
+        self.assertIn("public_documents_with_metadata", summary["by_source_family"])
+        self.assertIn("public_entity_link_dataset", summary["by_source_family"])
 
     def test_brief_command_renders_autonomous_loop(self) -> None:
         manifest_path = PROJECT_ROOT / "datasets" / "public-validation-v1" / "manifest.yaml"
@@ -60,6 +66,23 @@ class ValidationTests(unittest.TestCase):
         self.assertIn("7 days", brief)
         self.assertIn("2-4 cases per run", brief)
         self.assertIn("results/runs.tsv", brief)
+
+    def test_runner_prompt_overrides_log_and_publish_steps(self) -> None:
+        manifest_path = PROJECT_ROOT / "datasets" / "public-validation-v1" / "manifest.yaml"
+        manifest, cases = load_suite(manifest_path)
+
+        prompt = _build_worker_prompt(
+            PROJECT_ROOT,
+            manifest_path,
+            manifest,
+            cases,
+            run_number=1,
+            max_runs=1,
+        )
+
+        self.assertIn("Treat any brief steps about run-log appends or publishing as runner-owned", prompt)
+        self.assertIn("Do not append to results/runs.tsv", prompt)
+        self.assertIn("Do not run auto-dataset publish, git commit, git push, or Hugging Face publish", prompt)
 
     def test_export_builds_intermediate_snapshot(self) -> None:
         manifest_path = PROJECT_ROOT / "datasets" / "public-validation-v1" / "manifest.yaml"

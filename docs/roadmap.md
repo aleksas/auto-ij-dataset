@@ -2,6 +2,8 @@
 
 ## Phase 1: Bootstrap suite
 
+Status: complete.
+
 - validate manifest and case structure
 - encode the unattended run budget and operating contract in the manifest
 - add template cases for the four validation families
@@ -9,6 +11,8 @@
 - record run metadata in `results/runs.tsv` with enough detail to replay or discard a batch
 
 ## Phase 2: First real public suite
+
+Status: in progress. The repo now includes the first real official-procurement slice alongside the four cross-family templates.
 
 - replace template placeholders with real public cases
 - preserve source files or source URLs for each case

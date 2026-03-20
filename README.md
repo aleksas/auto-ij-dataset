@@ -75,7 +75,7 @@ auto-dataset brief datasets/public-validation-v1/manifest.yaml
 
 ## Initial suite shape
 
-The bootstrap suite mirrors the project's core methodology:
+The checked-in suite mirrors the project's core methodology:
 
 - structured public-record extraction
 - entity-link recovery
@@ -83,6 +83,16 @@ The bootstrap suite mirrors the project's core methodology:
 - manual gold-set follow-up evaluation
 
 See [`datasets/public-validation-v1/manifest.yaml`](datasets/public-validation-v1/manifest.yaml) and [`docs/foundations.md`](docs/foundations.md).
+
+## Current suite status
+
+The repository is past the template-only bootstrap stage. The current checked-in suite contains:
+
+- 17 cases total
+- 13 draft official-procurement field-extraction cases
+- 4 template cases covering the four core validation families
+
+Use `auto-dataset summary datasets/public-validation-v1/manifest.yaml` for the live counts.
 
 ## Unattended run mode
 
@@ -100,7 +110,7 @@ That keeps the dataset-building loop reviewable in the Karpathy sense: small mut
 
 ## Autonomous Runner
 
-`auto-dataset run` is the one-command orchestration entrypoint for unattended work. It does not bundle a model runtime; instead it drives an external worker command in a loop, validates after each cycle, appends to `results/runs.tsv`, and on publish cadence it commits and pushes git changes and publishes an intermediate Hugging Face snapshot.
+`auto-dataset run` is the one-command orchestration entrypoint for unattended work. It does not bundle a model runtime; instead it drives an external worker command in a loop, validates after each cycle, appends to `results/runs.tsv`, and on publish cadence it commits and pushes git changes and publishes an intermediate Hugging Face snapshot. In runner mode, the worker should not append to `results/runs.tsv` or call `auto-dataset publish`; it should leave the repository ready for validation and let the runner handle logging and publish cadence.
 
 ```bash
 export HF_TOKEN=...
@@ -146,7 +156,7 @@ docker compose up -d --build auto-dataset-runner
 docker compose logs -f auto-dataset-runner
 ```
 
-By default, the compose runner uses `gpt-5.4` with `--reasoning-effort medium`. Override them with `AUTO_DATASET_CODEX_MODEL` and `AUTO_DATASET_CODEX_REASONING_EFFORT` if needed.
+By default, the compose runner uses `gpt-5.4` and passes `--reasoning-effort medium` when the installed Codex CLI supports that flag. Override them with `AUTO_DATASET_CODEX_MODEL` and `AUTO_DATASET_CODEX_REASONING_EFFORT` if needed.
 It also configures git author identity from `AUTO_DATASET_GIT_USER_NAME` and `AUTO_DATASET_GIT_USER_EMAIL` before publishing.
 For HTTPS pushes to GitHub from inside the container, set `AUTO_DATASET_GITHUB_TOKEN`.
 
@@ -163,7 +173,7 @@ auto-dataset publish datasets/public-validation-v1/manifest.yaml --repo-name aut
 `auto-dataset publish` does three things:
 
 - builds a fresh snapshot under `artifacts/hf-staging/<suite_id>/`
-- commits tracked git changes if tracked files changed
+- commits git changes in the repo unless `--skip-git-commit` is set
 - pushes the current git branch to GitHub after a new commit
 - publishes that snapshot as a new revision in the Hugging Face dataset repo
 
