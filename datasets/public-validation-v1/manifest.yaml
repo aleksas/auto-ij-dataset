@@ -139,3 +139,5 @@ case_files:
   - cases/structured-public-record-infrabel-176746.yaml
   - cases/structured-public-record-dunea-334859.yaml
   - cases/structured-public-record-etf-265872.yaml
+  - cases/structured-public-record-latvijas-banka-100294.yaml
+  - cases/structured-public-record-national-anti-doping-100160.yaml

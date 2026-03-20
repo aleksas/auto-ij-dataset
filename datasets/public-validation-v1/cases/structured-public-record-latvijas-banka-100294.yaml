@@ -1,0 +1,44 @@
+id: structured-public-record-latvijas-banka-100294
+status: draft
+title: Latvijas Banka Moody's Analytics database services contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 100294-2021, reference 2020/81"
+sources:
+  - label: TED notice XML 100294-2021
+    url: https://ted.europa.eu/en/notice/100294-2021/xml
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice PDF 100294-2021 (LV)
+    url: https://ted.europa.eu/lv/notice/100294-2021/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice detail 100294-2021
+    url: https://ted.europa.eu/en/notice/-/detail/100294-2021
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: Latvijas Banka
+    supplier_name: "“Moody's Analytics UK” Ltd."
+    award_date: "2021-02-01"
+    amount: 177726
+    category_code: "72321000"
+notes:
+  - This Latvia case adds a central-bank procurement slice while keeping the standard TED XML, native-language PDF, and detail-page provenance bundle.
+  - The awarded amount is published in GBP and the supplier name includes typographic quotes, so extraction should copy the official winner and value fields rather than normalize them away.
