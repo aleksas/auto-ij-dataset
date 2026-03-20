@@ -1,0 +1,44 @@
+id: structured-public-record-sidec-100084
+status: draft
+title: SIDEC Diekirch household waste collection contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 100084-2021, reference 2001955"
+sources:
+  - label: TED notice XML 100084-2021
+    url: https://ted.europa.eu/en/notice/100084-2021/xml
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice PDF 100084-2021 (FR)
+    url: https://ted.europa.eu/fr/notice/100084-2021/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice detail 100084-2021
+    url: https://ted.europa.eu/en/notice/-/detail/100084-2021
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: SIDEC
+    supplier_name: Osch et Fils
+    award_date: "2021-01-04"
+    amount: 853425.97
+    category_code: "90511200"
+notes:
+  - This Luxembourg case extends the suite beyond the current country coverage while keeping the same official TED XML plus PDF provenance pattern.
+  - The narrative text is in French, but the exact answer key still comes from the published buyer, winner, contract date, value, and main CPV fields.

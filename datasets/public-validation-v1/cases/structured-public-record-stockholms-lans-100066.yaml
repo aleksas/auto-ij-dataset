@@ -1,0 +1,44 @@
+id: structured-public-record-stockholms-lans-100066
+status: draft
+title: Stockholm psychiatry staff supervision contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 100066-2021, reference SLSO 19-910"
+sources:
+  - label: TED notice XML 100066-2021
+    url: https://ted.europa.eu/en/notice/100066-2021/xml
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice PDF 100066-2021 (SV)
+    url: https://ted.europa.eu/sv/notice/100066-2021/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice detail 100066-2021
+    url: https://ted.europa.eu/en/notice/-/detail/100066-2021
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: Stockholms läns sjukvårdsområde
+    supplier_name: Stockholms KBT praktik Lisa Grönblad AB
+    award_date: "2021-02-09"
+    amount: 75000.00
+    category_code: "80590000"
+notes:
+  - This Swedish notice adds a new country slice and uses the main CPV 80590000 even though the object-description block also lists a different CPV code for health services.
+  - The buyer and supplier fields both use Swedish characters, so the case checks exact extraction and normalization rather than translated approximations.

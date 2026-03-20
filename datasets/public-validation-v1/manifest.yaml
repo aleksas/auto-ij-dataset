@@ -133,3 +133,6 @@ case_files:
   - cases/structured-public-record-ggw-gelsenkirchen-100023.yaml
   - cases/structured-public-record-castelo-branco-100037.yaml
   - cases/structured-public-record-stredoslovensky-100047.yaml
+  - cases/structured-public-record-stockholms-lans-100066.yaml
+  - cases/structured-public-record-sidec-100084.yaml
+  - cases/structured-public-record-wien-ma19-100109.yaml

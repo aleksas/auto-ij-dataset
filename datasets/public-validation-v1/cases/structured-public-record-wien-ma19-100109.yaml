@@ -1,0 +1,44 @@
+id: structured-public-record-wien-ma19-100109
+status: draft
+title: Vienna Gebaut exhibition services contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 100109-2021, reference M19 623264-2020"
+sources:
+  - label: TED notice XML 100109-2021
+    url: https://ted.europa.eu/en/notice/100109-2021/xml
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice PDF 100109-2021 (DE)
+    url: https://ted.europa.eu/de/notice/100109-2021/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice detail 100109-2021
+    url: https://ted.europa.eu/en/notice/-/detail/100109-2021
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: "Magistrat der Stadt Wien — Magistratsabteilung 19"
+    supplier_name: "MVD Austria, Verein zur Förderung von Kunst, Architektur, Musik und Film"
+    award_date: "2021-02-15"
+    amount: 195676.99
+    category_code: "79900000"
+notes:
+  - The Austrian notice describes architecture and exhibition work in detail, but the official answer key keeps the generic main CPV 79900000 published in the structured record.
+  - The supplier field includes commas and a long organization description, which makes truncation and partial-name extraction errors easy to spot.
