@@ -1,0 +1,40 @@
+id: entity-link-alberto-safdie-as-financial-director
+status: draft
+title: Alberto Safdie director link recovery from Offshore Leaks
+task_type: entity_linking
+answer_mode: exact
+source_family: public_entity_link_dataset
+source_tier: primary
+target_entity: "ALBERTO SAFDIE director relation to AS FINANCIAL SERVICES LIMITED"
+sources:
+  - label: Offshore Leaks officer page for ALBERTO SAFDIE
+    url: https://offshoreleaks.icij.org/nodes/56009125
+    checked_on: 2026-03-20
+    provenance: public_link_dataset
+  - label: Offshore Leaks entity page for AS FINANCIAL SERVICES LIMITED
+    url: https://offshoreleaks.icij.org/nodes/55036442
+    checked_on: 2026-03-20
+    provenance: public_link_dataset
+  - label: Offshore Leaks data sources page
+    url: https://offshoreleaks.icij.org/pages/data
+    checked_on: 2026-03-20
+    provenance: public_link_dataset
+evidence_bundle:
+  kind: entity_link_graph
+  required_artifacts:
+    - entity_snapshot
+    - relationship_snapshot
+expected_output:
+  fields_required:
+    - canonical_entity_name
+    - relationship_type
+    - linked_entity_name
+answer_key:
+  type: known_relationships
+  relationships:
+    - subject: ALBERTO SAFDIE
+      predicate: director_of
+      object: AS FINANCIAL SERVICES LIMITED
+notes:
+  - The ALBERTO SAFDIE page lists AS FINANCIAL SERVICES LIMITED among the connected entities with the Director role.
+  - The AS FINANCIAL SERVICES LIMITED page repeats ALBERTO SAFDIE as a director, which makes the relation replayable from either side of the graph.

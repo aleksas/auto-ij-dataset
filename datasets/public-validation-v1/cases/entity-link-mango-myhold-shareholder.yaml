@@ -1,0 +1,40 @@
+id: entity-link-mango-myhold-shareholder
+status: draft
+title: Mango shareholder link recovery from Offshore Leaks
+task_type: entity_linking
+answer_mode: exact
+source_family: public_entity_link_dataset
+source_tier: primary
+target_entity: "MANGO LIMITED shareholder relation to MYHOLD HOLDINGS LIMITED"
+sources:
+  - label: Offshore Leaks entity page for MANGO LIMITED
+    url: https://offshoreleaks.icij.org/nodes/55050883
+    checked_on: 2026-03-20
+    provenance: public_link_dataset
+  - label: Offshore Leaks officer page for MYHOLD HOLDINGS LIMITED
+    url: https://offshoreleaks.icij.org/nodes/56095450
+    checked_on: 2026-03-20
+    provenance: public_link_dataset
+  - label: Offshore Leaks data sources page
+    url: https://offshoreleaks.icij.org/pages/data
+    checked_on: 2026-03-20
+    provenance: public_link_dataset
+evidence_bundle:
+  kind: entity_link_graph
+  required_artifacts:
+    - entity_snapshot
+    - relationship_snapshot
+expected_output:
+  fields_required:
+    - canonical_entity_name
+    - relationship_type
+    - linked_entity_name
+answer_key:
+  type: known_relationships
+  relationships:
+    - subject: MANGO LIMITED
+      predicate: has_shareholder
+      object: MYHOLD HOLDINGS LIMITED
+notes:
+  - The company page lists MYHOLD HOLDINGS LIMITED as a shareholder, and the MYHOLD page resolves back to a single entity connection for MANGO LIMITED.
+  - This case checks whether linking stays on the specified shareholder edge instead of drifting to the other officer roles on the MANGO page.

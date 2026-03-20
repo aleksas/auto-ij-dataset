@@ -85,6 +85,9 @@ autonomous_loop:
 case_files:
   - cases/structured-public-record-template.yaml
   - cases/entity-link-template.yaml
+  - cases/entity-link-golden-bridge-mossack-fonseca.yaml
+  - cases/entity-link-mango-myhold-shareholder.yaml
+  - cases/entity-link-alberto-safdie-as-financial-director.yaml
   - cases/document-grounding-template.yaml
   - cases/followup-gold-template.yaml
   - cases/structured-public-record-espo-509-19-lot-3.yaml
