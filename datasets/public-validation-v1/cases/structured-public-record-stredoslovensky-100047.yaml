@@ -1,0 +1,44 @@
+id: structured-public-record-stredoslovensky-100047
+status: draft
+title: Slovak cardiac institute laundry services contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 100047-2021"
+sources:
+  - label: TED notice XML 100047-2021
+    url: https://ted.europa.eu/en/notice/100047-2021/xml
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice PDF 100047-2021 (SK)
+    url: https://ted.europa.eu/sk/notice/100047-2021/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice detail 100047-2021
+    url: https://ted.europa.eu/en/notice/-/detail/100047-2021
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: "Stredoslovenský ústav srdcových a cievnych chorôb, a.s."
+    supplier_name: Lavaton s.r.o.
+    award_date: "2021-02-22"
+    amount: 362664.00
+    category_code: "98310000"
+notes:
+  - This Slovakia hospital-services notice is a single-award case with one contractor and one awarded total, so the answer key is directly recoverable from the XML award block.
+  - The buyer name carries Slovak diacritics and a corporate suffix, while the narrative description is much longer than the structured CPV field.

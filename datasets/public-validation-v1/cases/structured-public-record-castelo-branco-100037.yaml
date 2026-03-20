@@ -1,0 +1,44 @@
+id: structured-public-record-castelo-branco-100037
+status: draft
+title: Castelo Branco security services contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 100037-2021"
+sources:
+  - label: TED notice XML 100037-2021
+    url: https://ted.europa.eu/en/notice/100037-2021/xml
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice PDF 100037-2021 (PT)
+    url: https://ted.europa.eu/pt/notice/100037-2021/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice detail 100037-2021
+    url: https://ted.europa.eu/en/notice/-/detail/100037-2021
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: Município de Castelo Branco
+    supplier_name: "Strong Charon — Soluções de Segurança, S. A."
+    award_date: "2020-12-11"
+    amount: 663996.02
+    category_code: "79710000"
+notes:
+  - This Portuguese award notice is a no-lot single-supplier case with one awarded amount, which keeps the extraction target narrow.
+  - The supplier name includes an em dash, accents, and corporate punctuation, so the exact answer checks whether extraction preserves the official awarded-contractor field.

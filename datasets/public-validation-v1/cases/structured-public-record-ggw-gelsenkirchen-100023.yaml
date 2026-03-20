@@ -1,0 +1,44 @@
+id: structured-public-record-ggw-gelsenkirchen-100023
+status: draft
+title: GGW Gelsenkirchen structural-planning contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 100023-2021"
+sources:
+  - label: TED notice XML 100023-2021
+    url: https://ted.europa.eu/en/notice/100023-2021/xml
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice PDF 100023-2021 (DE)
+    url: https://ted.europa.eu/de/notice/100023-2021/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice detail 100023-2021
+    url: https://ted.europa.eu/en/notice/-/detail/100023-2021
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: GGW Gelsenkirchener Gemeinnützige Wohnungsbaugesellschaft mbH
+    supplier_name: Bröckling Vullhorst Ingenieure GmbH
+    award_date: "2021-01-28"
+    amount: 116274.92
+    category_code: "71000000"
+notes:
+  - This German single-award notice has one contractor, one award date, and one total contract value in the XML award block.
+  - The supplier legal name contains an umlaut and the short description is more specific than the official CPV, which makes over-normalization easy to detect.

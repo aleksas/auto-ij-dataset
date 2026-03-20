@@ -127,3 +127,6 @@ case_files:
   - cases/structured-public-record-ghsif-209.yaml
   - cases/structured-public-record-medio-ambiente-454263.yaml
   - cases/structured-public-record-wreczyca-540831.yaml
+  - cases/structured-public-record-ggw-gelsenkirchen-100023.yaml
+  - cases/structured-public-record-castelo-branco-100037.yaml
+  - cases/structured-public-record-stredoslovensky-100047.yaml
