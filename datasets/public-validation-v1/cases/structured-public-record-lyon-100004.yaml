@@ -1,0 +1,44 @@
+id: structured-public-record-lyon-100004
+status: draft
+title: Metropole de Lyon entrepreneurship strategy communications contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 100004-2021, contract no. 2021-593"
+sources:
+  - label: TED notice XML 100004-2021
+    url: https://ted.europa.eu/en/notice/100004-2021/xml
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice PDF 100004-2021 (FR)
+    url: https://ted.europa.eu/fr/notice/100004-2021/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice detail 100004-2021
+    url: https://ted.europa.eu/en/notice/-/detail/100004-2021
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: Métropole de Lyon
+    supplier_name: TBWA/Groupe
+    award_date: "2021-02-13"
+    amount: 660000.00
+    category_code: "79342200"
+notes:
+  - The buyer contact line names the president of the Metropole, but the answer key should stay anchored to the official buyer field.
+  - Contract no. 2021-593 identifies the awarded communications contract, and the notice-level total matches the section V award value.

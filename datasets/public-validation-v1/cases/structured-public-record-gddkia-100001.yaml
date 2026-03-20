@@ -1,0 +1,44 @@
+id: structured-public-record-gddkia-100001
+status: draft
+title: GDDKiA Wroclaw winter road maintenance contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 100001-2021"
+sources:
+  - label: TED notice XML 100001-2021
+    url: https://ted.europa.eu/en/notice/100001-2021/xml
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice PDF 100001-2021 (PL)
+    url: https://ted.europa.eu/pl/notice/100001-2021/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice detail 100001-2021
+    url: https://ted.europa.eu/en/notice/-/detail/100001-2021
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: Generalna Dyrekcja Dróg Krajowych i Autostrad, Oddział we Wrocławiu
+    supplier_name: Zaberd SA
+    award_date: "2021-02-18"
+    amount: 1975344.00
+    category_code: "90630000"
+notes:
+  - The Polish notice title uses the GDDKiA abbreviation, but the answer key should return the full buyer name from the contracting-body block.
+  - This is a single-award notice and the notice-level total matches the awarded value in PLN, so the official amount is a clean exact baseline.

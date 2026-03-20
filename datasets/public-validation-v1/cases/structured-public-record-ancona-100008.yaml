@@ -1,0 +1,44 @@
+id: structured-public-record-ancona-100008
+status: draft
+title: Comune di Ancona municipal treasury services contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 100008-2021, contract no. 14902"
+sources:
+  - label: TED notice XML 100008-2021
+    url: https://ted.europa.eu/en/notice/100008-2021/xml
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice PDF 100008-2021 (IT)
+    url: https://ted.europa.eu/it/notice/100008-2021/pdfs
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice detail 100008-2021
+    url: https://ted.europa.eu/en/notice/-/detail/100008-2021
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: Comune di Ancona
+    supplier_name: Intesa Sanpaolo SpA
+    award_date: "2021-02-19"
+    amount: 324500.00
+    category_code: "66000000"
+notes:
+  - The notice concerns municipal treasury services, and the awarded contract is identified by contract no. 14902 in the award block.
+  - The procurement total is higher than the awarded value, so extraction should use the section V award amount rather than the notice-level estimate.

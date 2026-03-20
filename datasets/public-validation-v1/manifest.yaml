@@ -109,3 +109,6 @@ case_files:
   - cases/structured-public-record-dugny-100000.yaml
   - cases/structured-public-record-ceska-televize-100002.yaml
   - cases/structured-public-record-adra-100005.yaml
+  - cases/structured-public-record-gddkia-100001.yaml
+  - cases/structured-public-record-lyon-100004.yaml
+  - cases/structured-public-record-ancona-100008.yaml
