@@ -1,0 +1,40 @@
+id: structured-public-record-ksom-283769
+status: draft
+title: KSOM collaborative robot contract extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 283769-2020"
+sources:
+  - label: TED notice PDF 283769-2020
+    url: https://ted.europa.eu/en/notice/283769-2020/pdf
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice detail 283769-2020
+    url: https://ted.europa.eu/en/notice/-/detail/283769-2020
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: Katholiek Secundair Onderwijs Mol vzw
+    supplier_name: Gibas Automation bv
+    award_date: "2020-06-16"
+    amount: 31450.00
+    category_code: "42636100"
+notes:
+  - This Belgian education-sector supplies award is a compact no-lot case with a low contract value and a Netherlands-based contractor.
+  - The notice title is in Dutch and the short description is brief, so the case checks whether extraction still returns the official buyer, contractor, date, value, and main CPV code exactly.

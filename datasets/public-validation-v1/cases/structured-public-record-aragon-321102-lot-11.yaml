@@ -1,0 +1,40 @@
+id: structured-public-record-aragon-321102-lot-11
+status: draft
+title: Aragón road-maintenance vehicles lot 11 extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 321102-2022, lot 11 (lote nº 1.1 4x4 18 tn simple cabina. bloque nº 1 camiones bacheadores)"
+sources:
+  - label: TED notice PDF 321102-2022
+    url: https://ted.europa.eu/en/notice/321102-2022/pdf
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice detail 321102-2022
+    url: https://ted.europa.eu/en/notice/-/detail/321102-2022
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: Departamento de Vertebración del Territorio, Movilidad y Vivienda
+    supplier_name: "AGREDA AUTOMOVIL, S.A."
+    award_date: "2022-06-06"
+    amount: 813895.40
+    category_code: "34144400"
+notes:
+  - This Spanish award notice contains multiple lots, and the answer key is for lot 11 only rather than the notice total or later awarded lots.
+  - Lot 11 lists both a vehicle code and a financing-services code; the expected category stays on the lot's road-maintenance vehicle code together with the lot-specific contractor, date, and value.

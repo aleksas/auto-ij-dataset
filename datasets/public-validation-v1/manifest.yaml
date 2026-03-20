@@ -100,3 +100,6 @@ case_files:
   - cases/structured-public-record-bank-of-england-9040.yaml
   - cases/structured-public-record-ealing-531760.yaml
   - cases/structured-public-record-rikiskaup-545849.yaml
+  - cases/structured-public-record-cork-county-401072.yaml
+  - cases/structured-public-record-ksom-283769.yaml
+  - cases/structured-public-record-aragon-321102-lot-11.yaml

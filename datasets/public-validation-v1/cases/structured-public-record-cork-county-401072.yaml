@@ -1,0 +1,40 @@
+id: structured-public-record-cork-county-401072
+status: draft
+title: Cork County Council Office 365 professional services extraction
+task_type: field_extraction
+answer_mode: exact
+source_family: official_procurement
+source_tier: primary
+target_entity: "TED notice 401072-2020"
+sources:
+  - label: TED notice PDF 401072-2020
+    url: https://ted.europa.eu/en/notice/401072-2020/pdf
+    checked_on: 2026-03-20
+    provenance: official_portal
+  - label: TED notice detail 401072-2020
+    url: https://ted.europa.eu/en/notice/-/detail/401072-2020
+    checked_on: 2026-03-20
+    provenance: official_portal
+evidence_bundle:
+  kind: structured_record
+  required_artifacts:
+    - source_record_file
+    - source_record_metadata
+expected_output:
+  fields_required:
+    - buyer_name
+    - supplier_name
+    - award_date
+    - amount
+    - category_code
+answer_key:
+  type: structured_fields
+  fields:
+    buyer_name: Cork County Council
+    supplier_name: Storm Technology Ltd
+    award_date: "2020-08-20"
+    amount: 300000.00
+    category_code: "72420000"
+notes:
+  - This Irish local-authority award notice is a no-lot services case with a single named contractor and an exact contract value.
+  - The title mentions Office 365, SharePoint, Teams, and Power Apps, but the answer key stays anchored to the official main CPV code, contractor, contract date, and awarded value.
