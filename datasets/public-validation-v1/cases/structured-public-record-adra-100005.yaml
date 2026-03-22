@@ -29,6 +29,7 @@ evidence_bundle:
     **Contractor:** GESTION DE PROYECTOS Y OBRAS, S.A.
     **Total Value:** 51,000.00 EUR
     **Procedure:** Open procedure.
+  content_markdown: "Materialization pending: fetching source content..."
   required_artifacts:
     - source_record_file
     - source_record_metadata

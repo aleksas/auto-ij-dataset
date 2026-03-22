@@ -21,6 +21,8 @@ sources:
     provenance: public_link_dataset
 evidence_bundle:
   kind: entity_link_graph
+  content_markdown: "Materialization pending: fetching source content..."
+  content_markdown: "Materialization pending: fetching source content..."
   required_artifacts:
     - entity_snapshot
     - relationship_snapshot

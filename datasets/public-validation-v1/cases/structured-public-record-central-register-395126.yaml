@@ -17,6 +17,7 @@ sources:
     provenance: official_portal
 evidence_bundle:
   kind: structured_record
+  content_markdown: "Materialization pending: fetching source content..."
   required_artifacts:
     - source_record_file
     - source_record_metadata
