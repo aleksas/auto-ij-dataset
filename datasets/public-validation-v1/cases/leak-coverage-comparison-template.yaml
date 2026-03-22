@@ -1,0 +1,43 @@
+id: leak-coverage-comparison-template
+status: template
+title: Multi-language leak coverage comparison template
+task_type: coverage_comparison
+answer_mode: rubric
+source_family: cross_country_leak_reporting
+source_tier: secondary
+target_entity: "<fill entity or event name>"
+related_cases:
+  - "<related-case-id-1-french>"
+  - "<related-case-id-2-english>"
+sources:
+  - label: "<Local Outlet Name>"
+    url: "<url-to-local-report>"
+    language: "<language-code>"
+    checked_on: 2026-03-22
+    provenance: news_outlet
+  - label: "<International Outlet Name>"
+    url: "<url-to-international-report>"
+    language: en
+    checked_on: 2026-03-22
+    provenance: news_outlet
+evidence_bundle:
+  kind: comparison_cluster
+  content_markdown: |
+    # Report A (Local Language)
+    ... (Inlined text) ...
+    
+    # Report B (English)
+    ... (Inlined text) ...
+expected_output:
+  fields_required:
+    - common_facts
+    - unique_local_aspects
+    - tone_differences
+    - investigative_next_steps
+rubric: |
+  1. Does it identify facts present in one report but missing in the other?
+  2. Does it correctly interpret the local context or regulatory nuances mentioned in the local report?
+  3. Does it avoid conflating the "aspect" of the leak with the "fact" of the leak?
+  4. Does it suggest next steps that reconcile the differences?
+notes:
+  - This case tests cross-border synthesis and nuance detection.

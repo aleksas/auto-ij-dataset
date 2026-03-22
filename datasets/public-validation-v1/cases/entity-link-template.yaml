@@ -13,6 +13,9 @@ sources:
     provenance: public_link_dataset
 evidence_bundle:
   kind: entity_link_graph
+  content_markdown: |
+    # <Entity Graph Excerpt/Markdown Here>
+    (Inline the source text/markdown here for LLM training)
   required_artifacts:
     - entity_snapshot
     - relationship_snapshot

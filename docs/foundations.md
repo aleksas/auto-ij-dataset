@@ -13,6 +13,8 @@ The supporting notes live in [`references/README.md`](references/README.md).
 - metadata-backed document answer keys
 - manual gold annotations
 
+Every case now includes an **inlined evidence bundle** (`content_markdown`) to support LLM training and offline evaluation, while maintaining explicit **provenance links** to the original public source for validation integrity.
+
 ## 2. Journalistic case design
 
 [`references/journalistic-training-suite.md`](references/journalistic-training-suite.md) adds the case-based investigative angle:

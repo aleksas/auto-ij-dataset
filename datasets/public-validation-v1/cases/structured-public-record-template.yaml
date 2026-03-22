@@ -13,6 +13,9 @@ sources:
     provenance: official_portal
 evidence_bundle:
   kind: structured_record
+  content_markdown: |
+    # <Extracted Markdown Content Here>
+    (Inline the source text/markdown here for LLM training)
   required_artifacts:
     - source_record_file
     - source_record_metadata

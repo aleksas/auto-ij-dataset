@@ -144,19 +144,21 @@ For a repeatable headless setup, use the included container files instead of a l
 ```bash
 export HF_TOKEN=...
 export OPENAI_API_KEY=...
+# optional fallback if OPENAI_API_KEY is unset
+# export GEMINI_API_KEY=...
 export AUTO_DATASET_UID=$(id -u)
 export AUTO_DATASET_GID=$(id -g)
 docker compose up --build auto-dataset-runner
 ```
 
-The compose service runs headless for `3600` seconds by default, uses `1` max run, gives each worker cycle `900` seconds before timeout, publishes on every run, and gives Codex full execution permissions inside the container via `codex exec --dangerously-bypass-approvals-and-sandbox`. To detach it, use:
+The compose service runs headless for `3600` seconds by default, uses `1` max run, gives each worker cycle `900` seconds before timeout, waits `720` seconds between cycles (about 5 runs/hour max), publishes on every run, and defaults to Codex via `codex exec --dangerously-bypass-approvals-and-sandbox`. If `OPENAI_API_KEY` is not set but `GEMINI_API_KEY` is set, it falls back to Gemini via `gemini --approval-mode yolo`. To detach it, use:
 
 ```bash
 docker compose up -d --build auto-dataset-runner
 docker compose logs -f auto-dataset-runner
 ```
 
-By default, the compose runner uses `gpt-5.4` and passes `--reasoning-effort medium` when the installed Codex CLI supports that flag. Override them with `AUTO_DATASET_CODEX_MODEL` and `AUTO_DATASET_CODEX_REASONING_EFFORT` if needed.
+By default, the compose runner uses `gpt-5.4`. Override it with `AUTO_DATASET_CODEX_MODEL` if needed. For fallback runs, Gemini defaults to `gemini-2.0-pro` and can be overridden with `AUTO_DATASET_GEMINI_MODEL`.
 It also configures git author identity from `AUTO_DATASET_GIT_USER_NAME` and `AUTO_DATASET_GIT_USER_EMAIL` before publishing.
 For HTTPS pushes to GitHub from inside the container, set `AUTO_DATASET_GITHUB_TOKEN`.
 

@@ -21,6 +21,14 @@ sources:
     provenance: official_portal
 evidence_bundle:
   kind: structured_record
+  content_markdown: |
+    # Contract Award Notice - Spain-Adra: Technical consultancy services
+    **Buyer:** Ayuntamiento de Adra (Municipal Council)
+    **Object:** Technical assistance and consultancy services for the 'Adra Ciudad 2020' strategy.
+    **Award Date:** 2020-05-18
+    **Contractor:** GESTION DE PROYECTOS Y OBRAS, S.A.
+    **Total Value:** 51,000.00 EUR
+    **Procedure:** Open procedure.
   required_artifacts:
     - source_record_file
     - source_record_metadata

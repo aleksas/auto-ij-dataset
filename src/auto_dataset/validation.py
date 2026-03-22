@@ -245,6 +245,16 @@ def validate_case(path: Path) -> dict[str, Any]:
         path,
     )
 
+    evidence_bundle = _require_mapping(case["evidence_bundle"], "evidence_bundle", path)
+    _require_keys(evidence_bundle, ["kind"], path, "evidence_bundle")
+    
+    # Require content_markdown for all non-template cases to ensure training readiness
+    if case.get("status") != "template":
+        _require_keys(evidence_bundle, ["content_markdown"], path, "evidence_bundle")
+
+    if "related_cases" in case:
+        _require_string_list(case["related_cases"], "related_cases", path)
+
     answer_mode = case["answer_mode"]
     if answer_mode not in VALID_ANSWER_MODES:
         raise ValidationError(f"{path}: invalid answer_mode '{answer_mode}'")

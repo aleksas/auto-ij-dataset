@@ -49,11 +49,16 @@ autonomous_loop:
     - source_family: public_documents_with_metadata
       goal: Add citation-grounding cases only when a source file and metadata packet both exist.
     - source_family: cross_country_leak_reporting
-      goal: Harvest country-specific leak reporting from reputable outlets, preserve local reference copies with source URL and collection timestamp, and collect academic analysis when it materially strengthens grounded comparison or outcome-tracking cases.
+      goal: >
+        Build "Leak Coverage Clusters" for the same entity or event by harvesting
+        reports from English, Spanish, French, Italian, Portuguese, and Russian outlets.
+        Focus on identifying unique local aspects, differing levels of detail, or
+        contradictory reporting across language borders.
     - source_family: manual_gold_annotations
       goal: Spend the smallest amount of human annotation budget on overclaim control and next-step quality.
   daily_loop:
     - Read README.md, program.md, docs/foundations.md, and this manifest before changing anything.
+    - When searching for leaks, prioritize finding at least two language reports (e.g., French and English) for the same entity to create a coverage cluster.
     - Pick one source family and ship one bounded batch of 2-4 cases.
     - When working from leak-related reporting, preserve markdownified outlet or academic references under ignored local storage and mark every preserved reference with its source URL and collection timestamp.
     - Run auto-dataset validate datasets/public-validation-v1/manifest.yaml after each batch.
@@ -67,6 +72,7 @@ autonomous_loop:
     - The batch captures a country-specific leak angle or downstream outcome trail, including successful, unsuccessful, inconclusive, or unclear results only when source-supported.
   discard_if:
     - The batch adds cases without a source trail or preserved local record.
+    - The batch adds active cases without inlined `content_markdown` for training readiness.
     - The batch weakens the distinction between exact, rubric, and mixed scoring.
     - The batch mostly rewrites framework code instead of improving the dataset itself.
     - The batch relies on article summaries without preserving source URLs, collection timestamps, or linked official or academic context when those are available.
@@ -90,6 +96,7 @@ case_files:
   - cases/entity-link-alberto-safdie-as-financial-director.yaml
   - cases/document-grounding-template.yaml
   - cases/followup-gold-template.yaml
+  - cases/leak-coverage-comparison-template.yaml
   - cases/structured-public-record-espo-509-19-lot-3.yaml
   - cases/structured-public-record-reykjavik-14387.yaml
   - cases/structured-public-record-coventry-6650.yaml
