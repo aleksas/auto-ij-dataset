@@ -210,10 +210,19 @@ def build_intermediate_snapshot(
     copied_rubrics: set[Path] = set()
     for relative_case_path, case in zip(manifest["case_files"], cases, strict=True):
         rubric = case.get("rubric")
-        if not rubric:
+        # Inlined rubrics are usually long multi-line strings; relative paths are short.
+        # Skip if missing, not a string, or clearly too long to be a relative path.
+        if not rubric or not isinstance(rubric, str) or len(rubric) > 255 or "\n" in rubric:
             continue
         case_source = base_dir / relative_case_path
-        rubric_source = (case_source.parent / rubric).resolve()
+        try:
+            rubric_source = (case_source.parent / rubric).resolve()
+            if not rubric_source.exists() or not rubric_source.is_file():
+                continue
+        except OSError:
+            # Handle cases where the string might still trigger FS errors on some platforms
+            continue
+
         if rubric_source in copied_rubrics:
             continue
         rubric_destination = snapshot_dir / rubric_source.relative_to(repo_root)
