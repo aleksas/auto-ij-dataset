@@ -7,17 +7,47 @@ source_family: official_procurement
 source_tier: primary
 target_entity: "TED notice 205756-2019, lot 3 (Cashless Parking Solutions)"
 sources:
+  - label: TED notice XML 205756-2019
+    url: https://ted.europa.eu/en/notice/205756-2019/xml
+    checked_on: 2026-03-22
+    provenance: official_portal
   - label: TED notice PDF 205756-2019
     url: https://ted.europa.eu/en/notice/205756-2019/pdfs
-    checked_on: 2026-03-18
+    checked_on: 2026-03-22
     provenance: official_portal
-  - label: TED notice HTML 205756-2019
-    url: https://ted.europa.eu/udl?uri=TED:NOTICE:205756-2019:TEXT:EN:HTML
-    checked_on: 2026-03-18
+  - label: TED notice detail 205756-2019
+    url: https://ted.europa.eu/en/notice/-/detail/205756-2019
+    checked_on: 2026-03-22
     provenance: official_portal
 evidence_bundle:
   kind: structured_record
-  content_markdown: "Materialization pending: fetching source content..."
+  content_markdown: |
+    # TED notice 205756-2019, lot 3
+
+    Collected from the official TED XML on 2026-03-22.
+
+    ## Notice metadata
+    - Original language: EN
+    - Reference number: `509_19`
+    - Notice type: Contract award notice
+    - Notice-level procurement total: `65000000 GBP`
+
+    ## Contracting authority
+    - `OFFICIALNAME`: ESPO
+    - `URL_GENERAL`: http://www.espo.org/
+
+    ## Object contract
+    - `TITLE`: 509_19 Parking Management Solutions
+    - `SHORT_DESCR`: ESPO is seeking to establish a Framework Agreement with a number of suppliers for the provision of parking management solutions including pay and display, pay on foot, cashless parking and civil enforcement solutions.
+    - `CPV_CODE`: 34926000
+
+    ## Awarded contract, lot 3
+    - `LOT_NO`: 3
+    - `TITLE`: Cashless Parking Solutions
+    - `DATE_CONCLUSION_CONTRACT`: 2019-04-04
+    - `NB_TENDERS_RECEIVED`: 27
+    - `CONTRACTOR/OFFICIALNAME`: APCOA Parking (UK) Ltd
+    - `AWARDED_CONTRACT/VAL_TOTAL`: 10000000 GBP
   required_artifacts:
     - source_record_file
     - source_record_metadata
@@ -34,8 +64,9 @@ answer_key:
     buyer_name: ESPO
     supplier_name: APCOA Parking (UK) Ltd
     award_date: "2019-04-04"
-    amount: 20000000.00
+    amount: 10000000.00
     category_code: "34926000"
 notes:
-  - Buyer name, main CPV code, lot title, contractor name, contract date, and lot value are extractable from the TED award notice.
+  - Buyer name, main CPV code, lot title, contractor name, contract date, and lot value are extractable from the TED XML award notice.
   - This case expects the supplier for lot 3 specifically, not one of the contractors listed for other awarded lots in the same notice.
+  - The official lot 3 award value is GBP 10,000,000, while the notice-level procurement total is GBP 65,000,000 across all lots.

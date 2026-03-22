@@ -7,17 +7,49 @@ source_family: official_procurement
 source_tier: primary
 target_entity: "TED notice 9040-2020"
 sources:
+  - label: TED notice XML 9040-2020
+    url: https://ted.europa.eu/en/notice/9040-2020/xml
+    checked_on: 2026-03-22
+    provenance: official_portal
   - label: TED notice PDF 9040-2020
     url: https://ted.europa.eu/en/notice/9040-2020/pdfs
-    checked_on: 2026-03-20
+    checked_on: 2026-03-22
     provenance: official_portal
-  - label: TED notice HTML 9040-2020
-    url: https://ted.europa.eu/udl?uri=TED:NOTICE:9040-2020:TEXT:EN:HTML
-    checked_on: 2026-03-20
+  - label: TED notice detail 9040-2020
+    url: https://ted.europa.eu/en/notice/-/detail/9040-2020
+    checked_on: 2026-03-22
     provenance: official_portal
 evidence_bundle:
   kind: structured_record
-  content_markdown: "Materialization pending: fetching source content..."
+  content_markdown: |
+    # TED notice 9040-2020
+
+    Collected from the official TED XML on 2026-03-22.
+
+    ## Notice metadata
+    - Original language: EN
+    - Reference number: `DN432705`
+    - Notice type: Contract award notice
+    - Notice-level procurement total: `7500000 GBP`
+    - Prior notice reference: `2019/S 179-436165`
+
+    ## Contracting authority
+    - `OFFICIALNAME`: Bank of England
+    - `ADDRESS`: Threadneedle Street
+    - `URL_GENERAL`: http://www.bankofengland.co.uk
+
+    ## Object contract
+    - `TITLE`: Catering Services 2020
+    - `SHORT_DESCR`: The Bank of England has a requirement for the provision of catering services at 3 of its sites, London EC2R 8AH, London EC2R 6DA and Loughton IG10 3TN.
+    - `CPV_CODE`: 55500000
+    - `VAL_TOTAL`: 7500000 GBP
+
+    ## Awarded contract
+    - `LOT_NO`: 1
+    - `DATE_CONCLUSION_CONTRACT`: 2019-12-17
+    - `NB_TENDERS_RECEIVED`: 4
+    - `CONTRACTOR/OFFICIALNAME`: Elior UK
+    - `AWARDED_CONTRACT/VAL_TOTAL`: 7500000 GBP
   required_artifacts:
     - source_record_file
     - source_record_metadata
@@ -39,3 +71,4 @@ answer_key:
 notes:
   - This no-lot award notice is a compact single-supplier UK services case with matching notice-level and award-level values.
   - The answer key comes from the contracting authority, main CPV code, contract conclusion date, contractor, and total contract value fields in the TED notice.
+  - The inline evidence now preserves the reference number, prior notice link, and award block fields needed to replay the extraction from the official XML.

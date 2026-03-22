@@ -7,17 +7,48 @@ source_family: official_procurement
 source_tier: primary
 target_entity: "TED notice 17149-2020, contract reference 6650"
 sources:
+  - label: TED notice XML 17149-2020
+    url: https://ted.europa.eu/en/notice/17149-2020/xml
+    checked_on: 2026-03-22
+    provenance: official_portal
   - label: TED notice PDF 17149-2020
     url: https://ted.europa.eu/en/notice/17149-2020/pdfs
-    checked_on: 2026-03-20
+    checked_on: 2026-03-22
     provenance: official_portal
-  - label: TED notice HTML 17149-2020
-    url: https://ted.europa.eu/udl?uri=TED:NOTICE:17149-2020:TEXT:EN:HTML
-    checked_on: 2026-03-20
+  - label: TED notice detail 17149-2020
+    url: https://ted.europa.eu/en/notice/-/detail/17149-2020
+    checked_on: 2026-03-22
     provenance: official_portal
 evidence_bundle:
   kind: structured_record
-  content_markdown: "Materialization pending: fetching source content..."
+  content_markdown: |
+    # TED notice 17149-2020
+
+    Collected from the official TED XML on 2026-03-22.
+
+    ## Notice metadata
+    - Original language: EN
+    - Reference number: `5542`
+    - Notice type: Contract award notice
+    - Notice-level procurement total: `125000.00 GBP`
+    - Prior notice reference: `2017/S 247-517662`
+
+    ## Contracting authority
+    - `OFFICIALNAME`: Coventry City Council
+    - `URL_GENERAL`: http://www.coventry.gov.uk
+
+    ## Object contract
+    - `TITLE`: COV - Bin Lifts with On-Board Weighing Capacity for Existing Refuse Vehicles
+    - `SHORT_DESCR`: Coventry City Council's commercial waste service are looking to install on-board weighing technology on the back of all of their current fleet of refuse collection vehicles.
+    - `CPV_CODE`: 31610000
+    - `VAL_TOTAL`: 125000.00 GBP
+
+    ## Awarded contract
+    - `DATE_CONCLUSION_CONTRACT`: 2019-11-06
+    - `NB_TENDERS_RECEIVED`: 4
+    - `CONTRACTOR/OFFICIALNAME`: Vehicle Weighing Solutions Ltd
+    - `AWARDED_CONTRACT/VAL_ESTIMATED_TOTAL`: 350000.00 GBP
+    - `AWARDED_CONTRACT/VAL_TOTAL`: 125000.00 GBP
   required_artifacts:
     - source_record_file
     - source_record_metadata
@@ -39,3 +70,4 @@ answer_key:
 notes:
   - The notice clarifies that the procurement was awarded under contract reference 6650 even though section II lists reference 5542.
   - This case tests extraction from a no-lot contract award with a single named contractor and a lower awarded value than the initial estimate.
+  - The inlined XML evidence preserves both the section II reference number and the award block values needed to justify the exact answer key.
