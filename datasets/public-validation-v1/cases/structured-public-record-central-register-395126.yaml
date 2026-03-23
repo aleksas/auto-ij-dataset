@@ -1,5 +1,5 @@
 id: structured-public-record-central-register-395126
-status: draft
+status: validated
 title: Central Register Microsoft licenses contract extraction
 task_type: field_extraction
 answer_mode: exact
@@ -11,17 +11,472 @@ sources:
   url: https://ted.europa.eu/en/notice/395126-2020/pdfs
   checked_on: 2026-03-20
   provenance: official_portal
+  language: en
 - label: TED notice detail 395126-2020
   url: https://ted.europa.eu/en/notice/-/detail/395126-2020
   checked_on: 2026-03-20
   provenance: official_portal
+  language: en
 evidence_bundle:
   kind: structured_record
-  content_markdown: "# Central Register Microsoft licenses contract extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/en/notice/395126-2020/pdfs\n\n## Listed sources\n- TED notice PDF 395126-2020: https://ted.europa.eu/en/notice/395126-2020/pdfs\n- TED notice detail 395126-2020: https://ted.europa.eu/en/notice/-/detail/395126-2020\n\n## Extracted source text\n\n```text\nOJ/S S162\n21/08/2020\n395126-2020-EN\n\n1/3\n\nThis notice in TED website: https://ted.europa.eu/udl?uri=TED:NOTICE:395126-2020:TEXT:EN:HTML\n\nNorth Macedonia-Skopje: Software package and information systems\n2020/S 162-395126\nContract award notice\nResults of the procurement procedure\nSupplies\nLegal Basis:\nDirective 2014/24/EU\nSection I: Contracting authority\nI.1)\nName and addresses\nOfficial name: Central Register of Republic of North Macedonia\nNational registration number: 5549850\nPostal address: Kuzman Josifovski Pitu No 1\nTown: Skopje\n\
-    NUTS code: MK008 \u0421\u043A\u043E\u043F\u0441\u043A\u0438 (Skopski)\nPostal code: 1000\nCountry: North Macedonia\nContact person: Vladimir Naumovski\nE-mail: cr_javni_nabavki@crm.org.mk\nTelephone: +389 23288130\nFax: +389 23123169\nInternet address(es):\nMain address: http://www.crm.org.mk\nI.2)\n\nInformation about joint procurement\n\nI.4)\n\nType of the contracting authority\nNational or federal agency/office\n\nI.5)\n\nMain activity\nGeneral public services\n\nSection II: Object\nII.1)\nScope of the procurement\nII.1.1)\n\nTitle:\nMicrosoft Licenses and Trainings\nReference number: 02623/2020\n\nII.1.2)\n\nMain CPV code\n48000000 Software package and information systems\n\nII.1.3)\n\nType of contract\nSupplies\n\nII.1.4)\n\nShort description:\nMicrosoft licenses and trainings.\n\nII.1.6)\n\nInformation about lots\n\n21/08/2020\nS162\nhttps://ted.europa.eu/TED\n\n1/3\n\nOJ/S S162\n21/08/2020\n395126-2020-EN\n\n2/3\n\nThis contract is divided into lots: no\nII.1.7)\n\nTotal value\
-    \ of the procurement (excluding VAT)\nValue excluding VAT: 21 300 000.00 MKD\n\nII.2)\n\nDescription\n\nII.2.1)\n\nTitle:\n\nII.2.2)\n\nAdditional CPV code(s)\n\nII.2.3)\n\nPlace of performance\nNUTS code: MK008 \u0421\u043A\u043E\u043F\u0441\u043A\u0438 (Skopski)\n\nII.2.4)\n\nDescription of the procurement:\nMicrosoft licenses and trainings.\n\nII.2.5)\n\nAward criteria\nPrice\n\nII.2.11)\n\nInformation about options\nOptions: no\n\nII.2.13)\n\nInformation about European Union funds\nThe procurement is related to a project and/or programme financed by European Union funds: no\n\nII.2.14)\n\nAdditional information\n\nSection IV: Procedure\nIV.1)\nDescription\nIV.1.1)\n\nType of procedure\nOpen procedure\n\nIV.1.3)\n\nInformation about a framework agreement or a dynamic purchasing system\n\nIV.1.6)\n\nInformation about electronic auction\nAn electronic auction has been used\n\nIV.1.8)\n\nInformation about the Government Procurement Agreement (GPA)\nThe procurement is covered by the Government\
-    \ Procurement Agreement: no\n\nIV.2)\n\nAdministrative information\n\nIV.2.1)\n\nPrevious publication concerning this procedure\nNotice number in the OJ S: 2020/S 051-122148\n\nIV.2.8)\n\nInformation about termination of dynamic purchasing system\n\nIV.2.9)\n\nInformation about termination of call for competition in the form of a prior information notice\n\nSection V: Award of contract\nContract No: 05-374/4\nTitle:\nMicrosoft Licenses and Trainings\nA contract/lot is awarded: yes\nV.2)\n\nAward of contract\n\nV.2.1)\n\nDate of conclusion of the contract:\n07/08/2020\n\nV.2.2)\n\nInformation about tenders\nNumber of tenders received: 2\n\n21/08/2020\nS162\nhttps://ted.europa.eu/TED\n\n2/3\n\nOJ/S S162\n21/08/2020\n395126-2020-EN\n\n3/3\n\nThe contract has been awarded to a group of economic operators: no\nV.2.3)\n\nName and address of the contractor\nOfficial name: Telelink MK DOO Skopje\nNational registration number: 6236812\nTown: Skopje\nNUTS code: MK008 \u0421\u043A\u043E\u043F\u0441\
-    \u043A\u0438 (Skopski)\nCountry: North Macedonia\nThe contractor is an SME: yes\n\nV.2.4)\n\nInformation on value of the contract/lot (excluding VAT)\nTotal value of the contract/lot: 20 432 210.00 MKD\n\nV.2.5)\n\nInformation about subcontracting\n\nSection VI: Complementary information\nVI.3)\nAdditional information:\nVI.4)\n\nProcedures for review\n\nVI.4.1)\n\nReview body\nOfficial name: Bureau for public procurement Skopje\nPostal address: blvd. Kuzman Josifovski Pitu No 1\nTown: Skopje\nPostal code: 1000\nCountry: North Macedonia\n\nVI.4.2)\n\nBody responsible for mediation procedures\n\nVI.4.3)\n\nReview procedure\n\nVI.4.4)\n\nService from which information about the review procedure may be obtained\n\nVI.5)\n\nDate of dispatch of this notice:\n17/08/2020\n\n21/08/2020\nS162\nhttps://ted.europa.eu/TED\n\n3/3\n```\n"
+  content_markdown: '# Central Register Microsoft licenses contract extraction
+
+
+    Collected from the official TED procurement PDF on 2026-03-20.
+
+
+    Primary source URL: https://ted.europa.eu/en/notice/395126-2020/pdfs
+
+
+    ## Listed sources
+
+    - TED notice PDF 395126-2020: https://ted.europa.eu/en/notice/395126-2020/pdfs
+
+    - TED notice detail 395126-2020: https://ted.europa.eu/en/notice/-/detail/395126-2020
+
+
+    ## Extracted source text
+
+
+    ```text
+
+    OJ/S S162
+
+    21/08/2020
+
+    395126-2020-EN
+
+
+    1/3
+
+
+    This notice in TED website: https://ted.europa.eu/udl?uri=TED:NOTICE:395126-2020:TEXT:EN:HTML
+
+
+    North Macedonia-Skopje: Software package and information systems
+
+    2020/S 162-395126
+
+    Contract award notice
+
+    Results of the procurement procedure
+
+    Supplies
+
+    Legal Basis:
+
+    Directive 2014/24/EU
+
+    Section I: Contracting authority
+
+    I.1)
+
+    Name and addresses
+
+    Official name: Central Register of Republic of North Macedonia
+
+    National registration number: 5549850
+
+    Postal address: Kuzman Josifovski Pitu No 1
+
+    Town: Skopje
+
+    NUTS code: MK008 Скопски (Skopski)
+
+    Postal code: 1000
+
+    Country: North Macedonia
+
+    Contact person: Vladimir Naumovski
+
+    E-mail: cr_javni_nabavki@crm.org.mk
+
+    Telephone: +389 23288130
+
+    Fax: +389 23123169
+
+    Internet address(es):
+
+    Main address: http://www.crm.org.mk
+
+    I.2)
+
+
+    Information about joint procurement
+
+
+    I.4)
+
+
+    Type of the contracting authority
+
+    National or federal agency/office
+
+
+    I.5)
+
+
+    Main activity
+
+    General public services
+
+
+    Section II: Object
+
+    II.1)
+
+    Scope of the procurement
+
+    II.1.1)
+
+
+    Title:
+
+    Microsoft Licenses and Trainings
+
+    Reference number: 02623/2020
+
+
+    II.1.2)
+
+
+    Main CPV code
+
+    48000000 Software package and information systems
+
+
+    II.1.3)
+
+
+    Type of contract
+
+    Supplies
+
+
+    II.1.4)
+
+
+    Short description:
+
+    Microsoft licenses and trainings.
+
+
+    II.1.6)
+
+
+    Information about lots
+
+
+    21/08/2020
+
+    S162
+
+    https://ted.europa.eu/TED
+
+
+    1/3
+
+
+    OJ/S S162
+
+    21/08/2020
+
+    395126-2020-EN
+
+
+    2/3
+
+
+    This contract is divided into lots: no
+
+    II.1.7)
+
+
+    Total value of the procurement (excluding VAT)
+
+    Value excluding VAT: 21 300 000.00 MKD
+
+
+    II.2)
+
+
+    Description
+
+
+    II.2.1)
+
+
+    Title:
+
+
+    II.2.2)
+
+
+    Additional CPV code(s)
+
+
+    II.2.3)
+
+
+    Place of performance
+
+    NUTS code: MK008 Скопски (Skopski)
+
+
+    II.2.4)
+
+
+    Description of the procurement:
+
+    Microsoft licenses and trainings.
+
+
+    II.2.5)
+
+
+    Award criteria
+
+    Price
+
+
+    II.2.11)
+
+
+    Information about options
+
+    Options: no
+
+
+    II.2.13)
+
+
+    Information about European Union funds
+
+    The procurement is related to a project and/or programme financed by European
+    Union funds: no
+
+
+    II.2.14)
+
+
+    Additional information
+
+
+    Section IV: Procedure
+
+    IV.1)
+
+    Description
+
+    IV.1.1)
+
+
+    Type of procedure
+
+    Open procedure
+
+
+    IV.1.3)
+
+
+    Information about a framework agreement or a dynamic purchasing system
+
+
+    IV.1.6)
+
+
+    Information about electronic auction
+
+    An electronic auction has been used
+
+
+    IV.1.8)
+
+
+    Information about the Government Procurement Agreement (GPA)
+
+    The procurement is covered by the Government Procurement Agreement: no
+
+
+    IV.2)
+
+
+    Administrative information
+
+
+    IV.2.1)
+
+
+    Previous publication concerning this procedure
+
+    Notice number in the OJ S: 2020/S 051-122148
+
+
+    IV.2.8)
+
+
+    Information about termination of dynamic purchasing system
+
+
+    IV.2.9)
+
+
+    Information about termination of call for competition in the form of a prior information
+    notice
+
+
+    Section V: Award of contract
+
+    Contract No: 05-374/4
+
+    Title:
+
+    Microsoft Licenses and Trainings
+
+    A contract/lot is awarded: yes
+
+    V.2)
+
+
+    Award of contract
+
+
+    V.2.1)
+
+
+    Date of conclusion of the contract:
+
+    07/08/2020
+
+
+    V.2.2)
+
+
+    Information about tenders
+
+    Number of tenders received: 2
+
+
+    21/08/2020
+
+    S162
+
+    https://ted.europa.eu/TED
+
+
+    2/3
+
+
+    OJ/S S162
+
+    21/08/2020
+
+    395126-2020-EN
+
+
+    3/3
+
+
+    The contract has been awarded to a group of economic operators: no
+
+    V.2.3)
+
+
+    Name and address of the contractor
+
+    Official name: Telelink MK DOO Skopje
+
+    National registration number: 6236812
+
+    Town: Skopje
+
+    NUTS code: MK008 Скопски (Skopski)
+
+    Country: North Macedonia
+
+    The contractor is an SME: yes
+
+
+    V.2.4)
+
+
+    Information on value of the contract/lot (excluding VAT)
+
+    Total value of the contract/lot: 20 432 210.00 MKD
+
+
+    V.2.5)
+
+
+    Information about subcontracting
+
+
+    Section VI: Complementary information
+
+    VI.3)
+
+    Additional information:
+
+    VI.4)
+
+
+    Procedures for review
+
+
+    VI.4.1)
+
+
+    Review body
+
+    Official name: Bureau for public procurement Skopje
+
+    Postal address: blvd. Kuzman Josifovski Pitu No 1
+
+    Town: Skopje
+
+    Postal code: 1000
+
+    Country: North Macedonia
+
+
+    VI.4.2)
+
+
+    Body responsible for mediation procedures
+
+
+    VI.4.3)
+
+
+    Review procedure
+
+
+    VI.4.4)
+
+
+    Service from which information about the review procedure may be obtained
+
+
+    VI.5)
+
+
+    Date of dispatch of this notice:
+
+    17/08/2020
+
+
+    21/08/2020
+
+    S162
+
+    https://ted.europa.eu/TED
+
+
+    3/3
+
+    ```
+
+    '
   required_artifacts:
   - source_record_file
   - source_record_metadata
@@ -34,10 +489,15 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 395126-2020.pdf
     sha256: 8be551f464797b8aea92d28efddda6d434828aac4732c7e75dc9c4f990aaea61
-    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
-    source_dataset: 'Case bundle from: TED notice PDF 395126-2020 | TED notice detail 395126-2020'
-    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+    acquisition_method: Fetch the official procurement record from the listed source
+      URLs, prefer machine-readable XML or PDF when available, and preserve the relevant
+      record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
+    source_dataset: 'Case bundle from: TED notice PDF 395126-2020 | TED notice detail
+      395126-2020'
+    notes: Checked-in markdown source document used for local validation and Hugging
+      Face export. Factual source content backfilled from the listed upstream sources.
   - id: original-source-01
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-central-register-395126/source-01-ted-notice-pdf-395126-2020.pdf
     role: original_source_snapshot
@@ -46,10 +506,14 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 395126-2020.pdf
     sha256: 9a47d049783a62059ec0c781e5724947359409158b8bbadc714b8ecb57c3b0d5
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice PDF 395126-2020
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
   - id: original-source-02
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-central-register-395126/source-02-ted-notice-detail-395126-2020.html
     role: original_source_snapshot
@@ -58,10 +522,14 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 395126-2020.html
     sha256: 4f275d88cedae37a7048fd3302e58f4615e1dc9fb3a77c70b599eb0f2d9271b6
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice detail 395126-2020
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
 expected_output:
   fields_required:
   - buyer_name
@@ -78,5 +546,12 @@ answer_key:
     amount: 20432210.0
     category_code: '48000000'
 notes:
-- This single-winner software procurement separates the notice-level estimated value from the awarded contract value in Macedonian denars.
-- The answer key uses the authority name from section I, the main CPV code from II.1.2, the contractor from V.2.3, and the awarded amount from V.2.4.
+- This single-winner software procurement separates the notice-level estimated value
+  from the awarded contract value in Macedonian denars.
+- The answer key uses the authority name from section I, the main CPV code from II.1.2,
+  the contractor from V.2.3, and the awarded amount from V.2.4.
+source_languages:
+- en
+evidence_languages:
+- en
+answer_language: en

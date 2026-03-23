@@ -1,5 +1,5 @@
 id: structured-public-record-ghsif-209
-status: draft
+status: validated
 title: South Ile-de-France hospital fire-prevention works contract extraction
 task_type: field_extraction
 answer_mode: exact
@@ -11,23 +11,501 @@ sources:
   url: https://ted.europa.eu/en/notice/000209-2024/xml
   checked_on: 2026-03-20
   provenance: official_portal
+  language: fr
 - label: TED notice PDF 000209-2024 (FR)
   url: https://ted.europa.eu/fr/notice/000209-2024/pdfs
   checked_on: 2026-03-20
   provenance: official_portal
+  language: fr
 - label: TED notice detail 000209-2024
   url: https://ted.europa.eu/en/notice/-/detail/000209-2024
   checked_on: 2026-03-20
   provenance: official_portal
+  language: fr
 evidence_bundle:
   kind: structured_record
-  content_markdown: "# South Ile-de-France hospital fire-prevention works contract extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/fr/notice/000209-2024/pdfs\n\n## Listed sources\n- TED notice XML 000209-2024: https://ted.europa.eu/en/notice/000209-2024/xml\n- TED notice PDF 000209-2024 (FR): https://ted.europa.eu/fr/notice/000209-2024/pdfs\n- TED notice detail 000209-2024: https://ted.europa.eu/en/notice/-/detail/000209-2024\n\n## Extracted source text\n\n```text\nJO/S S1\n02/01/2024\n209-2024-FR\n\n1/3\n\nCet avis sur le site TED: https://ted.europa.eu/udl?uri=TED:NOTICE:209-2024:TEXT:FR:HTML\n\nFrance-Fontainebleau: Travaux d'installation de dispositifs de pr\xE9vention contre les incendies\n2024/S 001-000209\nAvis d\u2019attribution de march\xE9\nR\xE9sultats de la proc\xE9dure de march\xE9\nTravaux\nBase juridique:\nDirective 2014/24/UE\nSection I: Pouvoir adjudicateur\nI.1)\nNom et adresses\nNom officiel: gpe\
-    \ hospitalier du sud ile de france\nNum\xE9ro national d'identification: 26770005200298\nAdresse postale: centre Hospitalier Sud Seine et Marne, 55 Boulevard Mar\xE9chal Joffre\nVille: Fontainebleau\nCode NUTS: FR102 Seine-et-Marne\nCode postal: 77300\nPays: France\nCourriel: marches-publics@ghsif.fr\nAdresse(s) internet:\nAdresse principale: http://www.ch-sud-seine-et-marne.fr\nAdresse du profil d\u2019acheteur: http://www.agysoft.marches-publics.info\nI.4)\n\nType de pouvoir adjudicateur\nAutre type: autre\n\nI.5)\n\nActivit\xE9 principale\nSant\xE9\n\nSection II: Objet\nII.1)\n\xC9tendue du march\xE9\nII.1.1)\n\nIntitul\xE9:\nmise en conformit\xE9 du Ssi (Syst\xE8me de S\xE9curit\xE9 Incendie) (A Preciser Dans La Publication) B\xE2timent B -Plateau\nTechnique - site de Montereau\nNum\xE9ro de r\xE9f\xE9rence: 23t004\n\nII.1.2)\n\nCode CPV principal\n45343000 Travaux d'installation de dispositifs de pr\xE9vention contre les incendies\n\nII.1.3)\n\nType de march\xE9\nTravaux\n\nII.1.4)\n\
-    \nDescription succincte:\nla description des ouvrages et leurs sp\xE9cifications techniques sont indiqu\xE9es dans le Cahier des Clauses\nTechniques Particuli\xE8res (C.C.T.P.).Lieu d'ex\xE9cution :Chsud77- site Montereau 1bis, rue Victor Hugo77130\nMontereau Fault YonneVisite obligatoire : Dates propos\xE9es le 17/10 \xE0 13h00 ou 31/10 \xE0 11h00 sur site\n\n02/01/2024\nS1\nhttps://ted.europa.eu/TED\n\n1/3\n\nJO/S S1\n02/01/2024\n209-2024-FR\n\n2/3\n\nde Montereau - rdv portail H\xF4pital - 8 bld Crett\xE9 Preignard Montereau - inscription au pr\xE9alable par mail :\nm.juillard@ch-sud77.fr\nII.1.6)\n\nInformation sur les lots\nCe march\xE9 est divis\xE9 en lots: non\n\nII.1.7)\n\nValeur totale du march\xE9 (hors TVA)\nValeur hors TVA: 139 715.64 EUR\n\nII.2)\n\nDescription\n\nII.2.2)\n\nCode(s) CPV additionnel(s)\n45343000 Travaux d'installation de dispositifs de pr\xE9vention contre les incendies\n\nII.2.3)\n\nLieu d'ex\xE9cution\nCode NUTS: FR102 Seine-et-Marne\n\nII.2.4)\n\nDescription\
-    \ des prestations:\nla description des ouvrages et leurs sp\xE9cifications techniques sont indiqu\xE9es dans le Cahier des Clauses\nTechniques Particuli\xE8res (C.C.T.P.).Lieu d'ex\xE9cution :Chsud77- site Montereau 1bis, rue Victor Hugo77130\nMontereau Fault YonneVisite obligatoire : Dates propos\xE9es le 17/10 \xE0 13h00 ou 31/10 \xE0 11h00 sur site\nde Montereau - rdv portail H\xF4pital - 8 bld Crett\xE9 Preignard Montereau - inscription au pr\xE9alable par mail :\nm.juillard@ch-sud77.fr\n\nII.2.5)\n\nCrit\xE8res d\u2019attribution\nCo\xFBt - Nom: Le prix n'est pas le seul crit\xE8re d'attribution et tous les crit\xE8res sont \xE9nonc\xE9s uniquement dans les\ndocuments du march\xE9. / Pond\xE9ration: 1\n\nII.2.11)\n\nInformation sur les options\nOptions: non\n\nII.2.13)\n\nInformation sur les fonds de l'Union europ\xE9enne\nLe contrat s'inscrit dans un projet/programme financ\xE9 par des fonds de l'Union europ\xE9enne: non\n\nII.2.14)\n\nInformations compl\xE9mentaires\n\nSection\
-    \ IV: Proc\xE9dure\nIV.1)\nDescription\nIV.1.1)\n\nType de proc\xE9dure\nProc\xE9dure ouverte\n\nIV.1.3)\n\nInformation sur l'accord-cadre ou le syst\xE8me d'acquisition dynamique\n\nIV.1.8)\n\nInformation concernant l\u2019accord sur les march\xE9s publics (AMP)\nLe march\xE9 est couvert par l'accord sur les march\xE9s publics: oui\n\nIV.2)\n\nRenseignements d'ordre administratif\n\nIV.2.1)\n\nPublication ant\xE9rieure relative \xE0 la pr\xE9sente proc\xE9dure\nNum\xE9ro de l'avis au JO s\xE9rie S: 2023/S 194-606052\n\nIV.2.8)\n\nInformations sur l'abandon du syst\xE8me d'acquisition dynamique\n\nIV.2.9)\n\nInformations sur l'abandon de la proc\xE9dure d'appel \xE0 la concurrence sous la forme d'un avis de\npr\xE9information\n\nSection V: Attribution du march\xE9\nUn march\xE9/lot est attribu\xE9: oui\nV.2)\n\nAttribution du march\xE9\n\nV.2.1)\n\nDate de conclusion du march\xE9:\n\n02/01/2024\nS1\nhttps://ted.europa.eu/TED\n\n2/3\n\nJO/S S1\n02/01/2024\n209-2024-FR\n\n3/3\n\n26/12/2023\n\
-    V.2.2)\n\nInformations sur les offres\nNombre d'offres re\xE7ues: 3\nNombre d'offres re\xE7ues par voie \xE9lectronique: 3\nLe march\xE9 a \xE9t\xE9 attribu\xE9 \xE0 un groupement d'op\xE9rateurs \xE9conomiques: non\n\nV.2.3)\n\nNom et adresse du titulaire\nNom officiel: a.I.Tec\nAdresse postale: 9 Av Du Canada\nVille: Les Ulis\nCode NUTS: FR104 Essonne\nCode postal: 91940\nPays: France\nLe titulaire est une PME: oui\n\nV.2.4)\n\nInformations sur le montant du march\xE9/du lot (hors TVA)\nValeur totale du march\xE9/du lot: 139 175.64 EUR\n\nV.2.5)\n\nInformation sur la sous-traitance\n\nSection VI: Renseignements compl\xE9mentaires\nVI.3)\nInformations compl\xE9mentaires:\nVI.4)\n\nProc\xE9dures de recours\n\nVI.4.1)\n\nInstance charg\xE9e des proc\xE9dures de recours\nNom officiel: tribunal administratif de Melun\nAdresse postale: 43, rue du G\xE9n\xE9ral de Gaulle\nVille: Melun\nCode postal: 77008\nPays: France\nCourriel: greffe.ta-melun@juradm.fr\nT\xE9l\xE9phone: +33 160566630\n\
-    Fax: +33 160566610\n\nVI.4.4)\n\nService aupr\xE8s duquel des renseignements peuvent \xEAtre obtenus sur l'introduction de recours\nNom officiel: tribunal administratif de Melun\nAdresse postale: 43, rue du G\xE9n\xE9ral de Gaulle\nVille: Melun\nCode postal: 77008\nPays: France\nCourriel: greffe.ta-melun@juradm.fr\nT\xE9l\xE9phone: +33 160566630\nFax: +33 160566610\n\nVI.5)\n\nDate d\u2019envoi du pr\xE9sent avis:\n28/12/2023\n\n02/01/2024\nS1\nhttps://ted.europa.eu/TED\n\n3/3\n```\n"
+  content_markdown: '# South Ile-de-France hospital fire-prevention works contract
+    extraction
+
+
+    Collected from the official TED procurement PDF on 2026-03-20.
+
+
+    Primary source URL: https://ted.europa.eu/fr/notice/000209-2024/pdfs
+
+
+    ## Listed sources
+
+    - TED notice XML 000209-2024: https://ted.europa.eu/en/notice/000209-2024/xml
+
+    - TED notice PDF 000209-2024 (FR): https://ted.europa.eu/fr/notice/000209-2024/pdfs
+
+    - TED notice detail 000209-2024: https://ted.europa.eu/en/notice/-/detail/000209-2024
+
+
+    ## Extracted source text
+
+
+    ```text
+
+    JO/S S1
+
+    02/01/2024
+
+    209-2024-FR
+
+
+    1/3
+
+
+    Cet avis sur le site TED: https://ted.europa.eu/udl?uri=TED:NOTICE:209-2024:TEXT:FR:HTML
+
+
+    France-Fontainebleau: Travaux d''installation de dispositifs de prévention contre
+    les incendies
+
+    2024/S 001-000209
+
+    Avis d’attribution de marché
+
+    Résultats de la procédure de marché
+
+    Travaux
+
+    Base juridique:
+
+    Directive 2014/24/UE
+
+    Section I: Pouvoir adjudicateur
+
+    I.1)
+
+    Nom et adresses
+
+    Nom officiel: gpe hospitalier du sud ile de france
+
+    Numéro national d''identification: 26770005200298
+
+    Adresse postale: centre Hospitalier Sud Seine et Marne, 55 Boulevard Maréchal
+    Joffre
+
+    Ville: Fontainebleau
+
+    Code NUTS: FR102 Seine-et-Marne
+
+    Code postal: 77300
+
+    Pays: France
+
+    Courriel: marches-publics@ghsif.fr
+
+    Adresse(s) internet:
+
+    Adresse principale: http://www.ch-sud-seine-et-marne.fr
+
+    Adresse du profil d’acheteur: http://www.agysoft.marches-publics.info
+
+    I.4)
+
+
+    Type de pouvoir adjudicateur
+
+    Autre type: autre
+
+
+    I.5)
+
+
+    Activité principale
+
+    Santé
+
+
+    Section II: Objet
+
+    II.1)
+
+    Étendue du marché
+
+    II.1.1)
+
+
+    Intitulé:
+
+    mise en conformité du Ssi (Système de Sécurité Incendie) (A Preciser Dans La Publication)
+    Bâtiment B -Plateau
+
+    Technique - site de Montereau
+
+    Numéro de référence: 23t004
+
+
+    II.1.2)
+
+
+    Code CPV principal
+
+    45343000 Travaux d''installation de dispositifs de prévention contre les incendies
+
+
+    II.1.3)
+
+
+    Type de marché
+
+    Travaux
+
+
+    II.1.4)
+
+
+    Description succincte:
+
+    la description des ouvrages et leurs spécifications techniques sont indiquées
+    dans le Cahier des Clauses
+
+    Techniques Particulières (C.C.T.P.).Lieu d''exécution :Chsud77- site Montereau
+    1bis, rue Victor Hugo77130
+
+    Montereau Fault YonneVisite obligatoire : Dates proposées le 17/10 à 13h00 ou
+    31/10 à 11h00 sur site
+
+
+    02/01/2024
+
+    S1
+
+    https://ted.europa.eu/TED
+
+
+    1/3
+
+
+    JO/S S1
+
+    02/01/2024
+
+    209-2024-FR
+
+
+    2/3
+
+
+    de Montereau - rdv portail Hôpital - 8 bld Cretté Preignard Montereau - inscription
+    au préalable par mail :
+
+    m.juillard@ch-sud77.fr
+
+    II.1.6)
+
+
+    Information sur les lots
+
+    Ce marché est divisé en lots: non
+
+
+    II.1.7)
+
+
+    Valeur totale du marché (hors TVA)
+
+    Valeur hors TVA: 139 715.64 EUR
+
+
+    II.2)
+
+
+    Description
+
+
+    II.2.2)
+
+
+    Code(s) CPV additionnel(s)
+
+    45343000 Travaux d''installation de dispositifs de prévention contre les incendies
+
+
+    II.2.3)
+
+
+    Lieu d''exécution
+
+    Code NUTS: FR102 Seine-et-Marne
+
+
+    II.2.4)
+
+
+    Description des prestations:
+
+    la description des ouvrages et leurs spécifications techniques sont indiquées
+    dans le Cahier des Clauses
+
+    Techniques Particulières (C.C.T.P.).Lieu d''exécution :Chsud77- site Montereau
+    1bis, rue Victor Hugo77130
+
+    Montereau Fault YonneVisite obligatoire : Dates proposées le 17/10 à 13h00 ou
+    31/10 à 11h00 sur site
+
+    de Montereau - rdv portail Hôpital - 8 bld Cretté Preignard Montereau - inscription
+    au préalable par mail :
+
+    m.juillard@ch-sud77.fr
+
+
+    II.2.5)
+
+
+    Critères d’attribution
+
+    Coût - Nom: Le prix n''est pas le seul critère d''attribution et tous les critères
+    sont énoncés uniquement dans les
+
+    documents du marché. / Pondération: 1
+
+
+    II.2.11)
+
+
+    Information sur les options
+
+    Options: non
+
+
+    II.2.13)
+
+
+    Information sur les fonds de l''Union européenne
+
+    Le contrat s''inscrit dans un projet/programme financé par des fonds de l''Union
+    européenne: non
+
+
+    II.2.14)
+
+
+    Informations complémentaires
+
+
+    Section IV: Procédure
+
+    IV.1)
+
+    Description
+
+    IV.1.1)
+
+
+    Type de procédure
+
+    Procédure ouverte
+
+
+    IV.1.3)
+
+
+    Information sur l''accord-cadre ou le système d''acquisition dynamique
+
+
+    IV.1.8)
+
+
+    Information concernant l’accord sur les marchés publics (AMP)
+
+    Le marché est couvert par l''accord sur les marchés publics: oui
+
+
+    IV.2)
+
+
+    Renseignements d''ordre administratif
+
+
+    IV.2.1)
+
+
+    Publication antérieure relative à la présente procédure
+
+    Numéro de l''avis au JO série S: 2023/S 194-606052
+
+
+    IV.2.8)
+
+
+    Informations sur l''abandon du système d''acquisition dynamique
+
+
+    IV.2.9)
+
+
+    Informations sur l''abandon de la procédure d''appel à la concurrence sous la
+    forme d''un avis de
+
+    préinformation
+
+
+    Section V: Attribution du marché
+
+    Un marché/lot est attribué: oui
+
+    V.2)
+
+
+    Attribution du marché
+
+
+    V.2.1)
+
+
+    Date de conclusion du marché:
+
+
+    02/01/2024
+
+    S1
+
+    https://ted.europa.eu/TED
+
+
+    2/3
+
+
+    JO/S S1
+
+    02/01/2024
+
+    209-2024-FR
+
+
+    3/3
+
+
+    26/12/2023
+
+    V.2.2)
+
+
+    Informations sur les offres
+
+    Nombre d''offres reçues: 3
+
+    Nombre d''offres reçues par voie électronique: 3
+
+    Le marché a été attribué à un groupement d''opérateurs économiques: non
+
+
+    V.2.3)
+
+
+    Nom et adresse du titulaire
+
+    Nom officiel: a.I.Tec
+
+    Adresse postale: 9 Av Du Canada
+
+    Ville: Les Ulis
+
+    Code NUTS: FR104 Essonne
+
+    Code postal: 91940
+
+    Pays: France
+
+    Le titulaire est une PME: oui
+
+
+    V.2.4)
+
+
+    Informations sur le montant du marché/du lot (hors TVA)
+
+    Valeur totale du marché/du lot: 139 175.64 EUR
+
+
+    V.2.5)
+
+
+    Information sur la sous-traitance
+
+
+    Section VI: Renseignements complémentaires
+
+    VI.3)
+
+    Informations complémentaires:
+
+    VI.4)
+
+
+    Procédures de recours
+
+
+    VI.4.1)
+
+
+    Instance chargée des procédures de recours
+
+    Nom officiel: tribunal administratif de Melun
+
+    Adresse postale: 43, rue du Général de Gaulle
+
+    Ville: Melun
+
+    Code postal: 77008
+
+    Pays: France
+
+    Courriel: greffe.ta-melun@juradm.fr
+
+    Téléphone: +33 160566630
+
+    Fax: +33 160566610
+
+
+    VI.4.4)
+
+
+    Service auprès duquel des renseignements peuvent être obtenus sur l''introduction
+    de recours
+
+    Nom officiel: tribunal administratif de Melun
+
+    Adresse postale: 43, rue du Général de Gaulle
+
+    Ville: Melun
+
+    Code postal: 77008
+
+    Pays: France
+
+    Courriel: greffe.ta-melun@juradm.fr
+
+    Téléphone: +33 160566630
+
+    Fax: +33 160566610
+
+
+    VI.5)
+
+
+    Date d’envoi du présent avis:
+
+    28/12/2023
+
+
+    02/01/2024
+
+    S1
+
+    https://ted.europa.eu/TED
+
+
+    3/3
+
+    ```
+
+    '
   required_artifacts:
   - source_record_file
   - source_record_metadata
@@ -40,10 +518,15 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 000209-2024.xml
     sha256: 22e24cd9b71f24916f5028ed3398a7e390fc2f1b19e71a20631fe796aadb2402
-    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
-    source_dataset: 'Case bundle from: TED notice XML 000209-2024 | TED notice PDF 000209-2024 (FR) | TED notice detail 000209-2024'
-    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+    acquisition_method: Fetch the official procurement record from the listed source
+      URLs, prefer machine-readable XML or PDF when available, and preserve the relevant
+      record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
+    source_dataset: 'Case bundle from: TED notice XML 000209-2024 | TED notice PDF
+      000209-2024 (FR) | TED notice detail 000209-2024'
+    notes: Checked-in markdown source document used for local validation and Hugging
+      Face export. Factual source content backfilled from the listed upstream sources.
   - id: original-source-01
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-ghsif-209/source-01-ted-notice-xml-000209-2024.xml
     role: original_source_snapshot
@@ -52,10 +535,14 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 000209-2024.xml
     sha256: 44a6cba64c043eca2fbd336401eed1604c56e55ef5cd89eeee56ad01e4bc4f73
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice XML 000209-2024
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
   - id: original-source-02
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-ghsif-209/source-02-ted-notice-pdf-000209-2024-fr.pdf
     role: original_source_snapshot
@@ -64,10 +551,14 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 000209-2024.pdf
     sha256: 195ca1e21a0dbbe85563e88fab03933c1c1ec3a51737efeabe5e3d64cc242b43
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice PDF 000209-2024 (FR)
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
   - id: original-source-03
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-ghsif-209/source-03-ted-notice-detail-000209-2024.html
     role: original_source_snapshot
@@ -76,10 +567,14 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 000209-2024.html
     sha256: 669a138568ba52863ca618ec2334615f0c801b05314d29daf8489d0a4e1c5402
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice detail 000209-2024
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
 expected_output:
   fields_required:
   - buyer_name
@@ -96,5 +591,12 @@ answer_key:
     amount: 139175.64
     category_code: '45343000'
 notes:
-- The award block provides the contractor, date, and value but leaves the award title blank, so the CPV must come from the object-contract section.
-- The official buyer name is lowercase in the XML and the supplier name includes punctuation, which makes normalization mistakes easy to detect.
+- The award block provides the contractor, date, and value but leaves the award title
+  blank, so the CPV must come from the object-contract section.
+- The official buyer name is lowercase in the XML and the supplier name includes punctuation,
+  which makes normalization mistakes easy to detect.
+source_languages:
+- fr
+evidence_languages:
+- fr
+answer_language: en

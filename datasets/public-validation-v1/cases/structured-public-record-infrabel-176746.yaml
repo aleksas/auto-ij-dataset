@@ -1,5 +1,5 @@
 id: structured-public-record-infrabel-176746
-status: draft
+status: validated
 title: Infrabel Area North-East railway works framework extraction
 task_type: field_extraction
 answer_mode: exact
@@ -11,23 +11,350 @@ sources:
   url: https://ted.europa.eu/en/notice/176746-2021/xml
   checked_on: 2026-03-20
   provenance: official_portal
+  language: en
 - label: TED notice PDF 176746-2021
   url: https://ted.europa.eu/en/notice/176746-2021/pdf
   checked_on: 2026-03-20
   provenance: official_portal
+  language: en
 - label: TED notice detail 176746-2021
   url: https://ted.europa.eu/en/notice/-/detail/176746-2021
   checked_on: 2026-03-20
   provenance: official_portal
+  language: en
 evidence_bundle:
   kind: structured_record
-  content_markdown: "# Infrabel Area North-East railway works framework extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/en/notice/176746-2021/pdf\n\n## Listed sources\n- TED notice XML 176746-2021: https://ted.europa.eu/en/notice/176746-2021/xml\n- TED notice PDF 176746-2021: https://ted.europa.eu/en/notice/176746-2021/pdf\n- TED notice detail 176746-2021: https://ted.europa.eu/en/notice/-/detail/176746-2021\n\n## Extracted source text\n\n```text\n176746-2021 - Result\n\nSee the notice on TED website\n\nBelgium-Antwerp: Railway construction works\nOJ S 69/2021 09/04/2021\nContract award notice \u2013 utilities\nWorks\nLegal Basis:\nDirective 2014/25/EU\nSection I: Contracting entity\nI.1. Name and addresses\nOfficial name: Infrabel \u2014 Directie Asset Management \u2014 Area North-East\nNational registration number: 0869.763.267_23935\nPostal address: Koningin Astridplein 27\nTown: Antwerpen\nNUTS code: BE211 Arr.\
-    \ Antwerpen\nPostal code: 2018\nCountry: Belgium\nContact person: Jeroen Hoeben\nE-mail: 51m05.aanneming@infrabel.be\nTelephone: +32 490525208\nInternet address(es):\nMain address: www.infrabel.be\nAddress of the buyer profile: https://enot.publicprocurement.be/enot-war/preViewNotice.do?\nnoticeId=406545\nI.6. Main activity\nRailway services\nSection II: Object\nII.1. Scope of the procurement\nII.1.1. Title\n57/52/2/19/024 \u2014 Raamovereenkomst: spoorwerken in havengebied Area North-East.\nOpbraak en aanleg van sporen, spoortoestellen, dienstpaden en overwegen\nReference number: I-I.NO-5752219024-F06_0\nII.1.2. Main CPV code\n45234100 Railway construction works\nII.1.3. Type of contract\nWorks\nII.1.4. Short description\nDe aanneming omvat voornamelijk:\n\u2014 de uitbraak, aanleg en het verschuiven van sporen en spoortoestellen,\n\u2014 het afgraven, lossen afhalen, verwerken en ziften van grond/ballast,\n\u2014 de aanleg van nieuwe dienstwegen en dienstovergangen,\n\u2014 het uitvoeren\
-    \ van aluminothermische lassen,\n176746-2021\n\nPage 1/4\n\n\u2014 het leveren van logistieke prestaties,\n\u2014 kabelwerken,\n\u2014 het uitbreken en aanleggen van overwegen.\nII.1.6. Information about lots\nThis contract is divided into lots: no\nII.1.7. Total value of the procurement\nValue excluding VAT: 5 944 010,55 EUR\nII.2. Description\nII.2.3. Place of performance\nNUTS code: BE211 Arr. Antwerpen\nMain site or place of performance: Havengebied Area North-East\nII.2.4. Description of the procurement\nZie bestek.\nII.2.5. Award criteria\nPrice\nII.2.11. Information about options\nOptions: no\nII.2.13. Information about European Union funds\nThe procurement is related to a project and/or programme financed by European Union funds:\nno\nII.2.14. Additional information\nSection IV: Procedure\nIV.1. Description\nIV.1.1. Type of procedure\nOpen procedure\nIV.1.3. Information about a framework agreement or a dynamic purchasing system\nThe procurement involves the establishment of a\
-    \ framework agreement\nIV.1.8. Information about the Government Procurement Agreement (GPA)\nThe procurement is covered by the Government Procurement Agreement: no\nIV.2. Administrative information\nIV.2.1. Previous publication concerning this procedure\nNotice number in the OJ S: 2020/S 155-380155\nIV.2.8. Information about termination of dynamic purchasing system\nIV.2.9. Information about termination of call for competition in the form of a periodic indicative\nnotice\nSection V: Award of contract\n\n176746-2021\n\nPage 2/4\n\nA contract/lot is awarded: yes\nV.2. Award of contract\nV.2.1. Date of conclusion of the contract\n31/03/2021\nV.2.2. Information about tenders\nNumber of tenders received: 4\nNumber of tenders received by electronic means: 4\nThe contract has been awarded to a group of economic operators: no\nV.2.3. Name and address of the contractor\nOfficial name: Vanormelingen-Stas\nPostal address: Mandpallen 1\nTown: Booischot\nNUTS code: BE212 Arr. Mechelen\nPostal code:\
-    \ 2221\nCountry: Belgium\nThe contractor is an SME: yes\nV.2.4. Information on value of the contract/lot\nInitial estimated total value of the contract/lot: 5 008 557,46 EUR\nTotal value of the contract/lot: 5 944 010,55 EUR\nV.2.5. Information about subcontracting\nV.2.6. Price paid for bargain purchases\nSection VI: Complementary information\nVI.3. Additional information\nDe looptijd van de raamovereenkomst bedraagt vier jaar.\nEen Uniform Europees Aanbestedingsdocument is verplicht. Bij het deel lV betreffende het\nvoldoen van de ondernemer aan de selectiecriteria is het voldoende om in dit deel enkel de\nsectie 'Algemene aanwijzing voor alle selectiecriteria\" in te vullen. De inschrijver moet in dit\ndeel vermelden of hij voldoet aan de gevraagde erkenning voor deze opdracht.\nDe opdrachtdocumenten (bestek en bijlagen) zijn gratis te downloaden op: https://enot.\npublicprocurement.be\nWij raden u ten stelligste aan om u te registreren, op die manier wordt u automatisch op de\nhoogte\
-    \ gebracht bij eventuele addenda, verbeteringsberichten, aanvullende informatie, enz.\nDoor zich kandidaat te stellen en/of door in te schrijven op de huidige opdracht, erkennen de\nkandidaten en inschrijvers dat zij kennis hebben genomen van de gedragscode voor de\nleveranciers en aannemers van lnfrabel en verbinden zijzich ertoe om de bepalingen ervan na\nte leven. Deze gedragscode kan geraadpleegd en gedownload worden op de site www.\ninfrabel.be onder de\nRubriek \"Business \u2014 Leveranciers en aannemers\".\nVI.4. Procedures for review\nVI.4.1. Review body\nOfficial name: Raad van State\nPostal address: Wetenschapsstraat 33\n176746-2021\n\nPage 3/4\n\nTown: Brussel\nPostal code: 1040\nCountry: Belgium\nE-mail: info@raadvst-consetat.be\nTelephone: +32 22349611\nInternet address: www.raadvst-consetat.be\nVI.4.3. Review procedure\nPrecise information on deadline(s) for review procedures:\nZie artikel 23 van de Wet van 17.6.2013 betreffende de motivering, de informatie en de\nrechtsmiddelen\
-    \ inzake overheidsopdrachten en bepaalde opdrachten voor werken, leveringen\nen diensten.\nVI.5. Date of dispatch of this notice\n04/04/2021\n\n176746-2021\n\nPage 4/4\n```\n"
+  content_markdown: '# Infrabel Area North-East railway works framework extraction
+
+
+    Collected from the official TED procurement PDF on 2026-03-20.
+
+
+    Primary source URL: https://ted.europa.eu/en/notice/176746-2021/pdf
+
+
+    ## Listed sources
+
+    - TED notice XML 176746-2021: https://ted.europa.eu/en/notice/176746-2021/xml
+
+    - TED notice PDF 176746-2021: https://ted.europa.eu/en/notice/176746-2021/pdf
+
+    - TED notice detail 176746-2021: https://ted.europa.eu/en/notice/-/detail/176746-2021
+
+
+    ## Extracted source text
+
+
+    ```text
+
+    176746-2021 - Result
+
+
+    See the notice on TED website
+
+
+    Belgium-Antwerp: Railway construction works
+
+    OJ S 69/2021 09/04/2021
+
+    Contract award notice – utilities
+
+    Works
+
+    Legal Basis:
+
+    Directive 2014/25/EU
+
+    Section I: Contracting entity
+
+    I.1. Name and addresses
+
+    Official name: Infrabel — Directie Asset Management — Area North-East
+
+    National registration number: 0869.763.267_23935
+
+    Postal address: Koningin Astridplein 27
+
+    Town: Antwerpen
+
+    NUTS code: BE211 Arr. Antwerpen
+
+    Postal code: 2018
+
+    Country: Belgium
+
+    Contact person: Jeroen Hoeben
+
+    E-mail: 51m05.aanneming@infrabel.be
+
+    Telephone: +32 490525208
+
+    Internet address(es):
+
+    Main address: www.infrabel.be
+
+    Address of the buyer profile: https://enot.publicprocurement.be/enot-war/preViewNotice.do?
+
+    noticeId=406545
+
+    I.6. Main activity
+
+    Railway services
+
+    Section II: Object
+
+    II.1. Scope of the procurement
+
+    II.1.1. Title
+
+    57/52/2/19/024 — Raamovereenkomst: spoorwerken in havengebied Area North-East.
+
+    Opbraak en aanleg van sporen, spoortoestellen, dienstpaden en overwegen
+
+    Reference number: I-I.NO-5752219024-F06_0
+
+    II.1.2. Main CPV code
+
+    45234100 Railway construction works
+
+    II.1.3. Type of contract
+
+    Works
+
+    II.1.4. Short description
+
+    De aanneming omvat voornamelijk:
+
+    — de uitbraak, aanleg en het verschuiven van sporen en spoortoestellen,
+
+    — het afgraven, lossen afhalen, verwerken en ziften van grond/ballast,
+
+    — de aanleg van nieuwe dienstwegen en dienstovergangen,
+
+    — het uitvoeren van aluminothermische lassen,
+
+    176746-2021
+
+
+    Page 1/4
+
+
+    — het leveren van logistieke prestaties,
+
+    — kabelwerken,
+
+    — het uitbreken en aanleggen van overwegen.
+
+    II.1.6. Information about lots
+
+    This contract is divided into lots: no
+
+    II.1.7. Total value of the procurement
+
+    Value excluding VAT: 5 944 010,55 EUR
+
+    II.2. Description
+
+    II.2.3. Place of performance
+
+    NUTS code: BE211 Arr. Antwerpen
+
+    Main site or place of performance: Havengebied Area North-East
+
+    II.2.4. Description of the procurement
+
+    Zie bestek.
+
+    II.2.5. Award criteria
+
+    Price
+
+    II.2.11. Information about options
+
+    Options: no
+
+    II.2.13. Information about European Union funds
+
+    The procurement is related to a project and/or programme financed by European
+    Union funds:
+
+    no
+
+    II.2.14. Additional information
+
+    Section IV: Procedure
+
+    IV.1. Description
+
+    IV.1.1. Type of procedure
+
+    Open procedure
+
+    IV.1.3. Information about a framework agreement or a dynamic purchasing system
+
+    The procurement involves the establishment of a framework agreement
+
+    IV.1.8. Information about the Government Procurement Agreement (GPA)
+
+    The procurement is covered by the Government Procurement Agreement: no
+
+    IV.2. Administrative information
+
+    IV.2.1. Previous publication concerning this procedure
+
+    Notice number in the OJ S: 2020/S 155-380155
+
+    IV.2.8. Information about termination of dynamic purchasing system
+
+    IV.2.9. Information about termination of call for competition in the form of a
+    periodic indicative
+
+    notice
+
+    Section V: Award of contract
+
+
+    176746-2021
+
+
+    Page 2/4
+
+
+    A contract/lot is awarded: yes
+
+    V.2. Award of contract
+
+    V.2.1. Date of conclusion of the contract
+
+    31/03/2021
+
+    V.2.2. Information about tenders
+
+    Number of tenders received: 4
+
+    Number of tenders received by electronic means: 4
+
+    The contract has been awarded to a group of economic operators: no
+
+    V.2.3. Name and address of the contractor
+
+    Official name: Vanormelingen-Stas
+
+    Postal address: Mandpallen 1
+
+    Town: Booischot
+
+    NUTS code: BE212 Arr. Mechelen
+
+    Postal code: 2221
+
+    Country: Belgium
+
+    The contractor is an SME: yes
+
+    V.2.4. Information on value of the contract/lot
+
+    Initial estimated total value of the contract/lot: 5 008 557,46 EUR
+
+    Total value of the contract/lot: 5 944 010,55 EUR
+
+    V.2.5. Information about subcontracting
+
+    V.2.6. Price paid for bargain purchases
+
+    Section VI: Complementary information
+
+    VI.3. Additional information
+
+    De looptijd van de raamovereenkomst bedraagt vier jaar.
+
+    Een Uniform Europees Aanbestedingsdocument is verplicht. Bij het deel lV betreffende
+    het
+
+    voldoen van de ondernemer aan de selectiecriteria is het voldoende om in dit deel
+    enkel de
+
+    sectie ''Algemene aanwijzing voor alle selectiecriteria" in te vullen. De inschrijver
+    moet in dit
+
+    deel vermelden of hij voldoet aan de gevraagde erkenning voor deze opdracht.
+
+    De opdrachtdocumenten (bestek en bijlagen) zijn gratis te downloaden op: https://enot.
+
+    publicprocurement.be
+
+    Wij raden u ten stelligste aan om u te registreren, op die manier wordt u automatisch
+    op de
+
+    hoogte gebracht bij eventuele addenda, verbeteringsberichten, aanvullende informatie,
+    enz.
+
+    Door zich kandidaat te stellen en/of door in te schrijven op de huidige opdracht,
+    erkennen de
+
+    kandidaten en inschrijvers dat zij kennis hebben genomen van de gedragscode voor
+    de
+
+    leveranciers en aannemers van lnfrabel en verbinden zijzich ertoe om de bepalingen
+    ervan na
+
+    te leven. Deze gedragscode kan geraadpleegd en gedownload worden op de site www.
+
+    infrabel.be onder de
+
+    Rubriek "Business — Leveranciers en aannemers".
+
+    VI.4. Procedures for review
+
+    VI.4.1. Review body
+
+    Official name: Raad van State
+
+    Postal address: Wetenschapsstraat 33
+
+    176746-2021
+
+
+    Page 3/4
+
+
+    Town: Brussel
+
+    Postal code: 1040
+
+    Country: Belgium
+
+    E-mail: info@raadvst-consetat.be
+
+    Telephone: +32 22349611
+
+    Internet address: www.raadvst-consetat.be
+
+    VI.4.3. Review procedure
+
+    Precise information on deadline(s) for review procedures:
+
+    Zie artikel 23 van de Wet van 17.6.2013 betreffende de motivering, de informatie
+    en de
+
+    rechtsmiddelen inzake overheidsopdrachten en bepaalde opdrachten voor werken,
+    leveringen
+
+    en diensten.
+
+    VI.5. Date of dispatch of this notice
+
+    04/04/2021
+
+
+    176746-2021
+
+
+    Page 4/4
+
+    ```
+
+    '
   required_artifacts:
   - source_record_file
   - source_record_metadata
@@ -40,10 +367,15 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 176746-2021.xml
     sha256: bb7dc7f6615b8a632905f06e2888ae17e983453e9430206f5be8a48560016072
-    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
-    source_dataset: 'Case bundle from: TED notice XML 176746-2021 | TED notice PDF 176746-2021 | TED notice detail 176746-2021'
-    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+    acquisition_method: Fetch the official procurement record from the listed source
+      URLs, prefer machine-readable XML or PDF when available, and preserve the relevant
+      record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
+    source_dataset: 'Case bundle from: TED notice XML 176746-2021 | TED notice PDF
+      176746-2021 | TED notice detail 176746-2021'
+    notes: Checked-in markdown source document used for local validation and Hugging
+      Face export. Factual source content backfilled from the listed upstream sources.
   - id: original-source-01
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-infrabel-176746/source-01-ted-notice-xml-176746-2021.xml
     role: original_source_snapshot
@@ -52,10 +384,14 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 176746-2021.xml
     sha256: 698d879e3ab20cd19b6a0a722c7065d96f944a2cc9a9f64a78bcdea104b552fd
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice XML 176746-2021
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
   - id: original-source-02
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-infrabel-176746/source-02-ted-notice-pdf-176746-2021.pdf
     role: original_source_snapshot
@@ -64,10 +400,14 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 176746-2021.pdf
     sha256: 71482370e8071ee04209fb7ff79f8a6c5190885c2bfae72e953d1f1d26f1e52c
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice PDF 176746-2021
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
   - id: original-source-03
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-infrabel-176746/source-03-ted-notice-detail-176746-2021.html
     role: original_source_snapshot
@@ -76,10 +416,14 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 176746-2021.html
     sha256: 032ce28ce38736f934f136a764efddddc97a14ee04dd9cf63fc9eeaf38303394
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice detail 176746-2021
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
 expected_output:
   fields_required:
   - buyer_name
@@ -96,5 +440,12 @@ answer_key:
     amount: 5944010.55
     category_code: '45234100'
 notes:
-- This Belgium utilities notice adds a new country slice while keeping the standard TED XML, PDF, and detail provenance pattern.
-- The title and description are in Dutch, but the exact answer key stays on the published buyer, contractor, award date, total value, and main CPV fields.
+- This Belgium utilities notice adds a new country slice while keeping the standard
+  TED XML, PDF, and detail provenance pattern.
+- The title and description are in Dutch, but the exact answer key stays on the published
+  buyer, contractor, award date, total value, and main CPV fields.
+source_languages:
+- en
+evidence_languages:
+- en
+answer_language: en

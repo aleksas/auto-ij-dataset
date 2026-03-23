@@ -1,5 +1,5 @@
 id: structured-public-record-latvijas-banka-100294
-status: draft
+status: validated
 title: Latvijas Banka Moody's Analytics database services contract extraction
 task_type: field_extraction
 answer_mode: exact
@@ -11,17 +11,72 @@ sources:
   url: https://ted.europa.eu/en/notice/100294-2021/xml
   checked_on: 2026-03-22
   provenance: official_portal
+  language: lv
 - label: TED notice PDF 100294-2021 (LV)
   url: https://ted.europa.eu/lv/notice/100294-2021/pdfs
   checked_on: 2026-03-22
   provenance: official_portal
+  language: lv
 - label: TED notice detail 100294-2021
   url: https://ted.europa.eu/en/notice/-/detail/100294-2021
   checked_on: 2026-03-22
   provenance: official_portal
+  language: lv
 evidence_bundle:
   kind: structured_record
-  content_markdown: "# TED notice 100294-2021\n\nCollected from the official TED XML on 2026-03-22.\n\n## Notice metadata\n- Original language: LV\n- Reference number: `2020/81`\n- Notice type: Contract award notice\n- Original CPV code: `72321000`\n- Notice-level procurement total: `177726 GBP`\n\n## Contracting authority\n- `OFFICIALNAME`: Latvijas Banka\n- `NATIONALID`: 90000158236\n- `ADDRESS`: K. Valdem\u0101ra iela 2A\n- `URL_GENERAL`: https://www.bank.lv\n\n## Object contract\n- `TITLE`: Par \u201CMoody's\u201D pakalpojumu izmanto\u0161anu\n- `SHORT_DESCR`: \u201CMoody's Analytics UK\u201D Ltd. sniegto pakalpojumu \u201CMoody\u2019s CreditView\u201D izmanto\u0161ana.\n- `CPV_CODE`: 72321000\n- `VAL_TOTAL`: 177726 GBP\n\n## Awarded contract\n- `DATE_CONCLUSION_CONTRACT`: 2021-02-01\n- `CONTRACTOR/OFFICIALNAME`: \u201CMoody's Analytics UK\u201D Ltd.\n- `AWARDED_CONTRACT/VAL_ESTIMATED_TOTAL`: 177726 GBP\n- `AWARDED_CONTRACT/VAL_TOTAL`: 177726 EUR\n"
+  content_markdown: '# TED notice 100294-2021
+
+
+    Collected from the official TED XML on 2026-03-22.
+
+
+    ## Notice metadata
+
+    - Original language: LV
+
+    - Reference number: `2020/81`
+
+    - Notice type: Contract award notice
+
+    - Original CPV code: `72321000`
+
+    - Notice-level procurement total: `177726 GBP`
+
+
+    ## Contracting authority
+
+    - `OFFICIALNAME`: Latvijas Banka
+
+    - `NATIONALID`: 90000158236
+
+    - `ADDRESS`: K. Valdemāra iela 2A
+
+    - `URL_GENERAL`: https://www.bank.lv
+
+
+    ## Object contract
+
+    - `TITLE`: Par “Moody''s” pakalpojumu izmantošanu
+
+    - `SHORT_DESCR`: “Moody''s Analytics UK” Ltd. sniegto pakalpojumu “Moody’s CreditView”
+    izmantošana.
+
+    - `CPV_CODE`: 72321000
+
+    - `VAL_TOTAL`: 177726 GBP
+
+
+    ## Awarded contract
+
+    - `DATE_CONCLUSION_CONTRACT`: 2021-02-01
+
+    - `CONTRACTOR/OFFICIALNAME`: “Moody''s Analytics UK” Ltd.
+
+    - `AWARDED_CONTRACT/VAL_ESTIMATED_TOTAL`: 177726 GBP
+
+    - `AWARDED_CONTRACT/VAL_TOTAL`: 177726 EUR
+
+    '
   required_artifacts:
   - source_record_file
   - source_record_metadata
@@ -34,10 +89,15 @@ evidence_bundle:
     collected_at: '2026-03-22'
     original_filename: 100294-2021.xml
     sha256: 183bf0dbcf200d5f27ab47d3ceae8e4eaa81e32eecbdf761d59e547d3fd416d1
-    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
-    source_dataset: 'Case bundle from: TED notice XML 100294-2021 | TED notice PDF 100294-2021 (LV) | TED notice detail 100294-2021'
-    notes: Checked-in markdown source document used for local validation and Hugging Face export. Derived from the cited upstream source material recorded in sources[].
+    acquisition_method: Fetch the official procurement record from the listed source
+      URLs, prefer machine-readable XML or PDF when available, and preserve the relevant
+      record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
+    source_dataset: 'Case bundle from: TED notice XML 100294-2021 | TED notice PDF
+      100294-2021 (LV) | TED notice detail 100294-2021'
+    notes: Checked-in markdown source document used for local validation and Hugging
+      Face export. Derived from the cited upstream source material recorded in sources[].
   - id: original-source-01
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-latvijas-banka-100294/source-01-ted-notice-xml-100294-2021.xml
     role: original_source_snapshot
@@ -46,10 +106,14 @@ evidence_bundle:
     collected_at: '2026-03-22'
     original_filename: 100294-2021.xml
     sha256: c5a3be593c64483c8406529331b8565fdb28a115daaac858367876747c985c91
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice XML 100294-2021
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
   - id: original-source-02
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-latvijas-banka-100294/source-02-ted-notice-pdf-100294-2021-lv.pdf
     role: original_source_snapshot
@@ -58,10 +122,14 @@ evidence_bundle:
     collected_at: '2026-03-22'
     original_filename: 100294-2021.pdf
     sha256: 39e947c43ed5087794350c646e0046c126d9a744947a92e2f3c6d77c68a368c3
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice PDF 100294-2021 (LV)
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
   - id: original-source-03
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-latvijas-banka-100294/source-03-ted-notice-detail-100294-2021.html
     role: original_source_snapshot
@@ -70,10 +138,14 @@ evidence_bundle:
     collected_at: '2026-03-22'
     original_filename: 100294-2021.html
     sha256: 3bd34dc4a3b94c67dc5a5d072da3258f28d8bcde1c48785f4e3dc682d5a17b56
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice detail 100294-2021
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
 expected_output:
   fields_required:
   - buyer_name
@@ -85,11 +157,20 @@ answer_key:
   type: structured_fields
   fields:
     buyer_name: Latvijas Banka
-    supplier_name: "\u201CMoody's Analytics UK\u201D Ltd."
+    supplier_name: “Moody's Analytics UK” Ltd.
     award_date: '2021-02-01'
     amount: 177726
     category_code: '72321000'
 notes:
-- This Latvia case adds a central-bank procurement slice while keeping the standard TED XML, native-language PDF, and detail-page provenance bundle.
-- The awarded amount is published in GBP and the supplier name includes typographic quotes, so extraction should copy the official winner and value fields rather than normalize them away.
-- The inline evidence preserves the notice-level and award-level amount fields together, making the currency inconsistency explicit for validation and review.
+- This Latvia case adds a central-bank procurement slice while keeping the standard
+  TED XML, native-language PDF, and detail-page provenance bundle.
+- The awarded amount is published in GBP and the supplier name includes typographic
+  quotes, so extraction should copy the official winner and value fields rather than
+  normalize them away.
+- The inline evidence preserves the notice-level and award-level amount fields together,
+  making the currency inconsistency explicit for validation and review.
+source_languages:
+- lv
+evidence_languages:
+- lv
+answer_language: en

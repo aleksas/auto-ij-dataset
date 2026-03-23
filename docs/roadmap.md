@@ -14,6 +14,8 @@ Status: complete.
 
 Status: in progress. The repo now includes the first real official-procurement slice alongside the four cross-family templates.
 
+Status note: the suite manifest now tracks this operational state as `phase_2_in_progress`. Use [`public-validation-v1-status.md`](public-validation-v1-status.md) or `auto-dataset summary datasets/public-validation-v1/manifest.yaml` for live counts; this roadmap is phase narrative, not telemetry.
+
 - replace template placeholders with real public cases
 - preserve source files or source URLs for each case
 - derive answer keys from official fields where possible

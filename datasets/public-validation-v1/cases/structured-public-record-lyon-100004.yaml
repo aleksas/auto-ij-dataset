@@ -1,5 +1,5 @@
 id: structured-public-record-lyon-100004
-status: draft
+status: validated
 title: Metropole de Lyon entrepreneurship strategy communications contract extraction
 task_type: field_extraction
 answer_mode: exact
@@ -11,27 +11,661 @@ sources:
   url: https://ted.europa.eu/en/notice/100004-2021/xml
   checked_on: 2026-03-20
   provenance: official_portal
+  language: fr
 - label: TED notice PDF 100004-2021 (FR)
   url: https://ted.europa.eu/fr/notice/100004-2021/pdfs
   checked_on: 2026-03-20
   provenance: official_portal
+  language: fr
 - label: TED notice detail 100004-2021
   url: https://ted.europa.eu/en/notice/-/detail/100004-2021
   checked_on: 2026-03-20
   provenance: official_portal
+  language: fr
 evidence_bundle:
   kind: structured_record
-  content_markdown: "# Metropole de Lyon entrepreneurship strategy communications contract extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/fr/notice/100004-2021/pdfs\n\n## Listed sources\n- TED notice XML 100004-2021: https://ted.europa.eu/en/notice/100004-2021/xml\n- TED notice PDF 100004-2021 (FR): https://ted.europa.eu/fr/notice/100004-2021/pdfs\n- TED notice detail 100004-2021: https://ted.europa.eu/en/notice/-/detail/100004-2021\n\n## Extracted source text\n\n```text\nJO/S S40\n26/02/2021\n100004-2021-FR\n\n1/5\n\nCet avis sur le site TED: https://ted.europa.eu/udl?uri=TED:NOTICE:100004-2021:TEXT:FR:HTML\n\nFrance-Lyon: Services de promotion\n2021/S 040-100004\nAvis d\u2019attribution de march\xE9\nR\xE9sultats de la proc\xE9dure de march\xE9\nServices\nBase juridique:\nDirective 2014/24/UE\nSection I: Pouvoir adjudicateur\nI.1)\nNom et adresses\nNom officiel: M\xE9tropole de Lyon\nNum\xE9ro national d'identification:\
-    \ 20004697700019\nAdresse postale: 20 rue du Lac, CS 33569\nVille: Lyon Cedex 3\nCode NUTS: FRK26 Rh\xF4ne\nCode postal: 69505\nPays: France\nPoint(s) de contact: \xC0 l'attention de M. le pr\xE9sident de la M\xE9tropole de Lyon\nCourriel: DEES_marches@grandlyon.com\nFax: +33 426993058\nAdresse(s) internet:\nAdresse principale: http://grandlyon.com\nAdresse du profil d\u2019acheteur: http://marchespublics.grandlyon.com\nI.4)\n\nType de pouvoir adjudicateur\nAutre type: Collectivit\xE9 territoriale \xE0 statut particulier\n\nI.5)\n\nActivit\xE9 principale\nServices g\xE9n\xE9raux des administrations publiques\n\nSection II: Objet\nII.1)\n\xC9tendue du march\xE9\nII.1.1)\n\nIntitul\xE9:\nPromotion de la strat\xE9gie entrepreneuriat de la M\xE9tropole de Lyon et la r\xE9alisation des outils de communication\nassoci\xE9s 2021-2024\nNum\xE9ro de r\xE9f\xE9rence: 20DEI017\n\nII.1.2)\n\nCode CPV principal\n79342200 Services de promotion\n\nII.1.3)\n\nType de march\xE9\nServices\n\nII.1.4)\n\
-    \nDescription succincte:\nLe prestataire devra comprendre et s'approprier la dimension strat\xE9gique de la th\xE9matique \xE0 l'\xE9chelle de\nla M\xE9tropole de Lyon. Il devra \xE9galement proposer une strat\xE9gie \xE9volutive sur deux ans permettant des\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n1/5\n\nJO/S S40\n26/02/2021\n100004-2021-FR\n\n2/5\n\najustements permanents et \xEAtre force de proposition pour identifier des outils de communication innovants,\nadapt\xE9s \xE0 nos univers, nos cibles, nos \xE9v\xE9nements. Il sera donc en charge de benchmarks r\xE9guliers, de\nproduction de strat\xE9gies et de plan d'actions ainsi que les supports de communication associ\xE9s.\nII.1.6)\n\nInformation sur les lots\nCe march\xE9 est divis\xE9 en lots: non\n\nII.1.7)\n\nValeur totale du march\xE9 (hors TVA)\nValeur hors TVA: 660 000.00 EUR\n\nII.2)\n\nDescription\n\nII.2.2)\n\nCode(s) CPV additionnel(s)\n79342200 Services de promotion\n\nII.2.3)\n\nLieu d'ex\xE9cution\nCode NUTS:\
-    \ FRK26 Rh\xF4ne\nLieu principal d'ex\xE9cution:\nTerritoire de la M\xE9tropole de Lyon.\n\nII.2.4)\n\nDescription des prestations:\nLe prestataire devra comprendre et s'approprier la dimension strat\xE9gique de la th\xE9matique \xE0 l'\xE9chelle de\nla M\xE9tropole de Lyon. Il devra \xE9galement proposer une strat\xE9gie \xE9volutive sur deux ans permettant des\najustements permanents et \xEAtre force de proposition pour identifier des outils de communication innovants,\nadapt\xE9s \xE0 nos univers, nos cibles, nos \xE9v\xE9nements. Il sera donc en charge de benchmarks r\xE9guliers, de\nproduction de strat\xE9gies et de plan d'actions ainsi que les supports de communication associ\xE9s.\n\nII.2.5)\n\nCrit\xE8res d\u2019attribution\nCrit\xE8re de qualit\xE9 - Nom: Crit\xE8re 1: valeur technique appr\xE9ci\xE9e au regard de trois sous-crit\xE8res / Pond\xE9ration: 70\nPrix - Pond\xE9ration: 30\n\nII.2.11)\n\nInformation sur les options\nOptions: non\n\nII.2.13)\n\nInformation sur les\
-    \ fonds de l'Union europ\xE9enne\nLe contrat s'inscrit dans un projet/programme financ\xE9 par des fonds de l'Union europ\xE9enne: non\n\nII.2.14)\n\nInformations compl\xE9mentaires\nL'accord-cadre (mis en \u0153uvre par l'\xE9mission de bons de commande) est conclu au sens des articles R. 2162-1\n\xE0 R. 2162-6, R. 2162-13 et R. 2162-14 CCP.\n\u2014 Montant minimum pour chaque p\xE9riode de deux ans: 140 000 EUR HT,\n\u2014 Montant maximum pour chaque p\xE9riode de deux ans: 330 000 EUR (HT).\n\nSection IV: Proc\xE9dure\nIV.1)\nDescription\nIV.1.1)\n\nType de proc\xE9dure\nProc\xE9dure ouverte\n\nIV.1.3)\n\nInformation sur l'accord-cadre ou le syst\xE8me d'acquisition dynamique\nLe march\xE9 implique la mise en place d'un accord-cadre\n\nIV.1.8)\n\nInformation concernant l\u2019accord sur les march\xE9s publics (AMP)\nLe march\xE9 est couvert par l'accord sur les march\xE9s publics: oui\n\nIV.2)\n\nRenseignements d'ordre administratif\n\nIV.2.1)\n\nPublication ant\xE9rieure relative\
-    \ \xE0 la pr\xE9sente proc\xE9dure\nNum\xE9ro de l'avis au JO s\xE9rie S: 2020/S 127-310976\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n2/5\n\nJO/S S40\n26/02/2021\n100004-2021-FR\n\nIV.2.8)\n\nInformations sur l'abandon du syst\xE8me d'acquisition dynamique\n\nIV.2.9)\n\nInformations sur l'abandon de la proc\xE9dure d'appel \xE0 la concurrence sous la forme d'un avis de\npr\xE9information\n\n3/5\n\nSection V: Attribution du march\xE9\nMarch\xE9 n\xBA: 2021-593\nIntitul\xE9:\nPromotion de la strat\xE9gie entrepreneuriat de la M\xE9tropole de Lyon et la r\xE9alisation des outils de communication\nassoci\xE9s 2021-2024\nUn march\xE9/lot est attribu\xE9: oui\nV.2)\n\nAttribution du march\xE9\n\nV.2.1)\n\nDate de conclusion du march\xE9:\n13/02/2021\n\nV.2.2)\n\nInformations sur les offres\nNombre d'offres re\xE7ues: 7\nNombre d'offres re\xE7ues de la part de PME: 4\nNombre d'offres re\xE7ues de la part de soumissionnaires d'autres \xC9tats membres de l'UE: 0\nNombre d'offres re\xE7\
-    ues de la part de soumissionnaires d'\xC9tats non membres de l'UE: 0\nNombre d'offres re\xE7ues par voie \xE9lectronique: 7\nLe march\xE9 a \xE9t\xE9 attribu\xE9 \xE0 un groupement d'op\xE9rateurs \xE9conomiques: non\n\nV.2.3)\n\nNom et adresse du titulaire\nNom officiel: TBWA/Groupe\nNum\xE9ro national d'identification: 68200507900038\nAdresse postale: 162 rue de Billancourt\nVille: Boulogne-Billancourt Cedex\nCode NUTS: FR105 Hauts-de-Seine\nCode postal: 92103\nPays: France\nLe titulaire est une PME: non\n\nV.2.4)\n\nInformations sur le montant du march\xE9/du lot (hors TVA)\nValeur totale du march\xE9/du lot: 660 000.00 EUR\n\nV.2.5)\n\nInformation sur la sous-traitance\n\nSection VI: Renseignements compl\xE9mentaires\nVI.3)\nInformations compl\xE9mentaires:\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n3/5\n\nJO/S S40\n26/02/2021\n100004-2021-FR\n\n4/5\n\nLe march\xE9 est consultable sur rendez-vous les jours ouvr\xE9s de 9h00 \xE0 12h00 et de 14h00 \xE0 16h00 sur\ndemande \xE9\
-    crite\n\xC0 l'adresse e-mail suivante: dees_marches@grandlyon.com - La demande \xE9crite devra identifier le demandeur\npersonne juridique et personne physique qui devra pouvoir justifier de son identit\xE9 lors de la consultation.\nPr\xE9cisions sur les crit\xE8res d'attribution du march\xE9:\n\u2014 crit\xE8re 1: valeur technique appr\xE9ci\xE9e au regard des trois sous-crit\xE8res suivants, 70 %:\n\u2014\u2014 sous-crit\xE8re 1.1: pertinence des orientations strat\xE9giques envisag\xE9es sur deux ans pour la th\xE9matique\nentrepreneuriat dans la M\xE9tropole de Lyon et le planning des actions envisag\xE9es, 35 %;\n\u2014\u2014 sous-crit\xE8re 1.2: pertinence des outils de communication innovants propos\xE9s pour la promotion de LYVE,\n25 %;\n\u2014\u2014 sous-crit\xE8re 1.3: pertinence de la composition de l'\xE9quipe projet d\xE9di\xE9e \xE0 la mission appr\xE9ci\xE9e au vu des\nCV ou \xE9quivalent d\xE9taillant les profils des membres de l'\xE9quipe et les modalit\xE9s de collaboration\
-    \ de travail\nenvisag\xE9es, 10 %;\n\u2014 crit\xE8re 2: prix des prestations appr\xE9ci\xE9 sur la base d'une simulation de commande jointe jointe au DCE: 30\n%.\nVI.4)\n\nProc\xE9dures de recours\n\nVI.4.1)\n\nInstance charg\xE9e des proc\xE9dures de recours\nNom officiel: Tribunal administratif de Lyon\nAdresse postale: 184 rue Duguesclin\nVille: Lyon\nCode postal: 69003\nPays: France\nCourriel: greffe.ta-lyon@juradm.fr\nT\xE9l\xE9phone: +33 478141010\n\nVI.4.3)\n\nIntroduction de recours\nPr\xE9cisions concernant les d\xE9lais d'introduction de recours:\nLes recours susceptibles d'\xEAtre form\xE9s pour contester la passation du march\xE9, ainsi que les d\xE9lais d'introduction\no\n\nde ces recours, depuis l'entr\xE9e en vigueur de l'ordonnance n 2009-515 du 7.5.2009 relative aux proc\xE9dures de\nrecours applicables aux contrats de la commande publique sont les suivants:\n\u2014 avant la conclusion du contrat, le candidat peut exercer un r\xE9f\xE9r\xE9 pr\xE9contractuel (CJA, art.\
-    \ L. 551-1 et s. et R.\n551-1 et s.);\n\u2014 apr\xE8s la conclusion du contrat, le candidat peut exercer devant le tribunal administratif de Lyon:\n\u2014\u2014 un r\xE9f\xE9r\xE9 contractuel dans les conditions pr\xE9vues aux articles L. 551-13 et suivants, et R 551-7 et suivants,\ndu code de justice administrative,\n\u2014\u2014 un recours en contestation de la validit\xE9 du contrat ou de certaines de ses clauses, dans un d\xE9lai de deux\nmois \xE0 compter des mesures de publicit\xE9 appropri\xE9es dans les conditions pr\xE9vues par l'arr\xEAt du Conseil d'\xC9tat\no\n\nen date du 4.4.2014, \xABD\xE9partement du Tarn-et-Garonne\xBB, n 358994. Ce dernier recours peut \xEAtre exerc\xE9 par\nles tiers au contrat, sans consid\xE9ration de leur qualit\xE9.\nVI.4.4)\n\nService aupr\xE8s duquel des renseignements peuvent \xEAtre obtenus sur l'introduction de recours\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n4/5\n\nJO/S S40\n26/02/2021\n100004-2021-FR\n\n5/5\n\nNom officiel: Tribunal\
-    \ administratif de Lyon\nAdresse postale: 184 rue Duguesclin\nVille: Lyon\nCode postal: 69003\nPays: France\nCourriel: greffe.ta-lyon@juradm.fr\nT\xE9l\xE9phone: +33 478141010\nVI.5)\n\nDate d\u2019envoi du pr\xE9sent avis:\n23/02/2021\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n5/5\n```\n"
+  content_markdown: '# Metropole de Lyon entrepreneurship strategy communications
+    contract extraction
+
+
+    Collected from the official TED procurement PDF on 2026-03-20.
+
+
+    Primary source URL: https://ted.europa.eu/fr/notice/100004-2021/pdfs
+
+
+    ## Listed sources
+
+    - TED notice XML 100004-2021: https://ted.europa.eu/en/notice/100004-2021/xml
+
+    - TED notice PDF 100004-2021 (FR): https://ted.europa.eu/fr/notice/100004-2021/pdfs
+
+    - TED notice detail 100004-2021: https://ted.europa.eu/en/notice/-/detail/100004-2021
+
+
+    ## Extracted source text
+
+
+    ```text
+
+    JO/S S40
+
+    26/02/2021
+
+    100004-2021-FR
+
+
+    1/5
+
+
+    Cet avis sur le site TED: https://ted.europa.eu/udl?uri=TED:NOTICE:100004-2021:TEXT:FR:HTML
+
+
+    France-Lyon: Services de promotion
+
+    2021/S 040-100004
+
+    Avis d’attribution de marché
+
+    Résultats de la procédure de marché
+
+    Services
+
+    Base juridique:
+
+    Directive 2014/24/UE
+
+    Section I: Pouvoir adjudicateur
+
+    I.1)
+
+    Nom et adresses
+
+    Nom officiel: Métropole de Lyon
+
+    Numéro national d''identification: 20004697700019
+
+    Adresse postale: 20 rue du Lac, CS 33569
+
+    Ville: Lyon Cedex 3
+
+    Code NUTS: FRK26 Rhône
+
+    Code postal: 69505
+
+    Pays: France
+
+    Point(s) de contact: À l''attention de M. le président de la Métropole de Lyon
+
+    Courriel: DEES_marches@grandlyon.com
+
+    Fax: +33 426993058
+
+    Adresse(s) internet:
+
+    Adresse principale: http://grandlyon.com
+
+    Adresse du profil d’acheteur: http://marchespublics.grandlyon.com
+
+    I.4)
+
+
+    Type de pouvoir adjudicateur
+
+    Autre type: Collectivité territoriale à statut particulier
+
+
+    I.5)
+
+
+    Activité principale
+
+    Services généraux des administrations publiques
+
+
+    Section II: Objet
+
+    II.1)
+
+    Étendue du marché
+
+    II.1.1)
+
+
+    Intitulé:
+
+    Promotion de la stratégie entrepreneuriat de la Métropole de Lyon et la réalisation
+    des outils de communication
+
+    associés 2021-2024
+
+    Numéro de référence: 20DEI017
+
+
+    II.1.2)
+
+
+    Code CPV principal
+
+    79342200 Services de promotion
+
+
+    II.1.3)
+
+
+    Type de marché
+
+    Services
+
+
+    II.1.4)
+
+
+    Description succincte:
+
+    Le prestataire devra comprendre et s''approprier la dimension stratégique de la
+    thématique à l''échelle de
+
+    la Métropole de Lyon. Il devra également proposer une stratégie évolutive sur
+    deux ans permettant des
+
+
+    26/02/2021
+
+    S40
+
+    https://ted.europa.eu/TED
+
+
+    1/5
+
+
+    JO/S S40
+
+    26/02/2021
+
+    100004-2021-FR
+
+
+    2/5
+
+
+    ajustements permanents et être force de proposition pour identifier des outils
+    de communication innovants,
+
+    adaptés à nos univers, nos cibles, nos événements. Il sera donc en charge de benchmarks
+    réguliers, de
+
+    production de stratégies et de plan d''actions ainsi que les supports de communication
+    associés.
+
+    II.1.6)
+
+
+    Information sur les lots
+
+    Ce marché est divisé en lots: non
+
+
+    II.1.7)
+
+
+    Valeur totale du marché (hors TVA)
+
+    Valeur hors TVA: 660 000.00 EUR
+
+
+    II.2)
+
+
+    Description
+
+
+    II.2.2)
+
+
+    Code(s) CPV additionnel(s)
+
+    79342200 Services de promotion
+
+
+    II.2.3)
+
+
+    Lieu d''exécution
+
+    Code NUTS: FRK26 Rhône
+
+    Lieu principal d''exécution:
+
+    Territoire de la Métropole de Lyon.
+
+
+    II.2.4)
+
+
+    Description des prestations:
+
+    Le prestataire devra comprendre et s''approprier la dimension stratégique de la
+    thématique à l''échelle de
+
+    la Métropole de Lyon. Il devra également proposer une stratégie évolutive sur
+    deux ans permettant des
+
+    ajustements permanents et être force de proposition pour identifier des outils
+    de communication innovants,
+
+    adaptés à nos univers, nos cibles, nos événements. Il sera donc en charge de benchmarks
+    réguliers, de
+
+    production de stratégies et de plan d''actions ainsi que les supports de communication
+    associés.
+
+
+    II.2.5)
+
+
+    Critères d’attribution
+
+    Critère de qualité - Nom: Critère 1: valeur technique appréciée au regard de trois
+    sous-critères / Pondération: 70
+
+    Prix - Pondération: 30
+
+
+    II.2.11)
+
+
+    Information sur les options
+
+    Options: non
+
+
+    II.2.13)
+
+
+    Information sur les fonds de l''Union européenne
+
+    Le contrat s''inscrit dans un projet/programme financé par des fonds de l''Union
+    européenne: non
+
+
+    II.2.14)
+
+
+    Informations complémentaires
+
+    L''accord-cadre (mis en œuvre par l''émission de bons de commande) est conclu
+    au sens des articles R. 2162-1
+
+    à R. 2162-6, R. 2162-13 et R. 2162-14 CCP.
+
+    — Montant minimum pour chaque période de deux ans: 140 000 EUR HT,
+
+    — Montant maximum pour chaque période de deux ans: 330 000 EUR (HT).
+
+
+    Section IV: Procédure
+
+    IV.1)
+
+    Description
+
+    IV.1.1)
+
+
+    Type de procédure
+
+    Procédure ouverte
+
+
+    IV.1.3)
+
+
+    Information sur l''accord-cadre ou le système d''acquisition dynamique
+
+    Le marché implique la mise en place d''un accord-cadre
+
+
+    IV.1.8)
+
+
+    Information concernant l’accord sur les marchés publics (AMP)
+
+    Le marché est couvert par l''accord sur les marchés publics: oui
+
+
+    IV.2)
+
+
+    Renseignements d''ordre administratif
+
+
+    IV.2.1)
+
+
+    Publication antérieure relative à la présente procédure
+
+    Numéro de l''avis au JO série S: 2020/S 127-310976
+
+
+    26/02/2021
+
+    S40
+
+    https://ted.europa.eu/TED
+
+
+    2/5
+
+
+    JO/S S40
+
+    26/02/2021
+
+    100004-2021-FR
+
+
+    IV.2.8)
+
+
+    Informations sur l''abandon du système d''acquisition dynamique
+
+
+    IV.2.9)
+
+
+    Informations sur l''abandon de la procédure d''appel à la concurrence sous la
+    forme d''un avis de
+
+    préinformation
+
+
+    3/5
+
+
+    Section V: Attribution du marché
+
+    Marché nº: 2021-593
+
+    Intitulé:
+
+    Promotion de la stratégie entrepreneuriat de la Métropole de Lyon et la réalisation
+    des outils de communication
+
+    associés 2021-2024
+
+    Un marché/lot est attribué: oui
+
+    V.2)
+
+
+    Attribution du marché
+
+
+    V.2.1)
+
+
+    Date de conclusion du marché:
+
+    13/02/2021
+
+
+    V.2.2)
+
+
+    Informations sur les offres
+
+    Nombre d''offres reçues: 7
+
+    Nombre d''offres reçues de la part de PME: 4
+
+    Nombre d''offres reçues de la part de soumissionnaires d''autres États membres
+    de l''UE: 0
+
+    Nombre d''offres reçues de la part de soumissionnaires d''États non membres de
+    l''UE: 0
+
+    Nombre d''offres reçues par voie électronique: 7
+
+    Le marché a été attribué à un groupement d''opérateurs économiques: non
+
+
+    V.2.3)
+
+
+    Nom et adresse du titulaire
+
+    Nom officiel: TBWA/Groupe
+
+    Numéro national d''identification: 68200507900038
+
+    Adresse postale: 162 rue de Billancourt
+
+    Ville: Boulogne-Billancourt Cedex
+
+    Code NUTS: FR105 Hauts-de-Seine
+
+    Code postal: 92103
+
+    Pays: France
+
+    Le titulaire est une PME: non
+
+
+    V.2.4)
+
+
+    Informations sur le montant du marché/du lot (hors TVA)
+
+    Valeur totale du marché/du lot: 660 000.00 EUR
+
+
+    V.2.5)
+
+
+    Information sur la sous-traitance
+
+
+    Section VI: Renseignements complémentaires
+
+    VI.3)
+
+    Informations complémentaires:
+
+
+    26/02/2021
+
+    S40
+
+    https://ted.europa.eu/TED
+
+
+    3/5
+
+
+    JO/S S40
+
+    26/02/2021
+
+    100004-2021-FR
+
+
+    4/5
+
+
+    Le marché est consultable sur rendez-vous les jours ouvrés de 9h00 à 12h00 et
+    de 14h00 à 16h00 sur
+
+    demande écrite
+
+    À l''adresse e-mail suivante: dees_marches@grandlyon.com - La demande écrite devra
+    identifier le demandeur
+
+    personne juridique et personne physique qui devra pouvoir justifier de son identité
+    lors de la consultation.
+
+    Précisions sur les critères d''attribution du marché:
+
+    — critère 1: valeur technique appréciée au regard des trois sous-critères suivants,
+    70 %:
+
+    —— sous-critère 1.1: pertinence des orientations stratégiques envisagées sur deux
+    ans pour la thématique
+
+    entrepreneuriat dans la Métropole de Lyon et le planning des actions envisagées,
+    35 %;
+
+    —— sous-critère 1.2: pertinence des outils de communication innovants proposés
+    pour la promotion de LYVE,
+
+    25 %;
+
+    —— sous-critère 1.3: pertinence de la composition de l''équipe projet dédiée à
+    la mission appréciée au vu des
+
+    CV ou équivalent détaillant les profils des membres de l''équipe et les modalités
+    de collaboration de travail
+
+    envisagées, 10 %;
+
+    — critère 2: prix des prestations apprécié sur la base d''une simulation de commande
+    jointe jointe au DCE: 30
+
+    %.
+
+    VI.4)
+
+
+    Procédures de recours
+
+
+    VI.4.1)
+
+
+    Instance chargée des procédures de recours
+
+    Nom officiel: Tribunal administratif de Lyon
+
+    Adresse postale: 184 rue Duguesclin
+
+    Ville: Lyon
+
+    Code postal: 69003
+
+    Pays: France
+
+    Courriel: greffe.ta-lyon@juradm.fr
+
+    Téléphone: +33 478141010
+
+
+    VI.4.3)
+
+
+    Introduction de recours
+
+    Précisions concernant les délais d''introduction de recours:
+
+    Les recours susceptibles d''être formés pour contester la passation du marché,
+    ainsi que les délais d''introduction
+
+    o
+
+
+    de ces recours, depuis l''entrée en vigueur de l''ordonnance n 2009-515 du 7.5.2009
+    relative aux procédures de
+
+    recours applicables aux contrats de la commande publique sont les suivants:
+
+    — avant la conclusion du contrat, le candidat peut exercer un référé précontractuel
+    (CJA, art. L. 551-1 et s. et R.
+
+    551-1 et s.);
+
+    — après la conclusion du contrat, le candidat peut exercer devant le tribunal
+    administratif de Lyon:
+
+    —— un référé contractuel dans les conditions prévues aux articles L. 551-13 et
+    suivants, et R 551-7 et suivants,
+
+    du code de justice administrative,
+
+    —— un recours en contestation de la validité du contrat ou de certaines de ses
+    clauses, dans un délai de deux
+
+    mois à compter des mesures de publicité appropriées dans les conditions prévues
+    par l''arrêt du Conseil d''État
+
+    o
+
+
+    en date du 4.4.2014, «Département du Tarn-et-Garonne», n 358994. Ce dernier recours
+    peut être exercé par
+
+    les tiers au contrat, sans considération de leur qualité.
+
+    VI.4.4)
+
+
+    Service auprès duquel des renseignements peuvent être obtenus sur l''introduction
+    de recours
+
+
+    26/02/2021
+
+    S40
+
+    https://ted.europa.eu/TED
+
+
+    4/5
+
+
+    JO/S S40
+
+    26/02/2021
+
+    100004-2021-FR
+
+
+    5/5
+
+
+    Nom officiel: Tribunal administratif de Lyon
+
+    Adresse postale: 184 rue Duguesclin
+
+    Ville: Lyon
+
+    Code postal: 69003
+
+    Pays: France
+
+    Courriel: greffe.ta-lyon@juradm.fr
+
+    Téléphone: +33 478141010
+
+    VI.5)
+
+
+    Date d’envoi du présent avis:
+
+    23/02/2021
+
+
+    26/02/2021
+
+    S40
+
+    https://ted.europa.eu/TED
+
+
+    5/5
+
+    ```
+
+    '
   required_artifacts:
   - source_record_file
   - source_record_metadata
@@ -44,10 +678,15 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 100004-2021.xml
     sha256: cfc0302349f05e942d05f562ff46dc2b05f762f54e65ff074a5530bc5529301c
-    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
-    source_dataset: 'Case bundle from: TED notice XML 100004-2021 | TED notice PDF 100004-2021 (FR) | TED notice detail 100004-2021'
-    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+    acquisition_method: Fetch the official procurement record from the listed source
+      URLs, prefer machine-readable XML or PDF when available, and preserve the relevant
+      record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
+    source_dataset: 'Case bundle from: TED notice XML 100004-2021 | TED notice PDF
+      100004-2021 (FR) | TED notice detail 100004-2021'
+    notes: Checked-in markdown source document used for local validation and Hugging
+      Face export. Factual source content backfilled from the listed upstream sources.
   - id: original-source-01
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-lyon-100004/source-01-ted-notice-xml-100004-2021.xml
     role: original_source_snapshot
@@ -56,10 +695,14 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 100004-2021.xml
     sha256: 0a6c3e5ed70d593bf0bb389b0f61335f218ae267e8fdbfdbe603884007c1bbfd
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice XML 100004-2021
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
   - id: original-source-02
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-lyon-100004/source-02-ted-notice-pdf-100004-2021-fr.pdf
     role: original_source_snapshot
@@ -68,10 +711,14 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 100004-2021.pdf
     sha256: 6854daa602e1847dc6a77438389538c42744cf5e7edd7cc33ee6aa687fa0755d
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice PDF 100004-2021 (FR)
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
   - id: original-source-03
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-lyon-100004/source-03-ted-notice-detail-100004-2021.html
     role: original_source_snapshot
@@ -80,10 +727,14 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 100004-2021.html
     sha256: 0cc421c4381305cf0a3e70bf656471abd8d5668c1fd6a7c445e6d46ae4d642bd
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice detail 100004-2021
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
 expected_output:
   fields_required:
   - buyer_name
@@ -94,11 +745,18 @@ expected_output:
 answer_key:
   type: structured_fields
   fields:
-    buyer_name: "M\xE9tropole de Lyon"
+    buyer_name: Métropole de Lyon
     supplier_name: TBWA/Groupe
     award_date: '2021-02-13'
     amount: 660000.0
     category_code: '79342200'
 notes:
-- The buyer contact line names the president of the Metropole, but the answer key should stay anchored to the official buyer field.
-- Contract no. 2021-593 identifies the awarded communications contract, and the notice-level total matches the section V award value.
+- The buyer contact line names the president of the Metropole, but the answer key
+  should stay anchored to the official buyer field.
+- Contract no. 2021-593 identifies the awarded communications contract, and the notice-level
+  total matches the section V award value.
+source_languages:
+- fr
+evidence_languages:
+- fr
+answer_language: en

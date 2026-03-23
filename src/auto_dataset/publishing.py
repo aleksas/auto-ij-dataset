@@ -8,7 +8,12 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
-from auto_dataset.validation import render_agent_brief, summarize_cases
+from auto_dataset.validation import (
+    render_agent_brief,
+    resolve_publish_policy,
+    summarize_lifecycle_readiness,
+    summarize_suite,
+)
 
 
 class PublishError(RuntimeError):
@@ -129,6 +134,7 @@ def _write_text(path: Path, text: str) -> None:
 def _build_dataset_card(
     manifest: dict[str, Any],
     summary: dict[str, Any],
+    lifecycle: dict[str, Any],
     source_commit: str | None,
     exported_at: str,
 ) -> str:
@@ -159,6 +165,11 @@ def _build_dataset_card(
         f"- exported at: `{exported_at}`",
         f"- source commit: `{source_commit_text}`",
         f"- cases total: `{summary['cases_total']}`",
+        f"- included publish statuses: `{', '.join(lifecycle['publish_policy']['included_statuses'])}`",
+        (
+            "- default downstream-eval statuses: "
+            f"`{', '.join(lifecycle['publish_policy']['default_consumption_statuses'])}`"
+        ),
         "",
         "## Objective",
         "",
@@ -172,11 +183,19 @@ def _build_dataset_card(
         "- `rubrics/`: rubric markdown files referenced by the cases",
         "- `results/runs.tsv`: intermediate run log",
         "- `summary.json`: suite counts at export time",
+        "- `readiness.json`: lifecycle-aware publish and downstream-consumption guidance",
         "- `brief.txt`: current operator brief",
         "",
         "## Notes",
         "",
         "This dataset repo is an intermediate publishing target for in-progress suite building.",
+        "",
+        "Lifecycle readiness:",
+        "",
+        f"- evaluation-ready cases: `{lifecycle['evaluation_ready_cases_total']}`",
+        f"- benchmark-ready cases: `{lifecycle['benchmark_ready_cases_total']}`",
+        f"- under-construction cases: `{lifecycle['under_construction_cases_total']}`",
+        f"- publish policy: {lifecycle['publish_policy']['notes']}",
     ]
     return "\n".join([*card_header, *lines]) + "\n"
 
@@ -256,7 +275,9 @@ def build_intermediate_snapshot(
     base_dir = manifest_path.parent
     source_commit = get_head_commit(repo_root)
     exported_at = datetime.now(UTC).replace(microsecond=0).isoformat()
-    summary = summarize_cases(cases)
+    summary = summarize_suite(manifest_path, manifest, cases)
+    lifecycle = summarize_lifecycle_readiness(manifest, cases)
+    publish_policy = resolve_publish_policy(manifest)
     source_document_index: dict[str, dict[str, Any]] = {}
 
     _copy_file(manifest_path, snapshot_dir / "datasets" / manifest_path.name)
@@ -279,6 +300,20 @@ def build_intermediate_snapshot(
         if case_source_document or copied_case_artifacts:
             source_document_index[case["id"]] = {
                 "case_file": relative_case_path,
+                "status": case.get("status", "unspecified"),
+                "pipeline_stage": next(
+                    (
+                        row["pipeline_stage"]
+                        for row in lifecycle["status_rows"]
+                        if row["status"] == case.get("status", "unspecified")
+                    ),
+                    "unspecified",
+                ),
+                "included_in_publish": case.get("status") in publish_policy["included_statuses"],
+                "evaluation_ready": case.get("status") in publish_policy["evaluation_ready_statuses"],
+                "default_downstream_consumption": (
+                    case.get("status") in publish_policy["default_consumption_statuses"]
+                ),
                 "materialized_source_document": case_source_document,
                 "artifacts": copied_case_artifacts,
             }
@@ -318,8 +353,21 @@ def build_intermediate_snapshot(
             **summary,
         },
     )
+    _write_json(
+        snapshot_dir / "readiness.json",
+        {
+            "suite_id": manifest["suite_id"],
+            "version": manifest["version"],
+            "exported_at": exported_at,
+            "publish_policy": publish_policy,
+            "lifecycle": lifecycle,
+        },
+    )
     _write_text(snapshot_dir / "brief.txt", render_agent_brief(manifest, cases) + "\n")
-    _write_text(snapshot_dir / "README.md", _build_dataset_card(manifest, summary, source_commit, exported_at))
+    _write_text(
+        snapshot_dir / "README.md",
+        _build_dataset_card(manifest, summary, lifecycle, source_commit, exported_at),
+    )
     return snapshot_dir
 
 

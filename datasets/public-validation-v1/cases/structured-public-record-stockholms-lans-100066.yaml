@@ -1,5 +1,5 @@
 id: structured-public-record-stockholms-lans-100066
-status: draft
+status: validated
 title: Stockholm psychiatry staff supervision contract extraction
 task_type: field_extraction
 answer_mode: exact
@@ -11,22 +11,452 @@ sources:
   url: https://ted.europa.eu/en/notice/100066-2021/xml
   checked_on: 2026-03-20
   provenance: official_portal
+  language: sv
 - label: TED notice PDF 100066-2021 (SV)
   url: https://ted.europa.eu/sv/notice/100066-2021/pdfs
   checked_on: 2026-03-20
   provenance: official_portal
+  language: sv
 - label: TED notice detail 100066-2021
   url: https://ted.europa.eu/en/notice/-/detail/100066-2021
   checked_on: 2026-03-20
   provenance: official_portal
+  language: sv
 evidence_bundle:
   kind: structured_record
-  content_markdown: "# Stockholm psychiatry staff supervision contract extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/sv/notice/100066-2021/pdfs\n\n## Listed sources\n- TED notice XML 100066-2021: https://ted.europa.eu/en/notice/100066-2021/xml\n- TED notice PDF 100066-2021 (SV): https://ted.europa.eu/sv/notice/100066-2021/pdfs\n- TED notice detail 100066-2021: https://ted.europa.eu/en/notice/-/detail/100066-2021\n\n## Extracted source text\n\n```text\nEUT/S S40\n26/02/2021\n100066-2021-SV\n\n1/3\n\nDetta meddelande p\xE5 webbplatsen TED: https://ted.europa.eu/udl?uri=TED:NOTICE:100066-2021:TEXT:SV:HTML\n\nSverige-Stockholm: Handledning\n2021/S 040-100066\nMeddelande om tilldelning av kontrakt\nResultat av upphandlingsf\xF6rfarandet\nTj\xE4nster\nR\xE4ttslig grund:\ndirektiv 2014/24/EU\nAvsnitt I: Upphandlande myndighet\nI.1)\nNamn och adresser\nOfficiellt namn: Stockholms l\xE4ns sjukv\xE5rdsomr\xE5de\nNationellt\
-    \ registreringsnummer: 232100-0016\nPostadress: Box 454 36\nOrt: Stockholm\nNuts-kod: SE110 Stockholms l\xE4n\nPostnummer: 104 31\nLand: Sverige\nKontaktperson: Lars G\xF6ran Sundman\nE-post: lars-goran.sundman@sll.se\nInternetadress(er):\nAllm\xE4n adress: http://www.slso.sll.se\nI.4)\n\nTyp av upphandlande myndighet\nDepartement eller annan central, regional eller lokal statlig myndighet\n\nI.5)\n\nHuvudsaklig verksamhet\nH\xE4lso- och sjukv\xE5rd\n\nAvsnitt II: F\xF6rem\xE5l\nII.1)\nUpphandlingens omfattning\nII.1.1)\n\nBen\xE4mning p\xE5 upphandlingen:\nHandledning till personal - Dynamiskt ink\xF6pssystem\nReferensnummer: SLSO 19-910\n\nII.1.2)\n\nHuvudsaklig CPV-kod\n80590000 Handledning\n\nII.1.3)\n\nTyp av kontrakt\nTj\xE4nster\n\nII.1.4)\n\nKort beskrivning:\nStockholms l\xE4ns sjukv\xE5rdsomr\xE5de avser att upphandla handledning till personal inom psykiatrin. Det dynamiska\nink\xF6pssystemet g\xF6r det m\xF6jligt f\xF6r leverant\xF6rer att ansluta och avsluta sin medverkan\
-    \ i systemet under hela\ndess giltighetstid.\n\nII.1.6)\n\nInformation om delar\nKontraktet \xE4r uppdelat i flera delar: nej\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n1/3\n\nEUT/S S40\n26/02/2021\n100066-2021-SV\n\n2/3\n\nII.1.7)\n\nUpphandlingens totala v\xE4rde (exkl. moms)\nV\xE4rde exkl. moms: 75 000.00 SEK\n\nII.2)\n\nBeskrivning\n\nII.2.2)\n\nYtterligare CPV-kod(er)\n85100000 H\xE4lsov\xE5rdstj\xE4nster\n\nII.2.3)\n\nPlats f\xF6r utf\xF6rande\nNuts-kod: SE110 Stockholms l\xE4n\n\nII.2.4)\n\nBeskrivning av upphandlingen:\nStockholms l\xE4ns sjukv\xE5rdsomr\xE5de avser att upphandla handledning till personal inom psykiatrin. Det dynamiska\nink\xF6pssystemet g\xF6r det m\xF6jligt f\xF6r leverant\xF6rer att ansluta och avsluta sin medverkan i systemet under hela\ndess giltighetstid.\n\nII.2.5)\n\nTilldelningskriterier\nPris\n\nII.2.11)\n\nInformation om optioner\nOption: nej\n\nII.2.13)\n\nInformation om EU-medel\nKontraktet \xE4r knutet till projekt och/eller program som finansieras\
-    \ med EU-medel: nej\n\nII.2.14)\n\nKompletterande upplysningar\n\nAvsnitt IV: F\xF6rfarande\nIV.1)\nBeskrivning\nIV.1.1)\n\nTyp av f\xF6rfarande\nSelektivt f\xF6rfarande\n\nIV.1.3)\n\nInformation om ramavtal eller dynamiskt ink\xF6pssystem\nEtt dynamiskt ink\xF6pssystem har installerats\n\nIV.1.8)\n\nInformation om avtalet om offentlig upphandling\nUpphandlingen omfattas av avtalet om offentlig upphandling: ja\n\nIV.2)\n\nAdministrativ information\n\nIV.2.1)\n\nTidigare offentligg\xF6rande ang\xE5ende detta f\xF6rfarande\nMeddelandenummer i EUT: 2019/S 197-478728\n\nIV.2.8)\n\nInformation om avslutande av det dynamiska ink\xF6pssystemet\n\nIV.2.9)\n\nInformation om avslutande av anbudsinfordran i form av ett f\xF6rhandsmeddelande\n\nAvsnitt V: Kontraktstilldelning\nEtt kontrakt/delkontrakt tilldelas: ja\nV.2)\n\nKontraktstilldelning\n\nV.2.1)\n\nDatum f\xF6r beslut om tilldelning av kontrakt:\n09/02/2021\n\nV.2.2)\n\nInformation om anbuden\nAntal mottagna anbud: 2\nKontraktet har tilldelats\
-    \ en grupp av ekonomiska akt\xF6rer: nej\n\nV.2.3)\n\nUppdragstagarens namn och adress\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n2/3\n\nEUT/S S40\n26/02/2021\n100066-2021-SV\n\n3/3\n\nOfficiellt namn: Stockholms KBT praktik Lisa Gr\xF6nblad AB\nNationellt registreringsnummer: 556824-3454\nPostadress: Box 38116\nOrt: Stockholm\nNuts-kod: SE110 Stockholms l\xE4n\nPostnummer: 100 64\nLand: Sverige\nE-post: lisa.gronblad@stockholmskbt.se\nInternetadress: http://www.stockholmskbt.se\nUppdragstagaren \xE4r ett litet eller medelstort f\xF6retag: ja\nV.2.4)\n\nUpplysningar om kontraktets/delens v\xE4rde (exkl. moms)\nKontraktets/delens totala v\xE4rde: 75 000.00 SEK\n\nV.2.5)\n\nInformation om underentreprenader\n\nAvsnitt VI: Kompletterande upplysningar\nVI.3)\nKompletterande upplysningar:\nVisma annons: https://opic.com/id/afxbptcrdz\nVI.4)\n\n\xD6verpr\xF6vningsf\xF6rfaranden\n\nVI.4.1)\n\nBeh\xF6rigt organ vid \xF6verpr\xF6vning\nOfficiellt namn: F\xF6rvaltningsr\xE4tten\nOrt: Stockholm\n\
-    Land: Sverige\n\nVI.5)\n\nDatum d\xE5 meddelandet s\xE4nts:\n23/02/2021\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n3/3\n```\n"
+  content_markdown: '# Stockholm psychiatry staff supervision contract extraction
+
+
+    Collected from the official TED procurement PDF on 2026-03-20.
+
+
+    Primary source URL: https://ted.europa.eu/sv/notice/100066-2021/pdfs
+
+
+    ## Listed sources
+
+    - TED notice XML 100066-2021: https://ted.europa.eu/en/notice/100066-2021/xml
+
+    - TED notice PDF 100066-2021 (SV): https://ted.europa.eu/sv/notice/100066-2021/pdfs
+
+    - TED notice detail 100066-2021: https://ted.europa.eu/en/notice/-/detail/100066-2021
+
+
+    ## Extracted source text
+
+
+    ```text
+
+    EUT/S S40
+
+    26/02/2021
+
+    100066-2021-SV
+
+
+    1/3
+
+
+    Detta meddelande på webbplatsen TED: https://ted.europa.eu/udl?uri=TED:NOTICE:100066-2021:TEXT:SV:HTML
+
+
+    Sverige-Stockholm: Handledning
+
+    2021/S 040-100066
+
+    Meddelande om tilldelning av kontrakt
+
+    Resultat av upphandlingsförfarandet
+
+    Tjänster
+
+    Rättslig grund:
+
+    direktiv 2014/24/EU
+
+    Avsnitt I: Upphandlande myndighet
+
+    I.1)
+
+    Namn och adresser
+
+    Officiellt namn: Stockholms läns sjukvårdsområde
+
+    Nationellt registreringsnummer: 232100-0016
+
+    Postadress: Box 454 36
+
+    Ort: Stockholm
+
+    Nuts-kod: SE110 Stockholms län
+
+    Postnummer: 104 31
+
+    Land: Sverige
+
+    Kontaktperson: Lars Göran Sundman
+
+    E-post: lars-goran.sundman@sll.se
+
+    Internetadress(er):
+
+    Allmän adress: http://www.slso.sll.se
+
+    I.4)
+
+
+    Typ av upphandlande myndighet
+
+    Departement eller annan central, regional eller lokal statlig myndighet
+
+
+    I.5)
+
+
+    Huvudsaklig verksamhet
+
+    Hälso- och sjukvård
+
+
+    Avsnitt II: Föremål
+
+    II.1)
+
+    Upphandlingens omfattning
+
+    II.1.1)
+
+
+    Benämning på upphandlingen:
+
+    Handledning till personal - Dynamiskt inköpssystem
+
+    Referensnummer: SLSO 19-910
+
+
+    II.1.2)
+
+
+    Huvudsaklig CPV-kod
+
+    80590000 Handledning
+
+
+    II.1.3)
+
+
+    Typ av kontrakt
+
+    Tjänster
+
+
+    II.1.4)
+
+
+    Kort beskrivning:
+
+    Stockholms läns sjukvårdsområde avser att upphandla handledning till personal
+    inom psykiatrin. Det dynamiska
+
+    inköpssystemet gör det möjligt för leverantörer att ansluta och avsluta sin medverkan
+    i systemet under hela
+
+    dess giltighetstid.
+
+
+    II.1.6)
+
+
+    Information om delar
+
+    Kontraktet är uppdelat i flera delar: nej
+
+
+    26/02/2021
+
+    S40
+
+    https://ted.europa.eu/TED
+
+
+    1/3
+
+
+    EUT/S S40
+
+    26/02/2021
+
+    100066-2021-SV
+
+
+    2/3
+
+
+    II.1.7)
+
+
+    Upphandlingens totala värde (exkl. moms)
+
+    Värde exkl. moms: 75 000.00 SEK
+
+
+    II.2)
+
+
+    Beskrivning
+
+
+    II.2.2)
+
+
+    Ytterligare CPV-kod(er)
+
+    85100000 Hälsovårdstjänster
+
+
+    II.2.3)
+
+
+    Plats för utförande
+
+    Nuts-kod: SE110 Stockholms län
+
+
+    II.2.4)
+
+
+    Beskrivning av upphandlingen:
+
+    Stockholms läns sjukvårdsområde avser att upphandla handledning till personal
+    inom psykiatrin. Det dynamiska
+
+    inköpssystemet gör det möjligt för leverantörer att ansluta och avsluta sin medverkan
+    i systemet under hela
+
+    dess giltighetstid.
+
+
+    II.2.5)
+
+
+    Tilldelningskriterier
+
+    Pris
+
+
+    II.2.11)
+
+
+    Information om optioner
+
+    Option: nej
+
+
+    II.2.13)
+
+
+    Information om EU-medel
+
+    Kontraktet är knutet till projekt och/eller program som finansieras med EU-medel:
+    nej
+
+
+    II.2.14)
+
+
+    Kompletterande upplysningar
+
+
+    Avsnitt IV: Förfarande
+
+    IV.1)
+
+    Beskrivning
+
+    IV.1.1)
+
+
+    Typ av förfarande
+
+    Selektivt förfarande
+
+
+    IV.1.3)
+
+
+    Information om ramavtal eller dynamiskt inköpssystem
+
+    Ett dynamiskt inköpssystem har installerats
+
+
+    IV.1.8)
+
+
+    Information om avtalet om offentlig upphandling
+
+    Upphandlingen omfattas av avtalet om offentlig upphandling: ja
+
+
+    IV.2)
+
+
+    Administrativ information
+
+
+    IV.2.1)
+
+
+    Tidigare offentliggörande angående detta förfarande
+
+    Meddelandenummer i EUT: 2019/S 197-478728
+
+
+    IV.2.8)
+
+
+    Information om avslutande av det dynamiska inköpssystemet
+
+
+    IV.2.9)
+
+
+    Information om avslutande av anbudsinfordran i form av ett förhandsmeddelande
+
+
+    Avsnitt V: Kontraktstilldelning
+
+    Ett kontrakt/delkontrakt tilldelas: ja
+
+    V.2)
+
+
+    Kontraktstilldelning
+
+
+    V.2.1)
+
+
+    Datum för beslut om tilldelning av kontrakt:
+
+    09/02/2021
+
+
+    V.2.2)
+
+
+    Information om anbuden
+
+    Antal mottagna anbud: 2
+
+    Kontraktet har tilldelats en grupp av ekonomiska aktörer: nej
+
+
+    V.2.3)
+
+
+    Uppdragstagarens namn och adress
+
+
+    26/02/2021
+
+    S40
+
+    https://ted.europa.eu/TED
+
+
+    2/3
+
+
+    EUT/S S40
+
+    26/02/2021
+
+    100066-2021-SV
+
+
+    3/3
+
+
+    Officiellt namn: Stockholms KBT praktik Lisa Grönblad AB
+
+    Nationellt registreringsnummer: 556824-3454
+
+    Postadress: Box 38116
+
+    Ort: Stockholm
+
+    Nuts-kod: SE110 Stockholms län
+
+    Postnummer: 100 64
+
+    Land: Sverige
+
+    E-post: lisa.gronblad@stockholmskbt.se
+
+    Internetadress: http://www.stockholmskbt.se
+
+    Uppdragstagaren är ett litet eller medelstort företag: ja
+
+    V.2.4)
+
+
+    Upplysningar om kontraktets/delens värde (exkl. moms)
+
+    Kontraktets/delens totala värde: 75 000.00 SEK
+
+
+    V.2.5)
+
+
+    Information om underentreprenader
+
+
+    Avsnitt VI: Kompletterande upplysningar
+
+    VI.3)
+
+    Kompletterande upplysningar:
+
+    Visma annons: https://opic.com/id/afxbptcrdz
+
+    VI.4)
+
+
+    Överprövningsförfaranden
+
+
+    VI.4.1)
+
+
+    Behörigt organ vid överprövning
+
+    Officiellt namn: Förvaltningsrätten
+
+    Ort: Stockholm
+
+    Land: Sverige
+
+
+    VI.5)
+
+
+    Datum då meddelandet sänts:
+
+    23/02/2021
+
+
+    26/02/2021
+
+    S40
+
+    https://ted.europa.eu/TED
+
+
+    3/3
+
+    ```
+
+    '
   required_artifacts:
   - source_record_file
   - source_record_metadata
@@ -39,10 +469,15 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 100066-2021.xml
     sha256: 320bf25c35f57b9d1e1891e794cc044ff7bb08cb1be141371cd465654326b6bf
-    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
-    source_dataset: 'Case bundle from: TED notice XML 100066-2021 | TED notice PDF 100066-2021 (SV) | TED notice detail 100066-2021'
-    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+    acquisition_method: Fetch the official procurement record from the listed source
+      URLs, prefer machine-readable XML or PDF when available, and preserve the relevant
+      record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
+    source_dataset: 'Case bundle from: TED notice XML 100066-2021 | TED notice PDF
+      100066-2021 (SV) | TED notice detail 100066-2021'
+    notes: Checked-in markdown source document used for local validation and Hugging
+      Face export. Factual source content backfilled from the listed upstream sources.
   - id: original-source-01
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-stockholms-lans-100066/source-01-ted-notice-xml-100066-2021.xml
     role: original_source_snapshot
@@ -51,10 +486,14 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 100066-2021.xml
     sha256: 65492bf75c5eb59988de14d8e71cccb18353313732f83ae7591fc3cbdda9df09
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice XML 100066-2021
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
   - id: original-source-02
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-stockholms-lans-100066/source-02-ted-notice-pdf-100066-2021-sv.pdf
     role: original_source_snapshot
@@ -63,10 +502,14 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 100066-2021.pdf
     sha256: 1b9644cc6287ef878aeac82cdcb91b7421e7b7db840c0e18f48ddbc998db60ae
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice PDF 100066-2021 (SV)
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
   - id: original-source-03
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-stockholms-lans-100066/source-03-ted-notice-detail-100066-2021.html
     role: original_source_snapshot
@@ -75,10 +518,14 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 100066-2021.html
     sha256: 46566ae1791047eb34e3a5a8fbb1a21f0f2f9cf7d6ed4954fc7589220a7f2291
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice detail 100066-2021
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
 expected_output:
   fields_required:
   - buyer_name
@@ -89,11 +536,18 @@ expected_output:
 answer_key:
   type: structured_fields
   fields:
-    buyer_name: "Stockholms l\xE4ns sjukv\xE5rdsomr\xE5de"
-    supplier_name: "Stockholms KBT praktik Lisa Gr\xF6nblad AB"
+    buyer_name: Stockholms läns sjukvårdsområde
+    supplier_name: Stockholms KBT praktik Lisa Grönblad AB
     award_date: '2021-02-09'
     amount: 75000.0
     category_code: '80590000'
 notes:
-- This Swedish notice adds a new country slice and uses the main CPV 80590000 even though the object-description block also lists a different CPV code for health services.
-- The buyer and supplier fields both use Swedish characters, so the case checks exact extraction and normalization rather than translated approximations.
+- This Swedish notice adds a new country slice and uses the main CPV 80590000 even
+  though the object-description block also lists a different CPV code for health services.
+- The buyer and supplier fields both use Swedish characters, so the case checks exact
+  extraction and normalization rather than translated approximations.
+source_languages:
+- sv
+evidence_languages:
+- sv
+answer_language: en

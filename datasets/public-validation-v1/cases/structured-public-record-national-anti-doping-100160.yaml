@@ -1,5 +1,5 @@
 id: structured-public-record-national-anti-doping-100160
-status: draft
+status: validated
 title: Romanian National Anti-Doping Agency software development contract extraction
 task_type: field_extraction
 answer_mode: exact
@@ -11,30 +11,741 @@ sources:
   url: https://ted.europa.eu/en/notice/100160-2021/xml
   checked_on: 2026-03-20
   provenance: official_portal
+  language: ro
 - label: TED notice PDF 100160-2021 (RO)
   url: https://ted.europa.eu/ro/notice/100160-2021/pdfs
   checked_on: 2026-03-20
   provenance: official_portal
+  language: ro
 - label: TED notice detail 100160-2021
   url: https://ted.europa.eu/en/notice/-/detail/100160-2021
   checked_on: 2026-03-20
   provenance: official_portal
+  language: ro
 evidence_bundle:
   kind: structured_record
-  content_markdown: "# Romanian National Anti-Doping Agency software development contract extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/ro/notice/100160-2021/pdfs\n\n## Listed sources\n- TED notice XML 100160-2021: https://ted.europa.eu/en/notice/100160-2021/xml\n- TED notice PDF 100160-2021 (RO): https://ted.europa.eu/ro/notice/100160-2021/pdfs\n- TED notice detail 100160-2021: https://ted.europa.eu/en/notice/-/detail/100160-2021\n\n## Extracted source text\n\n```text\nJO/S S40\n26/02/2021\n100160-2021-RO\n\n1/5\n\nAcest anun\u0163 pe site-ul TED: https://ted.europa.eu/udl?uri=TED:NOTICE:100160-2021:TEXT:RO:HTML\n\nRom\xE2nia-Bucure\u015Fti: Servicii de dezvoltare de software IT\n2021/S 040-100160\nAnun\u021B de atribuire a contractului\nRezultatele procedurii de achizi\u0163ie\nServicii\nTemei juridic:\nDirectiva 2014/24/UE\nSec\u021Biunea I: Autoritatea contractant\u0103\nI.1)\nDenumire \u015Fi adrese\nDenumire\
-    \ oficial\u0103: Agen\u021Bia Na\u021Bional\u0103 Anti-Doping\nNum\u0103r na\u0163ional de \xEEnregistrare: 18018990\nAdres\u0103: Str. Basarabia nr. 37-39\nLocalitate: Bucure\u015Fti\nCod NUTS: RO321 Bucure\u015Fti\nCod po\u0219tal: 022103\n\u021Aar\u0103: Rom\xE2nia\nPersoan\u0103 de contact: Alexandru Mihai Zaharia\nE-mail: a.zaharia@anad.gov.ro\nTelefon: +40 3115541\nFax: +40 3115541\nAdres\u0103 (adrese) internet:\nAdresa principal\u0103: www.anad.gov.ro\nAdresa profilului cump\u0103r\u0103torului: www.e-licitatie.ro\nI.4)\n\nTipul autorit\u0103\u021Bii contractante\nAgen\u021Bie/birou regional sau local\n\nI.5)\n\nActivitate principal\u0103\nAlt\u0103 activitate: Antidoping\n\nSec\u021Biunea II: Obiect\nII.1)\nObiectul achizi\u0163iei\nII.1.1)\n\nTitlu:\nServicii de dezvoltare de aplica\u021Bii \u0219i sisteme informatice, achizi\u021Bie pachete software \u0219i echipamente\nNum\u0103r de referin\u0163\u0103: 8\n\nII.1.2)\n\nCod CPV principal\n72212517 Servicii de dezvoltare de\
-    \ software IT\n\nII.1.3)\n\nTipul contractului\nServicii\n\nII.1.4)\n\nDescriere succint\u0103:\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n1/5\n\nJO/S S40\n26/02/2021\n100160-2021-RO\n\n2/5\n\nANAD dore\u0219te s\u0103 achizi\u021Bioneze servicii de dezvoltare de aplica\u021Bii \u0219i sisteme informatice, achizi\u021Bie pachete\nsoftware \u0219i echipamente care vor asigura accesul online la serviciile publice de avizare/autorizare gestionate de\nANAD \u0219i va furniza digital fluxurile de lucru asociate proceselor de avizare/autorizare din cadrul institu\u021Biei.\nAchizi\u021Bia este planificat\u0103 \xEEn cadrul proiectului \u201EAjustarea legisla\u021Biei relevante privind combaterea dopajului\n\xEEn sport\u201D, cod My SMIS 130073, cod SIPOCA 740. Proiectul este cofinan\u021Bat din Fondul social european prin\nProgramul Opera\u021Bional Capacitate Administrativ\u0103, Axa prioritar\u0103 1 \u2013 \u201EAdministra\u021Bie public\u0103 \u0219i sistem judiciar\neficiente\u201D\
-    /Obiectivul specific 1.1 \u2013 \u201EDezvoltarea \u0219i introducerea de sisteme \u0219i standarde comune \xEEn administra\u021Bia\npublic\u0103 ce optimizeaz\u0103 procesele decizionale orientate c\u0103tre cet\u0103\u021Beni \u0219i mediul de afaceri \xEEn concordan\u021B\u0103 cu\nSCAP\u201D (Strategia privind Consolidarea Administra\u021Biei Publice 2014-2020). Proiectul are ca obiectiv general este\nde a \xEEmbun\u0103t\u0103\u021Bi planificarea strategic\u0103, a managementului calit\u0103\u021Bii \u0219i performan\u021Bei, de a sistematiza \u0219i simplifica\nfondul activ al legisla\u021Biei Agen\u021Biei Na\u021Bionale Anti-Doping.\nObiectivele specifice ale proiectului sunt:\n1. Imbun\u0103t\u0103\u021Birea cadrului metodologic privind combaterea dopajului \xEEn sport, cu accent pe m\u0103suri de\ncon\u0219tientizare \u015Fi prevenire a dopajului \xEEn sport prin realizarea, testarea \u0219i adoptarea a patru metodologii de lucru\n\u0219i a unui studiu. Prin acest obiectiv,\
-    \ proiectul propus de ANAD se \xEEncadreaza \xEEn tipurile de ac\u021Biuni orientative din\ncadrul ghidului solicitantului \u201EDezvoltarea de sisteme \u015Fi instrumente de management\u201D;\n2. Actualizarea \u0219i \xEEmbunat\u0103\u021Birea cadrului legislativ pentru implementarea reglement\u0103rilor interna\u021Bionale privind\ncombaterea dopajului \xEEn sport, inclusiv a sistemului de monitorizare a dopajului, prevenirea \u0219i combaterea\ntraficului ilicit de substan\u021Be dopante cu grad mare de risc, definit \u0219i dezvoltat prin realizarea a cinci ini\u021Biative\nlegislative \xEEn consultare activ\u0103 public\u0103;\n3. \xCEmbun\u0103t\u0103\u0163irea procesului de management \u0219i digitalizarea fluxurilor de lucru din cadrul ANAD prin dezvoltarea\n\u0219i implementarea unei platforme informatice pentru servicii electronice care va asigura accesul online la\nserviciile publice de avizare/autorizare gestionate de ANAD \u0219i va furniza digital fluxurile de lucru asociate\n\
-    proceselor de avizare/autorizare din cadrul institu\u021Biei;\n4. Imbun\u0103t\u0103\u021Birea competen\u021Belor personalului ANAD prin realizarea unei metodologii de formare a personalului \u0219i\nderularea a patru programe de formare pentru 49 de angaja\u021Bi ai ANAD.\nII.1.6)\n\nInforma\u021Bii privind loturile\nContractul este \xEEmp\u0103r\u021Bit \xEEn loturi: nu\n\nII.1.7)\n\nValoarea total\u0103 a achizi\u0163iei (f\u0103r\u0103 TVA)\nValoare f\u0103r\u0103 TVA: 2 049 753.54 RON\n\nII.2)\n\nDescriere\n\nII.2.2)\n\nCod(uri) CPV suplimentar(e)\n30210000 Ma\u015Fini de procesare a datelor (hardware)\n30213100 Computere portabile\n30213300 Computer de birou\n30231000 Ecrane \u015Fi console de computere\n30231100 Terminale informatice\n30231300 Ecrane de afi\u015Fare\n48000000 Pachete software \u015Fi sisteme informatice\n48800000 Sisteme de informare \u015Fi servere\n\nII.2.3)\n\nLocul de executare\nCod NUTS: RO321 Bucure\u015Fti\nLocul principal de executare:\nLa sediul ANAD.\n\
-    \nII.2.4)\n\nDescrierea achizi\u0163iei publice:\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n2/5\n\nJO/S S40\n26/02/2021\n100160-2021-RO\n\n3/5\n\nDezvoltarea sistemului informatic serve\u0219te urm\u0103toarelor scopuri:\n\u2014 de a \xEEmbun\u0103t\u0103\u021Bi procesul de management \u0219i digitalizarea fluxurilor de lucru din cadrul ANAD prin dezvoltarea\n\u0219i implementarea unei platforme informatice pentru servicii electronice care va asigura accesul online la\nserviciile publice de avizare/autorizare gestionate de ANAD \u0219i va furniza digital fluxurile de lucru asociate\nproceselor de avizare/autorizare din cadrul institu\u021Biei;\n\u2014 de a \xEEmbun\u0103t\u0103\u021Bi planificarea strategic\u0103, a managementului calit\u0103\u021Bii \u0219i performan\u021Bei, de a sistematiza \u0219i\nsimplifica fondul activ al legisla\u021Biei Agen\u021Biei Na\u021Bionale Anti-Doping.\nDezvoltarea sistemului informatic va r\u0103spunde urm\u0103toarelor nevoi ale AC:\n\u2014\
-    \ sistem de management integrat a sistemului de prevenire a dopajului \xEEn sport, de gestionare a controlului\nanti-doping;\n\u2014 de management (management de documente, management financiar, resurse umane, date cu caracter\npersonal, stocuri etc.);\n\u2014 de asigurare a accesului online la serviciile publice de avizare/autorizare gestionate de ANAD;\n\u2014 baza de date care va cuprinde arhiva digitalizat\u0103 a autoriza\u021Biilor \u0219i avizelor emise;\n\u2014 de consultare public\u0103 privind ini\u021Biativele legislative ale ANAD \u0219i de informare \u0219i con\u0219tientizare privind nout\u0103\u021Bile\nlegislative;\n\u2014 sec\u021Biunea de gestionare a informa\u021Biilor \xEEnc\u0103rcate pe info-chio\u0219curi;\n\u2014 sec\u021Biunea e-learning dedicat\u0103 activit\u0103\u021Bilor educative derulate de agen\u021Bie (managementul documentelor,\nmanagementul informa\u021Biei, managementul cursurilor, managementul cursan\u021Bilor, managementul form\u0103rii,\nmanagementul\
-    \ formatorilor, evaluare).\nSe vor digitaliza procesele aferente urm\u0103toarelor metodologii:\n1. informarea sportivilor de performan\u021B\u0103, antrenori, medici, personal auxiliar etc.;\n2. informarea sportivilor amatori \u0219i instructori;\n3. regulament de prelevare probe biologice;\n4. consultarea public\u0103.\nPrin sistemul informatic se vor monitoriza:\n(a) sistem de management integrat a sistemului de prevenire, a dopajului \xEEn sport, de gestionare a controlului\nanti-doping;\n(b) sistem de management;\n(c) sistem de asigurare a accesului online la serviciile publice de avizare/autorizare gestionate de ANAD;\n(d) baza de date care va cuprinde arhiva digitalizata a autoriza\u021Biilor \u0219i avizelor emise;\n(e) sistemul de consultare public\u0103 privind ini\u021Biativele legislative ale ANAD \u0219i de informare \u0219i con\u0219tientizare\nprivind nout\u0103\u021Bile legislative.\nII.2.5)\n\nCriterii de atribuire\nCriteriu privind calitatea - Nume: Factor tehnic \u2013\
-    \ demonstrarea unei abord\u0103ri \u0219i a unei metodologii prin\npropunerea tehnic\u0103, corespunz\u0103toare pentru ob\u021Binerea calit\u0103\u021Bii rezultatelor \u0219i livrabilelor impuse prin caietul de\nsarcini; 10 puncte/10 % / Pondere: 10\nCriteriu privind calitatea - Nume: Gradul de adecvare al planului de lucru propus pentru realizarea obiectului\ncontractului / Pondere: 10\nCriteriu privind calitatea - Nume: Experien\u021Ba similar\u0103 *a exper\u021Bilor cheie, din care: / Pondere: 15\nCriteriu privind calitatea - Nume: Timpul de rezolvare a incidentelor cu nivel de prioritate \u201ECritic\u201D din cadrul\ngaran\u021Biei de bun\u0103 func\u021Bionare, a suportului \u0219i asisten\u021Bei tehnice a solu\u021Biei software / Pondere: 10\nCriteriu privind calitatea - Nume: Perioada de asigurare a serviciilor de mentenan\u021B\u0103 corectiv\u0103 \u0219i evolutiv\u0103 /\nPondere: 15\nPre\u021Bul - Pondere: 40\n\nII.2.11)\n\nInforma\u021Bii privind op\u021Biunile\n\n26/02/2021\n\
-    S40\nhttps://ted.europa.eu/TED\n\n3/5\n\nJO/S S40\n26/02/2021\n100160-2021-RO\n\n4/5\n\nOp\u021Biuni: nu\nII.2.13)\n\nInforma\u021Bii despre fondurile Uniunii Europene\nAchizi\u0163ia se refer\u0103 la un proiect \u015Fi/sau program finan\u0163at din fonduri ale Uniunii Europene: nu\n\nII.2.14)\n\nInforma\u021Bii suplimentare\n\nSec\u021Biunea IV: Procedur\u0103\nIV.1)\nDescriere\nIV.1.1)\n\nTipul procedurii\nProcedur\u0103 deschis\u0103\n\nIV.1.3)\n\nInforma\u0163ii privind un acord-cadru sau un sistem dinamic de achizi\u0163ii\n\nIV.1.8)\n\nInforma\u021Bii despre Acordul privind achizi\u021Biile publice (AAP)\nAchizi\u0163ia intr\u0103 sub inciden\u0163a Acordului privind achizi\u0163iile publice: nu\n\nIV.2)\n\nInforma\u021Bii administrative\n\nIV.2.1)\n\nPublicare anterioar\u0103 privind aceast\u0103 procedur\u0103\nNum\u0103rul anun\u021Bului \xEEn JO S: 2020/S 193-466692\n\nIV.2.8)\n\nInforma\u0163ii privind \xEEncetarea sistemului dinamic de achizi\u0163ii\n\nIV.2.9)\n\nInforma\u0163\
-    ii privind \xEEncetarea unei invita\u0163ii la o procedur\u0103 concuren\u0163ial\u0103 de ofertare sub forma unui anun\u0163\nde inten\u0163ie\n\nSec\u021Biunea V: Atribuirea contractului\nContract nr.: 740/130073/2021/02/22/01\nTitlu:\nContract servicii de dezvoltare de aplica\u021Bii \u0219i sisteme informatice, achizi\u021Bie pachete software \u0219i echipamente\n(activit\u0103\u021Bi management de proiect \u0219i activit\u0103\u021Bi diferite fa\u021B\u0103 de managementul de proiect)\nSe atribuie un contract/un lot: da\nV.2)\n\nAtribuirea contractului\n\nV.2.1)\n\nData \xEEncheierii contractului:\n22/02/2021\n\nV.2.2)\n\nInforma\u0163ii privind ofertele\nNum\u0103rul de oferte primite: 3\nNum\u0103rul de oferte primite de la IMM-uri: 3\nNum\u0103rul de oferte primite de la ofertan\u0163i din alte state membre ale UE: 0\nNum\u0103rul de oferte primite de la ofertan\u0163i din state care nu sunt membre ale UE: 0\nNum\u0103rul de oferte primite prin mijloace electronice: 3\nContractul\
-    \ a fost atribuit unui grup de operatori economici: nu\n\nV.2.3)\n\nNumele \u015Fi adresa contractantului\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n4/5\n\nJO/S S40\n26/02/2021\n100160-2021-RO\n\n5/5\n\nDenumire oficial\u0103: Holisun\nNum\u0103r na\u0163ional de \xEEnregistrare: RO 14184124\nAdres\u0103: Str. C\u0103rbunari nr. 8\nLocalitate: NA\nCod NUTS: RO114 Maramure\u015F\nCod po\u0219tal: 430397\n\u021Aar\u0103: Rom\xE2nia\nE-mail: oliviu.matei@holisun.com\nTelefon: +40 262226778\nAdres\u0103 internet: www.holisun.com\nContractantul este un IMM: nu\nV.2.4)\n\nInforma\u0163ii privind valoarea contractului/lotului (f\u0103r\u0103 TVA)\nValoarea total\u0103 estimat\u0103 ini\u0163ial\u0103 a contractului/lotului: 2 626 500.00 RON\nValoarea total\u0103 a contractului/lotului: 2 049 753.54 RON\n\nV.2.5)\n\nInforma\u021Bii privind subcontractarea\n\nSec\u021Biunea VI: Informa\u021Bii complementare\nVI.3)\nInforma\u021Bii suplimentare:\nVI.4)\n\nProceduri de contestare\n\nVI.4.1)\n\
-    \nOrganismul de solu\u0163ionare a contesta\u0163iilor\nDenumire oficial\u0103: Consiliul Na\u021Bional de Solu\u021Bionare a Contesta\u021Biilor\nAdres\u0103: Str. Stavropoleos nr. 6, sector 3\nLocalitate: Bucure\u0219ti\nCod po\u0219tal: 030084\n\u021Aar\u0103: Rom\xE2nia\nE-mail: office@cnsc.ro\nTelefon: +40 213104641\nFax: +40 213104642 / +40 218900745\nAdres\u0103 internet: http://www.cnsc.ro\n\nVI.4.4)\n\nServiciul de la care se pot ob\u0163ine informa\u0163ii privind procedura de contestare\nDenumire oficial\u0103: Direc\u021Bia juridic\u0103 \u0219i resurse umane\nAdres\u0103: Bulevardul Basarabia nr. 37-39\nLocalitate: Bucure\u0219ti\nCod po\u0219tal: 022103\n\u021Aar\u0103: Rom\xE2nia\nE-mail: c.dima@anad.gov.ro\nTelefon: +40 213115541\nFax: +40 213115541\nAdres\u0103 internet: www.anad.gov.ro\n\nVI.5)\n\nData expedierii prezentului anun\u021B:\n22/02/2021\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n5/5\n```\n"
+  content_markdown: '# Romanian National Anti-Doping Agency software development contract
+    extraction
+
+
+    Collected from the official TED procurement PDF on 2026-03-20.
+
+
+    Primary source URL: https://ted.europa.eu/ro/notice/100160-2021/pdfs
+
+
+    ## Listed sources
+
+    - TED notice XML 100160-2021: https://ted.europa.eu/en/notice/100160-2021/xml
+
+    - TED notice PDF 100160-2021 (RO): https://ted.europa.eu/ro/notice/100160-2021/pdfs
+
+    - TED notice detail 100160-2021: https://ted.europa.eu/en/notice/-/detail/100160-2021
+
+
+    ## Extracted source text
+
+
+    ```text
+
+    JO/S S40
+
+    26/02/2021
+
+    100160-2021-RO
+
+
+    1/5
+
+
+    Acest anunţ pe site-ul TED: https://ted.europa.eu/udl?uri=TED:NOTICE:100160-2021:TEXT:RO:HTML
+
+
+    România-Bucureşti: Servicii de dezvoltare de software IT
+
+    2021/S 040-100160
+
+    Anunț de atribuire a contractului
+
+    Rezultatele procedurii de achiziţie
+
+    Servicii
+
+    Temei juridic:
+
+    Directiva 2014/24/UE
+
+    Secțiunea I: Autoritatea contractantă
+
+    I.1)
+
+    Denumire şi adrese
+
+    Denumire oficială: Agenția Națională Anti-Doping
+
+    Număr naţional de înregistrare: 18018990
+
+    Adresă: Str. Basarabia nr. 37-39
+
+    Localitate: Bucureşti
+
+    Cod NUTS: RO321 Bucureşti
+
+    Cod poștal: 022103
+
+    Țară: România
+
+    Persoană de contact: Alexandru Mihai Zaharia
+
+    E-mail: a.zaharia@anad.gov.ro
+
+    Telefon: +40 3115541
+
+    Fax: +40 3115541
+
+    Adresă (adrese) internet:
+
+    Adresa principală: www.anad.gov.ro
+
+    Adresa profilului cumpărătorului: www.e-licitatie.ro
+
+    I.4)
+
+
+    Tipul autorității contractante
+
+    Agenție/birou regional sau local
+
+
+    I.5)
+
+
+    Activitate principală
+
+    Altă activitate: Antidoping
+
+
+    Secțiunea II: Obiect
+
+    II.1)
+
+    Obiectul achiziţiei
+
+    II.1.1)
+
+
+    Titlu:
+
+    Servicii de dezvoltare de aplicații și sisteme informatice, achiziție pachete
+    software și echipamente
+
+    Număr de referinţă: 8
+
+
+    II.1.2)
+
+
+    Cod CPV principal
+
+    72212517 Servicii de dezvoltare de software IT
+
+
+    II.1.3)
+
+
+    Tipul contractului
+
+    Servicii
+
+
+    II.1.4)
+
+
+    Descriere succintă:
+
+
+    26/02/2021
+
+    S40
+
+    https://ted.europa.eu/TED
+
+
+    1/5
+
+
+    JO/S S40
+
+    26/02/2021
+
+    100160-2021-RO
+
+
+    2/5
+
+
+    ANAD dorește să achiziționeze servicii de dezvoltare de aplicații și sisteme informatice,
+    achiziție pachete
+
+    software și echipamente care vor asigura accesul online la serviciile publice
+    de avizare/autorizare gestionate de
+
+    ANAD și va furniza digital fluxurile de lucru asociate proceselor de avizare/autorizare
+    din cadrul instituției.
+
+    Achiziția este planificată în cadrul proiectului „Ajustarea legislației relevante
+    privind combaterea dopajului
+
+    în sport”, cod My SMIS 130073, cod SIPOCA 740. Proiectul este cofinanțat din Fondul
+    social european prin
+
+    Programul Operațional Capacitate Administrativă, Axa prioritară 1 – „Administrație
+    publică și sistem judiciar
+
+    eficiente”/Obiectivul specific 1.1 – „Dezvoltarea și introducerea de sisteme și
+    standarde comune în administrația
+
+    publică ce optimizează procesele decizionale orientate către cetățeni și mediul
+    de afaceri în concordanță cu
+
+    SCAP” (Strategia privind Consolidarea Administrației Publice 2014-2020). Proiectul
+    are ca obiectiv general este
+
+    de a îmbunătăți planificarea strategică, a managementului calității și performanței,
+    de a sistematiza și simplifica
+
+    fondul activ al legislației Agenției Naționale Anti-Doping.
+
+    Obiectivele specifice ale proiectului sunt:
+
+    1. Imbunătățirea cadrului metodologic privind combaterea dopajului în sport, cu
+    accent pe măsuri de
+
+    conștientizare şi prevenire a dopajului în sport prin realizarea, testarea și
+    adoptarea a patru metodologii de lucru
+
+    și a unui studiu. Prin acest obiectiv, proiectul propus de ANAD se încadreaza
+    în tipurile de acțiuni orientative din
+
+    cadrul ghidului solicitantului „Dezvoltarea de sisteme şi instrumente de management”;
+
+    2. Actualizarea și îmbunatățirea cadrului legislativ pentru implementarea reglementărilor
+    internaționale privind
+
+    combaterea dopajului în sport, inclusiv a sistemului de monitorizare a dopajului,
+    prevenirea și combaterea
+
+    traficului ilicit de substanțe dopante cu grad mare de risc, definit și dezvoltat
+    prin realizarea a cinci inițiative
+
+    legislative în consultare activă publică;
+
+    3. Îmbunătăţirea procesului de management și digitalizarea fluxurilor de lucru
+    din cadrul ANAD prin dezvoltarea
+
+    și implementarea unei platforme informatice pentru servicii electronice care va
+    asigura accesul online la
+
+    serviciile publice de avizare/autorizare gestionate de ANAD și va furniza digital
+    fluxurile de lucru asociate
+
+    proceselor de avizare/autorizare din cadrul instituției;
+
+    4. Imbunătățirea competențelor personalului ANAD prin realizarea unei metodologii
+    de formare a personalului și
+
+    derularea a patru programe de formare pentru 49 de angajați ai ANAD.
+
+    II.1.6)
+
+
+    Informații privind loturile
+
+    Contractul este împărțit în loturi: nu
+
+
+    II.1.7)
+
+
+    Valoarea totală a achiziţiei (fără TVA)
+
+    Valoare fără TVA: 2 049 753.54 RON
+
+
+    II.2)
+
+
+    Descriere
+
+
+    II.2.2)
+
+
+    Cod(uri) CPV suplimentar(e)
+
+    30210000 Maşini de procesare a datelor (hardware)
+
+    30213100 Computere portabile
+
+    30213300 Computer de birou
+
+    30231000 Ecrane şi console de computere
+
+    30231100 Terminale informatice
+
+    30231300 Ecrane de afişare
+
+    48000000 Pachete software şi sisteme informatice
+
+    48800000 Sisteme de informare şi servere
+
+
+    II.2.3)
+
+
+    Locul de executare
+
+    Cod NUTS: RO321 Bucureşti
+
+    Locul principal de executare:
+
+    La sediul ANAD.
+
+
+    II.2.4)
+
+
+    Descrierea achiziţiei publice:
+
+
+    26/02/2021
+
+    S40
+
+    https://ted.europa.eu/TED
+
+
+    2/5
+
+
+    JO/S S40
+
+    26/02/2021
+
+    100160-2021-RO
+
+
+    3/5
+
+
+    Dezvoltarea sistemului informatic servește următoarelor scopuri:
+
+    — de a îmbunătăți procesul de management și digitalizarea fluxurilor de lucru
+    din cadrul ANAD prin dezvoltarea
+
+    și implementarea unei platforme informatice pentru servicii electronice care va
+    asigura accesul online la
+
+    serviciile publice de avizare/autorizare gestionate de ANAD și va furniza digital
+    fluxurile de lucru asociate
+
+    proceselor de avizare/autorizare din cadrul instituției;
+
+    — de a îmbunătăți planificarea strategică, a managementului calității și performanței,
+    de a sistematiza și
+
+    simplifica fondul activ al legislației Agenției Naționale Anti-Doping.
+
+    Dezvoltarea sistemului informatic va răspunde următoarelor nevoi ale AC:
+
+    — sistem de management integrat a sistemului de prevenire a dopajului în sport,
+    de gestionare a controlului
+
+    anti-doping;
+
+    — de management (management de documente, management financiar, resurse umane,
+    date cu caracter
+
+    personal, stocuri etc.);
+
+    — de asigurare a accesului online la serviciile publice de avizare/autorizare
+    gestionate de ANAD;
+
+    — baza de date care va cuprinde arhiva digitalizată a autorizațiilor și avizelor
+    emise;
+
+    — de consultare publică privind inițiativele legislative ale ANAD și de informare
+    și conștientizare privind noutățile
+
+    legislative;
+
+    — secțiunea de gestionare a informațiilor încărcate pe info-chioșcuri;
+
+    — secțiunea e-learning dedicată activităților educative derulate de agenție (managementul
+    documentelor,
+
+    managementul informației, managementul cursurilor, managementul cursanților, managementul
+    formării,
+
+    managementul formatorilor, evaluare).
+
+    Se vor digitaliza procesele aferente următoarelor metodologii:
+
+    1. informarea sportivilor de performanță, antrenori, medici, personal auxiliar
+    etc.;
+
+    2. informarea sportivilor amatori și instructori;
+
+    3. regulament de prelevare probe biologice;
+
+    4. consultarea publică.
+
+    Prin sistemul informatic se vor monitoriza:
+
+    (a) sistem de management integrat a sistemului de prevenire, a dopajului în sport,
+    de gestionare a controlului
+
+    anti-doping;
+
+    (b) sistem de management;
+
+    (c) sistem de asigurare a accesului online la serviciile publice de avizare/autorizare
+    gestionate de ANAD;
+
+    (d) baza de date care va cuprinde arhiva digitalizata a autorizațiilor și avizelor
+    emise;
+
+    (e) sistemul de consultare publică privind inițiativele legislative ale ANAD și
+    de informare și conștientizare
+
+    privind noutățile legislative.
+
+    II.2.5)
+
+
+    Criterii de atribuire
+
+    Criteriu privind calitatea - Nume: Factor tehnic – demonstrarea unei abordări
+    și a unei metodologii prin
+
+    propunerea tehnică, corespunzătoare pentru obținerea calității rezultatelor și
+    livrabilelor impuse prin caietul de
+
+    sarcini; 10 puncte/10 % / Pondere: 10
+
+    Criteriu privind calitatea - Nume: Gradul de adecvare al planului de lucru propus
+    pentru realizarea obiectului
+
+    contractului / Pondere: 10
+
+    Criteriu privind calitatea - Nume: Experiența similară *a experților cheie, din
+    care: / Pondere: 15
+
+    Criteriu privind calitatea - Nume: Timpul de rezolvare a incidentelor cu nivel
+    de prioritate „Critic” din cadrul
+
+    garanției de bună funcționare, a suportului și asistenței tehnice a soluției software
+    / Pondere: 10
+
+    Criteriu privind calitatea - Nume: Perioada de asigurare a serviciilor de mentenanță
+    corectivă și evolutivă /
+
+    Pondere: 15
+
+    Prețul - Pondere: 40
+
+
+    II.2.11)
+
+
+    Informații privind opțiunile
+
+
+    26/02/2021
+
+    S40
+
+    https://ted.europa.eu/TED
+
+
+    3/5
+
+
+    JO/S S40
+
+    26/02/2021
+
+    100160-2021-RO
+
+
+    4/5
+
+
+    Opțiuni: nu
+
+    II.2.13)
+
+
+    Informații despre fondurile Uniunii Europene
+
+    Achiziţia se referă la un proiect şi/sau program finanţat din fonduri ale Uniunii
+    Europene: nu
+
+
+    II.2.14)
+
+
+    Informații suplimentare
+
+
+    Secțiunea IV: Procedură
+
+    IV.1)
+
+    Descriere
+
+    IV.1.1)
+
+
+    Tipul procedurii
+
+    Procedură deschisă
+
+
+    IV.1.3)
+
+
+    Informaţii privind un acord-cadru sau un sistem dinamic de achiziţii
+
+
+    IV.1.8)
+
+
+    Informații despre Acordul privind achizițiile publice (AAP)
+
+    Achiziţia intră sub incidenţa Acordului privind achiziţiile publice: nu
+
+
+    IV.2)
+
+
+    Informații administrative
+
+
+    IV.2.1)
+
+
+    Publicare anterioară privind această procedură
+
+    Numărul anunțului în JO S: 2020/S 193-466692
+
+
+    IV.2.8)
+
+
+    Informaţii privind încetarea sistemului dinamic de achiziţii
+
+
+    IV.2.9)
+
+
+    Informaţii privind încetarea unei invitaţii la o procedură concurenţială de ofertare
+    sub forma unui anunţ
+
+    de intenţie
+
+
+    Secțiunea V: Atribuirea contractului
+
+    Contract nr.: 740/130073/2021/02/22/01
+
+    Titlu:
+
+    Contract servicii de dezvoltare de aplicații și sisteme informatice, achiziție
+    pachete software și echipamente
+
+    (activități management de proiect și activități diferite față de managementul
+    de proiect)
+
+    Se atribuie un contract/un lot: da
+
+    V.2)
+
+
+    Atribuirea contractului
+
+
+    V.2.1)
+
+
+    Data încheierii contractului:
+
+    22/02/2021
+
+
+    V.2.2)
+
+
+    Informaţii privind ofertele
+
+    Numărul de oferte primite: 3
+
+    Numărul de oferte primite de la IMM-uri: 3
+
+    Numărul de oferte primite de la ofertanţi din alte state membre ale UE: 0
+
+    Numărul de oferte primite de la ofertanţi din state care nu sunt membre ale UE:
+    0
+
+    Numărul de oferte primite prin mijloace electronice: 3
+
+    Contractul a fost atribuit unui grup de operatori economici: nu
+
+
+    V.2.3)
+
+
+    Numele şi adresa contractantului
+
+
+    26/02/2021
+
+    S40
+
+    https://ted.europa.eu/TED
+
+
+    4/5
+
+
+    JO/S S40
+
+    26/02/2021
+
+    100160-2021-RO
+
+
+    5/5
+
+
+    Denumire oficială: Holisun
+
+    Număr naţional de înregistrare: RO 14184124
+
+    Adresă: Str. Cărbunari nr. 8
+
+    Localitate: NA
+
+    Cod NUTS: RO114 Maramureş
+
+    Cod poștal: 430397
+
+    Țară: România
+
+    E-mail: oliviu.matei@holisun.com
+
+    Telefon: +40 262226778
+
+    Adresă internet: www.holisun.com
+
+    Contractantul este un IMM: nu
+
+    V.2.4)
+
+
+    Informaţii privind valoarea contractului/lotului (fără TVA)
+
+    Valoarea totală estimată iniţială a contractului/lotului: 2 626 500.00 RON
+
+    Valoarea totală a contractului/lotului: 2 049 753.54 RON
+
+
+    V.2.5)
+
+
+    Informații privind subcontractarea
+
+
+    Secțiunea VI: Informații complementare
+
+    VI.3)
+
+    Informații suplimentare:
+
+    VI.4)
+
+
+    Proceduri de contestare
+
+
+    VI.4.1)
+
+
+    Organismul de soluţionare a contestaţiilor
+
+    Denumire oficială: Consiliul Național de Soluționare a Contestațiilor
+
+    Adresă: Str. Stavropoleos nr. 6, sector 3
+
+    Localitate: București
+
+    Cod poștal: 030084
+
+    Țară: România
+
+    E-mail: office@cnsc.ro
+
+    Telefon: +40 213104641
+
+    Fax: +40 213104642 / +40 218900745
+
+    Adresă internet: http://www.cnsc.ro
+
+
+    VI.4.4)
+
+
+    Serviciul de la care se pot obţine informaţii privind procedura de contestare
+
+    Denumire oficială: Direcția juridică și resurse umane
+
+    Adresă: Bulevardul Basarabia nr. 37-39
+
+    Localitate: București
+
+    Cod poștal: 022103
+
+    Țară: România
+
+    E-mail: c.dima@anad.gov.ro
+
+    Telefon: +40 213115541
+
+    Fax: +40 213115541
+
+    Adresă internet: www.anad.gov.ro
+
+
+    VI.5)
+
+
+    Data expedierii prezentului anunț:
+
+    22/02/2021
+
+
+    26/02/2021
+
+    S40
+
+    https://ted.europa.eu/TED
+
+
+    5/5
+
+    ```
+
+    '
   required_artifacts:
   - source_record_file
   - source_record_metadata
@@ -47,10 +758,15 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 100160-2021.xml
     sha256: bb44cc436a4ddaa2557efd6975b8f696af605c5e68fd77509c8cd1dfa3f35790
-    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
-    source_dataset: 'Case bundle from: TED notice XML 100160-2021 | TED notice PDF 100160-2021 (RO) | TED notice detail 100160-2021'
-    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+    acquisition_method: Fetch the official procurement record from the listed source
+      URLs, prefer machine-readable XML or PDF when available, and preserve the relevant
+      record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
+    source_dataset: 'Case bundle from: TED notice XML 100160-2021 | TED notice PDF
+      100160-2021 (RO) | TED notice detail 100160-2021'
+    notes: Checked-in markdown source document used for local validation and Hugging
+      Face export. Factual source content backfilled from the listed upstream sources.
   - id: original-source-01
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-national-anti-doping-100160/source-01-ted-notice-xml-100160-2021.xml
     role: original_source_snapshot
@@ -59,10 +775,14 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 100160-2021.xml
     sha256: 2a5b4fa11fc8901762ad5893588b3b7acd5a10e8f3a6566e39d4e91ff5b81ce9
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice XML 100160-2021
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
   - id: original-source-02
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-national-anti-doping-100160/source-02-ted-notice-pdf-100160-2021-ro.pdf
     role: original_source_snapshot
@@ -71,10 +791,14 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 100160-2021.pdf
     sha256: b3d1093d5edfc3856614d8695b69dcf8844af697700237c9a0e3aab822e2eb7c
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice PDF 100160-2021 (RO)
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
   - id: original-source-03
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-national-anti-doping-100160/source-03-ted-notice-detail-100160-2021.html
     role: original_source_snapshot
@@ -83,10 +807,14 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 100160-2021.html
     sha256: a11fb7743a8b598480877067bd253587ea37c1d0e607a398dce1bdd182a25f88
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice detail 100160-2021
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
 expected_output:
   fields_required:
   - buyer_name
@@ -97,11 +825,19 @@ expected_output:
 answer_key:
   type: structured_fields
   fields:
-    buyer_name: "Agen\u021Bia Na\u021Bional\u0103 Anti-Doping"
+    buyer_name: Agenția Națională Anti-Doping
     supplier_name: Holisun
     award_date: '2021-02-22'
     amount: 2049753.54
     category_code: '72212517'
 notes:
-- This Romania case adds a new country slice while keeping the same single-award TED XML plus PDF provenance pattern as the other procurement records.
-- The notice is published in Romanian, but the exact answer key still comes directly from the contracting authority, winner, contract date, procurement total, and original CPV fields.
+- This Romania case adds a new country slice while keeping the same single-award TED
+  XML plus PDF provenance pattern as the other procurement records.
+- The notice is published in Romanian, but the exact answer key still comes directly
+  from the contracting authority, winner, contract date, procurement total, and original
+  CPV fields.
+source_languages:
+- ro
+evidence_languages:
+- ro
+answer_language: en

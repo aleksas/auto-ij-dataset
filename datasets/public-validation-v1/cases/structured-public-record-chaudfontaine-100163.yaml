@@ -1,5 +1,5 @@
 id: structured-public-record-chaudfontaine-100163
-status: draft
+status: validated
 title: Chaudfontaine administrative archiving services contract extraction
 task_type: field_extraction
 answer_mode: exact
@@ -11,22 +11,470 @@ sources:
   url: https://ted.europa.eu/en/notice/100163-2021/xml
   checked_on: 2026-03-20
   provenance: official_portal
+  language: fr
 - label: TED notice PDF 100163-2021 (FR)
   url: https://ted.europa.eu/fr/notice/100163-2021/pdfs
   checked_on: 2026-03-20
   provenance: official_portal
+  language: fr
 - label: TED notice detail 100163-2021
   url: https://ted.europa.eu/en/notice/-/detail/100163-2021
   checked_on: 2026-03-20
   provenance: official_portal
+  language: fr
 evidence_bundle:
   kind: structured_record
-  content_markdown: "# Chaudfontaine administrative archiving services contract extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/fr/notice/100163-2021/pdfs\n\n## Listed sources\n- TED notice XML 100163-2021: https://ted.europa.eu/en/notice/100163-2021/xml\n- TED notice PDF 100163-2021 (FR): https://ted.europa.eu/fr/notice/100163-2021/pdfs\n- TED notice detail 100163-2021: https://ted.europa.eu/en/notice/-/detail/100163-2021\n\n## Extracted source text\n\n```text\nJO/S S40\n26/02/2021\n100163-2021-FR\n\n1/3\n\nCet avis sur le site TED: https://ted.europa.eu/udl?uri=TED:NOTICE:100163-2021:TEXT:FR:HTML\n\nBelgique-Embourg: Services de classement\n2021/S 040-100163\nAvis d\u2019attribution de march\xE9\nR\xE9sultats de la proc\xE9dure de march\xE9\nServices\nBase juridique:\nDirective 2014/24/UE\nSection I: Pouvoir adjudicateur\nI.1)\nNom et adresses\nNom officiel: Commune de Chaudfontaine\nNum\xE9ro national d'identification:\
-    \ AC CHAUDF.\nAdresse postale: Avenue du Centenaire 14\nVille: Embourg\nCode NUTS: BE332 Arr. Li\xE8ge\nCode postal: 4053\nPays: Belgique\nCourriel: commune@chaudfontaine.be\nT\xE9l\xE9phone: +32 43615551\nFax: +32 43615568\nAdresse(s) internet:\nAdresse principale: https://www.chaudfontaine.be\nI.4)\n\nType de pouvoir adjudicateur\nAutorit\xE9 r\xE9gionale ou locale\n\nI.5)\n\nActivit\xE9 principale\nServices g\xE9n\xE9raux des administrations publiques\n\nSection II: Objet\nII.1)\n\xC9tendue du march\xE9\nII.1.1)\n\nIntitul\xE9:\nClassement et archivage des dossiers administratifs sur base du syst\xE8me Decasepel\nNum\xE9ro de r\xE9f\xE9rence: DG2018/847\n\nII.1.2)\n\nCode CPV principal\n79560000 Services de classement\n\nII.1.3)\n\nType de march\xE9\nServices\n\nII.1.4)\n\nDescription succincte:\nVoir II.2.4).\n\nII.1.6)\n\nInformation sur les lots\nCe march\xE9 est divis\xE9 en lots: non\n\nII.1.7)\n\nValeur totale du march\xE9 (hors TVA)\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\
-    \n1/3\n\nJO/S S40\n26/02/2021\n100163-2021-FR\n\n2/3\n\nValeur hors TVA: 297 180.20 EUR\nII.2)\n\nDescription\n\nII.2.3)\n\nLieu d'ex\xE9cution\nCode NUTS: BE332 Arr. Li\xE8ge\nLieu principal d'ex\xE9cution:\nCommune de Chaudfontaine.\n\nII.2.4)\n\nDescription des prestations:\nClassement et archivage des dossiers administratifs de la Commune et du CPAS de Chaudfontaine sur base du\nsyst\xE8me Decasepel et fourniture du mat\xE9riel destin\xE9 au classement et \xE0 l'archivage des documents.\nme\n\nVisite: le soumissionnaire prendra rendez-vous pour effectuer une visite des lieux avec M\n(043615538 \u2013 sabine.gathot@chaudfontaine.be ) sous peine de nullit\xE9 de l'offre.\n\nSabine Gathot\n\nII.2.5)\n\nCrit\xE8res d\u2019attribution\nPrix\n\nII.2.11)\n\nInformation sur les options\nOptions: non\n\nII.2.13)\n\nInformation sur les fonds de l'Union europ\xE9enne\nLe contrat s'inscrit dans un projet/programme financ\xE9 par des fonds de l'Union europ\xE9enne: non\n\nII.2.14)\n\nInformations\
-    \ compl\xE9mentaires\n\nSection IV: Proc\xE9dure\nIV.1)\nDescription\nIV.1.1)\n\nType de proc\xE9dure\nProc\xE9dure ouverte\n\nIV.1.3)\n\nInformation sur l'accord-cadre ou le syst\xE8me d'acquisition dynamique\n\nIV.1.8)\n\nInformation concernant l\u2019accord sur les march\xE9s publics (AMP)\nLe march\xE9 est couvert par l'accord sur les march\xE9s publics: oui\n\nIV.2)\n\nRenseignements d'ordre administratif\n\nIV.2.1)\n\nPublication ant\xE9rieure relative \xE0 la pr\xE9sente proc\xE9dure\nNum\xE9ro de l'avis au JO s\xE9rie S: 2020/S 203-493663\n\nIV.2.8)\n\nInformations sur l'abandon du syst\xE8me d'acquisition dynamique\n\nIV.2.9)\n\nInformations sur l'abandon de la proc\xE9dure d'appel \xE0 la concurrence sous la forme d'un avis de\npr\xE9information\n\nSection V: Attribution du march\xE9\nMarch\xE9 n\xBA: DG2018/847\nIntitul\xE9:\nClassement et archivage des dossiers administratifs sur base du syst\xE8me Decasepel\nUn march\xE9/lot est attribu\xE9: oui\nV.2)\n\nAttribution du march\xE9\
-    \n\nV.2.1)\n\nDate de conclusion du march\xE9:\n20/01/2021\n\nV.2.2)\n\nInformations sur les offres\nNombre d'offres re\xE7ues: 2\nNombre d'offres re\xE7ues de la part de PME: 2\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n2/3\n\nJO/S S40\n26/02/2021\n100163-2021-FR\n\n3/3\n\nNombre d'offres re\xE7ues de la part de soumissionnaires d'autres \xC9tats membres de l'UE: 0\nNombre d'offres re\xE7ues de la part de soumissionnaires d'\xC9tats non membres de l'UE: 0\nNombre d'offres re\xE7ues par voie \xE9lectronique: 2\nLe march\xE9 a \xE9t\xE9 attribu\xE9 \xE0 un groupement d'op\xE9rateurs \xE9conomiques: non\nV.2.3)\n\nNom et adresse du titulaire\nNom officiel: Mahut & Fils SPRL\nAdresse postale: Boulevard Eisenhower 69B\nVille: Tournai\nCode NUTS: BE BELGIQUE-BELGI\xCB\nCode postal: 7500\nPays: Belgique\nCourriel: sprl.mahut@skynet.be\nT\xE9l\xE9phone: +32 69223462\nFax: +32 69227261\nLe titulaire est une PME: oui\n\nV.2.4)\n\nInformations sur le montant du march\xE9/du lot (hors TVA)\n\
-    Valeur totale du march\xE9/du lot: 297 180.20 EUR\n\nV.2.5)\n\nInformation sur la sous-traitance\n\nSection VI: Renseignements compl\xE9mentaires\nVI.3)\nInformations compl\xE9mentaires:\nVI.4)\n\nProc\xE9dures de recours\n\nVI.4.1)\n\nInstance charg\xE9e des proc\xE9dures de recours\nNom officiel: Tribunal de Li\xE8ge\nVille: Li\xE8ge\nCode postal: 4000\nPays: Belgique\n\nVI.5)\n\nDate d\u2019envoi du pr\xE9sent avis:\n23/02/2021\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n3/3\n```\n"
+  content_markdown: '# Chaudfontaine administrative archiving services contract extraction
+
+
+    Collected from the official TED procurement PDF on 2026-03-20.
+
+
+    Primary source URL: https://ted.europa.eu/fr/notice/100163-2021/pdfs
+
+
+    ## Listed sources
+
+    - TED notice XML 100163-2021: https://ted.europa.eu/en/notice/100163-2021/xml
+
+    - TED notice PDF 100163-2021 (FR): https://ted.europa.eu/fr/notice/100163-2021/pdfs
+
+    - TED notice detail 100163-2021: https://ted.europa.eu/en/notice/-/detail/100163-2021
+
+
+    ## Extracted source text
+
+
+    ```text
+
+    JO/S S40
+
+    26/02/2021
+
+    100163-2021-FR
+
+
+    1/3
+
+
+    Cet avis sur le site TED: https://ted.europa.eu/udl?uri=TED:NOTICE:100163-2021:TEXT:FR:HTML
+
+
+    Belgique-Embourg: Services de classement
+
+    2021/S 040-100163
+
+    Avis d’attribution de marché
+
+    Résultats de la procédure de marché
+
+    Services
+
+    Base juridique:
+
+    Directive 2014/24/UE
+
+    Section I: Pouvoir adjudicateur
+
+    I.1)
+
+    Nom et adresses
+
+    Nom officiel: Commune de Chaudfontaine
+
+    Numéro national d''identification: AC CHAUDF.
+
+    Adresse postale: Avenue du Centenaire 14
+
+    Ville: Embourg
+
+    Code NUTS: BE332 Arr. Liège
+
+    Code postal: 4053
+
+    Pays: Belgique
+
+    Courriel: commune@chaudfontaine.be
+
+    Téléphone: +32 43615551
+
+    Fax: +32 43615568
+
+    Adresse(s) internet:
+
+    Adresse principale: https://www.chaudfontaine.be
+
+    I.4)
+
+
+    Type de pouvoir adjudicateur
+
+    Autorité régionale ou locale
+
+
+    I.5)
+
+
+    Activité principale
+
+    Services généraux des administrations publiques
+
+
+    Section II: Objet
+
+    II.1)
+
+    Étendue du marché
+
+    II.1.1)
+
+
+    Intitulé:
+
+    Classement et archivage des dossiers administratifs sur base du système Decasepel
+
+    Numéro de référence: DG2018/847
+
+
+    II.1.2)
+
+
+    Code CPV principal
+
+    79560000 Services de classement
+
+
+    II.1.3)
+
+
+    Type de marché
+
+    Services
+
+
+    II.1.4)
+
+
+    Description succincte:
+
+    Voir II.2.4).
+
+
+    II.1.6)
+
+
+    Information sur les lots
+
+    Ce marché est divisé en lots: non
+
+
+    II.1.7)
+
+
+    Valeur totale du marché (hors TVA)
+
+
+    26/02/2021
+
+    S40
+
+    https://ted.europa.eu/TED
+
+
+    1/3
+
+
+    JO/S S40
+
+    26/02/2021
+
+    100163-2021-FR
+
+
+    2/3
+
+
+    Valeur hors TVA: 297 180.20 EUR
+
+    II.2)
+
+
+    Description
+
+
+    II.2.3)
+
+
+    Lieu d''exécution
+
+    Code NUTS: BE332 Arr. Liège
+
+    Lieu principal d''exécution:
+
+    Commune de Chaudfontaine.
+
+
+    II.2.4)
+
+
+    Description des prestations:
+
+    Classement et archivage des dossiers administratifs de la Commune et du CPAS de
+    Chaudfontaine sur base du
+
+    système Decasepel et fourniture du matériel destiné au classement et à l''archivage
+    des documents.
+
+    me
+
+
+    Visite: le soumissionnaire prendra rendez-vous pour effectuer une visite des lieux
+    avec M
+
+    (043615538 – sabine.gathot@chaudfontaine.be ) sous peine de nullité de l''offre.
+
+
+    Sabine Gathot
+
+
+    II.2.5)
+
+
+    Critères d’attribution
+
+    Prix
+
+
+    II.2.11)
+
+
+    Information sur les options
+
+    Options: non
+
+
+    II.2.13)
+
+
+    Information sur les fonds de l''Union européenne
+
+    Le contrat s''inscrit dans un projet/programme financé par des fonds de l''Union
+    européenne: non
+
+
+    II.2.14)
+
+
+    Informations complémentaires
+
+
+    Section IV: Procédure
+
+    IV.1)
+
+    Description
+
+    IV.1.1)
+
+
+    Type de procédure
+
+    Procédure ouverte
+
+
+    IV.1.3)
+
+
+    Information sur l''accord-cadre ou le système d''acquisition dynamique
+
+
+    IV.1.8)
+
+
+    Information concernant l’accord sur les marchés publics (AMP)
+
+    Le marché est couvert par l''accord sur les marchés publics: oui
+
+
+    IV.2)
+
+
+    Renseignements d''ordre administratif
+
+
+    IV.2.1)
+
+
+    Publication antérieure relative à la présente procédure
+
+    Numéro de l''avis au JO série S: 2020/S 203-493663
+
+
+    IV.2.8)
+
+
+    Informations sur l''abandon du système d''acquisition dynamique
+
+
+    IV.2.9)
+
+
+    Informations sur l''abandon de la procédure d''appel à la concurrence sous la
+    forme d''un avis de
+
+    préinformation
+
+
+    Section V: Attribution du marché
+
+    Marché nº: DG2018/847
+
+    Intitulé:
+
+    Classement et archivage des dossiers administratifs sur base du système Decasepel
+
+    Un marché/lot est attribué: oui
+
+    V.2)
+
+
+    Attribution du marché
+
+
+    V.2.1)
+
+
+    Date de conclusion du marché:
+
+    20/01/2021
+
+
+    V.2.2)
+
+
+    Informations sur les offres
+
+    Nombre d''offres reçues: 2
+
+    Nombre d''offres reçues de la part de PME: 2
+
+
+    26/02/2021
+
+    S40
+
+    https://ted.europa.eu/TED
+
+
+    2/3
+
+
+    JO/S S40
+
+    26/02/2021
+
+    100163-2021-FR
+
+
+    3/3
+
+
+    Nombre d''offres reçues de la part de soumissionnaires d''autres États membres
+    de l''UE: 0
+
+    Nombre d''offres reçues de la part de soumissionnaires d''États non membres de
+    l''UE: 0
+
+    Nombre d''offres reçues par voie électronique: 2
+
+    Le marché a été attribué à un groupement d''opérateurs économiques: non
+
+    V.2.3)
+
+
+    Nom et adresse du titulaire
+
+    Nom officiel: Mahut & Fils SPRL
+
+    Adresse postale: Boulevard Eisenhower 69B
+
+    Ville: Tournai
+
+    Code NUTS: BE BELGIQUE-BELGIË
+
+    Code postal: 7500
+
+    Pays: Belgique
+
+    Courriel: sprl.mahut@skynet.be
+
+    Téléphone: +32 69223462
+
+    Fax: +32 69227261
+
+    Le titulaire est une PME: oui
+
+
+    V.2.4)
+
+
+    Informations sur le montant du marché/du lot (hors TVA)
+
+    Valeur totale du marché/du lot: 297 180.20 EUR
+
+
+    V.2.5)
+
+
+    Information sur la sous-traitance
+
+
+    Section VI: Renseignements complémentaires
+
+    VI.3)
+
+    Informations complémentaires:
+
+    VI.4)
+
+
+    Procédures de recours
+
+
+    VI.4.1)
+
+
+    Instance chargée des procédures de recours
+
+    Nom officiel: Tribunal de Liège
+
+    Ville: Liège
+
+    Code postal: 4000
+
+    Pays: Belgique
+
+
+    VI.5)
+
+
+    Date d’envoi du présent avis:
+
+    23/02/2021
+
+
+    26/02/2021
+
+    S40
+
+    https://ted.europa.eu/TED
+
+
+    3/3
+
+    ```
+
+    '
   required_artifacts:
   - source_record_file
   - source_record_metadata
@@ -39,10 +487,15 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 100163-2021.xml
     sha256: 1a94eb99e21b0f22837b0b615665aaa0da8b18591c44d7cf4ba7dd2ca5724d13
-    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
-    source_dataset: 'Case bundle from: TED notice XML 100163-2021 | TED notice PDF 100163-2021 (FR) | TED notice detail 100163-2021'
-    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+    acquisition_method: Fetch the official procurement record from the listed source
+      URLs, prefer machine-readable XML or PDF when available, and preserve the relevant
+      record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
+    source_dataset: 'Case bundle from: TED notice XML 100163-2021 | TED notice PDF
+      100163-2021 (FR) | TED notice detail 100163-2021'
+    notes: Checked-in markdown source document used for local validation and Hugging
+      Face export. Factual source content backfilled from the listed upstream sources.
   - id: original-source-01
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-chaudfontaine-100163/source-01-ted-notice-xml-100163-2021.xml
     role: original_source_snapshot
@@ -51,10 +504,14 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 100163-2021.xml
     sha256: 6473755720219eff13bce93b744215fbce2eeeb9cfb9cda9a01526d44e8c1b4a
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice XML 100163-2021
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
   - id: original-source-02
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-chaudfontaine-100163/source-02-ted-notice-pdf-100163-2021-fr.pdf
     role: original_source_snapshot
@@ -63,10 +520,14 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 100163-2021.pdf
     sha256: 0ea1e3a7d3ad859a61ea870788e087f1c138612a55fffe3091a271362b344fc8
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice PDF 100163-2021 (FR)
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
   - id: original-source-03
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-chaudfontaine-100163/source-03-ted-notice-detail-100163-2021.html
     role: original_source_snapshot
@@ -75,10 +536,14 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 100163-2021.html
     sha256: 59b1a23e789e53921331a0ccda8e6c6e7298ec24e3f0c3e69e974a2a7e6e4a97
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice detail 100163-2021
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
 expected_output:
   fields_required:
   - buyer_name
@@ -95,5 +560,12 @@ answer_key:
     amount: 297180.2
     category_code: '79560000'
 notes:
-- This French-language Belgian municipal notice complements the existing Belgium utilities case with a local-authority record and the same exact-field extraction contract.
-- The supplier appears in the XML as an escaped entity string, so the normalized answer key uses the rendered official name rather than the raw `&amp;` encoding.
+- This French-language Belgian municipal notice complements the existing Belgium utilities
+  case with a local-authority record and the same exact-field extraction contract.
+- The supplier appears in the XML as an escaped entity string, so the normalized answer
+  key uses the rendered official name rather than the raw `&amp;` encoding.
+source_languages:
+- fr
+evidence_languages:
+- fr
+answer_language: en

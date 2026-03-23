@@ -1,5 +1,5 @@
 id: structured-public-record-nhsbt-470502
-status: draft
+status: validated
 title: NHS Blood and Transplant stem cell storage bags extraction
 task_type: field_extraction
 answer_mode: exact
@@ -11,18 +11,472 @@ sources:
   url: https://ted.europa.eu/en/notice/470502-2020/pdfs
   checked_on: 2026-03-20
   provenance: official_portal
+  language: en
 - label: TED notice HTML 470502-2020
   url: https://ted.europa.eu/udl?uri=TED:NOTICE:470502-2020:TEXT:EN:HTML
   checked_on: 2026-03-20
   provenance: official_portal
+  language: en
 evidence_bundle:
   kind: structured_record
-  content_markdown: "# NHS Blood and Transplant stem cell storage bags extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/en/notice/470502-2020/pdfs\n\n## Listed sources\n- TED notice PDF 470502-2020: https://ted.europa.eu/en/notice/470502-2020/pdfs\n- TED notice HTML 470502-2020: https://ted.europa.eu/udl?uri=TED:NOTICE:470502-2020:TEXT:EN:HTML\n\n## Extracted source text\n\n```text\nOJ/S S194\n06/10/2020\n470502-2020-EN\n\n1/3\n\nThis notice in TED website: https://ted.europa.eu/udl?uri=TED:NOTICE:470502-2020:TEXT:EN:HTML\n\nUnited Kingdom-Filton: Special-purpose mobile containers\n2020/S 194-470502\nContract award notice\nResults of the procurement procedure\nSupplies\nLegal Basis:\nDirective 2014/24/EU\nSection I: Contracting authority\nI.1)\nName and addresses\nOfficial name: NHS Blood and Transplant\nPostal address: North Bristol Park\nTown: Filton, Bristol\nNUTS code: UK UNITED KINGDOM\nPostal code: BS34 7QH\n\
-    Country: United Kingdom\nE-mail: michael.o'neill@nhsbt.nhs.uk\nTelephone: +44 1179217230\nInternet address(es):\nMain address: www.nhsbt.nhs.uk\nI.2)\n\nInformation about joint procurement\n\nI.4)\n\nType of the contracting authority\nBody governed by public law\n\nI.5)\n\nMain activity\nHealth\n\nSection II: Object\nII.1)\nScope of the procurement\nII.1.1)\n\nTitle:\nSupply of Stem Cell Cryogenic Storage Bags\n\nII.1.2)\n\nMain CPV code\n34221000 Special-purpose mobile containers\n\nII.1.3)\n\nType of contract\nSupplies\n\nII.1.4)\n\nShort description:\nCMT (Cellular and Molecular Therapies) laboratories are required to store haematopoietic stem cells for\nextended periods of time in the vapour phase of liquid nitrogen. This procurement was for the supply of sterile\ncryogenic storage bags, which must be made of clear plastic that does not compromise the viability of the stem\ncells. Bags must be available in a number of sizes to enable the cryopreservation of different volumes and\
-    \ must\nbe capable of being overwrapped and withstanding temperatures below -150 \xB0C. Bags must also incorporate\n\n06/10/2020\nS194\nhttps://ted.europa.eu/TED\n\n1/3\n\nOJ/S S194\n06/10/2020\n470502-2020-EN\n\n2/3\n\na label pouch, integral access ports and tubing harness compatible with heat sealers and sterile connecting\ndevices.\nII.1.6)\n\nInformation about lots\nThis contract is divided into lots: no\n\nII.1.7)\n\nTotal value of the procurement (excluding VAT)\nValue excluding VAT: 1 228 712.00 GBP\n\nII.2)\n\nDescription\n\nII.2.1)\n\nTitle:\n\nII.2.2)\n\nAdditional CPV code(s)\n33141613 Blood bags\n\nII.2.3)\n\nPlace of performance\nNUTS code: UK UNITED KINGDOM\n\nII.2.4)\n\nDescription of the procurement:\nSupply of stem cell cryongenic storage bags.\n\nII.2.5)\n\nAward criteria\nPrice\n\nII.2.11)\n\nInformation about options\nOptions: no\n\nII.2.13)\n\nInformation about European Union funds\nThe procurement is related to a project and/or programme financed by European Union\
-    \ funds: no\n\nII.2.14)\n\nAdditional information\n\nSection IV: Procedure\nIV.1)\nDescription\nIV.1.1)\n\nType of procedure\nOpen procedure\n\nIV.1.3)\n\nInformation about a framework agreement or a dynamic purchasing system\n\nIV.1.6)\n\nInformation about electronic auction\n\nIV.1.8)\n\nInformation about the Government Procurement Agreement (GPA)\nThe procurement is covered by the Government Procurement Agreement: yes\n\nIV.2)\n\nAdministrative information\n\nIV.2.1)\n\nPrevious publication concerning this procedure\nNotice number in the OJ S: 2020/S 057-137537\n\nIV.2.8)\n\nInformation about termination of dynamic purchasing system\n\nIV.2.9)\n\nInformation about termination of call for competition in the form of a prior information notice\n\nSection V: Award of contract\nA contract/lot is awarded: yes\nV.2)\n\nAward of contract\n\nV.2.1)\n\nDate of conclusion of the contract:\n01/10/2020\n\nV.2.2)\n\nInformation about tenders\nNumber of tenders received: 1\nThe contract has been\
-    \ awarded to a group of economic operators: no\n\n06/10/2020\nS194\nhttps://ted.europa.eu/TED\n\n2/3\n\nOJ/S S194\n06/10/2020\n470502-2020-EN\n\nV.2.3)\n\nName and address of the contractor\nOfficial name: Miltenyi Biotec\nPostal address: Almac House\nTown: Bisley\nNUTS code: UK UNITED KINGDOM\nCountry: United Kingdom\nThe contractor is an SME: yes\n\nV.2.4)\n\nInformation on value of the contract/lot (excluding VAT)\nTotal value of the contract/lot: 1 228 712.00 GBP\n\nV.2.5)\n\nInformation about subcontracting\n\n3/3\n\nSection VI: Complementary information\nVI.3)\nAdditional information:\nVI.4)\n\nProcedures for review\n\nVI.4.1)\n\nReview body\nOfficial name: NHS Blood and Transplant\nTown: Bristol\nCountry: United Kingdom\n\nVI.4.2)\n\nBody responsible for mediation procedures\n\nVI.4.3)\n\nReview procedure\n\nVI.4.4)\n\nService from which information about the review procedure may be obtained\n\nVI.5)\n\nDate of dispatch of this notice:\n01/10/2020\n\n06/10/2020\nS194\nhttps://ted.europa.eu/TED\n\
-    \n3/3\n```\n"
+  content_markdown: '# NHS Blood and Transplant stem cell storage bags extraction
+
+
+    Collected from the official TED procurement PDF on 2026-03-20.
+
+
+    Primary source URL: https://ted.europa.eu/en/notice/470502-2020/pdfs
+
+
+    ## Listed sources
+
+    - TED notice PDF 470502-2020: https://ted.europa.eu/en/notice/470502-2020/pdfs
+
+    - TED notice HTML 470502-2020: https://ted.europa.eu/udl?uri=TED:NOTICE:470502-2020:TEXT:EN:HTML
+
+
+    ## Extracted source text
+
+
+    ```text
+
+    OJ/S S194
+
+    06/10/2020
+
+    470502-2020-EN
+
+
+    1/3
+
+
+    This notice in TED website: https://ted.europa.eu/udl?uri=TED:NOTICE:470502-2020:TEXT:EN:HTML
+
+
+    United Kingdom-Filton: Special-purpose mobile containers
+
+    2020/S 194-470502
+
+    Contract award notice
+
+    Results of the procurement procedure
+
+    Supplies
+
+    Legal Basis:
+
+    Directive 2014/24/EU
+
+    Section I: Contracting authority
+
+    I.1)
+
+    Name and addresses
+
+    Official name: NHS Blood and Transplant
+
+    Postal address: North Bristol Park
+
+    Town: Filton, Bristol
+
+    NUTS code: UK UNITED KINGDOM
+
+    Postal code: BS34 7QH
+
+    Country: United Kingdom
+
+    E-mail: michael.o''neill@nhsbt.nhs.uk
+
+    Telephone: +44 1179217230
+
+    Internet address(es):
+
+    Main address: www.nhsbt.nhs.uk
+
+    I.2)
+
+
+    Information about joint procurement
+
+
+    I.4)
+
+
+    Type of the contracting authority
+
+    Body governed by public law
+
+
+    I.5)
+
+
+    Main activity
+
+    Health
+
+
+    Section II: Object
+
+    II.1)
+
+    Scope of the procurement
+
+    II.1.1)
+
+
+    Title:
+
+    Supply of Stem Cell Cryogenic Storage Bags
+
+
+    II.1.2)
+
+
+    Main CPV code
+
+    34221000 Special-purpose mobile containers
+
+
+    II.1.3)
+
+
+    Type of contract
+
+    Supplies
+
+
+    II.1.4)
+
+
+    Short description:
+
+    CMT (Cellular and Molecular Therapies) laboratories are required to store haematopoietic
+    stem cells for
+
+    extended periods of time in the vapour phase of liquid nitrogen. This procurement
+    was for the supply of sterile
+
+    cryogenic storage bags, which must be made of clear plastic that does not compromise
+    the viability of the stem
+
+    cells. Bags must be available in a number of sizes to enable the cryopreservation
+    of different volumes and must
+
+    be capable of being overwrapped and withstanding temperatures below -150 °C. Bags
+    must also incorporate
+
+
+    06/10/2020
+
+    S194
+
+    https://ted.europa.eu/TED
+
+
+    1/3
+
+
+    OJ/S S194
+
+    06/10/2020
+
+    470502-2020-EN
+
+
+    2/3
+
+
+    a label pouch, integral access ports and tubing harness compatible with heat sealers
+    and sterile connecting
+
+    devices.
+
+    II.1.6)
+
+
+    Information about lots
+
+    This contract is divided into lots: no
+
+
+    II.1.7)
+
+
+    Total value of the procurement (excluding VAT)
+
+    Value excluding VAT: 1 228 712.00 GBP
+
+
+    II.2)
+
+
+    Description
+
+
+    II.2.1)
+
+
+    Title:
+
+
+    II.2.2)
+
+
+    Additional CPV code(s)
+
+    33141613 Blood bags
+
+
+    II.2.3)
+
+
+    Place of performance
+
+    NUTS code: UK UNITED KINGDOM
+
+
+    II.2.4)
+
+
+    Description of the procurement:
+
+    Supply of stem cell cryongenic storage bags.
+
+
+    II.2.5)
+
+
+    Award criteria
+
+    Price
+
+
+    II.2.11)
+
+
+    Information about options
+
+    Options: no
+
+
+    II.2.13)
+
+
+    Information about European Union funds
+
+    The procurement is related to a project and/or programme financed by European
+    Union funds: no
+
+
+    II.2.14)
+
+
+    Additional information
+
+
+    Section IV: Procedure
+
+    IV.1)
+
+    Description
+
+    IV.1.1)
+
+
+    Type of procedure
+
+    Open procedure
+
+
+    IV.1.3)
+
+
+    Information about a framework agreement or a dynamic purchasing system
+
+
+    IV.1.6)
+
+
+    Information about electronic auction
+
+
+    IV.1.8)
+
+
+    Information about the Government Procurement Agreement (GPA)
+
+    The procurement is covered by the Government Procurement Agreement: yes
+
+
+    IV.2)
+
+
+    Administrative information
+
+
+    IV.2.1)
+
+
+    Previous publication concerning this procedure
+
+    Notice number in the OJ S: 2020/S 057-137537
+
+
+    IV.2.8)
+
+
+    Information about termination of dynamic purchasing system
+
+
+    IV.2.9)
+
+
+    Information about termination of call for competition in the form of a prior information
+    notice
+
+
+    Section V: Award of contract
+
+    A contract/lot is awarded: yes
+
+    V.2)
+
+
+    Award of contract
+
+
+    V.2.1)
+
+
+    Date of conclusion of the contract:
+
+    01/10/2020
+
+
+    V.2.2)
+
+
+    Information about tenders
+
+    Number of tenders received: 1
+
+    The contract has been awarded to a group of economic operators: no
+
+
+    06/10/2020
+
+    S194
+
+    https://ted.europa.eu/TED
+
+
+    2/3
+
+
+    OJ/S S194
+
+    06/10/2020
+
+    470502-2020-EN
+
+
+    V.2.3)
+
+
+    Name and address of the contractor
+
+    Official name: Miltenyi Biotec
+
+    Postal address: Almac House
+
+    Town: Bisley
+
+    NUTS code: UK UNITED KINGDOM
+
+    Country: United Kingdom
+
+    The contractor is an SME: yes
+
+
+    V.2.4)
+
+
+    Information on value of the contract/lot (excluding VAT)
+
+    Total value of the contract/lot: 1 228 712.00 GBP
+
+
+    V.2.5)
+
+
+    Information about subcontracting
+
+
+    3/3
+
+
+    Section VI: Complementary information
+
+    VI.3)
+
+    Additional information:
+
+    VI.4)
+
+
+    Procedures for review
+
+
+    VI.4.1)
+
+
+    Review body
+
+    Official name: NHS Blood and Transplant
+
+    Town: Bristol
+
+    Country: United Kingdom
+
+
+    VI.4.2)
+
+
+    Body responsible for mediation procedures
+
+
+    VI.4.3)
+
+
+    Review procedure
+
+
+    VI.4.4)
+
+
+    Service from which information about the review procedure may be obtained
+
+
+    VI.5)
+
+
+    Date of dispatch of this notice:
+
+    01/10/2020
+
+
+    06/10/2020
+
+    S194
+
+    https://ted.europa.eu/TED
+
+
+    3/3
+
+    ```
+
+    '
   required_artifacts:
   - source_record_file
   - source_record_metadata
@@ -35,10 +489,15 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 470502-2020.pdf
     sha256: 1f41b57908a763c11d641a4bafbf6802124e083245cb2c5e4299e99e7c0719c2
-    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
-    source_dataset: 'Case bundle from: TED notice PDF 470502-2020 | TED notice HTML 470502-2020'
-    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+    acquisition_method: Fetch the official procurement record from the listed source
+      URLs, prefer machine-readable XML or PDF when available, and preserve the relevant
+      record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
+    source_dataset: 'Case bundle from: TED notice PDF 470502-2020 | TED notice HTML
+      470502-2020'
+    notes: Checked-in markdown source document used for local validation and Hugging
+      Face export. Factual source content backfilled from the listed upstream sources.
   - id: original-source-01
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-nhsbt-470502/source-01-ted-notice-pdf-470502-2020.pdf
     role: original_source_snapshot
@@ -47,10 +506,14 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 470502-2020.pdf
     sha256: ffb5c28e10e28e502160e97865b44180a75f525c599e9f768e35a68df87bd10c
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice PDF 470502-2020
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
   - id: original-source-02
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-nhsbt-470502/source-02-ted-notice-html-470502-2020.html
     role: original_source_snapshot
@@ -59,10 +522,14 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: udl.html
     sha256: 58c7d642b52595119400ee4eb8fa81129a6ceba363380f51ab32909fd801e77f
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice HTML 470502-2020
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
 expected_output:
   fields_required:
   - buyer_name
@@ -79,5 +546,12 @@ answer_key:
     amount: 1228712.0
     category_code: '34221000'
 notes:
-- The title and narrative concern stem cell cryogenic storage bags, but the notice's main CPV code is the official answer key field expected here.
-- This case checks extraction from a no-lot award notice where the award value equals the procurement total.
+- The title and narrative concern stem cell cryogenic storage bags, but the notice's
+  main CPV code is the official answer key field expected here.
+- This case checks extraction from a no-lot award notice where the award value equals
+  the procurement total.
+source_languages:
+- en
+evidence_languages:
+- en
+answer_language: en

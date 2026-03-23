@@ -88,31 +88,114 @@ See [`datasets/public-validation-v1/manifest.yaml`](datasets/public-validation-v
 
 ## Current suite status
 
-The repository is past the template-only bootstrap stage. The current checked-in suite contains:
+The repository is past the template-only bootstrap stage. The current checked-in suite is in Phase 2, the first real public-suite stage.
 
-- 17 cases total
-- 13 draft official-procurement field-extraction cases
-- 4 template cases covering the four core validation families
+- 65 cases total
+- 60 validated cases and 5 templates
+- 58 field-extraction cases, 4 entity-linking cases, 1 citation-grounding case, 1 coverage-comparison case, and 1 next-step-suggestion case
+- 65 cases with checked-in source documents and 60 non-template cases with preserved upstream source snapshots
+- explicit language metadata on every case and every source record
+- current case-level source-language spread led by `en=37`, `fr=7`, `pl=3`, with long-tail coverage across `bg`, `cs`, `de`, `el`, `es`, `hr`, `it`, `lv`, `pt`, `ro`, `sk`, `sl`, and `sv`
+- explicit source-family balance targets and a procurement dominance cap so weaker families are visible and prioritized
 
-Use `auto-dataset summary datasets/public-validation-v1/manifest.yaml` for the live counts.
+Lifecycle status vocabulary:
+
+- `template`: scaffold or example case shape
+- `harvested`: early case capture with enough structure to keep working and a checked-in source document, but raw upstream snapshots can still be deferred
+- `draft`: real case under active refinement with the same lighter provenance contract as `harvested`
+- `validated`: provenance-hardened case that passes the stronger checked-in artifact contract, including preserved raw upstream snapshots
+- `gold_candidate`: review-ready benchmark candidate with candidate-preparation metadata, but not final manual signoff
+- `gold`: manually reviewed benchmark case with explicit review metadata
+
+That means case acquisition and provenance hardening are now separate stages. New cases can enter the suite as `harvested` or `draft` without immediately carrying raw upstream snapshots, while benchmark-intent cases should normally move through `validated` to `gold_candidate`, and only reach `gold` after human review capacity is available.
+
+`gold_candidate` cases must carry `review_candidate` metadata:
+
+- `prepared_by`
+- `prepared_on`
+- `rationale`
+
+Language metadata vocabulary:
+
+- `source_languages`: the language set that defines the case's upstream source coverage
+- `evidence_languages`: the language set present in the checked-in evidence bundle
+- `answer_language`: the language expected for the benchmark response
+- `sources[].language`: the language of each individual source record
+
+`cross_country_leak_reporting` cases are now required to carry at least two distinct source languages.
+
+Source-family balance policy:
+
+- `source_family_targets` define target ranges for each family
+- the suite now treats `public_entity_link_dataset`, `public_documents_with_metadata`, `cross_country_leak_reporting`, and `journalist_style_case` as explicitly underrepresented families to prioritize
+- `official_procurement` is capped by a configured max-share policy in the autonomous loop contract
+- the dashboard and brief now surface overrepresented and underrepresented families directly
+
+Warning: prose counts in narrative docs can drift. Use one of these live status surfaces before making planning decisions:
+
+- `auto-dataset summary datasets/public-validation-v1/manifest.yaml` for machine-readable counts, gap analysis, lifecycle readiness, and run-log steering rollups
+- `auto-dataset dashboard datasets/public-validation-v1/manifest.yaml` for a human-readable markdown dashboard
+- [`docs/public-validation-v1-status.md`](docs/public-validation-v1-status.md) for the last checked-in dashboard snapshot
+
+Status surface rules:
+
+- `datasets/public-validation-v1/manifest.yaml` is the source of truth for the suite contract, targets, and loop budget
+- `docs/roadmap.md` is the source of truth for phase narrative
+- `auto-dataset summary` is the source of truth for machine-readable live counts, readiness state, and gap analysis
+- the dashboard is the source of truth for human-readable live status and steering context
+
+Regenerate the checked-in dashboard with:
+
+```bash
+PYTHONPATH=src python3 -m auto_dataset.cli dashboard \
+  datasets/public-validation-v1/manifest.yaml \
+  --output docs/public-validation-v1-status.md
+```
 
 ## Unattended run mode
 
 Use `auto-dataset brief <manifest>` before leaving an agent alone. The brief is derived from the manifest and prints:
 
 - the timebox and run budget
+- the active loop mode and its mode-specific rules
 - the mutable and frozen surfaces
 - the current coverage baseline
 - the priority order for new case harvesting
+- the failure policy for retryable versus nonretryable runs
 - the keep/discard rules and required TSV log fields
 
-The manifest is the source of truth for those details. `program.md` explains the operating principles, while the brief renders the current concrete budget and log contract.
+The manifest is the source of truth for those details. `program.md` explains the operating principles, while the brief renders the current concrete budget, mode contract, and failure policy.
 
 That keeps the dataset-building loop reviewable in the Karpathy sense: small mutable surface, fixed harness, hard budget, durable logs.
+
+`auto-dataset summary` is now also the machine-readable steering surface. It reports:
+
+- target-versus-actual progress for suite targets, source-family targets, and language targets
+- lifecycle readiness, including which statuses are published and which statuses are considered evaluation-ready
+- run-log rollups for acceptance rate, failure rate, change kinds, accepted versus rejected source families, and case-growth trends
+- a `gap_analysis.recommended_next_actions` list for the next missing families, languages, and gold/lifecycle gaps, including whether to prepare `gold_candidate` cases or wait for reviewer signoff
 
 ## Autonomous Runner
 
 `auto-dataset run` is the one-command orchestration entrypoint for unattended work. It does not bundle a model runtime; instead it drives an external worker command in a loop, validates after each cycle, appends to `results/runs.tsv`, and on publish cadence it commits and pushes git changes and publishes an intermediate Hugging Face snapshot. In runner mode, the worker should not append to `results/runs.tsv` or call `auto-dataset publish`; it should leave the repository ready for validation and let the runner handle logging and publish cadence.
+
+The loop is now mode-aware:
+
+- `acquisition`: optimize for net-new cases and family breadth
+- `hardening`: optimize for provenance completion and promotion to `validated`
+- `gold_curation`: optimize for `gold_candidate` preparation and review packets; only promote to `gold` with human signoff
+
+Select a non-default mode with `--mode`, for example:
+
+```bash
+auto-dataset brief datasets/public-validation-v1/manifest.yaml --mode hardening
+auto-dataset run datasets/public-validation-v1/manifest.yaml \
+  --mode acquisition \
+  --worker-cmd 'your-agent-command' \
+  --repo-id aleksasp/auto-ij-dataset
+```
+
+Retryable worker failures such as timeouts and environment-style worker failures are now treated separately from nonretryable failures. The runner will continue through a bounded number of retryable failures before stopping, and the dashboard surfaces failure breakdowns by both status and classified failure type.
 
 ```bash
 export HF_TOKEN=...
@@ -187,6 +270,15 @@ Every case now declares at least one repo-local source-document artifact under `
 `evidence_bundle.content_markdown` and `evidence_bundle.artifacts` are now required for every case, including templates, so new cases cannot be added without a dataset-carried source document and a repo-local artifact path.
 
 The intended storage model is both local and published: keep source documents in the repo for offline validation, and publish the same files in the Hugging Face snapshot so downstream consumers get a self-contained dataset bundle.
+
+Publishing is now lifecycle-aware:
+
+- the manifest declares which statuses are included in published snapshots
+- the current policy publishes the full working suite, including templates, any future `harvested` or `draft` cases, and any `gold_candidate` review queue
+- downstream evaluation should default to `validated` and `gold` cases
+- exports now carry both `summary.json` and `readiness.json`, and `source_documents/index.json` includes per-case lifecycle metadata such as status, pipeline stage, and evaluation-readiness flags
+
+If reviewer time is unavailable, stop at `gold_candidate`. That keeps benchmark preparation moving without pretending unreviewed cases are final gold benchmarks.
 
 For non-template cases, the repo now also preserves the original upstream source responses under `datasets/public-validation-v1/source_artifacts/`. In practice that means TED cases carry the downloaded XML/PDF/HTML snapshots used to build the markdown evidence, and Offshore Leaks cases carry saved HTML snapshots of the referenced pages.
 

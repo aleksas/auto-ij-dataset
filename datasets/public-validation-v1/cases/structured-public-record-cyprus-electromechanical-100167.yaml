@@ -1,5 +1,5 @@
 id: structured-public-record-cyprus-electromechanical-100167
-status: draft
+status: validated
 title: Cyprus electromechanical services endoscope maintenance contract extraction
 task_type: field_extraction
 answer_mode: exact
@@ -11,18 +11,71 @@ sources:
   url: https://ted.europa.eu/en/notice/100167-2021/xml
   checked_on: 2026-03-22
   provenance: official_portal
+  language: el
 - label: TED notice PDF 100167-2021 (EL)
   url: https://ted.europa.eu/el/notice/100167-2021/pdfs
   checked_on: 2026-03-22
   provenance: official_portal
+  language: el
 - label: TED notice detail 100167-2021
   url: https://ted.europa.eu/en/notice/-/detail/100167-2021
   checked_on: 2026-03-22
   provenance: official_portal
+  language: el
 evidence_bundle:
   kind: structured_record
-  content_markdown: "# TED notice 100167-2021\n\nCollected from the official TED XML on 2026-03-22.\n\n## Notice metadata\n- Original language: EL\n- Notice type: Contract award notice\n- Original CPV code: `50420000`\n- Original CPV label: Repair and maintenance services of medical and surgical equipment\n- Published procurement total: `400845.00 EUR`\n\n## Contracting authority\n- `OFFICIALNAME`: \u03A4\u03BC\u03AE\u03BC\u03B1 \u0397\u03BB\u03B5\u03BA\u03C4\u03C1\u03BF\u03BC\u03B7\u03C7\u03B1\u03BD\u03BF\u03BB\u03BF\u03B3\u03B9\u03BA\u03CE\u03BD \u03A5\u03C0\u03B7\u03C1\u03B5\u03C3\u03B9\u03CE\u03BD\n- `TOWN`: \u039B\u03B5\u03C5\u03BA\u03C9\u03C3\u03AF\u03B1\n- `URL_GENERAL`: https://www.eprocurement.gov.cy\n\n## Object contract\n- `TITLE`: \u0394\u03B9\u03B1\u03B3\u03C9\u03BD\u03B9\u03C3\u03BC\u03CC\u03C2 \u03B1\u03C1. 20.041.\u03A3\u03A3.\u0397\u039C\u03A5 \u2014 \u03A0\u03B1\u03C1\u03BF\u03C7\u03AE \u03C5\u03C0\u03B7\u03C1\u03B5\u03C3\u03B9\u03CE\u03BD \u03C3\u03C5\u03BD\u03C4\u03AE\
-    \u03C1\u03B7\u03C3\u03B7\u03C2 \u03B5\u03BD\u03B4\u03BF\u03C3\u03BA\u03BF\u03C0\u03AF\u03C9\u03BD.\n- `SHORT_DESCR`: \u03A0\u03B1\u03C1\u03BF\u03C7\u03AE \u03C5\u03C0\u03B7\u03C1\u03B5\u03C3\u03B9\u03CE\u03BD \u03C3\u03C5\u03BD\u03C4\u03AE\u03C1\u03B7\u03C3\u03B7\u03C2 \u03B5\u03BD\u03B4\u03BF\u03C3\u03BA\u03BF\u03C0\u03AF\u03C9\u03BD \u03BA\u03B1\u03C4\u03B1\u03C3\u03BA\u03B5\u03C5\u03AE\u03C2 Olympus \u03C3\u03B5 \u03B4\u03B9\u03AC\u03C6\u03BF\u03C1\u03B1 \u03BD\u03BF\u03C3\u03BF\u03BA\u03BF\u03BC\u03B5\u03AF\u03B1.\n- `CPV_CODE`: 50420000\n- `VAL_TOTAL`: 400845.00 EUR\n\n## Awarded contract\n- `DATE_CONCLUSION_CONTRACT`: 2021-02-23\n- `CONTRACTOR/OFFICIALNAME`: A. Papaetis Services Ltd.\n- `NB_TENDERS_RECEIVED`: 1\n- `AWARDED_CONTRACT/VAL_TOTAL`: 400845.00 EUR\n"
+  content_markdown: '# TED notice 100167-2021
+
+
+    Collected from the official TED XML on 2026-03-22.
+
+
+    ## Notice metadata
+
+    - Original language: EL
+
+    - Notice type: Contract award notice
+
+    - Original CPV code: `50420000`
+
+    - Original CPV label: Repair and maintenance services of medical and surgical
+    equipment
+
+    - Published procurement total: `400845.00 EUR`
+
+
+    ## Contracting authority
+
+    - `OFFICIALNAME`: Τμήμα Ηλεκτρομηχανολογικών Υπηρεσιών
+
+    - `TOWN`: Λευκωσία
+
+    - `URL_GENERAL`: https://www.eprocurement.gov.cy
+
+
+    ## Object contract
+
+    - `TITLE`: Διαγωνισμός αρ. 20.041.ΣΣ.ΗΜΥ — Παροχή υπηρεσιών συντήρησης ενδοσκοπίων.
+
+    - `SHORT_DESCR`: Παροχή υπηρεσιών συντήρησης ενδοσκοπίων κατασκευής Olympus σε
+    διάφορα νοσοκομεία.
+
+    - `CPV_CODE`: 50420000
+
+    - `VAL_TOTAL`: 400845.00 EUR
+
+
+    ## Awarded contract
+
+    - `DATE_CONCLUSION_CONTRACT`: 2021-02-23
+
+    - `CONTRACTOR/OFFICIALNAME`: A. Papaetis Services Ltd.
+
+    - `NB_TENDERS_RECEIVED`: 1
+
+    - `AWARDED_CONTRACT/VAL_TOTAL`: 400845.00 EUR
+
+    '
   required_artifacts:
   - source_record_file
   - source_record_metadata
@@ -35,10 +88,15 @@ evidence_bundle:
     collected_at: '2026-03-22'
     original_filename: 100167-2021.xml
     sha256: 54fe74454a5e9f4480f5387f8c2a2624e29c898fd7ca1904de2c2aac9a4d2cbe
-    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
-    source_dataset: 'Case bundle from: TED notice XML 100167-2021 | TED notice PDF 100167-2021 (EL) | TED notice detail 100167-2021'
-    notes: Checked-in markdown source document used for local validation and Hugging Face export. Derived from the cited upstream source material recorded in sources[].
+    acquisition_method: Fetch the official procurement record from the listed source
+      URLs, prefer machine-readable XML or PDF when available, and preserve the relevant
+      record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
+    source_dataset: 'Case bundle from: TED notice XML 100167-2021 | TED notice PDF
+      100167-2021 (EL) | TED notice detail 100167-2021'
+    notes: Checked-in markdown source document used for local validation and Hugging
+      Face export. Derived from the cited upstream source material recorded in sources[].
   - id: original-source-01
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-cyprus-electromechanical-100167/source-01-ted-notice-xml-100167-2021.xml
     role: original_source_snapshot
@@ -47,10 +105,14 @@ evidence_bundle:
     collected_at: '2026-03-22'
     original_filename: 100167-2021.xml
     sha256: 95d071ef781c4e8053de0e9fe32fb204d4376cf6ddd3218d36109c9953752285
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice XML 100167-2021
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
   - id: original-source-02
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-cyprus-electromechanical-100167/source-02-ted-notice-pdf-100167-2021-el.pdf
     role: original_source_snapshot
@@ -59,10 +121,14 @@ evidence_bundle:
     collected_at: '2026-03-22'
     original_filename: 100167-2021.pdf
     sha256: 1c43ced01fdefeb14836284cb0564542eb3c95c52835dcf6ea041245e234572b
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice PDF 100167-2021 (EL)
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
   - id: original-source-03
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-cyprus-electromechanical-100167/source-03-ted-notice-detail-100167-2021.html
     role: original_source_snapshot
@@ -71,10 +137,14 @@ evidence_bundle:
     collected_at: '2026-03-22'
     original_filename: 100167-2021.html
     sha256: cc4716924e8ecd455857b0cb14ddf1bbedbec93eedab80965522e3cfe491a044
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice detail 100167-2021
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
 expected_output:
   fields_required:
   - buyer_name
@@ -85,12 +155,21 @@ expected_output:
 answer_key:
   type: structured_fields
   fields:
-    buyer_name: "\u03A4\u03BC\u03AE\u03BC\u03B1 \u0397\u03BB\u03B5\u03BA\u03C4\u03C1\u03BF\u03BC\u03B7\u03C7\u03B1\u03BD\u03BF\u03BB\u03BF\u03B3\u03B9\u03BA\u03CE\u03BD \u03A5\u03C0\u03B7\u03C1\u03B5\u03C3\u03B9\u03CE\u03BD"
+    buyer_name: Τμήμα Ηλεκτρομηχανολογικών Υπηρεσιών
     supplier_name: A. Papaetis Services Ltd.
     award_date: '2021-02-23'
     amount: 400845.0
     category_code: '50420000'
 notes:
-- This Cyprus case adds a new Greek-script procurement slice with the standard XML, native-language PDF, and detail-page provenance pattern.
-- The buyer stays in official Greek while the contractor is published in Latin script, which helps test whether extraction preserves the exact multilingual field values instead of transliterating both sides.
-- The evidence bundle now inlines the exact XML fields that support the answer key, so the case is replayable offline without relying on a later fetch step.
+- This Cyprus case adds a new Greek-script procurement slice with the standard XML,
+  native-language PDF, and detail-page provenance pattern.
+- The buyer stays in official Greek while the contractor is published in Latin script,
+  which helps test whether extraction preserves the exact multilingual field values
+  instead of transliterating both sides.
+- The evidence bundle now inlines the exact XML fields that support the answer key,
+  so the case is replayable offline without relying on a later fetch step.
+source_languages:
+- el
+evidence_languages:
+- el
+answer_language: en

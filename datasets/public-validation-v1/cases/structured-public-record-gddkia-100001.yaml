@@ -1,5 +1,5 @@
 id: structured-public-record-gddkia-100001
-status: draft
+status: validated
 title: GDDKiA Wroclaw winter road maintenance contract extraction
 task_type: field_extraction
 answer_mode: exact
@@ -11,33 +11,793 @@ sources:
   url: https://ted.europa.eu/en/notice/100001-2021/xml
   checked_on: 2026-03-20
   provenance: official_portal
+  language: pl
 - label: TED notice PDF 100001-2021 (PL)
   url: https://ted.europa.eu/pl/notice/100001-2021/pdfs
   checked_on: 2026-03-20
   provenance: official_portal
+  language: pl
 - label: TED notice detail 100001-2021
   url: https://ted.europa.eu/en/notice/-/detail/100001-2021
   checked_on: 2026-03-20
   provenance: official_portal
+  language: pl
 evidence_bundle:
   kind: structured_record
-  content_markdown: "# GDDKiA Wroclaw winter road maintenance contract extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/pl/notice/100001-2021/pdfs\n\n## Listed sources\n- TED notice XML 100001-2021: https://ted.europa.eu/en/notice/100001-2021/xml\n- TED notice PDF 100001-2021 (PL): https://ted.europa.eu/pl/notice/100001-2021/pdfs\n- TED notice detail 100001-2021: https://ted.europa.eu/en/notice/-/detail/100001-2021\n\n## Extracted source text\n\n```text\nDz.U./S S40\n26/02/2021\n100001-2021-PL\n\n1/6\n\nNiniejsze og\u0142oszenie w witrynie TED: https://ted.europa.eu/udl?uri=TED:NOTICE:100001-2021:TEXT:PL:HTML\n\nPolska-Wroc\u0142aw: Us\u0142ugi usuwania oblodze\u0144\n2021/S 040-100001\nOg\u0142oszenie o udzieleniu zam\xF3wienia\nWyniki post\u0119powania\nUs\u0142ugi\nPodstawa prawna:\nDyrektywa 2014/24/UE\nSekcja I: Instytucja zamawiaj\u0105ca\nI.1)\nNazwa i adresy\nOficjalna nazwa: Generalna Dyrekcja Dr\xF3g Krajowych\
-    \ i Autostrad, Oddzia\u0142 we Wroc\u0142awiu\nAdres pocztowy: ul. Powsta\u0144c\xF3w \u015Al\u0105skich 186\nMiejscowo\u015B\u0107: Wroc\u0142aw\nKod NUTS: PL51 Dolno\u015Bl\u0105skie\nKod pocztowy: 53-139\nPa\u0144stwo: Polska\nOsoba do kontakt\xF3w: Magdalena Dec\nE-mail: mdec@gddkia.gov.pl\nTel.: +48 713347379\nFaks: +48 713347363\nAdresy internetowe:\nG\u0142\xF3wny adres: http://www.gddkia.gov.pl\nAdres profilu nabywcy: https://gddkia.eb2b.com.pl\nI.4)\n\nRodzaj instytucji zamawiaj\u0105cej\nMinisterstwo lub inny organ krajowy lub federalny, w tym jednostki regionalne i lokalne\n\nI.5)\n\nG\u0142\xF3wny przedmiot dzia\u0142alno\u015Bci\nInna dzia\u0142alno\u015B\u0107: zarz\u0105dzanie drogami krajowymi\n\nSekcja II: Przedmiot\nII.1)\nWielko\u015B\u0107 lub zakres zam\xF3wienia\nII.1.1)\n\nNazwa:\nZimowe utrzymanie dr\xF3g krajowych administrowanych przez GDDKiA, Oddzia\u0142 we Wroc\u0142awiu, Rejon w Legnicy,\nObw\xF3d Drogowy w Nowej Wsi Legnickiej\nNumer referencyjny: O.WR.D-3.2413.2.2021\n\
-    \nII.1.2)\n\nG\u0142\xF3wny kod CPV\n90630000 Us\u0142ugi usuwania oblodze\u0144\n\nII.1.3)\n\nRodzaj zam\xF3wienia\nUs\u0142ugi\n\nII.1.4)\n\nKr\xF3tki opis:\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n1/6\n\nDz.U./S S40\n26/02/2021\n100001-2021-PL\n\n2/6\n\nZimowe utrzymanie dr\xF3g krajowych administrowanych przez GDDKiA, Oddzia\u0142 we Wroc\u0142awiu, Rejon w Legnicy,\nObw\xF3d Drogowy w Nowej Wsi Legnickiej, i obejmuje:\n\u2014 zimowe utrzymanie dr\xF3g i obiekt\xF3w in\u017Cynierskich,\n\u2014 zimowe utrzymanie chodnik\xF3w i \u015Bcie\u017Cek rowerowych,\n\u2014 ustawienie i zdj\u0119cie zas\u0142on przeciw\u015Bnie\u017Cnych.\nII.1.6)\n\nInformacje o cz\u0119\u015Bciach\nTo zam\xF3wienie podzielone jest na cz\u0119\u015Bci: nie\n\nII.1.7)\n\nCa\u0142kowita warto\u015B\u0107 zam\xF3wienia (bez VAT)\nWarto\u015B\u0107 bez VAT: 1 975 344.00 PLN\n\nII.2)\n\nOpis\n\nII.2.2)\n\nDodatkowy kod lub kody CPV\n90620000 Us\u0142ugi od\u015Bnie\u017Cania\n\nII.2.3)\n\nMiejsce \u015B\
-    wiadczenia us\u0142ug\nKod NUTS: PL516 Legnicko-g\u0142ogowski\n\nII.2.4)\n\nOpis zam\xF3wienia:\nZimowe utrzymanie dr\xF3g krajowych administrowanych przez GDDKiA, Oddzia\u0142 we Wroc\u0142awiu, Rejon w Legnicy,\nObw\xF3d Drogowy w Nowej Wsi Legnickiej, i obejmuje:\n\u2014 zimowe utrzymanie dr\xF3g i obiekt\xF3w in\u017Cynierskich,\n\u2014 zimowe utrzymanie chodnik\xF3w i \u015Bcie\u017Cek rowerowych,\n\u2014 ustawienie i zdj\u0119cie zas\u0142on przeciw\u015Bnie\u017Cnych.\n\nII.2.5)\n\nKryteria udzielenia zam\xF3wienia\nCena\n\nII.2.11)\n\nInformacje o opcjach\nOpcje: nie\n\nII.2.13)\n\nInformacje o funduszach Unii Europejskiej\nZam\xF3wienie dotyczy projektu/programu finansowanego ze \u015Brodk\xF3w Unii Europejskiej: nie\n\nII.2.14)\n\nInformacje dodatkowe\n\nSekcja IV: Procedura\nIV.1)\nOpis\nIV.1.1)\n\nRodzaj procedury\nUdzielenie zam\xF3wienia bez uprzedniej publikacji zaproszenia do ubiegania si\u0119 o zam\xF3wienie w Dzienniku\nUrz\u0119dowym Unii Europejskiej w przypadkach\
-    \ wymienionych poni\u017Cej\n\u2022 Nowe roboty budowlane/us\u0142ugi, b\u0119d\u0105ce powt\xF3rzeniem istniej\u0105cych rob\xF3t budowlanych/us\u0142ug oraz zam\xF3wione\nzgodnie z warunkami \u015Bci\u015Ble okre\u015Blonymi w dyrektywie\nWyja\u015Bnienie:\nW dniu 11 czerwca 2018 r. zamawiaj\u0105cy wszcz\u0105\u0142 post\u0119powanie w trybie przetargu nieograniczonego pn.\nZimowe utrzymanie dr\xF3g krajowych administrowanych przez GDDKiA, Oddzia\u0142 we Wroc\u0142awiu, Rejon w Legnicy,\nw sezonach zimowych 2018/2019; 2019/2020 i 2020/2021 z podzia\u0142em na zadania: zadanie 1: obw\xF3d drogowy\nw Nowej Wsi Legnickiej; zadanie 2: obw\xF3d drogowy w Jaworze.\nW wyniku rozstrzygni\u0119cia w/wspomnianego przetargu nieograniczonego, zamawiaj\u0105cy zawar\u0142 dnia 1\npa\u017Adziernika 2018 r. umow\u0119 na \u201EZimowe utrzymanie dr\xF3g krajowych administrowanych przez GDDKiA, Oddzia\u0142\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n2/6\n\nDz.U./S S40\n26/02/2021\n100001-2021-PL\n\
-    \n3/6\n\nwe Wroc\u0142awiu, Rejon w Legnicy, w sezonach zimowych 2018/2019; 2019/2020 i 2020/2021 z podzia\u0142em na\nzadania: zadanie 1: obw\xF3d drogowy w Nowej Wsi Legnickiej\u201D.\nZamawiaj\u0105cy przewidzia\u0142 mo\u017Cliwo\u015B\u0107 udzielenia zam\xF3wie\u0144, o kt\xF3rych mowa w 214 ust. 1 pkt 7 ustawy z dnia 11\nwrze\u015Bnia 2019 r. \u2013 Prawo zam\xF3wie\u0144 publicznych (Dz.U. z 2019, poz. 2019 ze zm.) \u2013 dawnej: art. 67 ust. 1 pkt 6\nustawy z dnia 29 stycznia 2004 r. \u2013 Prawo zam\xF3wie\u0144 publicznych (Dz.U. z 2019 r. poz. 1843 ze zm.) \u2013 zar\xF3wno\nw og\u0142oszeniu o zam\xF3wieniu, jak i w tre\u015Bci Specyfikacji Istotnych Warunk\xF3w Zam\xF3wienia:\n\u2014 og\u0142oszenie o zam\xF3wieniu (2018/S 112-255085, sekcja II.1.4),\n\u2014 SIWZ \u2013 tom I rozdzia\u0142 1 ust. 5.2 \u2013 zamawiaj\u0105cy przewiduje udzielenie zam\xF3wie\u0144 polegaj\u0105cych na\npowt\xF3rzeniu podobnych polegaj\u0105cych na powt\xF3rzeniu podobnych us\u0142ug, zgodnych\
-    \ z przedmiotem zam\xF3wienia\npodstawowego, tj. polegaj\u0105cych miedzy innymi na dzia\u0142aniach organizacyjno-technicznych, monta\u017Cu/demonta\u017Cu\nzas\u0142on przeciw\u015Bnie\u017Cnych, od\u015Bnie\u017Caniu i usuwaniu \u015Blisko\u015Bci zimowej na wszystkich nawierzchniach dr\xF3g, ci\u0105g\xF3w\npieszo-rowerowych i innych elementach dr\xF3g (parkingi, zatoki autobusowe, itp.), usuwaniu sopli lodowych z\nobiekt\xF3w in\u017Cynierskich/bramownic, pracach porz\u0105dkowych itp.\nW chwili obecnej zamawiaj\u0105cy zamierza udzieli\u0107 zam\xF3wienia, w trybie art. 214 ust. 1 pkt 7 ustawy Pzp,\nkorzystaj\u0105c z przewidzianej mo\u017Cliwo\u015Bci udzielenia takich zam\xF3wie\u0144. Zam\xF3wienie dotyczy zimowego utrzymanie\ndr\xF3g krajowych administrowanych przez GDDKiA, Oddzia\u0142 we Wroc\u0142awiu, Rejon w Legnicy, Obw\xF3d Drogowy w\nNowej Wsi Legnickiej.\nUmowa podstawowa przewidywa\u0142a zimowe utrzymanie dr\xF3g krajowych administrowanych przez GDDKiA,\nOddzia\u0142\
-    \ we Wroc\u0142awiu, Rejon w Legnicy, Obw\xF3d Drogowy w Nowej Wsi Legnickiej do dnia 30 czerwca 2021 r.,\nz zastrze\u017Ceniem, \u017Ce umowa wygasa przed wskazanym terminem ko\u0144cowym w przypadku wykorzystania limitu\nwynagrodzenia okre\u015Blonego umowie podstawowej.\nW ocenie zamawiaj\u0105cego spe\u0142nione s\u0105 \u0142\u0105cznie przes\u0142anki udzielenia zam\xF3wienia, w trybie art. 214 ust. 1 pkt 7\nustawy Pzp:\na) nie up\u0142yn\u0105\u0142 okres 3 lat od dnia udzielenia zam\xF3wienia podstawowego;\nb) zam\xF3wienie udzielane jest dotychczasowemu wykonawcy zam\xF3wienia podstawowego;\nc) zam\xF3wienie polega na powt\xF3rzeniu podobnych us\u0142ug;\nd) zam\xF3wienie by\u0142o przewidziane w og\u0142oszeniu o zam\xF3wieniu dla zam\xF3wienia podstawowego i postanowieniach\nSIWZ;\ne) zam\xF3wienie jest zgodne z przedmiotem zam\xF3wienia podstawowego;\nf) ca\u0142kowita warto\u015B\u0107 tego zam\xF3wienia zosta\u0142a uwzgl\u0119dniona przy uwzgl\u0119dnianiu warto\u015B\
-    ci zam\xF3wienia\npodstawowego.\nIV.1.3)\n\nInformacje na temat umowy ramowej lub dynamicznego systemu zakup\xF3w\n\nIV.1.8)\n\nInformacje na temat Porozumienia w sprawie zam\xF3wie\u0144 rz\u0105dowych (GPA)\nZam\xF3wienie jest obj\u0119te Porozumieniem w sprawie zam\xF3wie\u0144 rz\u0105dowych: tak\n\nIV.2)\n\nInformacje administracyjne\n\nIV.2.8)\n\nInformacje o zako\u0144czeniu dynamicznego systemu zakup\xF3w\n\nIV.2.9)\n\nInformacje o zako\u0144czeniu zaproszenia do ubiegania si\u0119 o zam\xF3wienie w postaci wst\u0119pnego og\u0142oszenia\ninformacyjnego\n\nSekcja V: Udzielenie zam\xF3wienia\nNazwa:\nZimowe utrzymanie dr\xF3g krajowych administrowanych przez GDDKiA, Oddzia\u0142 we Wroc\u0142awiu, Rejon w Legnicy,\nObw\xF3d Drogowy w Nowej Wsi Legnicki\nZam\xF3wienie/zam\xF3wienie na cz\u0119\u015B\u0107 zostaje udzielone: tak\nV.2)\n\nUdzielenie zam\xF3wienia\n\nV.2.1)\n\nData zawarcia umowy:\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n3/6\n\nDz.U./S S40\n26/02/2021\n100001-2021-PL\n\
-    \n4/6\n\n18/02/2021\nV.2.2)\n\nInformacje o ofertach\nLiczba otrzymanych ofert: 1\nLiczba ofert otrzymanych od M\u015AP: 1\nLiczba ofert otrzymanych od oferent\xF3w z innych pa\u0144stw cz\u0142onkowskich UE: 0\nLiczba ofert otrzymanych od oferent\xF3w z pa\u0144stw nieb\u0119d\u0105cych cz\u0142onkami UE: 0\nLiczba ofert otrzymanych drog\u0105 elektroniczn\u0105: 1\nZam\xF3wienie zosta\u0142o udzielone grupie wykonawc\xF3w: nie\n\nV.2.3)\n\nNazwa i adres wykonawcy\nOficjalna nazwa: Zaberd SA\nAdres pocztowy: ul. Bystrzycka 24\nMiejscowo\u015B\u0107: Wroc\u0142aw\nKod NUTS: PL514 Miasto Wroc\u0142aw\nKod pocztowy: 54-215\nPa\u0144stwo: Polska\nWykonawc\u0105 jest M\u015AP: tak\n\nV.2.4)\n\nInformacje na temat warto\u015Bci zam\xF3wienia/cz\u0119\u015Bci (bez VAT)\nPocz\u0105tkowa szacunkowa ca\u0142kowita warto\u015B\u0107 zam\xF3wienia/cz\u0119\u015Bci: 1 978 898.20 PLN\nCa\u0142kowita ko\u0144cowa warto\u015B\u0107 umowy/cz\u0119\u015Bci: 1 975 344.00 PLN\n\nV.2.5)\n\nInformacje na\
-    \ temat podwykonawstwa\n\nSekcja VI: Informacje uzupe\u0142niaj\u0105ce\nVI.3)\nInformacje dodatkowe:\nVI.4)\n\nProcedury odwo\u0142awcze\n\nVI.4.1)\n\nOrgan odpowiedzialny za procedury odwo\u0142awcze\nOficjalna nazwa: Prezes Krajowej Izby Odwo\u0142awczej\nAdres pocztowy: ul. Post\u0119pu 17a\nMiejscowo\u015B\u0107: Warszawa\nKod pocztowy: 02-676\nPa\u0144stwo: Polska\nE-mail: odwolania@uzp.gov.pl\nTel.: +48 2245887801\nFaks: +48 224587800\nAdres internetowy: http://www.uzp.gov.pl\n\nVI.4.3)\n\nSk\u0142adanie odwo\u0142a\u0144\nDok\u0142adne informacje na temat termin\xF3w sk\u0142adania odwo\u0142a\u0144:\n1. Wykonawcy, a tak\u017Ce innemu podmiotowi, je\u017Celi ma lub mia\u0142 interes w uzyskaniu zam\xF3wienia oraz poni\xF3s\u0142 lub\nmo\u017Ce ponie\u015B\u0107 szkod\u0119 w wyniku naruszenia przez zamawiaj\u0105cego przepis\xF3w ustawy Pzp, przys\u0142uguj\u0105 \u015Brodki\nochrony prawnej okre\u015Blone w dziale VI ustawy Pzp. \u015Arodki ochrony prawnej wobec og\u0142oszenia\
-    \ o zam\xF3wieniu\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n4/6\n\nDz.U./S S40\n26/02/2021\n100001-2021-PL\n\n5/6\n\noraz Specyfikacji Istotnych Warunk\xF3w Zam\xF3wienia przys\u0142uguj\u0105 r\xF3wnie\u017C organizacjom wpisanym na list\u0119, o\nkt\xF3rej mowa w art. 154 pkt 5 ustawy Pzp.\n2. Odwo\u0142anie przys\u0142uguje wy\u0142\u0105cznie od niezgodnej z przepisami ustawy Pzp czynno\u015Bci zamawiaj\u0105cego podj\u0119tej\nw post\u0119powaniu o udzielenie zam\xF3wienia lub zaniechania czynno\u015Bci, do kt\xF3rej zamawiaj\u0105cy jest zobowi\u0105zany\nna podstawie ustawy Pzp.\n3. Odwo\u0142anie powinno wskazywa\u0107 czynno\u015B\u0107 lub zaniechanie czynno\u015Bci zamawiaj\u0105cego, kt\xF3rej zarzuca si\u0119\nniezgodno\u015B\u0107 z przepisami ustawy Pzp, zawiera\u0107 zwi\u0119z\u0142e przedstawienie zarzut\xF3w, okre\u015Bla\u0107 \u017C\u0105danie oraz\nwskazywa\u0107 okoliczno\u015Bci faktyczne i prawne uzasadniaj\u0105ce wniesienie odwo\u0142ania.\n4. Odwo\u0142\
-    anie wnosi si\u0119 do prezesa izby w formie pisemnej lub w postaci elektronicznej, podpisane\nbezpiecznym podpisem elektronicznym weryfikowanym przy pomocy wa\u017Cnego kwalifikowanego certyfikatu\nlub r\xF3wnowa\u017Cnego \u015Brodka, spe\u0142niaj\u0105cego wymagania dla tego rodzaju podpisu. Odwo\u0142uj\u0105cy przesy\u0142a kopi\u0119\nodwo\u0142ania zamawiaj\u0105cemu przed up\u0142ywem terminu do wniesienia odwo\u0142ania w taki spos\xF3b, aby m\xF3g\u0142 on\nzapozna\u0107 si\u0119 z jego tre\u015Bci\u0105 przed up\u0142ywem tego terminu. Domniemywa si\u0119, i\u017C zamawiaj\u0105cy m\xF3g\u0142 zapozna\u0107\nsi\u0119 z tre\u015Bci\u0105 odwo\u0142ania przed up\u0142ywem terminu do jego wniesienia, je\u017Celi przes\u0142anie jego kopii nast\u0105pi\u0142o przed\nup\u0142ywem terminu do jego wniesienia przy u\u017Cyciu \u015Brodk\xF3w komunikacji elektronicznej.\n5. Terminy wniesienia odwo\u0142ania:\n5.1. odwo\u0142anie wnosi si\u0119 w terminie 10 dni od dnia przes\u0142\
-    ania informacji o czynno\u015Bci zamawiaj\u0105cego\nstanowi\u0105cej podstaw\u0119 jego wniesienia \u2013 je\u017Celi zosta\u0142y przes\u0142ane w spos\xF3b okre\u015Blony w art. 180 ust. 5 ustawy\nPzp zdanie drugie, albo w terminie 15 dni \u2013 je\u017Celi zosta\u0142y przes\u0142ane w inny spos\xF3b;\n5.2. odwo\u0142anie wobec tre\u015Bci og\u0142oszenia o zam\xF3wieniu, a tak\u017Ce wobec postanowie\u0144 Specyfikacji Istotnych\nWarunk\xF3w Zam\xF3wienia, wnosi si\u0119 w terminie 10 dni od dnia publikacji og\u0142oszenia w dzienniku urz\u0119dowym unii\neuropejskiej lub zamieszczenia Specyfikacji Istotnych Warunk\xF3w Zam\xF3wienia na stronie internetowej;\n5.3. odwo\u0142anie wobec czynno\u015Bci innych ni\u017C okre\u015Blone w pkt 5.1 i 5.2 IDW wnosi si\u0119 w terminie 10 dni od dnia, w\nkt\xF3rym powzi\u0119to lub przy zachowaniu nale\u017Cytej staranno\u015Bci mo\u017Cna by\u0142o powzi\u0105\u0107 wiadomo\u015B\u0107 o okoliczno\u015Bciach\nstanowi\u0105cych podstaw\u0119\
-    \ jego wniesienia.\n5.4. je\u017Celi zamawiaj\u0105cy nie przes\u0142a\u0142 wykonawcy zawiadomienia o wyborze oferty najkorzystniejszej odwo\u0142anie\nwnosi si\u0119 nie p\xF3\u017Aniej ni\u017C w terminie:\n1) 30 dni od dnia publikacji w Dzienniku Urz\u0119dowym Unii Europejskiej og\u0142oszenia o udzieleniu zam\xF3wienia;\n2) 6 miesi\u0119cy od dnia zawarcia umowy, je\u017Celi zamawiaj\u0105cy nie opublikowa\u0142 w Dzienniku Urz\u0119dowym Unii\nEuropejskiej og\u0142oszenia o udzieleniu zam\xF3wienia.\n6. Szczeg\xF3\u0142owe zasady post\u0119powania po wniesieniu odwo\u0142ania, okre\u015Blaj\u0105 stosowne przepisy dzia\u0142u VI ustawy\nPzp.\n7. Na orzeczenie Krajowej Izby Odwo\u0142awczej, stronom oraz uczestnikom post\u0119powania odwo\u0142awczego\nprzys\u0142uguje skarga do s\u0105du.\n8. Skarg\u0119 wnosi si\u0119 do s\u0105du okr\u0119gowego w\u0142a\u015Bciwego dla siedziby zamawiaj\u0105cego, za po\u015Brednictwem Prezesa\nKrajowej Izby Odwo\u0142awczej w terminie 7 dni\
-    \ od dnia dor\u0119czenia Orzeczenia Krajowej Izby Odwo\u0142awczej,\nprzesy\u0142aj\u0105c jednocze\u015Bnie jej odpis przeciwnikowi skargi. z\u0142o\u017Cenie skargi w plac\xF3wce pocztowej operatora\nwyznaczonego w rozumieniu ustawy z dnia 23 listopada 2012 r. Prawo pocztowe (DZ.U. z 2012 r. poz. 1529)\njest r\xF3wnoznaczne z jej wniesieniem.\nVI.4.4)\n\n\u0179r\xF3d\u0142o, gdzie mo\u017Cna uzyska\u0107 informacje na temat sk\u0142adania odwo\u0142a\u0144\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n5/6\n\nDz.U./S S40\n26/02/2021\n100001-2021-PL\n\n6/6\n\nOficjalna nazwa: Urz\u0105d Zam\xF3wie\u0144 Publicznych, Departament Odwo\u0142a\u0144\nAdres pocztowy: ul. Post\u0119pu 17a\nMiejscowo\u015B\u0107: Warszawa\nKod pocztowy: 02-676\nPa\u0144stwo: Polska\nE-mail: odwolania@uzp.gov.pl\nTel.: +48 2245887801\nFaks: +48 224587800\nAdres internetowy: http://www.uzp.gov.pl\nVI.5)\n\nData wys\u0142ania niniejszego og\u0142oszenia:\n23/02/2021\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\
-    \n6/6\n```\n"
+  content_markdown: '# GDDKiA Wroclaw winter road maintenance contract extraction
+
+
+    Collected from the official TED procurement PDF on 2026-03-20.
+
+
+    Primary source URL: https://ted.europa.eu/pl/notice/100001-2021/pdfs
+
+
+    ## Listed sources
+
+    - TED notice XML 100001-2021: https://ted.europa.eu/en/notice/100001-2021/xml
+
+    - TED notice PDF 100001-2021 (PL): https://ted.europa.eu/pl/notice/100001-2021/pdfs
+
+    - TED notice detail 100001-2021: https://ted.europa.eu/en/notice/-/detail/100001-2021
+
+
+    ## Extracted source text
+
+
+    ```text
+
+    Dz.U./S S40
+
+    26/02/2021
+
+    100001-2021-PL
+
+
+    1/6
+
+
+    Niniejsze ogłoszenie w witrynie TED: https://ted.europa.eu/udl?uri=TED:NOTICE:100001-2021:TEXT:PL:HTML
+
+
+    Polska-Wrocław: Usługi usuwania oblodzeń
+
+    2021/S 040-100001
+
+    Ogłoszenie o udzieleniu zamówienia
+
+    Wyniki postępowania
+
+    Usługi
+
+    Podstawa prawna:
+
+    Dyrektywa 2014/24/UE
+
+    Sekcja I: Instytucja zamawiająca
+
+    I.1)
+
+    Nazwa i adresy
+
+    Oficjalna nazwa: Generalna Dyrekcja Dróg Krajowych i Autostrad, Oddział we Wrocławiu
+
+    Adres pocztowy: ul. Powstańców Śląskich 186
+
+    Miejscowość: Wrocław
+
+    Kod NUTS: PL51 Dolnośląskie
+
+    Kod pocztowy: 53-139
+
+    Państwo: Polska
+
+    Osoba do kontaktów: Magdalena Dec
+
+    E-mail: mdec@gddkia.gov.pl
+
+    Tel.: +48 713347379
+
+    Faks: +48 713347363
+
+    Adresy internetowe:
+
+    Główny adres: http://www.gddkia.gov.pl
+
+    Adres profilu nabywcy: https://gddkia.eb2b.com.pl
+
+    I.4)
+
+
+    Rodzaj instytucji zamawiającej
+
+    Ministerstwo lub inny organ krajowy lub federalny, w tym jednostki regionalne
+    i lokalne
+
+
+    I.5)
+
+
+    Główny przedmiot działalności
+
+    Inna działalność: zarządzanie drogami krajowymi
+
+
+    Sekcja II: Przedmiot
+
+    II.1)
+
+    Wielkość lub zakres zamówienia
+
+    II.1.1)
+
+
+    Nazwa:
+
+    Zimowe utrzymanie dróg krajowych administrowanych przez GDDKiA, Oddział we Wrocławiu,
+    Rejon w Legnicy,
+
+    Obwód Drogowy w Nowej Wsi Legnickiej
+
+    Numer referencyjny: O.WR.D-3.2413.2.2021
+
+
+    II.1.2)
+
+
+    Główny kod CPV
+
+    90630000 Usługi usuwania oblodzeń
+
+
+    II.1.3)
+
+
+    Rodzaj zamówienia
+
+    Usługi
+
+
+    II.1.4)
+
+
+    Krótki opis:
+
+
+    26/02/2021
+
+    S40
+
+    https://ted.europa.eu/TED
+
+
+    1/6
+
+
+    Dz.U./S S40
+
+    26/02/2021
+
+    100001-2021-PL
+
+
+    2/6
+
+
+    Zimowe utrzymanie dróg krajowych administrowanych przez GDDKiA, Oddział we Wrocławiu,
+    Rejon w Legnicy,
+
+    Obwód Drogowy w Nowej Wsi Legnickiej, i obejmuje:
+
+    — zimowe utrzymanie dróg i obiektów inżynierskich,
+
+    — zimowe utrzymanie chodników i ścieżek rowerowych,
+
+    — ustawienie i zdjęcie zasłon przeciwśnieżnych.
+
+    II.1.6)
+
+
+    Informacje o częściach
+
+    To zamówienie podzielone jest na części: nie
+
+
+    II.1.7)
+
+
+    Całkowita wartość zamówienia (bez VAT)
+
+    Wartość bez VAT: 1 975 344.00 PLN
+
+
+    II.2)
+
+
+    Opis
+
+
+    II.2.2)
+
+
+    Dodatkowy kod lub kody CPV
+
+    90620000 Usługi odśnieżania
+
+
+    II.2.3)
+
+
+    Miejsce świadczenia usług
+
+    Kod NUTS: PL516 Legnicko-głogowski
+
+
+    II.2.4)
+
+
+    Opis zamówienia:
+
+    Zimowe utrzymanie dróg krajowych administrowanych przez GDDKiA, Oddział we Wrocławiu,
+    Rejon w Legnicy,
+
+    Obwód Drogowy w Nowej Wsi Legnickiej, i obejmuje:
+
+    — zimowe utrzymanie dróg i obiektów inżynierskich,
+
+    — zimowe utrzymanie chodników i ścieżek rowerowych,
+
+    — ustawienie i zdjęcie zasłon przeciwśnieżnych.
+
+
+    II.2.5)
+
+
+    Kryteria udzielenia zamówienia
+
+    Cena
+
+
+    II.2.11)
+
+
+    Informacje o opcjach
+
+    Opcje: nie
+
+
+    II.2.13)
+
+
+    Informacje o funduszach Unii Europejskiej
+
+    Zamówienie dotyczy projektu/programu finansowanego ze środków Unii Europejskiej:
+    nie
+
+
+    II.2.14)
+
+
+    Informacje dodatkowe
+
+
+    Sekcja IV: Procedura
+
+    IV.1)
+
+    Opis
+
+    IV.1.1)
+
+
+    Rodzaj procedury
+
+    Udzielenie zamówienia bez uprzedniej publikacji zaproszenia do ubiegania się o
+    zamówienie w Dzienniku
+
+    Urzędowym Unii Europejskiej w przypadkach wymienionych poniżej
+
+    • Nowe roboty budowlane/usługi, będące powtórzeniem istniejących robót budowlanych/usług
+    oraz zamówione
+
+    zgodnie z warunkami ściśle określonymi w dyrektywie
+
+    Wyjaśnienie:
+
+    W dniu 11 czerwca 2018 r. zamawiający wszczął postępowanie w trybie przetargu
+    nieograniczonego pn.
+
+    Zimowe utrzymanie dróg krajowych administrowanych przez GDDKiA, Oddział we Wrocławiu,
+    Rejon w Legnicy,
+
+    w sezonach zimowych 2018/2019; 2019/2020 i 2020/2021 z podziałem na zadania: zadanie
+    1: obwód drogowy
+
+    w Nowej Wsi Legnickiej; zadanie 2: obwód drogowy w Jaworze.
+
+    W wyniku rozstrzygnięcia w/wspomnianego przetargu nieograniczonego, zamawiający
+    zawarł dnia 1
+
+    października 2018 r. umowę na „Zimowe utrzymanie dróg krajowych administrowanych
+    przez GDDKiA, Oddział
+
+
+    26/02/2021
+
+    S40
+
+    https://ted.europa.eu/TED
+
+
+    2/6
+
+
+    Dz.U./S S40
+
+    26/02/2021
+
+    100001-2021-PL
+
+
+    3/6
+
+
+    we Wrocławiu, Rejon w Legnicy, w sezonach zimowych 2018/2019; 2019/2020 i 2020/2021
+    z podziałem na
+
+    zadania: zadanie 1: obwód drogowy w Nowej Wsi Legnickiej”.
+
+    Zamawiający przewidział możliwość udzielenia zamówień, o których mowa w 214 ust.
+    1 pkt 7 ustawy z dnia 11
+
+    września 2019 r. – Prawo zamówień publicznych (Dz.U. z 2019, poz. 2019 ze zm.)
+    – dawnej: art. 67 ust. 1 pkt 6
+
+    ustawy z dnia 29 stycznia 2004 r. – Prawo zamówień publicznych (Dz.U. z 2019 r.
+    poz. 1843 ze zm.) – zarówno
+
+    w ogłoszeniu o zamówieniu, jak i w treści Specyfikacji Istotnych Warunków Zamówienia:
+
+    — ogłoszenie o zamówieniu (2018/S 112-255085, sekcja II.1.4),
+
+    — SIWZ – tom I rozdział 1 ust. 5.2 – zamawiający przewiduje udzielenie zamówień
+    polegających na
+
+    powtórzeniu podobnych polegających na powtórzeniu podobnych usług, zgodnych z
+    przedmiotem zamówienia
+
+    podstawowego, tj. polegających miedzy innymi na działaniach organizacyjno-technicznych,
+    montażu/demontażu
+
+    zasłon przeciwśnieżnych, odśnieżaniu i usuwaniu śliskości zimowej na wszystkich
+    nawierzchniach dróg, ciągów
+
+    pieszo-rowerowych i innych elementach dróg (parkingi, zatoki autobusowe, itp.),
+    usuwaniu sopli lodowych z
+
+    obiektów inżynierskich/bramownic, pracach porządkowych itp.
+
+    W chwili obecnej zamawiający zamierza udzielić zamówienia, w trybie art. 214 ust.
+    1 pkt 7 ustawy Pzp,
+
+    korzystając z przewidzianej możliwości udzielenia takich zamówień. Zamówienie
+    dotyczy zimowego utrzymanie
+
+    dróg krajowych administrowanych przez GDDKiA, Oddział we Wrocławiu, Rejon w Legnicy,
+    Obwód Drogowy w
+
+    Nowej Wsi Legnickiej.
+
+    Umowa podstawowa przewidywała zimowe utrzymanie dróg krajowych administrowanych
+    przez GDDKiA,
+
+    Oddział we Wrocławiu, Rejon w Legnicy, Obwód Drogowy w Nowej Wsi Legnickiej do
+    dnia 30 czerwca 2021 r.,
+
+    z zastrzeżeniem, że umowa wygasa przed wskazanym terminem końcowym w przypadku
+    wykorzystania limitu
+
+    wynagrodzenia określonego umowie podstawowej.
+
+    W ocenie zamawiającego spełnione są łącznie przesłanki udzielenia zamówienia,
+    w trybie art. 214 ust. 1 pkt 7
+
+    ustawy Pzp:
+
+    a) nie upłynął okres 3 lat od dnia udzielenia zamówienia podstawowego;
+
+    b) zamówienie udzielane jest dotychczasowemu wykonawcy zamówienia podstawowego;
+
+    c) zamówienie polega na powtórzeniu podobnych usług;
+
+    d) zamówienie było przewidziane w ogłoszeniu o zamówieniu dla zamówienia podstawowego
+    i postanowieniach
+
+    SIWZ;
+
+    e) zamówienie jest zgodne z przedmiotem zamówienia podstawowego;
+
+    f) całkowita wartość tego zamówienia została uwzględniona przy uwzględnianiu wartości
+    zamówienia
+
+    podstawowego.
+
+    IV.1.3)
+
+
+    Informacje na temat umowy ramowej lub dynamicznego systemu zakupów
+
+
+    IV.1.8)
+
+
+    Informacje na temat Porozumienia w sprawie zamówień rządowych (GPA)
+
+    Zamówienie jest objęte Porozumieniem w sprawie zamówień rządowych: tak
+
+
+    IV.2)
+
+
+    Informacje administracyjne
+
+
+    IV.2.8)
+
+
+    Informacje o zakończeniu dynamicznego systemu zakupów
+
+
+    IV.2.9)
+
+
+    Informacje o zakończeniu zaproszenia do ubiegania się o zamówienie w postaci wstępnego
+    ogłoszenia
+
+    informacyjnego
+
+
+    Sekcja V: Udzielenie zamówienia
+
+    Nazwa:
+
+    Zimowe utrzymanie dróg krajowych administrowanych przez GDDKiA, Oddział we Wrocławiu,
+    Rejon w Legnicy,
+
+    Obwód Drogowy w Nowej Wsi Legnicki
+
+    Zamówienie/zamówienie na część zostaje udzielone: tak
+
+    V.2)
+
+
+    Udzielenie zamówienia
+
+
+    V.2.1)
+
+
+    Data zawarcia umowy:
+
+
+    26/02/2021
+
+    S40
+
+    https://ted.europa.eu/TED
+
+
+    3/6
+
+
+    Dz.U./S S40
+
+    26/02/2021
+
+    100001-2021-PL
+
+
+    4/6
+
+
+    18/02/2021
+
+    V.2.2)
+
+
+    Informacje o ofertach
+
+    Liczba otrzymanych ofert: 1
+
+    Liczba ofert otrzymanych od MŚP: 1
+
+    Liczba ofert otrzymanych od oferentów z innych państw członkowskich UE: 0
+
+    Liczba ofert otrzymanych od oferentów z państw niebędących członkami UE: 0
+
+    Liczba ofert otrzymanych drogą elektroniczną: 1
+
+    Zamówienie zostało udzielone grupie wykonawców: nie
+
+
+    V.2.3)
+
+
+    Nazwa i adres wykonawcy
+
+    Oficjalna nazwa: Zaberd SA
+
+    Adres pocztowy: ul. Bystrzycka 24
+
+    Miejscowość: Wrocław
+
+    Kod NUTS: PL514 Miasto Wrocław
+
+    Kod pocztowy: 54-215
+
+    Państwo: Polska
+
+    Wykonawcą jest MŚP: tak
+
+
+    V.2.4)
+
+
+    Informacje na temat wartości zamówienia/części (bez VAT)
+
+    Początkowa szacunkowa całkowita wartość zamówienia/części: 1 978 898.20 PLN
+
+    Całkowita końcowa wartość umowy/części: 1 975 344.00 PLN
+
+
+    V.2.5)
+
+
+    Informacje na temat podwykonawstwa
+
+
+    Sekcja VI: Informacje uzupełniające
+
+    VI.3)
+
+    Informacje dodatkowe:
+
+    VI.4)
+
+
+    Procedury odwoławcze
+
+
+    VI.4.1)
+
+
+    Organ odpowiedzialny za procedury odwoławcze
+
+    Oficjalna nazwa: Prezes Krajowej Izby Odwoławczej
+
+    Adres pocztowy: ul. Postępu 17a
+
+    Miejscowość: Warszawa
+
+    Kod pocztowy: 02-676
+
+    Państwo: Polska
+
+    E-mail: odwolania@uzp.gov.pl
+
+    Tel.: +48 2245887801
+
+    Faks: +48 224587800
+
+    Adres internetowy: http://www.uzp.gov.pl
+
+
+    VI.4.3)
+
+
+    Składanie odwołań
+
+    Dokładne informacje na temat terminów składania odwołań:
+
+    1. Wykonawcy, a także innemu podmiotowi, jeżeli ma lub miał interes w uzyskaniu
+    zamówienia oraz poniósł lub
+
+    może ponieść szkodę w wyniku naruszenia przez zamawiającego przepisów ustawy Pzp,
+    przysługują środki
+
+    ochrony prawnej określone w dziale VI ustawy Pzp. Środki ochrony prawnej wobec
+    ogłoszenia o zamówieniu
+
+
+    26/02/2021
+
+    S40
+
+    https://ted.europa.eu/TED
+
+
+    4/6
+
+
+    Dz.U./S S40
+
+    26/02/2021
+
+    100001-2021-PL
+
+
+    5/6
+
+
+    oraz Specyfikacji Istotnych Warunków Zamówienia przysługują również organizacjom
+    wpisanym na listę, o
+
+    której mowa w art. 154 pkt 5 ustawy Pzp.
+
+    2. Odwołanie przysługuje wyłącznie od niezgodnej z przepisami ustawy Pzp czynności
+    zamawiającego podjętej
+
+    w postępowaniu o udzielenie zamówienia lub zaniechania czynności, do której zamawiający
+    jest zobowiązany
+
+    na podstawie ustawy Pzp.
+
+    3. Odwołanie powinno wskazywać czynność lub zaniechanie czynności zamawiającego,
+    której zarzuca się
+
+    niezgodność z przepisami ustawy Pzp, zawierać zwięzłe przedstawienie zarzutów,
+    określać żądanie oraz
+
+    wskazywać okoliczności faktyczne i prawne uzasadniające wniesienie odwołania.
+
+    4. Odwołanie wnosi się do prezesa izby w formie pisemnej lub w postaci elektronicznej,
+    podpisane
+
+    bezpiecznym podpisem elektronicznym weryfikowanym przy pomocy ważnego kwalifikowanego
+    certyfikatu
+
+    lub równoważnego środka, spełniającego wymagania dla tego rodzaju podpisu. Odwołujący
+    przesyła kopię
+
+    odwołania zamawiającemu przed upływem terminu do wniesienia odwołania w taki sposób,
+    aby mógł on
+
+    zapoznać się z jego treścią przed upływem tego terminu. Domniemywa się, iż zamawiający
+    mógł zapoznać
+
+    się z treścią odwołania przed upływem terminu do jego wniesienia, jeżeli przesłanie
+    jego kopii nastąpiło przed
+
+    upływem terminu do jego wniesienia przy użyciu środków komunikacji elektronicznej.
+
+    5. Terminy wniesienia odwołania:
+
+    5.1. odwołanie wnosi się w terminie 10 dni od dnia przesłania informacji o czynności
+    zamawiającego
+
+    stanowiącej podstawę jego wniesienia – jeżeli zostały przesłane w sposób określony
+    w art. 180 ust. 5 ustawy
+
+    Pzp zdanie drugie, albo w terminie 15 dni – jeżeli zostały przesłane w inny sposób;
+
+    5.2. odwołanie wobec treści ogłoszenia o zamówieniu, a także wobec postanowień
+    Specyfikacji Istotnych
+
+    Warunków Zamówienia, wnosi się w terminie 10 dni od dnia publikacji ogłoszenia
+    w dzienniku urzędowym unii
+
+    europejskiej lub zamieszczenia Specyfikacji Istotnych Warunków Zamówienia na stronie
+    internetowej;
+
+    5.3. odwołanie wobec czynności innych niż określone w pkt 5.1 i 5.2 IDW wnosi
+    się w terminie 10 dni od dnia, w
+
+    którym powzięto lub przy zachowaniu należytej staranności można było powziąć wiadomość
+    o okolicznościach
+
+    stanowiących podstawę jego wniesienia.
+
+    5.4. jeżeli zamawiający nie przesłał wykonawcy zawiadomienia o wyborze oferty
+    najkorzystniejszej odwołanie
+
+    wnosi się nie później niż w terminie:
+
+    1) 30 dni od dnia publikacji w Dzienniku Urzędowym Unii Europejskiej ogłoszenia
+    o udzieleniu zamówienia;
+
+    2) 6 miesięcy od dnia zawarcia umowy, jeżeli zamawiający nie opublikował w Dzienniku
+    Urzędowym Unii
+
+    Europejskiej ogłoszenia o udzieleniu zamówienia.
+
+    6. Szczegółowe zasady postępowania po wniesieniu odwołania, określają stosowne
+    przepisy działu VI ustawy
+
+    Pzp.
+
+    7. Na orzeczenie Krajowej Izby Odwoławczej, stronom oraz uczestnikom postępowania
+    odwoławczego
+
+    przysługuje skarga do sądu.
+
+    8. Skargę wnosi się do sądu okręgowego właściwego dla siedziby zamawiającego,
+    za pośrednictwem Prezesa
+
+    Krajowej Izby Odwoławczej w terminie 7 dni od dnia doręczenia Orzeczenia Krajowej
+    Izby Odwoławczej,
+
+    przesyłając jednocześnie jej odpis przeciwnikowi skargi. złożenie skargi w placówce
+    pocztowej operatora
+
+    wyznaczonego w rozumieniu ustawy z dnia 23 listopada 2012 r. Prawo pocztowe (DZ.U.
+    z 2012 r. poz. 1529)
+
+    jest równoznaczne z jej wniesieniem.
+
+    VI.4.4)
+
+
+    Źródło, gdzie można uzyskać informacje na temat składania odwołań
+
+
+    26/02/2021
+
+    S40
+
+    https://ted.europa.eu/TED
+
+
+    5/6
+
+
+    Dz.U./S S40
+
+    26/02/2021
+
+    100001-2021-PL
+
+
+    6/6
+
+
+    Oficjalna nazwa: Urząd Zamówień Publicznych, Departament Odwołań
+
+    Adres pocztowy: ul. Postępu 17a
+
+    Miejscowość: Warszawa
+
+    Kod pocztowy: 02-676
+
+    Państwo: Polska
+
+    E-mail: odwolania@uzp.gov.pl
+
+    Tel.: +48 2245887801
+
+    Faks: +48 224587800
+
+    Adres internetowy: http://www.uzp.gov.pl
+
+    VI.5)
+
+
+    Data wysłania niniejszego ogłoszenia:
+
+    23/02/2021
+
+
+    26/02/2021
+
+    S40
+
+    https://ted.europa.eu/TED
+
+
+    6/6
+
+    ```
+
+    '
   required_artifacts:
   - source_record_file
   - source_record_metadata
@@ -50,10 +810,15 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 100001-2021.xml
     sha256: c7dd92976464cfdad5a4ec85e4e17c7eb185b5cd7caf87bbe8646be861ed9b5b
-    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
-    source_dataset: 'Case bundle from: TED notice XML 100001-2021 | TED notice PDF 100001-2021 (PL) | TED notice detail 100001-2021'
-    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+    acquisition_method: Fetch the official procurement record from the listed source
+      URLs, prefer machine-readable XML or PDF when available, and preserve the relevant
+      record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
+    source_dataset: 'Case bundle from: TED notice XML 100001-2021 | TED notice PDF
+      100001-2021 (PL) | TED notice detail 100001-2021'
+    notes: Checked-in markdown source document used for local validation and Hugging
+      Face export. Factual source content backfilled from the listed upstream sources.
   - id: original-source-01
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-gddkia-100001/source-01-ted-notice-xml-100001-2021.xml
     role: original_source_snapshot
@@ -62,10 +827,14 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 100001-2021.xml
     sha256: 1d12438f498b907ffafcbfa32a083759cbf1d7c45347eadb44e597a4f2866b1a
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice XML 100001-2021
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
   - id: original-source-02
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-gddkia-100001/source-02-ted-notice-pdf-100001-2021-pl.pdf
     role: original_source_snapshot
@@ -74,10 +843,14 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 100001-2021.pdf
     sha256: 4eced97e313acea8dd1bac5f465a8888710820630032af94b399c68be223f416
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice PDF 100001-2021 (PL)
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
   - id: original-source-03
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-gddkia-100001/source-03-ted-notice-detail-100001-2021.html
     role: original_source_snapshot
@@ -86,10 +859,14 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 100001-2021.html
     sha256: 8966337f095db3844774eb6bba1b729dc1831c2af90e58307e1c03e992f2f5b8
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice detail 100001-2021
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
 expected_output:
   fields_required:
   - buyer_name
@@ -100,11 +877,18 @@ expected_output:
 answer_key:
   type: structured_fields
   fields:
-    buyer_name: "Generalna Dyrekcja Dr\xF3g Krajowych i Autostrad, Oddzia\u0142 we Wroc\u0142awiu"
+    buyer_name: Generalna Dyrekcja Dróg Krajowych i Autostrad, Oddział we Wrocławiu
     supplier_name: Zaberd SA
     award_date: '2021-02-18'
     amount: 1975344.0
     category_code: '90630000'
 notes:
-- The Polish notice title uses the GDDKiA abbreviation, but the answer key should return the full buyer name from the contracting-body block.
-- This is a single-award notice and the notice-level total matches the awarded value in PLN, so the official amount is a clean exact baseline.
+- The Polish notice title uses the GDDKiA abbreviation, but the answer key should
+  return the full buyer name from the contracting-body block.
+- This is a single-award notice and the notice-level total matches the awarded value
+  in PLN, so the official amount is a clean exact baseline.
+source_languages:
+- pl
+evidence_languages:
+- pl
+answer_language: en

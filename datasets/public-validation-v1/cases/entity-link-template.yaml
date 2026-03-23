@@ -11,11 +11,14 @@ sources:
   url: https://offshoreleaks.icij.org/
   checked_on: 2026-03-18
   provenance: public_link_dataset
+  language: en
 evidence_bundle:
   kind: entity_link_graph
-  content_markdown: |
-    # <Entity Graph Excerpt/Markdown Here>
+  content_markdown: '# <Entity Graph Excerpt/Markdown Here>
+
     (Inline the source text/markdown here for LLM training)
+
+    '
   required_artifacts:
   - entity_snapshot
   - relationship_snapshot
@@ -28,10 +31,13 @@ evidence_bundle:
     collected_at: '2026-03-18'
     original_filename: entity-link-template.md
     sha256: 1ab9f51cee8aa0c60eef3cab26b6bfc47e1ec3a1eac8f89bf71fdf62b4eab6ae
-    acquisition_method: Open the listed public entity-link dataset pages and preserve the named entity or relationship snapshot in the checked-in markdown artifact.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Open the listed public entity-link dataset pages and preserve
+      the named entity or relationship snapshot in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: Offshore Leaks database
-    notes: Checked-in markdown source document used for local validation and Hugging Face export. Derived from the cited upstream source material recorded in sources[].
+    notes: Checked-in markdown source document used for local validation and Hugging
+      Face export. Derived from the cited upstream source material recorded in sources[].
 expected_output:
   fields_required:
   - canonical_entity_name
@@ -45,3 +51,8 @@ answer_key:
     object: <fill>
 notes:
 - Published relationships act as partial ground truth for linking and graph navigation.
+source_languages:
+- en
+evidence_languages:
+- en
+answer_language: en

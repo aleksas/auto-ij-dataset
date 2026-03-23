@@ -11,11 +11,15 @@ sources:
   url: https://www.documentcloud.org/
   checked_on: 2026-03-18
   provenance: public_document_collection
+  language: en
 evidence_bundle:
   kind: document_plus_metadata
-  content_markdown: |
-    # <Source Document Markdown Here>
-    (Inline the document text here so the dataset always carries a materialized source document.)
+  content_markdown: '# <Source Document Markdown Here>
+
+    (Inline the document text here so the dataset always carries a materialized source
+    document.)
+
+    '
   required_artifacts:
   - source_document
   - attached_metadata
@@ -28,10 +32,14 @@ evidence_bundle:
     collected_at: '2026-03-18'
     original_filename: document-grounding-template.md
     sha256: f01dd4ad464128f54930cebbb861db6b491abdedb42930f02b10e32b9873d78e
-    acquisition_method: Download the public source document and attached metadata from the listed collection, then preserve the relevant content in the checked-in markdown artifact.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Download the public source document and attached metadata
+      from the listed collection, then preserve the relevant content in the checked-in
+      markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: DocumentCloud public documents
-    notes: Checked-in markdown source document used for local validation and Hugging Face export. Derived from the cited upstream source material recorded in sources[].
+    notes: Checked-in markdown source document used for local validation and Hugging
+      Face export. Derived from the cited upstream source material recorded in sources[].
 expected_output:
   fields_required:
   - cited_claim
@@ -45,3 +53,8 @@ answer_key:
 rubric: ../../../rubrics/citation-grounding.md
 notes:
 - Use source-file content together with metadata to test citation grounding and restraint.
+source_languages:
+- en
+evidence_languages:
+- en
+answer_language: en

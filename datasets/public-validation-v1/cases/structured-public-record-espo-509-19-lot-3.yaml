@@ -1,5 +1,5 @@
 id: structured-public-record-espo-509-19-lot-3
-status: draft
+status: validated
 title: ESPO parking management solutions lot 3 contractor extraction
 task_type: field_extraction
 answer_mode: exact
@@ -11,43 +11,69 @@ sources:
   url: https://ted.europa.eu/en/notice/205756-2019/xml
   checked_on: 2026-03-22
   provenance: official_portal
+  language: en
 - label: TED notice PDF 205756-2019
   url: https://ted.europa.eu/en/notice/205756-2019/pdfs
   checked_on: 2026-03-22
   provenance: official_portal
+  language: en
 - label: TED notice detail 205756-2019
   url: https://ted.europa.eu/en/notice/-/detail/205756-2019
   checked_on: 2026-03-22
   provenance: official_portal
+  language: en
 evidence_bundle:
   kind: structured_record
-  content_markdown: |
-    # TED notice 205756-2019, lot 3
+  content_markdown: '# TED notice 205756-2019, lot 3
+
 
     Collected from the official TED XML on 2026-03-22.
 
+
     ## Notice metadata
+
     - Original language: EN
+
     - Reference number: `509_19`
+
     - Notice type: Contract award notice
+
     - Notice-level procurement total: `65000000 GBP`
 
+
     ## Contracting authority
+
     - `OFFICIALNAME`: ESPO
+
     - `URL_GENERAL`: http://www.espo.org/
 
+
     ## Object contract
+
     - `TITLE`: 509_19 Parking Management Solutions
-    - `SHORT_DESCR`: ESPO is seeking to establish a Framework Agreement with a number of suppliers for the provision of parking management solutions including pay and display, pay on foot, cashless parking and civil enforcement solutions.
+
+    - `SHORT_DESCR`: ESPO is seeking to establish a Framework Agreement with a number
+    of suppliers for the provision of parking management solutions including pay and
+    display, pay on foot, cashless parking and civil enforcement solutions.
+
     - `CPV_CODE`: 34926000
 
+
     ## Awarded contract, lot 3
+
     - `LOT_NO`: 3
+
     - `TITLE`: Cashless Parking Solutions
+
     - `DATE_CONCLUSION_CONTRACT`: 2019-04-04
+
     - `NB_TENDERS_RECEIVED`: 27
+
     - `CONTRACTOR/OFFICIALNAME`: APCOA Parking (UK) Ltd
+
     - `AWARDED_CONTRACT/VAL_TOTAL`: 10000000 GBP
+
+    '
   required_artifacts:
   - source_record_file
   - source_record_metadata
@@ -60,10 +86,15 @@ evidence_bundle:
     collected_at: '2026-03-22'
     original_filename: 205756-2019.xml
     sha256: 6126ab4bed93ca6b39bfcaa279557dfb28ea944daf78ecf04a8411ab1e0c3b9e
-    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
-    source_dataset: 'Case bundle from: TED notice XML 205756-2019 | TED notice PDF 205756-2019 | TED notice detail 205756-2019'
-    notes: Checked-in markdown source document used for local validation and Hugging Face export. Derived from the cited upstream source material recorded in sources[].
+    acquisition_method: Fetch the official procurement record from the listed source
+      URLs, prefer machine-readable XML or PDF when available, and preserve the relevant
+      record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
+    source_dataset: 'Case bundle from: TED notice XML 205756-2019 | TED notice PDF
+      205756-2019 | TED notice detail 205756-2019'
+    notes: Checked-in markdown source document used for local validation and Hugging
+      Face export. Derived from the cited upstream source material recorded in sources[].
   - id: original-source-01
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-espo-509-19-lot-3/source-01-ted-notice-xml-205756-2019.xml
     role: original_source_snapshot
@@ -72,10 +103,14 @@ evidence_bundle:
     collected_at: '2026-03-22'
     original_filename: 205756-2019.xml
     sha256: 77c9c29f1d21e379739ff9c29f5f44ba4eacaef843aff639c3b9b3ec1cf993df
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice XML 205756-2019
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
   - id: original-source-02
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-espo-509-19-lot-3/source-02-ted-notice-pdf-205756-2019.pdf
     role: original_source_snapshot
@@ -84,10 +119,14 @@ evidence_bundle:
     collected_at: '2026-03-22'
     original_filename: 205756-2019.pdf
     sha256: 0ee6f29c2428d537d966043145a0ea02ae886483164dd128c03e632eaaa3326c
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice PDF 205756-2019
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
   - id: original-source-03
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-espo-509-19-lot-3/source-03-ted-notice-detail-205756-2019.html
     role: original_source_snapshot
@@ -96,10 +135,14 @@ evidence_bundle:
     collected_at: '2026-03-22'
     original_filename: 205756-2019.html
     sha256: dca6a75ebb43b55bd653ed87856c8dccaedb1f99fad4e54710c2f5f667d27928
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice detail 205756-2019
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
 expected_output:
   fields_required:
   - buyer_name
@@ -116,6 +159,14 @@ answer_key:
     amount: 10000000.0
     category_code: '34926000'
 notes:
-- Buyer name, main CPV code, lot title, contractor name, contract date, and lot value are extractable from the TED XML award notice.
-- This case expects the supplier for lot 3 specifically, not one of the contractors listed for other awarded lots in the same notice.
-- The official lot 3 award value is GBP 10,000,000, while the notice-level procurement total is GBP 65,000,000 across all lots.
+- Buyer name, main CPV code, lot title, contractor name, contract date, and lot value
+  are extractable from the TED XML award notice.
+- This case expects the supplier for lot 3 specifically, not one of the contractors
+  listed for other awarded lots in the same notice.
+- The official lot 3 award value is GBP 10,000,000, while the notice-level procurement
+  total is GBP 65,000,000 across all lots.
+source_languages:
+- en
+evidence_languages:
+- en
+answer_language: en

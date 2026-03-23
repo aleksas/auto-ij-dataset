@@ -1,5 +1,5 @@
 id: structured-public-record-bank-of-england-9040
-status: draft
+status: validated
 title: Bank of England catering services contract extraction
 task_type: field_extraction
 answer_mode: exact
@@ -11,45 +11,73 @@ sources:
   url: https://ted.europa.eu/en/notice/9040-2020/xml
   checked_on: 2026-03-22
   provenance: official_portal
+  language: en
 - label: TED notice PDF 9040-2020
   url: https://ted.europa.eu/en/notice/9040-2020/pdfs
   checked_on: 2026-03-22
   provenance: official_portal
+  language: en
 - label: TED notice detail 9040-2020
   url: https://ted.europa.eu/en/notice/-/detail/9040-2020
   checked_on: 2026-03-22
   provenance: official_portal
+  language: en
 evidence_bundle:
   kind: structured_record
-  content_markdown: |
-    # TED notice 9040-2020
+  content_markdown: '# TED notice 9040-2020
+
 
     Collected from the official TED XML on 2026-03-22.
 
+
     ## Notice metadata
+
     - Original language: EN
+
     - Reference number: `DN432705`
+
     - Notice type: Contract award notice
+
     - Notice-level procurement total: `7500000 GBP`
+
     - Prior notice reference: `2019/S 179-436165`
 
+
     ## Contracting authority
+
     - `OFFICIALNAME`: Bank of England
+
     - `ADDRESS`: Threadneedle Street
+
     - `URL_GENERAL`: http://www.bankofengland.co.uk
 
+
     ## Object contract
+
     - `TITLE`: Catering Services 2020
-    - `SHORT_DESCR`: The Bank of England has a requirement for the provision of catering services at 3 of its sites, London EC2R 8AH, London EC2R 6DA and Loughton IG10 3TN.
+
+    - `SHORT_DESCR`: The Bank of England has a requirement for the provision of catering
+    services at 3 of its sites, London EC2R 8AH, London EC2R 6DA and Loughton IG10
+    3TN.
+
     - `CPV_CODE`: 55500000
+
     - `VAL_TOTAL`: 7500000 GBP
 
+
     ## Awarded contract
+
     - `LOT_NO`: 1
+
     - `DATE_CONCLUSION_CONTRACT`: 2019-12-17
+
     - `NB_TENDERS_RECEIVED`: 4
+
     - `CONTRACTOR/OFFICIALNAME`: Elior UK
+
     - `AWARDED_CONTRACT/VAL_TOTAL`: 7500000 GBP
+
+    '
   required_artifacts:
   - source_record_file
   - source_record_metadata
@@ -62,10 +90,15 @@ evidence_bundle:
     collected_at: '2026-03-22'
     original_filename: 9040-2020.xml
     sha256: b8682e17c20090c9a349df84775672048d1271957862ff61878e9a2430e78172
-    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
-    source_dataset: 'Case bundle from: TED notice XML 9040-2020 | TED notice PDF 9040-2020 | TED notice detail 9040-2020'
-    notes: Checked-in markdown source document used for local validation and Hugging Face export. Derived from the cited upstream source material recorded in sources[].
+    acquisition_method: Fetch the official procurement record from the listed source
+      URLs, prefer machine-readable XML or PDF when available, and preserve the relevant
+      record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
+    source_dataset: 'Case bundle from: TED notice XML 9040-2020 | TED notice PDF 9040-2020
+      | TED notice detail 9040-2020'
+    notes: Checked-in markdown source document used for local validation and Hugging
+      Face export. Derived from the cited upstream source material recorded in sources[].
   - id: original-source-01
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-bank-of-england-9040/source-01-ted-notice-xml-9040-2020.xml
     role: original_source_snapshot
@@ -74,10 +107,14 @@ evidence_bundle:
     collected_at: '2026-03-22'
     original_filename: 9040-2020.xml
     sha256: 0678203019c13ecb2eb226efe3a6eeab7d22afa9e67a1168b98e96b0b475ba89
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice XML 9040-2020
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
   - id: original-source-02
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-bank-of-england-9040/source-02-ted-notice-pdf-9040-2020.pdf
     role: original_source_snapshot
@@ -86,10 +123,14 @@ evidence_bundle:
     collected_at: '2026-03-22'
     original_filename: 9040-2020.pdf
     sha256: ac916e510a5e45adac66bc64c7f0a6fd58769c2240b38389b3e2bb39cfc72227
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice PDF 9040-2020
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
   - id: original-source-03
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-bank-of-england-9040/source-03-ted-notice-detail-9040-2020.html
     role: original_source_snapshot
@@ -98,10 +139,14 @@ evidence_bundle:
     collected_at: '2026-03-22'
     original_filename: 9040-2020.html
     sha256: b24284ecc259a72372cbb01ed1ee66f1c9e584c2878fbb2146f6a5540134bc15
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice detail 9040-2020
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
 expected_output:
   fields_required:
   - buyer_name
@@ -118,6 +163,14 @@ answer_key:
     amount: 7500000.0
     category_code: '55500000'
 notes:
-- This no-lot award notice is a compact single-supplier UK services case with matching notice-level and award-level values.
-- The answer key comes from the contracting authority, main CPV code, contract conclusion date, contractor, and total contract value fields in the TED notice.
-- The inline evidence now preserves the reference number, prior notice link, and award block fields needed to replay the extraction from the official XML.
+- This no-lot award notice is a compact single-supplier UK services case with matching
+  notice-level and award-level values.
+- The answer key comes from the contracting authority, main CPV code, contract conclusion
+  date, contractor, and total contract value fields in the TED notice.
+- The inline evidence now preserves the reference number, prior notice link, and award
+  block fields needed to replay the extraction from the official XML.
+source_languages:
+- en
+evidence_languages:
+- en
+answer_language: en

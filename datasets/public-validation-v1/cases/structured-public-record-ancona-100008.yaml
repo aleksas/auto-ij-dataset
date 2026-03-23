@@ -1,5 +1,5 @@
 id: structured-public-record-ancona-100008
-status: draft
+status: validated
 title: Comune di Ancona municipal treasury services contract extraction
 task_type: field_extraction
 answer_mode: exact
@@ -11,23 +11,526 @@ sources:
   url: https://ted.europa.eu/en/notice/100008-2021/xml
   checked_on: 2026-03-20
   provenance: official_portal
+  language: it
 - label: TED notice PDF 100008-2021 (IT)
   url: https://ted.europa.eu/it/notice/100008-2021/pdfs
   checked_on: 2026-03-20
   provenance: official_portal
+  language: it
 - label: TED notice detail 100008-2021
   url: https://ted.europa.eu/en/notice/-/detail/100008-2021
   checked_on: 2026-03-20
   provenance: official_portal
+  language: it
 evidence_bundle:
   kind: structured_record
-  content_markdown: "# Comune di Ancona municipal treasury services contract extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/it/notice/100008-2021/pdfs\n\n## Listed sources\n- TED notice XML 100008-2021: https://ted.europa.eu/en/notice/100008-2021/xml\n- TED notice PDF 100008-2021 (IT): https://ted.europa.eu/it/notice/100008-2021/pdfs\n- TED notice detail 100008-2021: https://ted.europa.eu/en/notice/-/detail/100008-2021\n\n## Extracted source text\n\n```text\nGU/S S40\n26/02/2021\n100008-2021-IT\n\n1/4\n\nAvviso nel sito web TED: https://ted.europa.eu/udl?uri=TED:NOTICE:100008-2021:TEXT:IT:HTML\n\nItalia-Ancona: Servizi finanziari e assicurativi\n2021/S 040-100008\nAvviso di aggiudicazione di appalto\nRisultati della procedura di appalto\nServizi\nBase giuridica:\nDirettiva 2014/24/UE\nSezione I: Amministrazione aggiudicatrice\nI.1)\nDenominazione e indirizzi\nDenominazione ufficiale: Comune di Ancona\nNumero di identificazione\
-    \ nazionale: Direzione gare e appalti\nIndirizzo postale: largo XXIV Maggio 1\nCitt\xE0: Ancona\nCodice NUTS: ITI32 Ancona\nCodice postale: 60123\nPaese: Italia\nE-mail: marinella.monti@comune.ancona.it\nTel.: +39 0712222249\nFax: +39 0712222109\nIndirizzi Internet:\nIndirizzo principale: http://www.comune.ancona.gov.it\nIndirizzo del profilo di committente: http://www.comune.ancona.gov.it/ankonline/category/bandi-di-gara-econtratti/appalti-e-concessioni/\nI.4)\n\nTipo di amministrazione aggiudicatrice\nAutorit\xE0 regionale o locale\n\nI.5)\n\nPrincipali settori di attivit\xE0\nServizi generali delle amministrazioni pubbliche\n\nSezione II: Oggetto\nII.1)\nEntit\xE0 dell'appalto\nII.1.1)\n\nDenominazione:\nProcedura aperta telematica per l'affidamento del servizio di tesoreria comunale \u2014 CIG: 8232814D06\n\nII.1.2)\n\nCodice CPV principale\n66000000 Servizi finanziari e assicurativi\n\nII.1.3)\n\nTipo di appalto\nServizi\n\nII.1.4)\n\nBreve descrizione:\nL'affidamento riguarda la\
-    \ gestione del servizio di tesoreria del comune di Ancona nei termini e con le specifiche\nindicate nello schema di convenzione.\n\nII.1.6)\n\nInformazioni relative ai lotti\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n1/4\n\nGU/S S40\n26/02/2021\n100008-2021-IT\n\n2/4\n\nQuesto appalto \xE8 suddiviso in lotti: no\nII.1.7)\n\nValore totale dell\u2019appalto (IVA esclusa)\nValore, IVA esclusa: 777 000.00 EUR\n\nII.2)\n\nDescrizione\n\nII.2.3)\n\nLuogo di esecuzione\nCodice NUTS: ITI32 Ancona\nLuogo principale di esecuzione:\nAncona\n\nII.2.4)\n\nDescrizione dell'appalto:\nIl servizio \xE8 stimato in complessive 770 000,00 EUR, oltre IVA per la durata di 60 mesi e per la possibile proroga\ndi un anno (129 500,00 EUR). Il valore tiene conto di un canone annuo di 80 000 EUR.\n\nII.2.5)\n\nCriteri di aggiudicazione\nCriterio di qualit\xE0 - Nome: offerta tecnica / Ponderazione: 70\nPrezzo - Ponderazione: 30\n\nII.2.11)\n\nInformazioni relative alle opzioni\nOpzioni: s\xEC\nDescrizione\
-    \ delle opzioni:\n\xC8 prevista l'opzione di proroga per 12 mesi per consentire lo svolgimento della nuova procedura di gara.\n\nII.2.13)\n\nInformazioni relative ai fondi dell'Unione europea\nL'appalto \xE8 connesso ad un progetto e/o programma finanziato da fondi dell'Unione europea: no\n\nII.2.14)\n\nInformazioni complementari\n\nSezione IV: Procedura\nIV.1)\nDescrizione\nIV.1.1)\n\nTipo di procedura\nProcedura aperta\n\nIV.1.3)\n\nInformazioni su un accordo quadro o un sistema dinamico di acquisizione\n\nIV.1.8)\n\nInformazioni relative all'accordo sugli appalti pubblici (AAP)\nL'appalto \xE8 disciplinato dall'accordo sugli appalti pubblici: s\xEC\n\nIV.2)\n\nInformazioni di carattere amministrativo\n\nIV.2.1)\n\nPubblicazione precedente relativa alla stessa procedura\nNumero dell'avviso nella GU S: 2020/S 061-145753\n\nIV.2.8)\n\nInformazioni relative alla chiusura del sistema dinamico di acquisizione\n\nIV.2.9)\n\nInformazioni relative alla fine della validit\xE0 dell'avviso di\
-    \ indizione di gara in forma di avviso di\npreinformazione\n\nSezione V: Aggiudicazione di appalto\nContratto d'appalto n.: 14902\nDenominazione:\nAffidamento servizio di tesoreria comunale\nUn contratto d'appalto/lotto \xE8 stato aggiudicato: s\xEC\nV.2)\n\nAggiudicazione di appalto\n\nV.2.1)\n\nData di conclusione del contratto d'appalto:\n19/02/2021\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n2/4\n\nGU/S S40\n26/02/2021\n100008-2021-IT\n\nV.2.2)\n\nInformazioni sulle offerte\nNumero di offerte pervenute: 4\nNumero di offerte ricevute da PMI: 0\nNumero di offerte ricevute da offerenti provenienti da altri Stati membri dell'UE: 0\nNumero di offerte ricevute dagli offerenti provenienti da Stati non membri dell'UE: 0\nNumero di offerte pervenute per via elettronica: 4\nL'appalto \xE8 stato aggiudicato a un raggruppamento di operatori economici: no\n\nV.2.3)\n\nNome e indirizzo del contraente\nDenominazione ufficiale: Intesa Sanpaolo SpA\nCitt\xE0: Torino\nCodice NUTS: ITC11 Torino\n\
-    Paese: Italia\nIl contraente \xE8 una PMI: no\n\nV.2.4)\n\nInformazione sul valore del contratto d'appalto /lotto (IVA esclusa)\nValore totale inizialmente stimato del contratto d\u2019appalto/lotto: 647 500.00 EUR\nValore totale del contratto d'appalto/del lotto: 324 500.00 EUR\n\nV.2.5)\n\nInformazioni sui subappalti\n\n3/4\n\nSezione VI: Altre informazioni\nVI.3)\nInformazioni complementari:\nVI.4)\n\nProcedure di ricorso\n\nVI.4.1)\n\nOrganismo responsabile delle procedure di ricorso\nDenominazione ufficiale: Tribunale amministrativo Regione Marche\nIndirizzo postale: via della Loggia 24\nCitt\xE0: Ancona\nCodice postale: 60121\nPaese: Italia\nE-mail: taran-segrprotocolloamm@ga-cert.it\nTel.: +39 071-206946\nFax: +39 071203853\nIndirizzo Internet: http://www.giustizia-amministrativa.it\n\nVI.4.3)\n\nProcedure di ricorso\nInformazioni dettagliate sui termini di presentazione dei ricorsi:\nTermini di cui all'art. 204 del D.Lgs. n. 50/2016 s.m.i.\n\nVI.4.4)\n\nServizio presso il quale\
-    \ sono disponibili informazioni sulle procedure di ricorso\nDenominazione ufficiale: Direzione gare e appalti\nIndirizzo postale: largo XXIV Maggio 1\nCitt\xE0: Ancona\nCodice postale: 60121\nPaese: Italia\nE-mail: marinella.monti@comune.ancona.it\nTel.: +39 0712222249\nFax: +39 0712222109\nIndirizzo Internet: http://www.comune.ancona.gov.it\n\nVI.5)\n\nData di spedizione del presente avviso:\n22/02/2021\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n3/4\n\nGU/S S40\n26/02/2021\n100008-2021-IT\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n4/4\n\n4/4\n```\n"
+  content_markdown: '# Comune di Ancona municipal treasury services contract extraction
+
+
+    Collected from the official TED procurement PDF on 2026-03-20.
+
+
+    Primary source URL: https://ted.europa.eu/it/notice/100008-2021/pdfs
+
+
+    ## Listed sources
+
+    - TED notice XML 100008-2021: https://ted.europa.eu/en/notice/100008-2021/xml
+
+    - TED notice PDF 100008-2021 (IT): https://ted.europa.eu/it/notice/100008-2021/pdfs
+
+    - TED notice detail 100008-2021: https://ted.europa.eu/en/notice/-/detail/100008-2021
+
+
+    ## Extracted source text
+
+
+    ```text
+
+    GU/S S40
+
+    26/02/2021
+
+    100008-2021-IT
+
+
+    1/4
+
+
+    Avviso nel sito web TED: https://ted.europa.eu/udl?uri=TED:NOTICE:100008-2021:TEXT:IT:HTML
+
+
+    Italia-Ancona: Servizi finanziari e assicurativi
+
+    2021/S 040-100008
+
+    Avviso di aggiudicazione di appalto
+
+    Risultati della procedura di appalto
+
+    Servizi
+
+    Base giuridica:
+
+    Direttiva 2014/24/UE
+
+    Sezione I: Amministrazione aggiudicatrice
+
+    I.1)
+
+    Denominazione e indirizzi
+
+    Denominazione ufficiale: Comune di Ancona
+
+    Numero di identificazione nazionale: Direzione gare e appalti
+
+    Indirizzo postale: largo XXIV Maggio 1
+
+    Città: Ancona
+
+    Codice NUTS: ITI32 Ancona
+
+    Codice postale: 60123
+
+    Paese: Italia
+
+    E-mail: marinella.monti@comune.ancona.it
+
+    Tel.: +39 0712222249
+
+    Fax: +39 0712222109
+
+    Indirizzi Internet:
+
+    Indirizzo principale: http://www.comune.ancona.gov.it
+
+    Indirizzo del profilo di committente: http://www.comune.ancona.gov.it/ankonline/category/bandi-di-gara-econtratti/appalti-e-concessioni/
+
+    I.4)
+
+
+    Tipo di amministrazione aggiudicatrice
+
+    Autorità regionale o locale
+
+
+    I.5)
+
+
+    Principali settori di attività
+
+    Servizi generali delle amministrazioni pubbliche
+
+
+    Sezione II: Oggetto
+
+    II.1)
+
+    Entità dell''appalto
+
+    II.1.1)
+
+
+    Denominazione:
+
+    Procedura aperta telematica per l''affidamento del servizio di tesoreria comunale
+    — CIG: 8232814D06
+
+
+    II.1.2)
+
+
+    Codice CPV principale
+
+    66000000 Servizi finanziari e assicurativi
+
+
+    II.1.3)
+
+
+    Tipo di appalto
+
+    Servizi
+
+
+    II.1.4)
+
+
+    Breve descrizione:
+
+    L''affidamento riguarda la gestione del servizio di tesoreria del comune di Ancona
+    nei termini e con le specifiche
+
+    indicate nello schema di convenzione.
+
+
+    II.1.6)
+
+
+    Informazioni relative ai lotti
+
+
+    26/02/2021
+
+    S40
+
+    https://ted.europa.eu/TED
+
+
+    1/4
+
+
+    GU/S S40
+
+    26/02/2021
+
+    100008-2021-IT
+
+
+    2/4
+
+
+    Questo appalto è suddiviso in lotti: no
+
+    II.1.7)
+
+
+    Valore totale dell’appalto (IVA esclusa)
+
+    Valore, IVA esclusa: 777 000.00 EUR
+
+
+    II.2)
+
+
+    Descrizione
+
+
+    II.2.3)
+
+
+    Luogo di esecuzione
+
+    Codice NUTS: ITI32 Ancona
+
+    Luogo principale di esecuzione:
+
+    Ancona
+
+
+    II.2.4)
+
+
+    Descrizione dell''appalto:
+
+    Il servizio è stimato in complessive 770 000,00 EUR, oltre IVA per la durata di
+    60 mesi e per la possibile proroga
+
+    di un anno (129 500,00 EUR). Il valore tiene conto di un canone annuo di 80 000
+    EUR.
+
+
+    II.2.5)
+
+
+    Criteri di aggiudicazione
+
+    Criterio di qualità - Nome: offerta tecnica / Ponderazione: 70
+
+    Prezzo - Ponderazione: 30
+
+
+    II.2.11)
+
+
+    Informazioni relative alle opzioni
+
+    Opzioni: sì
+
+    Descrizione delle opzioni:
+
+    È prevista l''opzione di proroga per 12 mesi per consentire lo svolgimento della
+    nuova procedura di gara.
+
+
+    II.2.13)
+
+
+    Informazioni relative ai fondi dell''Unione europea
+
+    L''appalto è connesso ad un progetto e/o programma finanziato da fondi dell''Unione
+    europea: no
+
+
+    II.2.14)
+
+
+    Informazioni complementari
+
+
+    Sezione IV: Procedura
+
+    IV.1)
+
+    Descrizione
+
+    IV.1.1)
+
+
+    Tipo di procedura
+
+    Procedura aperta
+
+
+    IV.1.3)
+
+
+    Informazioni su un accordo quadro o un sistema dinamico di acquisizione
+
+
+    IV.1.8)
+
+
+    Informazioni relative all''accordo sugli appalti pubblici (AAP)
+
+    L''appalto è disciplinato dall''accordo sugli appalti pubblici: sì
+
+
+    IV.2)
+
+
+    Informazioni di carattere amministrativo
+
+
+    IV.2.1)
+
+
+    Pubblicazione precedente relativa alla stessa procedura
+
+    Numero dell''avviso nella GU S: 2020/S 061-145753
+
+
+    IV.2.8)
+
+
+    Informazioni relative alla chiusura del sistema dinamico di acquisizione
+
+
+    IV.2.9)
+
+
+    Informazioni relative alla fine della validità dell''avviso di indizione di gara
+    in forma di avviso di
+
+    preinformazione
+
+
+    Sezione V: Aggiudicazione di appalto
+
+    Contratto d''appalto n.: 14902
+
+    Denominazione:
+
+    Affidamento servizio di tesoreria comunale
+
+    Un contratto d''appalto/lotto è stato aggiudicato: sì
+
+    V.2)
+
+
+    Aggiudicazione di appalto
+
+
+    V.2.1)
+
+
+    Data di conclusione del contratto d''appalto:
+
+    19/02/2021
+
+
+    26/02/2021
+
+    S40
+
+    https://ted.europa.eu/TED
+
+
+    2/4
+
+
+    GU/S S40
+
+    26/02/2021
+
+    100008-2021-IT
+
+
+    V.2.2)
+
+
+    Informazioni sulle offerte
+
+    Numero di offerte pervenute: 4
+
+    Numero di offerte ricevute da PMI: 0
+
+    Numero di offerte ricevute da offerenti provenienti da altri Stati membri dell''UE:
+    0
+
+    Numero di offerte ricevute dagli offerenti provenienti da Stati non membri dell''UE:
+    0
+
+    Numero di offerte pervenute per via elettronica: 4
+
+    L''appalto è stato aggiudicato a un raggruppamento di operatori economici: no
+
+
+    V.2.3)
+
+
+    Nome e indirizzo del contraente
+
+    Denominazione ufficiale: Intesa Sanpaolo SpA
+
+    Città: Torino
+
+    Codice NUTS: ITC11 Torino
+
+    Paese: Italia
+
+    Il contraente è una PMI: no
+
+
+    V.2.4)
+
+
+    Informazione sul valore del contratto d''appalto /lotto (IVA esclusa)
+
+    Valore totale inizialmente stimato del contratto d’appalto/lotto: 647 500.00 EUR
+
+    Valore totale del contratto d''appalto/del lotto: 324 500.00 EUR
+
+
+    V.2.5)
+
+
+    Informazioni sui subappalti
+
+
+    3/4
+
+
+    Sezione VI: Altre informazioni
+
+    VI.3)
+
+    Informazioni complementari:
+
+    VI.4)
+
+
+    Procedure di ricorso
+
+
+    VI.4.1)
+
+
+    Organismo responsabile delle procedure di ricorso
+
+    Denominazione ufficiale: Tribunale amministrativo Regione Marche
+
+    Indirizzo postale: via della Loggia 24
+
+    Città: Ancona
+
+    Codice postale: 60121
+
+    Paese: Italia
+
+    E-mail: taran-segrprotocolloamm@ga-cert.it
+
+    Tel.: +39 071-206946
+
+    Fax: +39 071203853
+
+    Indirizzo Internet: http://www.giustizia-amministrativa.it
+
+
+    VI.4.3)
+
+
+    Procedure di ricorso
+
+    Informazioni dettagliate sui termini di presentazione dei ricorsi:
+
+    Termini di cui all''art. 204 del D.Lgs. n. 50/2016 s.m.i.
+
+
+    VI.4.4)
+
+
+    Servizio presso il quale sono disponibili informazioni sulle procedure di ricorso
+
+    Denominazione ufficiale: Direzione gare e appalti
+
+    Indirizzo postale: largo XXIV Maggio 1
+
+    Città: Ancona
+
+    Codice postale: 60121
+
+    Paese: Italia
+
+    E-mail: marinella.monti@comune.ancona.it
+
+    Tel.: +39 0712222249
+
+    Fax: +39 0712222109
+
+    Indirizzo Internet: http://www.comune.ancona.gov.it
+
+
+    VI.5)
+
+
+    Data di spedizione del presente avviso:
+
+    22/02/2021
+
+
+    26/02/2021
+
+    S40
+
+    https://ted.europa.eu/TED
+
+
+    3/4
+
+
+    GU/S S40
+
+    26/02/2021
+
+    100008-2021-IT
+
+
+    26/02/2021
+
+    S40
+
+    https://ted.europa.eu/TED
+
+
+    4/4
+
+
+    4/4
+
+    ```
+
+    '
   required_artifacts:
   - source_record_file
   - source_record_metadata
@@ -40,10 +543,15 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 100008-2021.xml
     sha256: 5f3a512035b04f7f2ffacab2737b7dae31b47aedb0416314b7914b4775991b39
-    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
-    source_dataset: 'Case bundle from: TED notice XML 100008-2021 | TED notice PDF 100008-2021 (IT) | TED notice detail 100008-2021'
-    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+    acquisition_method: Fetch the official procurement record from the listed source
+      URLs, prefer machine-readable XML or PDF when available, and preserve the relevant
+      record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
+    source_dataset: 'Case bundle from: TED notice XML 100008-2021 | TED notice PDF
+      100008-2021 (IT) | TED notice detail 100008-2021'
+    notes: Checked-in markdown source document used for local validation and Hugging
+      Face export. Factual source content backfilled from the listed upstream sources.
   - id: original-source-01
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-ancona-100008/source-01-ted-notice-xml-100008-2021.xml
     role: original_source_snapshot
@@ -52,10 +560,14 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 100008-2021.xml
     sha256: 8ec3dddc918dc58abdfd7c98d3e9ee8ce06821f4209f21b6b54359cc9b2f80f7
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice XML 100008-2021
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
   - id: original-source-02
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-ancona-100008/source-02-ted-notice-pdf-100008-2021-it.pdf
     role: original_source_snapshot
@@ -64,10 +576,14 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 100008-2021.pdf
     sha256: a21664c923244f274c9532bf3caeb95da615f5f202f46a9333852ba2fca5774d
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice PDF 100008-2021 (IT)
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
   - id: original-source-03
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-ancona-100008/source-03-ted-notice-detail-100008-2021.html
     role: original_source_snapshot
@@ -76,10 +592,14 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 100008-2021.html
     sha256: 59783cde2ad4c1094b4968172a66c5f5c69075550eae1d6fd2eee5020fcd4a5c
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice detail 100008-2021
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
 expected_output:
   fields_required:
   - buyer_name
@@ -96,5 +616,12 @@ answer_key:
     amount: 324500.0
     category_code: '66000000'
 notes:
-- The notice concerns municipal treasury services, and the awarded contract is identified by contract no. 14902 in the award block.
-- The procurement total is higher than the awarded value, so extraction should use the section V award amount rather than the notice-level estimate.
+- The notice concerns municipal treasury services, and the awarded contract is identified
+  by contract no. 14902 in the award block.
+- The procurement total is higher than the awarded value, so extraction should use
+  the section V award amount rather than the notice-level estimate.
+source_languages:
+- it
+evidence_languages:
+- it
+answer_language: en

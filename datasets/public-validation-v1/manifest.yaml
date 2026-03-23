@@ -1,158 +1,341 @@
 suite_id: public-validation-v1
 version: 0.1.0
-status: bootstrap
-objective: >
-  Build a first public validation suite for investigative-journalism workflow
-  automation using source-grounded cases, explicit answer-key modes, and small
-  manual gold annotations.
+status: phase_2_in_progress
+status_note: 'Bootstrap scaffolding is complete. The suite is now in the first real
+  public suite phase with procurement-heavy coverage, strong local provenance, and
+  incomplete breadth across the weaker source families.
+
+  '
+objective: 'Build a first public validation suite for investigative-journalism workflow
+  automation using source-grounded cases, explicit answer-key modes, and small manual
+  gold annotations.
+
+  '
 origin_notes:
-  - ../../docs/foundations.md
-  - ../../docs/references/public-validation-methodology.md
-  - ../../docs/references/journalistic-training-suite.md
-  - ../../docs/references/autonomous-loop.md
-  - ../../docs/references/system-boundaries.md
+- ../../docs/foundations.md
+- ../../docs/references/public-validation-methodology.md
+- ../../docs/references/journalistic-training-suite.md
+- ../../docs/references/autonomous-loop.md
+- ../../docs/references/system-boundaries.md
 source_mix:
-  - structured_public_records
-  - public_entity_link_datasets
-  - public_documents_with_metadata
-  - cross_country_leak_reporting
-  - manual_gold_annotations
+- structured_public_records
+- public_entity_link_datasets
+- public_documents_with_metadata
+- cross_country_leak_reporting
+- manual_gold_annotations
 target_counts:
-  documents: "50-100"
-  entity_link_cases: "100-300"
-  structured_records: "100-300"
-  manual_gold_cases: "20-40"
+  documents: 50-100
+  entity_link_cases: 100-300
+  structured_records: 100-300
+  manual_gold_cases: 20-40
+source_family_targets:
+  official_procurement: 60-180
+  public_entity_link_dataset: 20-80
+  public_documents_with_metadata: 10-40
+  cross_country_leak_reporting: 10-40
+  journalist_style_case: 10-30
+publishing:
+  included_statuses:
+  - template
+  - harvested
+  - draft
+  - validated
+  - gold_candidate
+  - gold
+  evaluation_ready_statuses:
+  - validated
+  - gold
+  default_consumption_statuses:
+  - validated
+  - gold
+  notes: Include the full working suite in HF snapshots for transparency and provenance,
+    but default downstream evaluation to validated and gold cases because earlier
+    lifecycle states, including gold_candidate review queues, are still under construction.
 autonomous_loop:
-  duration_days: 7
+  duration_days: 21
   run_budget:
-    runs_per_day: 8
-    max_total_runs: 56
-    max_case_edits_per_run: 4
-    max_new_cases_per_run: 3
+    runs_per_day: 12
+    max_total_runs: 252
+    max_case_edits_per_run: 12
+    max_new_cases_per_run: 8
   batch_size:
-    min_cases: 2
-    max_cases: 4
+    min_cases: 4
+    max_cases: 8
   mutable_paths:
-    - datasets/public-validation-v1/cases
-    - datasets/public-validation-v1/source_artifacts
-    - datasets/public-validation-v1/source_documents
-    - datasets/public-validation-v1/manifest.yaml
-    - rubrics
-    - docs
+  - datasets/public-validation-v1/cases
+  - datasets/public-validation-v1/source_artifacts
+  - datasets/public-validation-v1/source_documents
+  - datasets/public-validation-v1/manifest.yaml
+  - rubrics
+  - docs
   frozen_paths:
-    - src/auto_dataset/validation.py
-    - src/auto_dataset/cli.py
-    - tests/test_validation.py
+  - src/auto_dataset/validation.py
+  - src/auto_dataset/cli.py
+  - tests/test_validation.py
+  default_mode: acquisition
+  modes:
+    acquisition:
+      description: Rapid net-new case capture with checked-in source documents but
+        deferred raw snapshot hardening.
+      goal: Grow case count and family breadth fast enough to reach hundreds-scale
+        coverage.
+      mutable_paths:
+      - datasets/public-validation-v1/cases
+      - datasets/public-validation-v1/source_documents
+      - datasets/public-validation-v1/manifest.yaml
+      - rubrics
+      - docs
+      prompt_rules:
+      - Prioritize net-new kept cases over provenance polishing when both cannot be
+        done in one run.
+      - New cases may stop at harvested or draft as long as a checked-in source document
+        exists and the case validates.
+      - Prefer underrepresented source families before adding more procurement cases.
+      - Avoid adding official_procurement cases when that family is already above
+        its configured max share unless the batch also improves weaker families.
+      keep_if:
+      - The batch materially increases validated plus acquisition-stage coverage toward
+        the hundreds-scale target.
+      - The batch adds new cases from underrepresented source families or languages
+        without weakening source-grounding rules.
+    hardening:
+      description: Provenance completion for already-harvested cases, including raw
+        source snapshots and artifact metadata.
+      goal: Promote harvested and draft cases into validated cases with reproducible
+        local provenance.
+      mutable_paths:
+      - datasets/public-validation-v1/cases
+      - datasets/public-validation-v1/source_artifacts
+      - datasets/public-validation-v1/source_documents
+      - datasets/public-validation-v1/manifest.yaml
+      - docs
+      prompt_rules:
+      - Prefer upgrading existing harvested or draft cases before creating net-new
+        cases.
+      - Preserve upstream bytes, recompute digests, and keep artifact metadata aligned
+        with the checked-in files.
+      keep_if:
+      - The batch promotes cases from acquisition-stage to validated without introducing
+        provenance regressions.
+    gold_curation:
+      description: Review-preparation mode for gold_candidate creation, rubric tightening,
+        and adjudication packets when reviewer capacity is uncertain.
+      goal: Prepare a durable gold_candidate queue without conflating review preparation
+        with final human signoff.
+      mutable_paths:
+      - datasets/public-validation-v1/cases
+      - datasets/public-validation-v1/source_documents
+      - datasets/public-validation-v1/manifest.yaml
+      - rubrics
+      - docs
+      prompt_rules:
+      - Work only on cases intended for manual benchmark review and prefer preparing
+        gold_candidate cases over promoting anything to gold without human signoff.
+      - Prefer rubric clarity, adjudication notes, and candidate-preparation metadata
+        over raw case-count growth.
+      keep_if:
+      - The batch creates or materially strengthens benchmark-intent gold_candidate
+        cases with review-ready metadata.
+  failure_policy:
+    retryable_statuses:
+    - worker_timeout
+    - worker_failed
+    max_consecutive_retryable_failures: 3
+    stop_on_nonretryable_failure: true
+  family_balance:
+    max_share_by_source_family:
+      official_procurement: 0.85
+    underrepresented_families:
+    - public_entity_link_dataset
+    - public_documents_with_metadata
+    - cross_country_leak_reporting
+    - journalist_style_case
+    reject_acquisition_if_family_above_max_share: true
+  family_acquisition_strategies:
+    public_entity_link_dataset:
+      acquisition_method: Harvest known-relationship cases from public entity-link
+        datasets by isolating one recoverable edge per case.
+      search_rule: Prefer entities with a single target relationship or a small bounded
+        neighborhood that supports exact recovery.
+      preservation_rule: Preserve the entity page, the linked node page, and the
+        dataset methodology or data-sources page.
+    public_documents_with_metadata:
+      acquisition_method: Add citation-grounding cases only when a document file
+        and an attached metadata packet can be preserved together.
+      search_rule: Prefer public document collections with stable URLs, named authors
+        or publishers, and explicit document metadata.
+      preservation_rule: Preserve the source document text, metadata packet, and
+        citation-bearing passages in the checked-in bundle.
+    cross_country_leak_reporting:
+      acquisition_method: Build multilingual comparison clusters for the same entity
+        or event across at least two distinct source languages.
+      search_rule: Prefer outlet pairs or clusters where one language variant adds
+        unique local context, contradictory detail, or a downstream outcome.
+      preservation_rule: Preserve the relevant passages from each outlet plus any
+        official or academic follow-on material needed to stabilize the comparison.
+    journalist_style_case:
+      acquisition_method: Curate bounded follow-up or overclaim-control cases from
+        source-grounded investigative packets with manual review intent.
+      search_rule: Prefer cases where the evidence packet supports clear next-step
+        quality or restraint judgments without requiring open-ended newsroom context.
+      preservation_rule: Preserve the bounded source pack, annotation notes, and
+        rubric cues that justify the judgment criteria.
   priorities:
-    - source_family: structured_public_records
-      goal: Grow exact-answer extraction cases from official fields before harder gold annotations.
-    - source_family: public_entity_link_datasets
-      goal: Expand published-relationship cases that test linking and weak-clue graph navigation.
-    - source_family: public_documents_with_metadata
-      goal: Add citation-grounding cases only when a source file and metadata packet both exist.
-    - source_family: cross_country_leak_reporting
-      goal: >
-        Build "Leak Coverage Clusters" for the same entity or event by harvesting
-        reports from English, Spanish, French, Italian, Portuguese, and Russian outlets.
-        Focus on identifying unique local aspects, differing levels of detail, or
-        contradictory reporting across language borders.
-    - source_family: manual_gold_annotations
-      goal: Spend the smallest amount of human annotation budget on overclaim control and next-step quality.
+  - source_family: structured_public_records
+    goal: Grow exact-answer extraction cases from official fields before harder gold
+      annotations.
+  - source_family: public_entity_link_datasets
+    goal: Expand published-relationship cases that test linking and weak-clue graph
+      navigation.
+  - source_family: public_documents_with_metadata
+    goal: Add citation-grounding cases only when a source file and metadata packet
+      both exist.
+  - source_family: cross_country_leak_reporting
+    goal: 'Build "Leak Coverage Clusters" for the same entity or event by harvesting
+      reports from English, Spanish, French, Italian, Portuguese, and Russian outlets.
+      Focus on identifying unique local aspects, differing levels of detail, or contradictory
+      reporting across language borders.
+
+      '
+  - source_family: manual_gold_annotations
+    goal: Spend the smallest amount of human annotation budget on overclaim control
+      and next-step quality.
   daily_loop:
-    - Read README.md, program.md, docs/foundations.md, and this manifest before changing anything.
-    - When searching for leaks, prioritize finding at least two language reports (e.g., French and English) for the same entity to create a coverage cluster.
-    - Pick one source family and ship one bounded batch of 2-4 cases.
-    - When working from leak-related reporting, preserve markdownified outlet or academic references under ignored local storage and mark every preserved reference with its source URL and collection timestamp.
-    - Run auto-dataset validate datasets/public-validation-v1/manifest.yaml after each batch.
-    - Run auto-dataset summary datasets/public-validation-v1/manifest.yaml and compare coverage gaps before keeping the batch.
-    - In manual mode, append one row to results/runs.tsv for every kept or rejected batch.
-    - In manual mode, after accepted batches, run auto-dataset publish datasets/public-validation-v1/manifest.yaml so git changes are committed and pushed to GitHub and the intermediate snapshot is pushed to Hugging Face.
+  - Read README.md, program.md, docs/foundations.md, and this manifest before changing
+    anything.
+  - When searching for leaks, prioritize finding at least two language reports (e.g.,
+    French and English) for the same entity to create a coverage cluster.
+  - Record `source_languages`, `evidence_languages`, `answer_language`, and `sources[].language`
+    for every case you touch.
+  - Pick one source family and ship one bounded batch of 4-8 cases when acquisition
+    conditions allow it.
+  - For `cross_country_leak_reporting`, keep only batches with at least two distinct
+    source languages.
+  - When working from leak-related reporting, preserve markdownified outlet or academic
+    references under ignored local storage and mark every preserved reference with
+    its source URL and collection timestamp.
+  - Run auto-dataset validate datasets/public-validation-v1/manifest.yaml after each
+    batch.
+  - Run auto-dataset summary datasets/public-validation-v1/manifest.yaml and compare
+    coverage gaps before keeping the batch.
+  - In manual mode, append one row to results/runs.tsv for every kept or rejected
+    batch.
+  - In manual mode, after accepted batches, run auto-dataset publish datasets/public-validation-v1/manifest.yaml
+    so git changes are committed and pushed to GitHub and the intermediate snapshot
+    is pushed to Hugging Face.
   keep_if:
-    - The batch adds a new public source family slice or materially improves provenance completeness.
-    - The batch turns a vague idea into replayable exact, rubric, or mixed cases with the right answer-key discipline.
-    - The batch improves follow-up quality or overclaim-control coverage without loosening citation rules.
-    - The batch captures a country-specific leak angle or downstream outcome trail, including successful, unsuccessful, inconclusive, or unclear results only when source-supported.
+  - The batch adds a new public source family slice or materially improves provenance
+    completeness.
+  - The batch turns a vague idea into replayable exact, rubric, or mixed cases with
+    the right answer-key discipline.
+  - The batch improves follow-up quality or overclaim-control coverage without loosening
+    citation rules.
+  - The batch captures a country-specific leak angle or downstream outcome trail,
+    including successful, unsuccessful, inconclusive, or unclear results only when
+    source-supported.
+  - The batch improves multilingual coverage or adds a valid cross-country leak case
+    with at least two distinct source languages.
+  - The batch reduces source-family imbalance or materially improves one of the explicitly
+    underrepresented families.
   discard_if:
-    - The batch adds cases without a source trail or preserved local record.
-    - The batch adds active cases without inlined `content_markdown` for training readiness.
-    - The batch weakens the distinction between exact, rubric, and mixed scoring.
-    - The batch mostly rewrites framework code instead of improving the dataset itself.
-    - The batch relies on article summaries without preserving source URLs, collection timestamps, or linked official or academic context when those are available.
+  - The batch adds cases without a source trail or preserved local record.
+  - The batch adds active cases without inlined `content_markdown` for training readiness.
+  - The batch weakens the distinction between exact, rubric, and mixed scoring.
+  - The batch mostly rewrites framework code instead of improving the dataset itself.
+  - The batch relies on article summaries without preserving source URLs, collection
+    timestamps, or linked official or academic context when those are available.
+  - The batch adds or edits cases without explicit source/evidence/answer language
+    metadata.
+  - The batch adds a cross_country_leak_reporting case without at least two distinct
+    source languages.
+  - The batch worsens source-family imbalance by deepening an already dominant family
+    without materially improving weaker families.
   logging:
     results_path: ../../results/runs.tsv
     required_columns:
-      - run_id
-      - timestamp
-      - manifest
-      - cases_total
-      - validation_status
-      - change_kind
-      - source_family
-      - kept
-      - description
+    - run_id
+    - timestamp
+    - manifest
+    - cases_total
+    - validation_status
+    - change_kind
+    - source_family
+    - kept
+    - description
 case_files:
-  - cases/structured-public-record-template.yaml
-  - cases/entity-link-template.yaml
-  - cases/entity-link-golden-bridge-mossack-fonseca.yaml
-  - cases/entity-link-mango-myhold-shareholder.yaml
-  - cases/entity-link-alberto-safdie-as-financial-director.yaml
-  - cases/document-grounding-template.yaml
-  - cases/followup-gold-template.yaml
-  - cases/leak-coverage-comparison-template.yaml
-  - cases/structured-public-record-espo-509-19-lot-3.yaml
-  - cases/structured-public-record-reykjavik-14387.yaml
-  - cases/structured-public-record-coventry-6650.yaml
-  - cases/structured-public-record-southampton-16-prof-07-lot-2.yaml
-  - cases/structured-public-record-dhsc-428580.yaml
-  - cases/structured-public-record-ec-cloud-2020-9906.yaml
-  - cases/structured-public-record-nhsbt-470502.yaml
-  - cases/structured-public-record-coventry-3037.yaml
-  - cases/structured-public-record-cumbria-356021.yaml
-  - cases/structured-public-record-siva-355878.yaml
-  - cases/structured-public-record-bank-of-england-9040.yaml
-  - cases/structured-public-record-ealing-531760.yaml
-  - cases/structured-public-record-rikiskaup-545849.yaml
-  - cases/structured-public-record-cork-county-401072.yaml
-  - cases/structured-public-record-ksom-283769.yaml
-  - cases/structured-public-record-aragon-321102-lot-11.yaml
-  - cases/structured-public-record-central-register-395126.yaml
-  - cases/structured-public-record-bus-eireann-27409.yaml
-  - cases/structured-public-record-nhs-scotland-277949.yaml
-  - cases/structured-public-record-dugny-100000.yaml
-  - cases/structured-public-record-ceska-televize-100002.yaml
-  - cases/structured-public-record-adra-100005.yaml
-  - cases/structured-public-record-gddkia-100001.yaml
-  - cases/structured-public-record-lyon-100004.yaml
-  - cases/structured-public-record-ancona-100008.yaml
-  - cases/structured-public-record-val-de-fensch-100011.yaml
-  - cases/structured-public-record-msz-100022.yaml
-  - cases/structured-public-record-zagreb-100030.yaml
-  - cases/structured-public-record-hrt-100031.yaml
-  - cases/structured-public-record-bassano-romano-100032.yaml
-  - cases/structured-public-record-sligo-county-119076.yaml
-  - cases/structured-public-record-dfe-322329.yaml
-  - cases/structured-public-record-home-office-409374-lot-3.yaml
-  - cases/structured-public-record-social-ministry-207356.yaml
-  - cases/structured-public-record-energy-regulator-203955.yaml
-  - cases/structured-public-record-vilkaviskio-ligonine-18277.yaml
-  - cases/structured-public-record-ghsif-209.yaml
-  - cases/structured-public-record-leganes-100045.yaml
-  - cases/structured-public-record-medio-ambiente-454263.yaml
-  - cases/structured-public-record-wreczyca-540831.yaml
-  - cases/structured-public-record-ggw-gelsenkirchen-100023.yaml
-  - cases/structured-public-record-castelo-branco-100037.yaml
-  - cases/structured-public-record-stredoslovensky-100047.yaml
-  - cases/structured-public-record-stockholms-lans-100066.yaml
-  - cases/structured-public-record-sidec-100084.yaml
-  - cases/structured-public-record-wien-ma19-100109.yaml
-  - cases/structured-public-record-infrabel-176746.yaml
-  - cases/structured-public-record-dunea-334859.yaml
-  - cases/structured-public-record-etf-265872.yaml
-  - cases/structured-public-record-latvijas-banka-100294.yaml
-  - cases/structured-public-record-national-anti-doping-100160.yaml
-  - cases/structured-public-record-attica-203906.yaml
-  - cases/structured-public-record-topolovgrad-203912.yaml
-  - cases/structured-public-record-elektro-primorska-203927.yaml
-  - cases/structured-public-record-statens-serum-100130.yaml
-  - cases/structured-public-record-chaudfontaine-100163.yaml
-  - cases/structured-public-record-cyprus-electromechanical-100167.yaml
+- cases/structured-public-record-template.yaml
+- cases/entity-link-template.yaml
+- cases/entity-link-golden-bridge-mossack-fonseca.yaml
+- cases/entity-link-mango-myhold-shareholder.yaml
+- cases/entity-link-alberto-safdie-as-financial-director.yaml
+- cases/document-grounding-template.yaml
+- cases/followup-gold-template.yaml
+- cases/leak-coverage-comparison-template.yaml
+- cases/structured-public-record-espo-509-19-lot-3.yaml
+- cases/structured-public-record-reykjavik-14387.yaml
+- cases/structured-public-record-coventry-6650.yaml
+- cases/structured-public-record-southampton-16-prof-07-lot-2.yaml
+- cases/structured-public-record-dhsc-428580.yaml
+- cases/structured-public-record-ec-cloud-2020-9906.yaml
+- cases/structured-public-record-nhsbt-470502.yaml
+- cases/structured-public-record-coventry-3037.yaml
+- cases/structured-public-record-cumbria-356021.yaml
+- cases/structured-public-record-siva-355878.yaml
+- cases/structured-public-record-bank-of-england-9040.yaml
+- cases/structured-public-record-ealing-531760.yaml
+- cases/structured-public-record-rikiskaup-545849.yaml
+- cases/structured-public-record-cork-county-401072.yaml
+- cases/structured-public-record-ksom-283769.yaml
+- cases/structured-public-record-aragon-321102-lot-11.yaml
+- cases/structured-public-record-central-register-395126.yaml
+- cases/structured-public-record-bus-eireann-27409.yaml
+- cases/structured-public-record-nhs-scotland-277949.yaml
+- cases/structured-public-record-dugny-100000.yaml
+- cases/structured-public-record-ceska-televize-100002.yaml
+- cases/structured-public-record-adra-100005.yaml
+- cases/structured-public-record-gddkia-100001.yaml
+- cases/structured-public-record-lyon-100004.yaml
+- cases/structured-public-record-ancona-100008.yaml
+- cases/structured-public-record-val-de-fensch-100011.yaml
+- cases/structured-public-record-msz-100022.yaml
+- cases/structured-public-record-zagreb-100030.yaml
+- cases/structured-public-record-hrt-100031.yaml
+- cases/structured-public-record-bassano-romano-100032.yaml
+- cases/structured-public-record-sligo-county-119076.yaml
+- cases/structured-public-record-dfe-322329.yaml
+- cases/structured-public-record-home-office-409374-lot-3.yaml
+- cases/structured-public-record-social-ministry-207356.yaml
+- cases/structured-public-record-energy-regulator-203955.yaml
+- cases/structured-public-record-vilkaviskio-ligonine-18277.yaml
+- cases/structured-public-record-ghsif-209.yaml
+- cases/structured-public-record-leganes-100045.yaml
+- cases/structured-public-record-medio-ambiente-454263.yaml
+- cases/structured-public-record-wreczyca-540831.yaml
+- cases/structured-public-record-ggw-gelsenkirchen-100023.yaml
+- cases/structured-public-record-castelo-branco-100037.yaml
+- cases/structured-public-record-stredoslovensky-100047.yaml
+- cases/structured-public-record-stockholms-lans-100066.yaml
+- cases/structured-public-record-sidec-100084.yaml
+- cases/structured-public-record-wien-ma19-100109.yaml
+- cases/structured-public-record-infrabel-176746.yaml
+- cases/structured-public-record-dunea-334859.yaml
+- cases/structured-public-record-etf-265872.yaml
+- cases/structured-public-record-latvijas-banka-100294.yaml
+- cases/structured-public-record-national-anti-doping-100160.yaml
+- cases/structured-public-record-attica-203906.yaml
+- cases/structured-public-record-topolovgrad-203912.yaml
+- cases/structured-public-record-elektro-primorska-203927.yaml
+- cases/structured-public-record-statens-serum-100130.yaml
+- cases/structured-public-record-chaudfontaine-100163.yaml
+- cases/structured-public-record-cyprus-electromechanical-100167.yaml
+language_targets:
+  en: 30-150
+  fr: 5-30
+  es: 5-30
+  it: 5-30
+  pt: 5-20
+  de: 5-20
+  pl: 5-20
+  lt: 5-20
+  ru: 5-20
+  multilingual_cases: 10-30

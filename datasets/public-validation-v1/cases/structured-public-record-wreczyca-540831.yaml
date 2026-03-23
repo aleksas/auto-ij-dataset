@@ -1,6 +1,6 @@
 id: structured-public-record-wreczyca-540831
-status: draft
-title: "Wr\u0119czyca Wielka municipal waste collection sector III contract extraction"
+status: validated
+title: Wręczyca Wielka municipal waste collection sector III contract extraction
 task_type: field_extraction
 answer_mode: exact
 source_family: official_procurement
@@ -11,33 +11,794 @@ sources:
   url: https://ted.europa.eu/en/notice/540831-2023/xml
   checked_on: 2026-03-20
   provenance: official_portal
+  language: pl
 - label: TED notice PDF 540831-2023 (PL)
   url: https://ted.europa.eu/pl/notice/540831-2023/pdfs
   checked_on: 2026-03-20
   provenance: official_portal
+  language: pl
 - label: TED notice detail 540831-2023
   url: https://ted.europa.eu/en/notice/-/detail/540831-2023
   checked_on: 2026-03-20
   provenance: official_portal
+  language: pl
 evidence_bundle:
   kind: structured_record
-  content_markdown: "# Wr\u0119czyca Wielka municipal waste collection sector III contract extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/pl/notice/540831-2023/pdfs\n\n## Listed sources\n- TED notice XML 540831-2023: https://ted.europa.eu/en/notice/540831-2023/xml\n- TED notice PDF 540831-2023 (PL): https://ted.europa.eu/pl/notice/540831-2023/pdfs\n- TED notice detail 540831-2023: https://ted.europa.eu/en/notice/-/detail/540831-2023\n\n## Extracted source text\n\n```text\nDz.U./S S173\n08/09/2023\n540831-2023-PL\n\n1/5\n\nNiniejsze og\u0142oszenie w witrynie TED: https://ted.europa.eu/udl?uri=TED:NOTICE:540831-2023:TEXT:PL:HTML\n\nPolska-Wr\u0119czyca Wielka: Us\u0142ugi zwi\u0105zane z odpadami\n2023/S 173-540831\nOg\u0142oszenie o udzieleniu zam\xF3wienia\nWyniki post\u0119powania\nUs\u0142ugi\nPodstawa prawna:\nDyrektywa 2014/24/UE\nSekcja I: Instytucja zamawiaj\u0105ca\nI.1)\nNazwa i adresy\nOficjalna nazwa: Gmina\
-    \ Wr\u0119czyca Wielka\nKrajowy numer identyfikacyjny: REGON 151398385\nAdres pocztowy: Sienkiewicza 1\nMiejscowo\u015B\u0107: Wr\u0119czyca Wielka\nKod NUTS: PL224 Cz\u0119stochowski\nKod pocztowy: 42-130\nPa\u0144stwo: Polska\nOsoba do kontakt\xF3w: Maciej Buchli\u0144ski\nE-mail: ug@wreczyca-wielka.pl\nTel.: +48 343170245\nFaks: +48 343170215\nAdresy internetowe:\nG\u0142\xF3wny adres: www.wreczyca-wielka.pl\nI.4)\n\nRodzaj instytucji zamawiaj\u0105cej\nOrgan w\u0142adzy regionalnej lub lokalnej\n\nI.5)\n\nG\u0142\xF3wny przedmiot dzia\u0142alno\u015Bci\nOg\xF3lne us\u0142ugi publiczne\n\nSekcja II: Przedmiot\nII.1)\nWielko\u015B\u0107 lub zakres zam\xF3wienia\nII.1.1)\n\nNazwa:\nOdbi\xF3r i zagospodarowanie odpad\xF3w komunalnych od w\u0142a\u015Bcicieli nieruchomo\u015Bci z terenu Gminy Wr\u0119czyca Wielka \u2013 Sektor III\n\nNumer referencyjny: SZ.271.9.2023\nII.1.2)\n\nG\u0142\xF3wny kod CPV\n90500000 Us\u0142ugi zwi\u0105zane z odpadami\n\nII.1.3)\n\nRodzaj zam\xF3wienia\n\
-    Us\u0142ugi\n\nII.1.4)\n\nKr\xF3tki opis:\nPrzedmiotem zam\xF3wienia jest \u015Bwiadczenie us\u0142ugi odbioru i zagospodarowania odpad\xF3w komunalnych z terenu\nGminy Wr\u0119czyca Wielka - Sektor III polegaj\u0105cej na odbiorze i zagospodarowaniu odpad\xF3w komunalnych,\npochodz\u0105cych od w\u0142a\u015Bcicieli nieruchomo\u015Bci zamieszka\u0142ych oraz nieruchomo\u015Bci, na kt\xF3rej znajduje si\u0119 domek\n\n08/09/2023\nS173\nhttps://ted.europa.eu/TED\n\n1/5\n\nDz.U./S S173\n08/09/2023\n540831-2023-PL\n\n2/5\n\nletniskowy, lub innej nieruchomo\u015Bci wykorzystywanej na cele rekreacyjno-wypoczynkowe po\u0142o\u017Conych na\nterenie Gminy Wr\u0119czyca Wielka. Sektor III obejmuje obszar nast\u0119puj\u0105cych so\u0142ectw: - Brzezinki, - Golce, Hutka, - Kuleje, - Nowiny, - Pi\u0142a Pierwsza, - Pi\u0142a Druga, - Truskolasy, - Zam\u0142ynie. Szacowana ilo\u015B\u0107 odpad\xF3w do\nodebrania i zagospodarowania w okresie realizacji przedmiotu umowy \u2013 1500 Mg.\nII.1.6)\n\
-    \nInformacje o cz\u0119\u015Bciach\nTo zam\xF3wienie podzielone jest na cz\u0119\u015Bci: nie\n\nII.1.7)\n\nCa\u0142kowita warto\u015B\u0107 zam\xF3wienia (bez VAT)\nWarto\u015B\u0107 bez VAT: 1 187 500.00 PLN\n\nII.2)\n\nOpis\n\nII.2.2)\n\nDodatkowy kod lub kody CPV\n90512000 Us\u0142ugi transportu odpad\xF3w\n90513100 Us\u0142ugi wywozu odpad\xF3w pochodz\u0105cych z gospodarstw domowych\n90514000 Us\u0142ugi recyklingu odpad\xF3w\n90533000 Us\u0142ugi gospodarki odpadami\n\nII.2.3)\n\nMiejsce \u015Bwiadczenia us\u0142ug\nKod NUTS: PL224 Cz\u0119stochowski\nG\u0142\xF3wne miejsce lub lokalizacja realizacji:\nGmina Wr\u0119czyca Wielka, Powiat K\u0142obucki\n\nII.2.4)\n\nOpis zam\xF3wienia:\nPrzedmiotem zam\xF3wienia jest \u015Bwiadczenie us\u0142ugi odbioru i zagospodarowania odpad\xF3w komunalnych z terenu\nGminy Wr\u0119czyca Wielka - Sektor III polegaj\u0105cej na odbiorze i zagospodarowaniu odpad\xF3w komunalnych,\npochodz\u0105cych od w\u0142a\u015Bcicieli nieruchomo\u015Bci zamieszka\u0142\
-    ych oraz nieruchomo\u015Bci, na kt\xF3rej znajduje si\u0119 domek\nletniskowy, lub innej nieruchomo\u015Bci wykorzystywanej na cele rekreacyjno-wypoczynkowe po\u0142o\u017Conych na terenie\nGminy Wr\u0119czyca Wielka. Zagospodarowanie odpad\xF3w ma zapewni\u0107 osi\u0105gni\u0119cie w danym roku kalendarzowym\nodpowiednich poziom\xF3w przygotowania do ponownego u\u017Cycia i recyklingu odpad\xF3w komunalnych oraz\nograniczenie masy odpad\xF3w komunalnych ulegaj\u0105cych biodegradacji przekazywanych do sk\u0142adowania\nzgodnie z przepisami ustawy ucpg oraz zapisami Planu Gospodarki Odpadami dla Wojew\xF3dztwa \u015Al\u0105skiego.\n1) Przedmiot zam\xF3wienia obejmuje: a) wydzier\u017Cawienie pojemnik\xF3w na odpady niesegregowane (zmieszane)\ni selektywne (bioodpady, szk\u0142o) oraz wyposa\u017Cenie nieruchomo\u015Bci w worki na odpady selektywnie zbierane\n(metale i tworzywa sztuczne oraz papier) wed\u0142ug poszczeg\xF3lnych frakcji dla w\u0142a\u015Bcicieli nieruchomo\u015Bci z\
-    \ terenu\nGminy Wr\u0119czyca Wielka \u2013 Sektor III. Wydzier\u017Cawienie pojemnik\xF3w b\u0119dzie obejmowa\u0142o ca\u0142y okres wykonywania\nzam\xF3wienia, b) prowadzenie sprawozdawczo\u015Bci zgodnie z obowi\u0105zuj\u0105cymi przepisami, c) zagospodarowanie\nodpad\xF3w z zachowaniem wska\u017Anik\xF3w odzysku lub unieszkodliwiania zebranych odpad\xF3w komunalnych,\nzgodnie z ustaw\u0105 o odpadach oraz ustawy ucpg w zakresie odebranych odpad\xF3w komunalnych od w\u0142a\u015Bcicieli\nnieruchomo\u015Bci z terenu Gminy Wr\u0119czyca Wielka \u2013 Sektor III, d) zgodnie z art. 9e ust. 1 ustawy ucpg Podmiot\nodbieraj\u0105cy odpady komunalne na podstawie umowy z w\u0142a\u015Bcicielem nieruchomo\u015Bci jest obowi\u0105zany do\nprzekazywania odebranych od w\u0142a\u015Bcicieli nieruchomo\u015Bci: selektywnie zebranych odpad\xF3w komunalnych\nbezpo\u015Brednio lub za po\u015Brednictwem innego zbieraj\u0105cego odpady do instalacji odzysku lub unieszkodliwiania\nodpad\xF3w, zgodnie\
-    \ z hierarchi\u0105 sposob\xF3w post\u0119powania z odpadami, o kt\xF3rej mowa w art. 17 ustawy z dnia\n14 grudnia 2012 r. o odpadach; niesegregowanych (zmieszanych) odpad\xF3w komunalnych bezpo\u015Brednio do\ninstalacji komunalnej. e) przeprowadzenie akcji edukacyjnych, w ilo\u015Bci wskazanej w formularzu ofertowym,\nkt\xF3rych przedmiotem b\u0119dzie promowanie oraz okre\u015Blenie zasad dotycz\u0105cych selektywnej zbi\xF3rki odpad\xF3w\nkomunalnych (zgodnie z obowi\u0105zuj\u0105cymi przepisami), poprzez opracowanie oraz dor\u0119czenie ka\u017Cdemu z\nw\u0142a\u015Bcicieli nieruchomo\u015Bci z terenu Gminy Wr\u0119czyca Wielka \u2013 Sektor III, ulotki informacyjnej. Tre\u015B\u0107, szata\ngraficzna oraz termin dor\u0119czenia mieszka\u0144com ulotki musz\u0105 zosta\u0107 uzgodnione z Zamawiaj\u0105cym i przez niego\n\n08/09/2023\nS173\nhttps://ted.europa.eu/TED\n\n2/5\n\nDz.U./S S173\n08/09/2023\n540831-2023-PL\n\n3/5\n\nzatwierdzone. Minimalne wymiary opracowanej ulotki to\
-    \ format A-5, minimalny rozmiar czcionki tekstu - 11\npkt. Ulotka musi by\u0107 wydrukowana w kolorze, ilo\u015B\u0107 dor\u0119czonych ulotek musi odpowiada\u0107 ilo\u015Bci nieruchomo\u015Bci\nobj\u0119tych obowi\u0105zkiem odbierania odpad\xF3w komunalnych, zgodnie z niniejsz\u0105 umow\u0105, zawartych w wykazie\nZamawiaj\u0105cego, z uwzgl\u0119dnieniem nowych punkt\xF3w odbioru, kt\xF3re powstan\u0105 w trakcie realizacji us\u0142ugi (je\u015Bli\nakcja edukacyjna zosta\u0142a ju\u017C przeprowadzona \u2013 dla nowych punkt\xF3w ulotka powinna zosta\u0107 dor\u0119czona w dniu\nwyposa\u017Cenia nieruchomo\u015Bci w wymagane pojemniki). Szczeg\xF3\u0142owy opis przedmiotu zam\xF3wienia znajduje si\u0119 w\nRozdziale IV SWZ.\nII.2.5)\n\nKryteria udzielenia zam\xF3wienia\nKryterium jako\u015Bci - Nazwa: Ilo\u015B\u0107 akcji edukacyjnych / Waga: 20 %\nKryterium jako\u015Bci - Nazwa: Aspekt \u015Brodowiskowy / Waga: 20 %\nCena - Waga: 60 %\n\nII.2.11)\n\nInformacje o opcjach\nOpcje:\
-    \ nie\n\nII.2.13)\n\nInformacje o funduszach Unii Europejskiej\nZam\xF3wienie dotyczy projektu/programu finansowanego ze \u015Brodk\xF3w Unii Europejskiej: nie\n\nII.2.14)\n\nInformacje dodatkowe\n\nSekcja IV: Procedura\nIV.1)\nOpis\nIV.1.1)\n\nRodzaj procedury\nProcedura otwarta\n\nIV.1.3)\n\nInformacje na temat umowy ramowej lub dynamicznego systemu zakup\xF3w\n\nIV.1.8)\n\nInformacje na temat Porozumienia w sprawie zam\xF3wie\u0144 rz\u0105dowych (GPA)\nZam\xF3wienie jest obj\u0119te Porozumieniem w sprawie zam\xF3wie\u0144 rz\u0105dowych: tak\n\nIV.2)\n\nInformacje administracyjne\n\nIV.2.1)\n\nPoprzednia publikacja dotycz\u0105ca przedmiotowego post\u0119powania\nNumer og\u0142oszenia w Dz.Urz. UE \u2013 OJ/S: 2023/S 100-309765\n\nIV.2.8)\n\nInformacje o zako\u0144czeniu dynamicznego systemu zakup\xF3w\n\nIV.2.9)\n\nInformacje o zako\u0144czeniu zaproszenia do ubiegania si\u0119 o zam\xF3wienie w postaci wst\u0119pnego og\u0142oszenia\ninformacyjnego\n\nSekcja V: Udzielenie zam\xF3\
-    wienia\nZam\xF3wienie nr: SZ.271.9.2023\nNazwa:\nOdbi\xF3r i zagospodarowanie odpad\xF3w komunalnych od w\u0142a\u015Bcicieli nieruchomo\u015Bci z terenu Gminy Wr\u0119czyca Wielka \u2013 Sektor III\n\nZam\xF3wienie/zam\xF3wienie na cz\u0119\u015B\u0107 zostaje udzielone: tak\nV.2)\n\nUdzielenie zam\xF3wienia\n\nV.2.1)\n\nData zawarcia umowy:\n02/08/2023\n\nV.2.2)\n\nInformacje o ofertach\nLiczba otrzymanych ofert: 1\nLiczba ofert otrzymanych od M\u015AP: 1\nLiczba ofert otrzymanych od oferent\xF3w z innych pa\u0144stw cz\u0142onkowskich UE: 0\nLiczba ofert otrzymanych od oferent\xF3w z pa\u0144stw nieb\u0119d\u0105cych cz\u0142onkami UE: 0\nLiczba ofert otrzymanych drog\u0105 elektroniczn\u0105: 1\n\n08/09/2023\nS173\nhttps://ted.europa.eu/TED\n\n3/5\n\nDz.U./S S173\n08/09/2023\n540831-2023-PL\n\n4/5\n\nZam\xF3wienie zosta\u0142o udzielone grupie wykonawc\xF3w: nie\nV.2.3)\n\nNazwa i adres wykonawcy\nOficjalna nazwa: EKO SYSTEM BIS SP\xD3\u0141KA Z OGRANICZON\u0104 ODPOWIEDZIALNO\u015A\
-    CI\u0104 SP\xD3\u0141KA\nKOMANDYTOWA\nKrajowy numer identyfikacyjny: 5731375510\nAdres pocztowy: Przemys\u0142owa 7\nMiejscowo\u015B\u0107: Konopiska\nKod NUTS: PL224 Cz\u0119stochowski\nKod pocztowy: 42-274\nPa\u0144stwo: Polska\nWykonawc\u0105 jest M\u015AP: tak\n\nV.2.4)\n\nInformacje na temat warto\u015Bci zam\xF3wienia/cz\u0119\u015Bci (bez VAT)\nPocz\u0105tkowa szacunkowa ca\u0142kowita warto\u015B\u0107 zam\xF3wienia/cz\u0119\u015Bci: 2 144 399.40 PLN\nCa\u0142kowita ko\u0144cowa warto\u015B\u0107 umowy/cz\u0119\u015Bci: 1 187 500.00 PLN\n\nV.2.5)\n\nInformacje na temat podwykonawstwa\n\nSekcja VI: Informacje uzupe\u0142niaj\u0105ce\nVI.3)\nInformacje dodatkowe:\n1. Wykonawca, kt\xF3rego oferta zostanie najwy\u017Cej oceniona, na wezwanie Zamawiaj\u0105cego w terminie nie\nkr\xF3tszym ni\u017C 10 dni od dnia wezwania, zobowi\u0105zany b\u0119dzie do z\u0142o\u017Cenia aktualnych na dzie\u0144 ich z\u0142o\u017Cenia\npodmiotowych \u015Brodk\xF3w dowodowych potwierdzaj\u0105cych\
-    \ brak podstaw wykluczenia oraz potwierdzaj\u0105cych\nspe\u0142nienie warunk\xF3w udzia\u0142u w post\u0119powaniu zgodnie zapisami SWZ Rozdz. IX \u2013 Wykaz podmiotowych\n\u015Brodk\xF3w dowodowych. 2. Zamawiaj\u0105cy przewiduje w okresie 3 lat od udzielenia zam\xF3wienia podstawowego\nmo\u017Cliwo\u015B\u0107 udzielenia zam\xF3wienia uzupe\u0142niaj\u0105cego, o kt\xF3rym mowa w art. 214 ust. 1 pkt. 7 ustawy Pzp,\npolegaj\u0105cego na powt\xF3rzeniu podobnych us\u0142ug. Zakres przewidywanych us\u0142ug b\u0119dzie polega\u0107 na powt\xF3rzeniu\npodobnych us\u0142ug w trybie zam\xF3wienia z wolnej r\u0119ki, wy\u0142onionemu w drodze przetargu nieograniczonego\nWykonawcy us\u0142ug odbioru i transportu odpad\xF3w komunalnych oraz dostawy pojemnik\xF3w, stanowi\u0105cych nie\nwi\u0119cej ni\u017C 20% warto\u015Bci zam\xF3wienia podstawowego. Wykonawca, kt\xF3remu zostanie udzielone zam\xF3wienie\nuzupe\u0142niaj\u0105ce zobowi\u0105zany b\u0119dzie do zastosowania zasad i warunk\xF3\
-    w jak w zam\xF3wieniu podstawowym.\nWarunki, na jakich zam\xF3wienie (powt\xF3rzenie podobnych us\u0142ug) zostanie udzielone: \uF02D w przypadku wyczerpania\nkwoty, o kt\xF3rej mowa w \xA7 8 ust. 1 umowy, \uF02D w przypadku przed\u0142u\u017Caj\u0105cej si\u0119 procedury udzielenia kolejnego\nzam\xF3wienia w procedurze otwartej, przez co nale\u017Cy rozumie\u0107 r\xF3wnie\u017C brak rozstrzygni\u0119cia post\u0119powania w\ntakiej procedurze, \uF02D udzielenie zam\xF3wienia zostanie poprzedzone przeprowadzeniem post\u0119powania w trybie\nz wolnej r\u0119ki, po przeprowadzeniu negocjacji z Wykonawc\u0105. 3. Zamawiaj\u0105cy nie dopuszcza sk\u0142adania ofert\ncz\u0119\u015Bciowych. Powody niedokonania podzia\u0142u zam\xF3wienia na cz\u0119\u015Bci: Odbi\xF3r i zagospodarowanie odpad\xF3w\ns\u0105 to us\u0142ugi powi\u0105zane ze sob\u0105. Przedsi\u0119biorca odbieraj\u0105cy odpady komunalne wskazuje w ofercie do jakich\ninstalacji b\u0119dzie przekazywa\u0142 odpady (z kt\xF3\
-    rymi ma lub b\u0119dzie mia\u0142 podpisane umowy). Przeprowadzenie\nodr\u0119bnych post\u0119powa\u0144 na odbi\xF3r odpad\xF3w oraz ich zagospodarowanie nie gwarantuje obni\u017Cenia koszt\xF3w\n\u0142\u0105cznych powy\u017Cszych post\u0119powa\u0144, poniewa\u017C potencjalny Wykonawca zawieraj\u0105c umowy wieloletnie z\ninstalacjami zajmuj\u0105cymi si\u0119 zagospodarowaniem odpad\xF3w ma wi\u0119ksz\u0105 mo\u017Cliwo\u015B\u0107 wynegocjowania\nkorzystniejszej ceny ni\u017C gmina indywidualnie. Ponadto Uchwa\u0142\u0105 Nr XVIII/182/20 Rada Gminy Wr\u0119czyca\nWielka w dniu 26 czerwca 2020 r dokona\u0142a podzia\u0142u obszaru gminy Wr\u0119czyca Wielka na sektory celem\nzorganizowania odbierania odpad\xF3w komunalnych. Zgodnie z art. 6d ust. 3 ustawy ucpg, Zamawiaj\u0105cy\nprzeprowadza odr\u0119bne post\u0119powania dla ka\u017Cdego z wyznaczonych sektor\xF3w. 4. Zamawiaj\u0105cy nie dopuszcza\nsk\u0142adania ofert wariantowych. 5. Przedmiotem zam\xF3wienia nie jest zawarcie\
-    \ umowy ramowej. 6. Zamawiaj\u0105cy\nnie przewiduje aukcji elektronicznej. 7. Zamawiaj\u0105cy nie przewiduje zwrotu koszt\xF3w udzia\u0142u w post\u0119powaniu.\n8. Zamawiaj\u0105cy nie przewiduje udzielenia zaliczek na poczet wykonania zam\xF3wienia. 9. Zamawiaj\u0105cy nie\n08/09/2023\nS173\nhttps://ted.europa.eu/TED\n\n4/5\n\nDz.U./S S173\n08/09/2023\n540831-2023-PL\n\n5/5\n\nprzewiduje wymaga\u0144 w zakresie zatrudnienia os\xF3b, o kt\xF3rych mowa w art. 96 ust. 2 pkt 2 ustawy Pzp. 10.\nZamawiaj\u0105cy nie wymaga z\u0142o\u017Cenia oferty po odbyciu wizji lokalnej lub sprawdzenia dokument\xF3w niezb\u0119dnych\ndo realizacji zam\xF3wienia, o kt\xF3rych mowa w art. 131 ust. 2 ustawy Pzp. 11. Zamawiaj\u0105cy nie przewiduje\nrozlicze\u0144 w walutach obcych. 12. Zamawiaj\u0105cy nie zastrzega mo\u017Cliwo\u015Bci ubiegania si\u0119 o udzielenie zam\xF3wienia\nwy\u0142\u0105cznie przez wykonawc\xF3w, o kt\xF3rych mowa w art. 94 ustawy Pzp. 13. Zamawiaj\u0105cy informuje, \u017C\
-    e nie planuje\nzwo\u0142ania zebrania wszystkich Wykonawc\xF3w. 14. Zamawiaj\u0105cy nie zastrzega obowi\u0105zku osobistego wykonania\nprzez poszczeg\xF3lnych Wykonawc\xF3w wsp\xF3lnie ubiegaj\u0105cych si\u0119 o udzielenie zam\xF3wienia kluczowych cz\u0119\u015Bci\nzam\xF3wienia. 15. Wysoko\u015B\u0107 wadium ustala si\u0119 w kwocie: 30 000 z\u0142otych, kt\xF3re nale\u017Cy wnie\u015B\u0107 przed up\u0142ywem\nterminu sk\u0142adania ofert.\nVI.4)\n\nProcedury odwo\u0142awcze\n\nVI.4.1)\n\nOrgan odpowiedzialny za procedury odwo\u0142awcze\nOficjalna nazwa: Prezes Krajowej Izby Odwo\u0142awczej\nAdres pocztowy: Warszawa ul. Post\u0119pu 17A\nMiejscowo\u015B\u0107: Warszawa\nKod pocztowy: 02-676\nPa\u0144stwo: Polska\nE-mail: odwolania@uzp.gov.pl\nTel.: +48 224587849\nFaks: +48 224587700\nAdres internetowy: http://www.uzp.gov.pl\n\nVI.4.3)\n\nSk\u0142adanie odwo\u0142a\u0144\nDok\u0142adne informacje na temat termin\xF3w sk\u0142adania odwo\u0142a\u0144:\n1. Zasady, terminy oraz spos\xF3\
-    b korzystania ze \u015Brodk\xF3w ochrony prawnej szczeg\xF3\u0142owo reguluj\u0105 przepisy dzia\u0142u\nIX ustawy \u2013 \u015Brodki ochrony prawnej (art. 505\u2013590 ustawy). 2. Szczeg\xF3\u0142y dotycz\u0105ce pouczenia o \u015Brodkach\nochrony prawnej przys\u0142uguj\u0105cych Wykonawcy oraz innemu podmiotowi zosta\u0142y zawarte w rozdziale XXIII\nSpecyfikacji Warunk\xF3w Zam\xF3wienia.\n\nVI.4.4)\n\n\u0179r\xF3d\u0142o, gdzie mo\u017Cna uzyska\u0107 informacje na temat sk\u0142adania odwo\u0142a\u0144\nOficjalna nazwa: Prezes Krajowej Izby Odwo\u0142awczej\nAdres pocztowy: Warszawa ul. Post\u0119pu 17A\nMiejscowo\u015B\u0107: Warszawa\nKod pocztowy: 02-676\nPa\u0144stwo: Polska\nE-mail: odwolania@uzp.gov.pl\nTel.: +48 224587849\nFaks: +48 224587700\nAdres internetowy: http://www.uzp.gov.pl\n\nVI.5)\n\nData wys\u0142ania niniejszego og\u0142oszenia:\n05/09/2023\n\n08/09/2023\nS173\nhttps://ted.europa.eu/TED\n\n5/5\n```\n"
+  content_markdown: '# Wręczyca Wielka municipal waste collection sector III contract
+    extraction
+
+
+    Collected from the official TED procurement PDF on 2026-03-20.
+
+
+    Primary source URL: https://ted.europa.eu/pl/notice/540831-2023/pdfs
+
+
+    ## Listed sources
+
+    - TED notice XML 540831-2023: https://ted.europa.eu/en/notice/540831-2023/xml
+
+    - TED notice PDF 540831-2023 (PL): https://ted.europa.eu/pl/notice/540831-2023/pdfs
+
+    - TED notice detail 540831-2023: https://ted.europa.eu/en/notice/-/detail/540831-2023
+
+
+    ## Extracted source text
+
+
+    ```text
+
+    Dz.U./S S173
+
+    08/09/2023
+
+    540831-2023-PL
+
+
+    1/5
+
+
+    Niniejsze ogłoszenie w witrynie TED: https://ted.europa.eu/udl?uri=TED:NOTICE:540831-2023:TEXT:PL:HTML
+
+
+    Polska-Wręczyca Wielka: Usługi związane z odpadami
+
+    2023/S 173-540831
+
+    Ogłoszenie o udzieleniu zamówienia
+
+    Wyniki postępowania
+
+    Usługi
+
+    Podstawa prawna:
+
+    Dyrektywa 2014/24/UE
+
+    Sekcja I: Instytucja zamawiająca
+
+    I.1)
+
+    Nazwa i adresy
+
+    Oficjalna nazwa: Gmina Wręczyca Wielka
+
+    Krajowy numer identyfikacyjny: REGON 151398385
+
+    Adres pocztowy: Sienkiewicza 1
+
+    Miejscowość: Wręczyca Wielka
+
+    Kod NUTS: PL224 Częstochowski
+
+    Kod pocztowy: 42-130
+
+    Państwo: Polska
+
+    Osoba do kontaktów: Maciej Buchliński
+
+    E-mail: ug@wreczyca-wielka.pl
+
+    Tel.: +48 343170245
+
+    Faks: +48 343170215
+
+    Adresy internetowe:
+
+    Główny adres: www.wreczyca-wielka.pl
+
+    I.4)
+
+
+    Rodzaj instytucji zamawiającej
+
+    Organ władzy regionalnej lub lokalnej
+
+
+    I.5)
+
+
+    Główny przedmiot działalności
+
+    Ogólne usługi publiczne
+
+
+    Sekcja II: Przedmiot
+
+    II.1)
+
+    Wielkość lub zakres zamówienia
+
+    II.1.1)
+
+
+    Nazwa:
+
+    Odbiór i zagospodarowanie odpadów komunalnych od właścicieli nieruchomości z terenu
+    Gminy Wręczyca Wielka – Sektor III
+
+
+    Numer referencyjny: SZ.271.9.2023
+
+    II.1.2)
+
+
+    Główny kod CPV
+
+    90500000 Usługi związane z odpadami
+
+
+    II.1.3)
+
+
+    Rodzaj zamówienia
+
+    Usługi
+
+
+    II.1.4)
+
+
+    Krótki opis:
+
+    Przedmiotem zamówienia jest świadczenie usługi odbioru i zagospodarowania odpadów
+    komunalnych z terenu
+
+    Gminy Wręczyca Wielka - Sektor III polegającej na odbiorze i zagospodarowaniu
+    odpadów komunalnych,
+
+    pochodzących od właścicieli nieruchomości zamieszkałych oraz nieruchomości, na
+    której znajduje się domek
+
+
+    08/09/2023
+
+    S173
+
+    https://ted.europa.eu/TED
+
+
+    1/5
+
+
+    Dz.U./S S173
+
+    08/09/2023
+
+    540831-2023-PL
+
+
+    2/5
+
+
+    letniskowy, lub innej nieruchomości wykorzystywanej na cele rekreacyjno-wypoczynkowe
+    położonych na
+
+    terenie Gminy Wręczyca Wielka. Sektor III obejmuje obszar następujących sołectw:
+    - Brzezinki, - Golce, Hutka, - Kuleje, - Nowiny, - Piła Pierwsza, - Piła Druga,
+    - Truskolasy, - Zamłynie. Szacowana ilość odpadów do
+
+    odebrania i zagospodarowania w okresie realizacji przedmiotu umowy – 1500 Mg.
+
+    II.1.6)
+
+
+    Informacje o częściach
+
+    To zamówienie podzielone jest na części: nie
+
+
+    II.1.7)
+
+
+    Całkowita wartość zamówienia (bez VAT)
+
+    Wartość bez VAT: 1 187 500.00 PLN
+
+
+    II.2)
+
+
+    Opis
+
+
+    II.2.2)
+
+
+    Dodatkowy kod lub kody CPV
+
+    90512000 Usługi transportu odpadów
+
+    90513100 Usługi wywozu odpadów pochodzących z gospodarstw domowych
+
+    90514000 Usługi recyklingu odpadów
+
+    90533000 Usługi gospodarki odpadami
+
+
+    II.2.3)
+
+
+    Miejsce świadczenia usług
+
+    Kod NUTS: PL224 Częstochowski
+
+    Główne miejsce lub lokalizacja realizacji:
+
+    Gmina Wręczyca Wielka, Powiat Kłobucki
+
+
+    II.2.4)
+
+
+    Opis zamówienia:
+
+    Przedmiotem zamówienia jest świadczenie usługi odbioru i zagospodarowania odpadów
+    komunalnych z terenu
+
+    Gminy Wręczyca Wielka - Sektor III polegającej na odbiorze i zagospodarowaniu
+    odpadów komunalnych,
+
+    pochodzących od właścicieli nieruchomości zamieszkałych oraz nieruchomości, na
+    której znajduje się domek
+
+    letniskowy, lub innej nieruchomości wykorzystywanej na cele rekreacyjno-wypoczynkowe
+    położonych na terenie
+
+    Gminy Wręczyca Wielka. Zagospodarowanie odpadów ma zapewnić osiągnięcie w danym
+    roku kalendarzowym
+
+    odpowiednich poziomów przygotowania do ponownego użycia i recyklingu odpadów komunalnych
+    oraz
+
+    ograniczenie masy odpadów komunalnych ulegających biodegradacji przekazywanych
+    do składowania
+
+    zgodnie z przepisami ustawy ucpg oraz zapisami Planu Gospodarki Odpadami dla Województwa
+    Śląskiego.
+
+    1) Przedmiot zamówienia obejmuje: a) wydzierżawienie pojemników na odpady niesegregowane
+    (zmieszane)
+
+    i selektywne (bioodpady, szkło) oraz wyposażenie nieruchomości w worki na odpady
+    selektywnie zbierane
+
+    (metale i tworzywa sztuczne oraz papier) według poszczególnych frakcji dla właścicieli
+    nieruchomości z terenu
+
+    Gminy Wręczyca Wielka – Sektor III. Wydzierżawienie pojemników będzie obejmowało
+    cały okres wykonywania
+
+    zamówienia, b) prowadzenie sprawozdawczości zgodnie z obowiązującymi przepisami,
+    c) zagospodarowanie
+
+    odpadów z zachowaniem wskaźników odzysku lub unieszkodliwiania zebranych odpadów
+    komunalnych,
+
+    zgodnie z ustawą o odpadach oraz ustawy ucpg w zakresie odebranych odpadów komunalnych
+    od właścicieli
+
+    nieruchomości z terenu Gminy Wręczyca Wielka – Sektor III, d) zgodnie z art. 9e
+    ust. 1 ustawy ucpg Podmiot
+
+    odbierający odpady komunalne na podstawie umowy z właścicielem nieruchomości jest
+    obowiązany do
+
+    przekazywania odebranych od właścicieli nieruchomości: selektywnie zebranych odpadów
+    komunalnych
+
+    bezpośrednio lub za pośrednictwem innego zbierającego odpady do instalacji odzysku
+    lub unieszkodliwiania
+
+    odpadów, zgodnie z hierarchią sposobów postępowania z odpadami, o której mowa
+    w art. 17 ustawy z dnia
+
+    14 grudnia 2012 r. o odpadach; niesegregowanych (zmieszanych) odpadów komunalnych
+    bezpośrednio do
+
+    instalacji komunalnej. e) przeprowadzenie akcji edukacyjnych, w ilości wskazanej
+    w formularzu ofertowym,
+
+    których przedmiotem będzie promowanie oraz określenie zasad dotyczących selektywnej
+    zbiórki odpadów
+
+    komunalnych (zgodnie z obowiązującymi przepisami), poprzez opracowanie oraz doręczenie
+    każdemu z
+
+    właścicieli nieruchomości z terenu Gminy Wręczyca Wielka – Sektor III, ulotki
+    informacyjnej. Treść, szata
+
+    graficzna oraz termin doręczenia mieszkańcom ulotki muszą zostać uzgodnione z
+    Zamawiającym i przez niego
+
+
+    08/09/2023
+
+    S173
+
+    https://ted.europa.eu/TED
+
+
+    2/5
+
+
+    Dz.U./S S173
+
+    08/09/2023
+
+    540831-2023-PL
+
+
+    3/5
+
+
+    zatwierdzone. Minimalne wymiary opracowanej ulotki to format A-5, minimalny rozmiar
+    czcionki tekstu - 11
+
+    pkt. Ulotka musi być wydrukowana w kolorze, ilość doręczonych ulotek musi odpowiadać
+    ilości nieruchomości
+
+    objętych obowiązkiem odbierania odpadów komunalnych, zgodnie z niniejszą umową,
+    zawartych w wykazie
+
+    Zamawiającego, z uwzględnieniem nowych punktów odbioru, które powstaną w trakcie
+    realizacji usługi (jeśli
+
+    akcja edukacyjna została już przeprowadzona – dla nowych punktów ulotka powinna
+    zostać doręczona w dniu
+
+    wyposażenia nieruchomości w wymagane pojemniki). Szczegółowy opis przedmiotu zamówienia
+    znajduje się w
+
+    Rozdziale IV SWZ.
+
+    II.2.5)
+
+
+    Kryteria udzielenia zamówienia
+
+    Kryterium jakości - Nazwa: Ilość akcji edukacyjnych / Waga: 20 %
+
+    Kryterium jakości - Nazwa: Aspekt środowiskowy / Waga: 20 %
+
+    Cena - Waga: 60 %
+
+
+    II.2.11)
+
+
+    Informacje o opcjach
+
+    Opcje: nie
+
+
+    II.2.13)
+
+
+    Informacje o funduszach Unii Europejskiej
+
+    Zamówienie dotyczy projektu/programu finansowanego ze środków Unii Europejskiej:
+    nie
+
+
+    II.2.14)
+
+
+    Informacje dodatkowe
+
+
+    Sekcja IV: Procedura
+
+    IV.1)
+
+    Opis
+
+    IV.1.1)
+
+
+    Rodzaj procedury
+
+    Procedura otwarta
+
+
+    IV.1.3)
+
+
+    Informacje na temat umowy ramowej lub dynamicznego systemu zakupów
+
+
+    IV.1.8)
+
+
+    Informacje na temat Porozumienia w sprawie zamówień rządowych (GPA)
+
+    Zamówienie jest objęte Porozumieniem w sprawie zamówień rządowych: tak
+
+
+    IV.2)
+
+
+    Informacje administracyjne
+
+
+    IV.2.1)
+
+
+    Poprzednia publikacja dotycząca przedmiotowego postępowania
+
+    Numer ogłoszenia w Dz.Urz. UE – OJ/S: 2023/S 100-309765
+
+
+    IV.2.8)
+
+
+    Informacje o zakończeniu dynamicznego systemu zakupów
+
+
+    IV.2.9)
+
+
+    Informacje o zakończeniu zaproszenia do ubiegania się o zamówienie w postaci wstępnego
+    ogłoszenia
+
+    informacyjnego
+
+
+    Sekcja V: Udzielenie zamówienia
+
+    Zamówienie nr: SZ.271.9.2023
+
+    Nazwa:
+
+    Odbiór i zagospodarowanie odpadów komunalnych od właścicieli nieruchomości z terenu
+    Gminy Wręczyca Wielka – Sektor III
+
+
+    Zamówienie/zamówienie na część zostaje udzielone: tak
+
+    V.2)
+
+
+    Udzielenie zamówienia
+
+
+    V.2.1)
+
+
+    Data zawarcia umowy:
+
+    02/08/2023
+
+
+    V.2.2)
+
+
+    Informacje o ofertach
+
+    Liczba otrzymanych ofert: 1
+
+    Liczba ofert otrzymanych od MŚP: 1
+
+    Liczba ofert otrzymanych od oferentów z innych państw członkowskich UE: 0
+
+    Liczba ofert otrzymanych od oferentów z państw niebędących członkami UE: 0
+
+    Liczba ofert otrzymanych drogą elektroniczną: 1
+
+
+    08/09/2023
+
+    S173
+
+    https://ted.europa.eu/TED
+
+
+    3/5
+
+
+    Dz.U./S S173
+
+    08/09/2023
+
+    540831-2023-PL
+
+
+    4/5
+
+
+    Zamówienie zostało udzielone grupie wykonawców: nie
+
+    V.2.3)
+
+
+    Nazwa i adres wykonawcy
+
+    Oficjalna nazwa: EKO SYSTEM BIS SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA
+
+    KOMANDYTOWA
+
+    Krajowy numer identyfikacyjny: 5731375510
+
+    Adres pocztowy: Przemysłowa 7
+
+    Miejscowość: Konopiska
+
+    Kod NUTS: PL224 Częstochowski
+
+    Kod pocztowy: 42-274
+
+    Państwo: Polska
+
+    Wykonawcą jest MŚP: tak
+
+
+    V.2.4)
+
+
+    Informacje na temat wartości zamówienia/części (bez VAT)
+
+    Początkowa szacunkowa całkowita wartość zamówienia/części: 2 144 399.40 PLN
+
+    Całkowita końcowa wartość umowy/części: 1 187 500.00 PLN
+
+
+    V.2.5)
+
+
+    Informacje na temat podwykonawstwa
+
+
+    Sekcja VI: Informacje uzupełniające
+
+    VI.3)
+
+    Informacje dodatkowe:
+
+    1. Wykonawca, którego oferta zostanie najwyżej oceniona, na wezwanie Zamawiającego
+    w terminie nie
+
+    krótszym niż 10 dni od dnia wezwania, zobowiązany będzie do złożenia aktualnych
+    na dzień ich złożenia
+
+    podmiotowych środków dowodowych potwierdzających brak podstaw wykluczenia oraz
+    potwierdzających
+
+    spełnienie warunków udziału w postępowaniu zgodnie zapisami SWZ Rozdz. IX – Wykaz
+    podmiotowych
+
+    środków dowodowych. 2. Zamawiający przewiduje w okresie 3 lat od udzielenia zamówienia
+    podstawowego
+
+    możliwość udzielenia zamówienia uzupełniającego, o którym mowa w art. 214 ust.
+    1 pkt. 7 ustawy Pzp,
+
+    polegającego na powtórzeniu podobnych usług. Zakres przewidywanych usług będzie
+    polegać na powtórzeniu
+
+    podobnych usług w trybie zamówienia z wolnej ręki, wyłonionemu w drodze przetargu
+    nieograniczonego
+
+    Wykonawcy usług odbioru i transportu odpadów komunalnych oraz dostawy pojemników,
+    stanowiących nie
+
+    więcej niż 20% wartości zamówienia podstawowego. Wykonawca, któremu zostanie udzielone
+    zamówienie
+
+    uzupełniające zobowiązany będzie do zastosowania zasad i warunków jak w zamówieniu
+    podstawowym.
+
+    Warunki, na jakich zamówienie (powtórzenie podobnych usług) zostanie udzielone:
+     w przypadku wyczerpania
+
+    kwoty, o której mowa w § 8 ust. 1 umowy,  w przypadku przedłużającej się procedury
+    udzielenia kolejnego
+
+    zamówienia w procedurze otwartej, przez co należy rozumieć również brak rozstrzygnięcia
+    postępowania w
+
+    takiej procedurze,  udzielenie zamówienia zostanie poprzedzone przeprowadzeniem
+    postępowania w trybie
+
+    z wolnej ręki, po przeprowadzeniu negocjacji z Wykonawcą. 3. Zamawiający nie dopuszcza
+    składania ofert
+
+    częściowych. Powody niedokonania podziału zamówienia na części: Odbiór i zagospodarowanie
+    odpadów
+
+    są to usługi powiązane ze sobą. Przedsiębiorca odbierający odpady komunalne wskazuje
+    w ofercie do jakich
+
+    instalacji będzie przekazywał odpady (z którymi ma lub będzie miał podpisane umowy).
+    Przeprowadzenie
+
+    odrębnych postępowań na odbiór odpadów oraz ich zagospodarowanie nie gwarantuje
+    obniżenia kosztów
+
+    łącznych powyższych postępowań, ponieważ potencjalny Wykonawca zawierając umowy
+    wieloletnie z
+
+    instalacjami zajmującymi się zagospodarowaniem odpadów ma większą możliwość wynegocjowania
+
+    korzystniejszej ceny niż gmina indywidualnie. Ponadto Uchwałą Nr XVIII/182/20
+    Rada Gminy Wręczyca
+
+    Wielka w dniu 26 czerwca 2020 r dokonała podziału obszaru gminy Wręczyca Wielka
+    na sektory celem
+
+    zorganizowania odbierania odpadów komunalnych. Zgodnie z art. 6d ust. 3 ustawy
+    ucpg, Zamawiający
+
+    przeprowadza odrębne postępowania dla każdego z wyznaczonych sektorów. 4. Zamawiający
+    nie dopuszcza
+
+    składania ofert wariantowych. 5. Przedmiotem zamówienia nie jest zawarcie umowy
+    ramowej. 6. Zamawiający
+
+    nie przewiduje aukcji elektronicznej. 7. Zamawiający nie przewiduje zwrotu kosztów
+    udziału w postępowaniu.
+
+    8. Zamawiający nie przewiduje udzielenia zaliczek na poczet wykonania zamówienia.
+    9. Zamawiający nie
+
+    08/09/2023
+
+    S173
+
+    https://ted.europa.eu/TED
+
+
+    4/5
+
+
+    Dz.U./S S173
+
+    08/09/2023
+
+    540831-2023-PL
+
+
+    5/5
+
+
+    przewiduje wymagań w zakresie zatrudnienia osób, o których mowa w art. 96 ust.
+    2 pkt 2 ustawy Pzp. 10.
+
+    Zamawiający nie wymaga złożenia oferty po odbyciu wizji lokalnej lub sprawdzenia
+    dokumentów niezbędnych
+
+    do realizacji zamówienia, o których mowa w art. 131 ust. 2 ustawy Pzp. 11. Zamawiający
+    nie przewiduje
+
+    rozliczeń w walutach obcych. 12. Zamawiający nie zastrzega możliwości ubiegania
+    się o udzielenie zamówienia
+
+    wyłącznie przez wykonawców, o których mowa w art. 94 ustawy Pzp. 13. Zamawiający
+    informuje, że nie planuje
+
+    zwołania zebrania wszystkich Wykonawców. 14. Zamawiający nie zastrzega obowiązku
+    osobistego wykonania
+
+    przez poszczególnych Wykonawców wspólnie ubiegających się o udzielenie zamówienia
+    kluczowych części
+
+    zamówienia. 15. Wysokość wadium ustala się w kwocie: 30 000 złotych, które należy
+    wnieść przed upływem
+
+    terminu składania ofert.
+
+    VI.4)
+
+
+    Procedury odwoławcze
+
+
+    VI.4.1)
+
+
+    Organ odpowiedzialny za procedury odwoławcze
+
+    Oficjalna nazwa: Prezes Krajowej Izby Odwoławczej
+
+    Adres pocztowy: Warszawa ul. Postępu 17A
+
+    Miejscowość: Warszawa
+
+    Kod pocztowy: 02-676
+
+    Państwo: Polska
+
+    E-mail: odwolania@uzp.gov.pl
+
+    Tel.: +48 224587849
+
+    Faks: +48 224587700
+
+    Adres internetowy: http://www.uzp.gov.pl
+
+
+    VI.4.3)
+
+
+    Składanie odwołań
+
+    Dokładne informacje na temat terminów składania odwołań:
+
+    1. Zasady, terminy oraz sposób korzystania ze środków ochrony prawnej szczegółowo
+    regulują przepisy działu
+
+    IX ustawy – środki ochrony prawnej (art. 505–590 ustawy). 2. Szczegóły dotyczące
+    pouczenia o środkach
+
+    ochrony prawnej przysługujących Wykonawcy oraz innemu podmiotowi zostały zawarte
+    w rozdziale XXIII
+
+    Specyfikacji Warunków Zamówienia.
+
+
+    VI.4.4)
+
+
+    Źródło, gdzie można uzyskać informacje na temat składania odwołań
+
+    Oficjalna nazwa: Prezes Krajowej Izby Odwoławczej
+
+    Adres pocztowy: Warszawa ul. Postępu 17A
+
+    Miejscowość: Warszawa
+
+    Kod pocztowy: 02-676
+
+    Państwo: Polska
+
+    E-mail: odwolania@uzp.gov.pl
+
+    Tel.: +48 224587849
+
+    Faks: +48 224587700
+
+    Adres internetowy: http://www.uzp.gov.pl
+
+
+    VI.5)
+
+
+    Data wysłania niniejszego ogłoszenia:
+
+    05/09/2023
+
+
+    08/09/2023
+
+    S173
+
+    https://ted.europa.eu/TED
+
+
+    5/5
+
+    ```
+
+    '
   required_artifacts:
   - source_record_file
   - source_record_metadata
@@ -50,10 +811,15 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 540831-2023.xml
     sha256: 6f9181c13707cf2cbc934f078324c835bf44aea230d23d2fc5a6fb1a6f19c7f8
-    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
-    source_dataset: 'Case bundle from: TED notice XML 540831-2023 | TED notice PDF 540831-2023 (PL) | TED notice detail 540831-2023'
-    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+    acquisition_method: Fetch the official procurement record from the listed source
+      URLs, prefer machine-readable XML or PDF when available, and preserve the relevant
+      record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
+    source_dataset: 'Case bundle from: TED notice XML 540831-2023 | TED notice PDF
+      540831-2023 (PL) | TED notice detail 540831-2023'
+    notes: Checked-in markdown source document used for local validation and Hugging
+      Face export. Factual source content backfilled from the listed upstream sources.
   - id: original-source-01
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-wreczyca-540831/source-01-ted-notice-xml-540831-2023.xml
     role: original_source_snapshot
@@ -62,10 +828,14 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 540831-2023.xml
     sha256: 316b0baf9df1a3150069c07707d45fe25373fde95d73c760581875ead1d09a18
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice XML 540831-2023
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
   - id: original-source-02
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-wreczyca-540831/source-02-ted-notice-pdf-540831-2023-pl.pdf
     role: original_source_snapshot
@@ -74,10 +844,14 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 540831-2023.pdf
     sha256: 339b63160c2f9924aebcf5a09e49b7ac9006c8fbe4350e7ea5b09d09a52fe108
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice PDF 540831-2023 (PL)
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
   - id: original-source-03
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-wreczyca-540831/source-03-ted-notice-detail-540831-2023.html
     role: original_source_snapshot
@@ -86,10 +860,14 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 540831-2023.html
     sha256: c8ad770a0d53e0fc745ed96a6e7c29077964daeacd5eb972a24502cb19022cd8
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice detail 540831-2023
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
 expected_output:
   fields_required:
   - buyer_name
@@ -100,11 +878,20 @@ expected_output:
 answer_key:
   type: structured_fields
   fields:
-    buyer_name: "Gmina Wr\u0119czyca Wielka"
-    supplier_name: "EKO SYSTEM BIS SP\xD3\u0141KA Z OGRANICZON\u0104 ODPOWIEDZIALNO\u015ACI\u0104 SP\xD3\u0141KA KOMANDYTOWA"
+    buyer_name: Gmina Wręczyca Wielka
+    supplier_name: EKO SYSTEM BIS SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWA
     award_date: '2023-08-02'
     amount: 1187500.0
     category_code: '90500000'
 notes:
-- The XML leaves both the object title and the award title blank, so extraction has to rely on the contracting-body, CPV, and awarded-contract fields instead of title text.
-- The awarded amount is published as a whole-number value in the XML, which makes this a useful numeric-normalization case without weakening the official supplier spelling.
+- The XML leaves both the object title and the award title blank, so extraction has
+  to rely on the contracting-body, CPV, and awarded-contract fields instead of title
+  text.
+- The awarded amount is published as a whole-number value in the XML, which makes
+  this a useful numeric-normalization case without weakening the official supplier
+  spelling.
+source_languages:
+- pl
+evidence_languages:
+- pl
+answer_language: en

@@ -17,7 +17,13 @@ from auto_dataset.publishing import (
     resolve_hf_token,
 )
 from auto_dataset.runner import DEFAULT_PUBLISH_EVERY, RunnerError, run_autonomous_loop
-from auto_dataset.validation import ValidationError, load_suite, render_agent_brief, summarize_cases
+from auto_dataset.validation import (
+    ValidationError,
+    load_suite,
+    render_agent_brief,
+    render_suite_dashboard,
+    summarize_suite,
+)
 
 
 def _build_parser() -> argparse.ArgumentParser:
@@ -30,8 +36,13 @@ def _build_parser() -> argparse.ArgumentParser:
     summary_parser = subparsers.add_parser("summary", help="Summarize a suite manifest.")
     summary_parser.add_argument("manifest", type=Path)
 
+    dashboard_parser = subparsers.add_parser("dashboard", help="Render a markdown status dashboard for a suite.")
+    dashboard_parser.add_argument("manifest", type=Path)
+    dashboard_parser.add_argument("--output", type=Path)
+
     brief_parser = subparsers.add_parser("brief", help="Render the autonomous operator brief for a suite.")
     brief_parser.add_argument("manifest", type=Path)
+    brief_parser.add_argument("--mode")
 
     export_parser = subparsers.add_parser(
         "export",
@@ -60,6 +71,7 @@ def _build_parser() -> argparse.ArgumentParser:
         help="Run an autonomous loop around an external worker command.",
     )
     run_parser.add_argument("manifest", type=Path)
+    run_parser.add_argument("--mode")
     run_parser.add_argument("--worker-cmd", required=True, help="Shell command for the worker; prompt is sent on stdin.")
     run_parser.add_argument("--max-runs", type=int)
     run_parser.add_argument("--publish-every", type=int, default=DEFAULT_PUBLISH_EVERY)
@@ -90,12 +102,20 @@ def main() -> int:
         return 0
 
     if args.command == "summary":
-        summary = summarize_cases(cases)
+        summary = summarize_suite(args.manifest, manifest, cases)
         print(json.dumps({"suite_id": manifest["suite_id"], **summary}, indent=2))
         return 0
 
+    if args.command == "dashboard":
+        dashboard = render_suite_dashboard(args.manifest, manifest, cases)
+        if args.output:
+            args.output.write_text(dashboard, encoding="utf-8")
+        else:
+            print(dashboard)
+        return 0
+
     if args.command == "brief":
-        print(render_agent_brief(manifest, cases))
+        print(render_agent_brief(manifest, cases, mode=args.mode))
         return 0
 
     if args.command == "export":
@@ -142,6 +162,7 @@ def main() -> int:
     if args.command == "run":
         result = run_autonomous_loop(
             args.manifest,
+            mode=args.mode,
             worker_command=args.worker_cmd,
             max_runs=args.max_runs,
             publish_every=args.publish_every,

@@ -21,7 +21,14 @@ from auto_dataset.publishing import (
     resolve_hf_repo_id,
     resolve_hf_token,
 )
-from auto_dataset.validation import ValidationError, load_suite, render_agent_brief, summarize_cases
+from auto_dataset.validation import (
+    ValidationError,
+    classify_failure,
+    load_suite,
+    render_agent_brief,
+    resolve_loop_mode,
+    summarize_cases,
+)
 
 
 class RunnerError(RuntimeError):
@@ -140,10 +147,12 @@ def _build_worker_prompt(
     cases: list[dict[str, Any]],
     run_number: int,
     max_runs: int,
+    mode: str | None = None,
 ) -> str:
     summary = summarize_cases(cases)
     summary_json = json.dumps(summary, indent=2)
-    brief = render_agent_brief(manifest, cases)
+    selected_mode, mode_config = resolve_loop_mode(manifest, mode)
+    brief = render_agent_brief(manifest, cases, mode=selected_mode)
     return "\n".join(
         [
             "You are running one bounded auto-dataset cycle.",
@@ -151,6 +160,7 @@ def _build_worker_prompt(
             f"Repository root: {repo_root}",
             f"Manifest: {manifest_path}",
             f"Run: {run_number}/{max_runs}",
+            f"Loop mode: {selected_mode}",
             "",
             "Required behavior:",
             "- Use program.md and the rendered brief for dataset scope, priorities, and keep/discard rules.",
@@ -163,6 +173,9 @@ def _build_worker_prompt(
             "",
             "Current summary:",
             summary_json,
+            "",
+            "Mode focus:",
+            mode_config["goal"],
             "",
             "Rendered brief:",
             brief,
@@ -234,6 +247,7 @@ def _publish_current_state(
 def run_autonomous_loop(
     manifest_path: Path,
     *,
+    mode: str | None = None,
     worker_command: str,
     max_runs: int | None = None,
     publish_every: int = DEFAULT_PUBLISH_EVERY,
@@ -255,13 +269,19 @@ def run_autonomous_loop(
     max_runs = max_runs or autonomous_loop["run_budget"]["max_total_runs"]
     if max_runs <= 0:
         raise RunnerError("max_runs must be positive")
-    mutable_paths = list(autonomous_loop["mutable_paths"])
+    selected_mode, mode_config = resolve_loop_mode(manifest, mode)
+    mutable_paths = list(mode_config.get("mutable_paths", autonomous_loop["mutable_paths"]))
     results_relative_path = str(_resolve_results_path(manifest_path, manifest).relative_to(repo_root))
     allowed_git_paths = [*mutable_paths, results_relative_path]
+    failure_policy = autonomous_loop["failure_policy"]
+    retryable_statuses = set(failure_policy["retryable_statuses"])
+    max_consecutive_retryable_failures = failure_policy["max_consecutive_retryable_failures"]
+    stop_on_nonretryable_failure = failure_policy["stop_on_nonretryable_failure"]
 
     accepted_runs = 0
     published_runs = 0
     last_publish: dict[str, str | None] | None = None
+    consecutive_retryable_failures = 0
 
     hf_token_value = None
     hf_repo_id_value = None
@@ -280,8 +300,66 @@ def run_autonomous_loop(
             repo_root,
             [path for path in before_git_changed_paths if not _path_allowed(path, allowed_git_paths)],
         )
-        prompt = _build_worker_prompt(repo_root, manifest_path, manifest, cases, run_number, max_runs)
+        prompt = _build_worker_prompt(repo_root, manifest_path, manifest, cases, run_number, max_runs, selected_mode)
         prompt_path = _write_prompt_file(repo_root, manifest["suite_id"], run_number, prompt)
+
+        def handle_failure(validation_status: str, description: str) -> bool:
+            nonlocal consecutive_retryable_failures
+            _append_run_log(
+                manifest_path,
+                manifest,
+                run_id=f"run-{run_number:03d}",
+                cases_total=len(cases),
+                validation_status=validation_status,
+                change_kind="worker_batch",
+                source_family=selected_mode,
+                kept=False,
+                description=description,
+            )
+            failure_class = classify_failure(validation_status, description)
+            if validation_status in retryable_statuses:
+                consecutive_retryable_failures += 1
+                print(
+                    (
+                        f"run {run_number}: retryable failure "
+                        f"({failure_class}, {consecutive_retryable_failures}/"
+                        f"{max_consecutive_retryable_failures})"
+                    ),
+                    flush=True,
+                )
+                if consecutive_retryable_failures < max_consecutive_retryable_failures:
+                    return True
+                raise RunnerError(
+                    "stopping after too many consecutive retryable failures: "
+                    f"{validation_status} ({failure_class})"
+                )
+
+            consecutive_retryable_failures = 0
+            if stop_on_nonretryable_failure:
+                raise RunnerError(description)
+            return False
+
+        def ensure_retryable_failure_left_valid_state() -> None:
+            try:
+                git_changed_paths = _list_git_changed_paths(repo_root)
+            except (FileNotFoundError, PublishError):
+                git_changed_paths = []
+            after_disallowed_snapshot = _collect_snapshot(
+                repo_root,
+                [path for path in git_changed_paths if not _path_allowed(path, allowed_git_paths)],
+            )
+            disallowed_changes = _changed_paths(before_disallowed_snapshot, after_disallowed_snapshot)
+            if disallowed_changes:
+                raise RunnerError(
+                    "retryable worker failure left disallowed changes behind: "
+                    f"{', '.join(disallowed_changes)}"
+                )
+            try:
+                load_suite(manifest_path)
+            except ValidationError as exc:
+                raise RunnerError(
+                    f"retryable worker failure left the suite invalid: {exc}"
+                ) from exc
 
         print(f"run {run_number}/{max_runs}: invoking worker", flush=True)
         try:
@@ -294,32 +372,23 @@ def run_autonomous_loop(
                 worker_timeout_seconds,
             )
         except subprocess.TimeoutExpired as exc:
-            _append_run_log(
-                manifest_path,
-                manifest,
-                run_id=f"run-{run_number:03d}",
-                cases_total=len(cases),
-                validation_status="worker_timeout",
-                change_kind="worker_batch",
-                source_family="autonomous_loop",
-                kept=False,
-                description=f"worker timed out after {exc.timeout} seconds",
-            )
+            should_continue = handle_failure("worker_timeout", f"worker timed out after {exc.timeout} seconds")
+            if should_continue:
+                ensure_retryable_failure_left_valid_state()
+                if sleep_seconds > 0 and run_number < max_runs:
+                    time.sleep(sleep_seconds)
+                continue
             raise RunnerError(f"worker timed out after {exc.timeout} seconds") from exc
 
         if worker_result.returncode != 0:
-            _append_run_log(
-                manifest_path,
-                manifest,
-                run_id=f"run-{run_number:03d}",
-                cases_total=len(cases),
-                validation_status="worker_failed",
-                change_kind="worker_batch",
-                source_family="autonomous_loop",
-                kept=False,
-                description=worker_result.stderr or worker_result.stdout or "worker command failed",
-            )
-            raise RunnerError(worker_result.stderr.strip() or worker_result.stdout.strip() or "worker command failed")
+            description = worker_result.stderr or worker_result.stdout or "worker command failed"
+            should_continue = handle_failure("worker_failed", description)
+            if should_continue:
+                ensure_retryable_failure_left_valid_state()
+                if sleep_seconds > 0 and run_number < max_runs:
+                    time.sleep(sleep_seconds)
+                continue
+            raise RunnerError(description.strip() or "worker command failed")
 
         after = _collect_snapshot(repo_root, mutable_paths)
         changed_paths = _changed_paths(before, after)
@@ -333,50 +402,22 @@ def run_autonomous_loop(
         )
         disallowed_changes = _changed_paths(before_disallowed_snapshot, after_disallowed_snapshot)
         if disallowed_changes:
-            _append_run_log(
-                manifest_path,
-                manifest,
-                run_id=f"run-{run_number:03d}",
-                cases_total=len(cases),
-                validation_status="disallowed_changes",
-                change_kind="worker_batch",
-                source_family="autonomous_loop",
-                kept=False,
-                description=f"worker touched disallowed files: {', '.join(disallowed_changes)}",
-            )
-            raise RunnerError(f"worker touched disallowed files: {', '.join(disallowed_changes)}")
+            description = f"worker touched disallowed files: {', '.join(disallowed_changes)}"
+            handle_failure("disallowed_changes", description)
+            raise RunnerError(description)
 
         if not changed_paths:
-            _append_run_log(
-                manifest_path,
-                manifest,
-                run_id=f"run-{run_number:03d}",
-                cases_total=len(cases),
-                validation_status="no_changes",
-                change_kind="worker_batch",
-                source_family="autonomous_loop",
-                kept=False,
-                description="worker completed without changing mutable files",
-            )
+            handle_failure("no_changes", "worker completed without changing mutable files")
             print(f"run {run_number}: no changes; stopping", flush=True)
             break
 
         try:
             manifest, cases = load_suite(manifest_path)
         except ValidationError as exc:
-            _append_run_log(
-                manifest_path,
-                manifest,
-                run_id=f"run-{run_number:03d}",
-                cases_total=len(cases),
-                validation_status="failed",
-                change_kind="worker_batch",
-                source_family="autonomous_loop",
-                kept=False,
-                description=str(exc),
-            )
+            handle_failure("failed", str(exc))
             raise RunnerError(f"validation failed after worker run: {exc}") from exc
 
+        consecutive_retryable_failures = 0
         accepted_runs += 1
         _append_run_log(
             manifest_path,
@@ -385,7 +426,7 @@ def run_autonomous_loop(
             cases_total=len(cases),
             validation_status="ok",
             change_kind="worker_batch",
-            source_family="autonomous_loop",
+            source_family=selected_mode,
             kept=True,
             description=f"accepted autonomous batch; {len(changed_paths)} mutable file(s) changed",
         )

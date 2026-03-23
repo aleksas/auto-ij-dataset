@@ -1,38 +1,174 @@
 id: entity-link-golden-bridge-mossack-fonseca
-status: draft
+status: validated
 title: Golden Bridge intermediary recovery from Offshore Leaks
 task_type: entity_linking
 answer_mode: exact
 source_family: public_entity_link_dataset
 source_tier: primary
-target_entity: GOLDEN BRIDGE GROUP SERVICES CORPORATION intermediary relation to MOSSACK FONSECA & CO.
+target_entity: GOLDEN BRIDGE GROUP SERVICES CORPORATION intermediary relation to MOSSACK
+  FONSECA & CO.
 sources:
 - label: Offshore Leaks entity page for GOLDEN BRIDGE GROUP SERVICES CORPORATION
   url: https://offshoreleaks.icij.org/nodes/10113527
   checked_on: 2026-03-20
   provenance: public_link_dataset
+  language: en
 - label: Offshore Leaks intermediary page for MOSSACK FONSECA & CO.
   url: https://offshoreleaks.icij.org/nodes/11011863
   checked_on: 2026-03-20
   provenance: public_link_dataset
+  language: en
 - label: Offshore Leaks data sources page
   url: https://offshoreleaks.icij.org/pages/data
   checked_on: 2026-03-20
   provenance: public_link_dataset
+  language: en
 evidence_bundle:
   kind: entity_link_graph
-  content_markdown: "# Golden Bridge intermediary recovery from Offshore Leaks\n\nCollected from the listed Offshore Leaks sources on 2026-03-20.\n\n## Listed sources\n- Offshore Leaks entity page for GOLDEN BRIDGE GROUP SERVICES CORPORATION: https://offshoreleaks.icij.org/nodes/10113527\n- Offshore Leaks intermediary page for MOSSACK FONSECA & CO.: https://offshoreleaks.icij.org/nodes/11011863\n- Offshore Leaks data sources page: https://offshoreleaks.icij.org/pages/data\n\n## Source excerpt: Offshore Leaks entity page for GOLDEN BRIDGE GROUP SERVICES CORPORATION\nSource URL: https://offshoreleaks.icij.org/nodes/10113527\n\n```text\nData from\n\nPanama Papers - Mossack Fonseca\n\nEntity:\n\nGOLDEN BRIDGE GROUP SERVICES CORPORATION\n\nRegistered in:\n\nBritish Virgin Islands\n\nLinked countries:\n\nPanama\n\nAgent:\n\nMossack Fonseca\n\nSearch in:\n\nThe Panama Papers data is current through 2015\n\nread more\n\nIncorporated:\n\n30-DEC-2004\n\nStruck off:\n\n30-APR-2006\n\nStatus:\n\nDissolved\
-    \ shelf company\n\nConnections:\n\nOfficer (1)\n\nRole\n\nFrom\n\nTo\n\nData From\n\nCUSTODIAN LTD.\n\nShareholder\n\n30-DEC-2004\n\n-\n\nPanama Papers\n\nIntermediary (1)\n\nStatus\n\nData From\n\nMOSSACK FONSECA & CO.\n\nACTIVE\n\nPanama Papers\n\nExplore more from\n\nPanama Papers\n\nMossack Fonseca\n\nGet our stories in your inbox\n```\n\n## Source excerpt: Offshore Leaks intermediary page for MOSSACK FONSECA & CO.\nSource URL: https://offshoreleaks.icij.org/nodes/11011863\n\n```text\nData from\n\nPanama Papers - Mossack Fonseca\n\nIntermediary:\n\nMOSSACK FONSECA & CO.\n\nLinked countries:\n\nPanama\n\nThe Panama Papers data is current through 2015\n\nread more\n\nStatus:\n\nACTIVE\n\nConnections:\n\nThis selection has too many connections to other officers and entities to display a useful graph.\nYou may download the data to analyze it.\n\nEntity (4364)\n\nRole\n\nIncorporation\n\nJurisdiction\n\nStatus\n\nData From\n\nMistaki Inc.\n\nIntermediary\n\n19-SEP-2008\n\nSeychelles\n\
-    \nShelf company\n\nPanama Papers\n\nCITI-GRACE HOLDINGS LIMITED\n\nIntermediary\n\n30-SEP-2011\n\nSeychelles\n\nShelf company\n\nPanama Papers\n\nFLORA ENTERPRISES LTD.\n\nIntermediary\n\n03-JAN-2007\n\nSeychelles\n\nDissolved shelf company\n\nPanama Papers\n\nSUN HILL HOLDINGS LIMITED\n\nIntermediary\n\n10-MAY-2007\n\nSeychelles\n\nDissolved shelf company\n\nPanama Papers\n\nFOOTHILLS LIMITED\n\nIntermediary\n\n28-MAY-2007\n\nSeychelles\n\nDissolved shelf company\n\nPanama Papers\n\nODETTE PROPERTIES COMPANY INC.\n\nIntermediary\n\n07-MAY-2008\n\nSeychelles\n\nShelf company\n\nPanama Papers\n\nXIAOYUAN DEVELOPMENT LTD.\n\nIntermediary\n\n01-AUG-2011\n\nSeychelles\n\nShelf company\n\nPanama Papers\n\nCOLORLOK LTD.\n\nIntermediary\n\n04-AUG-2011\n\nSeychelles\n\nShelf company\n\nPanama Papers\n\nFAITH MAGIC GROUP LIMITED\n\nIntermediary\n\n10-JUN-2009\n\nSeychelles\n\nShelf company\n\nPanama Papers\n\nARKLYN DEVELOPMENT INC.\n\nIntermediary\n\n15-JUN-2009\n\nSeychelles\n\nShelf company\n\
-    \nPanama Papers\n\nSHINNY VIEW DEVELOPMENT LIMITED\n\nIntermediary\n\n01-JUL-2009\n\nSeychelles\n\nShelf company\n\nPanama Papers\n\nLUISA EQUITIES INCORPORATED\n\nIntermediary\n\n02-DEC-2010\n\nSeychelles\n\nShelf company\n\nPanama Papers\n\nMARKETING STRATEGIES INC.\n\nIntermediary\n\n06-JUL-2009\n\nSeychelles\n\nShelf company\n\nPanama Papers\n\nSMARTEN GROUP LTD.\n\nIntermediary\n\n29-AUG-2011\n\nSeychelles\n\nShelf company\n\nPanama Papers\n\nBEYAR INTERNATIONAL LIMITED\n\nIntermediary\n\n29-AUG-2011\n\nSeychelles\n\nShelf company\n\nPanama Papers\n\nAZURITE PROMOTION LIMITED\n\nIntermediary\n\n10-OCT-2008\n\nSeychelles\n\nShelf company\n\nPanama Papers\n\nSALIENT HOLDINGS LIMITED\n\nIntermediary\n\n06-JAN-2010\n\nSeychelles\n\nShelf company\n\nPanama Papers\n\nEDGECOMBE LIMITED\n\nIntermediary\n\n13-OCT-2008\n\nSeychelles\n\nShelf company\n\nPanama Papers\n\nLANDSLIDE CORPORATION LIMITED\n\nIntermediary\n\n10-OCT-2008\n\nSeychelles\n\nShelf company\n\nPanama Papers\n\nHistoka Investments\
-    \ S.A.\n\nIntermediary\n\n19-SEP-2008\n\nSeychelles\n\nShelf company\n\nPanama Papers\n\nShow more connections\n\nExplore more from\n\nPanama Papers\n\nMossack Fonseca\n\nGet our stories in your inbox\n```\n\n## Source excerpt: Offshore Leaks data sources page\nSource URL: https://offshoreleaks.icij.org/pages/data\n\n```text\nData sources\n\nHow to use this database\n\nDownload\n\nRest API Schema\n\nReconciliation API\n\nCredits\n\nContact us\n\nDownload\n\nSupport Us\n\nThe International Consortium of Investigative Journalists\n\nHome\n\nAbout the database\n\nData sources\n\nHow to use this database\n\nDownload\n\nCredits\n\nContact us\n\nSupport Us\n\nOffshore Leaks Database\n\nFind out who\u2019s behind more than 810,000 offshore companies, foundations and trusts.\n\nData Sources\n\nDetails on the five leaks that populate this database\n\nThe ICIJ Offshore Database shows relationships and networks among people or companies and offshore entities. Consider this database like a corporate\
-    \ registry where you can check information about a company and the people who played a role in that entity at a certain point in time. Roles include being a director, a shareholder, a beneficial owner, a trustee, among others.\n\nThe first installment of the database was released\_on June 14, 2013 as part of ICIJ\u2019s Offshore Leaks investigation.\_More records were added on January 23, 2014\_(from ICIJ\u2019s China Leaks\_investigation), on May 9, 2016\_(from ICIJ\u2019s Panama Papers\_investigation) and on September 21, 2016\_(from ICIJ\u2019s Bahamas Leaks\_investigation).\n\nBetween November, 2017 and February, 2018\_ICIJ released data from the Paradise Papers\_investigation, including records from the offshore law firm Appleby\_and seven corporate registries: Aruba, Cook Islands, Bahamas, Barbados, Malta, Nevis and Samoa. \n\nOn Dec. 6, 2021, April 11, 2022, and May 3, 2022 ICIJ added data from the Pandora Papers investigation, coming from the offshore service providers Alem\xE1\
-    n, Cordero, Galindo & Lee (Alcogal), Alpha Consulting, Asiaciti Trust Asia Limited, CILTrust International, Commence Overseas Limited, Fidelity, IlShin, Overseas Management Company Inc, SFM Corporate Services and Trident Trust Company Limited.\n\nThe Offshore Leaks database contains information on more than 810,000 offshore entities and covers more than 80 years up to 2020.\n\nThe data represents only a fraction of the information gathered as part of the journalistic investigations, as it doesn\u2019t divulge raw documents or personal information en masse.It contains a great deal of information about company owners, proxies and intermediaries in secrecy jurisdictions, but it doesn\u2019t disclose bank accounts, email exchanges and financial transactions contained in the documents. The sources of this database are five massive leaks received by the International Consortium of Investigative Journalists:\n\nPandora Papers (2021)\n\nThe Pandora Papers information \u2013 more than 11.9 million\
-    \ records \u2013 came from 14 offshore service providers that offer services in at least 38 jurisdictions. The 2.94 terabytes of data, leaked to ICIJ and shared with media partners around the world, arrived in various formats: as documents, images, emails, spreadsheets, and more.\n\nThe Pandora Papers gathered information on more than 27,000 companies, foundations and trusts and 29,000 so-called ultimate beneficial owners from 11 of the providers. On December 6, 2021, ICIJ added data to the Offshore Leaks database on more than 15,000 offshore entities that got services from two of the providers: Alem\xE1n, Cordero, Galindo & Lee (Alcogal) and Fidelity Corporate Services. On April 11, 2022 ICIJ published data on more than 2,000 offshore entities that got services from Alpha Consulting. On May 3, 2022 ICIJ published data on more than 9,000 companies, foundations and trusts from seven offshore service providers: Asiaciti Trust Asia Limited, CILTrust International, Commence Overseas Limited,\
-    \ IlShin, Overseas Management Company Inc, SFM Corporate Services and Trident Trust Company Limited.\n\nParadise Papers (2017)\n\nThe 2017 Paradise Papers investigation was based on a leak of 1.4 terabytes made up of more than 13.4 million files from one offshore law firm, Appleby, as well as Asiaciti Trust, a Singapore-based provider, and government corporate registries in 19 secrecy jurisdictions. The leaks were obtained by German newspaper S\xFCddeutsche Zeitung and shared with the International Consortium of Investigative Journalists and media partners around the world.\n\nBetween November, 2017 and February, 2018, ICIJ added data from the Paradise Papers investigation, including client records from offshore law firm Appleby and seven corporate registries: Aruba, Cook Islands, Bahamas, Barbados, Malta, Nevis and Samoa. ICIJ incorporated data on more than 290,000 entities connected to the Paradise Papers investigation.\n\nData connected with Saint Kitts and Nevis was also part of\
-    \ the Appleby dataset. However, some of the Appleby records didn\u2019t distinguish between Nevis and Saint Kitts. In the case of the corporate registry, the information is only connected to Nevis. The jurisdiction filter displays \u201CSaint Kitts and Nevis\u201D and the source distinguishes between the Nevis corporate registry and the Paradise Papers Appleby related data.\n\nBahamas Leaks (2016)\n\nThe third source of this database comes from a leak of the corporate registry of the Bahamas obtained by German newspaper S\xFCddeutsche Zeitung and shared with the International Consortium of Investigative Journalists and media partners. From the 1.3 million files received as part of the Bahamas Leaks investigation, the database was expanded to include the names of directors and some owners of more than 175,000 Bahamian companies, trusts and foundations.\n\nPanama Papers (2016)\n\nThe Panama Papers data comes from Panamanian law firm Mossack Fonseca, which was one of the world\u2019s top\
-    \ creators of hard-to-trace companies, trusts and foundations, whose inner workings were exposed in the April 2016 Panama Papers investigation. The data was originally obtained from an anonymous source by reporters at the German newspaper S\xFCddeutsche Zeitung, who asked ICIJ to organize a global reporting collaboration to analyze the files.\n\nPublished in this interactive website are records from Mossack Fonseca\u2019s internal client database, including companies incorporated in tax havens and the people behind them. This is just a fraction of the complete leak, which amounts to 2.6 TB and 11.5 million files.\n\nOffshore Leaks (2013)\n\nYou can also explore entities incorporated through Portcullis Trustnet (now Portcullis) and Commonwealth Trust Limited, two offshore service providers exposed as part of ICIJ\u2019s 2013 Offshore Leaks investigation. ICIJ produced the first version of the Offshore Leaks database with Costa Rican newspaper La Naci\xF3n.\n\nAbout ICIJ \n\nAbout this\
-    \ data\n\nFAQ\n\nHow to use this database\n\nData sources\n\nCredits\n\nContact us\n\nGet our stories in your inbox\n\nAbout the data in the ICIJ Offshore Leaks database\n\nThis ICIJ database contains information on more than 810,000 offshore entities that are part of the Pandora Papers, Paradise Papers, Bahamas Leaks, Panama Papers and Offshore Leaks investigations. The records cover more than 80 years up to 2020 and link to people and companies in more than 200 countries and territories.\n\nRead more\n\nSupport us\n\nWe depend on the generous support of readers like you to help us expose corruption and hold the powerful to account\n\nDonate\n```\n"
+  content_markdown: "# Golden Bridge intermediary recovery from Offshore Leaks\n\n\
+    Collected from the listed Offshore Leaks sources on 2026-03-20.\n\n## Listed sources\n\
+    - Offshore Leaks entity page for GOLDEN BRIDGE GROUP SERVICES CORPORATION: https://offshoreleaks.icij.org/nodes/10113527\n\
+    - Offshore Leaks intermediary page for MOSSACK FONSECA & CO.: https://offshoreleaks.icij.org/nodes/11011863\n\
+    - Offshore Leaks data sources page: https://offshoreleaks.icij.org/pages/data\n\
+    \n## Source excerpt: Offshore Leaks entity page for GOLDEN BRIDGE GROUP SERVICES\
+    \ CORPORATION\nSource URL: https://offshoreleaks.icij.org/nodes/10113527\n\n```text\n\
+    Data from\n\nPanama Papers - Mossack Fonseca\n\nEntity:\n\nGOLDEN BRIDGE GROUP\
+    \ SERVICES CORPORATION\n\nRegistered in:\n\nBritish Virgin Islands\n\nLinked countries:\n\
+    \nPanama\n\nAgent:\n\nMossack Fonseca\n\nSearch in:\n\nThe Panama Papers data\
+    \ is current through 2015\n\nread more\n\nIncorporated:\n\n30-DEC-2004\n\nStruck\
+    \ off:\n\n30-APR-2006\n\nStatus:\n\nDissolved shelf company\n\nConnections:\n\n\
+    Officer (1)\n\nRole\n\nFrom\n\nTo\n\nData From\n\nCUSTODIAN LTD.\n\nShareholder\n\
+    \n30-DEC-2004\n\n-\n\nPanama Papers\n\nIntermediary (1)\n\nStatus\n\nData From\n\
+    \nMOSSACK FONSECA & CO.\n\nACTIVE\n\nPanama Papers\n\nExplore more from\n\nPanama\
+    \ Papers\n\nMossack Fonseca\n\nGet our stories in your inbox\n```\n\n## Source\
+    \ excerpt: Offshore Leaks intermediary page for MOSSACK FONSECA & CO.\nSource\
+    \ URL: https://offshoreleaks.icij.org/nodes/11011863\n\n```text\nData from\n\n\
+    Panama Papers - Mossack Fonseca\n\nIntermediary:\n\nMOSSACK FONSECA & CO.\n\n\
+    Linked countries:\n\nPanama\n\nThe Panama Papers data is current through 2015\n\
+    \nread more\n\nStatus:\n\nACTIVE\n\nConnections:\n\nThis selection has too many\
+    \ connections to other officers and entities to display a useful graph.\nYou may\
+    \ download the data to analyze it.\n\nEntity (4364)\n\nRole\n\nIncorporation\n\
+    \nJurisdiction\n\nStatus\n\nData From\n\nMistaki Inc.\n\nIntermediary\n\n19-SEP-2008\n\
+    \nSeychelles\n\nShelf company\n\nPanama Papers\n\nCITI-GRACE HOLDINGS LIMITED\n\
+    \nIntermediary\n\n30-SEP-2011\n\nSeychelles\n\nShelf company\n\nPanama Papers\n\
+    \nFLORA ENTERPRISES LTD.\n\nIntermediary\n\n03-JAN-2007\n\nSeychelles\n\nDissolved\
+    \ shelf company\n\nPanama Papers\n\nSUN HILL HOLDINGS LIMITED\n\nIntermediary\n\
+    \n10-MAY-2007\n\nSeychelles\n\nDissolved shelf company\n\nPanama Papers\n\nFOOTHILLS\
+    \ LIMITED\n\nIntermediary\n\n28-MAY-2007\n\nSeychelles\n\nDissolved shelf company\n\
+    \nPanama Papers\n\nODETTE PROPERTIES COMPANY INC.\n\nIntermediary\n\n07-MAY-2008\n\
+    \nSeychelles\n\nShelf company\n\nPanama Papers\n\nXIAOYUAN DEVELOPMENT LTD.\n\n\
+    Intermediary\n\n01-AUG-2011\n\nSeychelles\n\nShelf company\n\nPanama Papers\n\n\
+    COLORLOK LTD.\n\nIntermediary\n\n04-AUG-2011\n\nSeychelles\n\nShelf company\n\n\
+    Panama Papers\n\nFAITH MAGIC GROUP LIMITED\n\nIntermediary\n\n10-JUN-2009\n\n\
+    Seychelles\n\nShelf company\n\nPanama Papers\n\nARKLYN DEVELOPMENT INC.\n\nIntermediary\n\
+    \n15-JUN-2009\n\nSeychelles\n\nShelf company\n\nPanama Papers\n\nSHINNY VIEW DEVELOPMENT\
+    \ LIMITED\n\nIntermediary\n\n01-JUL-2009\n\nSeychelles\n\nShelf company\n\nPanama\
+    \ Papers\n\nLUISA EQUITIES INCORPORATED\n\nIntermediary\n\n02-DEC-2010\n\nSeychelles\n\
+    \nShelf company\n\nPanama Papers\n\nMARKETING STRATEGIES INC.\n\nIntermediary\n\
+    \n06-JUL-2009\n\nSeychelles\n\nShelf company\n\nPanama Papers\n\nSMARTEN GROUP\
+    \ LTD.\n\nIntermediary\n\n29-AUG-2011\n\nSeychelles\n\nShelf company\n\nPanama\
+    \ Papers\n\nBEYAR INTERNATIONAL LIMITED\n\nIntermediary\n\n29-AUG-2011\n\nSeychelles\n\
+    \nShelf company\n\nPanama Papers\n\nAZURITE PROMOTION LIMITED\n\nIntermediary\n\
+    \n10-OCT-2008\n\nSeychelles\n\nShelf company\n\nPanama Papers\n\nSALIENT HOLDINGS\
+    \ LIMITED\n\nIntermediary\n\n06-JAN-2010\n\nSeychelles\n\nShelf company\n\nPanama\
+    \ Papers\n\nEDGECOMBE LIMITED\n\nIntermediary\n\n13-OCT-2008\n\nSeychelles\n\n\
+    Shelf company\n\nPanama Papers\n\nLANDSLIDE CORPORATION LIMITED\n\nIntermediary\n\
+    \n10-OCT-2008\n\nSeychelles\n\nShelf company\n\nPanama Papers\n\nHistoka Investments\
+    \ S.A.\n\nIntermediary\n\n19-SEP-2008\n\nSeychelles\n\nShelf company\n\nPanama\
+    \ Papers\n\nShow more connections\n\nExplore more from\n\nPanama Papers\n\nMossack\
+    \ Fonseca\n\nGet our stories in your inbox\n```\n\n## Source excerpt: Offshore\
+    \ Leaks data sources page\nSource URL: https://offshoreleaks.icij.org/pages/data\n\
+    \n```text\nData sources\n\nHow to use this database\n\nDownload\n\nRest API Schema\n\
+    \nReconciliation API\n\nCredits\n\nContact us\n\nDownload\n\nSupport Us\n\nThe\
+    \ International Consortium of Investigative Journalists\n\nHome\n\nAbout the database\n\
+    \nData sources\n\nHow to use this database\n\nDownload\n\nCredits\n\nContact us\n\
+    \nSupport Us\n\nOffshore Leaks Database\n\nFind out who’s behind more than 810,000\
+    \ offshore companies, foundations and trusts.\n\nData Sources\n\nDetails on the\
+    \ five leaks that populate this database\n\nThe ICIJ Offshore Database shows relationships\
+    \ and networks among people or companies and offshore entities. Consider this\
+    \ database like a corporate registry where you can check information about a company\
+    \ and the people who played a role in that entity at a certain point in time.\
+    \ Roles include being a director, a shareholder, a beneficial owner, a trustee,\
+    \ among others.\n\nThe first installment of the database was released on June\
+    \ 14, 2013 as part of ICIJ’s Offshore Leaks investigation. More records were added\
+    \ on January 23, 2014 (from ICIJ’s China Leaks investigation), on May 9, 2016 (from\
+    \ ICIJ’s Panama Papers investigation) and on September 21, 2016 (from ICIJ’s Bahamas\
+    \ Leaks investigation).\n\nBetween November, 2017 and February, 2018 ICIJ released\
+    \ data from the Paradise Papers investigation, including records from the offshore\
+    \ law firm Appleby and seven corporate registries: Aruba, Cook Islands, Bahamas,\
+    \ Barbados, Malta, Nevis and Samoa. \n\nOn Dec. 6, 2021, April 11, 2022, and May\
+    \ 3, 2022 ICIJ added data from the Pandora Papers investigation, coming from the\
+    \ offshore service providers Alemán, Cordero, Galindo & Lee (Alcogal), Alpha Consulting,\
+    \ Asiaciti Trust Asia Limited, CILTrust International, Commence Overseas Limited,\
+    \ Fidelity, IlShin, Overseas Management Company Inc, SFM Corporate Services and\
+    \ Trident Trust Company Limited.\n\nThe Offshore Leaks database contains information\
+    \ on more than 810,000 offshore entities and covers more than 80 years up to 2020.\n\
+    \nThe data represents only a fraction of the information gathered as part of the\
+    \ journalistic investigations, as it doesn’t divulge raw documents or personal\
+    \ information en masse.It contains a great deal of information about company owners,\
+    \ proxies and intermediaries in secrecy jurisdictions, but it doesn’t disclose\
+    \ bank accounts, email exchanges and financial transactions contained in the documents.\
+    \ The sources of this database are five massive leaks received by the International\
+    \ Consortium of Investigative Journalists:\n\nPandora Papers (2021)\n\nThe Pandora\
+    \ Papers information – more than 11.9 million records – came from 14 offshore\
+    \ service providers that offer services in at least 38 jurisdictions. The 2.94\
+    \ terabytes of data, leaked to ICIJ and shared with media partners around the\
+    \ world, arrived in various formats: as documents, images, emails, spreadsheets,\
+    \ and more.\n\nThe Pandora Papers gathered information on more than 27,000 companies,\
+    \ foundations and trusts and 29,000 so-called ultimate beneficial owners from\
+    \ 11 of the providers. On December 6, 2021, ICIJ added data to the Offshore Leaks\
+    \ database on more than 15,000 offshore entities that got services from two of\
+    \ the providers: Alemán, Cordero, Galindo & Lee (Alcogal) and Fidelity Corporate\
+    \ Services. On April 11, 2022 ICIJ published data on more than 2,000 offshore\
+    \ entities that got services from Alpha Consulting. On May 3, 2022 ICIJ published\
+    \ data on more than 9,000 companies, foundations and trusts from seven offshore\
+    \ service providers: Asiaciti Trust Asia Limited, CILTrust International, Commence\
+    \ Overseas Limited, IlShin, Overseas Management Company Inc, SFM Corporate Services\
+    \ and Trident Trust Company Limited.\n\nParadise Papers (2017)\n\nThe 2017 Paradise\
+    \ Papers investigation was based on a leak of 1.4 terabytes made up of more than\
+    \ 13.4 million files from one offshore law firm, Appleby, as well as Asiaciti\
+    \ Trust, a Singapore-based provider, and government corporate registries in 19\
+    \ secrecy jurisdictions. The leaks were obtained by German newspaper Süddeutsche\
+    \ Zeitung and shared with the International Consortium of Investigative Journalists\
+    \ and media partners around the world.\n\nBetween November, 2017 and February,\
+    \ 2018, ICIJ added data from the Paradise Papers investigation, including client\
+    \ records from offshore law firm Appleby and seven corporate registries: Aruba,\
+    \ Cook Islands, Bahamas, Barbados, Malta, Nevis and Samoa. ICIJ incorporated data\
+    \ on more than 290,000 entities connected to the Paradise Papers investigation.\n\
+    \nData connected with Saint Kitts and Nevis was also part of the Appleby dataset.\
+    \ However, some of the Appleby records didn’t distinguish between Nevis and Saint\
+    \ Kitts. In the case of the corporate registry, the information is only connected\
+    \ to Nevis. The jurisdiction filter displays “Saint Kitts and Nevis” and the source\
+    \ distinguishes between the Nevis corporate registry and the Paradise Papers Appleby\
+    \ related data.\n\nBahamas Leaks (2016)\n\nThe third source of this database comes\
+    \ from a leak of the corporate registry of the Bahamas obtained by German newspaper\
+    \ Süddeutsche Zeitung and shared with the International Consortium of Investigative\
+    \ Journalists and media partners. From the 1.3 million files received as part\
+    \ of the Bahamas Leaks investigation, the database was expanded to include the\
+    \ names of directors and some owners of more than 175,000 Bahamian companies,\
+    \ trusts and foundations.\n\nPanama Papers (2016)\n\nThe Panama Papers data comes\
+    \ from Panamanian law firm Mossack Fonseca, which was one of the world’s top creators\
+    \ of hard-to-trace companies, trusts and foundations, whose inner workings were\
+    \ exposed in the April 2016 Panama Papers investigation. The data was originally\
+    \ obtained from an anonymous source by reporters at the German newspaper Süddeutsche\
+    \ Zeitung, who asked ICIJ to organize a global reporting collaboration to analyze\
+    \ the files.\n\nPublished in this interactive website are records from Mossack\
+    \ Fonseca’s internal client database, including companies incorporated in tax\
+    \ havens and the people behind them. This is just a fraction of the complete leak,\
+    \ which amounts to 2.6 TB and 11.5 million files.\n\nOffshore Leaks (2013)\n\n\
+    You can also explore entities incorporated through Portcullis Trustnet (now Portcullis)\
+    \ and Commonwealth Trust Limited, two offshore service providers exposed as part\
+    \ of ICIJ’s 2013 Offshore Leaks investigation. ICIJ produced the first version\
+    \ of the Offshore Leaks database with Costa Rican newspaper La Nación.\n\nAbout\
+    \ ICIJ \n\nAbout this data\n\nFAQ\n\nHow to use this database\n\nData sources\n\
+    \nCredits\n\nContact us\n\nGet our stories in your inbox\n\nAbout the data in\
+    \ the ICIJ Offshore Leaks database\n\nThis ICIJ database contains information\
+    \ on more than 810,000 offshore entities that are part of the Pandora Papers,\
+    \ Paradise Papers, Bahamas Leaks, Panama Papers and Offshore Leaks investigations.\
+    \ The records cover more than 80 years up to 2020 and link to people and companies\
+    \ in more than 200 countries and territories.\n\nRead more\n\nSupport us\n\nWe\
+    \ depend on the generous support of readers like you to help us expose corruption\
+    \ and hold the powerful to account\n\nDonate\n```\n"
   required_artifacts:
   - entity_snapshot
   - relationship_snapshot
@@ -45,10 +181,15 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: entity-link-golden-bridge-mossack-fonseca.md
     sha256: bdf338b56969032a63aebb5faec09aaaef2868987b78088e01d61c2576e1bcc4
-    acquisition_method: Open the listed public entity-link dataset pages and preserve the named entity or relationship snapshot in the checked-in markdown artifact.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
-    source_dataset: 'Case bundle from: Offshore Leaks entity page for GOLDEN BRIDGE GROUP SERVICES CORPORATION | Offshore Leaks intermediary page for MOSSACK FONSECA & CO. | Offshore Leaks data sources page'
-    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+    acquisition_method: Open the listed public entity-link dataset pages and preserve
+      the named entity or relationship snapshot in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
+    source_dataset: 'Case bundle from: Offshore Leaks entity page for GOLDEN BRIDGE
+      GROUP SERVICES CORPORATION | Offshore Leaks intermediary page for MOSSACK FONSECA
+      & CO. | Offshore Leaks data sources page'
+    notes: Checked-in markdown source document used for local validation and Hugging
+      Face export. Factual source content backfilled from the listed upstream sources.
   - id: original-source-01
     path: datasets/public-validation-v1/source_artifacts/entity-link-golden-bridge-mossack-fonseca/source-01-offshore-leaks-entity-page-for-golden-bridge-group-services-corporation.html
     role: original_source_snapshot
@@ -57,10 +198,14 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 10113527.html
     sha256: 95e56e97a65895c07d3923cad187b201581223fb08cccf84f2e92f01e9ea237d
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: Offshore Leaks entity page for GOLDEN BRIDGE GROUP SERVICES CORPORATION
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
   - id: original-source-02
     path: datasets/public-validation-v1/source_artifacts/entity-link-golden-bridge-mossack-fonseca/source-02-offshore-leaks-intermediary-page-for-mossack-fonseca-co.html
     role: original_source_snapshot
@@ -69,10 +214,14 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 11011863.html
     sha256: d51d1d12bc1e01cfd45845947e5892468f0d766813a96e4dea11832ddf18a21d
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: Offshore Leaks intermediary page for MOSSACK FONSECA & CO.
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
   - id: original-source-03
     path: datasets/public-validation-v1/source_artifacts/entity-link-golden-bridge-mossack-fonseca/source-03-offshore-leaks-data-sources-page.html
     role: original_source_snapshot
@@ -81,10 +230,14 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: data.html
     sha256: 7ee3ada13b065d9501785484f74e91bc8b1e8238bf5a9c2d8e6b3f5dba5e353b
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: Offshore Leaks data sources page
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
 expected_output:
   fields_required:
   - canonical_entity_name
@@ -97,5 +250,12 @@ answer_key:
     predicate: has_intermediary
     object: MOSSACK FONSECA & CO.
 notes:
-- The entity page lists a single intermediary entry, MOSSACK FONSECA & CO., in the Connections table.
-- This keeps the case exact by targeting the one intermediary link attached to the company node.
+- The entity page lists a single intermediary entry, MOSSACK FONSECA & CO., in the
+  Connections table.
+- This keeps the case exact by targeting the one intermediary link attached to the
+  company node.
+source_languages:
+- en
+evidence_languages:
+- en
+answer_language: en

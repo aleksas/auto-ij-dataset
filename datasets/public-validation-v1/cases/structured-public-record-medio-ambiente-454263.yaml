@@ -1,5 +1,5 @@
 id: structured-public-record-medio-ambiente-454263
-status: draft
+status: validated
 title: Spanish Environment Secretariat river Pas hydromorphology study contract extraction
 task_type: field_extraction
 answer_mode: exact
@@ -11,25 +11,555 @@ sources:
   url: https://ted.europa.eu/en/notice/454263-2023/xml
   checked_on: 2026-03-20
   provenance: official_portal
+  language: es
 - label: TED notice PDF 454263-2023 (ES)
   url: https://ted.europa.eu/es/notice/454263-2023/pdfs
   checked_on: 2026-03-20
   provenance: official_portal
+  language: es
 - label: TED notice detail 454263-2023
   url: https://ted.europa.eu/en/notice/-/detail/454263-2023
   checked_on: 2026-03-20
   provenance: official_portal
+  language: es
 evidence_bundle:
   kind: structured_record
-  content_markdown: "# Spanish Environment Secretariat river Pas hydromorphology study contract extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/es/notice/454263-2023/pdfs\n\n## Listed sources\n- TED notice XML 454263-2023: https://ted.europa.eu/en/notice/454263-2023/xml\n- TED notice PDF 454263-2023 (ES): https://ted.europa.eu/es/notice/454263-2023/pdfs\n- TED notice detail 454263-2023: https://ted.europa.eu/en/notice/-/detail/454263-2023\n\n## Extracted source text\n\n```text\nDO/S S142\n26/07/2023\n454263-2023-ES\n\n1/4\n\nEl presente anuncio en el sitio web de TED: https://ted.europa.eu/udl?uri=TED:NOTICE:454263-2023:TEXT:ES:HTML\n\nEspa\xF1a-Madrid: Elaboraci\xF3n de proyectos y dise\xF1os, presupuestos\n2023/S 142-454263\nAnuncio de adjudicaci\xF3n de contrato\nResultados del procedimiento de contrataci\xF3n\nServicios\nBase jur\xEDdica:\nDirectiva 2014/24/UE\nApartado I: Poder adjudicador\nI.1)\nNombre y direcciones\n\
-    Nombre oficial: Secretar\xEDa de Estado de Medio Ambiente\nN\xFAmero de identificaci\xF3n fiscal: S2801401G\nDirecci\xF3n postal: Plaza San Juan de la Cruz, 10\nLocalidad: Madrid\nC\xF3digo NUTS: ES300 Madrid\nC\xF3digo postal: 28071\nPa\xEDs: Espa\xF1a\nPersona de contacto: Secretar\xEDa de Estado de Medio Ambiente\nCorreo electr\xF3nico: bzn-otfrer-contratos@miteco.es\nDirecciones de internet:\nDirecci\xF3n principal: http://www.miteco.gob.es\nDirecci\xF3n del perfil de comprador: https://contrataciondelestado.es/wps/poc?\nuri=deeplink:perfilContratante&idBp=RRpOPw28tyYQK2TEfXGy%2BA%3D%3D\nI.4)\n\nTipo de poder adjudicador\nMinisterio o cualquier otra autoridad nacional o federal, incluidas sus delegaciones regionales o locales\n\nI.5)\n\nPrincipal actividad\nMedio ambiente\n\nApartado II: Objeto\nII.1)\n\xC1mbito de la contrataci\xF3n\nII.1.1)\n\nDenominaci\xF3n:\nServicios para la redacci\xF3n del estudio hidromorfol\xF3gico y redacci\xF3n de propuestas de actuaci\xF3n en el r\xED\
-    o\nPas, desde la confluencia con el r\xEDo de la Magdalena hasta el l\xEDmite del dominio p\xFAblico mar\xEDtimo terrestre\n(Cantabria), en el Marco del Plan de Recuperaci\xF3n, Transformaci\xF3n y Resiliencia (PRTR)\nN\xFAmero de referencia: P02.C05.I2.P02.S01.A17.01\n\nII.1.2)\n\nC\xF3digo CPV principal\n71242000 Elaboraci\xF3n de proyectos y dise\xF1os, presupuestos\n\nII.1.3)\n\nTipo de contrato\nServicios\n\nII.1.4)\n\nBreve descripci\xF3n:\n\n26/07/2023\nS142\nhttps://ted.europa.eu/TED\n\n1/4\n\nDO/S S142\n26/07/2023\n454263-2023-ES\n\n2/4\n\nEstudio de alternativas de restauraci\xF3n y rehabilitaci\xF3n fluvial en el r\xEDo Pas dirigidas a la recuperaci\xF3n de\nprocesos, morfolog\xEDas y ecosistemas tanto en el cauce como en las llanuras de inundaci\xF3n, que contribuyan a\naumentar la conectividad transversal y longitudinal mitigar los procesos de incisi\xF3n fluvial y mejorar el estado\nde conservaci\xF3n del espacio ribere\xF1o, en un espacio natural pero intensamente intervenido.\
-    \ Para ello se\ndesarrollar\xE1n los siguientes trabajos. FASE A. \u2022 Recopilaci\xF3n de informaci\xF3n hist\xF3rica desde los a\xF1os 50\nsobre la evoluci\xF3n de los procesos, morfolog\xEDa y ecosistemas con el fin de determinar su impacto antr\xF3pico\n\u2022 Inventario de los elementos que tiene un mayor impacto en la determinaci\xF3n del estado hidromorfol\xF3gico. \u2022\nEstudio hist\xF3rico de los procesos hidromorfol\xF3gicos desde un punto de vista estad\xEDstico y su correlaci\xF3n con\nlas actividades que han contribuido a ellos. \u2022 Determinaci\xF3n del estad2o actual desde un proceso participativo\ny teniendo en cuenta herramientas cualitativas y cuantitativas de coste/beneficio, DAFO para identificar\nactuaciones de mejora. \u2022 Determinaci\xF3n de las alternativas y sus an\xE1lisis desde los puntos de vista funcionales,\nambientales y sociales.\nII.1.6)\n\nInformaci\xF3n relativa a los lotes\nEl contrato est\xE1 dividido en lotes: no\n\nII.1.7)\n\nValor total\
-    \ de la contrataci\xF3n (IVA excluido)\nValor IVA excluido: 367 658.08 EUR\n\nII.2)\n\nDescripci\xF3n\n\nII.2.3)\n\nLugar de ejecuci\xF3n\nC\xF3digo NUTS: ES130 Cantabria\n\nII.2.4)\n\nDescripci\xF3n del contrato:\nEstudio de alternativas de restauraci\xF3n y rehabilitaci\xF3n fluvial en el r\xEDo Pas dirigidas a la recuperaci\xF3n de\nprocesos, morfolog\xEDas y ecosistemas tanto en el cauce como en las llanuras de inundaci\xF3n, que contribuyan a\naumentar la conectividad transversal y longitudinal mitigar los procesos de incisi\xF3n fluvial y mejorar el estado\nde conservaci\xF3n del espacio ribere\xF1o, en un espacio natural pero intensamente intervenido. Para ello se\ndesarrollar\xE1n los siguientes trabajos. FASE A. \u2022 Recopilaci\xF3n de informaci\xF3n hist\xF3rica desde los a\xF1os 50\nsobre la evoluci\xF3n de los procesos, morfolog\xEDa y ecosistemas con el fin de determinar su impacto antr\xF3pico\n\u2022 Inventario de los elementos que tiene un mayor impacto en la determinaci\xF3\
-    n del estado hidromorfol\xF3gico. \u2022\nEstudio hist\xF3rico de los procesos hidromorfol\xF3gicos desde un punto de vista estad\xEDstico y su correlaci\xF3n con\nlas actividades que han contribuido a ellos. \u2022 Determinaci\xF3n del estad2o actual desde un proceso participativo\ny teniendo en cuenta herramientas cualitativas y cuantitativas de coste/beneficio, DAFO para identificar\nactuaciones de mejora. \u2022 Determinaci\xF3n de las alternativas y sus an\xE1lisis desde los puntos de vista funcionales,\nambientales y sociales.\n\nII.2.5)\n\nCriterios de adjudicaci\xF3n\nCriterio de calidad - Nombre: Criterios cualitativos cuya cuantificaci\xF3n depende de un juicio de valor /\nPonderaci\xF3n: 45\nCriterio relativo al coste - Nombre: Precio y otros criterios objetivos evaluables de forma autom\xE1tica /\nPonderaci\xF3n: 55\n\nII.2.11)\n\nInformaci\xF3n sobre las opciones\nOpciones: no\n\nII.2.13)\n\nInformaci\xF3n sobre fondos de la Uni\xF3n Europea\nEl contrato se refiere a un\
-    \ proyecto o programa financiado con fondos de la Uni\xF3n Europea: s\xED\nIdentificaci\xF3n del proyecto:\nP02.C05.I2.P02.S01.A17.01\n\nII.2.14)\n\nInformaci\xF3n adicional\n\n26/07/2023\nS142\nhttps://ted.europa.eu/TED\n\n2/4\n\nDO/S S142\n26/07/2023\n454263-2023-ES\n\n3/4\n\nApartado IV: Procedimiento\nIV.1)\nDescripci\xF3n\nIV.1.1)\n\nTipo de procedimiento\nProcedimiento abierto\n\nIV.1.3)\n\nInformaci\xF3n sobre un acuerdo marco o un sistema din\xE1mico de adquisici\xF3n\n\nIV.1.8)\n\nInformaci\xF3n acerca del Acuerdo sobre Contrataci\xF3n P\xFAblica\nEl contrato est\xE1 cubierto por el Acuerdo sobre Contrataci\xF3n P\xFAblica: no\n\nIV.2)\n\nInformaci\xF3n administrativa\n\nIV.2.1)\n\nPublicaci\xF3n anterior referente al presente procedimiento\nN\xFAmero de anuncio en el DO S: 2023/S 010-023119\n\nIV.2.8)\n\nInformaci\xF3n sobre la terminaci\xF3n del sistema din\xE1mico de adquisici\xF3n\n\nIV.2.9)\n\nInformaci\xF3n sobre la anulaci\xF3n de la convocatoria de licitaci\xF3n en forma\
-    \ de anuncio de informaci\xF3n\nprevia\n\nApartado V: Adjudicaci\xF3n de contrato\nContrato n\xBA: 49\nDenominaci\xF3n:\nServicios para la redacci\xF3n del estudio hidromorfol\xF3gico y redacci\xF3n de propuestas de actuaci\xF3n en el r\xEDo\nPas, desde la confluencia con el r\xEDo de la Magdalena hasta el l\xEDmite del dominio p\xFAblico mar\xEDtimo terrestre\n(Cantabria), en el Marco del Plan de Recuperaci\xF3n, Transformaci\xF3n y Resiliencia (PRTR)\nSe adjudica un contrato/lote: s\xED\nV.2)\n\nAdjudicaci\xF3n de contrato\n\nV.2.1)\n\nFecha de celebraci\xF3n del contrato:\n20/07/2023\n\nV.2.2)\n\nInformaci\xF3n sobre las ofertas\nN\xFAmero de ofertas recibidas: 5\nN\xFAmero de ofertas recibidas de PYME: 1\nEl contrato ha sido adjudicado a un grupo de operadores econ\xF3micos: no\n\nV.2.3)\n\nNombre y direcci\xF3n del contratista\nNombre oficial: WSP SPAIN-APIA S.A.U.\nN\xFAmero de identificaci\xF3n fiscal: A39074877\nLocalidad: Madrid\nC\xF3digo NUTS: ES300 Madrid\nPa\xEDs: Espa\xF1\
-    a\nEl contratista es una PYME: no\n\nV.2.4)\n\nInformaci\xF3n sobre el valor del contrato/lote (IVA excluido)\nValor total inicial estimado del contrato/lote: 574 555.53 EUR\nValor total del contrato/lote: 367 658.08 EUR\n\nV.2.5)\n\nInformaci\xF3n sobre la subcontrataci\xF3n\n\nApartado VI: Informaci\xF3n complementaria\nVI.3)\nInformaci\xF3n adicional:\nVI.4)\n\nProcedimientos de recurso\n\nVI.4.1)\n\n\xD3rgano competente para los procedimientos de recurso\n\n26/07/2023\nS142\nhttps://ted.europa.eu/TED\n\n3/4\n\nDO/S S142\n26/07/2023\n454263-2023-ES\n\n4/4\n\nNombre oficial: Tribunal Administrativo Central de Recursos Contractuales\nDirecci\xF3n postal: Avenida del General Per\xF3n 38, planta 8\xAA\nLocalidad: Madrid\nC\xF3digo postal: 28020\nPa\xEDs: Espa\xF1a\nVI.5)\n\nFecha de env\xEDo del presente anuncio:\n21/07/2023\n\n26/07/2023\nS142\nhttps://ted.europa.eu/TED\n\n4/4\n```\n"
+  content_markdown: '# Spanish Environment Secretariat river Pas hydromorphology study
+    contract extraction
+
+
+    Collected from the official TED procurement PDF on 2026-03-20.
+
+
+    Primary source URL: https://ted.europa.eu/es/notice/454263-2023/pdfs
+
+
+    ## Listed sources
+
+    - TED notice XML 454263-2023: https://ted.europa.eu/en/notice/454263-2023/xml
+
+    - TED notice PDF 454263-2023 (ES): https://ted.europa.eu/es/notice/454263-2023/pdfs
+
+    - TED notice detail 454263-2023: https://ted.europa.eu/en/notice/-/detail/454263-2023
+
+
+    ## Extracted source text
+
+
+    ```text
+
+    DO/S S142
+
+    26/07/2023
+
+    454263-2023-ES
+
+
+    1/4
+
+
+    El presente anuncio en el sitio web de TED: https://ted.europa.eu/udl?uri=TED:NOTICE:454263-2023:TEXT:ES:HTML
+
+
+    España-Madrid: Elaboración de proyectos y diseños, presupuestos
+
+    2023/S 142-454263
+
+    Anuncio de adjudicación de contrato
+
+    Resultados del procedimiento de contratación
+
+    Servicios
+
+    Base jurídica:
+
+    Directiva 2014/24/UE
+
+    Apartado I: Poder adjudicador
+
+    I.1)
+
+    Nombre y direcciones
+
+    Nombre oficial: Secretaría de Estado de Medio Ambiente
+
+    Número de identificación fiscal: S2801401G
+
+    Dirección postal: Plaza San Juan de la Cruz, 10
+
+    Localidad: Madrid
+
+    Código NUTS: ES300 Madrid
+
+    Código postal: 28071
+
+    País: España
+
+    Persona de contacto: Secretaría de Estado de Medio Ambiente
+
+    Correo electrónico: bzn-otfrer-contratos@miteco.es
+
+    Direcciones de internet:
+
+    Dirección principal: http://www.miteco.gob.es
+
+    Dirección del perfil de comprador: https://contrataciondelestado.es/wps/poc?
+
+    uri=deeplink:perfilContratante&idBp=RRpOPw28tyYQK2TEfXGy%2BA%3D%3D
+
+    I.4)
+
+
+    Tipo de poder adjudicador
+
+    Ministerio o cualquier otra autoridad nacional o federal, incluidas sus delegaciones
+    regionales o locales
+
+
+    I.5)
+
+
+    Principal actividad
+
+    Medio ambiente
+
+
+    Apartado II: Objeto
+
+    II.1)
+
+    Ámbito de la contratación
+
+    II.1.1)
+
+
+    Denominación:
+
+    Servicios para la redacción del estudio hidromorfológico y redacción de propuestas
+    de actuación en el río
+
+    Pas, desde la confluencia con el río de la Magdalena hasta el límite del dominio
+    público marítimo terrestre
+
+    (Cantabria), en el Marco del Plan de Recuperación, Transformación y Resiliencia
+    (PRTR)
+
+    Número de referencia: P02.C05.I2.P02.S01.A17.01
+
+
+    II.1.2)
+
+
+    Código CPV principal
+
+    71242000 Elaboración de proyectos y diseños, presupuestos
+
+
+    II.1.3)
+
+
+    Tipo de contrato
+
+    Servicios
+
+
+    II.1.4)
+
+
+    Breve descripción:
+
+
+    26/07/2023
+
+    S142
+
+    https://ted.europa.eu/TED
+
+
+    1/4
+
+
+    DO/S S142
+
+    26/07/2023
+
+    454263-2023-ES
+
+
+    2/4
+
+
+    Estudio de alternativas de restauración y rehabilitación fluvial en el río Pas
+    dirigidas a la recuperación de
+
+    procesos, morfologías y ecosistemas tanto en el cauce como en las llanuras de
+    inundación, que contribuyan a
+
+    aumentar la conectividad transversal y longitudinal mitigar los procesos de incisión
+    fluvial y mejorar el estado
+
+    de conservación del espacio ribereño, en un espacio natural pero intensamente
+    intervenido. Para ello se
+
+    desarrollarán los siguientes trabajos. FASE A. • Recopilación de información histórica
+    desde los años 50
+
+    sobre la evolución de los procesos, morfología y ecosistemas con el fin de determinar
+    su impacto antrópico
+
+    • Inventario de los elementos que tiene un mayor impacto en la determinación del
+    estado hidromorfológico. •
+
+    Estudio histórico de los procesos hidromorfológicos desde un punto de vista estadístico
+    y su correlación con
+
+    las actividades que han contribuido a ellos. • Determinación del estad2o actual
+    desde un proceso participativo
+
+    y teniendo en cuenta herramientas cualitativas y cuantitativas de coste/beneficio,
+    DAFO para identificar
+
+    actuaciones de mejora. • Determinación de las alternativas y sus análisis desde
+    los puntos de vista funcionales,
+
+    ambientales y sociales.
+
+    II.1.6)
+
+
+    Información relativa a los lotes
+
+    El contrato está dividido en lotes: no
+
+
+    II.1.7)
+
+
+    Valor total de la contratación (IVA excluido)
+
+    Valor IVA excluido: 367 658.08 EUR
+
+
+    II.2)
+
+
+    Descripción
+
+
+    II.2.3)
+
+
+    Lugar de ejecución
+
+    Código NUTS: ES130 Cantabria
+
+
+    II.2.4)
+
+
+    Descripción del contrato:
+
+    Estudio de alternativas de restauración y rehabilitación fluvial en el río Pas
+    dirigidas a la recuperación de
+
+    procesos, morfologías y ecosistemas tanto en el cauce como en las llanuras de
+    inundación, que contribuyan a
+
+    aumentar la conectividad transversal y longitudinal mitigar los procesos de incisión
+    fluvial y mejorar el estado
+
+    de conservación del espacio ribereño, en un espacio natural pero intensamente
+    intervenido. Para ello se
+
+    desarrollarán los siguientes trabajos. FASE A. • Recopilación de información histórica
+    desde los años 50
+
+    sobre la evolución de los procesos, morfología y ecosistemas con el fin de determinar
+    su impacto antrópico
+
+    • Inventario de los elementos que tiene un mayor impacto en la determinación del
+    estado hidromorfológico. •
+
+    Estudio histórico de los procesos hidromorfológicos desde un punto de vista estadístico
+    y su correlación con
+
+    las actividades que han contribuido a ellos. • Determinación del estad2o actual
+    desde un proceso participativo
+
+    y teniendo en cuenta herramientas cualitativas y cuantitativas de coste/beneficio,
+    DAFO para identificar
+
+    actuaciones de mejora. • Determinación de las alternativas y sus análisis desde
+    los puntos de vista funcionales,
+
+    ambientales y sociales.
+
+
+    II.2.5)
+
+
+    Criterios de adjudicación
+
+    Criterio de calidad - Nombre: Criterios cualitativos cuya cuantificación depende
+    de un juicio de valor /
+
+    Ponderación: 45
+
+    Criterio relativo al coste - Nombre: Precio y otros criterios objetivos evaluables
+    de forma automática /
+
+    Ponderación: 55
+
+
+    II.2.11)
+
+
+    Información sobre las opciones
+
+    Opciones: no
+
+
+    II.2.13)
+
+
+    Información sobre fondos de la Unión Europea
+
+    El contrato se refiere a un proyecto o programa financiado con fondos de la Unión
+    Europea: sí
+
+    Identificación del proyecto:
+
+    P02.C05.I2.P02.S01.A17.01
+
+
+    II.2.14)
+
+
+    Información adicional
+
+
+    26/07/2023
+
+    S142
+
+    https://ted.europa.eu/TED
+
+
+    2/4
+
+
+    DO/S S142
+
+    26/07/2023
+
+    454263-2023-ES
+
+
+    3/4
+
+
+    Apartado IV: Procedimiento
+
+    IV.1)
+
+    Descripción
+
+    IV.1.1)
+
+
+    Tipo de procedimiento
+
+    Procedimiento abierto
+
+
+    IV.1.3)
+
+
+    Información sobre un acuerdo marco o un sistema dinámico de adquisición
+
+
+    IV.1.8)
+
+
+    Información acerca del Acuerdo sobre Contratación Pública
+
+    El contrato está cubierto por el Acuerdo sobre Contratación Pública: no
+
+
+    IV.2)
+
+
+    Información administrativa
+
+
+    IV.2.1)
+
+
+    Publicación anterior referente al presente procedimiento
+
+    Número de anuncio en el DO S: 2023/S 010-023119
+
+
+    IV.2.8)
+
+
+    Información sobre la terminación del sistema dinámico de adquisición
+
+
+    IV.2.9)
+
+
+    Información sobre la anulación de la convocatoria de licitación en forma de anuncio
+    de información
+
+    previa
+
+
+    Apartado V: Adjudicación de contrato
+
+    Contrato nº: 49
+
+    Denominación:
+
+    Servicios para la redacción del estudio hidromorfológico y redacción de propuestas
+    de actuación en el río
+
+    Pas, desde la confluencia con el río de la Magdalena hasta el límite del dominio
+    público marítimo terrestre
+
+    (Cantabria), en el Marco del Plan de Recuperación, Transformación y Resiliencia
+    (PRTR)
+
+    Se adjudica un contrato/lote: sí
+
+    V.2)
+
+
+    Adjudicación de contrato
+
+
+    V.2.1)
+
+
+    Fecha de celebración del contrato:
+
+    20/07/2023
+
+
+    V.2.2)
+
+
+    Información sobre las ofertas
+
+    Número de ofertas recibidas: 5
+
+    Número de ofertas recibidas de PYME: 1
+
+    El contrato ha sido adjudicado a un grupo de operadores económicos: no
+
+
+    V.2.3)
+
+
+    Nombre y dirección del contratista
+
+    Nombre oficial: WSP SPAIN-APIA S.A.U.
+
+    Número de identificación fiscal: A39074877
+
+    Localidad: Madrid
+
+    Código NUTS: ES300 Madrid
+
+    País: España
+
+    El contratista es una PYME: no
+
+
+    V.2.4)
+
+
+    Información sobre el valor del contrato/lote (IVA excluido)
+
+    Valor total inicial estimado del contrato/lote: 574 555.53 EUR
+
+    Valor total del contrato/lote: 367 658.08 EUR
+
+
+    V.2.5)
+
+
+    Información sobre la subcontratación
+
+
+    Apartado VI: Información complementaria
+
+    VI.3)
+
+    Información adicional:
+
+    VI.4)
+
+
+    Procedimientos de recurso
+
+
+    VI.4.1)
+
+
+    Órgano competente para los procedimientos de recurso
+
+
+    26/07/2023
+
+    S142
+
+    https://ted.europa.eu/TED
+
+
+    3/4
+
+
+    DO/S S142
+
+    26/07/2023
+
+    454263-2023-ES
+
+
+    4/4
+
+
+    Nombre oficial: Tribunal Administrativo Central de Recursos Contractuales
+
+    Dirección postal: Avenida del General Perón 38, planta 8ª
+
+    Localidad: Madrid
+
+    Código postal: 28020
+
+    País: España
+
+    VI.5)
+
+
+    Fecha de envío del presente anuncio:
+
+    21/07/2023
+
+
+    26/07/2023
+
+    S142
+
+    https://ted.europa.eu/TED
+
+
+    4/4
+
+    ```
+
+    '
   required_artifacts:
   - source_record_file
   - source_record_metadata
@@ -42,10 +572,15 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 454263-2023.xml
     sha256: b8d56912a722410ad8d1e41c9df1b640a1971769fc89db84ed6053252fa91f65
-    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
-    source_dataset: 'Case bundle from: TED notice XML 454263-2023 | TED notice PDF 454263-2023 (ES) | TED notice detail 454263-2023'
-    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+    acquisition_method: Fetch the official procurement record from the listed source
+      URLs, prefer machine-readable XML or PDF when available, and preserve the relevant
+      record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
+    source_dataset: 'Case bundle from: TED notice XML 454263-2023 | TED notice PDF
+      454263-2023 (ES) | TED notice detail 454263-2023'
+    notes: Checked-in markdown source document used for local validation and Hugging
+      Face export. Factual source content backfilled from the listed upstream sources.
   - id: original-source-01
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-medio-ambiente-454263/source-01-ted-notice-xml-454263-2023.xml
     role: original_source_snapshot
@@ -54,10 +589,14 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 454263-2023.xml
     sha256: 3cb21c62c0603d0902764ee7f56440c6cc4f4e2424c79f71795e0336a458d59d
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice XML 454263-2023
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
   - id: original-source-02
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-medio-ambiente-454263/source-02-ted-notice-pdf-454263-2023-es.pdf
     role: original_source_snapshot
@@ -66,10 +605,14 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 454263-2023.pdf
     sha256: 69cd1e63cb5ecd6ee6f9c3b12e8e62f2d843a3ef698432c336ba35a809dc402c
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice PDF 454263-2023 (ES)
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
   - id: original-source-03
     path: datasets/public-validation-v1/source_artifacts/structured-public-record-medio-ambiente-454263/source-03-ted-notice-detail-454263-2023.html
     role: original_source_snapshot
@@ -78,10 +621,14 @@ evidence_bundle:
     collected_at: '2026-03-20'
     original_filename: 454263-2023.html
     sha256: a5f41567147636e365ea3f6dd9dc81dffa31b419b784d53d52d7c139a489d1d8
-    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
-    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    acquisition_method: Downloaded the original upstream source URL and preserved
+      the response bytes as a local snapshot for offline validation and Hugging Face
+      export.
+    license: See upstream source terms; redistribution status should be verified against
+      the original publisher.
     source_dataset: TED notice detail 454263-2023
-    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+    notes: Original upstream source snapshot preserved alongside the markdownified
+      source document.
 expected_output:
   fields_required:
   - buyer_name
@@ -92,11 +639,18 @@ expected_output:
 answer_key:
   type: structured_fields
   fields:
-    buyer_name: "Secretar\xEDa de Estado de Medio Ambiente"
+    buyer_name: Secretaría de Estado de Medio Ambiente
     supplier_name: WSP SPAIN-APIA S.A.U.
     award_date: '2023-07-20'
     amount: 367658.08
     category_code: '71242000'
 notes:
-- The title is a long river-restoration description, but the exact answer key should return the structured main CPV code 71242000 from the official notice fields.
-- This single-award case keeps the source-language buyer name and the contractor's legal-style capitalization from the XML award block.
+- The title is a long river-restoration description, but the exact answer key should
+  return the structured main CPV code 71242000 from the official notice fields.
+- This single-award case keeps the source-language buyer name and the contractor's
+  legal-style capitalization from the XML award block.
+source_languages:
+- es
+evidence_languages:
+- es
+answer_language: en
