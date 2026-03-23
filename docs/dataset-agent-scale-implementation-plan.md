@@ -12,6 +12,35 @@ Use this as a live checklist. Mark a task complete only when all of its substeps
 - [ ] The autonomous loop can prioritize breadth targets across source families instead of overfilling procurement alone.
 - [ ] Progress reporting stays aligned with live suite counts, targets, and recent run outcomes.
 
+## Throughput Planning Baseline
+
+Record these baseline numbers before changing throttling. Compare future observed throughput against them rather than tuning blindly.
+
+- Baseline date: `2026-03-23`
+- Current suite state: `65` total cases, `60` `validated`, `5` `template`, `0` `gold_candidate`, `0` `gold`
+- Configured ceiling: `12` runs/day, `252` max total runs, `8` max new cases/run
+- Recent observed growth reference: roughly `+60` net cases across `21` net-new growth events, or about `2.9` net cases per growth run
+
+Planning projections:
+
+- `100` total cases: projected `2-6 days`
+  - Fast case: `1-2 days` if the loop keeps finding bounded additions at close to recent net-new pace.
+  - More realistic case: `2-6 days` because weaker source families are harder than the earlier procurement-heavy growth.
+
+- `100` acquisition-stage cases (`harvested` or `draft`): projected `1-3 weeks`
+  - Assumes the loop is intentionally biased toward acquisition volume instead of continuing to harden most cases into `validated`.
+  - If hardening remains mixed into the same run budget, expect the timeline to stretch.
+
+- `100` `gold_candidate` cases: projected `4-10 weeks`
+  - Assumes the loop is explicitly pointed at review-queue preparation rather than general breadth growth.
+  - This is still materially easier than `100` `gold` cases because `gold_candidate` does not require final human signoff.
+
+Use these projections as control targets for throttling changes:
+
+- If observed throughput is materially below the `100 total cases` projection, first inspect run rejection patterns and family-balance constraints before raising raw run caps.
+- If observed throughput for acquisition-stage cases is low, reduce hardening pressure rather than assuming the loop simply needs more runs.
+- If observed throughput for `gold_candidate` cases is low, treat that as a case-preparation/rubric-design bottleneck, not just a throttle problem.
+
 ## Phase 1: Fix Status Visibility And Planning Surfaces
 
 - [x] Align all human-readable status surfaces with the actual suite state.
