@@ -5,37 +5,83 @@ task_type: field_extraction
 answer_mode: exact
 source_family: official_procurement
 source_tier: primary
-target_entity: "TED notice 119076-2020, contract 1"
+target_entity: TED notice 119076-2020, contract 1
 sources:
-  - label: TED notice PDF 119076-2020
-    url: https://ted.europa.eu/en/notice/119076-2020/pdfs
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice HTML 119076-2020
-    url: https://ted.europa.eu/udl?uri=TED:NOTICE:119076-2020:TEXT:EN:HTML
-    checked_on: 2026-03-20
-    provenance: official_portal
+- label: TED notice PDF 119076-2020
+  url: https://ted.europa.eu/en/notice/119076-2020/pdfs
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice HTML 119076-2020
+  url: https://ted.europa.eu/udl?uri=TED:NOTICE:119076-2020:TEXT:EN:HTML
+  checked_on: 2026-03-20
+  provenance: official_portal
 evidence_bundle:
   kind: structured_record
-  content_markdown: "Materialization pending: fetching source content..."
+  content_markdown: "# Sligo County plaza design services contract extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/en/notice/119076-2020/pdfs\n\n## Listed sources\n- TED notice PDF 119076-2020: https://ted.europa.eu/en/notice/119076-2020/pdfs\n- TED notice HTML 119076-2020: https://ted.europa.eu/udl?uri=TED:NOTICE:119076-2020:TEXT:EN:HTML\n\n## Extracted source text\n\n```text\nOJ/S S50\n11/03/2020\n119076-2020-EN\n\nServices - Contract award notice - Open procedure\n\n1/4\n\nThis notice in TED website: https://ted.europa.eu/udl?uri=TED:NOTICE:119076-2020:TEXT:EN:HTML\n\nIreland-Sligo: Architectural, construction, engineering and inspection services\n2020/S 050-119076\nContract award notice\nResults of the procurement procedure\nServices\nLegal Basis:\nDirective 2014/24/EU\nSection I: Contracting authority\nI.1)\nName and addresses\nOfficial name: Sligo County Council\nNational registration number: IE9586690F\nPostal\
+    \ address: County Hall, Riverside\nTown: Sligo\nNUTS code: IE\nCountry: Ireland\nContact person: Brendan Lynch\nE-mail: blynch@sligococo.ie\nTelephone: +353 7191444435\nInternet address(es):\nMain address: http://www.sligococo.ie\nAddress of the buyer profile: https://irl.eu-supply.com/ctm/Company/CompanyInformation/Index/383\nI.2)\n\nInformation about joint procurement\n\nI.4)\n\nType of the contracting authority\nRegional or local authority\n\nI.5)\n\nMain activity\nGeneral public services\n\nSection II: Object\nII.1)\nScope of the procurement\nII.1.1)\n\nTitle:\nLandscape Architectural Led and Project Management Services for Sligo Plaza at Stephen Street and\nGaravogue River Trail Project, Sligo\nReference number: SCC2019/035\n\nII.1.2)\n\nMain CPV code\n71000000\n\nII.1.3)\n\nType of contract\nServices\n\nII.1.4)\n\nShort description:\n\n11/03/2020\nS50\nhttps://ted.europa.eu/\nTED\n\nServices - Contract award notice - Open procedure\nSupplement to the Official Journal of the European\
+    \ Union\n\n1/4\n\nOJ/S S50\n11/03/2020\n119076-2020-EN\n\nServices - Contract award notice - Open procedure\n\n2/4\n\nSligo County Council is seeking the full range of complimentary consultancy design team services to develop\nthe project from review of part 8 planning approval, to securing all necessary statutory consents, to complete\ntender and construction documentation, tender evaluations, inspection of construction works and issue statutory\ncertification on completion.\nThe architect led design team shall provide services below:\n\u2022 architectural and project management services with a background in urban design,\n\u2022 quantity surveying services,\n\u2022 buildings services engineers \u2014 (mechanical and electrical, incl. public lighting design, audio and visual, smart\ncity capability),\n\u2022 civil and structural engineering services,\n\u2022 exhibition/interpretation designer,\n\u2022 PSDP services \u2014 (health and safety),\n\u2022 fire and emergency access safety\
+    \ services.\nII.1.6)\n\nInformation about lots\nThis contract is divided into lots: no\n\nII.1.7)\n\nTotal value of the procurement (excluding VAT)\nValue excluding VAT: 219 000.00 EUR\n\nII.2)\n\nDescription\n\nII.2.1)\n\nTitle:\n\nII.2.2)\n\nAdditional CPV code(s)\n71200000\n71300000\n71400000\n71500000\n\nII.2.3)\n\nPlace of performance\nNUTS code: IE041\nNUTS code: IE\nMain site or place of performance:\nSligo.\n\nII.2.4)\n\nDescription of the procurement:\nSligo County Council is seeking a design team to deliver the plaza as a state of the art, modern civic space with\na linked trail of two lengths. One short trail of 1.5 km within Sligo town and a longer 8.5 km route to Carns Hill.\nThe successful landscape architect led design team will be responsible for detailed design, detailed cost\nestimate, the tender process and construction administration stages of the project. A more detailed description\nof the anticipated project stages is included in the sections below.\nSligo County\
+    \ Council is seeking the full range of complimentary consultancy design team services to develop\nthe project from review of part 8 planning approval, to securing all necessary statutory consents, to complete\ntender and construction documentation, tender evaluations, inspection of construction works and issue statutory\ncertification on completion.\nThe architect led design team shall be proficient in providing a complete service that includes the following\ndisciplines/services:\n\u2022 architectural and project management services with a background in urban design,\n\u2022 quantity surveying services,\n\n11/03/2020\nS50\nhttps://ted.europa.eu/\nTED\n\nServices - Contract award notice - Open procedure\nSupplement to the Official Journal of the European Union\n\n2/4\n\nOJ/S S50\n11/03/2020\n119076-2020-EN\n\nServices - Contract award notice - Open procedure\n\n3/4\n\n\u2022 buildings services engineers \u2013 (mechanical & electrical, incl. public lighting design, audio and visual,\
+    \ smart city\ncapability),\n\u2022 civil and structural engineering services,\n\u2022 exhibition/interpretation designer,\n\u2022 PSDP services \u2013 (health and safety),\n\u2022 fire and emergency access safety services.\nII.2.5)\n\nAward criteria\nQuality criterion - Name: A1 \u2014 design approach / Weighting: 500\nQuality criterion - Name: A2 \u2014 Feasibility / Weighting: 100\nQuality criterion - Name: A3 \u2014 Programme / Weighting: 100\nCost criterion - Name: Price / Weighting: 300\n\nII.2.11)\n\nInformation about options\nOptions: no\n\nII.2.13)\n\nInformation about European Union funds\nThe procurement is related to a project and/or programme financed by European Union funds: no\n\nII.2.14)\n\nAdditional information\nInstructions to bidder\nPlease consult the associated documentation, which contains full instructions regarding the submission of\ntenders in respect of this competition.\n\nSection IV: Procedure\nIV.1)\nDescription\nIV.1.1)\n\nType of procedure\nOpen procedure\n\
+    \nIV.1.3)\n\nInformation about a framework agreement or a dynamic purchasing system\n\nIV.1.6)\n\nInformation about electronic auction\n\nIV.1.8)\n\nInformation about the Government Procurement Agreement (GPA)\nThe procurement is covered by the Government Procurement Agreement: yes\n\nIV.2)\n\nAdministrative information\n\nIV.2.1)\n\nPrevious publication concerning this procedure\nNotice number in the OJ S: 2019/S 227-557214\n\nIV.2.8)\n\nInformation about termination of dynamic purchasing system\n\nIV.2.9)\n\nInformation about termination of call for competition in the form of a prior information notice\n\nSection V: Award of contract\nContract No: 1\nTitle:\nLandscape Architectural Led and Project Management Services for Sligo Plaza at Stephen Street and\nGaravogue River Trail Project, Sligo\nA contract/lot is awarded: yes\nV.2)\n\nAward of contract\n\nV.2.1)\n\nDate of conclusion of the contract:\n05/03/2020\n\nV.2.2)\n\nInformation about tenders\n\n11/03/2020\nS50\nhttps://ted.europa.eu/\n\
+    TED\n\nServices - Contract award notice - Open procedure\nSupplement to the Official Journal of the European Union\n\n3/4\n\nOJ/S S50\n11/03/2020\n119076-2020-EN\n\nServices - Contract award notice - Open procedure\n\n4/4\n\nNumber of tenders received: 1\nNumber of tenders received from SMEs: 0\nNumber of tenders received from tenderers from other EU Member States: 0\nNumber of tenders received from tenderers from non-EU Member States: 0\nNumber of tenders received by electronic means: 1\nThe contract has been awarded to a group of economic operators: no\nV.2.3)\n\nName and address of the contractor\nOfficial name: BDP\nNational registration number: 197668\nPostal address: Blackhall Place\nTown: Dublin 7\nNUTS code: IE\nCountry: Ireland\nE-mail: sarah.lavery@bdp.com\nTelephone: +353 14740650\nInternet address: http://www.bdp.com\nThe contractor is an SME: no\n\nV.2.4)\n\nInformation on value of the contract/lot (excluding VAT)\nInitial estimated total value of the contract/lot: 219 000.00\
+    \ EUR\nTotal value of the contract/lot: 219 000.00 EUR\n\nV.2.5)\n\nInformation about subcontracting\n\nSection VI: Complementary information\nVI.3)\nAdditional information:\nVI.4)\n\nProcedures for review\n\nVI.4.1)\n\nReview body\nOfficial name: High Court of Ireland\nPostal address: Four Courts, Ground Floor, East Wing, Inns Quay\nTown: Dublin 7\nCountry: Ireland\nE-mail: HighCourtCentralOffice@courts.ie\nInternet address: http://www.courts.ie/courts.ie/library3.nsf/\npagecurrent/56F2259BE71F74E180257FB00055003D?opendocument&l=en&p=010\n\nVI.4.2)\n\nBody responsible for mediation procedures\n\nVI.4.3)\n\nReview procedure\nPrecise information on deadline(s) for review procedures:\nAs per SI130 of 2010: European Communities (Public Authorities\u2019 Contracts) (Review Procedures) Regulations\n2010 and SI327 of 2017: European Communities (Public Authorities\u2019 Contracts) (Review Procedures)\n(Amendment) Regulations 2017.\n\nVI.4.4)\n\nService from which information about the review\
+    \ procedure may be obtained\n\nVI.5)\n\nDate of dispatch of this notice:\n06/03/2020\n\n11/03/2020\nS50\nhttps://ted.europa.eu/\nTED\n\nServices - Contract award notice - Open procedure\nSupplement to the Official Journal of the European Union\n\n4/4\n```\n"
   required_artifacts:
-    - source_record_file
-    - source_record_metadata
+  - source_record_file
+  - source_record_metadata
+  artifacts:
+  - id: materialized_source_document
+    path: datasets/public-validation-v1/source_documents/structured-public-record-sligo-county-119076.md
+    role: source_document
+    media_type: text/markdown
+    source_url: https://ted.europa.eu/en/notice/119076-2020/pdfs
+    collected_at: '2026-03-20'
+    original_filename: 119076-2020.pdf
+    sha256: 5d87eedcf539afe0efa86f371723fd14b9b326d2682cf4e446a00f0703b87c43
+    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: 'Case bundle from: TED notice PDF 119076-2020 | TED notice HTML 119076-2020'
+    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+  - id: original-source-01
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-sligo-county-119076/source-01-ted-notice-pdf-119076-2020.pdf
+    role: original_source_snapshot
+    media_type: application/pdf
+    source_url: https://ted.europa.eu/en/notice/119076-2020/pdfs
+    collected_at: '2026-03-20'
+    original_filename: 119076-2020.pdf
+    sha256: ae82ad93ac5e8ec884f0ca66ae6af84e99250225c123db7e906c8cf3ab1aecd5
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice PDF 119076-2020
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-02
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-sligo-county-119076/source-02-ted-notice-html-119076-2020.html
+    role: original_source_snapshot
+    media_type: text/html
+    source_url: https://ted.europa.eu/udl?uri=TED:NOTICE:119076-2020:TEXT:EN:HTML
+    collected_at: '2026-03-20'
+    original_filename: udl.html
+    sha256: 25b011fed5d184ccf6811c28193926280bf70a9f04ab47209bbf6a49bdf2e9b2
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice HTML 119076-2020
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
 expected_output:
   fields_required:
-    - buyer_name
-    - supplier_name
-    - award_date
-    - amount
-    - category_code
+  - buyer_name
+  - supplier_name
+  - award_date
+  - amount
+  - category_code
 answer_key:
   type: structured_fields
   fields:
     buyer_name: Sligo County Council
     supplier_name: BDP
-    award_date: "2020-03-05"
-    amount: 219000.00
-    category_code: "71000000"
+    award_date: '2020-03-05'
+    amount: 219000.0
+    category_code: '71000000'
 notes:
-  - The main CPV code in section II.1.2 is 71000000 even though the notice lists more specific design-service CPVs under II.2.2.
-  - This is a single-tender, no-lot award, so the answer key stays anchored to the sole contractor and the V.2.4 contract value.
+- The main CPV code in section II.1.2 is 71000000 even though the notice lists more specific design-service CPVs under II.2.2.
+- This is a single-tender, no-lot award, so the answer key stays anchored to the sole contractor and the V.2.4 contract value.

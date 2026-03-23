@@ -5,41 +5,95 @@ task_type: field_extraction
 answer_mode: exact
 source_family: official_procurement
 source_tier: primary
-target_entity: "TED notice 100031-2021"
+target_entity: TED notice 100031-2021
 sources:
-  - label: TED notice XML 100031-2021
-    url: https://ted.europa.eu/en/notice/100031-2021/xml
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice PDF 100031-2021 (HR)
-    url: https://ted.europa.eu/hr/notice/100031-2021/pdfs
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice detail 100031-2021
-    url: https://ted.europa.eu/en/notice/-/detail/100031-2021
-    checked_on: 2026-03-20
-    provenance: official_portal
+- label: TED notice XML 100031-2021
+  url: https://ted.europa.eu/en/notice/100031-2021/xml
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice PDF 100031-2021 (HR)
+  url: https://ted.europa.eu/hr/notice/100031-2021/pdfs
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice detail 100031-2021
+  url: https://ted.europa.eu/en/notice/-/detail/100031-2021
+  checked_on: 2026-03-20
+  provenance: official_portal
 evidence_bundle:
   kind: structured_record
-  content_markdown: "Materialization pending: fetching source content..."
+  content_markdown: "# HRT archiving services contract extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/hr/notice/100031-2021/pdfs\n\n## Listed sources\n- TED notice XML 100031-2021: https://ted.europa.eu/en/notice/100031-2021/xml\n- TED notice PDF 100031-2021 (HR): https://ted.europa.eu/hr/notice/100031-2021/pdfs\n- TED notice detail 100031-2021: https://ted.europa.eu/en/notice/-/detail/100031-2021\n\n## Extracted source text\n\n```text\nSL/S S40\n26/02/2021\n100031-2021-HR\n\n1/3\n\nOva obavijest na internetskoj stranici TED: https://ted.europa.eu/udl?uri=TED:NOTICE:100031-2021:TEXT:HR:HTML\n\nHrvatska-Zagreb: Usluge arhiviranja\n2021/S 040-100031\nObavijest o dodjeli ugovora\nRezultati postupka nabave\nUsluge\nPravna osnova:\nDirektiva 2014/24/EU\nOdjeljak I: Javni naru\u010Ditelj\nI.1)\nNaziv i adrese\nSlu\u017Ebeni naziv: Hrvatska radiotelevizija, javna ustanova\nNacionalni registracijski broj: 68419124305\nPo\u0161\
+    tanska adresa: Prisavlje 3\nMjesto: Zagreb\nNUTS kod: HR0 HRVATSKA\nPo\u0161tanski broj: 10000\nDr\u017Eava: Hrvatska\nOsoba za kontakt: Vlatka Juzba\u0161i\u0107\nE-po\u0161ta: vlatka.juzbasic@hrt.hr\nTelefon: +385 16342839\nTelefaks: +385 16343831\nInternetska(-e) adresa(-e):\nGlavna adresa: www.hrt.hr\nAdresa profila kupca: www.hrt.hr\nI.4)\n\nVrsta javnog naru\u010Ditelja\nTijelo kojime se upravlja na temelju javnog prava\n\nI.5)\n\nGlavna djelatnost\nDruga djelatnost: Proizvodnja i emitiranje radijskog i televizijskog programa te glazbena proizvodnja\n\nOdjeljak II: Predmet\nII.1)\nOpseg nabave\nII.1.1)\n\nNaziv:\nDigitalizacija papirne ba\u0161tine\nReferentni broj: VV-12/21\n\nII.1.2)\n\nGlavna CPV oznaka\n79995100 Usluge arhiviranja\n\nII.1.3)\n\nVrsta ugovora\nUsluge\n\nII.1.4)\n\nKratak opis:\nDigitalizacija papirne ba\u0161tine,\n\nII.1.6)\n\nPodaci o grupama\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n1/3\n\nSL/S S40\n26/02/2021\n100031-2021-HR\n\n2/3\n\nOvaj ugovor\
+    \ podijeljen je na grupe: ne\nII.1.7)\n\nUkupna vrijednost nabave (bez PDV-a)\nVrijednost bez PDV-a: 1 863 800.00 HRK\n\nII.2)\n\nOpis\n\nII.2.2)\n\nDodatne \u0161ifre CPV-a\n79995100 Usluge arhiviranja\n\nII.2.3)\n\nMjesto izvr\u0161enja\nNUTS kod: HR0 HRVATSKA\n\nII.2.4)\n\nOpis nabave:\nDigitalizacija papirne ba\u0161tine,\n\nII.2.5)\n\nKriteriji za dodjelu\nKriterij kvalitete - Naziv: DON / Ponder: DON\nCijena - Ponder: Cijena\n\nII.2.11)\n\nPodaci o opcijama\nOpcije: ne\n\nII.2.13)\n\nPodaci o fondovima Europske unije\nNabava je povezana s projektom i/ili programom koji se financira iz fondova Europske unije: ne\n\nII.2.14)\n\nDodatni podaci\n\nOdjeljak IV: Postupak\nIV.1)\nOpis\nIV.1.1)\n\nVrsta postupka\nOtvoreni postupak\n\nIV.1.3)\n\nPodaci o okvirnom sporazumu ili dinami\u010Dkom sustavu nabave\n\nIV.1.8)\n\nPodaci o Sporazumu o javnoj nabavi (GPA)\nNabava je obuhva\u0107ena Sporazumom o javnoj nabavi: ne\n\nIV.2)\n\nAdministrativni podaci\n\nIV.2.1)\n\nPrethodna objava povezana\
+    \ s ovim postupkom\nBroj objave u Dodatku SL-u: 2020/S 192-463295\n\nIV.2.8)\n\nPodaci o prekidu dinami\u010Dkog sustava nabave\n\nIV.2.9)\n\nPodaci o ukidanju poziva na nadmetanje u obliku prethodne informacijske obavijesti\n\nOdjeljak V: Dodjela ugovora\nNaziv:\nDigitalizacija papirne ba\u0161tine\nUgovor/grupa je dodijeljen(a): da\nV.2)\n\nDodjela ugovora\n\nV.2.1)\n\nDatum sklapanja ugovora :\n22/01/2021\n\nV.2.2)\n\nPodaci o ponudama\nBroj zaprimljenih ponuda: 1\nBroj zaprimljenih ponuda od MSP-ova: 0\nBroj zaprimljenih ponuda od ponuditelja iz drugih dr\u017Eava \u010Dlanica EU-a: 0\nBroj zaprimljenih ponuda od ponuditelja iz dr\u017Eava koje nisu \u010Dlanice EU-a: 0\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n2/3\n\nSL/S S40\n26/02/2021\n100031-2021-HR\n\n3/3\n\nBroj ponuda zaprimljenih elektroni\u010Dkim sredstvima: 1\nUgovor je dodijeljen skupini gospodarskih subjekata: da\nV.2.3)\n\nNaziv i adresa ugovaratelja\nSlu\u017Ebeni naziv: Scan d.o.o.\nNacionalni registracijski\
+    \ broj: 51128082595\nPo\u0161tanska adresa: Podoto\u010Dje Gornje 58/A\nMjesto: Velika Gorica\nNUTS kod: HR HRVATSKA\nPo\u0161tanski broj: 10419\nDr\u017Eava: Hrvatska\nE-po\u0161ta: scan@scan-arhiva.hr\nTelefon: +385 917952535\nUgovaratelj je malo ili srednje poduze\u0107e.: da\n\nV.2.3)\n\nNaziv i adresa ugovaratelja\nSlu\u017Ebeni naziv: Financijska agencija\nNacionalni registracijski broj: 85821130368\nPo\u0161tanska adresa: Ulica grada Vukovara 70\nMjesto: Zagreb\nNUTS kod: HR HRVATSKA\nPo\u0161tanski broj: 10000\nDr\u017Eava: Hrvatska\nE-po\u0161ta: sanja.miscevic@fina.hr\nTelefon: +385 16128068\nTelefaks: +385 16304256\nUgovaratelj je malo ili srednje poduze\u0107e.: ne\n\nV.2.4)\n\nPodaci o vrijednosti ugovora/grupe (bez PDV-a)\nPo\u010Detna procijenjena ukupna vrijednost ugovora/grupe: 1 900 000.00 HRK\nUkupna vrijednost ugovora/grupe: 1 863 800.00 HRK\n\nV.2.5)\n\nPodaci o podugovaranju\n\nOdjeljak VI: Dopunski podaci\nVI.3)\nDodatni podaci:\nVI.4)\n\nPostupci pravne za\u0161\
+    tite\n\nVI.4.1)\n\nTijelo nadle\u017Eno za postupak pravne za\u0161tite\nSlu\u017Ebeni naziv: Dr\u017Eavna komisija za kontrolu postupaka javne nabave\nPo\u0161tanska adresa: Kotura\u0161ka cesta 43/IV\nMjesto: Zagreb\nPo\u0161tanski broj: 10000\nDr\u017Eava: Hrvatska\nE-po\u0161ta: dkom@dkom.hr\nTelefon: +385 14559930\nTelefaks: +385 14559933\nInternetska adresa: www.dkom.hr\n\nVI.5)\n\nDatum slanja ove obavijesti:\n22/02/2021\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n3/3\n```\n"
   required_artifacts:
-    - source_record_file
-    - source_record_metadata
+  - source_record_file
+  - source_record_metadata
+  artifacts:
+  - id: materialized_source_document
+    path: datasets/public-validation-v1/source_documents/structured-public-record-hrt-100031.md
+    role: source_document
+    media_type: text/markdown
+    source_url: https://ted.europa.eu/en/notice/100031-2021/xml
+    collected_at: '2026-03-20'
+    original_filename: 100031-2021.xml
+    sha256: 808a2ca366a27574971d3eb98ae39cd8d4b0491fee38d2d010da279fdb0de0b1
+    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: 'Case bundle from: TED notice XML 100031-2021 | TED notice PDF 100031-2021 (HR) | TED notice detail 100031-2021'
+    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+  - id: original-source-01
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-hrt-100031/source-01-ted-notice-xml-100031-2021.xml
+    role: original_source_snapshot
+    media_type: application/xml
+    source_url: https://ted.europa.eu/en/notice/100031-2021/xml
+    collected_at: '2026-03-20'
+    original_filename: 100031-2021.xml
+    sha256: 0eb2ec4c4501cd0e05fb0727cd92446f36b036251284be97e138f275cb39539a
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice XML 100031-2021
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-02
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-hrt-100031/source-02-ted-notice-pdf-100031-2021-hr.pdf
+    role: original_source_snapshot
+    media_type: application/pdf
+    source_url: https://ted.europa.eu/hr/notice/100031-2021/pdfs
+    collected_at: '2026-03-20'
+    original_filename: 100031-2021.pdf
+    sha256: 528e558102172ee415dc9171063f57c4873f2f3b67906ebb5125775efc1c5e3c
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice PDF 100031-2021 (HR)
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-03
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-hrt-100031/source-03-ted-notice-detail-100031-2021.html
+    role: original_source_snapshot
+    media_type: text/html
+    source_url: https://ted.europa.eu/en/notice/-/detail/100031-2021
+    collected_at: '2026-03-20'
+    original_filename: 100031-2021.html
+    sha256: af1b4f4b4d6c78336d89bdbb961e6f84441aaa09b52d5e3e5868271d9d0363d4
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice detail 100031-2021
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
 expected_output:
   fields_required:
-    - buyer_name
-    - supplier_name
-    - award_date
-    - amount
-    - category_code
+  - buyer_name
+  - supplier_name
+  - award_date
+  - amount
+  - category_code
 answer_key:
   type: structured_fields
   fields:
-    buyer_name: "Hrvatska radiotelevizija, javna ustanova"
+    buyer_name: Hrvatska radiotelevizija, javna ustanova
     supplier_name: Scan d.o.o.
-    award_date: "2021-01-22"
-    amount: 1863800.00
-    category_code: "79995100"
+    award_date: '2021-01-22'
+    amount: 1863800.0
+    category_code: '79995100'
 notes:
-  - This Croatian award notice is a clean single-supplier case with one contract conclusion date and one awarded total in the XML.
-  - The amount is published in Croatian kuna, so the extraction target is the official numeric award figure rather than any converted euro estimate.
+- This Croatian award notice is a clean single-supplier case with one contract conclusion date and one awarded total in the XML.
+- The amount is published in Croatian kuna, so the extraction target is the official numeric award figure rather than any converted euro estimate.

@@ -1,0 +1,306 @@
+# Slovak cardiac institute laundry services contract extraction
+
+Collected from the official TED procurement PDF on 2026-03-20.
+
+Primary source URL: https://ted.europa.eu/sk/notice/100047-2021/pdfs
+
+## Listed sources
+- TED notice XML 100047-2021: https://ted.europa.eu/en/notice/100047-2021/xml
+- TED notice PDF 100047-2021 (SK): https://ted.europa.eu/sk/notice/100047-2021/pdfs
+- TED notice detail 100047-2021: https://ted.europa.eu/en/notice/-/detail/100047-2021
+
+## Extracted source text
+
+```text
+Ú. v. EÚ/S S40
+26/02/2021
+100047-2021-SK
+
+1/4
+
+Toto oznámenie na webovej stránke TED: https://ted.europa.eu/udl?uri=TED:NOTICE:100047-2021:TEXT:SK:HTML
+
+Slovensko-Banská Bystrica: Pranie a chemické čistenie
+2021/S 040-100047
+Oznámenie o výsledku verejného obstarávania
+Výsledky verejného obstarávania
+Služby
+Právny základ:
+Smernica 2014/24/EÚ
+Oddiel I: Verejný obstarávateľ
+I.1)
+Názov a adresy
+Úradný názov: Stredoslovenský ústav srdcových a cievnych chorôb, a.s.
+Identifikačné číslo organizácie (IČO): 36644331
+Poštová adresa: Cesta k nemocnici 1
+Mesto/obec: Banská Bystrica
+Kód NUTS: SK032 Banskobystrický kraj
+PSČ: 974 01
+Štát: Slovensko
+Kontaktná osoba: František Keruľ
+E-mail: logtrade@logtrade.sk
+Telefón: +421 907225966
+Internetová adresa (internetové adresy):
+Hlavná adresa: http://www.suscch.eu
+Adresa stránky profilu kupujúceho: http://www.uvo.gov.sk/vyhladavanie-profilov/zakazky/9395
+I.4)
+
+Druh verejného obstarávateľa
+Organizácia riadená verejným právom
+
+I.5)
+
+Hlavná činnosť
+Zdravotníctvo
+
+Oddiel II: Predmet
+II.1)
+Rozsah obstarávania
+II.1.1)
+
+Názov:
+Komplexné služby prania bielizne
+Referenčné číslo: SUSCCH-2020-NZ-pranie
+
+II.1.2)
+
+Hlavný kód CPV
+98310000 Pranie a chemické čistenie
+
+II.1.3)
+
+Druh zákazky
+Služby
+
+II.1.4)
+
+Stručný opis:
+
+26/02/2021
+S40
+https://ted.europa.eu/TED
+
+1/4
+
+Ú. v. EÚ/S S40
+26/02/2021
+100047-2021-SK
+
+2/4
+
+Predmetom zákazky je poskytovanie komplexných služieb prania, dezinfekcie, bielenia, žehlenia, triedenia,
+drobných opráv bielizne, preberanie znečistenej bielizne a odovzdávanie čistej bielizne.
+Podrobná špecifikácia rozsahu predmetu zákazky je uvedená v prílohe č. 3 súťažných podkladov, požadované
+množstvo stravných jednotiek je uvedené v prílohe č. 2 súťažných podkladov.
+II.1.6)
+
+Informácie o častiach
+Táto zákazka sa delí na časti: nie
+
+II.1.7)
+
+Celková hodnota obstarávania (bez DPH)
+Hodnota bez DPH: 362 664.00 EUR
+
+II.2)
+
+Opis
+
+II.2.3)
+
+Miesto vykonania
+Kód NUTS: SK032 Banskobystrický kraj
+Hlavné miesto dodania alebo plnenia:
+Stredoslovenský ústav srdcových a cievnych chorôb a. s., Cesta k nemocnici č. 1, 974 01 Banská Bystrica,
+Slovenská republika.
+
+II.2.4)
+
+Opis obstarávania:
+1.Predmet zákazky: pranie, dezinfekcia, bielenie, žehlenie, triedenie, oprava pozostáva z:
+a) pranie s profesionálnymi pracími a pomocnými prostriedkami,
+b) čistenie, dezinfekciu a bielenie bielizne posteľnej, bielizne pre zdravotnícky a nezdravotnícky personál,
+ochranných pracovných prostriedkov a ostatnej bielizne (ďalej len bielizeň) s tým, že bude dosiahnuté optimálne
+pH (nealergizujúce pokožku) vypranej bielizne,
+c) žehlenie,
+d) kompletnú manipuláciu s bielizňou, t. j. fyzické prevzatie použitej bielizne z miesta dodania a fyzické
+odovzdanie vypranej bielizne zodpovedným pracovníkom na mieste dodania,
+e) triedenie, viazanie a balenie vyčistenej bielizne podľa potrieb a požiadaviek Objednávateľa do obalov,
+f) automatické opravy bielizne (pozostávajúcej najmä z našitia chýbajúcich gombíkov, opravy gombíkových
+dierok, našitie krepovej šnúrky, výmeny poškodenej gumy v nohaviciach, obšitie poškodenej bielizne, oprava
+osobných ochranných pracovných prostriedkov, obšitie paplónov, vankúšov a ostatné bežné opravy),
+g) dezinfekcia matracov najmenej dvakrát ročne,
+h) Neopraviteľná bielizeň bude zabalená do samostatného balíka a označená príslušným oddelením.
+Predpokladané množstvo bielizne: denne cca 270 kg
+
+II.2.5)
+
+Kritériá na vyhodnotenie ponúk
+Cena
+
+II.2.11)
+
+Informácie o opciách
+Opcie: nie
+
+II.2.13)
+
+Informácie o fondoch Európskej únie
+Obstarávanie sa týka projektu a/alebo programu financovaného z fondov Európskej únie: nie
+
+II.2.14)
+
+Doplňujúce informácie
+
+Oddiel IV: Postup
+IV.1)
+Opis
+IV.1.1)
+
+Druh postupu
+Verejná súťaž
+
+IV.1.3)
+
+Informácie o rámcovej dohode alebo dynamickom nákupnom systéme
+Obstarávanie zahŕňa uzavretie rámcovej dohody
+
+IV.1.8)
+
+Informácie o dohode o vládnom obstarávaní (GPA)
+
+26/02/2021
+S40
+https://ted.europa.eu/TED
+
+2/4
+
+Ú. v. EÚ/S S40
+26/02/2021
+100047-2021-SK
+
+3/4
+
+Na toto obstarávanie sa vzťahuje dohoda o vládnom obstarávaní: áno
+IV.2)
+
+Administratívne informácie
+
+IV.2.1)
+
+Predchádzajúce uverejnenie týkajúce sa tohto obstarávacieho konania
+Číslo oznámenia v Ú. v. EÚ: 2020/S 244-604823
+
+IV.2.8)
+
+Informácie o ukončení dynamického nákupného systému
+
+IV.2.9)
+
+Informácie o ukončení výzvy na súťaž vo forme predbežného oznámenia
+Verejný obstarávateľ nezadá žiadne ďalšie zákazky na základe vyššie uvedeného predbežného oznámenia
+
+Oddiel V: Zadanie zákazky
+Názov:
+Zmluva o poskytovaní služieb
+Zákazka/časť je pridelená: áno
+V.2)
+
+Zadanie zákazky
+
+V.2.1)
+
+Dátum uzatvorenia zmluvy:
+22/02/2021
+
+V.2.2)
+
+Informácie o ponukách
+Počet prijatých ponúk: 3
+Počet ponúk doručených od malých a stredných podnikov: 3
+Počet ponúk doručených od uchádzačov z iných členských štátov EÚ: 0
+Počet ponúk doručených od uchádzačov zo štátov, ktoré nie sú členmi EÚ: 0
+Počet ponúk prijatých elektronicky: 3
+Zákazka bola pridelená skupine hospodárskych subjektov: nie
+
+V.2.3)
+
+Názov a adresa dodávateľa
+Úradný názov: Lavaton s.r.o.
+Identifikačné číslo organizácie (IČO): 36244848
+Poštová adresa: Bulharská 44
+Mesto/obec: Trnava
+Kód NUTS: SK021 Trnavský kraj
+PSČ: 917 00
+Štát: Slovensko
+E-mail: info@lavaton.sk
+Telefón: +421 905243922
+Internetová adresa: www.lavaton.sk
+Dodávateľom je MSP: áno
+
+V.2.4)
+
+Informácie o hodnote zákazky/časti (bez DPH)
+Pôvodná predpokladaná celková hodnota zákazky/časti: 431 430.00 EUR
+Celková hodnota zákazky/časti: 362 664.00 EUR
+
+V.2.5)
+
+Informácie o subdodávkach
+
+Oddiel VI: Doplnkové informácie
+VI.3)
+Doplňujúce informácie:
+Predmetné verejné obstarávanie nie je zeleným verejným obstarávaním, ani obstarávaním inovácií, nie je ani
+obstarávaním zameraným na sociálne aspekty.
+VI.4)
+
+Postupy preskúmania
+
+VI.4.1)
+
+Orgán zodpovedný za preskúmanie
+
+26/02/2021
+S40
+https://ted.europa.eu/TED
+
+3/4
+
+Ú. v. EÚ/S S40
+26/02/2021
+100047-2021-SK
+
+4/4
+
+Úradný názov: Úrad pre verejné obstarávanie
+Poštová adresa: Ružová dolina 10, P.O.Box 98
+Mesto/obec: Bratislava
+PSČ: 820 05
+Štát: Slovensko
+Telefón: +421 250264176
+Fax: +421 250264219
+Internetová adresa: http://www.uvo.gov.sk
+VI.4.4)
+
+Útvar, od ktorého možno získať informácie o postupe preskúmania
+Úradný názov: Úrad pre verejné obstarávanie
+Poštová adresa: Ružová dolina 10, P.O.Box 98
+Mesto/obec: Bratislava
+PSČ: 820 05
+Štát: Slovensko
+Telefón: +421 250264176
+Fax: +421 250264219
+Internetová adresa: http://www.uvo.gov.sk
+
+VI.5)
+
+Dátum odoslania tohto oznámenia:
+23/02/2021
+
+26/02/2021
+S40
+https://ted.europa.eu/TED
+
+4/4
+```

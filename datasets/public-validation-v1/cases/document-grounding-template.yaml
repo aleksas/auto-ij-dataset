@@ -5,27 +5,43 @@ task_type: citation_grounding
 answer_mode: mixed
 source_family: public_documents_with_metadata
 source_tier: primary
-target_entity: "<fill document or dossier>"
+target_entity: <fill document or dossier>
 sources:
-  - label: DocumentCloud public documents
-    url: https://www.documentcloud.org/
-    checked_on: 2026-03-18
-    provenance: public_document_collection
+- label: DocumentCloud public documents
+  url: https://www.documentcloud.org/
+  checked_on: 2026-03-18
+  provenance: public_document_collection
 evidence_bundle:
   kind: document_plus_metadata
+  content_markdown: |
+    # <Source Document Markdown Here>
+    (Inline the document text here so the dataset always carries a materialized source document.)
   required_artifacts:
-    - source_document
-    - attached_metadata
+  - source_document
+  - attached_metadata
+  artifacts:
+  - id: materialized_source_document
+    path: datasets/public-validation-v1/source_documents/document-grounding-template.md
+    role: source_document
+    media_type: text/markdown
+    source_url: https://www.documentcloud.org/
+    collected_at: '2026-03-18'
+    original_filename: document-grounding-template.md
+    sha256: f01dd4ad464128f54930cebbb861db6b491abdedb42930f02b10e32b9873d78e
+    acquisition_method: Download the public source document and attached metadata from the listed collection, then preserve the relevant content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: DocumentCloud public documents
+    notes: Checked-in markdown source document used for local validation and Hugging Face export. Derived from the cited upstream source material recorded in sources[].
 expected_output:
   fields_required:
-    - cited_claim
-    - citation_location
-    - source_url
+  - cited_claim
+  - citation_location
+  - source_url
 answer_key:
   type: metadata_backed
   required_matches:
-    - metadata_to_document_consistency
-    - claim_to_passage_consistency
+  - metadata_to_document_consistency
+  - claim_to_passage_consistency
 rubric: ../../../rubrics/citation-grounding.md
 notes:
-  - Use source-file content together with metadata to test citation grounding and restraint.
+- Use source-file content together with metadata to test citation grounding and restraint.

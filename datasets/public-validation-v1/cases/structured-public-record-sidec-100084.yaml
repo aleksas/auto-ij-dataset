@@ -5,41 +5,95 @@ task_type: field_extraction
 answer_mode: exact
 source_family: official_procurement
 source_tier: primary
-target_entity: "TED notice 100084-2021, reference 2001955"
+target_entity: TED notice 100084-2021, reference 2001955
 sources:
-  - label: TED notice XML 100084-2021
-    url: https://ted.europa.eu/en/notice/100084-2021/xml
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice PDF 100084-2021 (FR)
-    url: https://ted.europa.eu/fr/notice/100084-2021/pdfs
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice detail 100084-2021
-    url: https://ted.europa.eu/en/notice/-/detail/100084-2021
-    checked_on: 2026-03-20
-    provenance: official_portal
+- label: TED notice XML 100084-2021
+  url: https://ted.europa.eu/en/notice/100084-2021/xml
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice PDF 100084-2021 (FR)
+  url: https://ted.europa.eu/fr/notice/100084-2021/pdfs
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice detail 100084-2021
+  url: https://ted.europa.eu/en/notice/-/detail/100084-2021
+  checked_on: 2026-03-20
+  provenance: official_portal
 evidence_bundle:
   kind: structured_record
-  content_markdown: "Materialization pending: fetching source content..."
+  content_markdown: "# SIDEC Diekirch household waste collection contract extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/fr/notice/100084-2021/pdfs\n\n## Listed sources\n- TED notice XML 100084-2021: https://ted.europa.eu/en/notice/100084-2021/xml\n- TED notice PDF 100084-2021 (FR): https://ted.europa.eu/fr/notice/100084-2021/pdfs\n- TED notice detail 100084-2021: https://ted.europa.eu/en/notice/-/detail/100084-2021\n\n## Extracted source text\n\n```text\nJO/S S40\n26/02/2021\n100084-2021-FR\n\n1/3\n\nCet avis sur le site TED: https://ted.europa.eu/udl?uri=TED:NOTICE:100084-2021:TEXT:FR:HTML\n\nLuxembourg-Diekirch: Services de collecte des ordures m\xE9nag\xE8res\n2021/S 040-100084\nAvis d\u2019attribution de march\xE9\nR\xE9sultats de la proc\xE9dure de march\xE9\nServices\nBase juridique:\nDirective 2014/24/UE\nSection I: Pouvoir adjudicateur\nI.1)\nNom et adresses\nNom officiel: SIDEC\nAdresse postale: Fridhaff\n\
+    Ville: Diekirch\nCode NUTS: LU LUXEMBOURG\nCode postal: L-9378\nPays: Luxembourg\nPoint(s) de contact: Service technique\nCourriel: sidec@pt.lu\nAdresse(s) internet:\nAdresse principale: http://www.sidec.lu\nI.4)\n\nType de pouvoir adjudicateur\nMinist\xE8re ou toute autre autorit\xE9 nationale ou f\xE9d\xE9rale, y compris leurs subdivisions r\xE9gionales ou locales\n\nI.5)\n\nActivit\xE9 principale\nAutre activit\xE9: Gestion des d\xE9chets\n\nSection II: Objet\nII.1)\n\xC9tendue du march\xE9\nII.1.1)\n\nIntitul\xE9:\nVidage poubelles d\xE9chets m\xE9nagers \u2014 porte-\xE0-porte \u2014 zone de Diekirch\nNum\xE9ro de r\xE9f\xE9rence: 2001955\n\nII.1.2)\n\nCode CPV principal\n90511200 Services de collecte des ordures m\xE9nag\xE8res\n\nII.1.3)\n\nType de march\xE9\nServices\n\nII.1.4)\n\nDescription succincte:\nSoumission pour le vidage de poubelles \xE0 deux roues destin\xE9es \xE0 la collecte de porte-\xE0-porte de d\xE9chets\nm\xE9nagers dans le zone de collecte de Diekirch.\n\n\
+    II.1.6)\n\nInformation sur les lots\nCe march\xE9 est divis\xE9 en lots: non\n\nII.1.7)\n\nValeur totale du march\xE9 (hors TVA)\nValeur hors TVA: 853 425.97 EUR\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n1/3\n\nJO/S S40\n26/02/2021\n100084-2021-FR\n\nII.2)\n\nDescription\n\nII.2.2)\n\nCode(s) CPV additionnel(s)\n90511200 Services de collecte des ordures m\xE9nag\xE8res\n\nII.2.3)\n\nLieu d'ex\xE9cution\nCode NUTS: LU LUXEMBOURG\n\nII.2.4)\n\nDescription des prestations:\nSoumission pour le vidage de poubelles \xE0 deux roues destin\xE9es \xE0 la collecte de porte-\xE0-porte de d\xE9chets\nm\xE9nagers dans le zone de collecte de Diekirch.\n\nII.2.5)\n\nCrit\xE8res d\u2019attribution\nPrix\n\nII.2.11)\n\nInformation sur les options\nOptions: non\n\nII.2.13)\n\nInformation sur les fonds de l'Union europ\xE9enne\nLe contrat s'inscrit dans un projet/programme financ\xE9 par des fonds de l'Union europ\xE9enne: non\n\nII.2.14)\n\nInformations compl\xE9mentaires\n\n2/3\n\nSection IV:\
+    \ Proc\xE9dure\nIV.1)\nDescription\nIV.1.1)\n\nType de proc\xE9dure\nProc\xE9dure ouverte\n\nIV.1.3)\n\nInformation sur l'accord-cadre ou le syst\xE8me d'acquisition dynamique\n\nIV.1.8)\n\nInformation concernant l\u2019accord sur les march\xE9s publics (AMP)\nLe march\xE9 est couvert par l'accord sur les march\xE9s publics: non\n\nIV.2)\n\nRenseignements d'ordre administratif\n\nIV.2.1)\n\nPublication ant\xE9rieure relative \xE0 la pr\xE9sente proc\xE9dure\nNum\xE9ro de l'avis au JO s\xE9rie S: 2020/S 228-561854\n\nIV.2.8)\n\nInformations sur l'abandon du syst\xE8me d'acquisition dynamique\n\nIV.2.9)\n\nInformations sur l'abandon de la proc\xE9dure d'appel \xE0 la concurrence sous la forme d'un avis de\npr\xE9information\n\nSection V: Attribution du march\xE9\nMarch\xE9 n\xBA: 1\nIntitul\xE9:\nOsch et Fils\nUn march\xE9/lot est attribu\xE9: oui\nV.2)\n\nAttribution du march\xE9\n\nV.2.1)\n\nDate de conclusion du march\xE9:\n04/01/2021\n\nV.2.2)\n\nInformations sur les offres\nNombre\
+    \ d'offres re\xE7ues: 2\nNombre d'offres re\xE7ues de la part de PME: 2\nNombre d'offres re\xE7ues de la part de soumissionnaires d'autres \xC9tats membres de l'UE: 2\nNombre d'offres re\xE7ues par voie \xE9lectronique: 2\nLe march\xE9 a \xE9t\xE9 attribu\xE9 \xE0 un groupement d'op\xE9rateurs \xE9conomiques: non\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n2/3\n\nJO/S S40\n26/02/2021\n100084-2021-FR\n\nV.2.3)\n\nNom et adresse du titulaire\nNom officiel: Osch et Fils\nAdresse postale: 7, rue de la Gare\nVille: Vianden\nCode NUTS: LU LUXEMBOURG\nCode postal: L-9420\nPays: Luxembourg\nLe titulaire est une PME: oui\n\nV.2.4)\n\nInformations sur le montant du march\xE9/du lot (hors TVA)\nValeur totale du march\xE9/du lot: 853 425.97 EUR\n\nV.2.5)\n\nInformation sur la sous-traitance\n\n3/3\n\nSection VI: Renseignements compl\xE9mentaires\nVI.3)\nInformations compl\xE9mentaires:\nVI.4)\n\nProc\xE9dures de recours\n\nVI.4.1)\n\nInstance charg\xE9e des proc\xE9dures de recours\nNom officiel:\
+    \ Juridictions administratives\nVille: Luxembourg\nPays: Luxembourg\n\nVI.5)\n\nDate d\u2019envoi du pr\xE9sent avis:\n23/02/2021\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n3/3\n```\n"
   required_artifacts:
-    - source_record_file
-    - source_record_metadata
+  - source_record_file
+  - source_record_metadata
+  artifacts:
+  - id: materialized_source_document
+    path: datasets/public-validation-v1/source_documents/structured-public-record-sidec-100084.md
+    role: source_document
+    media_type: text/markdown
+    source_url: https://ted.europa.eu/en/notice/100084-2021/xml
+    collected_at: '2026-03-20'
+    original_filename: 100084-2021.xml
+    sha256: 848e030151b1b7fb63e9a2e7dc640c6d808ab3f1002bb52e32c2cc68911f501f
+    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: 'Case bundle from: TED notice XML 100084-2021 | TED notice PDF 100084-2021 (FR) | TED notice detail 100084-2021'
+    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+  - id: original-source-01
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-sidec-100084/source-01-ted-notice-xml-100084-2021.xml
+    role: original_source_snapshot
+    media_type: application/xml
+    source_url: https://ted.europa.eu/en/notice/100084-2021/xml
+    collected_at: '2026-03-20'
+    original_filename: 100084-2021.xml
+    sha256: 4c881ea2f83f4eb5eed69623bb2e037e0ae52a85862a6f2f45c8ade288aa22f5
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice XML 100084-2021
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-02
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-sidec-100084/source-02-ted-notice-pdf-100084-2021-fr.pdf
+    role: original_source_snapshot
+    media_type: application/pdf
+    source_url: https://ted.europa.eu/fr/notice/100084-2021/pdfs
+    collected_at: '2026-03-20'
+    original_filename: 100084-2021.pdf
+    sha256: c0e4846f833aa0252c282fa60fc53570171fdd80c2e44aac1d1182e6dce7377c
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice PDF 100084-2021 (FR)
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-03
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-sidec-100084/source-03-ted-notice-detail-100084-2021.html
+    role: original_source_snapshot
+    media_type: text/html
+    source_url: https://ted.europa.eu/en/notice/-/detail/100084-2021
+    collected_at: '2026-03-20'
+    original_filename: 100084-2021.html
+    sha256: 939cb1bcfb0043225a6a116b578c09bf01cd6a9a276c5e4d7e2901b00f8f3483
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice detail 100084-2021
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
 expected_output:
   fields_required:
-    - buyer_name
-    - supplier_name
-    - award_date
-    - amount
-    - category_code
+  - buyer_name
+  - supplier_name
+  - award_date
+  - amount
+  - category_code
 answer_key:
   type: structured_fields
   fields:
     buyer_name: SIDEC
     supplier_name: Osch et Fils
-    award_date: "2021-01-04"
+    award_date: '2021-01-04'
     amount: 853425.97
-    category_code: "90511200"
+    category_code: '90511200'
 notes:
-  - This Luxembourg case extends the suite beyond the current country coverage while keeping the same official TED XML plus PDF provenance pattern.
-  - The narrative text is in French, but the exact answer key still comes from the published buyer, winner, contract date, value, and main CPV fields.
+- This Luxembourg case extends the suite beyond the current country coverage while keeping the same official TED XML plus PDF provenance pattern.
+- The narrative text is in French, but the exact answer key still comes from the published buyer, winner, contract date, value, and main CPV fields.

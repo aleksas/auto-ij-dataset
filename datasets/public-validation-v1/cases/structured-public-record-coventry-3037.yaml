@@ -5,37 +5,79 @@ task_type: field_extraction
 answer_mode: exact
 source_family: official_procurement
 source_tier: primary
-target_entity: "TED notice 3037-2020"
+target_entity: TED notice 3037-2020
 sources:
-  - label: TED notice PDF 3037-2020
-    url: https://ted.europa.eu/en/notice/3037-2020/pdfs
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice HTML 3037-2020
-    url: https://ted.europa.eu/udl?uri=TED:NOTICE:3037-2020:TEXT:EN:HTML
-    checked_on: 2026-03-20
-    provenance: official_portal
+- label: TED notice PDF 3037-2020
+  url: https://ted.europa.eu/en/notice/3037-2020/pdfs
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice HTML 3037-2020
+  url: https://ted.europa.eu/udl?uri=TED:NOTICE:3037-2020:TEXT:EN:HTML
+  checked_on: 2026-03-20
+  provenance: official_portal
 evidence_bundle:
   kind: structured_record
-  content_markdown: "Materialization pending: fetching source content..."
+  content_markdown: "# Coventry timber street furniture framework extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/en/notice/3037-2020/pdfs\n\n## Listed sources\n- TED notice PDF 3037-2020: https://ted.europa.eu/en/notice/3037-2020/pdfs\n- TED notice HTML 3037-2020: https://ted.europa.eu/udl?uri=TED:NOTICE:3037-2020:TEXT:EN:HTML\n\n## Extracted source text\n\n```text\nOJ/S S3\n06/01/2020\n3037-2020-EN\n\nSupplies - Contract award notice - Open procedure\n\n1/3\n\nThis notice in TED website: https://ted.europa.eu/udl?uri=TED:NOTICE:3037-2020:TEXT:EN:HTML\n\nUnited Kingdom-Coventry: Urban furniture\n2020/S 003-003037\nContract award notice\nResults of the procurement procedure\nSupplies\nLegal Basis:\nDirective 2014/24/EU\nSection I: Contracting authority\nI.1)\nName and addresses\nOfficial name: Coventry City Council\nPostal address: Earl Street\nTown: Coventry\nNUTS code: UKG33\nPostal code: CV1 5RR\nCountry: United\
+    \ Kingdom\nContact person: Procurement Services\nE-mail: procurement.services@coventry.gov.uk\nInternet address(es):\nMain address: http://www.coventry.gov.uk\nAddress of the buyer profile: www.csw-jets.co.uk\nI.2)\n\nInformation about joint procurement\n\nI.4)\n\nType of the contracting authority\nRegional or local authority\n\nI.5)\n\nMain activity\nGeneral public services\n\nSection II: Object\nII.1)\nScope of the procurement\nII.1.1)\n\nTitle:\nCOV \u2014 Timber Street Furniture Framework\n\nII.1.2)\n\nMain CPV code\n34928400\n\nII.1.3)\n\nType of contract\nSupplies\n\nII.1.4)\n\nShort description:\nCoventry City Council is looking to appoint a single supplier onto a framework agreement for the supply and\ndelivery of bespoke timber street furniture.\n\nII.1.6)\n\nInformation about lots\n\n06/01/2020\nS3\nhttps://ted.europa.eu/\nTED\n\nSupplies - Contract award notice - Open procedure\nSupplement to the Official Journal of the European Union\n\n1/3\n\nOJ/S S3\n06/01/2020\n3037-2020-EN\n\
+    \nSupplies - Contract award notice - Open procedure\n\n2/3\n\nThis contract is divided into lots: no\nII.1.7)\n\nTotal value of the procurement (excluding VAT)\nValue excluding VAT: 700 000.00 GBP\n\nII.2)\n\nDescription\n\nII.2.1)\n\nTitle:\n\nII.2.2)\n\nAdditional CPV code(s)\n\nII.2.3)\n\nPlace of performance\nNUTS code: UKG33\nMain site or place of performance:\nCoventry.\n\nII.2.4)\n\nDescription of the procurement:\nCoventry City Council is looking to appoint a single supplier onto a framework agreement for the supply and\ndelivery of bespoke timber street furniture. This procurement will be undertaken through an OJEU open tender\nprocess.\n\nII.2.5)\n\nAward criteria\nQuality criterion - Name: Health and safety / Weighting: 5 %\nQuality criterion - Name: Delivery methodology / Weighting: 10 %\nQuality criterion - Name: Quality assurance / Weighting: 15 %\nQuality criterion - Name: Public realm suitability / Weighting: 10 %\nQuality criterion - Name: Future maintenance / Weighting:\
+    \ 10 %\nPrice - Weighting: 50.00 %\n\nII.2.11)\n\nInformation about options\nOptions: no\n\nII.2.13)\n\nInformation about European Union funds\nThe procurement is related to a project and/or programme financed by European Union funds: no\n\nII.2.14)\n\nAdditional information\n\nSection IV: Procedure\nIV.1)\nDescription\nIV.1.1)\n\nType of procedure\nOpen procedure\n\nIV.1.3)\n\nInformation about a framework agreement or a dynamic purchasing system\nThe procurement involves the establishment of a framework agreement\n\nIV.1.6)\n\nInformation about electronic auction\n\nIV.1.8)\n\nInformation about the Government Procurement Agreement (GPA)\nThe procurement is covered by the Government Procurement Agreement: yes\n\nIV.2)\n\nAdministrative information\n\nIV.2.1)\n\nPrevious publication concerning this procedure\nNotice number in the OJ S: 2019/S 185-449988\n\nIV.2.8)\n\nInformation about termination of dynamic purchasing system\n\nIV.2.9)\n\nInformation about termination of call for competition\
+    \ in the form of a prior information notice\n\nSection V: Award of contract\n06/01/2020\nS3\nhttps://ted.europa.eu/\nTED\n\nSupplies - Contract award notice - Open procedure\nSupplement to the Official Journal of the European Union\n\n2/3\n\nOJ/S S3\n06/01/2020\n3037-2020-EN\n\nSupplies - Contract award notice - Open procedure\n\n3/3\n\nTitle:\nCOV \u2014 Timber Street Furniture Framework\nA contract/lot is awarded: yes\nV.2)\n\nAward of contract\n\nV.2.1)\n\nDate of conclusion of the contract:\n06/12/2019\n\nV.2.2)\n\nInformation about tenders\nNumber of tenders received: 4\nNumber of tenders received from SMEs: 3\nNumber of tenders received from tenderers from other EU Member States: 0\nNumber of tenders received from tenderers from non-EU Member States: 0\nNumber of tenders received by electronic means: 4\nThe contract has been awarded to a group of economic operators: no\n\nV.2.3)\n\nName and address of the contractor\nOfficial name: Creactive Design (Engineering) Ltd\nNational registration\
+    \ number: 07929315\nTown: Leamington Spa\nNUTS code: UKG13\nPostal code: CV31 1XT\nCountry: United Kingdom\nThe contractor is an SME: yes\n\nV.2.4)\n\nInformation on value of the contract/lot (excluding VAT)\nInitial estimated total value of the contract/lot: 700 000.00 GBP\nTotal value of the contract/lot: 700 000.00 GBP\n\nV.2.5)\n\nInformation about subcontracting\n\nSection VI: Complementary information\nVI.3)\nAdditional information:\nVI.4)\n\nProcedures for review\n\nVI.4.1)\n\nReview body\nOfficial name: Coventry City Council\nTown: Coventry\nCountry: United Kingdom\n\nVI.4.2)\n\nBody responsible for mediation procedures\n\nVI.4.3)\n\nReview procedure\n\nVI.4.4)\n\nService from which information about the review procedure may be obtained\n\nVI.5)\n\nDate of dispatch of this notice:\n02/01/2020\n\n06/01/2020\nS3\nhttps://ted.europa.eu/\nTED\n\nSupplies - Contract award notice - Open procedure\nSupplement to the Official Journal of the European Union\n\n3/3\n```\n"
   required_artifacts:
-    - source_record_file
-    - source_record_metadata
+  - source_record_file
+  - source_record_metadata
+  artifacts:
+  - id: materialized_source_document
+    path: datasets/public-validation-v1/source_documents/structured-public-record-coventry-3037.md
+    role: source_document
+    media_type: text/markdown
+    source_url: https://ted.europa.eu/en/notice/3037-2020/pdfs
+    collected_at: '2026-03-20'
+    original_filename: 3037-2020.pdf
+    sha256: 0cd05fffcbeb065dbd2cabbda04a12f9f753963026d94be2784937688a5fff2e
+    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: 'Case bundle from: TED notice PDF 3037-2020 | TED notice HTML 3037-2020'
+    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+  - id: original-source-01
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-coventry-3037/source-01-ted-notice-pdf-3037-2020.pdf
+    role: original_source_snapshot
+    media_type: application/pdf
+    source_url: https://ted.europa.eu/en/notice/3037-2020/pdfs
+    collected_at: '2026-03-20'
+    original_filename: 3037-2020.pdf
+    sha256: 64859627e5b74fe90494c1506a840e430bba3de324bdd6fb915a395259c1e5c4
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice PDF 3037-2020
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-02
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-coventry-3037/source-02-ted-notice-html-3037-2020.html
+    role: original_source_snapshot
+    media_type: text/html
+    source_url: https://ted.europa.eu/udl?uri=TED:NOTICE:3037-2020:TEXT:EN:HTML
+    collected_at: '2026-03-20'
+    original_filename: udl.html
+    sha256: e38f933c5734d35f3bd56bc753e6090851118776f7ace88cdf48694bed3e56dc
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice HTML 3037-2020
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
 expected_output:
   fields_required:
-    - buyer_name
-    - supplier_name
-    - award_date
-    - amount
-    - category_code
+  - buyer_name
+  - supplier_name
+  - award_date
+  - amount
+  - category_code
 answer_key:
   type: structured_fields
   fields:
     buyer_name: Coventry City Council
     supplier_name: Creactive Design (Engineering) Ltd
-    award_date: "2019-12-06"
-    amount: 700000.00
-    category_code: "34928400"
+    award_date: '2019-12-06'
+    amount: 700000.0
+    category_code: '34928400'
 notes:
-  - This is a simple no-lot award notice with one named contractor and one total contract value.
-  - The case checks extraction from a procurement where the framework title differs from the CPV description and the answer should stay anchored to the official fields.
+- This is a simple no-lot award notice with one named contractor and one total contract value.
+- The case checks extraction from a procurement where the framework title differs from the CPV description and the answer should stay anchored to the official fields.

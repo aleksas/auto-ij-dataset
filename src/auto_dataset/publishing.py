@@ -167,6 +167,8 @@ def _build_dataset_card(
         "## Contents",
         "",
         "- `datasets/`: suite manifest and case files",
+        "- `source_documents/`: materialized markdown source documents and artifact index",
+        "- `datasets/<suite>/source_artifacts/`: preserved original upstream PDFs, XML files, and HTML snapshots",
         "- `rubrics/`: rubric markdown files referenced by the cases",
         "- `results/runs.tsv`: intermediate run log",
         "- `summary.json`: suite counts at export time",
@@ -177,6 +179,62 @@ def _build_dataset_card(
         "This dataset repo is an intermediate publishing target for in-progress suite building.",
     ]
     return "\n".join([*card_header, *lines]) + "\n"
+
+
+def _materialize_case_source_document(snapshot_dir: Path, relative_case_path: str, case: dict[str, Any]) -> str | None:
+    evidence_bundle = case.get("evidence_bundle")
+    if not isinstance(evidence_bundle, dict):
+        return None
+
+    content_markdown = evidence_bundle.get("content_markdown")
+    if not isinstance(content_markdown, str) or not content_markdown.strip():
+        return None
+
+    relative_document_path = Path("source_documents") / Path(relative_case_path).with_suffix(".md")
+    _write_text(snapshot_dir / relative_document_path, content_markdown.rstrip() + "\n")
+    return str(relative_document_path)
+
+
+def _copy_declared_evidence_artifacts(
+    repo_root: Path,
+    snapshot_dir: Path,
+    case: dict[str, Any],
+    copied_artifact_paths: set[Path],
+) -> list[dict[str, str]]:
+    evidence_bundle = case.get("evidence_bundle")
+    if not isinstance(evidence_bundle, dict):
+        return []
+
+    artifacts = evidence_bundle.get("artifacts")
+    if not isinstance(artifacts, list):
+        return []
+
+    copied_entries: list[dict[str, str]] = []
+    for artifact in artifacts:
+        if not isinstance(artifact, dict):
+            continue
+        artifact_path_text = artifact.get("path")
+        artifact_id = artifact.get("id")
+        if not isinstance(artifact_path_text, str) or not artifact_path_text.strip():
+            continue
+        if not isinstance(artifact_id, str) or not artifact_id.strip():
+            continue
+
+        artifact_path = Path(artifact_path_text)
+        artifact_source = (repo_root / artifact_path).resolve()
+        if artifact_source not in copied_artifact_paths:
+            _copy_file(artifact_source, snapshot_dir / artifact_path)
+            copied_artifact_paths.add(artifact_source)
+
+        copied_entry = {
+            key: value
+            for key, value in artifact.items()
+            if isinstance(key, str) and isinstance(value, str) and value.strip()
+        }
+        copied_entry["path"] = artifact_path.as_posix()
+        copied_entries.append(copied_entry)
+
+    return copied_entries
 
 
 def build_intermediate_snapshot(
@@ -199,6 +257,7 @@ def build_intermediate_snapshot(
     source_commit = get_head_commit(repo_root)
     exported_at = datetime.now(UTC).replace(microsecond=0).isoformat()
     summary = summarize_cases(cases)
+    source_document_index: dict[str, dict[str, Any]] = {}
 
     _copy_file(manifest_path, snapshot_dir / "datasets" / manifest_path.name)
 
@@ -208,7 +267,22 @@ def build_intermediate_snapshot(
         _copy_file(case_source, case_destination)
 
     copied_rubrics: set[Path] = set()
+    copied_artifact_paths: set[Path] = set()
     for relative_case_path, case in zip(manifest["case_files"], cases, strict=True):
+        case_source_document = _materialize_case_source_document(snapshot_dir, relative_case_path, case)
+        copied_case_artifacts = _copy_declared_evidence_artifacts(
+            repo_root,
+            snapshot_dir,
+            case,
+            copied_artifact_paths,
+        )
+        if case_source_document or copied_case_artifacts:
+            source_document_index[case["id"]] = {
+                "case_file": relative_case_path,
+                "materialized_source_document": case_source_document,
+                "artifacts": copied_case_artifacts,
+            }
+
         rubric = case.get("rubric")
         # Inlined rubrics are usually long multi-line strings; relative paths are short.
         # Skip if missing, not a string, or clearly too long to be a relative path.
@@ -233,6 +307,7 @@ def build_intermediate_snapshot(
     if runs_path.exists():
         _copy_file(runs_path, snapshot_dir / "results" / "runs.tsv")
 
+    _write_json(snapshot_dir / "source_documents" / "index.json", source_document_index)
     _write_json(
         snapshot_dir / "summary.json",
         {

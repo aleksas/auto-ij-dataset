@@ -5,41 +5,99 @@ task_type: field_extraction
 answer_mode: exact
 source_family: official_procurement
 source_tier: primary
-target_entity: "TED notice 100011-2021"
+target_entity: TED notice 100011-2021
 sources:
-  - label: TED notice XML 100011-2021
-    url: https://ted.europa.eu/en/notice/100011-2021/xml
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice PDF 100011-2021 (FR)
-    url: https://ted.europa.eu/fr/notice/100011-2021/pdfs
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice detail 100011-2021
-    url: https://ted.europa.eu/en/notice/-/detail/100011-2021
-    checked_on: 2026-03-20
-    provenance: official_portal
+- label: TED notice XML 100011-2021
+  url: https://ted.europa.eu/en/notice/100011-2021/xml
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice PDF 100011-2021 (FR)
+  url: https://ted.europa.eu/fr/notice/100011-2021/pdfs
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice detail 100011-2021
+  url: https://ted.europa.eu/en/notice/-/detail/100011-2021
+  checked_on: 2026-03-20
+  provenance: official_portal
 evidence_bundle:
   kind: structured_record
-  content_markdown: "Materialization pending: fetching source content..."
+  content_markdown: "# Val de Fensch DSI advisory contract extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/fr/notice/100011-2021/pdfs\n\n## Listed sources\n- TED notice XML 100011-2021: https://ted.europa.eu/en/notice/100011-2021/xml\n- TED notice PDF 100011-2021 (FR): https://ted.europa.eu/fr/notice/100011-2021/pdfs\n- TED notice detail 100011-2021: https://ted.europa.eu/en/notice/-/detail/100011-2021\n\n## Extracted source text\n\n```text\nJO/S S40\n26/02/2021\n100011-2021-FR\n\n1/4\n\nCet avis sur le site TED: https://ted.europa.eu/udl?uri=TED:NOTICE:100011-2021:TEXT:FR:HTML\n\nFrance-Hayange: Services de conseil en syst\xE8mes informatiques et conseils techniques\n2021/S 040-100011\nAvis d\u2019attribution de march\xE9\nR\xE9sultats de la proc\xE9dure de march\xE9\nServices\nBase juridique:\nDirective 2014/24/UE\nSection I: Pouvoir adjudicateur\nI.1)\nNom et adresses\nNom officiel: Communaut\xE9 d'agglom\xE9ration\
+    \ du Val de Fensch\nNum\xE9ro national d'identification: 24570122200144\nAdresse postale: 10 rue de Wendel, BP 20176\nVille: Hayange\nCode NUTS: FRF33 Moselle\nCode postal: 57705\nPays: France\nCourriel: commande.publique@agglo-valdefensch.fr\nT\xE9l\xE9phone: +33 382868181\nFax: +33 382868182\nAdresse(s) internet:\nAdresse principale: http://www.agglo-valdefensch.fr\nAdresse du profil d\u2019acheteur: http://www.achatpublic.com\nI.4)\n\nType de pouvoir adjudicateur\nAutre type: \xC9tablissement public de coop\xE9ration intercommunale\n\nI.5)\n\nActivit\xE9 principale\nServices g\xE9n\xE9raux des administrations publiques\n\nSection II: Objet\nII.1)\n\xC9tendue du march\xE9\nII.1.1)\n\nIntitul\xE9:\nMission de conseil, d'assistance op\xE9rationnelle et d'expertise de la DSI.\nNum\xE9ro de r\xE9f\xE9rence: 2020-01-012\n\nII.1.2)\n\nCode CPV principal\n72220000 Services de conseil en syst\xE8mes informatiques et conseils techniques\n\nII.1.3)\n\nType de march\xE9\nServices\n\nII.1.4)\n\
+    \nDescription succincte:\nLa Direction des syst\xE8mes d'information de la communaut\xE9 d'agglom\xE9ration du Val de Fensch souhaite \xEAtre\nassist\xE9e et accompagn\xE9e pour la mise en \u0153uvre des projets informatiques majeurs dans le cadre de l'\xE9criture\nd'une nouvelle feuille de route pour l'ensemble des enjeux du sch\xE9ma directeur des syst\xE8mes d'information\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n1/4\n\nJO/S S40\n26/02/2021\n100011-2021-FR\n\n2/4\n\n2021-2026 avec un accompagnement en mode \xABcoaching\xBB et un niveau de type expert. Le montant maximum\nest fix\xE9 en valeur et par ann\xE9e de la mani\xE8re suivante: 42 000 EUR (HT) pour la p\xE9riode initiale et 16 000 EUR\npour chaque reconduction.\nII.1.6)\n\nInformation sur les lots\nCe march\xE9 est divis\xE9 en lots: non\n\nII.1.7)\n\nValeur totale du march\xE9 (hors TVA)\nValeur hors TVA: 90 000.00 EUR\n\nII.2)\n\nDescription\n\nII.2.3)\n\nLieu d'ex\xE9cution\nCode NUTS: FRF33 Moselle\nLieu principal\
+    \ d'ex\xE9cution:\nH\xF4tel de communaut\xE9, 10 rue de Wendel, 57700 Hayange (Moselle, r\xE9gion Grand Est, France).\n\nII.2.4)\n\nDescription des prestations:\nLa Direction des syst\xE8mes d'information de la communaut\xE9 d'agglom\xE9ration du Val de Fensch souhaite \xEAtre\nassist\xE9e et accompagn\xE9e pour la mise en \u0153uvre des projets informatiques majeurs dans le cadre de l'\xE9criture\nd'une nouvelle feuille de route pour l'ensemble des enjeux du sch\xE9ma directeur des syst\xE8mes d'information\n2021-2026 avec un accompagnement en mode \xABcoaching\xBB et un niveau de type expert. le montant maximum\nest fix\xE9 en valeur et par ann\xE9e de la mani\xE8re suivante: 42 000 EUR (HT) pour la p\xE9riode initiale et 16 000 EUR\npour chaque reconduction.\n\nII.2.5)\n\nCrit\xE8res d\u2019attribution\nCrit\xE8re de qualit\xE9 - Nom: Crit\xE8re 1: valeur technique / Pond\xE9ration: 50\nCrit\xE8re de qualit\xE9 - Nom: Sous-crit\xE8re 1 au crit\xE8re valeur technique: enjeux de la\
+    \ mission, clart\xE9 du m\xE9moire et\nsp\xE9cificit\xE9s / Pond\xE9ration: 15\nCrit\xE8re de qualit\xE9 - Nom: Sous-crit\xE8re 2 au crit\xE8re valeur technique: aspects m\xE9thodologiques de gestion de\nprojet / Pond\xE9ration: 15\nCrit\xE8re de qualit\xE9 - Nom: Sous-crit\xE8re 3 au crit\xE8re valeur technique: equipe propos\xE9e pour l'ex\xE9cution de\nl'accord cadre / Pond\xE9ration: 20\nCrit\xE8re de qualit\xE9 - Nom: Crit\xE8re 3: d\xE9lai de livraison ou d'ex\xE9cution / Pond\xE9ration: 10\nPrix - Pond\xE9ration: 40\n\nII.2.11)\n\nInformation sur les options\nOptions: oui\nDescription des options:\nL'accord-cadre fera l'objet de trois reconductions de douze mois chacune.\n\nII.2.13)\n\nInformation sur les fonds de l'Union europ\xE9enne\nLe contrat s'inscrit dans un projet/programme financ\xE9 par des fonds de l'Union europ\xE9enne: non\n\nII.2.14)\n\nInformations compl\xE9mentaires\n\nSection IV: Proc\xE9dure\nIV.1)\nDescription\nIV.1.1)\n\nType de proc\xE9dure\nAttribution d'un\
+    \ march\xE9 sans publication pr\xE9alable d'un avis d'appel \xE0 la concurrence au Journal officiel de\nl\u2019Union europ\xE9enne (dans les cas \xE9num\xE9r\xE9s ci-dessous)\n\u2022 Le contrat ne rel\xE8ve pas du champ d'application de la directive\nExplication:\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n2/4\n\nJO/S S40\n26/02/2021\n100011-2021-FR\n\n3/4\n\nMarch\xE9 pass\xE9 selon la proc\xE9dure adapt\xE9e en application des articles R. 2123-1 et R. 2123-5 du code de la\no\n\no\n\ncommande publique (ordonnance n 2018-1074 du 26.11.2018 et d\xE9cret n 2018-1076 du 3.12.2018 relatifs aux\nmarch\xE9s publics applicables sur le territoire fran\xE7ais) et donc non soumis \xE0 une publication pr\xE9alable d'un avis\nde march\xE9 au Journal officiel de l'Union europ\xE9enne.\nIV.1.3)\n\nInformation sur l'accord-cadre ou le syst\xE8me d'acquisition dynamique\nLe march\xE9 implique la mise en place d'un accord-cadre\n\nIV.1.8)\n\nInformation concernant l\u2019accord sur les march\xE9\
+    s publics (AMP)\nLe march\xE9 est couvert par l'accord sur les march\xE9s publics: non\n\nIV.2)\n\nRenseignements d'ordre administratif\n\nIV.2.8)\n\nInformations sur l'abandon du syst\xE8me d'acquisition dynamique\n\nIV.2.9)\n\nInformations sur l'abandon de la proc\xE9dure d'appel \xE0 la concurrence sous la forme d'un avis de\npr\xE9information\n\nSection V: Attribution du march\xE9\nMarch\xE9 n\xBA: 2020-01-012\nIntitul\xE9:\nMission de conseil, d'assistance op\xE9rationnelle et d'expertise de la DSI\nUn march\xE9/lot est attribu\xE9: oui\nV.2)\n\nAttribution du march\xE9\n\nV.2.1)\n\nDate de conclusion du march\xE9:\n05/11/2020\n\nV.2.2)\n\nInformations sur les offres\nNombre d'offres re\xE7ues: 4\nNombre d'offres re\xE7ues par voie \xE9lectronique: 4\nLe march\xE9 a \xE9t\xE9 attribu\xE9 \xE0 un groupement d'op\xE9rateurs \xE9conomiques: non\n\nV.2.3)\n\nNom et adresse du titulaire\nNom officiel: VICQ Consultants SAS\nNum\xE9ro national d'identification: 51431906000018\nAdresse\
+    \ postale: 4 rue Chevalier-de-Boufflers\nVille: Lun\xE9ville\nCode NUTS: FRF31 Meurthe-et-Moselle\nCode postal: 54300\nPays: France\nLe titulaire est une PME: oui\n\nV.2.4)\n\nInformations sur le montant du march\xE9/du lot (hors TVA)\nEstimation initiale du montant total du march\xE9/du lot: 90 000.00 EUR\nValeur totale du march\xE9/du lot: 90 000.00 EUR\n\nV.2.5)\n\nInformation sur la sous-traitance\n\nSection VI: Renseignements compl\xE9mentaires\nVI.3)\nInformations compl\xE9mentaires:\nLe march\xE9 a fait l'objet d'un avis d\u2019appel public \xE0 la concurrence publi\xE9 dans le Bulletin officiel des annonces\no\n\ndes march\xE9s publics (BOAMP) selon les r\xE9f\xE9rences suivantes: avis initial n 20-104379 envoy\xE9 \xE0 la publication\nle 21.8.2020. La consultation du ou des contrat(s) peut \xEAtre effectu\xE9e \xE0 l'adresse de l'organisme acheteur.\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n3/4\n\nJO/S S40\n26/02/2021\n100011-2021-FR\n\n4/4\n\nCette consultation devra\
+    \ \xEAtre effectu\xE9e dans les locaux et durant les heures d\u2019ouverture des bureaux de\nl'\xE9tablissement public.\nVI.4)\n\nProc\xE9dures de recours\n\nVI.4.1)\n\nInstance charg\xE9e des proc\xE9dures de recours\nNom officiel: Tribunal administratif de Strasbourg\nAdresse postale: 31 avenue de la Paix\nVille: Strasbourg\nCode postal: 67070\nPays: France\nCourriel: greffe.ta-strasbourg@juradm.fr\nT\xE9l\xE9phone: +33 388212323\nFax: +33 388364466\nAdresse internet: http://strasbourg.tribunal-administratif.fr\n\nVI.4.3)\n\nIntroduction de recours\nPr\xE9cisions concernant les d\xE9lais d'introduction de recours:\n\u2014 R\xE9f\xE9r\xE9 contractuel pr\xE9vu aux articles L. 551-13 \xE0 L. 551-23 et R. 551-7 \xE0 551-10 du CJA et pouvant \xEAtre\nexerc\xE9 dans les d\xE9lais pr\xE9vus \xE0 l'article R. 551-7 du CJA, apr\xE8s la signature du contrat,\n\u2014 Recours de pleine juridiction en contestation de la validit\xE9 du contrat, ouvert aux tiers dans le d\xE9lai de deux\nmois \xE0\
+    \ compter de l\u2019accomplissement des mesures de publicit\xE9 appropri\xE9es.\n\nVI.5)\n\nDate d\u2019envoi du pr\xE9sent avis:\n23/02/2021\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n4/4\n```\n"
   required_artifacts:
-    - source_record_file
-    - source_record_metadata
+  - source_record_file
+  - source_record_metadata
+  artifacts:
+  - id: materialized_source_document
+    path: datasets/public-validation-v1/source_documents/structured-public-record-val-de-fensch-100011.md
+    role: source_document
+    media_type: text/markdown
+    source_url: https://ted.europa.eu/en/notice/100011-2021/xml
+    collected_at: '2026-03-20'
+    original_filename: 100011-2021.xml
+    sha256: 86b903ae46b16145442de308b142c8b3e4f8976083f3df7a2b7a79a4fe191b42
+    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: 'Case bundle from: TED notice XML 100011-2021 | TED notice PDF 100011-2021 (FR) | TED notice detail 100011-2021'
+    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+  - id: original-source-01
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-val-de-fensch-100011/source-01-ted-notice-xml-100011-2021.xml
+    role: original_source_snapshot
+    media_type: application/xml
+    source_url: https://ted.europa.eu/en/notice/100011-2021/xml
+    collected_at: '2026-03-20'
+    original_filename: 100011-2021.xml
+    sha256: 045f144dffb32b12de0296b1d0c354d976498d62e699993d2463b1576eb5fae7
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice XML 100011-2021
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-02
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-val-de-fensch-100011/source-02-ted-notice-pdf-100011-2021-fr.pdf
+    role: original_source_snapshot
+    media_type: application/pdf
+    source_url: https://ted.europa.eu/fr/notice/100011-2021/pdfs
+    collected_at: '2026-03-20'
+    original_filename: 100011-2021.pdf
+    sha256: 0936a0b0512940462dabb3d33a08a3e18da1731c7eb4b569c080ae0d8bec5e4f
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice PDF 100011-2021 (FR)
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-03
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-val-de-fensch-100011/source-03-ted-notice-detail-100011-2021.html
+    role: original_source_snapshot
+    media_type: text/html
+    source_url: https://ted.europa.eu/en/notice/-/detail/100011-2021
+    collected_at: '2026-03-20'
+    original_filename: 100011-2021.html
+    sha256: bbb38f4c6d701df1a2558ad37315d2ccc8c9edae65f7ee7b08246d34e71a59ae
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice detail 100011-2021
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
 expected_output:
   fields_required:
-    - buyer_name
-    - supplier_name
-    - award_date
-    - amount
-    - category_code
+  - buyer_name
+  - supplier_name
+  - award_date
+  - amount
+  - category_code
 answer_key:
   type: structured_fields
   fields:
-    buyer_name: Communauté d'agglomération du Val de Fensch
+    buyer_name: "Communaut\xE9 d'agglom\xE9ration du Val de Fensch"
     supplier_name: VICQ Consultants SAS
-    award_date: "2020-11-05"
-    amount: 90000.00
-    category_code: "72220000"
+    award_date: '2020-11-05'
+    amount: 90000.0
+    category_code: '72220000'
 notes:
-  - The award and notice-level totals match, so this notice is a clean single-award baseline for extracting buyer, supplier, date, value, and CPV.
-  - The buyer name includes an apostrophe and French diacritics, so normalization should preserve the official spelling from the XML record.
+- The award and notice-level totals match, so this notice is a clean single-award baseline for extracting buyer, supplier, date, value, and CPV.
+- The buyer name includes an apostrophe and French diacritics, so normalization should preserve the official spelling from the XML record.

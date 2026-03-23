@@ -5,41 +5,98 @@ task_type: field_extraction
 answer_mode: exact
 source_family: official_procurement
 source_tier: primary
-target_entity: "TED notice 100130-2021, reference 20/13391"
+target_entity: TED notice 100130-2021, reference 20/13391
 sources:
-  - label: TED notice XML 100130-2021
-    url: https://ted.europa.eu/en/notice/100130-2021/xml
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice PDF 100130-2021 (EN)
-    url: https://ted.europa.eu/en/notice/100130-2021/pdfs
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice detail 100130-2021
-    url: https://ted.europa.eu/en/notice/-/detail/100130-2021
-    checked_on: 2026-03-20
-    provenance: official_portal
+- label: TED notice XML 100130-2021
+  url: https://ted.europa.eu/en/notice/100130-2021/xml
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice PDF 100130-2021 (EN)
+  url: https://ted.europa.eu/en/notice/100130-2021/pdfs
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice detail 100130-2021
+  url: https://ted.europa.eu/en/notice/-/detail/100130-2021
+  checked_on: 2026-03-20
+  provenance: official_portal
 evidence_bundle:
   kind: structured_record
-  content_markdown: "Materialization pending: fetching source content..."
+  content_markdown: "# Statens Serum Institut mass spectrometer service contract extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/en/notice/100130-2021/pdfs\n\n## Listed sources\n- TED notice XML 100130-2021: https://ted.europa.eu/en/notice/100130-2021/xml\n- TED notice PDF 100130-2021 (EN): https://ted.europa.eu/en/notice/100130-2021/pdfs\n- TED notice detail 100130-2021: https://ted.europa.eu/en/notice/-/detail/100130-2021\n\n## Extracted source text\n\n```text\nOJ/S S40\n26/02/2021\n100130-2021-EN\n\n1/4\n\nThis notice in TED website: https://ted.europa.eu/udl?uri=TED:NOTICE:100130-2021:TEXT:EN:HTML\n\nDenmark-Copenhagen: Technical inspection and testing services\n2021/S 040-100130\nContract award notice\nResults of the procurement procedure\nServices\nLegal Basis:\nDirective 2014/24/EU\nSection I: Contracting authority\nI.1)\nName and addresses\nOfficial name: Statens Serum Institut\nNational registration number:\
+    \ 46837428\nPostal address: Artillerivej 5\nTown: K\xF8benhavn S\nNUTS code: DK011 Byen K\xF8benhavn\nPostal code: 2300\nCountry: Denmark\nContact person: August Jakobsen\nE-mail: auyj@ssi.dk\nTelephone: +45 32688587\nInternet address(es):\nMain address: www.ssi.dk\nAddress of the buyer profile: https://eu.eu-supply.com/ctm/Company/CompanyInformation/Index/244516\nI.4)\n\nType of the contracting authority\nMinistry or any other national or federal authority, including their regional or local subdivisions\n\nI.5)\n\nMain activity\nHealth\n\nSection II: Object\nII.1)\nScope of the procurement\nII.1.1)\n\nTitle:\nTender for the Service Agreement of Mass Spectrometer Systems\nReference number: 20/13391\n\nII.1.2)\n\nMain CPV code\n71630000 Technical inspection and testing services\n\nII.1.3)\n\nType of contract\nServices\n\nII.1.4)\n\nShort description:\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n1/4\n\nOJ/S S40\n26/02/2021\n100130-2021-EN\n\n2/4\n\nThe open procedure (EU Public Procurement/Public\
+    \ Tender) includes the procurement of the services of\nmultiple mass spectrometer systems.\nWe are looking for a service partner who can take on the service responsibility for our different mass\nspectrometry systems. Currently we have 40 units configured in 8 different systems.\nThe tender has a duration of 2 years and can be prolonged in 2 periods of each 1 year.\nII.1.6)\n\nInformation about lots\nThis contract is divided into lots: no\n\nII.1.7)\n\nTotal value of the procurement (excluding VAT)\nValue excluding VAT: 2 000 000.00 DKK\n\nII.2)\n\nDescription\n\nII.2.2)\n\nAdditional CPV code(s)\n38430000 Detection and analysis apparatus\n71356300 Technical support services\n72267000 Software maintenance and repair services\n38433100 Mass spectrometer\n\nII.2.3)\n\nPlace of performance\nNUTS code: DK011 Byen K\xF8benhavn\n\nII.2.4)\n\nDescription of the procurement:\nThe open procedure (EU Public Procurement/Public Tender) includes the procurement of the services of\nmultiple mass spectrometer\
+    \ systems.\nWe are looking for a service partner who can take on the service responsibility for our different mass\nspectrometry systems. Currently we have 40 units configured in 8 different systems.\nThe tender has a duration of 2 years and can be prolonged in 2 periods of each 1 year.\n\nII.2.5)\n\nAward criteria\nQuality criterion - Name: Kvalitet / Weighting: 70\nCost criterion - Name: Pris / Weighting: 30\n\nII.2.11)\n\nInformation about options\nOptions: yes\nDescription of options:\nThe tender has a duration of 2 years and has the option to be prolonged in 2 periods of each 1 year.\n\nII.2.13)\n\nInformation about European Union funds\nThe procurement is related to a project and/or programme financed by European Union funds: no\n\nII.2.14)\n\nAdditional information\n\nSection IV: Procedure\nIV.1)\nDescription\nIV.1.1)\n\nType of procedure\nOpen procedure\n\nIV.1.3)\n\nInformation about a framework agreement or a dynamic purchasing system\n\nIV.1.8)\n\nInformation about the Government\
+    \ Procurement Agreement (GPA)\nThe procurement is covered by the Government Procurement Agreement: yes\n\nIV.2)\n\nAdministrative information\n\nIV.2.1)\n\nPrevious publication concerning this procedure\nNotice number in the OJ S: 2020/S 230-567256\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n2/4\n\nOJ/S S40\n26/02/2021\n100130-2021-EN\n\nIV.2.8)\n\nInformation about termination of dynamic purchasing system\n\nIV.2.9)\n\nInformation about termination of call for competition in the form of a prior information notice\n\n3/4\n\nSection V: Award of contract\nContract No: 1\nTitle:\nThe Tender of the Services of Mass Spectrometer Systems\nA contract/lot is awarded: yes\nV.2)\n\nAward of contract\n\nV.2.1)\n\nDate of conclusion of the contract:\n13/01/2021\n\nV.2.2)\n\nInformation about tenders\nNumber of tenders received: 1\nNumber of tenders received by electronic means: 1\nThe contract has been awarded to a group of economic operators: no\n\nV.2.3)\n\nName and address of the contractor\n\
+    Official name: Spectrometry Vision B.V.\nNational registration number: MSVision\nPostal address: Televisieweg 40\nTown: Almere\nNUTS code: NL NEDERLAND\nPostal code: 1322 AM\nCountry: Netherlands\nE-mail: st@msvision.com\nTelephone: +31 365367526\nThe contractor is an SME: yes\n\nV.2.4)\n\nInformation on value of the contract/lot (excluding VAT)\nTotal value of the contract/lot: 2 000 000.00 DKK\n\nV.2.5)\n\nInformation about subcontracting\n\nSection VI: Complementary information\nVI.3)\nAdditional information:\nApplication for this tender is done by completing and submitting the ESPD document.\nThe tender document contains the guidelines for the submission of tenders, communication between the\ntenderer and the Orderer, as well as information about the tender.\nThe tenderer must carefully examine the documents of the tender document. Failure to comply with this tender\ndocument, or with any other tendering requirements, will be at the tenderer\u2019s risk.\nThe tenderer must ensure\
+    \ that the documents have been correctly completed, as a failure to comply could result\nin the tender being unconditional and thus not be included in the tender evaluation process.\nWith reference to the minimum requirements of this tender, the supplier is obliged to document the existence of\na quality control system that is validated, e.g. ISO or likewise.\nVI.4)\n\nProcedures for review\n\nVI.4.1)\n\nReview body\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n3/4\n\nOJ/S S40\n26/02/2021\n100130-2021-EN\n\n4/4\n\nOfficial name: Klagen\xE6vnet for Udbud\nPostal address: N\xE6vnenes Hus, Toldboden 2\nTown: Viborg\nPostal code: 8800\nCountry: Denmark\nE-mail: klfu@naevneneshus.dk\nTelephone: +45 35291000\nInternet address: https://erhvervsstyrelsesns.dk/klagevejledning-0\nVI.4.3)\n\nReview procedure\nPrecise information on deadline(s) for review procedures:\nPrecise information on deadline(s) for review procedures:\nComplaint regarding the award of contract must be submitted no later\
+    \ than 45 calendar days from the date after\nthe contracting authority has published a contract award notice in the European Union Official Journal informing\nthat the contracting authority has awarded the contract, cf. lov om Klagen\xE6vnet for Udbud \xA7 7, section 2, No 1.\nComplaint regarding the contracting authority\u2019s award of contract without prior publication of a contract notice\nin the European Union Official Journal must be submitted no later than 30 calendar days from the date after a\ncontract award notice has been published by the contracting authority in the European Union Official Journal\nand that contract award notice includes the grounds for the decision to award the contract directly, cf. lov om\nKlagen\xE6vnet for Udbud \xA7 7, section 3.\n\nVI.4.4)\n\nService from which information about the review procedure may be obtained\nOfficial name: Klagen\xE6vnet for Udbud\nPostal address: N\xE6vnenes Hus, Toldboden 2\nTown: Viborg\nPostal code: 8800\nCountry: Denmark\n\
+    E-mail: klfu@naevneneshus.dk\nTelephone: +45 35291000\nInternet address: https://erhvervsstyrelsen.dk/klagevejledning-0\n\nVI.5)\n\nDate of dispatch of this notice:\n22/02/2021\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n4/4\n```\n"
   required_artifacts:
-    - source_record_file
-    - source_record_metadata
+  - source_record_file
+  - source_record_metadata
+  artifacts:
+  - id: materialized_source_document
+    path: datasets/public-validation-v1/source_documents/structured-public-record-statens-serum-100130.md
+    role: source_document
+    media_type: text/markdown
+    source_url: https://ted.europa.eu/en/notice/100130-2021/xml
+    collected_at: '2026-03-20'
+    original_filename: 100130-2021.xml
+    sha256: d075ba7cbb075c69b4cf88fa669d6ae21dad1baaaf818fad41993b847a0252be
+    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: 'Case bundle from: TED notice XML 100130-2021 | TED notice PDF 100130-2021 (EN) | TED notice detail 100130-2021'
+    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+  - id: original-source-01
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-statens-serum-100130/source-01-ted-notice-xml-100130-2021.xml
+    role: original_source_snapshot
+    media_type: application/xml
+    source_url: https://ted.europa.eu/en/notice/100130-2021/xml
+    collected_at: '2026-03-20'
+    original_filename: 100130-2021.xml
+    sha256: 526e0aff1e83f54bab19637e98a1b8c83ca7b36f2531e4e1bc8aea49c9ae3a59
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice XML 100130-2021
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-02
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-statens-serum-100130/source-02-ted-notice-pdf-100130-2021-en.pdf
+    role: original_source_snapshot
+    media_type: application/pdf
+    source_url: https://ted.europa.eu/en/notice/100130-2021/pdfs
+    collected_at: '2026-03-20'
+    original_filename: 100130-2021.pdf
+    sha256: 556a3202bf0cc0c19e5997c14f3acd14a52accb1cc28bf33fdfe1bd437b7eb76
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice PDF 100130-2021 (EN)
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-03
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-statens-serum-100130/source-03-ted-notice-detail-100130-2021.html
+    role: original_source_snapshot
+    media_type: text/html
+    source_url: https://ted.europa.eu/en/notice/-/detail/100130-2021
+    collected_at: '2026-03-20'
+    original_filename: 100130-2021.html
+    sha256: 893cfa3865374f7793d5a4b0bd872d3cfa03b22e63f3fce1ffd4924628d2fee0
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice detail 100130-2021
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
 expected_output:
   fields_required:
-    - buyer_name
-    - supplier_name
-    - award_date
-    - amount
-    - category_code
+  - buyer_name
+  - supplier_name
+  - award_date
+  - amount
+  - category_code
 answer_key:
   type: structured_fields
   fields:
     buyer_name: Statens Serum Institut
     supplier_name: Spectrometry Vision B.V.
-    award_date: "2021-01-13"
-    amount: 2000000.00
-    category_code: "71630000"
+    award_date: '2021-01-13'
+    amount: 2000000.0
+    category_code: '71630000'
 notes:
-  - This Denmark slice adds an English-original Scandinavian award notice while keeping the standard XML, native-language PDF, and detail-page provenance bundle.
-  - The published total value is in DKK, so the amount field should stay on the official numeric award value without currency conversion.
+- This Denmark slice adds an English-original Scandinavian award notice while keeping the standard XML, native-language PDF, and detail-page provenance bundle.
+- The published total value is in DKK, so the amount field should stay on the official numeric award value without currency conversion.

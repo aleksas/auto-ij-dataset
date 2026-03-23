@@ -5,30 +5,43 @@ task_type: entity_linking
 answer_mode: exact
 source_family: public_entity_link_dataset
 source_tier: primary
-target_entity: "<fill entity or intermediary name>"
+target_entity: <fill entity or intermediary name>
 sources:
-  - label: Offshore Leaks database
-    url: https://offshoreleaks.icij.org/
-    checked_on: 2026-03-18
-    provenance: public_link_dataset
+- label: Offshore Leaks database
+  url: https://offshoreleaks.icij.org/
+  checked_on: 2026-03-18
+  provenance: public_link_dataset
 evidence_bundle:
   kind: entity_link_graph
   content_markdown: |
     # <Entity Graph Excerpt/Markdown Here>
     (Inline the source text/markdown here for LLM training)
   required_artifacts:
-    - entity_snapshot
-    - relationship_snapshot
+  - entity_snapshot
+  - relationship_snapshot
+  artifacts:
+  - id: materialized_source_document
+    path: datasets/public-validation-v1/source_documents/entity-link-template.md
+    role: source_document
+    media_type: text/markdown
+    source_url: https://offshoreleaks.icij.org/
+    collected_at: '2026-03-18'
+    original_filename: entity-link-template.md
+    sha256: 1ab9f51cee8aa0c60eef3cab26b6bfc47e1ec3a1eac8f89bf71fdf62b4eab6ae
+    acquisition_method: Open the listed public entity-link dataset pages and preserve the named entity or relationship snapshot in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: Offshore Leaks database
+    notes: Checked-in markdown source document used for local validation and Hugging Face export. Derived from the cited upstream source material recorded in sources[].
 expected_output:
   fields_required:
-    - canonical_entity_name
-    - relationship_type
-    - linked_entity_name
+  - canonical_entity_name
+  - relationship_type
+  - linked_entity_name
 answer_key:
   type: known_relationships
   relationships:
-    - subject: "<fill>"
-      predicate: "<officer_of|linked_to|address_match|intermediary_for>"
-      object: "<fill>"
+  - subject: <fill>
+    predicate: <officer_of|linked_to|address_match|intermediary_for>
+    object: <fill>
 notes:
-  - Published relationships act as partial ground truth for linking and graph navigation.
+- Published relationships act as partial ground truth for linking and graph navigation.

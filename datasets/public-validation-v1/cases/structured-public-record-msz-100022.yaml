@@ -5,41 +5,100 @@ task_type: field_extraction
 answer_mode: exact
 source_family: official_procurement
 source_tier: primary
-target_entity: "TED notice 100022-2021"
+target_entity: TED notice 100022-2021
 sources:
-  - label: TED notice XML 100022-2021
-    url: https://ted.europa.eu/en/notice/100022-2021/xml
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice PDF 100022-2021 (PL)
-    url: https://ted.europa.eu/pl/notice/100022-2021/pdfs
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice detail 100022-2021
-    url: https://ted.europa.eu/en/notice/-/detail/100022-2021
-    checked_on: 2026-03-20
-    provenance: official_portal
+- label: TED notice XML 100022-2021
+  url: https://ted.europa.eu/en/notice/100022-2021/xml
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice PDF 100022-2021 (PL)
+  url: https://ted.europa.eu/pl/notice/100022-2021/pdfs
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice detail 100022-2021
+  url: https://ted.europa.eu/en/notice/-/detail/100022-2021
+  checked_on: 2026-03-20
+  provenance: official_portal
 evidence_bundle:
   kind: structured_record
-  content_markdown: "Materialization pending: fetching source content..."
+  content_markdown: "# Polish Foreign Ministry mobile telecom services contract extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/pl/notice/100022-2021/pdfs\n\n## Listed sources\n- TED notice XML 100022-2021: https://ted.europa.eu/en/notice/100022-2021/xml\n- TED notice PDF 100022-2021 (PL): https://ted.europa.eu/pl/notice/100022-2021/pdfs\n- TED notice detail 100022-2021: https://ted.europa.eu/en/notice/-/detail/100022-2021\n\n## Extracted source text\n\n```text\nDz.U./S S40\n26/02/2021\n100022-2021-PL\n\n1/4\n\nNiniejsze og\u0142oszenie w witrynie TED: https://ted.europa.eu/udl?uri=TED:NOTICE:100022-2021:TEXT:PL:HTML\n\nPolska-Warszawa: Us\u0142ugi telekomunikacyjne\n2021/S 040-100022\nOg\u0142oszenie o udzieleniu zam\xF3wienia\nWyniki post\u0119powania\nUs\u0142ugi\nPodstawa prawna:\nDyrektywa 2014/24/UE\nSekcja I: Instytucja zamawiaj\u0105ca\nI.1)\nNazwa i adresy\nOficjalna nazwa: Ministerstwo Spraw Zagranicznych\n\
+    Adres pocztowy: al. J.Ch. Szucha 23\nMiejscowo\u015B\u0107: Warszawa\nKod NUTS: PL911 Miasto Warszawa\nKod pocztowy: 00-580\nPa\u0144stwo: Polska\nOsoba do kontakt\xF3w: Aneta Marcinkiewicz, Rados\u0142aw Wojda\nE-mail: bzp@msz.gov.pl\nTel.: +48 225239910\nAdresy internetowe:\nG\u0142\xF3wny adres: https://www.gov.pl/web/dyplomacja\nI.4)\n\nRodzaj instytucji zamawiaj\u0105cej\nMinisterstwo lub inny organ krajowy lub federalny, w tym jednostki regionalne i lokalne\n\nI.5)\n\nG\u0142\xF3wny przedmiot dzia\u0142alno\u015Bci\nOg\xF3lne us\u0142ugi publiczne\n\nSekcja II: Przedmiot\nII.1)\nWielko\u015B\u0107 lub zakres zam\xF3wienia\nII.1.1)\n\nNazwa:\nZakup mobilnych us\u0142ug telekomunikacyjnych\nNumer referencyjny: BDG.741.035.2020\n\nII.1.2)\n\nG\u0142\xF3wny kod CPV\n64200000 Us\u0142ugi telekomunikacyjne\n\nII.1.3)\n\nRodzaj zam\xF3wienia\nUs\u0142ugi\n\nII.1.4)\n\nKr\xF3tki opis:\nZakup mobilnych us\u0142ug telekomunikacyjnych.\n\nII.1.6)\n\nInformacje o cz\u0119\u015Bciach\nTo zam\xF3\
+    wienie podzielone jest na cz\u0119\u015Bci: nie\n\nII.1.7)\n\nCa\u0142kowita warto\u015B\u0107 zam\xF3wienia (bez VAT)\nNajta\u0144sza oferta: 1 860 793.00 PLN / Najdro\u017Csza oferta: 1 971 581.76 PLN brana pod uwag\u0119\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n1/4\n\nDz.U./S S40\n26/02/2021\n100022-2021-PL\n\n2/4\n\nII.2)\n\nOpis\n\nII.2.2)\n\nDodatkowy kod lub kody CPV\n48421000 Pakiety oprogramowania do zarz\u0105dzania urz\u0105dzeniami\n\nII.2.3)\n\nMiejsce \u015Bwiadczenia us\u0142ug\nKod NUTS: PL POLSKA\nG\u0142\xF3wne miejsce lub lokalizacja realizacji:\nDost\u0119p do sieci telefonii kom\xF3rkowej w obszarze nie mniejszym ni\u017C 97 % powierzchni kraju oraz we wszystkich\nbudynkach zajmowanych przez Zamawiaj\u0105cego na terenie kraju \u2013 lokalizacje wskazane w OPZ.\n\nII.2.4)\n\nOpis zam\xF3wienia:\nPrzedmiotem zam\xF3wienia jest:\n1. \u015Bwiadczenie przez Wykonawc\u0119 na rzecz Zamawiaj\u0105cego us\u0142ug telekomunikacyjnych przez okres 10 miesi\u0119cy\n\
+    albo do wcze\u015Bniejszego wyczerpania \u015Brodk\xF3w finansowych przewidzianych na realizacj\u0119 umowy. \u015Awiadczone\nus\u0142ugi telekomunikacyjne zapewnia\u0107 maj\u0105 mi\u0119dzy innymi: \u0142\u0105czno\u015B\u0107 g\u0142osow\u0105 (wychodz\u0105ce i przychodz\u0105ce\npo\u0142\u0105czenia krajowe, mi\u0119dzynarodowe i roamingowe), tekstow\u0105 (SMS), dost\u0119p do zasob\xF3w Internetu. Realizacja\nus\u0142ug odbywa\u0107 si\u0119 b\u0119dzie poprzez wykorzystanie terminali kom\xF3rkowych posiadanych przez Zamawiaj\u0105cego\noraz nowych kart SIM dostarczonych przez Wykonawc\u0119 (bez dodatkowych koszt\xF3w po stronie Zamawiaj\u0105cego\nw przypadku zmiany dotychczasowego operatora) albo posiadanych przez Zamawiaj\u0105cego kart SIM (w\nprzypadku wyboru dotychczasowego Wykonawcy);\n2. zapewnienie dost\u0119pu do sieci telefonii kom\xF3rkowej na obszarze nie mniejszym ni\u017C 97 % powierzchni\nkraju oraz we wszystkich budynkach zajmowanych przez Zamawiaj\u0105cego\
+    \ na terenie kraju, na poziomie\numo\u017Cliwiaj\u0105cym swobodn\u0105 realizacj\u0119 po\u0142\u0105cze\u0144 g\u0142osowych (wychodz\u0105ce i przychodz\u0105ce po\u0142\u0105czenia krajowe i\nmi\u0119dzynarodowe);\n3. dostawa licencji dost\u0119powych CAL (Client Access Licence) typu BlackBerry Secure UEM & Productivity\nSuites \u2013 Freedom Suite lub nowszych, lub r\xF3wnowa\u017Cnych;\n4. dostawa kart SIM;\n5. zgrupowanie wszystkich numer\xF3w kom\xF3rkowych w jedn\u0105 sie\u0107 korporacyjn\u0105;\n6. zapewnienie wsparcia technicznego i nadzoru nad realizowanym zam\xF3wieniem.\nWykonawca zobowi\u0105zany b\u0119dzie do dostosowania \u015Bwiadczonych us\u0142ug do wymog\xF3w Zamawiaj\u0105cego\nokre\u015Blonych w niniejszym opisie.\n\nII.2.5)\n\nKryteria udzielenia zam\xF3wienia\nKryterium jako\u015Bci - Nazwa: Op\u0142aty za po\u0142\u0105czenia mi\u0119dzynarodowe / Waga: 25\nKryterium jako\u015Bci - Nazwa: Wsp\xF3lny dla wszystkich aktywacji roamingowy pakiet transmisji danych\n\
+    obowi\u0105zuj\u0105cy poza terenem UE / Waga: 10\nKryterium jako\u015Bci - Nazwa: Zapewnienie us\u0142ugi WiFi Calling (VoWiFi) na wszystkich kartach SIM / Waga: 5\nCena - Waga: 60\n\nII.2.11)\n\nInformacje o opcjach\nOpcje: tak\nOpis opcji:\n1. Zamawiaj\u0105cy zastrzega sobie prawo opcji polegaj\u0105ce na mo\u017Cliwo\u015Bci z\u0142o\u017Cenia zam\xF3wienia na kolejne\n(dodatkowe) licencje dost\u0119powe CAL (Client Access Licence) typu BlackBerry Secure UEM & Productivity\nSuites \u2013 Freedom Suite lub nowszych (lub r\xF3wnowa\u017Cnych) wraz z us\u0142ug\u0105 wsparcia (maksymalnie 1 100 szt.\ndodatkowych licencji w ramach prawa opcji), z kt\xF3rego mo\u017Ce skorzysta\u0107 w terminie do 9 miesi\u0119cy od podpisania\numowy, a dostawa nast\u0105pi w ci\u0105gu 7 dni roboczych od z\u0142o\u017Cenia takiego zam\xF3wienia.\n2. Niezale\u017Cnie od zmiany operatora, Zamawiaj\u0105cy zastrzega mo\u017Cliwo\u015B\u0107 dostarczenia kolejnych kart SIM w ilo\u015Bci\ndo 250 sztuk (wynikaj\u0105\
+    cych z zakupu dodatkowych aktywacji w ramach prawa opcji). Dostawa opcjonalnych\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n2/4\n\nDz.U./S S40\n26/02/2021\n100022-2021-PL\n\n3/4\n\nkart SIM \u2013 nast\u0105pi w ci\u0105gu 7 dni roboczych od daty zg\u0142oszenia takiego zam\xF3wienia w ilo\u015Bci \u017C\u0105danej przez\nZamawiaj\u0105cego.\n3. Wykonawcy nie przys\u0142uguje \u017Cadne roszczenie w przypadku nieskorzystania przez Zamawiaj\u0105cego z wy\u017Cej\nopisanego prawa opcji.\nII.2.13)\n\nInformacje o funduszach Unii Europejskiej\nZam\xF3wienie dotyczy projektu/programu finansowanego ze \u015Brodk\xF3w Unii Europejskiej: nie\n\nII.2.14)\n\nInformacje dodatkowe\n\nSekcja IV: Procedura\nIV.1)\nOpis\nIV.1.1)\n\nRodzaj procedury\nProcedura otwarta\n\nIV.1.3)\n\nInformacje na temat umowy ramowej lub dynamicznego systemu zakup\xF3w\n\nIV.1.8)\n\nInformacje na temat Porozumienia w sprawie zam\xF3wie\u0144 rz\u0105dowych (GPA)\nZam\xF3wienie jest obj\u0119te Porozumieniem w sprawie\
+    \ zam\xF3wie\u0144 rz\u0105dowych: tak\n\nIV.2)\n\nInformacje administracyjne\n\nIV.2.1)\n\nPoprzednia publikacja dotycz\u0105ca przedmiotowego post\u0119powania\nNumer og\u0142oszenia w Dz.Urz. UE \u2013 OJ/S: 2020/S 184-444570\n\nIV.2.8)\n\nInformacje o zako\u0144czeniu dynamicznego systemu zakup\xF3w\n\nIV.2.9)\n\nInformacje o zako\u0144czeniu zaproszenia do ubiegania si\u0119 o zam\xF3wienie w postaci wst\u0119pnego og\u0142oszenia\ninformacyjnego\n\nSekcja V: Udzielenie zam\xF3wienia\nNazwa:\nZakup mobilnych us\u0142ug telekomunikacyjnych\nZam\xF3wienie/zam\xF3wienie na cz\u0119\u015B\u0107 zostaje udzielone: tak\nV.2)\n\nUdzielenie zam\xF3wienia\n\nV.2.1)\n\nData zawarcia umowy:\n03/02/2021\n\nV.2.2)\n\nInformacje o ofertach\nLiczba otrzymanych ofert: 3\nLiczba ofert otrzymanych od M\u015AP: 0\nLiczba ofert otrzymanych od oferent\xF3w z innych pa\u0144stw cz\u0142onkowskich UE: 0\nLiczba ofert otrzymanych od oferent\xF3w z pa\u0144stw nieb\u0119d\u0105cych cz\u0142onkami UE: 0\n\
+    Liczba ofert otrzymanych drog\u0105 elektroniczn\u0105: 3\nZam\xF3wienie zosta\u0142o udzielone grupie wykonawc\xF3w: nie\n\nV.2.3)\n\nNazwa i adres wykonawcy\nOficjalna nazwa: T-Mobile Polska S.A.\nAdres pocztowy: ul. Marynarska 12\nMiejscowo\u015B\u0107: Warszawa\nKod NUTS: PL911 Miasto Warszawa\nKod pocztowy: 02-674\nPa\u0144stwo: Polska\nWykonawc\u0105 jest M\u015AP: nie\n\nV.2.4)\n\nInformacje na temat warto\u015Bci zam\xF3wienia/cz\u0119\u015Bci (bez VAT)\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n3/4\n\nDz.U./S S40\n26/02/2021\n100022-2021-PL\n\n4/4\n\nPocz\u0105tkowa szacunkowa ca\u0142kowita warto\u015B\u0107 zam\xF3wienia/cz\u0119\u015Bci: 1 791 212.00 PLN\nCa\u0142kowita ko\u0144cowa warto\u015B\u0107 umowy/cz\u0119\u015Bci: 1 602 912.00 PLN\nV.2.5)\n\nInformacje na temat podwykonawstwa\n\nSekcja VI: Informacje uzupe\u0142niaj\u0105ce\nVI.3)\nInformacje dodatkowe:\nVI.4)\n\nProcedury odwo\u0142awcze\n\nVI.4.1)\n\nOrgan odpowiedzialny za procedury odwo\u0142awcze\nOficjalna\
+    \ nazwa: Krajowa Izba Odwo\u0142awcza\nAdres pocztowy: ul. Post\u0119pu 17a\nMiejscowo\u015B\u0107: Warszawa\nKod pocztowy: 02-676\nPa\u0144stwo: Polska\nE-mail: odwolania@uzp.gov.pl\nTel.: +48 224587801\nFaks: +48 224587700\nAdres internetowy: www.uzp.gov.pl\n\nVI.4.3)\n\nSk\u0142adanie odwo\u0142a\u0144\nDok\u0142adne informacje na temat termin\xF3w sk\u0142adania odwo\u0142a\u0144:\n1. W toku post\u0119powania o udzielenie zam\xF3wienia Wykonawcom przys\u0142uguj\u0105 \u015Brodki ochrony prawnej\nprzewidziane w dziale IV ustawy Pzp.\n2. Odwo\u0142anie mo\u017Cna wnie\u015B\u0107 w terminie 10 dni od dnia przes\u0142ania informacji o czynno\u015Bci Zamawiaj\u0105cego\nstanowi\u0105cej podstaw\u0119 jego wniesienia (art. 182 ust. 1 pkt 1 ustawy Pzp).\n3. Odwo\u0142anie wobec tre\u015Bci og\u0142oszenia o zam\xF3wieniu oraz wobec tre\u015Bci SIWZ mo\u017Cna wnie\u015B\u0107 w terminie 10 dni\nod dnia publikacji og\u0142oszenia w Dz.U. UE lub zamieszczenia SIWZ na stronie internetowej\
+    \ (art. 182 ust. 2 pkt 1\nustawy Pzp).\n4. Odwo\u0142anie wobec czynno\u015Bci innych ni\u017C okre\u015Blone w pkt 2 i 3 mo\u017Cna wnie\u015B\u0107 w terminie 10 dni od dnia, w\nkt\xF3rym powzi\u0119to lub przy zachowaniu nale\u017Cytej staranno\u015Bci mo\u017Cna by\u0142o powzi\u0105\u0107 wiadomo\u015B\u0107 o okoliczno\u015Bciach\nstanowi\u0105cych podstaw\u0119 do jego wniesienia.\n\nVI.4.4)\n\n\u0179r\xF3d\u0142o, gdzie mo\u017Cna uzyska\u0107 informacje na temat sk\u0142adania odwo\u0142a\u0144\nOficjalna nazwa: Krajowa Izba Odwo\u0142awcza\nAdres pocztowy: ul. Post\u0119pu 17a\nMiejscowo\u015B\u0107: Warszawa\nKod pocztowy: 02-676\nPa\u0144stwo: Polska\nE-mail: odwolania@uzp.gov.pl\nTel.: +48 224587801\nFaks: +48 224587700\nAdres internetowy: www.uzp.gov.pl\n\nVI.5)\n\nData wys\u0142ania niniejszego og\u0142oszenia:\n23/02/2021\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n4/4\n```\n"
   required_artifacts:
-    - source_record_file
-    - source_record_metadata
+  - source_record_file
+  - source_record_metadata
+  artifacts:
+  - id: materialized_source_document
+    path: datasets/public-validation-v1/source_documents/structured-public-record-msz-100022.md
+    role: source_document
+    media_type: text/markdown
+    source_url: https://ted.europa.eu/en/notice/100022-2021/xml
+    collected_at: '2026-03-20'
+    original_filename: 100022-2021.xml
+    sha256: b1364f3aa30b689a9ac0eb50aa854af7d044211f5436d4840ab0bae800c7c4bb
+    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: 'Case bundle from: TED notice XML 100022-2021 | TED notice PDF 100022-2021 (PL) | TED notice detail 100022-2021'
+    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+  - id: original-source-01
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-msz-100022/source-01-ted-notice-xml-100022-2021.xml
+    role: original_source_snapshot
+    media_type: application/xml
+    source_url: https://ted.europa.eu/en/notice/100022-2021/xml
+    collected_at: '2026-03-20'
+    original_filename: 100022-2021.xml
+    sha256: 4249d721e185529559ae1210c90a7bb9ff224906d61536a34afc1780b83d7825
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice XML 100022-2021
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-02
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-msz-100022/source-02-ted-notice-pdf-100022-2021-pl.pdf
+    role: original_source_snapshot
+    media_type: application/pdf
+    source_url: https://ted.europa.eu/pl/notice/100022-2021/pdfs
+    collected_at: '2026-03-20'
+    original_filename: 100022-2021.pdf
+    sha256: 93d51e1a5d93bb20f7d13bf7a4912877a42c9651ad50289e18b2dce94a72aab6
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice PDF 100022-2021 (PL)
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-03
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-msz-100022/source-03-ted-notice-detail-100022-2021.html
+    role: original_source_snapshot
+    media_type: text/html
+    source_url: https://ted.europa.eu/en/notice/-/detail/100022-2021
+    collected_at: '2026-03-20'
+    original_filename: 100022-2021.html
+    sha256: 81e47e7855c6076d02df229681fed8f1fe073c79868a3a4d74a0677f0aaa5b83
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice detail 100022-2021
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
 expected_output:
   fields_required:
-    - buyer_name
-    - supplier_name
-    - award_date
-    - amount
-    - category_code
+  - buyer_name
+  - supplier_name
+  - award_date
+  - amount
+  - category_code
 answer_key:
   type: structured_fields
   fields:
     buyer_name: Ministerstwo Spraw Zagranicznych
     supplier_name: T-Mobile Polska S.A.
-    award_date: "2021-02-03"
-    amount: 1602912.00
-    category_code: "64200000"
+    award_date: '2021-02-03'
+    amount: 1602912.0
+    category_code: '64200000'
 notes:
-  - The award block lists both an estimated value and the final contract value; extraction should return the awarded amount of 1602912.00 rather than the higher estimate.
-  - The official buyer name is in Polish, so the exact-answer key keeps the source-language spelling from the structured XML notice.
+- The award block lists both an estimated value and the final contract value; extraction should return the awarded amount of 1602912.00 rather than the higher estimate.
+- The official buyer name is in Polish, so the exact-answer key keeps the source-language spelling from the structured XML notice.

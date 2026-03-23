@@ -5,37 +5,83 @@ task_type: field_extraction
 answer_mode: exact
 source_family: official_procurement
 source_tier: primary
-target_entity: "TED notice 189843-2020, contract no. 2020-9906"
+target_entity: TED notice 189843-2020, contract no. 2020-9906
 sources:
-  - label: TED notice PDF 189843-2020
-    url: https://ted.europa.eu/en/notice/189843-2020/pdfs
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice HTML 189843-2020
-    url: https://ted.europa.eu/udl?uri=TED:NOTICE:189843-2020:TEXT:EN:HTML
-    checked_on: 2026-03-20
-    provenance: official_portal
+- label: TED notice PDF 189843-2020
+  url: https://ted.europa.eu/en/notice/189843-2020/pdfs
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice HTML 189843-2020
+  url: https://ted.europa.eu/udl?uri=TED:NOTICE:189843-2020:TEXT:EN:HTML
+  checked_on: 2026-03-20
+  provenance: official_portal
 evidence_bundle:
   kind: structured_record
-  content_markdown: "Materialization pending: fetching source content..."
+  content_markdown: "# European Commission CLOUD II contract 2020-9906 extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/en/notice/189843-2020/pdfs\n\n## Listed sources\n- TED notice PDF 189843-2020: https://ted.europa.eu/en/notice/189843-2020/pdfs\n- TED notice HTML 189843-2020: https://ted.europa.eu/udl?uri=TED:NOTICE:189843-2020:TEXT:EN:HTML\n\n## Extracted source text\n\n```text\nOJ/S S81\n24/04/2020\n189843-2020-EN\n\nEuropean Commission - Services - Contract award notice - Restricted procedure\n\n1/5\n\nThis notice in TED website: https://ted.europa.eu/udl?uri=TED:NOTICE:189843-2020:TEXT:EN:HTML\n\nBelgium-Brussels: European Commission DPS 1 for Cloud Services\n2020/S 081-189843\nContract award notice\nResults of the procurement procedure\nServices\nLegal Basis:\nRegulation (EU, Euratom) No 2018/1046\nSection I: Contracting authority\nI.1)\nName and addresses\nOfficial name: European Commission, Directorate-General\
+    \ for Informatics, Directorate A: Strategy and\nResources, Unit A3: ICT Procurement and Contracts\nPostal address: rue Montoyer 15\nTown: Brussels\nNUTS code: BE100\nPostal code: B-1049\nCountry: Belgium\nContact person: Digit Contracts Info Centre\nE-mail: digit-contracts-info-centre@ec.europa.eu\nInternet address(es):\nMain address: https://ec.europa.eu/info/departments/informatics_en\nAddress of the buyer profile: https://ec.europa.eu/info/funding-tenders/tenders/tender-opportunities-department/\ntender-opportunities-informatics_en\nI.1)\n\nName and addresses\nOfficial name: See list of participating institutions, agencies and bodies (see point VI.3 \u2014 2)\nPostal address: rue Montoyer 15\nTown: Brussels\nNUTS code: BE100\nPostal code: B-1049\nCountry: Belgium\nContact person: Digit Contracts Info Centre\nE-mail: digit-contracts-info-centre@ec.europa.eu\nInternet address(es):\nMain address: https://ec.europa.eu/info/departments/informatics_en\nAddress of the buyer profile: https://ec.europa.eu/info/funding-tenders/tenders/tender-opportunities-department/\n\
+    tender-opportunities-informatics_en\n\nI.2)\n\nInformation about joint procurement\nThe contract involves joint procurement\n\nI.4)\n\nType of the contracting authority\nEuropean institution/agency or international organisation\n\n24/04/2020\nS81\nhttps://ted.europa.eu/\nTED\n\nEuropean Commission - Services - Contract award notice - Restricted procedure\nSupplement to the Official Journal of the European Union\n\n1/5\n\nOJ/S S81\n24/04/2020\n189843-2020-EN\n\nI.5)\n\nEuropean Commission - Services - Contract award notice - Restricted procedure\n\n2/5\n\nMain activity\nGeneral public services\n\nSection II: Object\nII.1)\nScope of the procurement\nII.1.1)\n\nTitle:\nEuropean Commission DPS 1 for Cloud Services\nReference number: CLOUD II DIGIT A3 PR 2018 035\n\nII.1.2)\n\nMain CPV code\n72000000\n\nII.1.3)\n\nType of contract\nServices\n\nII.1.4)\n\nShort description:\nAcquisition of cloud services in the field of multi-tenant Infrastructure as a service (IaaS) and platform as\naService\
+    \ (PaaS).\n\nII.1.6)\n\nInformation about lots\nThis contract is divided into lots: no\n\nII.1.7)\n\nTotal value of the procurement (excluding VAT)\nValue excluding VAT: 111 942 524.00 EUR\n\nII.2)\n\nDescription\n\nII.2.1)\n\nTitle:\n\nII.2.2)\n\nAdditional CPV code(s)\n\nII.2.3)\n\nPlace of performance\nNUTS code: BE\n\nII.2.4)\n\nDescription of the procurement:\nThe provision of multi-tenant IaaS/PaaS where the contracting authority has the capability to deploy applications\nonto the cloud infrastructure supported by the contractor.\n\nII.2.5)\n\nAward criteria\nQuality criterion - Name: Quality criteria / Weighting: 70\nPrice - Weighting: 30\n\nII.2.11)\n\nInformation about options\nOptions: no\n\nII.2.13)\n\nInformation about European Union funds\nThe procurement is related to a project and/or programme financed by European Union funds: yes\nIdentification of the project:\nEU administrative appropriations.\n\nII.2.14)\n\nAdditional information\n\nSection IV: Procedure\nIV.1)\nDescription\n\
+    IV.1.1)\n\nType of procedure\nRestricted procedure\n\nIV.1.3)\n\nInformation about a framework agreement or a dynamic purchasing system\nA dynamic purchasing system was set up\n\n24/04/2020\nS81\nhttps://ted.europa.eu/\nTED\n\nEuropean Commission - Services - Contract award notice - Restricted procedure\nSupplement to the Official Journal of the European Union\n\n2/5\n\nOJ/S S81\n24/04/2020\n189843-2020-EN\n\nEuropean Commission - Services - Contract award notice - Restricted procedure\n\nIV.1.6)\n\nInformation about electronic auction\n\nIV.1.8)\n\nInformation about the Government Procurement Agreement (GPA)\nThe procurement is covered by the Government Procurement Agreement: yes\n\nIV.2)\n\nAdministrative information\n\nIV.2.1)\n\nPrevious publication concerning this procedure\nNotice number in the OJ S: 2019/S 154-378801\n\nIV.2.8)\n\nInformation about termination of dynamic purchasing system\n\nIV.2.9)\n\nInformation about termination of call for competition in the form of a prior\
+    \ information notice\n\n3/5\n\nSection V: Award of contract\nContract No: 2020-1742\nTitle:\nDirect Contract for Cloud Services \u2014 DIGIT/A3/PR/2018/035 CLOUD II DPS 1 MC1\nA contract/lot is awarded: yes\nV.2)\n\nAward of contract\n\nV.2.1)\n\nDate of conclusion of the contract:\n15/01/2020\n\nV.2.2)\n\nInformation about tenders\nNumber of tenders received: 1\nThe contract has been awarded to a group of economic operators: no\n\nV.2.3)\n\nName and address of the contractor\nOfficial name: Amazon Web Services EMEA SARL\nNational registration number: B186284\nPostal address: 38 avenue John F. Kennedy\nTown: Luxembourg\nNUTS code: LU\nPostal code: 1855\nCountry: Luxembourg\nThe contractor is an SME: no\n\nV.2.4)\n\nInformation on value of the contract/lot (excluding VAT)\nTotal value of the contract/lot: 57 945 201.00 EUR\n\nV.2.5)\n\nInformation about subcontracting\n\nSection V: Award of contract\nContract No: 2020-9906\nTitle:\nDirect Contract for Cloud Services \u2014 DIGIT/A3/PR/2018/035\
+    \ CLOUD II DPS 1 MC2\nA contract/lot is awarded: yes\nV.2)\n\nAward of contract\n\nV.2.1)\n\nDate of conclusion of the contract:\n30/03/2020\n\nV.2.2)\n\nInformation about tenders\nNumber of tenders received: 3\n\n24/04/2020\nS81\nhttps://ted.europa.eu/\nTED\n\nEuropean Commission - Services - Contract award notice - Restricted procedure\nSupplement to the Official Journal of the European Union\n\n3/5\n\nOJ/S S81\n24/04/2020\n189843-2020-EN\n\nEuropean Commission - Services - Contract award notice - Restricted procedure\n\n4/5\n\nThe contract has been awarded to a group of economic operators: no\nV.2.3)\n\nName and address of the contractor\nOfficial name: Microsoft Ireland Operations Ltd\nNational registration number: 256796\nPostal address: 70 Sir John Rogerson\u2019s Quay\nTown: Dublin\nNUTS code: IE\nCountry: Ireland\nThe contractor is an SME: no\n\nV.2.4)\n\nInformation on value of the contract/lot (excluding VAT)\nTotal value of the contract/lot: 53 997 323.00 EUR\n\nV.2.5)\n\n\
+    Information about subcontracting\n\nSection VI: Complementary information\nVI.3)\nAdditional information:\nApart from the European commission, 63 EU institutions participated as contracting authorities under CLOUD II\nat the time of award. For details see internet address provided in section I.3) of the notice referred to in IV.2.1).\nVI.4)\n\nProcedures for review\n\nVI.4.1)\n\nReview body\nOfficial name: General Court of the European Union\nPostal address: rue du Fort Niedergr\xFCnewald\nTown: Luxembourg\nPostal code: 2925\nCountry: Luxembourg\nE-mail: generalcourt.registry@curia.europa.eu\nTelephone: +352 4303-1\nFax: +352 4303-2100\nInternet address: http://curia.europa.eu/\n\nVI.4.2)\n\nBody responsible for mediation procedures\n\nVI.4.3)\n\nReview procedure\nPrecise information on deadline(s) for review procedures:\nPrecise information on deadline(s) for review procedures:\nSee internet address provided in section I.3) of the notice referred to in IV.2.1).\n\nVI.4.4)\n\nService\
+    \ from which information about the review procedure may be obtained\nOfficial name: European Commission, Directorate-General for Informatics, Directorate A: Strategy and\nResources, Unit A3: ICT Procurement and Contracts\nPostal address: rue Montoyer 15\nTown: Brussels\nPostal code: B-1049\nCountry: Belgium\nE-mail: digit-contracts-info-centre@ec.europa.eu\nTelephone: +32 22960762\nInternet address: https://ec.europa.eu/info/departments/informatics_en#related\n\nVI.5)\n\nDate of dispatch of this notice:\n\n24/04/2020\nS81\nhttps://ted.europa.eu/\nTED\n\nEuropean Commission - Services - Contract award notice - Restricted procedure\nSupplement to the Official Journal of the European Union\n\n4/5\n\nOJ/S S81\n24/04/2020\n189843-2020-EN\n\nEuropean Commission - Services - Contract award notice - Restricted procedure\n\n5/5\n\nEuropean Commission - Services - Contract award notice - Restricted procedure\nSupplement to the Official Journal of the European Union\n\n5/5\n\n17/04/2020\n\n24/04/2020\n\
+    S81\nhttps://ted.europa.eu/\nTED\n```\n"
   required_artifacts:
-    - source_record_file
-    - source_record_metadata
+  - source_record_file
+  - source_record_metadata
+  artifacts:
+  - id: materialized_source_document
+    path: datasets/public-validation-v1/source_documents/structured-public-record-ec-cloud-2020-9906.md
+    role: source_document
+    media_type: text/markdown
+    source_url: https://ted.europa.eu/en/notice/189843-2020/pdfs
+    collected_at: '2026-03-20'
+    original_filename: 189843-2020.pdf
+    sha256: 9a73fd808da15eb2a75cb0a42b9f598f8700e37f06940e525913427c2d54b848
+    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: 'Case bundle from: TED notice PDF 189843-2020 | TED notice HTML 189843-2020'
+    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+  - id: original-source-01
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-ec-cloud-2020-9906/source-01-ted-notice-pdf-189843-2020.pdf
+    role: original_source_snapshot
+    media_type: application/pdf
+    source_url: https://ted.europa.eu/en/notice/189843-2020/pdfs
+    collected_at: '2026-03-20'
+    original_filename: 189843-2020.pdf
+    sha256: 4bb5a737bfe19ee3d119ca0aa1ac5abad7eaff61a590bb9284d8eb6efd731bd6
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice PDF 189843-2020
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-02
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-ec-cloud-2020-9906/source-02-ted-notice-html-189843-2020.html
+    role: original_source_snapshot
+    media_type: text/html
+    source_url: https://ted.europa.eu/udl?uri=TED:NOTICE:189843-2020:TEXT:EN:HTML
+    collected_at: '2026-03-20'
+    original_filename: udl.html
+    sha256: 6a85ebb020dfcd6be74d30b739acbb3f85e181329d4260a8defc224ac3bba286
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice HTML 189843-2020
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
 expected_output:
   fields_required:
-    - buyer_name
-    - supplier_name
-    - award_date
-    - amount
-    - category_code
+  - buyer_name
+  - supplier_name
+  - award_date
+  - amount
+  - category_code
 answer_key:
   type: structured_fields
   fields:
-    buyer_name: "European Commission, Directorate-General for Informatics, Directorate A: Strategy and Resources, Unit A3: ICT Procurement and Contracts"
+    buyer_name: 'European Commission, Directorate-General for Informatics, Directorate A: Strategy and Resources, Unit A3: ICT Procurement and Contracts'
     supplier_name: Microsoft Ireland Operations Ltd
-    award_date: "2020-03-30"
-    amount: 53997323.00
-    category_code: "72000000"
+    award_date: '2020-03-30'
+    amount: 53997323.0
+    category_code: '72000000'
 notes:
-  - This notice contains multiple awarded contracts under one procurement; the answer key is anchored to contract no. 2020-9906 only.
-  - The case tests whether extraction stays contract-specific instead of returning the first contractor listed elsewhere in the same notice.
+- This notice contains multiple awarded contracts under one procurement; the answer key is anchored to contract no. 2020-9906 only.
+- The case tests whether extraction stays contract-specific instead of returning the first contractor listed elsewhere in the same notice.

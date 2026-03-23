@@ -5,72 +5,92 @@ task_type: field_extraction
 answer_mode: exact
 source_family: official_procurement
 source_tier: primary
-target_entity: "TED notice 100030-2021"
+target_entity: TED notice 100030-2021
 sources:
-  - label: TED notice XML 100030-2021
-    url: https://ted.europa.eu/en/notice/100030-2021/xml
-    checked_on: 2026-03-22
-    provenance: official_portal
-  - label: TED notice PDF 100030-2021 (HR)
-    url: https://ted.europa.eu/hr/notice/100030-2021/pdfs
-    checked_on: 2026-03-22
-    provenance: official_portal
-  - label: TED notice detail 100030-2021
-    url: https://ted.europa.eu/en/notice/-/detail/100030-2021
-    checked_on: 2026-03-22
-    provenance: official_portal
+- label: TED notice XML 100030-2021
+  url: https://ted.europa.eu/en/notice/100030-2021/xml
+  checked_on: 2026-03-22
+  provenance: official_portal
+- label: TED notice PDF 100030-2021 (HR)
+  url: https://ted.europa.eu/hr/notice/100030-2021/pdfs
+  checked_on: 2026-03-22
+  provenance: official_portal
+- label: TED notice detail 100030-2021
+  url: https://ted.europa.eu/en/notice/-/detail/100030-2021
+  checked_on: 2026-03-22
+  provenance: official_portal
 evidence_bundle:
   kind: structured_record
-  content_markdown: |
-    # TED notice 100030-2021
-
-    Collected from the official TED XML on 2026-03-22.
-
-    ## Notice metadata
-    - Original language: HR
-    - Reference number: `046-212-2020-EVV`
-    - Notice type: Contract award notice
-    - Original CPV code: `90910000`
-    - Notice-level procurement total: `2770250.00 HRK`
-    - Prior notice reference: `2020/S 193-466848`
-
-    ## Contracting authority
-    - `OFFICIALNAME`: Grad Zagreb
-    - `NATIONALID`: 61817894937
-    - `ADDRESS`: Avenija Dubrovnik 15
-    - `URL_GENERAL`: www.zagreb.hr
-
-    ## Object contract
-    - `TITLE`: Dnevno i periodično čišćenje i pranje poslovnih prostora
-    - `SHORT_DESCR`: Predmet nabave je Dnevno i periodično čišćenje i pranje poslovnih prostora.
-    - `CPV_CODE`: 90910000
-    - `VAL_TOTAL`: 2770250.00 HRK
-
-    ## Awarded contract
-    - `DATE_CONCLUSION_CONTRACT`: 2021-02-16
-    - `CONTRACTOR/OFFICIALNAME`: Samsic d.o.o.
-    - `NB_TENDERS_RECEIVED`: 2
-    - `AWARDED_CONTRACT/VAL_ESTIMATED_TOTAL`: 3000000.00 HRK
-    - `AWARDED_CONTRACT/VAL_TOTAL`: 2770250.00 HRK
+  content_markdown: "# TED notice 100030-2021\n\nCollected from the official TED XML on 2026-03-22.\n\n## Notice metadata\n- Original language: HR\n- Reference number: `046-212-2020-EVV`\n- Notice type: Contract award notice\n- Original CPV code: `90910000`\n- Notice-level procurement total: `2770250.00 HRK`\n- Prior notice reference: `2020/S 193-466848`\n\n## Contracting authority\n- `OFFICIALNAME`: Grad Zagreb\n- `NATIONALID`: 61817894937\n- `ADDRESS`: Avenija Dubrovnik 15\n- `URL_GENERAL`: www.zagreb.hr\n\n## Object contract\n- `TITLE`: Dnevno i periodi\u010Dno \u010Di\u0161\u0107enje i pranje poslovnih prostora\n- `SHORT_DESCR`: Predmet nabave je Dnevno i periodi\u010Dno \u010Di\u0161\u0107enje i pranje poslovnih prostora.\n- `CPV_CODE`: 90910000\n- `VAL_TOTAL`: 2770250.00 HRK\n\n## Awarded contract\n- `DATE_CONCLUSION_CONTRACT`: 2021-02-16\n- `CONTRACTOR/OFFICIALNAME`: Samsic d.o.o.\n- `NB_TENDERS_RECEIVED`: 2\n- `AWARDED_CONTRACT/VAL_ESTIMATED_TOTAL`: 3000000.00 HRK\n- `AWARDED_CONTRACT/VAL_TOTAL`:\
+    \ 2770250.00 HRK\n"
   required_artifacts:
-    - source_record_file
-    - source_record_metadata
+  - source_record_file
+  - source_record_metadata
+  artifacts:
+  - id: materialized_source_document
+    path: datasets/public-validation-v1/source_documents/structured-public-record-zagreb-100030.md
+    role: source_document
+    media_type: text/markdown
+    source_url: https://ted.europa.eu/en/notice/100030-2021/xml
+    collected_at: '2026-03-22'
+    original_filename: 100030-2021.xml
+    sha256: 0fc1d38e28f066354b9718a407417ada38175245d67768687390ccb8476e808c
+    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: 'Case bundle from: TED notice XML 100030-2021 | TED notice PDF 100030-2021 (HR) | TED notice detail 100030-2021'
+    notes: Checked-in markdown source document used for local validation and Hugging Face export. Derived from the cited upstream source material recorded in sources[].
+  - id: original-source-01
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-zagreb-100030/source-01-ted-notice-xml-100030-2021.xml
+    role: original_source_snapshot
+    media_type: application/xml
+    source_url: https://ted.europa.eu/en/notice/100030-2021/xml
+    collected_at: '2026-03-22'
+    original_filename: 100030-2021.xml
+    sha256: 8e51b56de794fdce9c8e9c803f036190b60a27b9dcec39900251eb471873ec2a
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice XML 100030-2021
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-02
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-zagreb-100030/source-02-ted-notice-pdf-100030-2021-hr.pdf
+    role: original_source_snapshot
+    media_type: application/pdf
+    source_url: https://ted.europa.eu/hr/notice/100030-2021/pdfs
+    collected_at: '2026-03-22'
+    original_filename: 100030-2021.pdf
+    sha256: 81d84db3478fc5fa0e55bece655c7c69ce3ffb6dd54a35cbbbe495a18bd9db28
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice PDF 100030-2021 (HR)
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-03
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-zagreb-100030/source-03-ted-notice-detail-100030-2021.html
+    role: original_source_snapshot
+    media_type: text/html
+    source_url: https://ted.europa.eu/en/notice/-/detail/100030-2021
+    collected_at: '2026-03-22'
+    original_filename: 100030-2021.html
+    sha256: 95c2945bc81f37c24637a058f63533a2679ed056dcfd7ba9f6a506251eae0f7a
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice detail 100030-2021
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
 expected_output:
   fields_required:
-    - buyer_name
-    - supplier_name
-    - award_date
-    - amount
-    - category_code
+  - buyer_name
+  - supplier_name
+  - award_date
+  - amount
+  - category_code
 answer_key:
   type: structured_fields
   fields:
     buyer_name: Grad Zagreb
     supplier_name: Samsic d.o.o.
-    award_date: "2021-02-16"
-    amount: 2770250.00
-    category_code: "90910000"
+    award_date: '2021-02-16'
+    amount: 2770250.0
+    category_code: '90910000'
 notes:
-  - This Croatian notice expands the suite into a new country slice while keeping the same exact field-extraction contract structure.
-  - The XML exposes both an estimated value and the awarded total; the answer key uses the signed contract value rather than the estimate.
-  - The inlined evidence now captures the official contract title, CPV code, buyer, winner, and both value fields needed to justify the exact answer key.
+- This Croatian notice expands the suite into a new country slice while keeping the same exact field-extraction contract structure.
+- The XML exposes both an estimated value and the awarded total; the answer key uses the signed contract value rather than the estimate.
+- The inlined evidence now captures the official contract title, CPV code, buyer, winner, and both value fields needed to justify the exact answer key.

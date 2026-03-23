@@ -5,37 +5,79 @@ task_type: field_extraction
 answer_mode: exact
 source_family: official_procurement
 source_tier: primary
-target_entity: "TED notice 545849-2019"
+target_entity: TED notice 545849-2019
 sources:
-  - label: TED notice PDF 545849-2019
-    url: https://ted.europa.eu/en/notice/545849-2019/pdfs
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice HTML 545849-2019
-    url: https://ted.europa.eu/udl?uri=TED:NOTICE:545849-2019:TEXT:EN:HTML
-    checked_on: 2026-03-20
-    provenance: official_portal
+- label: TED notice PDF 545849-2019
+  url: https://ted.europa.eu/en/notice/545849-2019/pdfs
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice HTML 545849-2019
+  url: https://ted.europa.eu/udl?uri=TED:NOTICE:545849-2019:TEXT:EN:HTML
+  checked_on: 2026-03-20
+  provenance: official_portal
 evidence_bundle:
   kind: structured_record
-  content_markdown: "Materialization pending: fetching source content..."
+  content_markdown: "# Rikiskaup tipper truck contract extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/en/notice/545849-2019/pdfs\n\n## Listed sources\n- TED notice PDF 545849-2019: https://ted.europa.eu/en/notice/545849-2019/pdfs\n- TED notice HTML 545849-2019: https://ted.europa.eu/udl?uri=TED:NOTICE:545849-2019:TEXT:EN:HTML\n\n## Extracted source text\n\n```text\nOJ/S S222\n18/11/2019\n545849-2019-EN\n\nSupplies - Contract award notice - Open procedure\n\n1/3\n\nThis notice in TED website: https://ted.europa.eu/udl?uri=TED:NOTICE:545849-2019:TEXT:EN:HTML\n\nIceland-Reykjavik: Tipper trucks\n2019/S 222-545849\nContract award notice\nResults of the procurement procedure\nSupplies\nLegal Basis:\nDirective 2014/24/EU\nSection I: Contracting authority\nI.1)\nName and addresses\nOfficial name: R\xEDkiskaup\nNational registration number: 6601694749\nPostal address: Borgartun 7c\nTown: Reykjav\xEDk\nNUTS code: IS\nPostal\
+    \ code: IS-105\nCountry: Iceland\nContact person: Gr\xE9tar Erlingsson\nE-mail: gretar@rikiskaup.is\nInternet address(es):\nMain address: http://www.rikiskaup.is\nI.2)\n\nInformation about joint procurement\n\nI.4)\n\nType of the contracting authority\nNational or federal agency/office\n\nI.5)\n\nMain activity\nGeneral public services\n\nSection II: Object\nII.1)\nScope of the procurement\nII.1.1)\n\nTitle:\nV\xF6rubifrei\xF0 fyrir Vegager\xF0ina 2ja \xE1sa 4x4 B\xFA\xF0ardalur\nReference number: 20917\n\nII.1.2)\n\nMain CPV code\n34134200\n\nII.1.3)\n\nType of contract\nSupplies\n\nII.1.4)\n\nShort description:\nR\xEDkiskaup on behalf of IRCA request for tender of a 4 x 4 tipper truck. Further information in tender documents.\n\nII.1.6)\n\nInformation about lots\n\n18/11/2019\nS222\nhttps://ted.europa.eu/\nTED\n\nSupplies - Contract award notice - Open procedure\nSupplement to the Official Journal of the European Union\n\n1/3\n\nOJ/S S222\n18/11/2019\n545849-2019-EN\n\nSupplies - Contract\
+    \ award notice - Open procedure\n\n2/3\n\nThis contract is divided into lots: no\nII.1.7)\n\nTotal value of the procurement (excluding VAT)\nValue excluding VAT: 2 397 000.00 ISK\n\nII.2)\n\nDescription\n\nII.2.1)\n\nTitle:\n\nII.2.2)\n\nAdditional CPV code(s)\n\nII.2.3)\n\nPlace of performance\nNUTS code: IS\n\nII.2.4)\n\nDescription of the procurement:\nR\xEDkiskaup on behalf of IRCA request for tender of a 4 x 4 tipper truck. Further information in tender documents.\n\nII.2.5)\n\nAward criteria\nPrice\n\nII.2.11)\n\nInformation about options\nOptions: no\n\nII.2.13)\n\nInformation about European Union funds\nThe procurement is related to a project and/or programme financed by European Union funds: no\n\nII.2.14)\n\nAdditional information\n\nSection IV: Procedure\nIV.1)\nDescription\nIV.1.1)\n\nType of procedure\nOpen procedure\n\nIV.1.3)\n\nInformation about a framework agreement or a dynamic purchasing system\n\nIV.1.6)\n\nInformation about electronic auction\n\nIV.1.8)\n\nInformation\
+    \ about the Government Procurement Agreement (GPA)\nThe procurement is covered by the Government Procurement Agreement: yes\n\nIV.2)\n\nAdministrative information\n\nIV.2.1)\n\nPrevious publication concerning this procedure\nNotice number in the OJ S: 2019/S 053-123508\n\nIV.2.8)\n\nInformation about termination of dynamic purchasing system\n\nIV.2.9)\n\nInformation about termination of call for competition in the form of a prior information notice\n\nSection V: Award of contract\nA contract/lot is awarded: yes\nV.2)\n\nAward of contract\n\nV.2.1)\n\nDate of conclusion of the contract:\n29/05/2019\n\nV.2.2)\n\nInformation about tenders\nNumber of tenders received: 2\nThe contract has been awarded to a group of economic operators: no\n\nV.2.3)\n\nName and address of the contractor\nOfficial name: Klettur-sala og \xFEj\xF3nusta\nNational registration number: 4610090420\n\n18/11/2019\nS222\nhttps://ted.europa.eu/\nTED\n\nSupplies - Contract award notice - Open procedure\nSupplement to the\
+    \ Official Journal of the European Union\n\n2/3\n\nOJ/S S222\n18/11/2019\n545849-2019-EN\n\nSupplies - Contract award notice - Open procedure\n\n3/3\n\nPostal address: Klettagar\xF0ar 8-10\nTown: Reykjav\xEDk\nNUTS code: IS\nPostal code: 104\nCountry: Iceland\nE-mail: sa@klettur.is\nInternet address: http://klettur.is\nThe contractor is an SME: yes\nV.2.4)\n\nInformation on value of the contract/lot (excluding VAT)\nInitial estimated total value of the contract/lot: 23 970 000.00 ISK\nTotal value of the contract/lot: 23 970 000.00 ISK\n\nV.2.5)\n\nInformation about subcontracting\n\nSection VI: Complementary information\nVI.3)\nAdditional information:\nVisma notice: https://opic.com/id/afxekwnhug\nVI.4)\n\nProcedures for review\n\nVI.4.1)\n\nReview body\nOfficial name: K\xE6runefnd \xFAtbo\xF0sm\xE1la\nTown: Reykjavik\nCountry: Iceland\n\nVI.4.2)\n\nBody responsible for mediation procedures\n\nVI.4.3)\n\nReview procedure\n\nVI.4.4)\n\nService from which information about the review procedure\
+    \ may be obtained\n\nVI.5)\n\nDate of dispatch of this notice:\n14/11/2019\n\n18/11/2019\nS222\nhttps://ted.europa.eu/\nTED\n\nSupplies - Contract award notice - Open procedure\nSupplement to the Official Journal of the European Union\n\n3/3\n```\n"
   required_artifacts:
-    - source_record_file
-    - source_record_metadata
+  - source_record_file
+  - source_record_metadata
+  artifacts:
+  - id: materialized_source_document
+    path: datasets/public-validation-v1/source_documents/structured-public-record-rikiskaup-545849.md
+    role: source_document
+    media_type: text/markdown
+    source_url: https://ted.europa.eu/en/notice/545849-2019/pdfs
+    collected_at: '2026-03-20'
+    original_filename: 545849-2019.pdf
+    sha256: 9b1cfb88419a1443758d067442d69b12b957df501d0d5c8b8af78cf6ac7f792c
+    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: 'Case bundle from: TED notice PDF 545849-2019 | TED notice HTML 545849-2019'
+    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+  - id: original-source-01
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-rikiskaup-545849/source-01-ted-notice-pdf-545849-2019.pdf
+    role: original_source_snapshot
+    media_type: application/pdf
+    source_url: https://ted.europa.eu/en/notice/545849-2019/pdfs
+    collected_at: '2026-03-20'
+    original_filename: 545849-2019.pdf
+    sha256: 280ff377124653161d6894739738c4aa64fd5ea3de55183a301a010ba26a5103
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice PDF 545849-2019
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-02
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-rikiskaup-545849/source-02-ted-notice-html-545849-2019.html
+    role: original_source_snapshot
+    media_type: text/html
+    source_url: https://ted.europa.eu/udl?uri=TED:NOTICE:545849-2019:TEXT:EN:HTML
+    collected_at: '2026-03-20'
+    original_filename: udl.html
+    sha256: 4db319072e23cbe37ba67b14d1ce18a48a99290e73f57f5e9a55597bbb9adef2
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice HTML 545849-2019
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
 expected_output:
   fields_required:
-    - buyer_name
-    - supplier_name
-    - award_date
-    - amount
-    - category_code
+  - buyer_name
+  - supplier_name
+  - award_date
+  - amount
+  - category_code
 answer_key:
   type: structured_fields
   fields:
-    buyer_name: Ríkiskaup
-    supplier_name: Klettur-sala og þjónusta
-    award_date: "2019-05-29"
-    amount: 23970000.00
-    category_code: "34134200"
+    buyer_name: "R\xEDkiskaup"
+    supplier_name: "Klettur-sala og \xFEj\xF3nusta"
+    award_date: '2019-05-29'
+    amount: 23970000.0
+    category_code: '34134200'
 notes:
-  - This Icelandic supplies case is useful because the notice-level total in section II differs by a factor of ten from the awarded contract total in section V.
-  - The answer key intentionally uses the V.2.4 awarded value together with the authority, main CPV code, contractor name, and contract date.
+- This Icelandic supplies case is useful because the notice-level total in section II differs by a factor of ten from the awarded contract total in section V.
+- The answer key intentionally uses the V.2.4 awarded value together with the authority, main CPV code, contractor name, and contract date.

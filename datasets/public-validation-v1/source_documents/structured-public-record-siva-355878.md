@@ -1,0 +1,304 @@
+# SIVA mobile telephony services extraction
+
+Collected from the official TED procurement PDF on 2026-03-20.
+
+Primary source URL: https://ted.europa.eu/en/notice/355878-2020/pdfs
+
+## Listed sources
+- TED notice PDF 355878-2020: https://ted.europa.eu/en/notice/355878-2020/pdfs
+- TED notice HTML 355878-2020: https://ted.europa.eu/udl?uri=TED:NOTICE:355878-2020:TEXT:EN:HTML
+
+## Extracted source text
+
+```text
+OJ/S S144
+28/07/2020
+355878-2020-EN
+
+Services - Contract award notice - Open procedure
+
+1/3
+
+This notice in TED website: https://ted.europa.eu/udl?uri=TED:NOTICE:355878-2020:TEXT:EN:HTML
+
+Norway-Trondheim: Mobile-telephone services
+2020/S 144-355878
+Contract award notice
+Results of the procurement procedure
+Services
+Legal Basis:
+Directive 2014/24/EU
+Section I: Contracting authority
+I.1)
+Name and addresses
+Official name: SIVA — Selskapet for industrivekst SF
+National registration number: 966703032
+Postal address: Postboks 1253 Torgarden
+Town: Trondheim
+NUTS code: NO NORGE
+Postal code: 7462
+Country: Norway
+Contact person: Tone Egeland
+E-mail: tone.egeland@siva.no
+Telephone: +47 93658729
+Internet address(es):
+Main address: https://permalink.mercell.com/124445927.aspx
+I.2)
+
+Information about joint procurement
+
+I.4)
+
+Type of the contracting authority
+Ministry or any other national or federal authority, including their regional or local subdivisions
+
+I.5)
+
+Main activity
+Economic and financial affairs
+
+Section II: Object
+II.1)
+Scope of the procurement
+II.1.1)
+
+Title:
+Mobile Telephony Services
+
+II.1.2)
+
+Main CPV code
+64212000 Mobile-telephone services
+
+II.1.3)
+
+Type of contract
+Services
+
+II.1.4)
+
+Short description:
+The objective of the implementation of a procurement for the area is to enter into a contract that gives us cost
+efficient systems for telephony and data traffic services for Siva SF's employees. The contract shall provide the
+organisation good and future-oriented communication services that comply with the user requirements.
+
+28/07/2020
+S144
+https://ted.europa.eu/
+TED
+
+Services - Contract award notice - Open procedure
+Supplement to the Official Journal of the European Union
+
+1/3
+
+OJ/S S144
+28/07/2020
+355878-2020-EN
+
+Services - Contract award notice - Open procedure
+
+2/3
+
+II.1.6)
+
+Information about lots
+This contract is divided into lots: no
+
+II.1.7)
+
+Total value of the procurement (excluding VAT)
+Value excluding VAT: 4 000 000.00 NOK
+
+II.2)
+
+Description
+
+II.2.1)
+
+Title:
+
+II.2.2)
+
+Additional CPV code(s)
+
+II.2.3)
+
+Place of performance
+NUTS code: NO NORGE
+
+II.2.4)
+
+Description of the procurement:
+This contract includes the parts of the need for communications where telecommunication services can be the
+most appropriate and cost-effective system for the contracting authority — either alone or in combination with
+other systems. The contract includes subscriptions and mobile telephony traffic and associated services in the
+telephony area. The contract must, amongst other things, ensure good mobile coverage and access to mobile
+broadband in such a way that Siva's employees can conduct their services in a good way.
+Refer to annex 1 the Requirement specification.
+
+II.2.5)
+
+Award criteria
+Price
+
+II.2.11)
+
+Information about options
+Options: yes
+Description of options:
+The total contract period is 2 years plus options for 1 year + 1 year extension. The total contract period,
+including options, is 4 years (48 months).
+
+II.2.13)
+
+Information about European Union funds
+The procurement is related to a project and/or programme financed by European Union funds: no
+
+II.2.14)
+
+Additional information
+
+Section IV: Procedure
+IV.1)
+Description
+IV.1.1)
+
+Type of procedure
+Open procedure
+
+IV.1.3)
+
+Information about a framework agreement or a dynamic purchasing system
+
+IV.1.6)
+
+Information about electronic auction
+
+IV.1.8)
+
+Information about the Government Procurement Agreement (GPA)
+The procurement is covered by the Government Procurement Agreement: yes
+
+IV.2)
+
+Administrative information
+
+IV.2.1)
+
+Previous publication concerning this procedure
+Notice number in the OJ S: 2020/S 041-097974
+
+IV.2.8)
+
+Information about termination of dynamic purchasing system
+
+IV.2.9)
+
+Information about termination of call for competition in the form of a prior information notice
+
+Section V: Award of contract
+Title:
+28/07/2020
+S144
+https://ted.europa.eu/
+TED
+
+Services - Contract award notice - Open procedure
+Supplement to the Official Journal of the European Union
+
+2/3
+
+OJ/S S144
+28/07/2020
+355878-2020-EN
+
+Services - Contract award notice - Open procedure
+
+3/3
+
+Mobile Telephony Services
+A contract/lot is awarded: yes
+V.2)
+
+Award of contract
+
+V.2.1)
+
+Date of conclusion of the contract:
+16/06/2020
+
+V.2.2)
+
+Information about tenders
+Number of tenders received: 1
+Number of tenders received from SMEs: 0
+Number of tenders received from tenderers from other EU Member States: 1
+Number of tenders received from tenderers from non-EU Member States: 0
+Number of tenders received by electronic means: 1
+The contract has been awarded to a group of economic operators: no
+
+V.2.3)
+
+Name and address of the contractor
+Official name: Telenor Norge AS (hovedenhet)
+Postal address: Snarøyveien 30
+Town: Fornebu
+NUTS code: NO NORGE
+Postal code: 1331
+Country: Norway
+Telephone: +47 67114370
+The contractor is an SME: no
+
+V.2.4)
+
+Information on value of the contract/lot (excluding VAT)
+Total value of the contract/lot: 4 000 000.00 NOK
+
+V.2.5)
+
+Information about subcontracting
+
+Section VI: Complementary information
+VI.3)
+Additional information:
+VI.4)
+
+Procedures for review
+
+VI.4.1)
+
+Review body
+Official name: Sør-Trøndelag tingrett
+Postal address: Munkegt. 20, Postboks 2317
+Town: Torgarden
+Postal code: 7004
+Country: Norway
+
+VI.4.2)
+
+Body responsible for mediation procedures
+
+VI.4.3)
+
+Review procedure
+
+VI.4.4)
+
+Service from which information about the review procedure may be obtained
+
+VI.5)
+
+Date of dispatch of this notice:
+25/07/2020
+
+28/07/2020
+S144
+https://ted.europa.eu/
+TED
+
+Services - Contract award notice - Open procedure
+Supplement to the Official Journal of the European Union
+
+3/3
+```

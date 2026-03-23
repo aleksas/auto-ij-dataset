@@ -5,41 +5,102 @@ task_type: field_extraction
 answer_mode: exact
 source_family: official_procurement
 source_tier: primary
-target_entity: "TED notice 100002-2021"
+target_entity: TED notice 100002-2021
 sources:
-  - label: TED notice XML 100002-2021
-    url: https://ted.europa.eu/en/notice/100002-2021/xml
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice PDF 100002-2021 (CS)
-    url: https://ted.europa.eu/cs/notice/100002-2021/pdfs
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice detail 100002-2021
-    url: https://ted.europa.eu/en/notice/-/detail/100002-2021
-    checked_on: 2026-03-20
-    provenance: official_portal
+- label: TED notice XML 100002-2021
+  url: https://ted.europa.eu/en/notice/100002-2021/xml
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice PDF 100002-2021 (CS)
+  url: https://ted.europa.eu/cs/notice/100002-2021/pdfs
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice detail 100002-2021
+  url: https://ted.europa.eu/en/notice/-/detail/100002-2021
+  checked_on: 2026-03-20
+  provenance: official_portal
 evidence_bundle:
   kind: structured_record
-  content_markdown: "Materialization pending: fetching source content..."
+  content_markdown: "# Ceska televize Ostrava cleaning services contract extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/cs/notice/100002-2021/pdfs\n\n## Listed sources\n- TED notice XML 100002-2021: https://ted.europa.eu/en/notice/100002-2021/xml\n- TED notice PDF 100002-2021 (CS): https://ted.europa.eu/cs/notice/100002-2021/pdfs\n- TED notice detail 100002-2021: https://ted.europa.eu/en/notice/-/detail/100002-2021\n\n## Extracted source text\n\n```text\n\xDA\u0159. V\u0115st./S S40\n26/02/2021\n100002-2021-CS\n\n1/4\n\nToto ozn\xE1men\xED na webov\xE9 str\xE1nce TED: https://ted.europa.eu/udl?uri=TED:NOTICE:100002-2021:TEXT:CS:HTML\n\n\u010Cesko-Praha: \xDAklidov\xE9 slu\u017Eby\n2021/S 040-100002\nOzn\xE1men\xED o v\xFDsledku zad\xE1vac\xEDho \u0159\xEDzen\xED\nV\xFDsledky zad\xE1vac\xEDho \u0159\xEDzen\xED\nSlu\u017Eby\nPr\xE1vn\xED z\xE1klad:\nsm\u011Brnice 2014/24/EU\nOdd\xEDl I: Ve\u0159ejn\xFD zadavatel\nI.1)\n\
+    N\xE1zev a adresa\n\xDA\u0159edn\xED n\xE1zev: \u010Cesk\xE1 televize\nN\xE1rodn\xED identifika\u010Dn\xED \u010D\xEDslo: 00027383\nPo\u0161tovn\xED adresa: Kav\u010D\xED hory, Na H\u0159ebenech II 1132/4\nObec: Praha 4\nK\xF3d NUTS: CZ010 Hlavn\xED m\u011Bsto Praha\nPS\u010C: 140 70\nZem\u011B: \u010Cesko\nKontaktn\xED osoba: Jana Kuncov\xE1\nE-mail: jana.kuncova@ceskatelevize.cz\nTel.: +420 261137077\nInternetov\xE9 adresy:\nHlavn\xED adresa: https://www.ceskatelevize.cz\nAdresa profilu zadavatele: https://www.egordion.cz/nabidkaGORDION/profilCt\nI.4)\n\nDruh ve\u0159ejn\xE9ho zadavatele\nVe\u0159ejnopr\xE1vn\xED instituce\n\nI.5)\n\nHlavn\xED p\u0159edm\u011Bt \u010Dinnosti\nJin\xE9 \u010Dinnosti: Ve\u0159ejnopr\xE1vn\xED televize\n\nOdd\xEDl II: P\u0159edm\u011Bt\nII.1)\nRozsah ve\u0159ejn\xE9 zak\xE1zky\nII.1.1)\n\nN\xE1zev:\nZaji\u0161t\u011Bn\xED \xFAklidov\xFDch slu\u017Eeb pro TS Ostrava II\n\nII.1.2)\n\nHlavn\xED k\xF3d CPV\n90910000 \xDAklidov\xE9 slu\u017Eby\n\nII.1.3)\n\n\
+    Druh zak\xE1zky\nSlu\u017Eby\n\nII.1.4)\n\nStru\u010Dn\xFD popis:\nP\u0159edm\u011Btem pln\u011Bn\xED ve\u0159ejn\xE9 zak\xE1zky je kompletn\xED zaji\u0161t\u011Bn\xED \xFAklidov\xFDch slu\u017Eeb vnit\u0159n\xEDch a venkovn\xEDch prostor\nobjekt\u016F Televizn\xEDho studia v Ostrav\u011B v rozsahu a v souladu se zad\xE1vac\xED dokumentac\xED.\n\nII.1.6)\n\nInformace o \u010D\xE1stech\nZak\xE1zka je rozd\u011Blena na \u010D\xE1sti: ne\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n1/4\n\n\xDA\u0159. V\u0115st./S S40\n26/02/2021\n100002-2021-CS\n\nII.1.7)\n\nKone\u010Dn\xE1 hodnota ve\u0159ejn\xE9 zak\xE1zky (bez DPH)\nHodnota bez DPH: 7 565 764.50 CZK\n\nII.2)\n\nPopis\n\nII.2.3)\n\nM\xEDsto pln\u011Bn\xED\nK\xF3d NUTS: CZ080 Moravskoslezsk\xFD kraj\nHlavn\xED m\xEDsto dod\xE1n\xED nebo pln\u011Bn\xED:\nOstrava\n\nII.2.4)\n\nPopis zak\xE1zky:\nP\u0159edm\u011Btem pln\u011Bn\xED ve\u0159ejn\xE9 zak\xE1zky je kompletn\xED zaji\u0161t\u011Bn\xED \xFAklidov\xFDch slu\u017Eeb vnit\u0159\
+    n\xEDch a venkovn\xEDch prostor\nobjekt\u016F Televizn\xEDho studia v Ostrav\u011B v rozsahu a v souladu se zad\xE1vac\xED dokumentac\xED.\n\nII.2.5)\n\nKrit\xE9ria pro zad\xE1n\xED zak\xE1zky\nKrit\xE9rium kvality - N\xE1zev: Kvalita slu\u017Eeb - projekt \xFAklidov\xFDch slu\u017Eeb / V\xE1ha: 45\nKrit\xE9rium n\xE1klad\u016F - N\xE1zev: Celkov\xE1 nab\xEDdkov\xE1 cena / V\xE1ha: 52\nKrit\xE9rium n\xE1klad\u016F - N\xE1zev: V\xFD\u0161e n\xE1hradn\xEDho pln\u011Bn\xED za kalend\xE1\u0159n\xED m\u011Bs\xEDc / V\xE1ha: 3\n\nII.2.11)\n\nInformace o opc\xEDch\nOpce: ne\n\nII.2.13)\n\nInformace o financov\xE1n\xED z prost\u0159edk\u016F Evropsk\xE9 unie\nZak\xE1zka se vztahuje k projektu a/nebo programu financovan\xE9mu z prost\u0159edk\u016F Evropsk\xE9 unie: ne\n\nII.2.14)\n\nDal\u0161\xED informace\n\n2/4\n\nOdd\xEDl IV: \u0158\xEDzen\xED\nIV.1)\nPopis\nIV.1.1)\n\nDruh \u0159\xEDzen\xED\nOtev\u0159en\xE9 \u0159\xEDzen\xED\n\nIV.1.3)\n\nInformace o r\xE1mcov\xE9 smlouv\u011B nebo dynamick\xE9\
+    m n\xE1kupn\xEDm syst\xE9mu\n\nIV.1.8)\n\nInformace o Dohod\u011B o ve\u0159ejn\xFDch zak\xE1zk\xE1ch (GPA)\nNa zak\xE1zku se vztahuje Dohoda o ve\u0159ejn\xFDch zak\xE1zk\xE1ch: ano\n\nIV.2)\n\nAdministrativn\xED informace\n\nIV.2.1)\n\nP\u0159edchoz\xED zve\u0159ejn\u011Bn\xED t\xFDkaj\xEDc\xED se tohoto \u0159\xEDzen\xED\n\u010C\xEDslo ozn\xE1men\xED v \xDA\u0159. v\u011Bst. \u0159ady S: 2020/S 167-404055\n\nIV.2.8)\n\nInformace o ukon\u010Den\xED dynamick\xE9ho n\xE1kupn\xEDho syst\xE9mu\n\nIV.2.9)\n\nInformace o ukon\u010Den\xED v\xFDzvy k \xFA\u010Dasti v sout\u011B\u017Ei ozn\xE1men\xE9 prost\u0159ednictv\xEDm p\u0159edb\u011B\u017En\xE9ho ozn\xE1men\xED\n\nOdd\xEDl V: Zad\xE1n\xED zak\xE1zky\nN\xE1zev:\nZaji\u0161t\u011Bn\xED \xFAklidov\xFDch slu\u017Eeb pro TS Ostrava II\nZak\xE1zka/\u010D\xE1st je zadan\xE1: ano\nV.2)\n\nZad\xE1n\xED zak\xE1zky\n\nV.2.1)\n\nDatum uzav\u0159en\xED smlouvy:\n11/02/2021\n\nV.2.2)\n\nInformace o nab\xEDdk\xE1ch\nPo\u010Det obdr\u017Een\xFDch nab\xED\
+    dek: 9\nPo\u010Det nab\xEDdek obdr\u017Een\xFDch od mal\xFDch a st\u0159edn\xEDch podnik\u016F: 9\nPo\u010Det nab\xEDdek obdr\u017Een\xFDch elektronickou cestou: 9\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n2/4\n\n\xDA\u0159. V\u0115st./S S40\n26/02/2021\n100002-2021-CS\n\n3/4\n\nZak\xE1zka byla zad\xE1na skupin\u011B hospod\xE1\u0159sk\xFDch subjekt\u016F: ne\nV.2.3)\n\nN\xE1zev a adresa dodavatele, kter\xE9mu byla zak\xE1zka zad\xE1na\n\xDA\u0159edn\xED n\xE1zev: Simacek HS, spol. s.r.o.\nN\xE1rodn\xED identifika\u010Dn\xED \u010D\xEDslo: 26229382\nPo\u0161tovn\xED adresa: Trnkova 630/34\nObec: Brno - L\xED\u0161e\u0148\nK\xF3d NUTS: CZ064 Jihomoravsk\xFD kraj\nPS\u010C: 628 00\nZem\u011B: \u010Cesko\nDodavatelem je mal\xFD \u010Di st\u0159edn\xED podnik: ano\n\nV.2.4)\n\n\xDAdaje o hodnot\u011B zak\xE1zky/\u010D\xE1sti (bez DPH)\nP\u0159edpokl\xE1dan\xE1 celkov\xE1 hodnota zak\xE1zky/\u010D\xE1sti: 8 300 000.00 CZK\nKone\u010Dn\xE1 hodnota zak\xE1zky/polo\u017Eky: 7 565 764.50\
+    \ CZK\n\nV.2.5)\n\nInformace o subdod\xE1vk\xE1ch\n\nOdd\xEDl VI: Dopl\u0148uj\xEDc\xED informace\nVI.3)\nDal\u0161\xED informace:\nDle \xA7 21 odst. 1 p\xEDsm. b) z\xE1kona v p\u0159\xEDpad\u011B, \u017Ee je smlouva stanovena na dobu neur\u010Ditou nebo s dobou trv\xE1n\xED\ndel\u0161\xED ne\u017E 48 m\u011Bs\xEDc\u016F, je rozhodn\xE1 celkov\xE1 v\xFD\u0161e \xFAplaty stanovena za 48 m\u011Bs\xEDc\u016F.\nVI.4)\n\nP\u0159ezkumn\xE1 \u0159\xEDzen\xED\n\nVI.4.1)\n\nOrg\xE1n p\u0159\xEDslu\u0161n\xFD k p\u0159ezkumu\n\xDA\u0159edn\xED n\xE1zev: \xDA\u0159ad pro ochranu hospod\xE1\u0159sk\xE9 sout\u011B\u017Ee\nPo\u0161tovn\xED adresa: t\u0159. Kpt. Jaro\u0161e 7\nObec: Brno\nPS\u010C: 604 55\nZem\u011B: \u010Cesko\nE-mail: posta@uohs.cz\nTel.: +420 542167111\nFax: +420 542167112\nInternetov\xE1 adresa: https://www.uohs.cz/\n\nVI.4.3)\n\nP\u0159ezkumn\xE9 \u0159\xEDzen\xED\nP\u0159esn\xE9 informace o lh\u016Ft\xE1ch pro p\u0159ezkumn\xE1 \u0159\xEDzen\xED:\nPodm\xEDnkou pro pod\xE1n\xED\
+    \ n\xE1vrhu k \xDAOHS je pod\xE1n\xED n\xE1mitek k Zadavateli, kter\xE9 je nutn\xE9 doru\u010Dit do 15 dn\u016F ode\ndne, kdy se st\u011B\u017Eovatel dozv\u011Bd\u011Bl o domn\u011Bl\xE9m poru\u0161en\xED z\xE1kona Zadavatelem, nejpozd\u011Bji v\u0161ak do uzav\u0159en\xED\nsmlouvy nebo do chv\xEDle, kdy se sout\u011B\u017E o n\xE1vrh pova\u017Euje po v\xFDb\u011Bru n\xE1vrhu za ukon\u010Denou.\nN\xE1mitky proti \xFAkon\u016Fm oznamovan\xFDm v dokumentech, kter\xE9 je Zadavatel povinen podle z\xE1kona uve\u0159ejnit \u010Di\nodeslat st\u011B\u017Eovateli, mus\xED b\xFDt doru\u010Deny Zadavateli do 15 dn\u016F od jejich uve\u0159ejn\u011Bn\xED \u010Di doru\u010Den\xED st\u011B\u017Eovateli.\nPokud je v zad\xE1vac\xEDm \u0159\xEDzen\xED stanovena lh\u016Fta pro pod\xE1n\xED \u017E\xE1dost\xED o \xFA\u010Dast, mus\xED b\xFDt n\xE1mitky proti podm\xEDnk\xE1m\nvztahuj\xEDc\xEDm se ke kvalifikaci dodavatele doru\u010Deny Zadavateli nejpozd\u011Bji do skon\u010Den\xED t\xE9to lh\u016Fty.\n\
+    Pokud je v zad\xE1vac\xEDm \u0159\xEDzen\xED stanovena lh\u016Fta pro pod\xE1n\xED nab\xEDdek, mus\xED b\xFDt n\xE1mitky proti zad\xE1vac\xED dokumentaci\ndoru\u010Deny Zadavateli nejpozd\u011Bji do skon\u010Den\xED t\xE9to lh\u016Fty, v p\u0159\xEDpad\u011B jednac\xEDho \u0159\xEDzen\xED s uve\u0159ejn\u011Bn\xEDm mus\xED b\xFDt\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n3/4\n\n\xDA\u0159. V\u0115st./S S40\n26/02/2021\n100002-2021-CS\n\n4/4\n\nn\xE1mitky proti zad\xE1vac\xED dokumentaci doru\u010Deny Zadavateli nejpozd\u011Bji do skon\u010Den\xED lh\u016Fty pro pod\xE1n\xED p\u0159edb\u011B\u017En\xFDch\nnab\xEDdek.\nN\xE1mitky proti dobrovoln\xE9mu ozn\xE1men\xED o z\xE1m\u011Bru uzav\u0159\xEDt smlouvu podle \xA7 212 odst. 2 z\xE1kona mus\xED b\xFDt doru\u010Deny\nZadavateli do 30 dn\u016F od uve\u0159ejn\u011Bn\xED tohoto ozn\xE1men\xED.\nZadavatel je povinen n\xE1mitky vy\u0159\xEDdit do 15 dn\u016F. N\xE1vrh je nutn\xE9 doru\u010Dit \xDAOHS i Zadavateli do 10 dn\u016F ode\
+    \ dne,\nv n\u011Bm\u017E st\u011B\u017Eovatel obdr\u017Eel rozhodnut\xED, kter\xFDm Zadavatel n\xE1mitky odm\xEDtl nebo do 25 dn\u016F od odesl\xE1n\xED n\xE1mitek,\npokud Zadavatel o n\xE1mitk\xE1ch nerozhodl.\nPo uzav\u0159en\xED smlouvy na ve\u0159ejnou zak\xE1zku \u010Di r\xE1mcov\xE9 dohody lze podat pouze n\xE1vrh na ulo\u017Een\xED z\xE1kazu\npln\u011Bn\xED smlouvy, a to i bez p\u0159edchoz\xEDho pod\xE1n\xED n\xE1mitek. N\xE1vrh na ulo\u017Een\xED z\xE1kazu pln\u011Bn\xED smlouvy doru\u010D\xED\nnavrhovatel \xDAOHS a ve stejnopisu Zadavateli do 1 m\u011Bs\xEDce ode dne, kdy Zadavatel uve\u0159ejnil ozn\xE1men\xED o\nuzav\u0159en\xED smlouvy zp\u016Fsobem podle \xA7 212 odst. 2 z\xE1kona s uveden\xEDm d\u016Fvodu pro zad\xE1n\xED ve\u0159ejn\xE9 zak\xE1zky bez\nuve\u0159ejn\u011Bn\xED ozn\xE1men\xED o zah\xE1jen\xED zad\xE1vac\xEDho \u0159\xEDzen\xED, p\u0159edb\u011B\u017En\xE9ho ozn\xE1men\xED nebo v\xFDzvy k pod\xE1n\xED nab\xEDdek ve\nzjednodu\u0161en\xE9m podlimitn\xEDm \u0159\
+    \xEDzen\xED, nejpozd\u011Bji v\u0161ak do 6 m\u011Bs\xEDc\u016F od uzav\u0159en\xED t\xE9to smlouvy. N\xE1vrh na ulo\u017Een\xED\nz\xE1kazu pln\u011Bn\xED smlouvy podle \xA7 254 odstavce 1 p\xEDsm. d) z\xE1kona doru\u010D\xED navrhovatel \xDAOHS a ve stejnopisu\nZadavateli do 1 m\u011Bs\xEDce ode dne, kdy Zadavatel uve\u0159ejnil ozn\xE1men\xED o uzav\u0159en\xED smlouvy na z\xE1klad\u011B r\xE1mcov\xE9\ndohody podle \xA7 137 z\xE1kona nebo ozn\xE1men\xED o uzav\u0159en\xED smlouvy v dynamick\xE9m n\xE1kupn\xEDm syst\xE9mu podle \xA7 142\nz\xE1kona, nejpozd\u011Bji v\u0161ak do 6 m\u011Bs\xEDc\u016F od uzav\u0159en\xED t\xE9to smlouvy.\nVe lh\u016Ft\u011B pro doru\u010Den\xED n\xE1vrhu je navrhovatel povinen slo\u017Eit na \xFA\u010Det \xDAOHS kauci ve v\xFD\u0161i 1 % z nab\xEDdkov\xE9 ceny\nnavrhovatele za celou dobu pln\u011Bn\xED ve\u0159ejn\xE9 zak\xE1zky nebo za dobu prvn\xEDch \u010Dty\u0159 let pln\u011Bn\xED v p\u0159\xEDpad\u011B smluv na\ndobu neur\u010Ditou, nejm\xE9n\u011B\
+    \ v\u0161ak ve v\xFD\u0161i 50 000 \u010Desk\xFDch korun (CZK), nejv\xFD\u0161e ve v\xFD\u0161i 10 000 000 CZK. V p\u0159\xEDpad\u011B,\n\u017Ee navrhovatel nem\u016F\u017Ee stanovit celkovou nab\xEDdkovou cenu, je povinen slo\u017Eit kauci ve v\xFD\u0161i 100 000 CZK. V\np\u0159\xEDpad\u011B n\xE1vrhu na ulo\u017Een\xED z\xE1kazu pln\u011Bn\xED smlouvy je navrhovatel povinen slo\u017Eit kauci ve v\xFD\u0161i 200 000 CZK. Jdeli o \u0159\xEDzen\xED o p\u0159ezkoum\xE1n\xED postupu pro zad\xE1v\xE1n\xED konces\xED, je navrhovatel povinen ve lh\u016Ft\u011B pro doru\u010Den\xED n\xE1vrhu\nslo\u017Eit na \xFA\u010Det \xDAOHS kauci ve v\xFD\u0161i 1 % z p\u0159edpokl\xE1dan\xE9 hodnoty koncese uve\u0159ejn\u011Bn\xE9 ve V\u011Bstn\xEDku ve\u0159ejn\xFDch\nzak\xE1zek nebo na profilu Zadavatele, nejm\xE9n\u011B v\u0161ak ve v\xFD\u0161i 50 000 CZK, nejv\xFD\u0161e ve v\xFD\u0161i 10 000 000 CZK. V\np\u0159\xEDpad\u011B, \u017Ee Zadavatel neuve\u0159ejn\xED ve V\u011Bstn\xEDku ve\u0159ejn\xFD\
+    ch zak\xE1zek nebo na profilu Zadavatele p\u0159edpokl\xE1danou\nhodnotu koncese, je navrhovatel povinen slo\u017Eit kauci ve v\xFD\u0161i 100 000 CZK. V p\u0159\xEDpad\u011B n\xE1vrhu na ulo\u017Een\xED z\xE1kazu\npln\u011Bn\xED koncesn\xED smlouvy je navrhovatel povinen slo\u017Eit kauci ve v\xFD\u0161i 200 000 CZK.\nVI.4.4)\n\nSubjekt, u kter\xE9ho lze z\xEDskat informace o p\u0159ezkumn\xE9m \u0159\xEDzen\xED\n\xDA\u0159edn\xED n\xE1zev: \xDA\u0159ad pro ochranu hospod\xE1\u0159sk\xE9 sout\u011B\u017Ee\nPo\u0161tovn\xED adresa: t\u0159. Kpt. Jaro\u0161e 7\nObec: Brno\nPS\u010C: 604 55\nZem\u011B: \u010Cesko\nE-mail: posta@uohs.cz\nTel.: +420 542167111\nFax: +420 542167112\nInternetov\xE1 adresa: https://www.uohs.cz/\n\nVI.5)\n\nDatum odesl\xE1n\xED tohoto ozn\xE1men\xED:\n23/02/2021\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n4/4\n```\n"
   required_artifacts:
-    - source_record_file
-    - source_record_metadata
+  - source_record_file
+  - source_record_metadata
+  artifacts:
+  - id: materialized_source_document
+    path: datasets/public-validation-v1/source_documents/structured-public-record-ceska-televize-100002.md
+    role: source_document
+    media_type: text/markdown
+    source_url: https://ted.europa.eu/en/notice/100002-2021/xml
+    collected_at: '2026-03-20'
+    original_filename: 100002-2021.xml
+    sha256: b8716bb0c79aa7b9d9cfbdb2f7de5c4d464d1f9235f44c91d6b8900e7d1d3ba9
+    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: 'Case bundle from: TED notice XML 100002-2021 | TED notice PDF 100002-2021 (CS) | TED notice detail 100002-2021'
+    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+  - id: original-source-01
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-ceska-televize-100002/source-01-ted-notice-xml-100002-2021.xml
+    role: original_source_snapshot
+    media_type: application/xml
+    source_url: https://ted.europa.eu/en/notice/100002-2021/xml
+    collected_at: '2026-03-20'
+    original_filename: 100002-2021.xml
+    sha256: b5478d27a4e5c9ae1c7cb6e44d44f36c2ff805c427d7a969dc4a76b8177dbb7a
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice XML 100002-2021
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-02
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-ceska-televize-100002/source-02-ted-notice-pdf-100002-2021-cs.pdf
+    role: original_source_snapshot
+    media_type: application/pdf
+    source_url: https://ted.europa.eu/cs/notice/100002-2021/pdfs
+    collected_at: '2026-03-20'
+    original_filename: 100002-2021.pdf
+    sha256: 558b4c75ceb655668589a0c50fa725e0ec1c95a9fd69812263cfc4b9bb605ffa
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice PDF 100002-2021 (CS)
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-03
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-ceska-televize-100002/source-03-ted-notice-detail-100002-2021.html
+    role: original_source_snapshot
+    media_type: text/html
+    source_url: https://ted.europa.eu/en/notice/-/detail/100002-2021
+    collected_at: '2026-03-20'
+    original_filename: 100002-2021.html
+    sha256: bd09ce7e02545e3136337f3fbd2ae678ae3bfa8fe81dfdfd107e1cee2638acc4
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice detail 100002-2021
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
 expected_output:
   fields_required:
-    - buyer_name
-    - supplier_name
-    - award_date
-    - amount
-    - category_code
+  - buyer_name
+  - supplier_name
+  - award_date
+  - amount
+  - category_code
 answer_key:
   type: structured_fields
   fields:
-    buyer_name: Česká televize
+    buyer_name: "\u010Cesk\xE1 televize"
     supplier_name: Simacek HS, spol. s.r.o.
-    award_date: "2021-02-11"
-    amount: 7565764.50
-    category_code: "90910000"
+    award_date: '2021-02-11'
+    amount: 7565764.5
+    category_code: '90910000'
 notes:
-  - The official buyer name includes Czech diacritics in the XML, so extraction should preserve the recorded spelling instead of anglicizing it.
-  - The notice has one awarded contract, which makes the supplier and awarded value a clean exact-answer baseline.
+- The official buyer name includes Czech diacritics in the XML, so extraction should preserve the recorded spelling instead of anglicizing it.
+- The notice has one awarded contract, which makes the supplier and awarded value a clean exact-answer baseline.

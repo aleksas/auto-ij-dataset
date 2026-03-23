@@ -5,24 +5,40 @@ task_type: next_step_suggestion
 answer_mode: rubric
 source_family: journalist_style_case
 source_tier: manual_annotation
-target_entity: "<fill case bundle>"
+target_entity: <fill case bundle>
 sources:
-  - label: Gold annotation packet
-    url: https://example.org/manual-gold-set-placeholder
-    checked_on: 2026-03-18
-    provenance: manual_annotation_packet
+- label: Gold annotation packet
+  url: https://example.org/manual-gold-set-placeholder
+  checked_on: 2026-03-18
+  provenance: manual_annotation_packet
 evidence_bundle:
   kind: bounded_investigative_bundle
+  content_markdown: |
+    # <Case Brief / Source Pack Markdown Here>
+    (Inline the bounded investigative packet here so the dataset always carries a materialized source document.)
   required_artifacts:
-    - case_brief
-    - source_pack
-    - annotation_notes
+  - case_brief
+  - source_pack
+  - annotation_notes
+  artifacts:
+  - id: materialized_source_document
+    path: datasets/public-validation-v1/source_documents/followup-gold-template.md
+    role: source_document
+    media_type: text/markdown
+    source_url: https://example.org/manual-gold-set-placeholder
+    collected_at: '2026-03-18'
+    original_filename: followup-gold-template.md
+    sha256: d2adb562e46a491a9c05d96c48d3967cf39d98170e2292595728304bbb699a02
+    acquisition_method: Assemble the manual annotation packet and supporting source pack referenced in the case sources, then preserve the bounded bundle in the checked-in markdown artifact.
+    license: Project-authored annotation bundle; verify any embedded third-party source terms separately.
+    source_dataset: Gold annotation packet
+    notes: Checked-in markdown source document used for local validation and Hugging Face export. Derived from the cited upstream source material recorded in sources[].
 expected_output:
   fields_required:
-    - lead_statement
-    - supporting_datapoints
-    - missing_evidence
-    - next_record_request
+  - lead_statement
+  - supporting_datapoints
+  - missing_evidence
+  - next_record_request
 rubric: ../../../rubrics/followup-suggestion-quality.md
 notes:
-  - This case type exists for tasks that do not have one exact machine-readable answer.
+- This case type exists for tasks that do not have one exact machine-readable answer.

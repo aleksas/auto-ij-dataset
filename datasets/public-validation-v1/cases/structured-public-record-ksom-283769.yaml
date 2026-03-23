@@ -5,37 +5,200 @@ task_type: field_extraction
 answer_mode: exact
 source_family: official_procurement
 source_tier: primary
-target_entity: "TED notice 283769-2020"
+target_entity: TED notice 283769-2020
 sources:
-  - label: TED notice PDF 283769-2020
-    url: https://ted.europa.eu/en/notice/283769-2020/pdf
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice detail 283769-2020
-    url: https://ted.europa.eu/en/notice/-/detail/283769-2020
-    checked_on: 2026-03-20
-    provenance: official_portal
+- label: TED notice PDF 283769-2020
+  url: https://ted.europa.eu/en/notice/283769-2020/pdf
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice detail 283769-2020
+  url: https://ted.europa.eu/en/notice/-/detail/283769-2020
+  checked_on: 2026-03-20
+  provenance: official_portal
 evidence_bundle:
   kind: structured_record
-  content_markdown: "Materialization pending: fetching source content..."
+  content_markdown: |
+    # KSOM collaborative robot contract extraction
+
+    Collected from the official TED procurement PDF on 2026-03-20.
+
+    Primary source URL: https://ted.europa.eu/en/notice/283769-2020/pdf
+
+    ## Listed sources
+    - TED notice PDF 283769-2020: https://ted.europa.eu/en/notice/283769-2020/pdf
+    - TED notice detail 283769-2020: https://ted.europa.eu/en/notice/-/detail/283769-2020
+
+    ## Extracted source text
+
+    ```text
+    283769-2020 - Result
+
+    See the notice on TED website
+
+    Belgium-Mol: Hydraulic presses
+    OJ S 117/2020 18/06/2020
+    Contract award notice
+    Supplies
+    Legal Basis:
+    Directive 2014/24/EU
+    Section I: Contracting authority
+    I.1. Name and addresses
+    Official name: Katholiek Secundair Onderwijs Mol vzw
+    National registration number: 0440.625.270_28403
+    Postal address: Jozef Calasanzstraat 2
+    Town: Mol
+    NUTS code: BE213 Arr. Turnhout
+    Postal code: 2400
+    Country: Belgium
+    E-mail: ruth.engelen@ksom.be
+    Telephone: +32 14202011
+    Internet address(es):
+    Main address: www.ksom.be
+    Address of the buyer profile: https://enot.publicprocurement.be/enot-war/preViewNotice.do?
+    noticeId=378940
+    I.4. Type of the contracting authority
+    Other type: vzw onderwijs
+    I.5. Main activity
+    Education
+    Section II: Object
+    II.1. Scope of the procurement
+    II.1.1. Title
+    Gebouw DE perceel 15 - Collaboratieve robot
+    Reference number: KSOM vzw-PPP0YY-31/0012/RE/KSOM/20-F03_0
+    II.1.2. Main CPV code
+    42636100 Hydraulic presses
+    II.1.3. Type of contract
+    Supplies
+    II.1.4. Short description
+    Zie II.2.4)
+    II.1.6. Information about lots
+    This contract is divided into lots: no
+
+    283769-2020
+
+    Page 1/3
+
+    II.1.7. Total value of the procurement
+    Value excluding VAT: 31 450,00 EUR
+    II.2. Description
+    II.2.3. Place of performance
+    NUTS code: BE213 Arr. Turnhout
+    Main site or place of performance: Mol
+    II.2.4. Description of the procurement
+    Collaboratieve robots.
+    II.2.5. Award criteria
+    Quality criterion - Name: Beschikbaarheid wisselstukken / Weighting: 5
+    Price - Weighting: 95
+    II.2.11. Information about options
+    Options: no
+    II.2.13. Information about European Union funds
+    The procurement is related to a project and/or programme financed by European Union funds:
+    no
+    II.2.14. Additional information
+    Section IV: Procedure
+    IV.1. Description
+    IV.1.1. Type of procedure
+    Open procedure
+    IV.1.3. Information about a framework agreement or a dynamic purchasing system
+    IV.1.8. Information about the Government Procurement Agreement (GPA)
+    The procurement is covered by the Government Procurement Agreement: no
+    IV.2. Administrative information
+    IV.2.1. Previous publication concerning this procedure
+    Notice number in the OJ S: 2020/S 056-132149
+    IV.2.8. Information about termination of dynamic purchasing system
+    IV.2.9. Information about termination of call for competition in the form of a prior information
+    notice
+    Section V: Award of contract
+    A contract/lot is awarded: yes
+    V.2. Award of contract
+    V.2.1. Date of conclusion of the contract
+    16/06/2020
+
+    283769-2020
+
+    Page 2/3
+
+    V.2.2. Information about tenders
+    Number of tenders received: 1
+    The contract has been awarded to a group of economic operators: no
+    V.2.3. Name and address of the contractor
+    Official name: Gibas Automation bv
+    Town: Nijkerk
+    NUTS code: NL Nederland
+    Country: Netherlands
+    The contractor is an SME: no
+    V.2.4. Information on value of the contract/lot
+    Total value of the contract/lot: 31 450,00 EUR
+    V.2.5. Information about subcontracting
+    Section VI: Complementary information
+    VI.3. Additional information
+    VI.4. Procedures for review
+    VI.4.1. Review body
+    Official name: Ondernemingsrechtbank Antwerpen, afdeling Turnhout
+    Town: Turnhout
+    Country: Belgium
+    VI.5. Date of dispatch of this notice
+    17/06/2020
+
+    283769-2020
+
+    Page 3/3
+    ```
   required_artifacts:
-    - source_record_file
-    - source_record_metadata
+  - source_record_file
+  - source_record_metadata
+  artifacts:
+  - id: materialized_source_document
+    path: datasets/public-validation-v1/source_documents/structured-public-record-ksom-283769.md
+    role: source_document
+    media_type: text/markdown
+    source_url: https://ted.europa.eu/en/notice/283769-2020/pdf
+    collected_at: '2026-03-20'
+    original_filename: 283769-2020.pdf
+    sha256: c9b97df890789efc066401ffe9086c81badf5192ace4ce5b90b4781401a68edb
+    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: 'Case bundle from: TED notice PDF 283769-2020 | TED notice detail 283769-2020'
+    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+  - id: original-source-01
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-ksom-283769/source-01-ted-notice-pdf-283769-2020.pdf
+    role: original_source_snapshot
+    media_type: application/pdf
+    source_url: https://ted.europa.eu/en/notice/283769-2020/pdf
+    collected_at: '2026-03-20'
+    original_filename: 283769-2020.pdf
+    sha256: 071d174bfaeb9f36c63a825a2007b02f7e794c5ec550dd0354f3d5237a9f4a6d
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice PDF 283769-2020
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-02
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-ksom-283769/source-02-ted-notice-detail-283769-2020.html
+    role: original_source_snapshot
+    media_type: text/html
+    source_url: https://ted.europa.eu/en/notice/-/detail/283769-2020
+    collected_at: '2026-03-20'
+    original_filename: 283769-2020.html
+    sha256: e66edbb7fd4b924b9303b8a9c47314b85ae7db9cfcaa889ee9bab73e82da3ab5
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice detail 283769-2020
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
 expected_output:
   fields_required:
-    - buyer_name
-    - supplier_name
-    - award_date
-    - amount
-    - category_code
+  - buyer_name
+  - supplier_name
+  - award_date
+  - amount
+  - category_code
 answer_key:
   type: structured_fields
   fields:
     buyer_name: Katholiek Secundair Onderwijs Mol vzw
     supplier_name: Gibas Automation bv
-    award_date: "2020-06-16"
-    amount: 31450.00
-    category_code: "42636100"
+    award_date: '2020-06-16'
+    amount: 31450.0
+    category_code: '42636100'
 notes:
-  - This Belgian education-sector supplies award is a compact no-lot case with a low contract value and a Netherlands-based contractor.
-  - The notice title is in Dutch and the short description is brief, so the case checks whether extraction still returns the official buyer, contractor, date, value, and main CPV code exactly.
+- This Belgian education-sector supplies award is a compact no-lot case with a low contract value and a Netherlands-based contractor.
+- The notice title is in Dutch and the short description is brief, so the case checks whether extraction still returns the official buyer, contractor, date, value, and main CPV code exactly.

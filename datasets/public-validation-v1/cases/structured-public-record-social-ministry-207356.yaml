@@ -5,41 +5,95 @@ task_type: field_extraction
 answer_mode: exact
 source_family: official_procurement
 source_tier: primary
-target_entity: "TED notice 207356-2023, contract D4-63"
+target_entity: TED notice 207356-2023, contract D4-63
 sources:
-  - label: TED notice XML 207356-2023
-    url: https://ted.europa.eu/en/notice/207356-2023/xml
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice PDF 207356-2023
-    url: https://ted.europa.eu/en/notice/207356-2023/pdf
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice detail 207356-2023
-    url: https://ted.europa.eu/en/notice/-/detail/207356-2023
-    checked_on: 2026-03-20
-    provenance: official_portal
+- label: TED notice XML 207356-2023
+  url: https://ted.europa.eu/en/notice/207356-2023/xml
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice PDF 207356-2023
+  url: https://ted.europa.eu/en/notice/207356-2023/pdf
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice detail 207356-2023
+  url: https://ted.europa.eu/en/notice/-/detail/207356-2023
+  checked_on: 2026-03-20
+  provenance: official_portal
 evidence_bundle:
   kind: structured_record
-  content_markdown: "Materialization pending: fetching source content..."
+  content_markdown: "# Lithuania social ministry EPLSAFIS modernization contract extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/en/notice/207356-2023/pdf\n\n## Listed sources\n- TED notice XML 207356-2023: https://ted.europa.eu/en/notice/207356-2023/xml\n- TED notice PDF 207356-2023: https://ted.europa.eu/en/notice/207356-2023/pdf\n- TED notice detail 207356-2023: https://ted.europa.eu/en/notice/-/detail/207356-2023\n\n## Extracted source text\n\n```text\n207356-2023 - Result\n\nSee the notice on TED website\n\nLithuania-Vilnius: Software development services\nOJ S 70/2023 07/04/2023\nContract award notice\nServices\nLegal Basis:\nDirective 2014/24/EU\nSection I: Contracting authority\nI.1. Name and addresses\nOfficial name: Lietuvos Respublikos socialin\u0117s apsaugos ir darbo ministerija\nNational registration number: 188603515\nPostal address: A. Vivulskio g. 11, LT-03610 Vilnius\nTown: Vilnius\nNUTS code: LT\
+    \ Lietuva\nPostal code: 03610\nCountry: Lithuania\nContact person: Laima Indrelien\u0117\nE-mail: laima.indreliene@socmin.lt\nTelephone: +370 65859302\nInternet address(es):\nMain address: https://socmin.lrv.lt\nAddress of the buyer profile: https://pirkimai.eviesiejipirkimai.lt/ctm/Company\n/CompanyInformation/Index/5511\nI.4. Type of the contracting authority\nMinistry or any other national or federal authority, including their regional or local subdivisions\nI.5. Main activity\nSocial protection\nSection II: Object\nII.1. Scope of the procurement\nII.1.1. Title\nEuropos pagalbos labiausiai skurstantiems asmenims fondo informacin\u0117s sistemos\n(EPLSAFIS) modernizavimo, vystymo ir prie\u017Ei\u016Bros paslaugos\nII.1.2. Main CPV code\n72262000 Software development services\nII.1.3. Type of contract\nServices\nII.1.4. Short description\nEuropos pagalbos labiausiai skurstantiems asmenims fondo informacin\u0117s sistemos\n(EPLSAFIS) modernizavimo, vystymo ir prie\u017Ei\u016Bros paslaugos\n\
+    II.1.6.\n207356-2023\n\nPage 1/4\n\nInformation about lots\nThis contract is divided into lots: no\nII.1.7. Total value of the procurement\nValue excluding VAT: 139 692,00 EUR\nII.2. Description\nII.2.2. Additional CPV code(s)\n72262000 Software development services\nII.2.3. Place of performance\nNUTS code: LT Lietuva\nMain site or place of performance: Lietuva\nII.2.4. Description of the procurement\nEuropos pagalbos labiausiai skurstantiems asmenims fondo informacin\u0117s sistemos\n(EPLSAFIS) modernizavimo, vystymo ir prie\u017Ei\u016Bros paslaugos\nII.2.5. Award criteria\nPrice\nII.2.11. Information about options\nOptions: no\nII.2.13. Information about European Union funds\nThe procurement is related to a project and/or programme financed by European Union funds:\nyes\nIdentification of the project: Pirkimas finansuojamas Europos pagalbos labiausiai\nskurstantiems asmenims fondo (EPLSAF) technin\u0117s pagalbos l\u0117\u0161omis\nII.2.14. Additional information\nSection IV: Procedure\n\
+    IV.1. Description\nIV.1.1. Type of procedure\nOpen procedure\nIV.1.3. Information about a framework agreement or a dynamic purchasing system\nIV.1.8. Information about the Government Procurement Agreement (GPA)\nThe procurement is covered by the Government Procurement Agreement: yes\nIV.2. Administrative information\nIV.2.1. Previous publication concerning this procedure\nNotice number in the OJ S: 2022/S 248-718883\nIV.2.8. Information about termination of dynamic purchasing system\nIV.2.9. Information about termination of call for competition in the form of a prior information\nnotice\nSection V: Award of contract\n207356-2023\n\nPage 2/4\n\nContract No: D4-63\nTitle:\nEuropos pagalbos labiausiai skurstantiems asmenims fondo informacin\u0117s sistemos\n(EPLSAFIS) modernizavimo, vystymo ir prie\u017Ei\u016Bros paslaugos\nA contract/lot is awarded: yes\nV.2. Award of contract\nV.2.1. Date of conclusion of the contract\n30/03/2023\nV.2.2. Information about tenders\nNumber of tenders received:\
+    \ 1\nNumber of tenders received from SMEs: 1\nNumber of tenders received by electronic means: 1\nThe contract has been awarded to a group of economic operators: no\nV.2.3. Name and address of the contractor\nOfficial name: UAB ,,NNovian Systems\"\nNational registration number: 125774645\nPostal address: Gyn\u0117j\u0173 g. 14\nTown: Vilnius\nNUTS code: LT Lietuva\nPostal code: 01103\nCountry: Lithuania\nE-mail: info.systems@novian.lt\nTelephone: +370 52734181\nThe contractor is an SME: yes\nV.2.4. Information on value of the contract/lot\nTotal value of the contract/lot: 139 692,00 EUR\nV.2.5. Information about subcontracting\nSection VI: Complementary information\nVI.3. Additional information\nVI.4. Procedures for review\nVI.4.1. Review body\nOfficial name: Vilniaus apygardos teismas\nPostal address: Gedimino pr. 40\nTown: Vilnius\nPostal code: 01501\nCountry: Lithuania\nE-mail: vilniaus.apygardos@teismas.lt\nTelephone: +370 70668369\nInternet address: www.vat.teismas.lt\nVI.5.\n207356-2023\n\
+    \nPage 3/4\n\nDate of dispatch of this notice\n03/04/2023\n\n207356-2023\n\nPage 4/4\n```\n"
   required_artifacts:
-    - source_record_file
-    - source_record_metadata
+  - source_record_file
+  - source_record_metadata
+  artifacts:
+  - id: materialized_source_document
+    path: datasets/public-validation-v1/source_documents/structured-public-record-social-ministry-207356.md
+    role: source_document
+    media_type: text/markdown
+    source_url: https://ted.europa.eu/en/notice/207356-2023/xml
+    collected_at: '2026-03-20'
+    original_filename: 207356-2023.xml
+    sha256: c3d736f3361844fcadc1f3686234974a6c8ba8a1229d969d10bc0e3e2e92dde5
+    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: 'Case bundle from: TED notice XML 207356-2023 | TED notice PDF 207356-2023 | TED notice detail 207356-2023'
+    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+  - id: original-source-01
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-social-ministry-207356/source-01-ted-notice-xml-207356-2023.xml
+    role: original_source_snapshot
+    media_type: application/xml
+    source_url: https://ted.europa.eu/en/notice/207356-2023/xml
+    collected_at: '2026-03-20'
+    original_filename: 207356-2023.xml
+    sha256: baf5ce591947d55247138e5cbe3cf16ce0bdce93be1040fbe465d67de70b1659
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice XML 207356-2023
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-02
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-social-ministry-207356/source-02-ted-notice-pdf-207356-2023.pdf
+    role: original_source_snapshot
+    media_type: application/pdf
+    source_url: https://ted.europa.eu/en/notice/207356-2023/pdf
+    collected_at: '2026-03-20'
+    original_filename: 207356-2023.pdf
+    sha256: e68ce5fb792101a888382c1aea8bba3a29ff3414c71b0155d86d0bf3f60b2a6e
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice PDF 207356-2023
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-03
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-social-ministry-207356/source-03-ted-notice-detail-207356-2023.html
+    role: original_source_snapshot
+    media_type: text/html
+    source_url: https://ted.europa.eu/en/notice/-/detail/207356-2023
+    collected_at: '2026-03-20'
+    original_filename: 207356-2023.html
+    sha256: 18622533b45dc4974c3f1619cc06ab1c119a72c59586656e00d13e6db0fa4570
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice detail 207356-2023
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
 expected_output:
   fields_required:
-    - buyer_name
-    - supplier_name
-    - award_date
-    - amount
-    - category_code
+  - buyer_name
+  - supplier_name
+  - award_date
+  - amount
+  - category_code
 answer_key:
   type: structured_fields
   fields:
-    buyer_name: Lietuvos Respublikos socialinės apsaugos ir darbo ministerija
-    supplier_name: 'UAB ,,NNovian Systems"'
-    award_date: "2023-03-30"
-    amount: 139692.00
-    category_code: "72262000"
+    buyer_name: "Lietuvos Respublikos socialin\u0117s apsaugos ir darbo ministerija"
+    supplier_name: UAB ,,NNovian Systems"
+    award_date: '2023-03-30'
+    amount: 139692.0
+    category_code: '72262000'
 notes:
-  - This Lithuania-specific XML-backed award notice is a no-lot single-award case with one contractor and one total value.
-  - The supplier legal name includes Lithuanian-style punctuation, so extraction should preserve the awarded-contractor field rather than normalizing it away from the official record.
+- This Lithuania-specific XML-backed award notice is a no-lot single-award case with one contractor and one total value.
+- The supplier legal name includes Lithuanian-style punctuation, so extraction should preserve the awarded-contractor field rather than normalizing it away from the official record.

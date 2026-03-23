@@ -42,6 +42,8 @@ auto-dataset/
 ├── datasets/
 │   └── public-validation-v1/
 │       ├── cases/
+│       ├── source_artifacts/
+│       ├── source_documents/
 │       └── manifest.yaml
 ├── docs/
 ├── results/
@@ -175,9 +177,29 @@ auto-dataset publish datasets/public-validation-v1/manifest.yaml --repo-name aut
 `auto-dataset publish` does three things:
 
 - builds a fresh snapshot under `artifacts/hf-staging/<suite_id>/`
+- materializes `source_documents/` from each case's `evidence_bundle.content_markdown` and copies declared local source artifacts, including preserved original PDFs, XML files, and HTML snapshots
 - commits git changes in the repo unless `--skip-git-commit` is set
 - pushes the current git branch to GitHub after a new commit
 - publishes that snapshot as a new revision in the Hugging Face dataset repo
+
+Every case now declares at least one repo-local source-document artifact under `evidence_bundle.artifacts`, typically under `datasets/public-validation-v1/source_documents/`. Exported snapshots carry those files forward alongside the case YAML and the materialized markdown source document.
+
+`evidence_bundle.content_markdown` and `evidence_bundle.artifacts` are now required for every case, including templates, so new cases cannot be added without a dataset-carried source document and a repo-local artifact path.
+
+The intended storage model is both local and published: keep source documents in the repo for offline validation, and publish the same files in the Hugging Face snapshot so downstream consumers get a self-contained dataset bundle.
+
+For non-template cases, the repo now also preserves the original upstream source responses under `datasets/public-validation-v1/source_artifacts/`. In practice that means TED cases carry the downloaded XML/PDF/HTML snapshots used to build the markdown evidence, and Offshore Leaks cases carry saved HTML snapshots of the referenced pages.
+
+Each artifact record should explain how to recover the upstream source, not just where the checked-in markdown lives. The required artifact fields now include:
+
+- `source_url`
+- `collected_at`
+- `original_filename`
+- `sha256`
+- `acquisition_method`
+- `license`
+- `source_dataset`
+- `notes`
 
 If you want a fixed destination, pass `--repo-id <namespace>/<name>`. If you omit it, the command resolves the namespace from the Hugging Face token and uses `auto-ij-dataset` as the dataset repo name.
 

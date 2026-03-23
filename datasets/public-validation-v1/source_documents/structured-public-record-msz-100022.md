@@ -1,0 +1,337 @@
+# Polish Foreign Ministry mobile telecom services contract extraction
+
+Collected from the official TED procurement PDF on 2026-03-20.
+
+Primary source URL: https://ted.europa.eu/pl/notice/100022-2021/pdfs
+
+## Listed sources
+- TED notice XML 100022-2021: https://ted.europa.eu/en/notice/100022-2021/xml
+- TED notice PDF 100022-2021 (PL): https://ted.europa.eu/pl/notice/100022-2021/pdfs
+- TED notice detail 100022-2021: https://ted.europa.eu/en/notice/-/detail/100022-2021
+
+## Extracted source text
+
+```text
+Dz.U./S S40
+26/02/2021
+100022-2021-PL
+
+1/4
+
+Niniejsze ogłoszenie w witrynie TED: https://ted.europa.eu/udl?uri=TED:NOTICE:100022-2021:TEXT:PL:HTML
+
+Polska-Warszawa: Usługi telekomunikacyjne
+2021/S 040-100022
+Ogłoszenie o udzieleniu zamówienia
+Wyniki postępowania
+Usługi
+Podstawa prawna:
+Dyrektywa 2014/24/UE
+Sekcja I: Instytucja zamawiająca
+I.1)
+Nazwa i adresy
+Oficjalna nazwa: Ministerstwo Spraw Zagranicznych
+Adres pocztowy: al. J.Ch. Szucha 23
+Miejscowość: Warszawa
+Kod NUTS: PL911 Miasto Warszawa
+Kod pocztowy: 00-580
+Państwo: Polska
+Osoba do kontaktów: Aneta Marcinkiewicz, Radosław Wojda
+E-mail: bzp@msz.gov.pl
+Tel.: +48 225239910
+Adresy internetowe:
+Główny adres: https://www.gov.pl/web/dyplomacja
+I.4)
+
+Rodzaj instytucji zamawiającej
+Ministerstwo lub inny organ krajowy lub federalny, w tym jednostki regionalne i lokalne
+
+I.5)
+
+Główny przedmiot działalności
+Ogólne usługi publiczne
+
+Sekcja II: Przedmiot
+II.1)
+Wielkość lub zakres zamówienia
+II.1.1)
+
+Nazwa:
+Zakup mobilnych usług telekomunikacyjnych
+Numer referencyjny: BDG.741.035.2020
+
+II.1.2)
+
+Główny kod CPV
+64200000 Usługi telekomunikacyjne
+
+II.1.3)
+
+Rodzaj zamówienia
+Usługi
+
+II.1.4)
+
+Krótki opis:
+Zakup mobilnych usług telekomunikacyjnych.
+
+II.1.6)
+
+Informacje o częściach
+To zamówienie podzielone jest na części: nie
+
+II.1.7)
+
+Całkowita wartość zamówienia (bez VAT)
+Najtańsza oferta: 1 860 793.00 PLN / Najdroższa oferta: 1 971 581.76 PLN brana pod uwagę
+
+26/02/2021
+S40
+https://ted.europa.eu/TED
+
+1/4
+
+Dz.U./S S40
+26/02/2021
+100022-2021-PL
+
+2/4
+
+II.2)
+
+Opis
+
+II.2.2)
+
+Dodatkowy kod lub kody CPV
+48421000 Pakiety oprogramowania do zarządzania urządzeniami
+
+II.2.3)
+
+Miejsce świadczenia usług
+Kod NUTS: PL POLSKA
+Główne miejsce lub lokalizacja realizacji:
+Dostęp do sieci telefonii komórkowej w obszarze nie mniejszym niż 97 % powierzchni kraju oraz we wszystkich
+budynkach zajmowanych przez Zamawiającego na terenie kraju – lokalizacje wskazane w OPZ.
+
+II.2.4)
+
+Opis zamówienia:
+Przedmiotem zamówienia jest:
+1. świadczenie przez Wykonawcę na rzecz Zamawiającego usług telekomunikacyjnych przez okres 10 miesięcy
+albo do wcześniejszego wyczerpania środków finansowych przewidzianych na realizację umowy. Świadczone
+usługi telekomunikacyjne zapewniać mają między innymi: łączność głosową (wychodzące i przychodzące
+połączenia krajowe, międzynarodowe i roamingowe), tekstową (SMS), dostęp do zasobów Internetu. Realizacja
+usług odbywać się będzie poprzez wykorzystanie terminali komórkowych posiadanych przez Zamawiającego
+oraz nowych kart SIM dostarczonych przez Wykonawcę (bez dodatkowych kosztów po stronie Zamawiającego
+w przypadku zmiany dotychczasowego operatora) albo posiadanych przez Zamawiającego kart SIM (w
+przypadku wyboru dotychczasowego Wykonawcy);
+2. zapewnienie dostępu do sieci telefonii komórkowej na obszarze nie mniejszym niż 97 % powierzchni
+kraju oraz we wszystkich budynkach zajmowanych przez Zamawiającego na terenie kraju, na poziomie
+umożliwiającym swobodną realizację połączeń głosowych (wychodzące i przychodzące połączenia krajowe i
+międzynarodowe);
+3. dostawa licencji dostępowych CAL (Client Access Licence) typu BlackBerry Secure UEM & Productivity
+Suites – Freedom Suite lub nowszych, lub równoważnych;
+4. dostawa kart SIM;
+5. zgrupowanie wszystkich numerów komórkowych w jedną sieć korporacyjną;
+6. zapewnienie wsparcia technicznego i nadzoru nad realizowanym zamówieniem.
+Wykonawca zobowiązany będzie do dostosowania świadczonych usług do wymogów Zamawiającego
+określonych w niniejszym opisie.
+
+II.2.5)
+
+Kryteria udzielenia zamówienia
+Kryterium jakości - Nazwa: Opłaty za połączenia międzynarodowe / Waga: 25
+Kryterium jakości - Nazwa: Wspólny dla wszystkich aktywacji roamingowy pakiet transmisji danych
+obowiązujący poza terenem UE / Waga: 10
+Kryterium jakości - Nazwa: Zapewnienie usługi WiFi Calling (VoWiFi) na wszystkich kartach SIM / Waga: 5
+Cena - Waga: 60
+
+II.2.11)
+
+Informacje o opcjach
+Opcje: tak
+Opis opcji:
+1. Zamawiający zastrzega sobie prawo opcji polegające na możliwości złożenia zamówienia na kolejne
+(dodatkowe) licencje dostępowe CAL (Client Access Licence) typu BlackBerry Secure UEM & Productivity
+Suites – Freedom Suite lub nowszych (lub równoważnych) wraz z usługą wsparcia (maksymalnie 1 100 szt.
+dodatkowych licencji w ramach prawa opcji), z którego może skorzystać w terminie do 9 miesięcy od podpisania
+umowy, a dostawa nastąpi w ciągu 7 dni roboczych od złożenia takiego zamówienia.
+2. Niezależnie od zmiany operatora, Zamawiający zastrzega możliwość dostarczenia kolejnych kart SIM w ilości
+do 250 sztuk (wynikających z zakupu dodatkowych aktywacji w ramach prawa opcji). Dostawa opcjonalnych
+
+26/02/2021
+S40
+https://ted.europa.eu/TED
+
+2/4
+
+Dz.U./S S40
+26/02/2021
+100022-2021-PL
+
+3/4
+
+kart SIM – nastąpi w ciągu 7 dni roboczych od daty zgłoszenia takiego zamówienia w ilości żądanej przez
+Zamawiającego.
+3. Wykonawcy nie przysługuje żadne roszczenie w przypadku nieskorzystania przez Zamawiającego z wyżej
+opisanego prawa opcji.
+II.2.13)
+
+Informacje o funduszach Unii Europejskiej
+Zamówienie dotyczy projektu/programu finansowanego ze środków Unii Europejskiej: nie
+
+II.2.14)
+
+Informacje dodatkowe
+
+Sekcja IV: Procedura
+IV.1)
+Opis
+IV.1.1)
+
+Rodzaj procedury
+Procedura otwarta
+
+IV.1.3)
+
+Informacje na temat umowy ramowej lub dynamicznego systemu zakupów
+
+IV.1.8)
+
+Informacje na temat Porozumienia w sprawie zamówień rządowych (GPA)
+Zamówienie jest objęte Porozumieniem w sprawie zamówień rządowych: tak
+
+IV.2)
+
+Informacje administracyjne
+
+IV.2.1)
+
+Poprzednia publikacja dotycząca przedmiotowego postępowania
+Numer ogłoszenia w Dz.Urz. UE – OJ/S: 2020/S 184-444570
+
+IV.2.8)
+
+Informacje o zakończeniu dynamicznego systemu zakupów
+
+IV.2.9)
+
+Informacje o zakończeniu zaproszenia do ubiegania się o zamówienie w postaci wstępnego ogłoszenia
+informacyjnego
+
+Sekcja V: Udzielenie zamówienia
+Nazwa:
+Zakup mobilnych usług telekomunikacyjnych
+Zamówienie/zamówienie na część zostaje udzielone: tak
+V.2)
+
+Udzielenie zamówienia
+
+V.2.1)
+
+Data zawarcia umowy:
+03/02/2021
+
+V.2.2)
+
+Informacje o ofertach
+Liczba otrzymanych ofert: 3
+Liczba ofert otrzymanych od MŚP: 0
+Liczba ofert otrzymanych od oferentów z innych państw członkowskich UE: 0
+Liczba ofert otrzymanych od oferentów z państw niebędących członkami UE: 0
+Liczba ofert otrzymanych drogą elektroniczną: 3
+Zamówienie zostało udzielone grupie wykonawców: nie
+
+V.2.3)
+
+Nazwa i adres wykonawcy
+Oficjalna nazwa: T-Mobile Polska S.A.
+Adres pocztowy: ul. Marynarska 12
+Miejscowość: Warszawa
+Kod NUTS: PL911 Miasto Warszawa
+Kod pocztowy: 02-674
+Państwo: Polska
+Wykonawcą jest MŚP: nie
+
+V.2.4)
+
+Informacje na temat wartości zamówienia/części (bez VAT)
+
+26/02/2021
+S40
+https://ted.europa.eu/TED
+
+3/4
+
+Dz.U./S S40
+26/02/2021
+100022-2021-PL
+
+4/4
+
+Początkowa szacunkowa całkowita wartość zamówienia/części: 1 791 212.00 PLN
+Całkowita końcowa wartość umowy/części: 1 602 912.00 PLN
+V.2.5)
+
+Informacje na temat podwykonawstwa
+
+Sekcja VI: Informacje uzupełniające
+VI.3)
+Informacje dodatkowe:
+VI.4)
+
+Procedury odwoławcze
+
+VI.4.1)
+
+Organ odpowiedzialny za procedury odwoławcze
+Oficjalna nazwa: Krajowa Izba Odwoławcza
+Adres pocztowy: ul. Postępu 17a
+Miejscowość: Warszawa
+Kod pocztowy: 02-676
+Państwo: Polska
+E-mail: odwolania@uzp.gov.pl
+Tel.: +48 224587801
+Faks: +48 224587700
+Adres internetowy: www.uzp.gov.pl
+
+VI.4.3)
+
+Składanie odwołań
+Dokładne informacje na temat terminów składania odwołań:
+1. W toku postępowania o udzielenie zamówienia Wykonawcom przysługują środki ochrony prawnej
+przewidziane w dziale IV ustawy Pzp.
+2. Odwołanie można wnieść w terminie 10 dni od dnia przesłania informacji o czynności Zamawiającego
+stanowiącej podstawę jego wniesienia (art. 182 ust. 1 pkt 1 ustawy Pzp).
+3. Odwołanie wobec treści ogłoszenia o zamówieniu oraz wobec treści SIWZ można wnieść w terminie 10 dni
+od dnia publikacji ogłoszenia w Dz.U. UE lub zamieszczenia SIWZ na stronie internetowej (art. 182 ust. 2 pkt 1
+ustawy Pzp).
+4. Odwołanie wobec czynności innych niż określone w pkt 2 i 3 można wnieść w terminie 10 dni od dnia, w
+którym powzięto lub przy zachowaniu należytej staranności można było powziąć wiadomość o okolicznościach
+stanowiących podstawę do jego wniesienia.
+
+VI.4.4)
+
+Źródło, gdzie można uzyskać informacje na temat składania odwołań
+Oficjalna nazwa: Krajowa Izba Odwoławcza
+Adres pocztowy: ul. Postępu 17a
+Miejscowość: Warszawa
+Kod pocztowy: 02-676
+Państwo: Polska
+E-mail: odwolania@uzp.gov.pl
+Tel.: +48 224587801
+Faks: +48 224587700
+Adres internetowy: www.uzp.gov.pl
+
+VI.5)
+
+Data wysłania niniejszego ogłoszenia:
+23/02/2021
+
+26/02/2021
+S40
+https://ted.europa.eu/TED
+
+4/4
+```

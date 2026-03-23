@@ -1,0 +1,167 @@
+# Infrabel Area North-East railway works framework extraction
+
+Collected from the official TED procurement PDF on 2026-03-20.
+
+Primary source URL: https://ted.europa.eu/en/notice/176746-2021/pdf
+
+## Listed sources
+- TED notice XML 176746-2021: https://ted.europa.eu/en/notice/176746-2021/xml
+- TED notice PDF 176746-2021: https://ted.europa.eu/en/notice/176746-2021/pdf
+- TED notice detail 176746-2021: https://ted.europa.eu/en/notice/-/detail/176746-2021
+
+## Extracted source text
+
+```text
+176746-2021 - Result
+
+See the notice on TED website
+
+Belgium-Antwerp: Railway construction works
+OJ S 69/2021 09/04/2021
+Contract award notice – utilities
+Works
+Legal Basis:
+Directive 2014/25/EU
+Section I: Contracting entity
+I.1. Name and addresses
+Official name: Infrabel — Directie Asset Management — Area North-East
+National registration number: 0869.763.267_23935
+Postal address: Koningin Astridplein 27
+Town: Antwerpen
+NUTS code: BE211 Arr. Antwerpen
+Postal code: 2018
+Country: Belgium
+Contact person: Jeroen Hoeben
+E-mail: 51m05.aanneming@infrabel.be
+Telephone: +32 490525208
+Internet address(es):
+Main address: www.infrabel.be
+Address of the buyer profile: https://enot.publicprocurement.be/enot-war/preViewNotice.do?
+noticeId=406545
+I.6. Main activity
+Railway services
+Section II: Object
+II.1. Scope of the procurement
+II.1.1. Title
+57/52/2/19/024 — Raamovereenkomst: spoorwerken in havengebied Area North-East.
+Opbraak en aanleg van sporen, spoortoestellen, dienstpaden en overwegen
+Reference number: I-I.NO-5752219024-F06_0
+II.1.2. Main CPV code
+45234100 Railway construction works
+II.1.3. Type of contract
+Works
+II.1.4. Short description
+De aanneming omvat voornamelijk:
+— de uitbraak, aanleg en het verschuiven van sporen en spoortoestellen,
+— het afgraven, lossen afhalen, verwerken en ziften van grond/ballast,
+— de aanleg van nieuwe dienstwegen en dienstovergangen,
+— het uitvoeren van aluminothermische lassen,
+176746-2021
+
+Page 1/4
+
+— het leveren van logistieke prestaties,
+— kabelwerken,
+— het uitbreken en aanleggen van overwegen.
+II.1.6. Information about lots
+This contract is divided into lots: no
+II.1.7. Total value of the procurement
+Value excluding VAT: 5 944 010,55 EUR
+II.2. Description
+II.2.3. Place of performance
+NUTS code: BE211 Arr. Antwerpen
+Main site or place of performance: Havengebied Area North-East
+II.2.4. Description of the procurement
+Zie bestek.
+II.2.5. Award criteria
+Price
+II.2.11. Information about options
+Options: no
+II.2.13. Information about European Union funds
+The procurement is related to a project and/or programme financed by European Union funds:
+no
+II.2.14. Additional information
+Section IV: Procedure
+IV.1. Description
+IV.1.1. Type of procedure
+Open procedure
+IV.1.3. Information about a framework agreement or a dynamic purchasing system
+The procurement involves the establishment of a framework agreement
+IV.1.8. Information about the Government Procurement Agreement (GPA)
+The procurement is covered by the Government Procurement Agreement: no
+IV.2. Administrative information
+IV.2.1. Previous publication concerning this procedure
+Notice number in the OJ S: 2020/S 155-380155
+IV.2.8. Information about termination of dynamic purchasing system
+IV.2.9. Information about termination of call for competition in the form of a periodic indicative
+notice
+Section V: Award of contract
+
+176746-2021
+
+Page 2/4
+
+A contract/lot is awarded: yes
+V.2. Award of contract
+V.2.1. Date of conclusion of the contract
+31/03/2021
+V.2.2. Information about tenders
+Number of tenders received: 4
+Number of tenders received by electronic means: 4
+The contract has been awarded to a group of economic operators: no
+V.2.3. Name and address of the contractor
+Official name: Vanormelingen-Stas
+Postal address: Mandpallen 1
+Town: Booischot
+NUTS code: BE212 Arr. Mechelen
+Postal code: 2221
+Country: Belgium
+The contractor is an SME: yes
+V.2.4. Information on value of the contract/lot
+Initial estimated total value of the contract/lot: 5 008 557,46 EUR
+Total value of the contract/lot: 5 944 010,55 EUR
+V.2.5. Information about subcontracting
+V.2.6. Price paid for bargain purchases
+Section VI: Complementary information
+VI.3. Additional information
+De looptijd van de raamovereenkomst bedraagt vier jaar.
+Een Uniform Europees Aanbestedingsdocument is verplicht. Bij het deel lV betreffende het
+voldoen van de ondernemer aan de selectiecriteria is het voldoende om in dit deel enkel de
+sectie 'Algemene aanwijzing voor alle selectiecriteria" in te vullen. De inschrijver moet in dit
+deel vermelden of hij voldoet aan de gevraagde erkenning voor deze opdracht.
+De opdrachtdocumenten (bestek en bijlagen) zijn gratis te downloaden op: https://enot.
+publicprocurement.be
+Wij raden u ten stelligste aan om u te registreren, op die manier wordt u automatisch op de
+hoogte gebracht bij eventuele addenda, verbeteringsberichten, aanvullende informatie, enz.
+Door zich kandidaat te stellen en/of door in te schrijven op de huidige opdracht, erkennen de
+kandidaten en inschrijvers dat zij kennis hebben genomen van de gedragscode voor de
+leveranciers en aannemers van lnfrabel en verbinden zijzich ertoe om de bepalingen ervan na
+te leven. Deze gedragscode kan geraadpleegd en gedownload worden op de site www.
+infrabel.be onder de
+Rubriek "Business — Leveranciers en aannemers".
+VI.4. Procedures for review
+VI.4.1. Review body
+Official name: Raad van State
+Postal address: Wetenschapsstraat 33
+176746-2021
+
+Page 3/4
+
+Town: Brussel
+Postal code: 1040
+Country: Belgium
+E-mail: info@raadvst-consetat.be
+Telephone: +32 22349611
+Internet address: www.raadvst-consetat.be
+VI.4.3. Review procedure
+Precise information on deadline(s) for review procedures:
+Zie artikel 23 van de Wet van 17.6.2013 betreffende de motivering, de informatie en de
+rechtsmiddelen inzake overheidsopdrachten en bepaalde opdrachten voor werken, leveringen
+en diensten.
+VI.5. Date of dispatch of this notice
+04/04/2021
+
+176746-2021
+
+Page 4/4
+```

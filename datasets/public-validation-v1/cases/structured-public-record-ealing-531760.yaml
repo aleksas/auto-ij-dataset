@@ -5,37 +5,80 @@ task_type: field_extraction
 answer_mode: exact
 source_family: official_procurement
 source_tier: primary
-target_entity: "TED notice 531760-2019"
+target_entity: TED notice 531760-2019
 sources:
-  - label: TED notice PDF 531760-2019
-    url: https://ted.europa.eu/en/notice/531760-2019/pdfs
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice HTML 531760-2019
-    url: https://ted.europa.eu/udl?uri=TED:NOTICE:531760-2019:TEXT:EN:HTML
-    checked_on: 2026-03-20
-    provenance: official_portal
+- label: TED notice PDF 531760-2019
+  url: https://ted.europa.eu/en/notice/531760-2019/pdfs
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice HTML 531760-2019
+  url: https://ted.europa.eu/udl?uri=TED:NOTICE:531760-2019:TEXT:EN:HTML
+  checked_on: 2026-03-20
+  provenance: official_portal
 evidence_bundle:
   kind: structured_record
-  content_markdown: "Materialization pending: fetching source content..."
+  content_markdown: "# Ealing High Lane Estate regeneration contract extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/en/notice/531760-2019/pdfs\n\n## Listed sources\n- TED notice PDF 531760-2019: https://ted.europa.eu/en/notice/531760-2019/pdfs\n- TED notice HTML 531760-2019: https://ted.europa.eu/udl?uri=TED:NOTICE:531760-2019:TEXT:EN:HTML\n\n## Extracted source text\n\n```text\nOJ/S S217\n11/11/2019\n531760-2019-EN\n\nWorks - Contract award notice - Competitive dialogue\n\n1/3\n\nThis notice in TED website: https://ted.europa.eu/udl?uri=TED:NOTICE:531760-2019:TEXT:EN:HTML\n\nUnited Kingdom-Ealing: Construction work\n2019/S 217-531760\nContract award notice\nResults of the procurement procedure\nWorks\nLegal Basis:\nDirective 2014/24/EU\nSection I: Contracting authority\nI.1)\nName and addresses\nOfficial name: London Borough of Ealing\nPostal address: 3rd Floor Perceval House, 14-16 Uxbridge Road\nTown: Ealing\n\
+    NUTS code: UK\nPostal code: W5 2HL\nCountry: United Kingdom\nContact person: Miss Sarah Hadland\nE-mail: hadlands@ealing.gov.uk\nTelephone: +44 2088255000\nInternet address(es):\nMain address: http://www.ealing.gov.uk\nAddress of the buyer profile: http://www.ealing.gov.uk\nI.2)\n\nInformation about joint procurement\n\nI.4)\n\nType of the contracting authority\nRegional or local authority\n\nI.5)\n\nMain activity\nGeneral public services\n\nSection II: Object\nII.1)\nScope of the procurement\nII.1.1)\n\nTitle:\nHigh Lane Estate Regeneration \u2014 1189\nReference number: DN121762\n\nII.1.2)\n\nMain CPV code\n45000000\n\nII.1.3)\n\nType of contract\nWorks\n\nII.1.4)\n\nShort description:\nThe London Borough of Ealing has appointed a development partner to completely redevelop the High Lane\nestate.\n\n11/11/2019\nS217\nhttps://ted.europa.eu/\nTED\n\nWorks - Contract award notice - Competitive dialogue\nSupplement to the Official Journal of the European Union\n\n1/3\n\nOJ/S S217\n11/11/2019\n\
+    531760-2019-EN\n\nWorks - Contract award notice - Competitive dialogue\n\n2/3\n\nII.1.6)\n\nInformation about lots\nThis contract is divided into lots: no\n\nII.1.7)\n\nTotal value of the procurement (excluding VAT)\nValue excluding VAT: 99 000 000.00 GBP\n\nII.2)\n\nDescription\n\nII.2.1)\n\nTitle:\n\nII.2.2)\n\nAdditional CPV code(s)\n\nII.2.3)\n\nPlace of performance\nNUTS code: UK\n\nII.2.4)\n\nDescription of the procurement:\nThe London Borough of Ealing has appointed a development partner to completely redevelop the High Lane\nestate. The development partner will secure scheme financing, produce their own development proposals\n(having regard to the planning guidance provided) submit a planning application, demolish and build the new\nhomes on a phased basis, with the Council purchasing a required amount of affordable housing.In return for the\nconstruction of housing to be retained by the Council (or transferred to the Council or its nominated purchaser\nwhere appropriate) for\
+    \ replacement housing (both social and housing to be offered at a discount market rent),\nland will be provided to enable the development partner to construct market housing. At the request of the\nCouncil, a proportion of the replacement housing (i.e. that to be offered at a discount to market rent) will be\ntransferred to Broadway Living, a wholly owned subsidiary of the Council.\nThe development and construction risk will be taken by the developer, notwithstanding obligations of both a\ncontractual and statutory nature upon the Council and the clear intention of the Council to enter agreement with\nthe Developer on a partnership basis.\n\nII.2.5)\n\nAward criteria\nQuality criterion - Name: Quality / Weighting: 40\nPrice - Weighting: 60\n\nII.2.11)\n\nInformation about options\nOptions: no\n\nII.2.13)\n\nInformation about European Union funds\nThe procurement is related to a project and/or programme financed by European Union funds: no\n\nII.2.14)\n\nAdditional information\n\nSection\
+    \ IV: Procedure\nIV.1)\nDescription\nIV.1.1)\n\nType of procedure\nCompetitive dialogue\n\nIV.1.3)\n\nInformation about a framework agreement or a dynamic purchasing system\n\nIV.1.6)\n\nInformation about electronic auction\n\nIV.1.8)\n\nInformation about the Government Procurement Agreement (GPA)\nThe procurement is covered by the Government Procurement Agreement: no\n\nIV.2)\n\nAdministrative information\n\nIV.2.1)\n\nPrevious publication concerning this procedure\nNotice number in the OJ S: 2016/S 061-102828\n\nIV.2.8)\n\nInformation about termination of dynamic purchasing system\n\n11/11/2019\nS217\nhttps://ted.europa.eu/\nTED\n\nWorks - Contract award notice - Competitive dialogue\nSupplement to the Official Journal of the European Union\n\n2/3\n\nOJ/S S217\n11/11/2019\n531760-2019-EN\n\nIV.2.9)\n\nWorks - Contract award notice - Competitive dialogue\n\n3/3\n\nInformation about termination of call for competition in the form of a prior information notice\n\nSection V: Award of contract\n\
+    Title:\nHigh Lane Estate Regeneration \u2014 1189\nA contract/lot is awarded: yes\nV.2)\n\nAward of contract\n\nV.2.1)\n\nDate of conclusion of the contract:\n08/10/2019\n\nV.2.2)\n\nInformation about tenders\nNumber of tenders received: 3\nNumber of tenders received from tenderers from other EU Member States: 0\nNumber of tenders received from tenderers from non-EU Member States: 0\nNumber of tenders received by electronic means: 3\nThe contract has been awarded to a group of economic operators: no\n\nV.2.3)\n\nName and address of the contractor\nOfficial name: Rydon Group Ltd\nPostal address: Rydon House, Station Road, Forest Row\nTown: East Grinstead\nNUTS code: UK\nPostal code: RH18 5DW\nCountry: United Kingdom\nThe contractor is an SME: no\n\nV.2.4)\n\nInformation on value of the contract/lot (excluding VAT)\nTotal value of the contract/lot: 99 000 000.00 GBP\n\nV.2.5)\n\nInformation about subcontracting\n\nSection VI: Complementary information\nVI.3)\nAdditional information:\n\
+    VI.4)\n\nProcedures for review\n\nVI.4.1)\n\nReview body\nOfficial name: London Borough of Ealing\nPostal address: Perceval House, 14-16 Uxbridge Road\nTown: Ealing\nPostal code: W5 2HL\nCountry: United Kingdom\n\nVI.4.2)\n\nBody responsible for mediation procedures\n\nVI.4.3)\n\nReview procedure\n\nVI.4.4)\n\nService from which information about the review procedure may be obtained\n\nVI.5)\n\nDate of dispatch of this notice:\n07/11/2019\n\n11/11/2019\nS217\nhttps://ted.europa.eu/\nTED\n\nWorks - Contract award notice - Competitive dialogue\nSupplement to the Official Journal of the European Union\n\n3/3\n```\n"
   required_artifacts:
-    - source_record_file
-    - source_record_metadata
+  - source_record_file
+  - source_record_metadata
+  artifacts:
+  - id: materialized_source_document
+    path: datasets/public-validation-v1/source_documents/structured-public-record-ealing-531760.md
+    role: source_document
+    media_type: text/markdown
+    source_url: https://ted.europa.eu/en/notice/531760-2019/pdfs
+    collected_at: '2026-03-20'
+    original_filename: 531760-2019.pdf
+    sha256: 6b0e4c670a1a76cd2ff891e2d1c004a8043ee0c2ef30126773e2cfa0fb2bd821
+    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: 'Case bundle from: TED notice PDF 531760-2019 | TED notice HTML 531760-2019'
+    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+  - id: original-source-01
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-ealing-531760/source-01-ted-notice-pdf-531760-2019.pdf
+    role: original_source_snapshot
+    media_type: application/pdf
+    source_url: https://ted.europa.eu/en/notice/531760-2019/pdfs
+    collected_at: '2026-03-20'
+    original_filename: 531760-2019.pdf
+    sha256: 15bb52484ec98d58f749ea315ab198c9b0108679f43688b9e0304fdfd1c97600
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice PDF 531760-2019
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-02
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-ealing-531760/source-02-ted-notice-html-531760-2019.html
+    role: original_source_snapshot
+    media_type: text/html
+    source_url: https://ted.europa.eu/udl?uri=TED:NOTICE:531760-2019:TEXT:EN:HTML
+    collected_at: '2026-03-20'
+    original_filename: udl.html
+    sha256: af1e8ae659fd67905ec50a779b7dd1cc6e2a25d97421124e39ecc7cb4b1dd2a1
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice HTML 531760-2019
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
 expected_output:
   fields_required:
-    - buyer_name
-    - supplier_name
-    - award_date
-    - amount
-    - category_code
+  - buyer_name
+  - supplier_name
+  - award_date
+  - amount
+  - category_code
 answer_key:
   type: structured_fields
   fields:
     buyer_name: London Borough of Ealing
     supplier_name: Rydon Group Ltd
-    award_date: "2019-10-08"
-    amount: 99000000.00
-    category_code: "45000000"
+    award_date: '2019-10-08'
+    amount: 99000000.0
+    category_code: '45000000'
 notes:
-  - This works award extends the procurement slice beyond supplies and services while keeping a single contractor and a no-lot notice.
-  - The buyer, main CPV code, contractor, contract date, and awarded value are all explicit in the signed TED PDF.
+- This works award extends the procurement slice beyond supplies and services while keeping a single contractor and a no-lot notice.
+- The buyer, main CPV code, contractor, contract date, and awarded value are all explicit in the signed TED PDF.

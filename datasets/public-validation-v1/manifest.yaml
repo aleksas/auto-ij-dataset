@@ -34,6 +34,8 @@ autonomous_loop:
     max_cases: 4
   mutable_paths:
     - datasets/public-validation-v1/cases
+    - datasets/public-validation-v1/source_artifacts
+    - datasets/public-validation-v1/source_documents
     - datasets/public-validation-v1/manifest.yaml
     - rubrics
     - docs

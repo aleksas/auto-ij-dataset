@@ -5,41 +5,95 @@ task_type: field_extraction
 answer_mode: exact
 source_family: official_procurement
 source_tier: primary
-target_entity: "TED notice 100032-2021"
+target_entity: TED notice 100032-2021
 sources:
-  - label: TED notice XML 100032-2021
-    url: https://ted.europa.eu/en/notice/100032-2021/xml
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice PDF 100032-2021 (IT)
-    url: https://ted.europa.eu/it/notice/100032-2021/pdfs
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice detail 100032-2021
-    url: https://ted.europa.eu/en/notice/-/detail/100032-2021
-    checked_on: 2026-03-20
-    provenance: official_portal
+- label: TED notice XML 100032-2021
+  url: https://ted.europa.eu/en/notice/100032-2021/xml
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice PDF 100032-2021 (IT)
+  url: https://ted.europa.eu/it/notice/100032-2021/pdfs
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice detail 100032-2021
+  url: https://ted.europa.eu/en/notice/-/detail/100032-2021
+  checked_on: 2026-03-20
+  provenance: official_portal
 evidence_bundle:
   kind: structured_record
-  content_markdown: "Materialization pending: fetching source content..."
+  content_markdown: "# Bassano Romano social services contract extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/it/notice/100032-2021/pdfs\n\n## Listed sources\n- TED notice XML 100032-2021: https://ted.europa.eu/en/notice/100032-2021/xml\n- TED notice PDF 100032-2021 (IT): https://ted.europa.eu/it/notice/100032-2021/pdfs\n- TED notice detail 100032-2021: https://ted.europa.eu/en/notice/-/detail/100032-2021\n\n## Extracted source text\n\n```text\nGU/S S40\n26/02/2021\n100032-2021-IT\n\n1/3\n\nAvviso nel sito web TED: https://ted.europa.eu/udl?uri=TED:NOTICE:100032-2021:TEXT:IT:HTML\n\nItalia-Bassano Romano: Servizi di assistenza sociale e servizi affini\n2021/S 040-100032\nAvviso di aggiudicazione di appalto\nRisultati della procedura di appalto\nServizi\nBase giuridica:\nDirettiva 2014/24/UE\nSezione I: Amministrazione aggiudicatrice\nI.1)\nDenominazione e indirizzi\nDenominazione ufficiale: Comune di Bassano Romano\n\
+    Indirizzo postale: piazza Umberto I\nCitt\xE0: Bassano Romano\nCodice NUTS: ITI41 Viterbo\nCodice postale: 01030\nPaese: Italia\nE-mail: bassanoromano@legalmail.it\nIndirizzi Internet:\nIndirizzo principale: http://www.provincia.viterbo.gov.it/\nI.4)\n\nTipo di amministrazione aggiudicatrice\nAutorit\xE0 regionale o locale\n\nI.5)\n\nPrincipali settori di attivit\xE0\nServizi generali delle amministrazioni pubbliche\n\nSezione II: Oggetto\nII.1)\nEntit\xE0 dell'appalto\nII.1.1)\n\nDenominazione:\nServizio di accoglienza nell\u2019ambito sistema di protezione per titolari di protezione internazionale e per minori\nstranieri non accompagnati (Siproimi).\n\nII.1.2)\n\nCodice CPV principale\n85300000 Servizi di assistenza sociale e servizi affini\n\nII.1.3)\n\nTipo di appalto\nServizi\n\nII.1.4)\n\nBreve descrizione:\nServizio di accoglienza nell\u2019ambito sistema di protezione per titolari di protezione internazionale e per minori\nstranieri non accompagnati (Siproimi) di cui al decreto\
+    \ ministero Interno del 18.11.2019, pubblicato GU n. 284\ndel 4.12.2019 \u2014 periodo 1.1.2021\u201331.12.2022.\n\nII.1.6)\n\nInformazioni relative ai lotti\nQuesto appalto \xE8 suddiviso in lotti: no\n\nII.1.7)\n\nValore totale dell\u2019appalto (IVA esclusa)\nValore, IVA esclusa: 629 960.04 EUR\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n1/3\n\nGU/S S40\n26/02/2021\n100032-2021-IT\n\n2/3\n\nII.2)\n\nDescrizione\n\nII.2.3)\n\nLuogo di esecuzione\nCodice NUTS: ITI41 Viterbo\n\nII.2.4)\n\nDescrizione dell'appalto:\nServizio di accoglienza nell\u2019ambito sistema di protezione per titolari di protezione internazionale e per minori\nstranieri non accompagnati (Siproimi) di cui al decreto ministero Interno 18.11.2019 pubblicato GU n. 284 del\n4.12.2019 \u2014 periodo 1.1.2021\u201331.12.2022.\n\nII.2.5)\n\nCriteri di aggiudicazione\nPrezzo\n\nII.2.11)\n\nInformazioni relative alle opzioni\nOpzioni: no\n\nII.2.13)\n\nInformazioni relative ai fondi dell'Unione europea\nL'appalto \xE8\
+    \ connesso ad un progetto e/o programma finanziato da fondi dell'Unione europea: no\n\nII.2.14)\n\nInformazioni complementari\n\nSezione IV: Procedura\nIV.1)\nDescrizione\nIV.1.1)\n\nTipo di procedura\nProcedura aperta\n\nIV.1.3)\n\nInformazioni su un accordo quadro o un sistema dinamico di acquisizione\n\nIV.1.8)\n\nInformazioni relative all'accordo sugli appalti pubblici (AAP)\nL'appalto \xE8 disciplinato dall'accordo sugli appalti pubblici: no\n\nIV.2)\n\nInformazioni di carattere amministrativo\n\nIV.2.1)\n\nPubblicazione precedente relativa alla stessa procedura\nNumero dell'avviso nella GU S: 2020/S 234-577790\n\nIV.2.8)\n\nInformazioni relative alla chiusura del sistema dinamico di acquisizione\n\nIV.2.9)\n\nInformazioni relative alla fine della validit\xE0 dell'avviso di indizione di gara in forma di avviso di\npreinformazione\n\nSezione V: Aggiudicazione di appalto\nDenominazione:\nServizio di accoglienza nell\u2019ambito sistema di protezione per titolari di protezione internazionale\
+    \ e per minori\nstranieri non accompagnati (Siproimi).\nUn contratto d'appalto/lotto \xE8 stato aggiudicato: s\xEC\nV.2)\n\nAggiudicazione di appalto\n\nV.2.1)\n\nData di conclusione del contratto d'appalto:\n22/02/2021\n\nV.2.2)\n\nInformazioni sulle offerte\nNumero di offerte pervenute: 3\nL'appalto \xE8 stato aggiudicato a un raggruppamento di operatori economici: no\n\nV.2.3)\n\nNome e indirizzo del contraente\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n2/3\n\nGU/S S40\n26/02/2021\n100032-2021-IT\n\n3/3\n\nDenominazione ufficiale: Cooperativa ARCI Solidariet\xE0\nCitt\xE0: Viterbo\nCodice NUTS: ITI41 Viterbo\nPaese: Italia\nIl contraente \xE8 una PMI: s\xEC\nV.2.4)\n\nInformazione sul valore del contratto d'appalto /lotto (IVA esclusa)\nValore totale inizialmente stimato del contratto d\u2019appalto/lotto: 626 960.14 EUR\nValore totale del contratto d'appalto/del lotto: 629 960.04 EUR\n\nV.2.5)\n\nInformazioni sui subappalti\n\nSezione VI: Altre informazioni\nVI.3)\nInformazioni\
+    \ complementari:\nhttps://www.provincia.viterbo.gov.it/ e https://www.comune.bassanoromano.vt.it/new/\nVI.4)\n\nProcedure di ricorso\n\nVI.4.1)\n\nOrganismo responsabile delle procedure di ricorso\nDenominazione ufficiale: TAR Lazio\nCitt\xE0: Roma\nPaese: Italia\n\nVI.5)\n\nData di spedizione del presente avviso:\n23/02/2021\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n3/3\n```\n"
   required_artifacts:
-    - source_record_file
-    - source_record_metadata
+  - source_record_file
+  - source_record_metadata
+  artifacts:
+  - id: materialized_source_document
+    path: datasets/public-validation-v1/source_documents/structured-public-record-bassano-romano-100032.md
+    role: source_document
+    media_type: text/markdown
+    source_url: https://ted.europa.eu/en/notice/100032-2021/xml
+    collected_at: '2026-03-20'
+    original_filename: 100032-2021.xml
+    sha256: c5294c7d75bd7618522db9064d3f63c9af6da9e9c33be6552bd525fdf18e2681
+    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: 'Case bundle from: TED notice XML 100032-2021 | TED notice PDF 100032-2021 (IT) | TED notice detail 100032-2021'
+    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+  - id: original-source-01
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-bassano-romano-100032/source-01-ted-notice-xml-100032-2021.xml
+    role: original_source_snapshot
+    media_type: application/xml
+    source_url: https://ted.europa.eu/en/notice/100032-2021/xml
+    collected_at: '2026-03-20'
+    original_filename: 100032-2021.xml
+    sha256: 8f8ff49b8a2a5504078d1603c85eed4d69dc112fb7e65be87677a649d093170c
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice XML 100032-2021
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-02
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-bassano-romano-100032/source-02-ted-notice-pdf-100032-2021-it.pdf
+    role: original_source_snapshot
+    media_type: application/pdf
+    source_url: https://ted.europa.eu/it/notice/100032-2021/pdfs
+    collected_at: '2026-03-20'
+    original_filename: 100032-2021.pdf
+    sha256: 1dd095335c30d69851cf5508f9278a4b32aed5980872f02a2b48bcdc7e29c88f
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice PDF 100032-2021 (IT)
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-03
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-bassano-romano-100032/source-03-ted-notice-detail-100032-2021.html
+    role: original_source_snapshot
+    media_type: text/html
+    source_url: https://ted.europa.eu/en/notice/-/detail/100032-2021
+    collected_at: '2026-03-20'
+    original_filename: 100032-2021.html
+    sha256: ef857dd29f3561f713c87e929b3ec429fbf53b5e2c1d89be1ff91cba39cbce02
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice detail 100032-2021
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
 expected_output:
   fields_required:
-    - buyer_name
-    - supplier_name
-    - award_date
-    - amount
-    - category_code
+  - buyer_name
+  - supplier_name
+  - award_date
+  - amount
+  - category_code
 answer_key:
   type: structured_fields
   fields:
     buyer_name: Comune di Bassano Romano
-    supplier_name: "Cooperativa ARCI Solidarietà"
-    award_date: "2021-02-22"
+    supplier_name: "Cooperativa ARCI Solidariet\xE0"
+    award_date: '2021-02-22'
     amount: 629960.04
-    category_code: "85300000"
+    category_code: '85300000'
 notes:
-  - The XML presents one procurement total and one contract conclusion date, which keeps this Italian social-services case in the exact-answer lane.
-  - The supplier name includes the accented official cooperative form, so the answer key checks that extraction preserves the published contractor string.
+- The XML presents one procurement total and one contract conclusion date, which keeps this Italian social-services case in the exact-answer lane.
+- The supplier name includes the accented official cooperative form, so the answer key checks that extraction preserves the published contractor string.

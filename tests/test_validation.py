@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import hashlib
 import shutil
 import sys
 import tempfile
@@ -8,6 +9,8 @@ from contextlib import redirect_stdout
 from io import StringIO
 from pathlib import Path
 from unittest.mock import patch
+
+import yaml
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -19,6 +22,10 @@ from auto_dataset.cli import main as cli_main  # noqa: E402
 from auto_dataset.publishing import build_intermediate_snapshot  # noqa: E402
 from auto_dataset.runner import RunnerError, _build_worker_prompt, run_autonomous_loop  # noqa: E402
 from auto_dataset.validation import REQUIRED_RUN_LOG_COLUMNS, ValidationError, load_suite, summarize_cases  # noqa: E402
+
+
+def _sha256_text(value: str) -> str:
+    return hashlib.sha256(value.encode("utf-8")).hexdigest()
 
 
 class ValidationTests(unittest.TestCase):
@@ -94,17 +101,242 @@ class ValidationTests(unittest.TestCase):
             self.assertTrue((snapshot_dir / "README.md").exists())
             self.assertTrue((snapshot_dir / "summary.json").exists())
             self.assertTrue((snapshot_dir / "brief.txt").exists())
+            self.assertTrue((snapshot_dir / "source_documents" / "index.json").exists())
             self.assertTrue(
                 (snapshot_dir / "datasets" / "cases" / "structured-public-record-template.yaml").exists()
             )
             self.assertTrue(
                 (snapshot_dir / "datasets" / "cases" / "structured-public-record-espo-509-19-lot-3.yaml").exists()
             )
+            self.assertTrue(
+                (snapshot_dir / "source_documents" / "cases" / "structured-public-record-template.md").exists()
+            )
+            self.assertTrue(
+                (
+                    snapshot_dir
+                    / "datasets"
+                    / "public-validation-v1"
+                    / "source_documents"
+                    / "structured-public-record-template.md"
+                ).exists()
+            )
+            self.assertTrue(
+                (
+                    snapshot_dir
+                    / "datasets"
+                    / "public-validation-v1"
+                    / "source_artifacts"
+                    / "structured-public-record-espo-509-19-lot-3"
+                    / "source-01-ted-notice-xml-205756-2019.xml"
+                ).exists()
+            )
             self.assertTrue((snapshot_dir / "rubrics" / "citation-grounding.md").exists())
             readme = (snapshot_dir / "README.md").read_text(encoding="utf-8")
             self.assertTrue(readme.startswith("---\n"))
             self.assertIn("task_categories:", readme)
             self.assertIn("# public-validation-v1", readme)
+            self.assertIn("source_documents/", readme)
+            self.assertIn("source_artifacts/", readme)
+
+    def test_load_suite_rejects_missing_declared_evidence_artifact(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            project_copy = Path(tmpdir) / "project"
+            shutil.copytree(
+                PROJECT_ROOT,
+                project_copy,
+                ignore=shutil.ignore_patterns(".git", ".venv", "__pycache__", "*.pyc", "artifacts"),
+            )
+            manifest_path = project_copy / "datasets" / "public-validation-v1" / "manifest.yaml"
+            case_path = project_copy / "datasets" / "public-validation-v1" / "cases" / "structured-public-record-template.yaml"
+            case_payload = yaml.safe_load(case_path.read_text(encoding="utf-8"))
+            case_payload["evidence_bundle"]["artifacts"] = [
+                {
+                    "id": "source_record_file",
+                    "path": "artifacts/source-docs/missing.xml",
+                    "role": "source_document",
+                    "media_type": "application/xml",
+                    "source_url": "https://example.org/missing.xml",
+                    "collected_at": "2026-03-23",
+                    "original_filename": "missing.xml",
+                    "sha256": "0" * 64,
+                    "acquisition_method": "Download the source file from the listed URL.",
+                    "license": "Unknown; verify upstream terms before redistribution.",
+                    "source_dataset": "test fixture",
+                    "notes": "Validation fixture for a missing artifact path.",
+                }
+            ]
+            case_path.write_text(yaml.safe_dump(case_payload, sort_keys=False), encoding="utf-8")
+
+            with self.assertRaises(ValidationError) as exc:
+                load_suite(manifest_path)
+
+            self.assertIn("evidence_bundle.artifacts[1].path does not exist", str(exc.exception))
+
+    def test_load_suite_rejects_case_without_content_markdown(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            project_copy = Path(tmpdir) / "project"
+            shutil.copytree(
+                PROJECT_ROOT,
+                project_copy,
+                ignore=shutil.ignore_patterns(".git", ".venv", "__pycache__", "*.pyc", "artifacts"),
+            )
+            manifest_path = project_copy / "datasets" / "public-validation-v1" / "manifest.yaml"
+            case_path = project_copy / "datasets" / "public-validation-v1" / "cases" / "followup-gold-template.yaml"
+            case_payload = yaml.safe_load(case_path.read_text(encoding="utf-8"))
+            del case_payload["evidence_bundle"]["content_markdown"]
+            case_path.write_text(yaml.safe_dump(case_payload, sort_keys=False), encoding="utf-8")
+
+            with self.assertRaises(ValidationError) as exc:
+                load_suite(manifest_path)
+
+            self.assertIn("evidence_bundle missing required keys: content_markdown", str(exc.exception))
+
+    def test_load_suite_rejects_case_without_artifacts(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            project_copy = Path(tmpdir) / "project"
+            shutil.copytree(
+                PROJECT_ROOT,
+                project_copy,
+                ignore=shutil.ignore_patterns(".git", ".venv", "__pycache__", "*.pyc", "artifacts"),
+            )
+            manifest_path = project_copy / "datasets" / "public-validation-v1" / "manifest.yaml"
+            case_path = project_copy / "datasets" / "public-validation-v1" / "cases" / "followup-gold-template.yaml"
+            case_payload = yaml.safe_load(case_path.read_text(encoding="utf-8"))
+            del case_payload["evidence_bundle"]["artifacts"]
+            case_path.write_text(yaml.safe_dump(case_payload, sort_keys=False), encoding="utf-8")
+
+            with self.assertRaises(ValidationError) as exc:
+                load_suite(manifest_path)
+
+            self.assertIn("evidence_bundle missing required keys: artifacts", str(exc.exception))
+
+    def test_load_suite_rejects_non_template_case_without_original_snapshot(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            project_copy = Path(tmpdir) / "project"
+            shutil.copytree(
+                PROJECT_ROOT,
+                project_copy,
+                ignore=shutil.ignore_patterns(".git", ".venv", "__pycache__", "*.pyc", "artifacts"),
+            )
+            manifest_path = project_copy / "datasets" / "public-validation-v1" / "manifest.yaml"
+            case_path = project_copy / "datasets" / "public-validation-v1" / "cases" / "structured-public-record-espo-509-19-lot-3.yaml"
+            case_payload = yaml.safe_load(case_path.read_text(encoding="utf-8"))
+            case_payload["evidence_bundle"]["artifacts"] = [
+                artifact
+                for artifact in case_payload["evidence_bundle"]["artifacts"]
+                if artifact.get("role") == "source_document"
+            ]
+            case_path.write_text(yaml.safe_dump(case_payload, sort_keys=False), encoding="utf-8")
+
+            with self.assertRaises(ValidationError) as exc:
+                load_suite(manifest_path)
+
+            self.assertIn("non-template cases must include an original_source_snapshot artifact", str(exc.exception))
+
+    def test_load_suite_rejects_artifact_with_bad_sha256(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            project_copy = Path(tmpdir) / "project"
+            shutil.copytree(
+                PROJECT_ROOT,
+                project_copy,
+                ignore=shutil.ignore_patterns(".git", ".venv", "__pycache__", "*.pyc", "artifacts"),
+            )
+            source_artifact = project_copy / "artifacts" / "source-docs" / "sample-source.xml"
+            source_artifact.parent.mkdir(parents=True, exist_ok=True)
+            source_artifact.write_text("<root>sample</root>\n", encoding="utf-8")
+
+            manifest_path = project_copy / "datasets" / "public-validation-v1" / "manifest.yaml"
+            case_path = project_copy / "datasets" / "public-validation-v1" / "cases" / "structured-public-record-template.yaml"
+            case_payload = yaml.safe_load(case_path.read_text(encoding="utf-8"))
+            case_payload["evidence_bundle"]["artifacts"] = [
+                {
+                    "id": "source_record_file",
+                    "path": "artifacts/source-docs/sample-source.xml",
+                    "role": "source_document",
+                    "media_type": "application/xml",
+                    "source_url": "https://example.org/sample-source.xml",
+                    "collected_at": "2026-03-23",
+                    "original_filename": "sample-source.xml",
+                    "sha256": "f" * 64,
+                    "acquisition_method": "Download the source file from the listed URL.",
+                    "license": "Unknown; verify upstream terms before redistribution.",
+                    "source_dataset": "test fixture",
+                    "notes": "Validation fixture for a mismatched digest.",
+                }
+            ]
+            case_path.write_text(yaml.safe_dump(case_payload, sort_keys=False), encoding="utf-8")
+
+            with self.assertRaises(ValidationError) as exc:
+                load_suite(manifest_path)
+
+            self.assertIn("sha256 does not match", str(exc.exception))
+
+    def test_export_copies_declared_evidence_artifacts(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            project_copy = Path(tmpdir) / "project"
+            shutil.copytree(
+                PROJECT_ROOT,
+                project_copy,
+                ignore=shutil.ignore_patterns(".git", ".venv", "__pycache__", "*.pyc", "artifacts"),
+            )
+            source_artifact = project_copy / "artifacts" / "source-docs" / "sample-source.xml"
+            source_artifact.parent.mkdir(parents=True, exist_ok=True)
+            source_artifact.write_text("<root>sample</root>\n", encoding="utf-8")
+
+            manifest_path = project_copy / "datasets" / "public-validation-v1" / "manifest.yaml"
+            case_path = project_copy / "datasets" / "public-validation-v1" / "cases" / "structured-public-record-template.yaml"
+            case_payload = yaml.safe_load(case_path.read_text(encoding="utf-8"))
+            case_payload["evidence_bundle"]["artifacts"] = [
+                {
+                    "id": "source_record_file",
+                    "path": "artifacts/source-docs/sample-source.xml",
+                    "role": "source_document",
+                    "media_type": "application/xml",
+                    "source_url": "https://example.org/sample-source.xml",
+                    "collected_at": "2026-03-23",
+                    "original_filename": "sample-source.xml",
+                    "sha256": _sha256_text("<root>sample</root>\n"),
+                    "acquisition_method": "Download the source file from the listed URL.",
+                    "license": "Unknown; verify upstream terms before redistribution.",
+                    "source_dataset": "test fixture",
+                    "notes": "Validation fixture for artifact copy behavior.",
+                }
+            ]
+            case_path.write_text(yaml.safe_dump(case_payload, sort_keys=False), encoding="utf-8")
+
+            manifest, cases = load_suite(manifest_path)
+            snapshot_dir = build_intermediate_snapshot(
+                manifest_path,
+                manifest,
+                cases,
+                project_copy / "artifacts" / "hf-staging",
+            )
+
+            copied_artifact = snapshot_dir / "artifacts" / "source-docs" / "sample-source.xml"
+            self.assertTrue(copied_artifact.exists())
+            self.assertEqual(copied_artifact.read_text(encoding="utf-8"), "<root>sample</root>\n")
+            source_index = yaml.safe_load((snapshot_dir / "source_documents" / "index.json").read_text(encoding="utf-8"))
+            self.assertEqual(
+                source_index["structured-public-record-template"]["artifacts"][0]["path"],
+                "artifacts/source-docs/sample-source.xml",
+            )
+            self.assertEqual(
+                source_index["structured-public-record-template"]["artifacts"][0]["sha256"],
+                _sha256_text("<root>sample</root>\n"),
+            )
+
+    def test_brief_includes_source_documents_mutable_path(self) -> None:
+        manifest_path = PROJECT_ROOT / "datasets" / "public-validation-v1" / "manifest.yaml"
+        buffer = StringIO()
+
+        with patch.object(sys, "argv", ["auto-dataset", "brief", str(manifest_path)]):
+            with redirect_stdout(buffer):
+                exit_code = cli_main()
+
+        brief = buffer.getvalue()
+        self.assertEqual(exit_code, 0)
+        self.assertIn("datasets/public-validation-v1/source_documents", brief)
+        self.assertIn("datasets/public-validation-v1/source_artifacts", brief)
 
     def test_load_suite_rejects_orphan_case_file(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:

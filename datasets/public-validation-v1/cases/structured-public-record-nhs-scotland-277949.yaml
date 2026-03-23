@@ -5,37 +5,81 @@ task_type: field_extraction
 answer_mode: exact
 source_family: official_procurement
 source_tier: primary
-target_entity: "TED notice 277949-2020"
+target_entity: TED notice 277949-2020
 sources:
-  - label: TED notice PDF 277949-2020
-    url: https://ted.europa.eu/en/notice/277949-2020/pdfs
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice detail 277949-2020
-    url: https://ted.europa.eu/en/notice/-/detail/277949-2020
-    checked_on: 2026-03-20
-    provenance: official_portal
+- label: TED notice PDF 277949-2020
+  url: https://ted.europa.eu/en/notice/277949-2020/pdfs
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice detail 277949-2020
+  url: https://ted.europa.eu/en/notice/-/detail/277949-2020
+  checked_on: 2026-03-20
+  provenance: official_portal
 evidence_bundle:
   kind: structured_record
-  content_markdown: "Materialization pending: fetching source content..."
+  content_markdown: "# NHS National Services Scotland hand sanitiser contract extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/en/notice/277949-2020/pdfs\n\n## Listed sources\n- TED notice PDF 277949-2020: https://ted.europa.eu/en/notice/277949-2020/pdfs\n- TED notice detail 277949-2020: https://ted.europa.eu/en/notice/-/detail/277949-2020\n\n## Extracted source text\n\n```text\nOJ/S S114\n15/06/2020\n277949-2020-EN\n\nSupplies - Contract award notice - Negotiated\nprocedure without a call for competition\n\n1/4\n\nThis notice in TED website: https://ted.europa.eu/udl?uri=TED:NOTICE:277949-2020:TEXT:EN:HTML\n\nUnited Kingdom-Edinburgh: Hand sanitizer\n2020/S 114-277949\nContract award notice\nResults of the procurement procedure\nSupplies\nLegal Basis:\nDirective 2014/24/EU\nSection I: Contracting authority\nI.1)\nName and addresses\nOfficial name: The Common Services Agency (more commonly known as NHS National Services\
+    \ Scotland)\n(\u2018NSS\u2019)\nPostal address: Gyle Square (NSS Head Office), 1 South Gyle Crescent\nTown: Edinburgh\nNUTS code: UKM SCOTLAND\nPostal code: EH12 9EB\nCountry: United Kingdom\nContact person: SSGovernance\nE-mail: NSS.SSGovernance@nhs.net\nTelephone: +44 1698794438\nInternet address(es):\nMain address: http://www.nhsscotlandprocurement.scot.nhs.uk/\nAddress of the buyer profile: https://www.publiccontractsscotland.gov.uk/search/Search_AuthProfile.aspx?\nID=AA11883\nI.2)\n\nInformation about joint procurement\nThe contract is awarded by a central purchasing body\n\nI.4)\n\nType of the contracting authority\nBody governed by public law\n\nI.5)\n\nMain activity\nHealth\n\nSection II: Object\nII.1)\nScope of the procurement\nII.1.1)\n\nTitle:\nNSSCOVID-19-132 Hand Sanitiser 500 ml\nReference number: NSSCOVID-19 -132\n\nII.1.2)\n\nMain CPV code\n33741300 Hand sanitizer\n\nII.1.3)\n\nType of contract\nSupplies\n\n15/06/2020\nS114\nhttps://ted.europa.eu/\nTED\n\nSupplies - Contract\
+    \ award notice - Negotiated\nprocedure without a call for competition\nSupplement to the Official Journal of the European Union\n\n1/4\n\nOJ/S S114\n15/06/2020\n277949-2020-EN\n\nSupplies - Contract award notice - Negotiated\nprocedure without a call for competition\n\n2/4\n\nII.1.4)\n\nShort description:\nProvision of 91 000 500 ml bottles of hand sanitiser.\n\nII.1.6)\n\nInformation about lots\nThis contract is divided into lots: no\n\nII.1.7)\n\nTotal value of the procurement (excluding VAT)\nValue excluding VAT: 235 690.00 GBP\n\nII.2)\n\nDescription\n\nII.2.1)\n\nTitle:\n\nII.2.2)\n\nAdditional CPV code(s)\n\nII.2.3)\n\nPlace of performance\nNUTS code: UKM SCOTLAND\nMain site or place of performance:\nScotland.\n\nII.2.4)\n\nDescription of the procurement:\nThis is a directly awarded contract between the authority on behalf of NHS Scotland to meet the additional\ndemands of the Scottish Health and Social Care sector during the current Covid-19 pandemic.\nThis award has been approved\
+    \ for reasons of extreme urgency brought about by events unforeseeable by the\ncontracting authority in line with Regulation 33(1)(c) of the Public Contracts (Scotland) Regulations 2015.\n\nII.2.5)\n\nAward criteria\nQuality criterion - Name: Quality / Weighting: 60\nPrice - Weighting: 40\n\nII.2.11)\n\nInformation about options\nOptions: no\n\nII.2.13)\n\nInformation about European Union funds\nThe procurement is related to a project and/or programme financed by European Union funds: no\n\nII.2.14)\n\nAdditional information\n\nSection IV: Procedure\nIV.1)\nDescription\nIV.1.1)\n\nType of procedure\nAward of a contract without prior publication of a call for competition in the Official Journal of the European\nUnion in the cases listed below\n\u2022 Extreme urgency brought about by events unforeseeable for the contracting authority and in accordance with\nthe strict conditions stated in the directive\nExplanation:\nThis is a directly awarded contract between the authority on behalf of\
+    \ NHS Scotland to meet the additional\ndemands of the Scottish Health and Social Care sector during the current Covid-19 pandemic.\n\nIV.1.3)\n\nInformation about a framework agreement or a dynamic purchasing system\n\nIV.1.6)\n\nInformation about electronic auction\n\nIV.1.8)\n\nInformation about the Government Procurement Agreement (GPA)\nThe procurement is covered by the Government Procurement Agreement: yes\n\nIV.2)\n\nAdministrative information\n\nIV.2.1)\n\nPrevious publication concerning this procedure\n\n15/06/2020\nS114\nhttps://ted.europa.eu/\nTED\n\nSupplies - Contract award notice - Negotiated\nprocedure without a call for competition\nSupplement to the Official Journal of the European Union\n\n2/4\n\nOJ/S S114\n15/06/2020\n277949-2020-EN\n\nSupplies - Contract award notice - Negotiated\nprocedure without a call for competition\n\nIV.2.8)\n\nInformation about termination of dynamic purchasing system\n\nIV.2.9)\n\nInformation about termination of call for competition in the\
+    \ form of a prior information notice\n\n3/4\n\nSection V: Award of contract\nA contract/lot is awarded: yes\nV.2)\n\nAward of contract\n\nV.2.1)\n\nDate of conclusion of the contract:\n14/05/2020\n\nV.2.2)\n\nInformation about tenders\nNumber of tenders received: 1\nNumber of tenders received from SMEs: 0\nNumber of tenders received from tenderers from other EU Member States: 0\nNumber of tenders received from tenderers from non-EU Member States: 0\nNumber of tenders received by electronic means: 0\nThe contract has been awarded to a group of economic operators: no\n\nV.2.3)\n\nName and address of the contractor\nOfficial name: Trichem Scotland\nPostal address: 36E Inchmuir Road, Whitehill Ind Est\nTown: Bathgate\nNUTS code: UKM78 West Lothian\nPostal code: EH48 2EP\nCountry: United Kingdom\nTelephone: +44 7903092730\nThe contractor is an SME: no\n\nV.2.4)\n\nInformation on value of the contract/lot (excluding VAT)\nTotal value of the contract/lot: 235 690.00 GBP\n\nV.2.5)\n\nInformation\
+    \ about subcontracting\n\nSection VI: Complementary information\nVI.3)\nAdditional information:\n(SC Ref:623258)\nVI.4)\n\nProcedures for review\n\nVI.4.1)\n\nReview body\nOfficial name: Sheriff Court House\nPostal address: 27 Chambers Street\nTown: Edinburgh\nPostal code: EH1 1LB\nCountry: United Kingdom\nE-mail: edinburgh@scotcourts.gov.uk\nTelephone: +44 1312252525\n\nVI.4.2)\n\nBody responsible for mediation procedures\n\nVI.4.3)\n\nReview procedure\nPrecise information on deadline(s) for review procedures:\n\n15/06/2020\nS114\nhttps://ted.europa.eu/\nTED\n\nSupplies - Contract award notice - Negotiated\nprocedure without a call for competition\nSupplement to the Official Journal of the European Union\n\n3/4\n\nOJ/S S114\n15/06/2020\n277949-2020-EN\n\nSupplies - Contract award notice - Negotiated\nprocedure without a call for competition\n\n4/4\n\nEconomic operators should approach the contracting authority in the first instance. However, the only formal\nremedy is to apply to the\
+    \ courts:\nAn economic operator that suffers, or is at risk of suffering, loss or damage attributable to a breach of duty under\nthe Public Contracts (Scotland) Regulations 2015 or the Procurement Reform (Scotland) Act 2014, may bring\nproceedings in the Sheriff Court or the Court of Session.\nVI.4.4)\n\nService from which information about the review procedure may be obtained\n\nVI.5)\n\nDate of dispatch of this notice:\n11/06/2020\n\n15/06/2020\nS114\nhttps://ted.europa.eu/\nTED\n\nSupplies - Contract award notice - Negotiated\nprocedure without a call for competition\nSupplement to the Official Journal of the European Union\n\n4/4\n```\n"
   required_artifacts:
-    - source_record_file
-    - source_record_metadata
+  - source_record_file
+  - source_record_metadata
+  artifacts:
+  - id: materialized_source_document
+    path: datasets/public-validation-v1/source_documents/structured-public-record-nhs-scotland-277949.md
+    role: source_document
+    media_type: text/markdown
+    source_url: https://ted.europa.eu/en/notice/277949-2020/pdfs
+    collected_at: '2026-03-20'
+    original_filename: 277949-2020.pdf
+    sha256: 6d0c241f5aa0fbbb8e29abcc834a10b2abdd2efd9b860746f2364ad46e1104ec
+    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: 'Case bundle from: TED notice PDF 277949-2020 | TED notice detail 277949-2020'
+    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+  - id: original-source-01
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-nhs-scotland-277949/source-01-ted-notice-pdf-277949-2020.pdf
+    role: original_source_snapshot
+    media_type: application/pdf
+    source_url: https://ted.europa.eu/en/notice/277949-2020/pdfs
+    collected_at: '2026-03-20'
+    original_filename: 277949-2020.pdf
+    sha256: df1d032965a2de970e338c92554c0ddae70455f10e19fa19648f0dca69be78e9
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice PDF 277949-2020
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-02
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-nhs-scotland-277949/source-02-ted-notice-detail-277949-2020.html
+    role: original_source_snapshot
+    media_type: text/html
+    source_url: https://ted.europa.eu/en/notice/-/detail/277949-2020
+    collected_at: '2026-03-20'
+    original_filename: 277949-2020.html
+    sha256: 824c911826efc4a5628f64da2ad8f8f29130e0b91a0734727b727947f9fbb71f
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice detail 277949-2020
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
 expected_output:
   fields_required:
-    - buyer_name
-    - supplier_name
-    - award_date
-    - amount
-    - category_code
+  - buyer_name
+  - supplier_name
+  - award_date
+  - amount
+  - category_code
 answer_key:
   type: structured_fields
   fields:
-    buyer_name: "The Common Services Agency (more commonly known as NHS National Services Scotland)"
+    buyer_name: The Common Services Agency (more commonly known as NHS National Services Scotland)
     supplier_name: Trichem Scotland
-    award_date: "2020-05-14"
-    amount: 235690.00
-    category_code: "33741300"
+    award_date: '2020-05-14'
+    amount: 235690.0
+    category_code: '33741300'
 notes:
-  - This emergency COVID-19 negotiated procurement received one tender and has no lots, which keeps the contractor field unambiguous.
-  - The answer key uses the V.2.4 awarded value rather than relying on the short-description bottle count.
+- This emergency COVID-19 negotiated procurement received one tender and has no lots, which keeps the contractor field unambiguous.
+- The answer key uses the V.2.4 awarded value rather than relying on the short-description bottle count.

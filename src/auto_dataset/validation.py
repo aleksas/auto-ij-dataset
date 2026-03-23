@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from collections import Counter
+import hashlib
 from pathlib import Path
 from typing import Any
 
@@ -65,6 +66,129 @@ def _require_positive_int(value: Any, name: str, path: Path) -> int:
     if not isinstance(value, int) or value <= 0:
         raise ValidationError(f"{path}: {name} must be a positive integer")
     return value
+
+
+def _require_non_empty_string(value: Any, name: str, path: Path) -> str:
+    if not isinstance(value, str) or not value.strip():
+        raise ValidationError(f"{path}: {name} must be a non-empty string")
+    return value
+
+
+def _sha256_file(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for chunk in iter(lambda: handle.read(65536), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
+def _find_project_root(start: Path) -> Path | None:
+    current = start.resolve()
+    for candidate in [current, *current.parents]:
+        if (candidate / "pyproject.toml").exists():
+            return candidate
+        if (candidate / "datasets").exists():
+            return candidate
+    return None
+
+
+def _validate_evidence_artifacts(value: Any, case_path: Path) -> list[Any]:
+    artifacts = _require_non_empty_list(value, "evidence_bundle.artifacts", case_path)
+    repo_root = _find_project_root(case_path.parent)
+    if repo_root is None:
+        raise ValidationError(f"{case_path}: unable to determine project root for evidence_bundle.artifacts")
+
+    seen_ids: set[str] = set()
+    for index, item in enumerate(artifacts, start=1):
+        artifact = _require_mapping(item, f"evidence_bundle.artifacts[{index}]", case_path)
+        _require_keys(
+            artifact,
+            [
+                "id",
+                "path",
+                "role",
+                "media_type",
+                "source_url",
+                "collected_at",
+                "original_filename",
+                "sha256",
+                "acquisition_method",
+                "license",
+                "source_dataset",
+                "notes",
+            ],
+            case_path,
+            f"evidence_bundle.artifacts[{index}]",
+        )
+
+        artifact_id = _require_non_empty_string(
+            artifact["id"],
+            f"evidence_bundle.artifacts[{index}].id",
+            case_path,
+        )
+        if artifact_id in seen_ids:
+            raise ValidationError(f"{case_path}: duplicate evidence_bundle artifact id '{artifact_id}'")
+        seen_ids.add(artifact_id)
+
+        artifact_path_text = _require_non_empty_string(
+            artifact["path"],
+            f"evidence_bundle.artifacts[{index}].path",
+            case_path,
+        )
+        artifact_path = Path(artifact_path_text)
+        if artifact_path.is_absolute():
+            raise ValidationError(
+                f"{case_path}: evidence_bundle.artifacts[{index}].path must be repo-relative, not absolute"
+            )
+
+        resolved_path = (repo_root / artifact_path).resolve()
+        try:
+            resolved_path.relative_to(repo_root)
+        except ValueError as exc:
+            raise ValidationError(
+                f"{case_path}: evidence_bundle.artifacts[{index}].path must stay within the repo"
+            ) from exc
+        if not resolved_path.exists() or not resolved_path.is_file():
+            raise ValidationError(
+                f"{case_path}: evidence_bundle.artifacts[{index}].path does not exist: {artifact_path_text}"
+            )
+
+        for required_key in (
+            "role",
+            "media_type",
+            "source_url",
+            "collected_at",
+            "original_filename",
+            "sha256",
+            "acquisition_method",
+            "license",
+            "source_dataset",
+            "notes",
+        ):
+            _require_non_empty_string(
+                artifact[required_key],
+                f"evidence_bundle.artifacts[{index}].{required_key}",
+                case_path,
+            )
+
+        sha256 = artifact["sha256"].lower()
+        if len(sha256) != 64 or any(ch not in "0123456789abcdef" for ch in sha256):
+            raise ValidationError(
+                f"{case_path}: evidence_bundle.artifacts[{index}].sha256 must be a 64-character hex digest"
+            )
+        actual_sha256 = _sha256_file(resolved_path)
+        if sha256 != actual_sha256:
+            raise ValidationError(
+                f"{case_path}: evidence_bundle.artifacts[{index}].sha256 does not match {artifact_path_text}"
+            )
+    return artifacts
+
+
+def _has_artifact_role(artifacts: list[Any], role: str) -> bool:
+    for artifact in artifacts:
+        if isinstance(artifact, dict) and artifact.get("role") == role:
+            return True
+    return False
 
 
 def _validate_target_counts(value: Any, path: Path) -> None:
@@ -247,10 +371,17 @@ def validate_case(path: Path) -> dict[str, Any]:
 
     evidence_bundle = _require_mapping(case["evidence_bundle"], "evidence_bundle", path)
     _require_keys(evidence_bundle, ["kind"], path, "evidence_bundle")
-    
-    # Require content_markdown for all non-template cases to ensure training readiness
-    if case.get("status") != "template":
-        _require_keys(evidence_bundle, ["content_markdown"], path, "evidence_bundle")
+
+    # Every case must carry materialized source content so exports always include a source document.
+    _require_keys(evidence_bundle, ["content_markdown"], path, "evidence_bundle")
+    _require_keys(evidence_bundle, ["artifacts"], path, "evidence_bundle")
+    if "required_artifacts" in evidence_bundle:
+        _require_string_list(evidence_bundle["required_artifacts"], "evidence_bundle.required_artifacts", path)
+    artifacts = _validate_evidence_artifacts(evidence_bundle["artifacts"], path)
+    if not _has_artifact_role(artifacts, "source_document"):
+        raise ValidationError(f"{path}: evidence_bundle.artifacts must include a source_document artifact")
+    if case.get("status") != "template" and not _has_artifact_role(artifacts, "original_source_snapshot"):
+        raise ValidationError(f"{path}: non-template cases must include an original_source_snapshot artifact")
 
     if "related_cases" in case:
         _require_string_list(case["related_cases"], "related_cases", path)

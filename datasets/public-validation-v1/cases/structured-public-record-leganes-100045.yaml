@@ -1,45 +1,99 @@
 id: structured-public-record-leganes-100045
 status: draft
-title: Leganés ornamental gardens maintenance contract extraction
+title: "Legan\xE9s ornamental gardens maintenance contract extraction"
 task_type: field_extraction
 answer_mode: exact
 source_family: official_procurement
 source_tier: primary
-target_entity: "TED notice 100045-2021"
+target_entity: TED notice 100045-2021
 sources:
-  - label: TED notice XML 100045-2021
-    url: https://ted.europa.eu/en/notice/100045-2021/xml
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice PDF 100045-2021 (ES)
-    url: https://ted.europa.eu/es/notice/100045-2021/pdfs
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice detail 100045-2021
-    url: https://ted.europa.eu/en/notice/-/detail/100045-2021
-    checked_on: 2026-03-20
-    provenance: official_portal
+- label: TED notice XML 100045-2021
+  url: https://ted.europa.eu/en/notice/100045-2021/xml
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice PDF 100045-2021 (ES)
+  url: https://ted.europa.eu/es/notice/100045-2021/pdfs
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice detail 100045-2021
+  url: https://ted.europa.eu/en/notice/-/detail/100045-2021
+  checked_on: 2026-03-20
+  provenance: official_portal
 evidence_bundle:
   kind: structured_record
-  content_markdown: "Materialization pending: fetching source content..."
+  content_markdown: "# Legan\xE9s ornamental gardens maintenance contract extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/es/notice/100045-2021/pdfs\n\n## Listed sources\n- TED notice XML 100045-2021: https://ted.europa.eu/en/notice/100045-2021/xml\n- TED notice PDF 100045-2021 (ES): https://ted.europa.eu/es/notice/100045-2021/pdfs\n- TED notice detail 100045-2021: https://ted.europa.eu/en/notice/-/detail/100045-2021\n\n## Extracted source text\n\n```text\nDO/S S40\n26/02/2021\n100045-2021-ES\n\n1/3\n\nEl presente anuncio en el sitio web de TED: https://ted.europa.eu/udl?uri=TED:NOTICE:100045-2021:TEXT:ES:HTML\n\nEspa\xF1a-Legan\xE9s: Servicios de mantenimiento de jardines y parques\n2021/S 040-100045\nAnuncio de adjudicaci\xF3n de contrato\nResultados del procedimiento de contrataci\xF3n\nServicios\nBase jur\xEDdica:\nDirectiva 2014/24/UE\nApartado I: Poder adjudicador\nI.1)\nNombre y direcciones\nNombre oficial:\
+    \ Junta de Gobierno del Ayuntamiento de Legan\xE9s\nN\xFAmero de identificaci\xF3n fiscal: P2807400C\nDirecci\xF3n postal: Plaza Mayor\nLocalidad: Legan\xE9s\nC\xF3digo NUTS: ES300 Madrid\nC\xF3digo postal: 28911\nPa\xEDs: Espa\xF1a\nPersona de contacto: Junta de Gobierno del Ayuntamiento de Legan\xE9s\nCorreo electr\xF3nico: deleg.contratacion@leganes.org\nDirecciones de internet:\nDirecci\xF3n principal: https://contrataciondelestado.es\nDirecci\xF3n del perfil de comprador: https://contrataciondelestado.es/wps/poc?\nuri=deeplink:perfilContratante&idBp=gXH2Q%2BDzewgQK2TEfXGy%2BA%3D%3D\nI.4)\n\nTipo de poder adjudicador\nAutoridad regional o local\n\nI.5)\n\nPrincipal actividad\nServicios p\xFAblicos generales\n\nApartado II: Objeto\nII.1)\n\xC1mbito de la contrataci\xF3n\nII.1.1)\n\nDenominaci\xF3n:\nMantenimiento, conservaci\xF3n y reposici\xF3n de las zonas verdes del municipio de Legan\xE9s\nN\xFAmero de referencia: 0137/2020\n\nII.1.2)\n\nC\xF3digo CPV principal\n77311000 Servicios\
+    \ de mantenimiento de jardines y parques\n\nII.1.3)\n\nTipo de contrato\nServicios\n\nII.1.4)\n\nBreve descripci\xF3n:\nMantenimiento, conservaci\xF3n y reposici\xF3n de las zonas verdes del municipio de Legan\xE9s.\n\nII.1.6)\n\nInformaci\xF3n relativa a los lotes\nEl contrato est\xE1 dividido en lotes: no\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n1/3\n\nDO/S S40\n26/02/2021\n100045-2021-ES\n\nII.1.7)\n\nValor total de la contrataci\xF3n (IVA excluido)\nValor IVA excluido: 7 268 472.10 EUR\n\nII.2)\n\nDescripci\xF3n\n\nII.2.3)\n\nLugar de ejecuci\xF3n\nC\xF3digo NUTS: ES300 Madrid\nEmplazamiento o lugar de ejecuci\xF3n principal:\nSeg\xFAn pliegos.\n\nII.2.4)\n\nDescripci\xF3n del contrato:\nMantenimiento, conservaci\xF3n y reposici\xF3n de las zonas verdes del municipio de Legan\xE9s.\n\nII.2.5)\n\nCriterios de adjudicaci\xF3n\nCriterio de calidad - Nombre: Juicio de valor / Ponderaci\xF3n: 25.00\nCriterio relativo al coste - Nombre: Precio / Ponderaci\xF3n: 75.00\n\nII.2.11)\n\
+    \nInformaci\xF3n sobre las opciones\nOpciones: s\xED\nDescripci\xF3n de las opciones:\nTres a\xF1os m\xE1s, a\xF1o a a\xF1o.\n\nII.2.13)\n\nInformaci\xF3n sobre fondos de la Uni\xF3n Europea\nEl contrato se refiere a un proyecto o programa financiado con fondos de la Uni\xF3n Europea: no\n\nII.2.14)\n\nInformaci\xF3n adicional\n\n2/3\n\nApartado IV: Procedimiento\nIV.1)\nDescripci\xF3n\nIV.1.1)\n\nTipo de procedimiento\nProcedimiento abierto\nProcedimiento acelerado\nJustificaci\xF3n:\nInter\xE9s p\xFAblico.\n\nIV.1.3)\n\nInformaci\xF3n sobre un acuerdo marco o un sistema din\xE1mico de adquisici\xF3n\n\nIV.1.8)\n\nInformaci\xF3n acerca del Acuerdo sobre Contrataci\xF3n P\xFAblica\nEl contrato est\xE1 cubierto por el Acuerdo sobre Contrataci\xF3n P\xFAblica: no\n\nIV.2)\n\nInformaci\xF3n administrativa\n\nIV.2.1)\n\nPublicaci\xF3n anterior referente al presente procedimiento\nN\xFAmero de anuncio en el DO S: 2020/S 138-339571\n\nIV.2.8)\n\nInformaci\xF3n sobre la terminaci\xF3n del sistema\
+    \ din\xE1mico de adquisici\xF3n\n\nIV.2.9)\n\nInformaci\xF3n sobre la anulaci\xF3n de la convocatoria de licitaci\xF3n en forma de anuncio de informaci\xF3n\nprevia\n\nApartado V: Adjudicaci\xF3n de contrato\nContrato n\xBA: 2021-28\nDenominaci\xF3n:\nMantenimiento, conservaci\xF3n y reposici\xF3n de las zonas verdes del municipio de Legan\xE9s\nSe adjudica un contrato/lote: s\xED\nV.2)\n\nAdjudicaci\xF3n de contrato\n\nV.2.1)\n\nFecha de celebraci\xF3n del contrato:\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n2/3\n\nDO/S S40\n26/02/2021\n100045-2021-ES\n\n3/3\n\n22/02/2021\nV.2.2)\n\nInformaci\xF3n sobre las ofertas\nN\xFAmero de ofertas recibidas: 3\nN\xFAmero de ofertas recibidas de PYME: 2\nEl contrato ha sido adjudicado a un grupo de operadores econ\xF3micos: no\n\nV.2.3)\n\nNombre y direcci\xF3n del contratista\nNombre oficial: Althenia, S. L.\nN\xFAmero de identificaci\xF3n fiscal: B92445493\nDirecci\xF3n postal: C/ Trigo, 27, planta baja, puerta 7\nLocalidad: Legan\xE9s\n\
+    C\xF3digo NUTS: ES617 M\xE1laga\nC\xF3digo postal: 29006\nPa\xEDs: Espa\xF1a\nEl contratista es una PYME: s\xED\n\nV.2.4)\n\nInformaci\xF3n sobre el valor del contrato/lote (IVA excluido)\nValor total inicial estimado del contrato/lote: 7 280 575.27 EUR\nValor total del contrato/lote: 7 268 472.10 EUR\n\nV.2.5)\n\nInformaci\xF3n sobre la subcontrataci\xF3n\n\nApartado VI: Informaci\xF3n complementaria\nVI.3)\nInformaci\xF3n adicional:\nVI.4)\n\nProcedimientos de recurso\n\nVI.4.1)\n\n\xD3rgano competente para los procedimientos de recurso\nNombre oficial: Junta de Gobierno del Ayuntamiento de Legan\xE9s\nDirecci\xF3n postal: Plaza, Mayor, 12\nLocalidad: Legan\xE9s\nC\xF3digo postal: 28911\nPa\xEDs: Espa\xF1a\n\nVI.5)\n\nFecha de env\xEDo del presente anuncio:\n22/02/2021\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n3/3\n```\n"
   required_artifacts:
-    - source_record_file
-    - source_record_metadata
+  - source_record_file
+  - source_record_metadata
+  artifacts:
+  - id: materialized_source_document
+    path: datasets/public-validation-v1/source_documents/structured-public-record-leganes-100045.md
+    role: source_document
+    media_type: text/markdown
+    source_url: https://ted.europa.eu/en/notice/100045-2021/xml
+    collected_at: '2026-03-20'
+    original_filename: 100045-2021.xml
+    sha256: 4ac9279684d5ce9cf10687632790a4000a84022a4482d39d25b47279b5a6079f
+    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: 'Case bundle from: TED notice XML 100045-2021 | TED notice PDF 100045-2021 (ES) | TED notice detail 100045-2021'
+    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+  - id: original-source-01
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-leganes-100045/source-01-ted-notice-xml-100045-2021.xml
+    role: original_source_snapshot
+    media_type: application/xml
+    source_url: https://ted.europa.eu/en/notice/100045-2021/xml
+    collected_at: '2026-03-20'
+    original_filename: 100045-2021.xml
+    sha256: 51a618c80c38eb9a3594216dbf9282e30a45cd71d140fe71abcf68bb5b54c295
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice XML 100045-2021
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-02
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-leganes-100045/source-02-ted-notice-pdf-100045-2021-es.pdf
+    role: original_source_snapshot
+    media_type: application/pdf
+    source_url: https://ted.europa.eu/es/notice/100045-2021/pdfs
+    collected_at: '2026-03-20'
+    original_filename: 100045-2021.pdf
+    sha256: a7b6f57e397234d31860f392c813e853bdad441cda9e9b7b1217c07135c09f45
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice PDF 100045-2021 (ES)
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-03
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-leganes-100045/source-03-ted-notice-detail-100045-2021.html
+    role: original_source_snapshot
+    media_type: text/html
+    source_url: https://ted.europa.eu/en/notice/-/detail/100045-2021
+    collected_at: '2026-03-20'
+    original_filename: 100045-2021.html
+    sha256: 7a5f71db34b3d34913105dd0498008485c1d14bf425425980a67b3b3e0b27829
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice detail 100045-2021
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
 expected_output:
   fields_required:
-    - buyer_name
-    - supplier_name
-    - award_date
-    - amount
-    - category_code
+  - buyer_name
+  - supplier_name
+  - award_date
+  - amount
+  - category_code
 answer_key:
   type: structured_fields
   fields:
-    buyer_name: "Junta de Gobierno del Ayuntamiento de Leganés"
-    supplier_name: "Althenia, S. L."
-    award_date: "2021-02-22"
-    amount: 7268472.10
-    category_code: "77311000"
+    buyer_name: "Junta de Gobierno del Ayuntamiento de Legan\xE9s"
+    supplier_name: Althenia, S. L.
+    award_date: '2021-02-22'
+    amount: 7268472.1
+    category_code: '77311000'
 notes:
-  - This Spanish case is a straightforward single-award maintenance contract with one awarded total and one contractor in the XML record.
-  - The buyer is the municipal governing board rather than a shortened city-name variant, so the answer key checks exact extraction of the published authority field.
+- This Spanish case is a straightforward single-award maintenance contract with one awarded total and one contractor in the XML record.
+- The buyer is the municipal governing board rather than a shortened city-name variant, so the answer key checks exact extraction of the published authority field.

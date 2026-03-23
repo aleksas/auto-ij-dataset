@@ -5,41 +5,98 @@ task_type: field_extraction
 answer_mode: exact
 source_family: official_procurement
 source_tier: primary
-target_entity: "TED notice 203927-2023, reference 21-G/2021"
+target_entity: TED notice 203927-2023, reference 21-G/2021
 sources:
-  - label: TED notice XML 203927-2023
-    url: https://ted.europa.eu/en/notice/203927-2023/xml
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice PDF 203927-2023 (SL)
-    url: https://ted.europa.eu/sl/notice/203927-2023/pdfs
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice detail 203927-2023
-    url: https://ted.europa.eu/en/notice/-/detail/203927-2023
-    checked_on: 2026-03-20
-    provenance: official_portal
+- label: TED notice XML 203927-2023
+  url: https://ted.europa.eu/en/notice/203927-2023/xml
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice PDF 203927-2023 (SL)
+  url: https://ted.europa.eu/sl/notice/203927-2023/pdfs
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice detail 203927-2023
+  url: https://ted.europa.eu/en/notice/-/detail/203927-2023
+  checked_on: 2026-03-20
+  provenance: official_portal
 evidence_bundle:
   kind: structured_record
-  content_markdown: "Materialization pending: fetching source content..."
+  content_markdown: "# Elektro Primorska civil engineering works extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/sl/notice/203927-2023/pdfs\n\n## Listed sources\n- TED notice XML 203927-2023: https://ted.europa.eu/en/notice/203927-2023/xml\n- TED notice PDF 203927-2023 (SL): https://ted.europa.eu/sl/notice/203927-2023/pdfs\n- TED notice detail 203927-2023: https://ted.europa.eu/en/notice/-/detail/203927-2023\n\n## Extracted source text\n\n```text\nUL/S S68\n05/04/2023\n203927-2023-SL\n\n1/5\n\nTo obvestilo na spletnem mestu TED: https://ted.europa.eu/udl?uri=TED:NOTICE:203927-2023:TEXT:SL:HTML\n\nSlovenija-Nova Gorica: Dela na objektih ali delih objektov visoke in nizke gradnje\n2023/S 068-203927\nObvestilo o oddaji naro\u010Dila \u2013 gospodarske javne slu\u017Ebe\nRezultati postopka javnega naro\u010Dila\nGradnje\nPravna podlaga:\nDirektiva 2014/25/EU\nOddelek I: Naro\u010Dnik\nI.1)\nIme in naslovi\nUradno ime:\
+    \ ELEKTRO PRIMORSKA podjetje za distribucijo elektri\u010Dne energije, d.d.\nNacionalna identifikacijska \u0161tevilka: 5229839000\nPo\u0161tni naslov: Erjav\u010Deva ulica 22\nKraj: Nova Gorica\n\u0160ifra NUTS: SI Slovenija\nPo\u0161tna \u0161tevilka: 5000\nDr\u017Eava: Slovenija\nE-naslov: javna.narocila@elektro-primorska.si\nTelefon: +386 53396600\nInternetni naslovi:\nGlavni naslov: http://www.elektro-primorska.si/\nI.6)\n\nGlavna podro\u010Dja dejavnosti\nElektri\u010Dna energija\n\nOddelek II: Predmet\nII.1)\nObseg naro\u010Dila\nII.1.1)\n\nNaslov:\nGradbena dela za izgradnjo elektroenergetske infrastrukture\nReferen\u010Dna \u0161tevilka dokumenta: 21-G/2021\n\nII.1.2)\n\nGlavna koda CPV\n45200000 Dela na objektih ali delih objektov visoke in nizke gradnje\n\nII.1.3)\n\nVrsta naro\u010Dila\nGradnje\n\nII.1.4)\n\nKratek opis:\nGre za gradbena dela za izgradnjo elektroenergetske infrastrukture.\n\nII.1.6)\n\nInformacije o sklopih\nNaro\u010Dilo je razdeljeno na sklope: da\n\nII.1.7)\n\
+    \nSkupna vrednost javnega naro\u010Dila (brez DDV) (Se strinjate z objavo? da)\nVrednost brez DDV: 67 425.38 EUR\n\nII.2)\n\nOpis\n\n05/04/2023\nS68\nhttps://ted.europa.eu/TED\n\n1/5\n\nUL/S S68\n05/04/2023\n203927-2023-SL\n\nII.2.1)\n\nNaslov:\nKATEGORIJA 1: Gradbena dela na poziv\n\u0160t. sklopa: 1\n\nII.2.2)\n\nDodatna(-e) koda(-e) CPV\n45100000 Pripravljalna dela na gradbi\u0161\u010Dih\n45200000 Dela na objektih ali delih objektov visoke in nizke gradnje\n45300000 In\u0161talacijska dela pri gradnjah\n45400000 Zaklju\u010Dna gradbena dela\n\nII.2.3)\n\nKraj izvedbe\n\u0160ifra NUTS: SI Slovenija\n\nII.2.4)\n\nOpis javnega naro\u010Dila:\nGre za gradbena dela na poziv.\n\nII.2.5)\n\nMerila za izbiro ponudbe\nCena\n\nII.2.11)\n\nInformacije o variantah\nVariante: ne\n\nII.2.13)\n\nInformacije o sredstvih EU\nNaro\u010Dilo se nana\u0161a na projekt in/ali program, ki se financira s sredstvi EU: ne\n\nII.2.14)\n\nDodatne informacije\n\nII.2)\n\nOpis\n\nII.2.1)\n\nNaslov:\nKATEGORIJA\
+    \ 2: Manj\u0161a gradbena dela\n\u0160t. sklopa: 2\n\nII.2.2)\n\nDodatna(-e) koda(-e) CPV\n45100000 Pripravljalna dela na gradbi\u0161\u010Dih\n45200000 Dela na objektih ali delih objektov visoke in nizke gradnje\n45300000 In\u0161talacijska dela pri gradnjah\n45400000 Zaklju\u010Dna gradbena dela\n\nII.2.3)\n\nKraj izvedbe\n\u0160ifra NUTS: SI Slovenija\n\nII.2.4)\n\nOpis javnega naro\u010Dila:\nGre za manj\u0161a gradbena dela\n\nII.2.5)\n\nMerila za izbiro ponudbe\nCena\n\nII.2.11)\n\nInformacije o variantah\nVariante: ne\n\nII.2.13)\n\nInformacije o sredstvih EU\nNaro\u010Dilo se nana\u0161a na projekt in/ali program, ki se financira s sredstvi EU: ne\n\nII.2.14)\n\nDodatne informacije\n\nII.2)\n\nOpis\n\nII.2.1)\n\nNaslov:\nKATEGORIJA 3: Ve\u010Dja gradbena dela\n\u0160t. sklopa: 3\n\n05/04/2023\nS68\nhttps://ted.europa.eu/TED\n\n2/5\n\n2/5\n\nUL/S S68\n05/04/2023\n203927-2023-SL\n\nII.2.2)\n\nDodatna(-e) koda(-e) CPV\n45100000 Pripravljalna dela na gradbi\u0161\u010Dih\n45200000\
+    \ Dela na objektih ali delih objektov visoke in nizke gradnje\n45300000 In\u0161talacijska dela pri gradnjah\n45400000 Zaklju\u010Dna gradbena dela\n\nII.2.3)\n\nKraj izvedbe\n\u0160ifra NUTS: SI Slovenija\n\nII.2.4)\n\nOpis javnega naro\u010Dila:\nGre za ve\u010Dja gradbena dela\n\nII.2.5)\n\nMerila za izbiro ponudbe\nCena\n\nII.2.11)\n\nInformacije o variantah\nVariante: ne\n\nII.2.13)\n\nInformacije o sredstvih EU\nNaro\u010Dilo se nana\u0161a na projekt in/ali program, ki se financira s sredstvi EU: ne\n\nII.2.14)\n\nDodatne informacije\n\n3/5\n\nOddelek IV: Postopek\nIV.1)\nOpis\nIV.1.1)\n\nVrsta postopka\nOmejeni postopek\n\nIV.1.3)\n\nInformacije o okvirnem sporazumu ali dinami\u010Dnem nabavnem sistemu\n\nIV.1.8)\n\nInformacije o Sporazumu o vladnih naro\u010Dilih\nNaro\u010Dilo ureja Sporazum o vladnih naro\u010Dilih: ne\n\nIV.2)\n\nUpravne informacije\n\nIV.2.1)\n\nPrej\u0161nja objava v zvezi s tem postopkom\n\u0160tevilka obvestila v UL: 2021/S 176-459526\n\nIV.2.8)\n\nInformacije\
+    \ o prenehanju dinami\u010Dnega nabavnega sistema\n\nIV.2.9)\n\nInformacije o zaklju\u010Dku javnega razpisa v obliki periodi\u010Dnega informativnega obvestila\n\nOddelek V: Oddaja naro\u010Dila\n\u0160t. sklopa: 1\nNaslov:\nKATEGORIJA 1: Gradbena dela na poziv\nNaro\u010Dilo je oddano/sklop je oddan: ne\nV.1)\n\nInformacije o neoddaji naro\u010Dila\nNaro\u010Dilo/sklop ni oddano(-)\nPrejete ni bilo nobene ponudbe ali prijave za sodelovanje ali pa so bile vse zavrnjene\n\nOddelek V: Oddaja naro\u010Dila\n\u0160t. sklopa: 2\nNaslov:\nKATEGORIJA 2: Manj\u0161a gradbena dela\nNaro\u010Dilo je oddano/sklop je oddan: ne\nV.1)\n\nInformacije o neoddaji naro\u010Dila\n\n05/04/2023\nS68\nhttps://ted.europa.eu/TED\n\n3/5\n\nUL/S S68\n05/04/2023\n203927-2023-SL\n\n4/5\n\nNaro\u010Dilo/sklop ni oddano(-)\nPrejete ni bilo nobene ponudbe ali prijave za sodelovanje ali pa so bile vse zavrnjene\nOddelek V: Oddaja naro\u010Dila\n\u0160t. sklopa: 3\nNaslov:\nKATEGORIJA 3: Ve\u010Dja gradbena dela\n\
+    Naro\u010Dilo je oddano/sklop je oddan: da\nV.2)\n\nOddaja naro\u010Dila\n\nV.2.1)\n\nDatum sklenitve pogodbe:\n24/03/2023\n\nV.2.2)\n\nInformacije o ponudbah\n\u0160tevilo prejetih ponudb: 2\n\u0160tevilo prejetih ponudb MSP-jev: 2\n\u0160tevilo prejetih ponudb ponudnikov iz drugih dr\u017Eav \u010Dlanic EU: 0\n\u0160tevilo prejetih ponudb ponudnikov iz dr\u017Eav ne\u010Dlanic EU: 0\n\u0160tevilo elektronsko prejetih ponudb: 2\nNaro\u010Dilo je bilo oddano skupini gospodarskih subjektov: ne\n\nV.2.3)\n\nIme in naslov izvajalca\nUradno ime: PREVOZI, NIZKE GRADNJE ERIK SEVER, S.P.\nNacionalna identifikacijska \u0161tevilka: 1262459000\nPo\u0161tni naslov: Dobravlje 49C\nKraj: Dobravlje\n\u0160ifra NUTS: SI Slovenija\nPo\u0161tna \u0161tevilka: 5263\nDr\u017Eava: Slovenija\nIzvajalec je MSP: da\n\nV.2.4)\n\nInformacije o vrednosti javnega naro\u010Dila/sklopa (brez DDV) (Se strinjate z objavo? da)\nZa\u010Detna skupna ocenjena vrednost javnega naro\u010Dila/sklopa: 67 425.38 EUR\nSkupna\
+    \ vrednost naro\u010Dila/sklopa: 67 425.38 EUR\n\nV.2.5)\n\nInformacije o naro\u010Dilih, oddanih podizvajalcem\n\nV.2.6)\n\nPla\u010Dana cena za ugodne nakupe\n\nOddelek VI: Dopolnilne informacije\nVI.3)\nDodatne informacije:\nVI.4)\n\nPostopki za revizijo\n\nVI.4.1)\n\nOrgan, pristojen za revizijo\nUradno ime: DR\u017DAVNA REVIZIJSKA KOMISIJA ZA REVIZIJO POSTOPKOV ODDAJE JAVNIH NARO\u010CIL\nPo\u0161tni naslov: Slovenska cesta 54\nKraj: Ljubljana\nPo\u0161tna \u0161tevilka: 1000\nDr\u017Eava: Slovenija\n\nVI.4.4)\n\nSlu\u017Eba, pri kateri lahko dobite informacije o postopku revizije\n\n05/04/2023\nS68\nhttps://ted.europa.eu/TED\n\n4/5\n\nUL/S S68\n05/04/2023\n203927-2023-SL\n\n5/5\n\nUradno ime: ELEKTRO PRIMORSKA podjetje za distribucijo elektri\u010Dne energije, d.d.\nPo\u0161tni naslov: Erjav\u010Deva ulica 22\nKraj: Nova Gorica\nPo\u0161tna \u0161tevilka: 5000\nDr\u017Eava: Slovenija\nVI.5)\n\nDatum po\u0161iljanja tega obvestila:\n31/03/2023\n\n05/04/2023\nS68\nhttps://ted.europa.eu/TED\n\
+    \n5/5\n```\n"
   required_artifacts:
-    - source_record_file
-    - source_record_metadata
+  - source_record_file
+  - source_record_metadata
+  artifacts:
+  - id: materialized_source_document
+    path: datasets/public-validation-v1/source_documents/structured-public-record-elektro-primorska-203927.md
+    role: source_document
+    media_type: text/markdown
+    source_url: https://ted.europa.eu/en/notice/203927-2023/xml
+    collected_at: '2026-03-20'
+    original_filename: 203927-2023.xml
+    sha256: f08528b72f5addf46a38b4d4bd507d693a8494ba4e92dad5577e3bc659e28ea1
+    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: 'Case bundle from: TED notice XML 203927-2023 | TED notice PDF 203927-2023 (SL) | TED notice detail 203927-2023'
+    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+  - id: original-source-01
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-elektro-primorska-203927/source-01-ted-notice-xml-203927-2023.xml
+    role: original_source_snapshot
+    media_type: application/xml
+    source_url: https://ted.europa.eu/en/notice/203927-2023/xml
+    collected_at: '2026-03-20'
+    original_filename: 203927-2023.xml
+    sha256: 38051674b14634791692232a209464aaf499680b8595615e79bcde9ce291e7c4
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice XML 203927-2023
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-02
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-elektro-primorska-203927/source-02-ted-notice-pdf-203927-2023-sl.pdf
+    role: original_source_snapshot
+    media_type: application/pdf
+    source_url: https://ted.europa.eu/sl/notice/203927-2023/pdfs
+    collected_at: '2026-03-20'
+    original_filename: 203927-2023.pdf
+    sha256: 65a717a78adfe8e3dd734e9409fd7c6ea1ab5ca4829799465014b7413738ccd3
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice PDF 203927-2023 (SL)
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-03
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-elektro-primorska-203927/source-03-ted-notice-detail-203927-2023.html
+    role: original_source_snapshot
+    media_type: text/html
+    source_url: https://ted.europa.eu/en/notice/-/detail/203927-2023
+    collected_at: '2026-03-20'
+    original_filename: 203927-2023.html
+    sha256: 27f2d336e0892d13622db84128a203cd84797cc3c3e1e5b1abfc1f7a416d6b69
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice detail 203927-2023
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
 expected_output:
   fields_required:
-    - buyer_name
-    - supplier_name
-    - award_date
-    - amount
-    - category_code
+  - buyer_name
+  - supplier_name
+  - award_date
+  - amount
+  - category_code
 answer_key:
   type: structured_fields
   fields:
-    buyer_name: "ELEKTRO PRIMORSKA podjetje za distribucijo električne energije, d.d."
-    supplier_name: "PREVOZI, NIZKE GRADNJE ERIK SEVER, S.P."
-    award_date: "2023-03-24"
+    buyer_name: "ELEKTRO PRIMORSKA podjetje za distribucijo elektri\u010Dne energije, d.d."
+    supplier_name: PREVOZI, NIZKE GRADNJE ERIK SEVER, S.P.
+    award_date: '2023-03-24'
     amount: 67425.38
-    category_code: "45200000"
+    category_code: '45200000'
 notes:
-  - This Slovenia-specific utility works case adds a new country slice and preserves the XML, native-language PDF, and detail page for the same single-award TED notice.
-  - The XML includes a reference number but no contract title, and both legal names contain commas or abbreviations, which makes exact string preservation part of the extraction task.
+- This Slovenia-specific utility works case adds a new country slice and preserves the XML, native-language PDF, and detail page for the same single-award TED notice.
+- The XML includes a reference number but no contract title, and both legal names contain commas or abbreviations, which makes exact string preservation part of the extraction task.

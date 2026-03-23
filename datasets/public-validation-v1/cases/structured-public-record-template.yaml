@@ -5,34 +5,47 @@ task_type: field_extraction
 answer_mode: exact
 source_family: official_procurement
 source_tier: primary
-target_entity: "<fill target record or contracting authority>"
+target_entity: <fill target record or contracting authority>
 sources:
-  - label: TED procurement portal
-    url: https://ted.europa.eu/
-    checked_on: 2026-03-18
-    provenance: official_portal
+- label: TED procurement portal
+  url: https://ted.europa.eu/
+  checked_on: 2026-03-18
+  provenance: official_portal
 evidence_bundle:
   kind: structured_record
   content_markdown: |
     # <Extracted Markdown Content Here>
     (Inline the source text/markdown here for LLM training)
   required_artifacts:
-    - source_record_file
-    - source_record_metadata
+  - source_record_file
+  - source_record_metadata
+  artifacts:
+  - id: materialized_source_document
+    path: datasets/public-validation-v1/source_documents/structured-public-record-template.md
+    role: source_document
+    media_type: text/markdown
+    source_url: https://ted.europa.eu/
+    collected_at: '2026-03-18'
+    original_filename: structured-public-record-template.md
+    sha256: c275ee328e3810cf4a9fcfe224e79bd4779d53fcdc30a2a1de825d52134739b3
+    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED procurement portal
+    notes: Checked-in markdown source document used for local validation and Hugging Face export. Derived from the cited upstream source material recorded in sources[].
 expected_output:
   fields_required:
-    - buyer_name
-    - supplier_name
-    - award_date
-    - amount
-    - category_code
+  - buyer_name
+  - supplier_name
+  - award_date
+  - amount
+  - category_code
 answer_key:
   type: structured_fields
   fields:
-    buyer_name: "<fill>"
-    supplier_name: "<fill>"
-    award_date: "<YYYY-MM-DD>"
-    amount: "<numeric>"
-    category_code: "<fill>"
+    buyer_name: <fill>
+    supplier_name: <fill>
+    award_date: <YYYY-MM-DD>
+    amount: <numeric>
+    category_code: <fill>
 notes:
-  - Official fields act as the answer key for extraction and normalization.
+- Official fields act as the answer key for extraction and normalization.

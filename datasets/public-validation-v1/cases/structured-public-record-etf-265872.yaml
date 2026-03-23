@@ -5,41 +5,94 @@ task_type: field_extraction
 answer_mode: exact
 source_family: official_procurement
 source_tier: primary
-target_entity: "TED notice 265872-2024, reference ETF/2023/OP/0011"
+target_entity: TED notice 265872-2024, reference ETF/2023/OP/0011
 sources:
-  - label: TED notice XML 265872-2024
-    url: https://ted.europa.eu/en/notice/265872-2024/xml
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice PDF 265872-2024
-    url: https://ted.europa.eu/en/notice/265872-2024/pdfs
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice detail 265872-2024
-    url: https://ted.europa.eu/en/notice/-/detail/265872-2024
-    checked_on: 2026-03-20
-    provenance: official_portal
+- label: TED notice XML 265872-2024
+  url: https://ted.europa.eu/en/notice/265872-2024/xml
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice PDF 265872-2024
+  url: https://ted.europa.eu/en/notice/265872-2024/pdfs
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice detail 265872-2024
+  url: https://ted.europa.eu/en/notice/-/detail/265872-2024
+  checked_on: 2026-03-20
+  provenance: official_portal
 evidence_bundle:
   kind: structured_record
-  content_markdown: "Materialization pending: fetching source content..."
+  content_markdown: "# European Training Foundation creative design services extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/en/notice/265872-2024/pdfs\n\n## Listed sources\n- TED notice XML 265872-2024: https://ted.europa.eu/en/notice/265872-2024/xml\n- TED notice PDF 265872-2024: https://ted.europa.eu/en/notice/265872-2024/pdfs\n- TED notice detail 265872-2024: https://ted.europa.eu/en/notice/-/detail/265872-2024\n\n## Extracted source text\n\n```text\n265872-2024 - Result\n\nSee the notice on TED website\n\nItaly-Turin: Creative Design Services\nOJ S 88/2024 06/05/2024\nContract award notice\nServices\nLegal Basis:\nRegulation (EU, Euratom) No 2018/1046\nSection I: Contracting authority\nI.1. Name and addresses\nOfficial name: European Training Foundation (ETF), ETF.PR.PUB \u2013 Policy and Public\nOutreach Department\nPostal address: Villa Gualino, Viale Settimio Severo 65\nTown: Turin\nNUTS code: ITC11 Torino\n\
+    Postal code: 10133\nCountry: Italy\nE-mail: procurement@etf.europa.eu\nInternet address(es):\nMain address: https://www.etf.europa.eu/\nI.4. Type of the contracting authority\nEuropean institution/agency or international organisation\nI.5. Main activity\nGeneral public services\nSection II: Object\nII.1. Scope of the procurement\nII.1.1. Title\nCreative Design Services\nReference number: ETF/2023/OP/0011\nII.1.2. Main CPV code\n79822500 Graphic design services\nII.1.3. Type of contract\nServices\nII.1.4. Short description\nSupport for a broad range of design services for the evolution of its corporate identity, reports,\nmagazines, leaflets, posters, infographics, presentations, digital animations and applications,\ndocument templates and other print and digital media products. All design work must be in line\nwith the ETF\u2019s visual identity and brand guidelines.\nII.1.6. Information about lots\nThis contract is divided into lots: no\n\n265872-2024\n\nPage 1/3\n\nII.1.7. Total value\
+    \ of the procurement\nValue excluding VAT: 750 000,00 EUR\nII.2. Description\nII.2.2. Additional CPV code(s)\n79822500 Graphic design services, 79820000 Services related to printing\nII.2.3. Place of performance\nNUTS code: ITC11 Torino\nMain site or place of performance: Villa Gualino, Viale Settimio Severo 65, 10133 Turin,\nITALY.\nII.2.4. Description of the procurement\nCreative design services.\nII.2.5. Award criteria\nQuality criterion - Name: Quality / Weighting: 70\nPrice - Weighting: 30\nII.2.11. Information about options\nOptions: no\nII.2.13. Information about European Union funds\nThe procurement is related to a project and/or programme financed by European Union funds:\nyes\nIdentification of the project: Please consult the procurement documents available at\nhttps://etendering.ted.europa.eu/cft/cft-display.html?cftId=15441\nII.2.14. Additional information\nSection IV: Procedure\nIV.1. Description\nIV.1.1. Type of procedure\nOpen procedure\nIV.1.3. Information about a framework\
+    \ agreement or a dynamic purchasing system\nThe procurement involves the establishment of a framework agreement\nIV.1.8. Information about the Government Procurement Agreement (GPA)\nThe procurement is covered by the Government Procurement Agreement: no\nIV.2. Administrative information\nIV.2.1. Previous publication concerning this procedure\nNotice number in the OJ S: 2023/S 173-541574\nIV.2.8. Information about termination of dynamic purchasing system\nIV.2.9. Information about termination of call for competition in the form of a prior information\nnotice\nSection V: Award of contract\n265872-2024\n\nPage 2/3\n\nTitle:\nCreative Design Services\nA contract/lot is awarded: yes\nV.2. Award of contract\nV.2.1. Date of conclusion of the contract\n16/04/2024\nV.2.2. Information about tenders\nNumber of tenders received: 28\nThe contract has been awarded to a group of economic operators: no\nV.2.3. Name and address of the contractor\nOfficial name: Bording Danmark A/S\nTown: Glostrup\nNUTS\
+    \ code: DK0 Danmark\nCountry: Denmark\nThe contractor is an SME: yes\nV.2.4. Information on value of the contract/lot\nInitial estimated total value of the contract/lot: 750 000,00 EUR\nTotal value of the contract/lot: 750 000,00 EUR\nV.2.5. Information about subcontracting\nThe contract is likely to be subcontractedValue or proportion likely to be subcontracted to third\npartiesProportion: 40 %\nSection VI: Complementary information\nVI.3. Additional information\nVI.4. Procedures for review\nVI.4.1. Review body\nOfficial name: General Court of the European Union\nPostal address: Rue du Fort Niedergr\xFCnewald\nTown: Luxembourg\nPostal code: L-2925\nCountry: Luxembourg\nTelephone: +352 4303-1\nInternet address: http://curia.europa.eu\nVI.5. Date of dispatch of this notice\n29/04/2024\n\n265872-2024\n\nPage 3/3\n```\n"
   required_artifacts:
-    - source_record_file
-    - source_record_metadata
+  - source_record_file
+  - source_record_metadata
+  artifacts:
+  - id: materialized_source_document
+    path: datasets/public-validation-v1/source_documents/structured-public-record-etf-265872.md
+    role: source_document
+    media_type: text/markdown
+    source_url: https://ted.europa.eu/en/notice/265872-2024/xml
+    collected_at: '2026-03-20'
+    original_filename: 265872-2024.xml
+    sha256: 5f31c609690ad0369a78ed04deea7d6ec5e3ee97de44b62f3945d77306228804
+    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: 'Case bundle from: TED notice XML 265872-2024 | TED notice PDF 265872-2024 | TED notice detail 265872-2024'
+    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+  - id: original-source-01
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-etf-265872/source-01-ted-notice-xml-265872-2024.xml
+    role: original_source_snapshot
+    media_type: application/xml
+    source_url: https://ted.europa.eu/en/notice/265872-2024/xml
+    collected_at: '2026-03-20'
+    original_filename: 265872-2024.xml
+    sha256: 884541f84c5dfb3c5d0484cc16c60ed0e29dc04ac9cac1be0272c6357d165803
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice XML 265872-2024
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-02
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-etf-265872/source-02-ted-notice-pdf-265872-2024.pdf
+    role: original_source_snapshot
+    media_type: application/pdf
+    source_url: https://ted.europa.eu/en/notice/265872-2024/pdfs
+    collected_at: '2026-03-20'
+    original_filename: 265872-2024.pdf
+    sha256: a6953190e200e8002a9967715ad161fc35f48c6d448668b66bbef4bacde2a457
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice PDF 265872-2024
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-03
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-etf-265872/source-03-ted-notice-detail-265872-2024.html
+    role: original_source_snapshot
+    media_type: text/html
+    source_url: https://ted.europa.eu/en/notice/-/detail/265872-2024
+    collected_at: '2026-03-20'
+    original_filename: 265872-2024.html
+    sha256: 300d6b62c97ce613ceff85477bb1c3631f990b9de5601d5d656e3dcfbb25bee4
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice detail 265872-2024
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
 expected_output:
   fields_required:
-    - buyer_name
-    - supplier_name
-    - award_date
-    - amount
-    - category_code
+  - buyer_name
+  - supplier_name
+  - award_date
+  - amount
+  - category_code
 answer_key:
   type: structured_fields
   fields:
     buyer_name: European Training Foundation (ETF), ETF.PR.PUB - Policy and Public Outreach Department
     supplier_name: Bording Danmark A/S
-    award_date: "2024-04-16"
-    amount: 750000.00
-    category_code: "79822500"
+    award_date: '2024-04-16'
+    amount: 750000.0
+    category_code: '79822500'
 notes:
-  - The XML repeats contracting-body and contractor blocks across language variants, so the answer key fixes the English buyer name and the shared numeric award fields.
-  - This single-award EU-agency services notice broadens the procurement mix beyond the current local-authority and ministry-heavy slice.
+- The XML repeats contracting-body and contractor blocks across language variants, so the answer key fixes the English buyer name and the shared numeric award fields.
+- This single-award EU-agency services notice broadens the procurement mix beyond the current local-authority and ministry-heavy slice.

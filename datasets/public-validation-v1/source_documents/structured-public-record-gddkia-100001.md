@@ -1,0 +1,403 @@
+# GDDKiA Wroclaw winter road maintenance contract extraction
+
+Collected from the official TED procurement PDF on 2026-03-20.
+
+Primary source URL: https://ted.europa.eu/pl/notice/100001-2021/pdfs
+
+## Listed sources
+- TED notice XML 100001-2021: https://ted.europa.eu/en/notice/100001-2021/xml
+- TED notice PDF 100001-2021 (PL): https://ted.europa.eu/pl/notice/100001-2021/pdfs
+- TED notice detail 100001-2021: https://ted.europa.eu/en/notice/-/detail/100001-2021
+
+## Extracted source text
+
+```text
+Dz.U./S S40
+26/02/2021
+100001-2021-PL
+
+1/6
+
+Niniejsze ogłoszenie w witrynie TED: https://ted.europa.eu/udl?uri=TED:NOTICE:100001-2021:TEXT:PL:HTML
+
+Polska-Wrocław: Usługi usuwania oblodzeń
+2021/S 040-100001
+Ogłoszenie o udzieleniu zamówienia
+Wyniki postępowania
+Usługi
+Podstawa prawna:
+Dyrektywa 2014/24/UE
+Sekcja I: Instytucja zamawiająca
+I.1)
+Nazwa i adresy
+Oficjalna nazwa: Generalna Dyrekcja Dróg Krajowych i Autostrad, Oddział we Wrocławiu
+Adres pocztowy: ul. Powstańców Śląskich 186
+Miejscowość: Wrocław
+Kod NUTS: PL51 Dolnośląskie
+Kod pocztowy: 53-139
+Państwo: Polska
+Osoba do kontaktów: Magdalena Dec
+E-mail: mdec@gddkia.gov.pl
+Tel.: +48 713347379
+Faks: +48 713347363
+Adresy internetowe:
+Główny adres: http://www.gddkia.gov.pl
+Adres profilu nabywcy: https://gddkia.eb2b.com.pl
+I.4)
+
+Rodzaj instytucji zamawiającej
+Ministerstwo lub inny organ krajowy lub federalny, w tym jednostki regionalne i lokalne
+
+I.5)
+
+Główny przedmiot działalności
+Inna działalność: zarządzanie drogami krajowymi
+
+Sekcja II: Przedmiot
+II.1)
+Wielkość lub zakres zamówienia
+II.1.1)
+
+Nazwa:
+Zimowe utrzymanie dróg krajowych administrowanych przez GDDKiA, Oddział we Wrocławiu, Rejon w Legnicy,
+Obwód Drogowy w Nowej Wsi Legnickiej
+Numer referencyjny: O.WR.D-3.2413.2.2021
+
+II.1.2)
+
+Główny kod CPV
+90630000 Usługi usuwania oblodzeń
+
+II.1.3)
+
+Rodzaj zamówienia
+Usługi
+
+II.1.4)
+
+Krótki opis:
+
+26/02/2021
+S40
+https://ted.europa.eu/TED
+
+1/6
+
+Dz.U./S S40
+26/02/2021
+100001-2021-PL
+
+2/6
+
+Zimowe utrzymanie dróg krajowych administrowanych przez GDDKiA, Oddział we Wrocławiu, Rejon w Legnicy,
+Obwód Drogowy w Nowej Wsi Legnickiej, i obejmuje:
+— zimowe utrzymanie dróg i obiektów inżynierskich,
+— zimowe utrzymanie chodników i ścieżek rowerowych,
+— ustawienie i zdjęcie zasłon przeciwśnieżnych.
+II.1.6)
+
+Informacje o częściach
+To zamówienie podzielone jest na części: nie
+
+II.1.7)
+
+Całkowita wartość zamówienia (bez VAT)
+Wartość bez VAT: 1 975 344.00 PLN
+
+II.2)
+
+Opis
+
+II.2.2)
+
+Dodatkowy kod lub kody CPV
+90620000 Usługi odśnieżania
+
+II.2.3)
+
+Miejsce świadczenia usług
+Kod NUTS: PL516 Legnicko-głogowski
+
+II.2.4)
+
+Opis zamówienia:
+Zimowe utrzymanie dróg krajowych administrowanych przez GDDKiA, Oddział we Wrocławiu, Rejon w Legnicy,
+Obwód Drogowy w Nowej Wsi Legnickiej, i obejmuje:
+— zimowe utrzymanie dróg i obiektów inżynierskich,
+— zimowe utrzymanie chodników i ścieżek rowerowych,
+— ustawienie i zdjęcie zasłon przeciwśnieżnych.
+
+II.2.5)
+
+Kryteria udzielenia zamówienia
+Cena
+
+II.2.11)
+
+Informacje o opcjach
+Opcje: nie
+
+II.2.13)
+
+Informacje o funduszach Unii Europejskiej
+Zamówienie dotyczy projektu/programu finansowanego ze środków Unii Europejskiej: nie
+
+II.2.14)
+
+Informacje dodatkowe
+
+Sekcja IV: Procedura
+IV.1)
+Opis
+IV.1.1)
+
+Rodzaj procedury
+Udzielenie zamówienia bez uprzedniej publikacji zaproszenia do ubiegania się o zamówienie w Dzienniku
+Urzędowym Unii Europejskiej w przypadkach wymienionych poniżej
+• Nowe roboty budowlane/usługi, będące powtórzeniem istniejących robót budowlanych/usług oraz zamówione
+zgodnie z warunkami ściśle określonymi w dyrektywie
+Wyjaśnienie:
+W dniu 11 czerwca 2018 r. zamawiający wszczął postępowanie w trybie przetargu nieograniczonego pn.
+Zimowe utrzymanie dróg krajowych administrowanych przez GDDKiA, Oddział we Wrocławiu, Rejon w Legnicy,
+w sezonach zimowych 2018/2019; 2019/2020 i 2020/2021 z podziałem na zadania: zadanie 1: obwód drogowy
+w Nowej Wsi Legnickiej; zadanie 2: obwód drogowy w Jaworze.
+W wyniku rozstrzygnięcia w/wspomnianego przetargu nieograniczonego, zamawiający zawarł dnia 1
+października 2018 r. umowę na „Zimowe utrzymanie dróg krajowych administrowanych przez GDDKiA, Oddział
+
+26/02/2021
+S40
+https://ted.europa.eu/TED
+
+2/6
+
+Dz.U./S S40
+26/02/2021
+100001-2021-PL
+
+3/6
+
+we Wrocławiu, Rejon w Legnicy, w sezonach zimowych 2018/2019; 2019/2020 i 2020/2021 z podziałem na
+zadania: zadanie 1: obwód drogowy w Nowej Wsi Legnickiej”.
+Zamawiający przewidział możliwość udzielenia zamówień, o których mowa w 214 ust. 1 pkt 7 ustawy z dnia 11
+września 2019 r. – Prawo zamówień publicznych (Dz.U. z 2019, poz. 2019 ze zm.) – dawnej: art. 67 ust. 1 pkt 6
+ustawy z dnia 29 stycznia 2004 r. – Prawo zamówień publicznych (Dz.U. z 2019 r. poz. 1843 ze zm.) – zarówno
+w ogłoszeniu o zamówieniu, jak i w treści Specyfikacji Istotnych Warunków Zamówienia:
+— ogłoszenie o zamówieniu (2018/S 112-255085, sekcja II.1.4),
+— SIWZ – tom I rozdział 1 ust. 5.2 – zamawiający przewiduje udzielenie zamówień polegających na
+powtórzeniu podobnych polegających na powtórzeniu podobnych usług, zgodnych z przedmiotem zamówienia
+podstawowego, tj. polegających miedzy innymi na działaniach organizacyjno-technicznych, montażu/demontażu
+zasłon przeciwśnieżnych, odśnieżaniu i usuwaniu śliskości zimowej na wszystkich nawierzchniach dróg, ciągów
+pieszo-rowerowych i innych elementach dróg (parkingi, zatoki autobusowe, itp.), usuwaniu sopli lodowych z
+obiektów inżynierskich/bramownic, pracach porządkowych itp.
+W chwili obecnej zamawiający zamierza udzielić zamówienia, w trybie art. 214 ust. 1 pkt 7 ustawy Pzp,
+korzystając z przewidzianej możliwości udzielenia takich zamówień. Zamówienie dotyczy zimowego utrzymanie
+dróg krajowych administrowanych przez GDDKiA, Oddział we Wrocławiu, Rejon w Legnicy, Obwód Drogowy w
+Nowej Wsi Legnickiej.
+Umowa podstawowa przewidywała zimowe utrzymanie dróg krajowych administrowanych przez GDDKiA,
+Oddział we Wrocławiu, Rejon w Legnicy, Obwód Drogowy w Nowej Wsi Legnickiej do dnia 30 czerwca 2021 r.,
+z zastrzeżeniem, że umowa wygasa przed wskazanym terminem końcowym w przypadku wykorzystania limitu
+wynagrodzenia określonego umowie podstawowej.
+W ocenie zamawiającego spełnione są łącznie przesłanki udzielenia zamówienia, w trybie art. 214 ust. 1 pkt 7
+ustawy Pzp:
+a) nie upłynął okres 3 lat od dnia udzielenia zamówienia podstawowego;
+b) zamówienie udzielane jest dotychczasowemu wykonawcy zamówienia podstawowego;
+c) zamówienie polega na powtórzeniu podobnych usług;
+d) zamówienie było przewidziane w ogłoszeniu o zamówieniu dla zamówienia podstawowego i postanowieniach
+SIWZ;
+e) zamówienie jest zgodne z przedmiotem zamówienia podstawowego;
+f) całkowita wartość tego zamówienia została uwzględniona przy uwzględnianiu wartości zamówienia
+podstawowego.
+IV.1.3)
+
+Informacje na temat umowy ramowej lub dynamicznego systemu zakupów
+
+IV.1.8)
+
+Informacje na temat Porozumienia w sprawie zamówień rządowych (GPA)
+Zamówienie jest objęte Porozumieniem w sprawie zamówień rządowych: tak
+
+IV.2)
+
+Informacje administracyjne
+
+IV.2.8)
+
+Informacje o zakończeniu dynamicznego systemu zakupów
+
+IV.2.9)
+
+Informacje o zakończeniu zaproszenia do ubiegania się o zamówienie w postaci wstępnego ogłoszenia
+informacyjnego
+
+Sekcja V: Udzielenie zamówienia
+Nazwa:
+Zimowe utrzymanie dróg krajowych administrowanych przez GDDKiA, Oddział we Wrocławiu, Rejon w Legnicy,
+Obwód Drogowy w Nowej Wsi Legnicki
+Zamówienie/zamówienie na część zostaje udzielone: tak
+V.2)
+
+Udzielenie zamówienia
+
+V.2.1)
+
+Data zawarcia umowy:
+
+26/02/2021
+S40
+https://ted.europa.eu/TED
+
+3/6
+
+Dz.U./S S40
+26/02/2021
+100001-2021-PL
+
+4/6
+
+18/02/2021
+V.2.2)
+
+Informacje o ofertach
+Liczba otrzymanych ofert: 1
+Liczba ofert otrzymanych od MŚP: 1
+Liczba ofert otrzymanych od oferentów z innych państw członkowskich UE: 0
+Liczba ofert otrzymanych od oferentów z państw niebędących członkami UE: 0
+Liczba ofert otrzymanych drogą elektroniczną: 1
+Zamówienie zostało udzielone grupie wykonawców: nie
+
+V.2.3)
+
+Nazwa i adres wykonawcy
+Oficjalna nazwa: Zaberd SA
+Adres pocztowy: ul. Bystrzycka 24
+Miejscowość: Wrocław
+Kod NUTS: PL514 Miasto Wrocław
+Kod pocztowy: 54-215
+Państwo: Polska
+Wykonawcą jest MŚP: tak
+
+V.2.4)
+
+Informacje na temat wartości zamówienia/części (bez VAT)
+Początkowa szacunkowa całkowita wartość zamówienia/części: 1 978 898.20 PLN
+Całkowita końcowa wartość umowy/części: 1 975 344.00 PLN
+
+V.2.5)
+
+Informacje na temat podwykonawstwa
+
+Sekcja VI: Informacje uzupełniające
+VI.3)
+Informacje dodatkowe:
+VI.4)
+
+Procedury odwoławcze
+
+VI.4.1)
+
+Organ odpowiedzialny za procedury odwoławcze
+Oficjalna nazwa: Prezes Krajowej Izby Odwoławczej
+Adres pocztowy: ul. Postępu 17a
+Miejscowość: Warszawa
+Kod pocztowy: 02-676
+Państwo: Polska
+E-mail: odwolania@uzp.gov.pl
+Tel.: +48 2245887801
+Faks: +48 224587800
+Adres internetowy: http://www.uzp.gov.pl
+
+VI.4.3)
+
+Składanie odwołań
+Dokładne informacje na temat terminów składania odwołań:
+1. Wykonawcy, a także innemu podmiotowi, jeżeli ma lub miał interes w uzyskaniu zamówienia oraz poniósł lub
+może ponieść szkodę w wyniku naruszenia przez zamawiającego przepisów ustawy Pzp, przysługują środki
+ochrony prawnej określone w dziale VI ustawy Pzp. Środki ochrony prawnej wobec ogłoszenia o zamówieniu
+
+26/02/2021
+S40
+https://ted.europa.eu/TED
+
+4/6
+
+Dz.U./S S40
+26/02/2021
+100001-2021-PL
+
+5/6
+
+oraz Specyfikacji Istotnych Warunków Zamówienia przysługują również organizacjom wpisanym na listę, o
+której mowa w art. 154 pkt 5 ustawy Pzp.
+2. Odwołanie przysługuje wyłącznie od niezgodnej z przepisami ustawy Pzp czynności zamawiającego podjętej
+w postępowaniu o udzielenie zamówienia lub zaniechania czynności, do której zamawiający jest zobowiązany
+na podstawie ustawy Pzp.
+3. Odwołanie powinno wskazywać czynność lub zaniechanie czynności zamawiającego, której zarzuca się
+niezgodność z przepisami ustawy Pzp, zawierać zwięzłe przedstawienie zarzutów, określać żądanie oraz
+wskazywać okoliczności faktyczne i prawne uzasadniające wniesienie odwołania.
+4. Odwołanie wnosi się do prezesa izby w formie pisemnej lub w postaci elektronicznej, podpisane
+bezpiecznym podpisem elektronicznym weryfikowanym przy pomocy ważnego kwalifikowanego certyfikatu
+lub równoważnego środka, spełniającego wymagania dla tego rodzaju podpisu. Odwołujący przesyła kopię
+odwołania zamawiającemu przed upływem terminu do wniesienia odwołania w taki sposób, aby mógł on
+zapoznać się z jego treścią przed upływem tego terminu. Domniemywa się, iż zamawiający mógł zapoznać
+się z treścią odwołania przed upływem terminu do jego wniesienia, jeżeli przesłanie jego kopii nastąpiło przed
+upływem terminu do jego wniesienia przy użyciu środków komunikacji elektronicznej.
+5. Terminy wniesienia odwołania:
+5.1. odwołanie wnosi się w terminie 10 dni od dnia przesłania informacji o czynności zamawiającego
+stanowiącej podstawę jego wniesienia – jeżeli zostały przesłane w sposób określony w art. 180 ust. 5 ustawy
+Pzp zdanie drugie, albo w terminie 15 dni – jeżeli zostały przesłane w inny sposób;
+5.2. odwołanie wobec treści ogłoszenia o zamówieniu, a także wobec postanowień Specyfikacji Istotnych
+Warunków Zamówienia, wnosi się w terminie 10 dni od dnia publikacji ogłoszenia w dzienniku urzędowym unii
+europejskiej lub zamieszczenia Specyfikacji Istotnych Warunków Zamówienia na stronie internetowej;
+5.3. odwołanie wobec czynności innych niż określone w pkt 5.1 i 5.2 IDW wnosi się w terminie 10 dni od dnia, w
+którym powzięto lub przy zachowaniu należytej staranności można było powziąć wiadomość o okolicznościach
+stanowiących podstawę jego wniesienia.
+5.4. jeżeli zamawiający nie przesłał wykonawcy zawiadomienia o wyborze oferty najkorzystniejszej odwołanie
+wnosi się nie później niż w terminie:
+1) 30 dni od dnia publikacji w Dzienniku Urzędowym Unii Europejskiej ogłoszenia o udzieleniu zamówienia;
+2) 6 miesięcy od dnia zawarcia umowy, jeżeli zamawiający nie opublikował w Dzienniku Urzędowym Unii
+Europejskiej ogłoszenia o udzieleniu zamówienia.
+6. Szczegółowe zasady postępowania po wniesieniu odwołania, określają stosowne przepisy działu VI ustawy
+Pzp.
+7. Na orzeczenie Krajowej Izby Odwoławczej, stronom oraz uczestnikom postępowania odwoławczego
+przysługuje skarga do sądu.
+8. Skargę wnosi się do sądu okręgowego właściwego dla siedziby zamawiającego, za pośrednictwem Prezesa
+Krajowej Izby Odwoławczej w terminie 7 dni od dnia doręczenia Orzeczenia Krajowej Izby Odwoławczej,
+przesyłając jednocześnie jej odpis przeciwnikowi skargi. złożenie skargi w placówce pocztowej operatora
+wyznaczonego w rozumieniu ustawy z dnia 23 listopada 2012 r. Prawo pocztowe (DZ.U. z 2012 r. poz. 1529)
+jest równoznaczne z jej wniesieniem.
+VI.4.4)
+
+Źródło, gdzie można uzyskać informacje na temat składania odwołań
+
+26/02/2021
+S40
+https://ted.europa.eu/TED
+
+5/6
+
+Dz.U./S S40
+26/02/2021
+100001-2021-PL
+
+6/6
+
+Oficjalna nazwa: Urząd Zamówień Publicznych, Departament Odwołań
+Adres pocztowy: ul. Postępu 17a
+Miejscowość: Warszawa
+Kod pocztowy: 02-676
+Państwo: Polska
+E-mail: odwolania@uzp.gov.pl
+Tel.: +48 2245887801
+Faks: +48 224587800
+Adres internetowy: http://www.uzp.gov.pl
+VI.5)
+
+Data wysłania niniejszego ogłoszenia:
+23/02/2021
+
+26/02/2021
+S40
+https://ted.europa.eu/TED
+
+6/6
+```

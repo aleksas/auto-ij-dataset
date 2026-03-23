@@ -5,41 +5,96 @@ task_type: field_extraction
 answer_mode: exact
 source_family: official_procurement
 source_tier: primary
-target_entity: "TED notice 100109-2021, reference M19 623264-2020"
+target_entity: TED notice 100109-2021, reference M19 623264-2020
 sources:
-  - label: TED notice XML 100109-2021
-    url: https://ted.europa.eu/en/notice/100109-2021/xml
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice PDF 100109-2021 (DE)
-    url: https://ted.europa.eu/de/notice/100109-2021/pdfs
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice detail 100109-2021
-    url: https://ted.europa.eu/en/notice/-/detail/100109-2021
-    checked_on: 2026-03-20
-    provenance: official_portal
+- label: TED notice XML 100109-2021
+  url: https://ted.europa.eu/en/notice/100109-2021/xml
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice PDF 100109-2021 (DE)
+  url: https://ted.europa.eu/de/notice/100109-2021/pdfs
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice detail 100109-2021
+  url: https://ted.europa.eu/en/notice/-/detail/100109-2021
+  checked_on: 2026-03-20
+  provenance: official_portal
 evidence_bundle:
   kind: structured_record
-  content_markdown: "Materialization pending: fetching source content..."
+  content_markdown: "# Vienna Gebaut exhibition services contract extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/de/notice/100109-2021/pdfs\n\n## Listed sources\n- TED notice XML 100109-2021: https://ted.europa.eu/en/notice/100109-2021/xml\n- TED notice PDF 100109-2021 (DE): https://ted.europa.eu/de/notice/100109-2021/pdfs\n- TED notice detail 100109-2021: https://ted.europa.eu/en/notice/-/detail/100109-2021\n\n## Extracted source text\n\n```text\nABl./S S40\n26/02/2021\n100109-2021-DE\n\n1/3\n\nDiese Bekanntmachung auf der TED-Website: https://ted.europa.eu/udl?uri=TED:NOTICE:100109-2021:TEXT:DE:HTML\n\n\xD6sterreich-Wien: Veschiedene Dienstleistungen f\xFCr Unternehmen und andere Dienstleistungen\n2021/S 040-100109\nBekanntmachung vergebener Auftr\xE4ge\nErgebnisse des Vergabeverfahrens\nDienstleistungen\nRechtsgrundlage:\nRichtlinie 2014/24/EU\nAbschnitt I: \xD6ffentlicher Auftraggeber\nI.1)\nName und Adressen\n\
+    Offizielle Bezeichnung: Magistrat der Stadt Wien \u2014 Magistratsabteilung 19\nNationale Identifikationsnummer: 9110020116399\nPostanschrift: Niederhofstra\xDFe 23\nOrt: Wien\nNUTS-Code: AT13 Wien\nPostleitzahl: 1120\nLand: \xD6sterreich\nE-Mail: vergaben@ma19.wien.gv.at\nTelefon: +43 1400088916\nFax: +43 140009988910\nInternet-Adresse(n):\nHauptadresse: http://www.wien.gv.at/stadtentwicklung/architektur/index.html\nI.4)\n\nArt des \xF6ffentlichen Auftraggebers\nRegional- oder Kommunalbeh\xF6rde\n\nI.5)\n\nHauptt\xE4tigkeit(en)\nAllgemeine \xF6ffentliche Verwaltung\n\nAbschnitt II: Gegenstand\nII.1)\nUmfang der Beschaffung\nII.1.1)\n\nBezeichnung des Auftrags:\nGebaut 2020 \u2014 2025\nReferenznummer der Bekanntmachung: M19 623264-2020\n\nII.1.2)\n\nCPV-Code Hauptteil\n79900000 Veschiedene Dienstleistungen f\xFCr Unternehmen und andere Dienstleistungen\n\nII.1.3)\n\nArt des Auftrags\nDienstleistungen\n\nII.1.4)\n\nKurze Beschreibung:\nOrganisation der Ausstellung Gebaut 2020-2025.\n\
+    \nII.1.6)\n\nAngaben zu den Losen\nAufteilung des Auftrags in Lose: nein\n\nII.1.7)\n\nGesamtwert der Beschaffung (ohne MwSt.)\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n1/3\n\nABl./S S40\n26/02/2021\n100109-2021-DE\n\n2/3\n\nWert ohne MwSt.: 195 676.99 EUR\nII.2)\n\nBeschreibung\n\nII.2.2)\n\nWeitere(r) CPV-Code(s)\n79900000 Veschiedene Dienstleistungen f\xFCr Unternehmen und andere Dienstleistungen\n\nII.2.3)\n\nErf\xFCllungsort\nNUTS-Code: AT130 Wien\nHauptort der Ausf\xFChrung:\n\nII.2.4)\n\nBeschreibung der Beschaffung:\nErstellen eines Konzepts, eines Layouts und Handouts f\xFCr die Ausstellung \u201EGebaut\u201C. Versenden eines Aufrufes\nzur Einreichung. (Der aktuelle Styleguide der Stadt Wien ist generell in analogen und digitalen Formaten zu\nber\xFCcksichtigen).\nGestaltung der j\xE4hrlich 27 Ausstellungstafeln \u201EGebaut\u201C und die Montage dieser Plakate in das schon\nvorhandene H\xE4ngesystem. 5 Jahre (2021- 2025).\nOrganisation der j\xE4hrlichen Ausstellung \u201E\
+    Gebaut\u201C - Jury, Architekturtouren, Fotos, Er\xF6ffnung, Catering,\nM\xF6blierung, Moderation, Internet, App, Nachbearbeitung, organisatorische Betreuung der Fotografen, bzw. der\nFotorechte. 5 Jahre (2021- 2025).\nJ\xE4hrliche Gestaltung der Ausstellungstafeln f\xFCr die Dezernate der Abteilung f\xFCr Architektur und Stadtgestaltung.\n5 Jahre (2021- 2025) J\xE4hrlich sind ca. 10-15 Dezernatstafeln neu zu gestalten.\nGestaltung des Sammelkataloges \u201EGebaut 2020- 2025\u201C mit den ausgestellten Projekten der Jahre 2020-2024.\nPublikation w\xE4hrend der Gebaut- Ausstellungser\xF6ffnung im Jahr 2025.\n\nII.2.5)\n\nZuschlagskriterien\nQualit\xE4tskriterium - Name: Art und \xC4hnlichkeit des Referenzprojekes mit der Aufgabenstellung, Bezug zu\narchitektonischen Themen / Gewichtung: 2 Punkte\nQualit\xE4tskriterium - Name: Innovative und zeitgem\xE4\xDFe Pr\xE4sentation der Inhalte im architektonischen Kontext /\nGewichtung: 4 Punkte\nQualit\xE4tskriterium - Name: Wirtschaftlicher\
+    \ und nachhaltiger Umgang mit den ben\xF6tigten Materialien /\nGewichtung: 2 Punkte\nQualit\xE4tskriterium - Name: Ausstellungskatalog, Folder (Handout) / Gewichtung: 6 Punkte\nQualit\xE4tskriterium - Name: Gestaltung der Ausstellung; Kompatibilit\xE4t mit der medialen Pr\xE4senz der Architektur\nund Stadtgestaltung / Gewichtung: 4 Punkte\nPreis - Gewichtung: 9 Punkte\n\nII.2.11)\n\nAngaben zu Optionen\nOptionen: nein\n\nII.2.13)\n\nAngaben zu Mitteln der Europ\xE4ischen Union\nDer Auftrag steht in Verbindung mit einem Vorhaben und/oder Programm, das aus Mitteln der EU finanziert\nwird: nein\n\nII.2.14)\n\nZus\xE4tzliche Angaben\n\nAbschnitt IV: Verfahren\nIV.1)\nBeschreibung\nIV.1.1)\n\nVerfahrensart\nVerhandlungsverfahren\n\nIV.1.3)\n\nAngaben zur Rahmenvereinbarung oder zum dynamischen Beschaffungssystem\n\nIV.1.8)\n\nAngaben zum Beschaffungs\xFCbereinkommen (GPA)\nDer Auftrag f\xE4llt unter das Beschaffungs\xFCbereinkommen: nein\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n2/3\n\
+    \nABl./S S40\n26/02/2021\n100109-2021-DE\n\nIV.2)\n\nVerwaltungsangaben\n\nIV.2.1)\n\nFr\xFChere Bekanntmachung zu diesem Verfahren\nBekanntmachungsnummer im ABl.: 2020/S 190-458888\n\nIV.2.8)\n\nAngaben zur Beendigung des dynamischen Beschaffungssystems\n\nIV.2.9)\n\nAngaben zur Beendigung des Aufrufs zum Wettbewerb in Form einer Vorinformation\n\n3/3\n\nAbschnitt V: Auftragsvergabe\nEin Auftrag/Los wurde vergeben: ja\nV.2)\n\nAuftragsvergabe\n\nV.2.1)\n\nTag des Vertragsabschlusses:\n15/02/2021\n\nV.2.2)\n\nAngaben zu den Angeboten\nAnzahl der eingegangenen Angebote: 3\nDer Auftrag wurde an einen Zusammenschluss aus Wirtschaftsteilnehmern vergeben: nein\n\nV.2.3)\n\nName und Anschrift des Wirtschaftsteilnehmers, zu dessen Gunsten der Zuschlag erteilt wurde\nOffizielle Bezeichnung: MVD Austria, Verein zur F\xF6rderung von Kunst, Architektur, Musik und Film\nNationale Identifikationsnummer: 9110018794288\nOrt: Wien\nNUTS-Code: AT \xD6STERREICH\nLand: \xD6sterreich\nE-Mail: mvd@mvd.org\n\
+    Der Auftragnehmer ist ein KMU: ja\n\nV.2.4)\n\nAngaben zum Wert des Auftrags/Loses (ohne MwSt.)\nGesamtwert des Auftrags/Loses: 195 676.99 EUR\n\nV.2.5)\n\nAngaben zur Vergabe von Unterauftr\xE4gen\n\nAbschnitt VI: Weitere Angaben\nVI.3)\nZus\xE4tzliche Angaben:\nVI.4)\n\nRechtsbehelfsverfahren/Nachpr\xFCfungsverfahren\n\nVI.4.1)\n\nZust\xE4ndige Stelle f\xFCr Rechtsbehelfs-/Nachpr\xFCfungsverfahren\nOffizielle Bezeichnung: Verwaltungsgericht Wien\nOrt: Wien\nPostleitzahl: 1190\nLand: \xD6sterreich\nE-Mail: post@vwg.wien.gv.at\nInternet-Adresse: www.verwaltungsgericht.wien.gv.at\n\nVI.4.3)\n\nEinlegung von Rechtsbehelfen\nGenaue Angaben zu den Fristen f\xFCr die Einlegung von Rechtsbehelfen:\n\nVI.5)\n\nTag der Absendung dieser Bekanntmachung:\n22/02/2021\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n3/3\n```\n"
   required_artifacts:
-    - source_record_file
-    - source_record_metadata
+  - source_record_file
+  - source_record_metadata
+  artifacts:
+  - id: materialized_source_document
+    path: datasets/public-validation-v1/source_documents/structured-public-record-wien-ma19-100109.md
+    role: source_document
+    media_type: text/markdown
+    source_url: https://ted.europa.eu/en/notice/100109-2021/xml
+    collected_at: '2026-03-20'
+    original_filename: 100109-2021.xml
+    sha256: 8521d7424cbbf0738f0af59396f504ed8c99ae6bca59dc1fa4b571b80b13cc96
+    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: 'Case bundle from: TED notice XML 100109-2021 | TED notice PDF 100109-2021 (DE) | TED notice detail 100109-2021'
+    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+  - id: original-source-01
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-wien-ma19-100109/source-01-ted-notice-xml-100109-2021.xml
+    role: original_source_snapshot
+    media_type: application/xml
+    source_url: https://ted.europa.eu/en/notice/100109-2021/xml
+    collected_at: '2026-03-20'
+    original_filename: 100109-2021.xml
+    sha256: 3da1df13930b53d7fd6130d1319a91b15b3bca8147e1582d360216a6535eba88
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice XML 100109-2021
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-02
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-wien-ma19-100109/source-02-ted-notice-pdf-100109-2021-de.pdf
+    role: original_source_snapshot
+    media_type: application/pdf
+    source_url: https://ted.europa.eu/de/notice/100109-2021/pdfs
+    collected_at: '2026-03-20'
+    original_filename: 100109-2021.pdf
+    sha256: 047652e580798cc7a5473b543519823bff8d51db10a1d8c0ac1f67fba1e36844
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice PDF 100109-2021 (DE)
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-03
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-wien-ma19-100109/source-03-ted-notice-detail-100109-2021.html
+    role: original_source_snapshot
+    media_type: text/html
+    source_url: https://ted.europa.eu/en/notice/-/detail/100109-2021
+    collected_at: '2026-03-20'
+    original_filename: 100109-2021.html
+    sha256: c2a2a29ab61f824a91ecff820ed9b38d026ab1df7dbe9b96551c6e58a65e0ef7
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice detail 100109-2021
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
 expected_output:
   fields_required:
-    - buyer_name
-    - supplier_name
-    - award_date
-    - amount
-    - category_code
+  - buyer_name
+  - supplier_name
+  - award_date
+  - amount
+  - category_code
 answer_key:
   type: structured_fields
   fields:
-    buyer_name: "Magistrat der Stadt Wien — Magistratsabteilung 19"
-    supplier_name: "MVD Austria, Verein zur Förderung von Kunst, Architektur, Musik und Film"
-    award_date: "2021-02-15"
+    buyer_name: "Magistrat der Stadt Wien \u2014 Magistratsabteilung 19"
+    supplier_name: "MVD Austria, Verein zur F\xF6rderung von Kunst, Architektur, Musik und Film"
+    award_date: '2021-02-15'
     amount: 195676.99
-    category_code: "79900000"
+    category_code: '79900000'
 notes:
-  - The Austrian notice describes architecture and exhibition work in detail, but the official answer key keeps the generic main CPV 79900000 published in the structured record.
-  - The supplier field includes commas and a long organization description, which makes truncation and partial-name extraction errors easy to spot.
+- The Austrian notice describes architecture and exhibition work in detail, but the official answer key keeps the generic main CPV 79900000 published in the structured record.
+- The supplier field includes commas and a long organization description, which makes truncation and partial-name extraction errors easy to spot.

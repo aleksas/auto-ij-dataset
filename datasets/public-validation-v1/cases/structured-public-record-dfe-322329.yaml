@@ -5,37 +5,80 @@ task_type: field_extraction
 answer_mode: exact
 source_family: official_procurement
 source_tier: primary
-target_entity: "TED notice 322329-2019, contract RD1002226"
+target_entity: TED notice 322329-2019, contract RD1002226
 sources:
-  - label: TED notice PDF 322329-2019
-    url: https://ted.europa.eu/en/notice/322329-2019/pdfs
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice HTML 322329-2019
-    url: https://ted.europa.eu/udl?uri=TED:NOTICE:322329-2019:TEXT:EN:HTML
-    checked_on: 2026-03-20
-    provenance: official_portal
+- label: TED notice PDF 322329-2019
+  url: https://ted.europa.eu/en/notice/322329-2019/pdfs
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice HTML 322329-2019
+  url: https://ted.europa.eu/udl?uri=TED:NOTICE:322329-2019:TEXT:EN:HTML
+  checked_on: 2026-03-20
+  provenance: official_portal
 evidence_bundle:
   kind: structured_record
-  content_markdown: "Materialization pending: fetching source content..."
+  content_markdown: "# Department for Education social care board secretariat contract extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/en/notice/322329-2019/pdfs\n\n## Listed sources\n- TED notice PDF 322329-2019: https://ted.europa.eu/en/notice/322329-2019/pdfs\n- TED notice HTML 322329-2019: https://ted.europa.eu/udl?uri=TED:NOTICE:322329-2019:TEXT:EN:HTML\n\n## Extracted source text\n\n```text\nOJ/S S131\n10/07/2019\n322329-2019-EN\n\n- - Services - Contract award notice - Open procedure\n\n1/3\n\nThis notice in TED website: https://ted.europa.eu/udl?uri=TED:NOTICE:322329-2019:TEXT:EN:HTML\n\nUnited Kingdom-London: Social work and related services\n2019/S 131-322329\nContract award notice\nResults of the procurement procedure\nServices\nLegal Basis:\nDirective 2014/24/EU\nSection I: Contracting authority\nI.1)\nName and addresses\nDepartment for Education\nSanctuary Buildings, Great Smith St\nLondon\nCV1 2WT\nUnited\
+    \ Kingdom\nTelephone: +44 8450194170\nE-mail: Cheryl.Duke@education.gov.uk\nFax: +44 2476823675\nNUTS code: UK\nInternet address(es):\nMain address: https://www.gov.uk/Department-for-Education\nI.2)\n\nInformation about joint procurement\n\nI.4)\n\nType of the contracting authority\nMinistry or any other national or federal authority, including their regional or local subdivisions\n\nI.5)\n\nMain activity\nSocial protection\n\nSection II: Object\nII.1)\nScope of the procurement\nII.1.1)\n\nTitle:\nChildren\u2019s Social Care Board Secretariat and Data Collection\nReference number: RD1002226\n\nII.1.2)\n\nMain CPV code\n85300000\n\nII.1.3)\n\nType of contract\nServices\n\nII.1.4)\n\nShort description:\nThe Adoption and Special Guardianship Leadership Board (ASGLB) was established in 2014 aiming to provide\nleadership to the adoption system and drive improvements in performance. Andrew Christie is the current Chair.\n\n10/07/2019\nS131\nhttps://ted.europa.eu/\nTED\n\n- - Services - Contract\
+    \ award notice - Open procedure\nSupplement to the Official Journal of the European Union\n\n1/3\n\nOJ/S S131\n10/07/2019\n322329-2019-EN\n\n- - Services - Contract award notice - Open procedure\n\n2/3\n\nThe required service will continue and expand upon the management service for the ASGLB, including the\nrunning of the secretariat and the collection and publication of quarterly adoption data. Support will also be\nprovided to 2 other boards and their respective chair:\n\u2014 the residential care leadership board established in 2017, chaired by Sir Alan Wood, aims to drive forward\nimprovements to the children\u2019s residential care system and support vulnerable children across the country,\n\u2014 the National Stability Forum established in 2018, chaired by the DfE\u2019s Director general of social care, mobility\nand disadvantage, aims to improve stability for all children in the orbit of the care system, leading to better\noutcomes and more children finding the right permanent\
+    \ placement.\nII.1.6)\n\nInformation about lots\nThis contract is divided into lots: no\n\nII.1.7)\n\nTotal value of the procurement (excluding VAT)\nValue excluding VAT: 1 000 000.00 GBP\n\nII.2)\n\nDescription\n\nII.2.1)\n\nTitle:\n\nII.2.2)\n\nAdditional CPV code(s)\n\nII.2.3)\n\nPlace of performance\nNUTS code: UK\nNUTS code: UKZ\n\nII.2.4)\n\nDescription of the procurement:\nThe secretariat for the Adoption and Special Guardianship Board (ASGLB) providing continued quarterly\nadoption data collection, Residential Care Leadership Board (RCLB) and National Stability Forum (NSF).\n\nII.2.5)\n\nAward criteria\nQuality criterion - Name: Proposal / Weighting: 25 %\nQuality criterion - Name: Collecting, analysing and managing complex data, including a quarterly data collection\nand publication / Weighting: 25 %\nQuality criterion - Name: Event management, policy development and research (15 %) / Weighting: 15 %\nQuality criterion - Name: Project and risk management / Weighting: 15 %\n\
+    Cost criterion - Name: Costs and value for money / Weighting: 20 %\n\nII.2.11)\n\nInformation about options\nOptions: no\n\nII.2.13)\n\nInformation about European Union funds\nThe procurement is related to a project and/or programme financed by European Union funds: no\n\nII.2.14)\n\nAdditional information\n\nSection IV: Procedure\nIV.1)\nDescription\nIV.1.1)\n\nType of procedure\nOpen procedure\n\nIV.1.3)\n\nInformation about a framework agreement or a dynamic purchasing system\n\nIV.1.6)\n\nInformation about electronic auction\n\nIV.1.8)\n\nInformation about the Government Procurement Agreement (GPA)\nThe procurement is covered by the Government Procurement Agreement: yes\n\nIV.2)\n\nAdministrative information\n\n10/07/2019\nS131\nhttps://ted.europa.eu/\nTED\n\n- - Services - Contract award notice - Open procedure\nSupplement to the Official Journal of the European Union\n\n2/3\n\nOJ/S S131\n10/07/2019\n322329-2019-EN\n\n- - Services - Contract award notice - Open procedure\n\nIV.2.1)\n\
+    \nPrevious publication concerning this procedure\nNotice number in the OJ S: 2019/S 039-088368\n\nIV.2.8)\n\nInformation about termination of dynamic purchasing system\n\nIV.2.9)\n\nInformation about termination of call for competition in the form of a prior information notice\nThe contracting authority will not award any further contracts based on the above prior information notice\n\n3/3\n\nSection V: Award of contract\nA contract/lot is awarded: yes\nV.2)\n\nAward of contract\n\nV.2.1)\n\nDate of conclusion of the contract:\n14/06/2019\n\nV.2.2)\n\nInformation about tenders\nNumber of tenders received: 3\nThe contract has been awarded to a group of economic operators: no\n\nV.2.3)\n\nName and address of the contractor\nCoram Trading Ltd\nCoram Campus, 41 Brunswick Square\nLondon\nUnited Kingdom\nNUTS code: 00\nThe contractor is an SME: no\n\nV.2.4)\n\nInformation on value of the contract/lot (excluding VAT)\nTotal value of the contract/lot: 1 000 000.00 GBP\n\nV.2.5)\n\nInformation\
+    \ about subcontracting\n\nSection VI: Complementary information\nVI.3)\nAdditional information:\nVI.4)\n\nProcedures for review\n\nVI.4.1)\n\nReview body\nHigh Court\nRoyal Court of Justices, the Strand\nLondon\nUnited Kingdom\n\nVI.4.2)\n\nBody responsible for mediation procedures\n\nVI.4.3)\n\nReview procedure\n\nVI.4.4)\n\nService from which information about the review procedure may be obtained\n\nVI.5)\n\nDate of dispatch of this notice:\n08/07/2019\n\n10/07/2019\nS131\nhttps://ted.europa.eu/\nTED\n\n- - Services - Contract award notice - Open procedure\nSupplement to the Official Journal of the European Union\n\n3/3\n```\n"
   required_artifacts:
-    - source_record_file
-    - source_record_metadata
+  - source_record_file
+  - source_record_metadata
+  artifacts:
+  - id: materialized_source_document
+    path: datasets/public-validation-v1/source_documents/structured-public-record-dfe-322329.md
+    role: source_document
+    media_type: text/markdown
+    source_url: https://ted.europa.eu/en/notice/322329-2019/pdfs
+    collected_at: '2026-03-20'
+    original_filename: 322329-2019.pdf
+    sha256: 3f2630c548ce42485670d44b49dcd85e0f7cd0309074bf5f3019c4b57d7b1da2
+    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: 'Case bundle from: TED notice PDF 322329-2019 | TED notice HTML 322329-2019'
+    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+  - id: original-source-01
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-dfe-322329/source-01-ted-notice-pdf-322329-2019.pdf
+    role: original_source_snapshot
+    media_type: application/pdf
+    source_url: https://ted.europa.eu/en/notice/322329-2019/pdfs
+    collected_at: '2026-03-20'
+    original_filename: 322329-2019.pdf
+    sha256: dbca96980bef93dc53935970a61537f22d882f73a7e78a76d676b6ed64e89947
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice PDF 322329-2019
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-02
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-dfe-322329/source-02-ted-notice-html-322329-2019.html
+    role: original_source_snapshot
+    media_type: text/html
+    source_url: https://ted.europa.eu/udl?uri=TED:NOTICE:322329-2019:TEXT:EN:HTML
+    collected_at: '2026-03-20'
+    original_filename: udl.html
+    sha256: 76916aaa647800db6a2d6dd5f0f6c7c89edd07773fdcf7152fb83272835b9d38
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice HTML 322329-2019
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
 expected_output:
   fields_required:
-    - buyer_name
-    - supplier_name
-    - award_date
-    - amount
-    - category_code
+  - buyer_name
+  - supplier_name
+  - award_date
+  - amount
+  - category_code
 answer_key:
   type: structured_fields
   fields:
     buyer_name: Department for Education
     supplier_name: Coram Trading Ltd
-    award_date: "2019-06-14"
-    amount: 1000000.00
-    category_code: "85300000"
+    award_date: '2019-06-14'
+    amount: 1000000.0
+    category_code: '85300000'
 notes:
-  - This no-lot award pairs a very specific contract title with the broader main CPV code 85300000, which makes the category field easy to overfit from the narrative title alone.
-  - The answer key uses the authority name from section I and the contract-specific V.2 fields rather than paraphrasing the description of the service.
+- This no-lot award pairs a very specific contract title with the broader main CPV code 85300000, which makes the category field easy to overfit from the narrative title alone.
+- The answer key uses the authority name from section I and the contract-specific V.2 fields rather than paraphrasing the description of the service.

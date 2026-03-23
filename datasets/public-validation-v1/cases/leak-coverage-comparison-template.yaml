@@ -5,39 +5,52 @@ task_type: coverage_comparison
 answer_mode: rubric
 source_family: cross_country_leak_reporting
 source_tier: secondary
-target_entity: "<fill entity or event name>"
+target_entity: <fill entity or event name>
 related_cases:
-  - "<related-case-id-1-french>"
-  - "<related-case-id-2-english>"
+- <related-case-id-1-french>
+- <related-case-id-2-english>
 sources:
-  - label: "<Local Outlet Name>"
-    url: "<url-to-local-report>"
-    language: "<language-code>"
-    checked_on: 2026-03-22
-    provenance: news_outlet
-  - label: "<International Outlet Name>"
-    url: "<url-to-international-report>"
-    language: en
-    checked_on: 2026-03-22
-    provenance: news_outlet
+- label: <Local Outlet Name>
+  url: <url-to-local-report>
+  language: <language-code>
+  checked_on: 2026-03-22
+  provenance: news_outlet
+- label: <International Outlet Name>
+  url: <url-to-international-report>
+  language: en
+  checked_on: 2026-03-22
+  provenance: news_outlet
 evidence_bundle:
   kind: comparison_cluster
   content_markdown: |
     # Report A (Local Language)
     ... (Inlined text) ...
-    
+
     # Report B (English)
     ... (Inlined text) ...
+  artifacts:
+  - id: materialized_source_document
+    path: datasets/public-validation-v1/source_documents/leak-coverage-comparison-template.md
+    role: source_document
+    media_type: text/markdown
+    source_url: <url-to-local-report>
+    collected_at: '2026-03-22'
+    original_filename: leak-coverage-comparison-template.md
+    sha256: 21a183fa8f62e591e347b56ed8095d975b387aca2d9edbcad6b7b25c355eaa68
+    acquisition_method: Fetch the listed outlet reports for this case, preserve the relevant passages with source attribution, and store the comparison bundle in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: 'Case bundle from: <Local Outlet Name> | <International Outlet Name>'
+    notes: Checked-in markdown source document used for local validation and Hugging Face export. Derived from the cited upstream source material recorded in sources[].
 expected_output:
   fields_required:
-    - common_facts
-    - unique_local_aspects
-    - tone_differences
-    - investigative_next_steps
+  - common_facts
+  - unique_local_aspects
+  - tone_differences
+  - investigative_next_steps
 rubric: |
   1. Does it identify facts present in one report but missing in the other?
   2. Does it correctly interpret the local context or regulatory nuances mentioned in the local report?
   3. Does it avoid conflating the "aspect" of the leak with the "fact" of the leak?
   4. Does it suggest next steps that reconcile the differences?
 notes:
-  - This case tests cross-border synthesis and nuance detection.
+- This case tests cross-border synthesis and nuance detection.

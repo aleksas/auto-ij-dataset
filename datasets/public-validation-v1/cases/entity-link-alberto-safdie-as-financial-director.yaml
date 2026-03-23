@@ -5,38 +5,96 @@ task_type: entity_linking
 answer_mode: exact
 source_family: public_entity_link_dataset
 source_tier: primary
-target_entity: "ALBERTO SAFDIE director relation to AS FINANCIAL SERVICES LIMITED"
+target_entity: ALBERTO SAFDIE director relation to AS FINANCIAL SERVICES LIMITED
 sources:
-  - label: Offshore Leaks officer page for ALBERTO SAFDIE
-    url: https://offshoreleaks.icij.org/nodes/56009125
-    checked_on: 2026-03-20
-    provenance: public_link_dataset
-  - label: Offshore Leaks entity page for AS FINANCIAL SERVICES LIMITED
-    url: https://offshoreleaks.icij.org/nodes/55036442
-    checked_on: 2026-03-20
-    provenance: public_link_dataset
-  - label: Offshore Leaks data sources page
-    url: https://offshoreleaks.icij.org/pages/data
-    checked_on: 2026-03-20
-    provenance: public_link_dataset
+- label: Offshore Leaks officer page for ALBERTO SAFDIE
+  url: https://offshoreleaks.icij.org/nodes/56009125
+  checked_on: 2026-03-20
+  provenance: public_link_dataset
+- label: Offshore Leaks entity page for AS FINANCIAL SERVICES LIMITED
+  url: https://offshoreleaks.icij.org/nodes/55036442
+  checked_on: 2026-03-20
+  provenance: public_link_dataset
+- label: Offshore Leaks data sources page
+  url: https://offshoreleaks.icij.org/pages/data
+  checked_on: 2026-03-20
+  provenance: public_link_dataset
 evidence_bundle:
   kind: entity_link_graph
-  content_markdown: "Materialization pending: fetching source content..."
-  content_markdown: "Materialization pending: fetching source content..."
+  content_markdown: "# Alberto Safdie director link recovery from Offshore Leaks\n\nCollected from the listed Offshore Leaks sources on 2026-03-20.\n\n## Listed sources\n- Offshore Leaks officer page for ALBERTO SAFDIE: https://offshoreleaks.icij.org/nodes/56009125\n- Offshore Leaks entity page for AS FINANCIAL SERVICES LIMITED: https://offshoreleaks.icij.org/nodes/55036442\n- Offshore Leaks data sources page: https://offshoreleaks.icij.org/pages/data\n\n## Source excerpt: Offshore Leaks officer page for ALBERTO SAFDIE\nSource URL: https://offshoreleaks.icij.org/nodes/56009125\n\n```text\nData from\n\nParadise Papers - Malta corporate registry\n\nOfficer:\n\nALBERTO SAFDIE\n\nLinked countries:\n\nSwitzerland, France\n\nSearch in:\n\nMalta corporate registry data is current through 2016\n\nread more\n\nConnections:\n\nEntity (2)\n\nRole\n\nFrom\n\nTo\n\nIncorporation\n\nJurisdiction\n\nStatus\n\nData From\n\nAS FINANCIAL SERVICES LIMITED\n\nShareholder\n\n-\n\n-\n\n14-NOV-2007\n\nMalta\n\n\
+    -\n\nParadise Papers\n\nAS FINANCIAL SERVICES LIMITED\n\nLegal representative\n\n-\n\n-\n\n14-NOV-2007\n\nMalta\n\n-\n\nParadise Papers\n\nAS FINANCIAL SERVICES LIMITED\n\nDirector\n\n-\n\n-\n\n14-NOV-2007\n\nMalta\n\n-\n\nParadise Papers\n\nAS FINANCIAL SERVICES LIMITED\n\nJudicial representative\n\n-\n\n-\n\n14-NOV-2007\n\nMalta\n\n-\n\nParadise Papers\n\nS-CAPITAL SICAV P.L.C.\n\nShareholder\n\n-\n\n-\n\n21-JUN-2011\n\nMalta\n\nIn Dissolution\n\nParadise Papers\n\nS-CAPITAL SICAV P.L.C.\n\nLegal representative\n\n-\n\n-\n\n21-JUN-2011\n\nMalta\n\nIn Dissolution\n\nParadise Papers\n\nS-CAPITAL SICAV P.L.C.\n\nDirector\n\n-\n\n-\n\n21-JUN-2011\n\nMalta\n\nIn Dissolution\n\nParadise Papers\n\nS-CAPITAL SICAV P.L.C.\n\nJudicial representative\n\n-\n\n-\n\n21-JUN-2011\n\nMalta\n\nIn Dissolution\n\nParadise Papers\n\nAddress (1)\n\nData From\n\n122 ROUTE DE FLORISSANT GENEVA 1206\n\nParadise Papers\n\nExplore more from\n\nParadise Papers\n\nGet our stories in your inbox\n```\n\n## Source\
+    \ excerpt: Offshore Leaks entity page for AS FINANCIAL SERVICES LIMITED\nSource URL: https://offshoreleaks.icij.org/nodes/55036442\n\n```text\nData from\n\nParadise Papers - Malta corporate registry\n\nEntity:\n\nAS FINANCIAL SERVICES LIMITED\n\nRegistered in:\n\nMalta\n\nLinked countries:\n\nMalta\n\nSearch in:\n\nMalta corporate registry data is current through 2016\n\nread more\n\nIncorporated:\n\n14-NOV-2007\n\nConnections:\n\nOfficer (5)\n\nRole\n\nFrom\n\nTo\n\nData From\n\nHOBI TRADE LTD\n\nShareholder\n\n-\n\n-\n\nParadise Papers\n\nALBERTO SAFDIE\n\nShareholder\n\n-\n\n-\n\nParadise Papers\n\nALBERTO SAFDIE\n\nLegal representative\n\n-\n\n-\n\nParadise Papers\n\nALBERTO SAFDIE\n\nDirector\n\n-\n\n-\n\nParadise Papers\n\nALBERTO SAFDIE\n\nJudicial representative\n\n-\n\n-\n\nParadise Papers\n\nFRANCESCO APAP BOLOGNA\n\nSecretary\n\n-\n\n-\n\nParadise Papers\n\nIVAN CINI\n\nLegal representative\n\n-\n\n-\n\nParadise Papers\n\nIVAN CINI\n\nJudicial representative\n\n-\n\n-\n\n\
+    Paradise Papers\n\nIVAN CINI\n\nDirector\n\n-\n\n-\n\nParadise Papers\n\nDELOITTE AUDIT LTD\n\nAuditor\n\n-\n\n-\n\nParadise Papers\n\nAddress (1)\n\nData From\n\n171 OLD BAKERY STREET, VALLETTA, MALTA\n\nParadise Papers\n\nExplore more from\n\nParadise Papers\n\nGet our stories in your inbox\n```\n\n## Source excerpt: Offshore Leaks data sources page\nSource URL: https://offshoreleaks.icij.org/pages/data\n\n```text\nData sources\n\nHow to use this database\n\nDownload\n\nRest API Schema\n\nReconciliation API\n\nCredits\n\nContact us\n\nDownload\n\nSupport Us\n\nThe International Consortium of Investigative Journalists\n\nHome\n\nAbout the database\n\nData sources\n\nHow to use this database\n\nDownload\n\nCredits\n\nContact us\n\nSupport Us\n\nOffshore Leaks Database\n\nFind out who\u2019s behind more than 810,000 offshore companies, foundations and trusts.\n\nData Sources\n\nDetails on the five leaks that populate this database\n\nThe ICIJ Offshore Database shows relationships and\
+    \ networks among people or companies and offshore entities. Consider this database like a corporate registry where you can check information about a company and the people who played a role in that entity at a certain point in time. Roles include being a director, a shareholder, a beneficial owner, a trustee, among others.\n\nThe first installment of the database was released\_on June 14, 2013 as part of ICIJ\u2019s Offshore Leaks investigation.\_More records were added on January 23, 2014\_(from ICIJ\u2019s China Leaks\_investigation), on May 9, 2016\_(from ICIJ\u2019s Panama Papers\_investigation) and on September 21, 2016\_(from ICIJ\u2019s Bahamas Leaks\_investigation).\n\nBetween November, 2017 and February, 2018\_ICIJ released data from the Paradise Papers\_investigation, including records from the offshore law firm Appleby\_and seven corporate registries: Aruba, Cook Islands, Bahamas, Barbados, Malta, Nevis and Samoa. \n\nOn Dec. 6, 2021, April 11, 2022, and May 3, 2022 ICIJ added\
+    \ data from the Pandora Papers investigation, coming from the offshore service providers Alem\xE1n, Cordero, Galindo & Lee (Alcogal), Alpha Consulting, Asiaciti Trust Asia Limited, CILTrust International, Commence Overseas Limited, Fidelity, IlShin, Overseas Management Company Inc, SFM Corporate Services and Trident Trust Company Limited.\n\nThe Offshore Leaks database contains information on more than 810,000 offshore entities and covers more than 80 years up to 2020.\n\nThe data represents only a fraction of the information gathered as part of the journalistic investigations, as it doesn\u2019t divulge raw documents or personal information en masse.It contains a great deal of information about company owners, proxies and intermediaries in secrecy jurisdictions, but it doesn\u2019t disclose bank accounts, email exchanges and financial transactions contained in the documents. The sources of this database are five massive leaks received by the International Consortium of Investigative\
+    \ Journalists:\n\nPandora Papers (2021)\n\nThe Pandora Papers information \u2013 more than 11.9 million records \u2013 came from 14 offshore service providers that offer services in at least 38 jurisdictions. The 2.94 terabytes of data, leaked to ICIJ and shared with media partners around the world, arrived in various formats: as documents, images, emails, spreadsheets, and more.\n\nThe Pandora Papers gathered information on more than 27,000 companies, foundations and trusts and 29,000 so-called ultimate beneficial owners from 11 of the providers. On December 6, 2021, ICIJ added data to the Offshore Leaks database on more than 15,000 offshore entities that got services from two of the providers: Alem\xE1n, Cordero, Galindo & Lee (Alcogal) and Fidelity Corporate Services. On April 11, 2022 ICIJ published data on more than 2,000 offshore entities that got services from Alpha Consulting. On May 3, 2022 ICIJ published data on more than 9,000 companies, foundations and trusts from seven offshore\
+    \ service providers: Asiaciti Trust Asia Limited, CILTrust International, Commence Overseas Limited, IlShin, Overseas Management Company Inc, SFM Corporate Services and Trident Trust Company Limited.\n\nParadise Papers (2017)\n\nThe 2017 Paradise Papers investigation was based on a leak of 1.4 terabytes made up of more than 13.4 million files from one offshore law firm, Appleby, as well as Asiaciti Trust, a Singapore-based provider, and government corporate registries in 19 secrecy jurisdictions. The leaks were obtained by German newspaper S\xFCddeutsche Zeitung and shared with the International Consortium of Investigative Journalists and media partners around the world.\n\nBetween November, 2017 and February, 2018, ICIJ added data from the Paradise Papers investigation, including client records from offshore law firm Appleby and seven corporate registries: Aruba, Cook Islands, Bahamas, Barbados, Malta, Nevis and Samoa. ICIJ incorporated data on more than 290,000 entities connected to\
+    \ the Paradise Papers investigation.\n\nData connected with Saint Kitts and Nevis was also part of the Appleby dataset. However, some of the Appleby records didn\u2019t distinguish between Nevis and Saint Kitts. In the case of the corporate registry, the information is only connected to Nevis. The jurisdiction filter displays \u201CSaint Kitts and Nevis\u201D and the source distinguishes between the Nevis corporate registry and the Paradise Papers Appleby related data.\n\nBahamas Leaks (2016)\n\nThe third source of this database comes from a leak of the corporate registry of the Bahamas obtained by German newspaper S\xFCddeutsche Zeitung and shared with the International Consortium of Investigative Journalists and media partners. From the 1.3 million files received as part of the Bahamas Leaks investigation, the database was expanded to include the names of directors and some owners of more than 175,000 Bahamian companies, trusts and foundations.\n\nPanama Papers (2016)\n\nThe Panama\
+    \ Papers data comes from Panamanian law firm Mossack Fonseca, which was one of the world\u2019s top creators of hard-to-trace companies, trusts and foundations, whose inner workings were exposed in the April 2016 Panama Papers investigation. The data was originally obtained from an anonymous source by reporters at the German newspaper S\xFCddeutsche Zeitung, who asked ICIJ to organize a global reporting collaboration to analyze the files.\n\nPublished in this interactive website are records from Mossack Fonseca\u2019s internal client database, including companies incorporated in tax havens and the people behind them. This is just a fraction of the complete leak, which amounts to 2.6 TB and 11.5 million files.\n\nOffshore Leaks (2013)\n\nYou can also explore entities incorporated through Portcullis Trustnet (now Portcullis) and Commonwealth Trust Limited, two offshore service providers exposed as part of ICIJ\u2019s 2013 Offshore Leaks investigation. ICIJ produced the first version of\
+    \ the Offshore Leaks database with Costa Rican newspaper La Naci\xF3n.\n\nAbout ICIJ \n\nAbout this data\n\nFAQ\n\nHow to use this database\n\nData sources\n\nCredits\n\nContact us\n\nGet our stories in your inbox\n\nAbout the data in the ICIJ Offshore Leaks database\n\nThis ICIJ database contains information on more than 810,000 offshore entities that are part of the Pandora Papers, Paradise Papers, Bahamas Leaks, Panama Papers and Offshore Leaks investigations. The records cover more than 80 years up to 2020 and link to people and companies in more than 200 countries and territories.\n\nRead more\n\nSupport us\n\nWe depend on the generous support of readers like you to help us expose corruption and hold the powerful to account\n\nDonate\n```\n"
   required_artifacts:
-    - entity_snapshot
-    - relationship_snapshot
+  - entity_snapshot
+  - relationship_snapshot
+  artifacts:
+  - id: materialized_source_document
+    path: datasets/public-validation-v1/source_documents/entity-link-alberto-safdie-as-financial-director.md
+    role: source_document
+    media_type: text/markdown
+    source_url: https://offshoreleaks.icij.org/nodes/56009125
+    collected_at: '2026-03-20'
+    original_filename: entity-link-alberto-safdie-as-financial-director.md
+    sha256: 4bf92251c964976af00ff0fd7258fd368af04d466f7d8821e995dda4c4bdfd6e
+    acquisition_method: Open the listed public entity-link dataset pages and preserve the named entity or relationship snapshot in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: 'Case bundle from: Offshore Leaks officer page for ALBERTO SAFDIE | Offshore Leaks entity page for AS FINANCIAL SERVICES LIMITED | Offshore Leaks data sources page'
+    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+  - id: original-source-01
+    path: datasets/public-validation-v1/source_artifacts/entity-link-alberto-safdie-as-financial-director/source-01-offshore-leaks-officer-page-for-alberto-safdie.html
+    role: original_source_snapshot
+    media_type: text/html
+    source_url: https://offshoreleaks.icij.org/nodes/56009125
+    collected_at: '2026-03-20'
+    original_filename: 56009125.html
+    sha256: f31b13162dc9f2a25f2a42f76ed818b03d3f7fdaaa6fa90384c240891e691cb3
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: Offshore Leaks officer page for ALBERTO SAFDIE
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-02
+    path: datasets/public-validation-v1/source_artifacts/entity-link-alberto-safdie-as-financial-director/source-02-offshore-leaks-entity-page-for-as-financial-services-limited.html
+    role: original_source_snapshot
+    media_type: text/html
+    source_url: https://offshoreleaks.icij.org/nodes/55036442
+    collected_at: '2026-03-20'
+    original_filename: 55036442.html
+    sha256: 125f1cd0ec9a7791c22ae73f460e03eb2f88cb1d1faa3ee8f21926d1e4314dd8
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: Offshore Leaks entity page for AS FINANCIAL SERVICES LIMITED
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-03
+    path: datasets/public-validation-v1/source_artifacts/entity-link-alberto-safdie-as-financial-director/source-03-offshore-leaks-data-sources-page.html
+    role: original_source_snapshot
+    media_type: text/html
+    source_url: https://offshoreleaks.icij.org/pages/data
+    collected_at: '2026-03-20'
+    original_filename: data.html
+    sha256: 7ee3ada13b065d9501785484f74e91bc8b1e8238bf5a9c2d8e6b3f5dba5e353b
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: Offshore Leaks data sources page
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
 expected_output:
   fields_required:
-    - canonical_entity_name
-    - relationship_type
-    - linked_entity_name
+  - canonical_entity_name
+  - relationship_type
+  - linked_entity_name
 answer_key:
   type: known_relationships
   relationships:
-    - subject: ALBERTO SAFDIE
-      predicate: director_of
-      object: AS FINANCIAL SERVICES LIMITED
+  - subject: ALBERTO SAFDIE
+    predicate: director_of
+    object: AS FINANCIAL SERVICES LIMITED
 notes:
-  - The ALBERTO SAFDIE page lists AS FINANCIAL SERVICES LIMITED among the connected entities with the Director role.
-  - The AS FINANCIAL SERVICES LIMITED page repeats ALBERTO SAFDIE as a director, which makes the relation replayable from either side of the graph.
+- The ALBERTO SAFDIE page lists AS FINANCIAL SERVICES LIMITED among the connected entities with the Director role.
+- The AS FINANCIAL SERVICES LIMITED page repeats ALBERTO SAFDIE as a director, which makes the relation replayable from either side of the graph.

@@ -5,37 +5,82 @@ task_type: field_extraction
 answer_mode: exact
 source_family: official_procurement
 source_tier: primary
-target_entity: "TED notice 428580-2020"
+target_entity: TED notice 428580-2020
 sources:
-  - label: TED notice PDF 428580-2020
-    url: https://ted.europa.eu/en/notice/428580-2020/pdfs
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice HTML 428580-2020
-    url: https://ted.europa.eu/udl?uri=TED:NOTICE:428580-2020:TEXT:EN:HTML
-    checked_on: 2026-03-20
-    provenance: official_portal
+- label: TED notice PDF 428580-2020
+  url: https://ted.europa.eu/en/notice/428580-2020/pdfs
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice HTML 428580-2020
+  url: https://ted.europa.eu/udl?uri=TED:NOTICE:428580-2020:TEXT:EN:HTML
+  checked_on: 2026-03-20
+  provenance: official_portal
 evidence_bundle:
   kind: structured_record
-  content_markdown: "Materialization pending: fetching source content..."
+  content_markdown: "# DHSC hand sanitiser contract extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/en/notice/428580-2020/pdfs\n\n## Listed sources\n- TED notice PDF 428580-2020: https://ted.europa.eu/en/notice/428580-2020/pdfs\n- TED notice HTML 428580-2020: https://ted.europa.eu/udl?uri=TED:NOTICE:428580-2020:TEXT:EN:HTML\n\n## Extracted source text\n\n```text\nOJ/S S177\n11/09/2020\n428580-2020-EN\n\n1/4\n\nThis notice in TED website: https://ted.europa.eu/udl?uri=TED:NOTICE:428580-2020:TEXT:EN:HTML\n\nUnited Kingdom-London: Hand sanitizer\n2020/S 177-428580\nContract award notice\nResults of the procurement procedure\nSupplies\nLegal Basis:\nDirective 2014/24/EU\nSection I: Contracting authority\nI.1)\nName and addresses\nOfficial name: Department of Health and Social Care\nPostal address: 39 Victoria Street, Westminster\nTown: London\nNUTS code: UK UNITED KINGDOM\nPostal code: SW1H 0EU\nCountry: United Kingdom\n\
+    E-mail: procurement.operations@dhsc.gov.uk\nTelephone: +44 2072104850\nInternet address(es):\nMain address: https://www.gov.uk/government/organisations/department-of-health-and-social-care\nI.2)\n\nInformation about joint procurement\n\nI.4)\n\nType of the contracting authority\nMinistry or any other national or federal authority, including their regional or local subdivisions\n\nI.5)\n\nMain activity\nHealth\n\nSection II: Object\nII.1)\nScope of the procurement\nII.1.1)\n\nTitle:\nSupply of Personal Protective Equipment for Healthcare Workers for the Care of Patients with Suspected or\nConfirmed Novel Coronavirus (Covid-19)\n\nII.1.2)\n\nMain CPV code\n33741300 Hand sanitizer\n\nII.1.3)\n\nType of contract\nSupplies\n\nII.1.4)\n\nShort description:\nThe Department of Health and Social Care (the \u2018Authority\u2019) has awarded a contract to Meller Designs for the\nsupply of personal protective equipment (hand sanitiser) to protect health and care workers from contracting the\nCovid-19\
+    \ disease.\n\nII.1.6)\n\nInformation about lots\nThis contract is divided into lots: no\n\n11/09/2020\nS177\nhttps://ted.europa.eu/TED\n\n1/4\n\nOJ/S S177\n11/09/2020\n428580-2020-EN\n\n2/4\n\nII.1.7)\n\nTotal value of the procurement (excluding VAT)\nValue excluding VAT: 2 610 000.00 GBP\n\nII.2)\n\nDescription\n\nII.2.1)\n\nTitle:\n\nII.2.2)\n\nAdditional CPV code(s)\n\nII.2.3)\n\nPlace of performance\nNUTS code: UK UNITED KINGDOM\n\nII.2.4)\n\nDescription of the procurement:\nThe Department of Health and Social Care (the \u2018Authority\u2019) has awarded a contract to Meller Designs for the\nsupply of personal protective equipment (hand sanitiser) to protect health and care workers from contracting the\nCovid-19 disease.\n\nII.2.5)\n\nAward criteria\nPrice\n\nII.2.11)\n\nInformation about options\nOptions: no\n\nII.2.13)\n\nInformation about European Union funds\nThe procurement is related to a project and/or programme financed by European Union funds: no\n\nII.2.14)\n\nAdditional\
+    \ information\nMore information can be found on contracts finder:\nhttps://www.contractsfinder.service.gov.uk/Notice/4c3aae51-8916-4a19-b1f1-8496af12b72a\n\nSection IV: Procedure\nIV.1)\nDescription\nIV.1.1)\n\nType of procedure\nAward of a contract without prior publication of a call for competition in the Official Journal of the European\nUnion in the cases listed below\n\u2022 Extreme urgency brought about by events unforeseeable for the contracting authority and in accordance with\nthe strict conditions stated in the directive\nExplanation:\n1) The coronavirus disease (Covid-19) is a serious infectious respiratory disease and its consequences pose\na risk to life. The Covid-19 outbreak is a public health emergency of international concerns as declared by\nthe World Health Organisation on 30 January 2020. The WHO Director General characterised Covid-19 as a\npandemic on 11 March 2020, by this stage Europe was the centre of the pandemic.\n2) The use of Personal Protective Equipment\
+    \ (PPE) is critical in safeguarding the health and lives of the care\nprofessionals treating patients with Covid-19. Delays in procuring the PPE poses a risk to life of those on the\nfront line and the likelihood of significantly increased death toll.\n3) In March the NHS experienced severe shortages of PPE, modelling based the trajectory of other European\ncountries forecast the need for significant and extremely rapid increase in the UK PPE capacity. Similar\nshortfalls in PPE stocks were identified globally. There was immense demand for increased manufacturing\ncapacity of PPE, requiring the UK government to actively seek and create new supply chains rapidly to meet\nthat demand. In these circumstances, a procurement following the usual timescales under the PCR 2015,\nincluding accelerated options, was impossible. PPE manufacturers and supply chains were under immediate\nand unprecedented global pressure to provide products. A delay in engaging with the market by running a usual\n\
+    \n11/09/2020\nS177\nhttps://ted.europa.eu/TED\n\n2/4\n\nOJ/S S177\n11/09/2020\n428580-2020-EN\n\n3/4\n\nprocurement process ran the risk of failing to acquire the necessary stock of PPE equipment and presenting a\nsignificant risk to life.\n4) The Department for Health and Social Care (\u2018DHSC\u2019) is satisfied the tests permitting use of the negotiated\nprocedure without prior publication (Regulation 32(2)(c)) were met:\nA. As far as is strictly necessary: The PPE was identified as strictly necessary to meet anticipated demand on\nthe NHS during the first wave of cases in the UK.\nB. There are genuine reasons for extreme urgency: DHSC are responding to Covid-19 immediately because of\npublic health risks presenting a genuine emergency.\nC. The events that have led to the need for extreme urgency were unforeseeable: As the Commission itself\nconfirmed: \u2018The current coronavirus crisis presents an extreme and unforeseeable urgency \u2013 precisely\nfor such a situation our European\
+    \ rules enable public buyers to buy within a matter of days, even hours, if\nnecessary.\u2019 (Commissioner Breton, Internal Market, 1 April 2020).\nD. It was impossible to comply with the usual timescales in the PCR: Due to the urgency of the situation there\nwas no time to run an accelerated procurement under the open, restricted or competitive procedures with\nnegotiation that would allow DHSC to secure delivery of products, particularly in light of the corresponding\ndelays to timelines associated with securing increased manufacturing capacity and component supply within the\nrequired timescales.\nE. The situation is not attributable to the contracting authority: DHSC has not caused or contributed to the\ncoronavirus crisis, which justifies the need for extreme urgency.\nIV.1.3)\n\nInformation about a framework agreement or a dynamic purchasing system\n\nIV.1.6)\n\nInformation about electronic auction\n\nIV.1.8)\n\nInformation about the Government Procurement Agreement (GPA)\nThe\
+    \ procurement is covered by the Government Procurement Agreement: yes\n\nIV.2)\n\nAdministrative information\n\nIV.2.1)\n\nPrevious publication concerning this procedure\n\nIV.2.8)\n\nInformation about termination of dynamic purchasing system\n\nIV.2.9)\n\nInformation about termination of call for competition in the form of a prior information notice\n\nSection V: Award of contract\nA contract/lot is awarded: yes\nV.2)\n\nAward of contract\n\nV.2.1)\n\nDate of conclusion of the contract:\n13/06/2020\n\nV.2.2)\n\nInformation about tenders\nNumber of tenders received: 1\nThe contract has been awarded to a group of economic operators: no\n\nV.2.3)\n\nName and address of the contractor\nOfficial name: Meller Designs Ltd\nPostal address: Unit H, Bedford Business Park, Mile Road\nTown: Bedford\nNUTS code: UK UNITED KINGDOM\nPostal code: MK42 9TW\nCountry: United Kingdom\nThe contractor is an SME: yes\n\nV.2.4)\n\nInformation on value of the contract/lot (excluding VAT)\n\n11/09/2020\nS177\n\
+    https://ted.europa.eu/TED\n\n3/4\n\nOJ/S S177\n11/09/2020\n428580-2020-EN\n\n4/4\n\nTotal value of the contract/lot: 2 610 000.00 GBP\nV.2.5)\n\nInformation about subcontracting\n\nSection VI: Complementary information\nVI.3)\nAdditional information:\nThe Department of Health and Social Care (the \u2018Authority\u2019) has awarded a contract to Meller Designs for the\nsupply of personal protective equipment (hand sanitiser) to protect health and care workers from contracting the\nCovid-19 disease.\nVI.4)\n\nProcedures for review\n\nVI.4.1)\n\nReview body\nOfficial name: The High Court\nTown: London\nCountry: United Kingdom\n\nVI.4.2)\n\nBody responsible for mediation procedures\n\nVI.4.3)\n\nReview procedure\n\nVI.4.4)\n\nService from which information about the review procedure may be obtained\n\nVI.5)\n\nDate of dispatch of this notice:\n07/09/2020\n\n11/09/2020\nS177\nhttps://ted.europa.eu/TED\n\n4/4\n```\n"
   required_artifacts:
-    - source_record_file
-    - source_record_metadata
+  - source_record_file
+  - source_record_metadata
+  artifacts:
+  - id: materialized_source_document
+    path: datasets/public-validation-v1/source_documents/structured-public-record-dhsc-428580.md
+    role: source_document
+    media_type: text/markdown
+    source_url: https://ted.europa.eu/en/notice/428580-2020/pdfs
+    collected_at: '2026-03-20'
+    original_filename: 428580-2020.pdf
+    sha256: f9e2e7ce9546e8ec6fd15ccc291701eb32fadb0f6a7cb0142d001bb14e5a806b
+    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: 'Case bundle from: TED notice PDF 428580-2020 | TED notice HTML 428580-2020'
+    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+  - id: original-source-01
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-dhsc-428580/source-01-ted-notice-pdf-428580-2020.pdf
+    role: original_source_snapshot
+    media_type: application/pdf
+    source_url: https://ted.europa.eu/en/notice/428580-2020/pdfs
+    collected_at: '2026-03-20'
+    original_filename: 428580-2020.pdf
+    sha256: 4591788c0bb61b2cbd47db79a44723bfd7706ae7b29c0100adeca60065c1452f
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice PDF 428580-2020
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-02
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-dhsc-428580/source-02-ted-notice-html-428580-2020.html
+    role: original_source_snapshot
+    media_type: text/html
+    source_url: https://ted.europa.eu/udl?uri=TED:NOTICE:428580-2020:TEXT:EN:HTML
+    collected_at: '2026-03-20'
+    original_filename: udl.html
+    sha256: f8c9755184c22a36d8f1634d6cc8471a1b1755b6ef5c6129d8f0f3c05dbf8f65
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice HTML 428580-2020
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
 expected_output:
   fields_required:
-    - buyer_name
-    - supplier_name
-    - award_date
-    - amount
-    - category_code
+  - buyer_name
+  - supplier_name
+  - award_date
+  - amount
+  - category_code
 answer_key:
   type: structured_fields
   fields:
     buyer_name: Department of Health and Social Care
     supplier_name: Meller Designs Ltd
-    award_date: "2020-06-13"
-    amount: 2610000.00
-    category_code: "33741300"
+    award_date: '2020-06-13'
+    amount: 2610000.0
+    category_code: '33741300'
 notes:
-  - This is a single-award no-lot TED notice with the supplier, contract date, and total awarded value repeated in both the object and award sections.
-  - The case checks whether extraction normalizes the CPV code and date while preserving the named contractor exactly.
+- This is a single-award no-lot TED notice with the supplier, contract date, and total awarded value repeated in both the object and award sections.
+- The case checks whether extraction normalizes the CPV code and date while preserving the named contractor exactly.

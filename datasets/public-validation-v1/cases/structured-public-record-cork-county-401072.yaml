@@ -5,37 +5,79 @@ task_type: field_extraction
 answer_mode: exact
 source_family: official_procurement
 source_tier: primary
-target_entity: "TED notice 401072-2020"
+target_entity: TED notice 401072-2020
 sources:
-  - label: TED notice PDF 401072-2020
-    url: https://ted.europa.eu/en/notice/401072-2020/pdf
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice detail 401072-2020
-    url: https://ted.europa.eu/en/notice/-/detail/401072-2020
-    checked_on: 2026-03-20
-    provenance: official_portal
+- label: TED notice PDF 401072-2020
+  url: https://ted.europa.eu/en/notice/401072-2020/pdf
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice detail 401072-2020
+  url: https://ted.europa.eu/en/notice/-/detail/401072-2020
+  checked_on: 2026-03-20
+  provenance: official_portal
 evidence_bundle:
   kind: structured_record
-  content_markdown: "Materialization pending: fetching source content..."
+  content_markdown: "# Cork County Council Office 365 professional services extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/en/notice/401072-2020/pdf\n\n## Listed sources\n- TED notice PDF 401072-2020: https://ted.europa.eu/en/notice/401072-2020/pdf\n- TED notice detail 401072-2020: https://ted.europa.eu/en/notice/-/detail/401072-2020\n\n## Extracted source text\n\n```text\n401072-2020 - Result\n\nSee the notice on TED website\n\nIreland-Cork: Internet development services\nOJ S 165/2020 26/08/2020\nContract award notice\nServices\nLegal Basis:\nDirective 2014/24/EU\nSection I: Contracting authority\nI.1. Name and addresses\nOfficial name: Cork County Council\nNational registration number: N/A\nPostal address: County Hall, Carrigrohane Road\nTown: Cork\nNUTS code: IE \xC9ire / Ireland\nCountry: Ireland\nContact person: Gerard Desmond\nE-mail: gerard.desmond@corkcoco.ie\nTelephone: +353 214285596\nInternet address(es):\n\
+    Main address: www.corkcoco.ie\nAddress of the buyer profile: https://irl.eu-supply.com/ctm/Company/CompanyInformation/Index\n/406\nI.4. Type of the contracting authority\nRegional or local authority\nI.5. Main activity\nGeneral public services\nSection II: Object\nII.1. Scope of the procurement\nII.1.1. Title\nOffice 365, Sharepoint, Team and Power Apps Professional Services\nReference number: Office 365 Sharepoint, TEAMS\nII.1.2. Main CPV code\n72420000 Internet development services\nII.1.3. Type of contract\nServices\nII.1.4. Short description\nTo provide professional services in the roll out of Sharepoint Online, Team and Power Apps to\nallow Cork County Council to collaboarate better and maximise its use of these tools on the\nOffice 365 platform.\nII.1.6.\n401072-2020\n\nPage 1/4\n\nInformation about lots\nThis contract is divided into lots: no\nII.1.7. Total value of the procurement\nValue excluding VAT: 350 000,00 EUR\nII.2. Description\nII.2.2. Additional CPV code(s)\n72000000\
+    \ IT services: consulting, software development, Internet and support, 72200000\nSoftware programming and consultancy services, 72240000 Systems analysis and\nprogramming services, 72260000 Software-related services, 72600000 Computer support and\nconsultancy services\nII.2.3. Place of performance\nNUTS code: IE \xC9ire / Ireland\nII.2.4. Description of the procurement\nTo provide professional services in the roll out of Sharepoint Online, Team and Power Apps to\nallow Cork County Council to collaboarate better and maximise its use of these tools on the\nOffice 365 platform.\nII.2.5. Award criteria\nQuality criterion - Name: Quality/quantity of resources / Weighting: 200\nQuality criterion - Name: Relevant experience / Weighting: 200\nQuality criterion - Name: Proposed methodology / Weighting: 100\nQuality criterion - Name: Support / Weighting: 50\nQuality criterion - Name: Build to share / Weighting: 50\nQuality criterion - Name: Handover / Weighting: 50\nCost criterion - Name: Cost\
+    \ / Weighting: 350\nII.2.11. Information about options\nOptions: no\nII.2.13. Information about European Union funds\nThe procurement is related to a project and/or programme financed by European Union funds:\nno\nII.2.14. Additional information\nSection IV: Procedure\nIV.1. Description\nIV.1.1. Type of procedure\nOpen procedure\nIV.1.3. Information about a framework agreement or a dynamic purchasing system\nIV.1.8. Information about the Government Procurement Agreement (GPA)\nThe procurement is covered by the Government Procurement Agreement: yes\nIV.2. Administrative information\nIV.2.1.\n401072-2020\n\nPage 2/4\n\nPrevious publication concerning this procedure\nNotice number in the OJ S: 2020/S 064-153373\nIV.2.8. Information about termination of dynamic purchasing system\nIV.2.9. Information about termination of call for competition in the form of a prior information\nnotice\nThe contracting authority will not award any further contracts based on the above prior\ninformation notice\n\
+    Section V: Award of contract\nContract No: 1\nTitle:\nOffice 365, Sharepoint, Team and Power Apps Professional Services\nA contract/lot is awarded: yes\nV.2. Award of contract\nV.2.1. Date of conclusion of the contract\n20/08/2020\nV.2.2. Information about tenders\nNumber of tenders received: 10\nNumber of tenders received by electronic means: 10\nThe contract has been awarded to a group of economic operators: no\nV.2.3. Name and address of the contractor\nOfficial name: Storm Technology Ltd\nNational registration number: IE 8228144P\nPostal address: Capel Building, Marys Abbey\nTown: Dublin 7\nNUTS code: IE \xC9ire / Ireland\nCountry: Ireland\nE-mail: kflannery@storm.ie\nTelephone: +353 15242310\nInternet address: http://www.storm.ie\nThe contractor is an SME: yes\nV.2.4. Information on value of the contract/lot\nInitial estimated total value of the contract/lot: 300 000,00 EUR\nTotal value of the contract/lot: 300 000,00 EUR\nV.2.5. Information about subcontracting\nSection VI: Complementary\
+    \ information\nVI.3. Additional information\nVI.4. Procedures for review\nVI.4.1.\n401072-2020\n\nPage 3/4\n\nReview body\nOfficial name: The High Court\nPostal address: Four Courts, Inns Quay\nTown: Dublin 7\nCountry: Ireland\nE-mail: highcourtcentraloffice@courts.ie\nTelephone: +353 18886000\nInternet address: http://www.courts.ie\nVI.5. Date of dispatch of this notice\n21/08/2020\n\n401072-2020\n\nPage 4/4\n```\n"
   required_artifacts:
-    - source_record_file
-    - source_record_metadata
+  - source_record_file
+  - source_record_metadata
+  artifacts:
+  - id: materialized_source_document
+    path: datasets/public-validation-v1/source_documents/structured-public-record-cork-county-401072.md
+    role: source_document
+    media_type: text/markdown
+    source_url: https://ted.europa.eu/en/notice/401072-2020/pdf
+    collected_at: '2026-03-20'
+    original_filename: 401072-2020.pdf
+    sha256: b72a87acd959ce84b63fb7167f4d1431b51dfb149a9546ae9e9fa2f06d4d27c2
+    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: 'Case bundle from: TED notice PDF 401072-2020 | TED notice detail 401072-2020'
+    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+  - id: original-source-01
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-cork-county-401072/source-01-ted-notice-pdf-401072-2020.pdf
+    role: original_source_snapshot
+    media_type: application/pdf
+    source_url: https://ted.europa.eu/en/notice/401072-2020/pdf
+    collected_at: '2026-03-20'
+    original_filename: 401072-2020.pdf
+    sha256: 41098feaecf66bb4dd00f18dd7083e0ab900ecc53789a5bba7c52efb2ef78c96
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice PDF 401072-2020
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-02
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-cork-county-401072/source-02-ted-notice-detail-401072-2020.html
+    role: original_source_snapshot
+    media_type: text/html
+    source_url: https://ted.europa.eu/en/notice/-/detail/401072-2020
+    collected_at: '2026-03-20'
+    original_filename: 401072-2020.html
+    sha256: 9d89b59c807dce95a3a4f243f9931081a75a2a1851732016f95da56d978bc468
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice detail 401072-2020
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
 expected_output:
   fields_required:
-    - buyer_name
-    - supplier_name
-    - award_date
-    - amount
-    - category_code
+  - buyer_name
+  - supplier_name
+  - award_date
+  - amount
+  - category_code
 answer_key:
   type: structured_fields
   fields:
     buyer_name: Cork County Council
     supplier_name: Storm Technology Ltd
-    award_date: "2020-08-20"
-    amount: 300000.00
-    category_code: "72420000"
+    award_date: '2020-08-20'
+    amount: 300000.0
+    category_code: '72420000'
 notes:
-  - This Irish local-authority award notice is a no-lot services case with a single named contractor and an exact contract value.
-  - The title mentions Office 365, SharePoint, Teams, and Power Apps, but the answer key stays anchored to the official main CPV code, contractor, contract date, and awarded value.
+- This Irish local-authority award notice is a no-lot services case with a single named contractor and an exact contract value.
+- The title mentions Office 365, SharePoint, Teams, and Power Apps, but the answer key stays anchored to the official main CPV code, contractor, contract date, and awarded value.

@@ -5,41 +5,94 @@ task_type: field_extraction
 answer_mode: exact
 source_family: official_procurement
 source_tier: primary
-target_entity: "TED notice 334859-2021, contract 2020-050"
+target_entity: TED notice 334859-2021, contract 2020-050
 sources:
-  - label: TED notice XML 334859-2021
-    url: https://ted.europa.eu/en/notice/334859-2021/xml
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice PDF 334859-2021
-    url: https://ted.europa.eu/en/notice/334859-2021/pdf
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice detail 334859-2021
-    url: https://ted.europa.eu/en/notice/-/detail/334859-2021
-    checked_on: 2026-03-20
-    provenance: official_portal
+- label: TED notice XML 334859-2021
+  url: https://ted.europa.eu/en/notice/334859-2021/xml
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice PDF 334859-2021
+  url: https://ted.europa.eu/en/notice/334859-2021/pdf
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice detail 334859-2021
+  url: https://ted.europa.eu/en/notice/-/detail/334859-2021
+  checked_on: 2026-03-20
+  provenance: official_portal
 evidence_bundle:
   kind: structured_record
-  content_markdown: "Materialization pending: fetching source content..."
+  content_markdown: "# Dunea Zonnepanelen 2.0 works contract extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/en/notice/334859-2021/pdf\n\n## Listed sources\n- TED notice XML 334859-2021: https://ted.europa.eu/en/notice/334859-2021/xml\n- TED notice PDF 334859-2021: https://ted.europa.eu/en/notice/334859-2021/pdf\n- TED notice detail 334859-2021: https://ted.europa.eu/en/notice/-/detail/334859-2021\n\n## Extracted source text\n\n```text\n334859-2021 - Result\n\nSee the notice on TED website\n\nNetherlands-Zoetermeer: Construction work\nOJ S 126/2021 02/07/2021\nContract award notice \u2013 utilities\nWorks\nLegal Basis:\nDirective 2014/25/EU\nSection I: Contracting entity\nI.1. Name and addresses\nOfficial name: Dunea nv\nNational registration number: NL-2020-050\nPostal address: Plein van de Verenigde Naties 11\nTown: Zoetermeer\nNUTS code: NL33 Zuid-Holland\nPostal code: 2719 EG\nCountry: Netherlands\nContact person:\
+    \ Paul van der Loos\nE-mail: p.loos@dunea.nl\nTelephone: +31 611192811\nInternet address(es):\nMain address: https://www.dunea.nl\nAddress of the buyer profile: https://www.dunea.nl\nI.6. Main activity\nOther activity: Drinkwater\nSection II: Object\nII.1. Scope of the procurement\nII.1.1. Title\nZonnepanelen 2.0\nReference number: NL-2020-005\nII.1.2. Main CPV code\n45000000 Construction work\nII.1.3. Type of contract\nWorks\nII.1.4. Short description\nLevering, installatie en onderhoud van zonnepanelen op drie locaties in Zuid-Holland.\nII.1.6. Information about lots\nThis contract is divided into lots: no\nII.1.7. Total value of the procurement\nValue excluding VAT: 2 932 690,87 EUR\n\n334859-2021\n\nPage 1/3\n\nII.2. Description\nII.2.2. Additional CPV code(s)\n09331000 Solar panels\nII.2.3. Place of performance\nNUTS code: NL33 Zuid-Holland\nMain site or place of performance: Scheveningen en Bergambacht.\nII.2.4. Description of the procurement\nLevering, installatie en onderhoud\
+    \ van zonnepanelen op drie locaties in Zuid-Holland.\nII.2.5. Award criteria\nPrice\nII.2.11. Information about options\nOptions: no\nII.2.13. Information about European Union funds\nThe procurement is related to a project and/or programme financed by European Union funds:\nno\nII.2.14. Additional information\nN.v.t.\nSection IV: Procedure\nIV.1. Description\nIV.1.1. Type of procedure\nRestricted procedure\nIV.1.3. Information about a framework agreement or a dynamic purchasing system\nThe procurement involves the establishment of a framework agreement\nIV.1.8. Information about the Government Procurement Agreement (GPA)\nThe procurement is covered by the Government Procurement Agreement: no\nIV.2. Administrative information\nIV.2.1. Previous publication concerning this procedure\nNotice number in the OJ S: 2020/S 202-491440\nIV.2.8. Information about termination of dynamic purchasing system\nIV.2.9. Information about termination of call for competition in the form of a periodic indicative\n\
+    notice\nSection V: Award of contract\nContract No: 2020-050\nLot No: N.v.t.\nTitle:\nZonnepanelen 2.0\n334859-2021\n\nPage 2/3\n\nA contract/lot is awarded: yes\nV.2. Award of contract\nV.2.1. Date of conclusion of the contract\n16/06/2021\nV.2.2. Information about tenders\nNumber of tenders received: 2\nNumber of tenders received from SMEs: 0\nNumber of tenders received from tenderers from other EU Member States: 0\nNumber of tenders received from tenderers from non-EU Member States: 0\nNumber of tenders received by electronic means: 2\nThe contract has been awarded to a group of economic operators: no\nV.2.3. Name and address of the contractor\nOfficial name: Hoppenbrouwers Techniek bv\nTown: Udenhout\nNUTS code: NL Nederland\nCountry: Netherlands\nE-mail: info@hoppenbrouwers.nl\nThe contractor is an SME: no\nV.2.4. Information on value of the contract/lot\nInitial estimated total value of the contract/lot: 2 750 000,00 EUR\nTotal value of the contract/lot: 2 932 690,87 EUR\nV.2.5.\
+    \ Information about subcontracting\nV.2.6. Price paid for bargain purchases\nSection VI: Complementary information\nVI.3. Additional information\nN.v.t.\nVI.4. Procedures for review\nVI.4.1. Review body\nOfficial name: Rechtspraak\nTown: Den Haag\nCountry: Netherlands\nVI.5. Date of dispatch of this notice\n27/06/2021\n\n334859-2021\n\nPage 3/3\n```\n"
   required_artifacts:
-    - source_record_file
-    - source_record_metadata
+  - source_record_file
+  - source_record_metadata
+  artifacts:
+  - id: materialized_source_document
+    path: datasets/public-validation-v1/source_documents/structured-public-record-dunea-334859.md
+    role: source_document
+    media_type: text/markdown
+    source_url: https://ted.europa.eu/en/notice/334859-2021/xml
+    collected_at: '2026-03-20'
+    original_filename: 334859-2021.xml
+    sha256: 6a903eece76ed9072f9bd1ced3cbb7b9126fee1e2e1ddc60dbb6715ef881ae98
+    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: 'Case bundle from: TED notice XML 334859-2021 | TED notice PDF 334859-2021 | TED notice detail 334859-2021'
+    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+  - id: original-source-01
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-dunea-334859/source-01-ted-notice-xml-334859-2021.xml
+    role: original_source_snapshot
+    media_type: application/xml
+    source_url: https://ted.europa.eu/en/notice/334859-2021/xml
+    collected_at: '2026-03-20'
+    original_filename: 334859-2021.xml
+    sha256: 0f57f9d6568f52424946e40a4df8d1572487e9d938dd66c7b0fc5a93be2de68d
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice XML 334859-2021
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-02
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-dunea-334859/source-02-ted-notice-pdf-334859-2021.pdf
+    role: original_source_snapshot
+    media_type: application/pdf
+    source_url: https://ted.europa.eu/en/notice/334859-2021/pdf
+    collected_at: '2026-03-20'
+    original_filename: 334859-2021.pdf
+    sha256: 0cf7508d33fbe21a06249d172ba30e224eb5a8e858733e6792b0f9b7c46241b8
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice PDF 334859-2021
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-03
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-dunea-334859/source-03-ted-notice-detail-334859-2021.html
+    role: original_source_snapshot
+    media_type: text/html
+    source_url: https://ted.europa.eu/en/notice/-/detail/334859-2021
+    collected_at: '2026-03-20'
+    original_filename: 334859-2021.html
+    sha256: a41ed236c4f8a06e4da365b1b70546d837e8033afd851de3e4e85c78bd6c443c
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice detail 334859-2021
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
 expected_output:
   fields_required:
-    - buyer_name
-    - supplier_name
-    - award_date
-    - amount
-    - category_code
+  - buyer_name
+  - supplier_name
+  - award_date
+  - amount
+  - category_code
 answer_key:
   type: structured_fields
   fields:
     buyer_name: Dunea nv
     supplier_name: Hoppenbrouwers Techniek bv
-    award_date: "2021-06-16"
+    award_date: '2021-06-16'
     amount: 2932690.87
-    category_code: "45000000"
+    category_code: '45000000'
 notes:
-  - This Netherlands case adds a new country slice and keeps the answer key on the main TED fields even though the notice also publishes an additional CPV for solar panels.
-  - The object reference, contract number, and Dutch title differ from one another, which makes identifier drift and over-specific CPV extraction easy failure modes.
+- This Netherlands case adds a new country slice and keeps the answer key on the main TED fields even though the notice also publishes an additional CPV for solar panels.
+- The object reference, contract number, and Dutch title differ from one another, which makes identifier drift and over-specific CPV extraction easy failure modes.

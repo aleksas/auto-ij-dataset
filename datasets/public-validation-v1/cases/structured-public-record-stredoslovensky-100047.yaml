@@ -5,41 +5,98 @@ task_type: field_extraction
 answer_mode: exact
 source_family: official_procurement
 source_tier: primary
-target_entity: "TED notice 100047-2021"
+target_entity: TED notice 100047-2021
 sources:
-  - label: TED notice XML 100047-2021
-    url: https://ted.europa.eu/en/notice/100047-2021/xml
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice PDF 100047-2021 (SK)
-    url: https://ted.europa.eu/sk/notice/100047-2021/pdfs
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice detail 100047-2021
-    url: https://ted.europa.eu/en/notice/-/detail/100047-2021
-    checked_on: 2026-03-20
-    provenance: official_portal
+- label: TED notice XML 100047-2021
+  url: https://ted.europa.eu/en/notice/100047-2021/xml
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice PDF 100047-2021 (SK)
+  url: https://ted.europa.eu/sk/notice/100047-2021/pdfs
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice detail 100047-2021
+  url: https://ted.europa.eu/en/notice/-/detail/100047-2021
+  checked_on: 2026-03-20
+  provenance: official_portal
 evidence_bundle:
   kind: structured_record
-  content_markdown: "Materialization pending: fetching source content..."
+  content_markdown: "# Slovak cardiac institute laundry services contract extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/sk/notice/100047-2021/pdfs\n\n## Listed sources\n- TED notice XML 100047-2021: https://ted.europa.eu/en/notice/100047-2021/xml\n- TED notice PDF 100047-2021 (SK): https://ted.europa.eu/sk/notice/100047-2021/pdfs\n- TED notice detail 100047-2021: https://ted.europa.eu/en/notice/-/detail/100047-2021\n\n## Extracted source text\n\n```text\n\xDA. v. E\xDA/S S40\n26/02/2021\n100047-2021-SK\n\n1/4\n\nToto ozn\xE1menie na webovej str\xE1nke TED: https://ted.europa.eu/udl?uri=TED:NOTICE:100047-2021:TEXT:SK:HTML\n\nSlovensko-Bansk\xE1 Bystrica: Pranie a chemick\xE9 \u010Distenie\n2021/S 040-100047\nOzn\xE1menie o v\xFDsledku verejn\xE9ho obstar\xE1vania\nV\xFDsledky verejn\xE9ho obstar\xE1vania\nSlu\u017Eby\nPr\xE1vny z\xE1klad:\nSmernica 2014/24/E\xDA\nOddiel I: Verejn\xFD obstar\xE1vate\u013E\nI.1)\nN\xE1\
+    zov a adresy\n\xDAradn\xFD n\xE1zov: Stredoslovensk\xFD \xFAstav srdcov\xFDch a cievnych chor\xF4b, a.s.\nIdentifika\u010Dn\xE9 \u010D\xEDslo organiz\xE1cie (I\u010CO): 36644331\nPo\u0161tov\xE1 adresa: Cesta k nemocnici 1\nMesto/obec: Bansk\xE1 Bystrica\nK\xF3d NUTS: SK032 Banskobystrick\xFD kraj\nPS\u010C: 974 01\n\u0160t\xE1t: Slovensko\nKontaktn\xE1 osoba: Franti\u0161ek Keru\u013E\nE-mail: logtrade@logtrade.sk\nTelef\xF3n: +421 907225966\nInternetov\xE1 adresa (internetov\xE9 adresy):\nHlavn\xE1 adresa: http://www.suscch.eu\nAdresa str\xE1nky profilu kupuj\xFAceho: http://www.uvo.gov.sk/vyhladavanie-profilov/zakazky/9395\nI.4)\n\nDruh verejn\xE9ho obstar\xE1vate\u013Ea\nOrganiz\xE1cia riaden\xE1 verejn\xFDm pr\xE1vom\n\nI.5)\n\nHlavn\xE1 \u010Dinnos\u0165\nZdravotn\xEDctvo\n\nOddiel II: Predmet\nII.1)\nRozsah obstar\xE1vania\nII.1.1)\n\nN\xE1zov:\nKomplexn\xE9 slu\u017Eby prania bielizne\nReferen\u010Dn\xE9 \u010D\xEDslo: SUSCCH-2020-NZ-pranie\n\nII.1.2)\n\nHlavn\xFD k\xF3d CPV\n\
+    98310000 Pranie a chemick\xE9 \u010Distenie\n\nII.1.3)\n\nDruh z\xE1kazky\nSlu\u017Eby\n\nII.1.4)\n\nStru\u010Dn\xFD opis:\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n1/4\n\n\xDA. v. E\xDA/S S40\n26/02/2021\n100047-2021-SK\n\n2/4\n\nPredmetom z\xE1kazky je poskytovanie komplexn\xFDch slu\u017Eieb prania, dezinfekcie, bielenia, \u017Eehlenia, triedenia,\ndrobn\xFDch opr\xE1v bielizne, preberanie zne\u010Distenej bielizne a odovzd\xE1vanie \u010Distej bielizne.\nPodrobn\xE1 \u0161pecifik\xE1cia rozsahu predmetu z\xE1kazky je uveden\xE1 v pr\xEDlohe \u010D. 3 s\xFA\u0165a\u017En\xFDch podkladov, po\u017Eadovan\xE9\nmno\u017Estvo stravn\xFDch jednotiek je uveden\xE9 v pr\xEDlohe \u010D. 2 s\xFA\u0165a\u017En\xFDch podkladov.\nII.1.6)\n\nInform\xE1cie o \u010Dastiach\nT\xE1to z\xE1kazka sa del\xED na \u010Dasti: nie\n\nII.1.7)\n\nCelkov\xE1 hodnota obstar\xE1vania (bez DPH)\nHodnota bez DPH: 362 664.00 EUR\n\nII.2)\n\nOpis\n\nII.2.3)\n\nMiesto vykonania\nK\xF3d NUTS: SK032 Banskobystrick\xFD\
+    \ kraj\nHlavn\xE9 miesto dodania alebo plnenia:\nStredoslovensk\xFD \xFAstav srdcov\xFDch a cievnych chor\xF4b a. s., Cesta k nemocnici \u010D. 1, 974 01 Bansk\xE1 Bystrica,\nSlovensk\xE1 republika.\n\nII.2.4)\n\nOpis obstar\xE1vania:\n1.Predmet z\xE1kazky: pranie, dezinfekcia, bielenie, \u017Eehlenie, triedenie, oprava pozost\xE1va z:\na) pranie s profesion\xE1lnymi prac\xEDmi a pomocn\xFDmi prostriedkami,\nb) \u010Distenie, dezinfekciu a bielenie bielizne poste\u013Enej, bielizne pre zdravotn\xEDcky a nezdravotn\xEDcky person\xE1l,\nochrann\xFDch pracovn\xFDch prostriedkov a ostatnej bielizne (\u010Falej len bielize\u0148) s t\xFDm, \u017Ee bude dosiahnut\xE9 optim\xE1lne\npH (nealergizuj\xFAce poko\u017Eku) vypranej bielizne,\nc) \u017Eehlenie,\nd) kompletn\xFA manipul\xE1ciu s bieliz\u0148ou, t. j. fyzick\xE9 prevzatie pou\u017Eitej bielizne z miesta dodania a fyzick\xE9\nodovzdanie vypranej bielizne zodpovedn\xFDm pracovn\xEDkom na mieste dodania,\ne) triedenie, viazanie a balenie\
+    \ vy\u010Distenej bielizne pod\u013Ea potrieb a po\u017Eiadaviek Objedn\xE1vate\u013Ea do obalov,\nf) automatick\xE9 opravy bielizne (pozost\xE1vaj\xFAcej najm\xE4 z na\u0161itia ch\xFDbaj\xFAcich gomb\xEDkov, opravy gomb\xEDkov\xFDch\ndierok, na\u0161itie krepovej \u0161n\xFArky, v\xFDmeny po\u0161kodenej gumy v nohaviciach, ob\u0161itie po\u0161kodenej bielizne, oprava\nosobn\xFDch ochrann\xFDch pracovn\xFDch prostriedkov, ob\u0161itie papl\xF3nov, vank\xFA\u0161ov a ostatn\xE9 be\u017En\xE9 opravy),\ng) dezinfekcia matracov najmenej dvakr\xE1t ro\u010Dne,\nh) Neopravite\u013En\xE1 bielize\u0148 bude zabalen\xE1 do samostatn\xE9ho bal\xEDka a ozna\u010Den\xE1 pr\xEDslu\u0161n\xFDm oddelen\xEDm.\nPredpokladan\xE9 mno\u017Estvo bielizne: denne cca 270 kg\n\nII.2.5)\n\nKrit\xE9ri\xE1 na vyhodnotenie pon\xFAk\nCena\n\nII.2.11)\n\nInform\xE1cie o opci\xE1ch\nOpcie: nie\n\nII.2.13)\n\nInform\xE1cie o fondoch Eur\xF3pskej \xFAnie\nObstar\xE1vanie sa t\xFDka projektu a/alebo programu financovan\xE9\
+    ho z fondov Eur\xF3pskej \xFAnie: nie\n\nII.2.14)\n\nDopl\u0148uj\xFAce inform\xE1cie\n\nOddiel IV: Postup\nIV.1)\nOpis\nIV.1.1)\n\nDruh postupu\nVerejn\xE1 s\xFA\u0165a\u017E\n\nIV.1.3)\n\nInform\xE1cie o r\xE1mcovej dohode alebo dynamickom n\xE1kupnom syst\xE9me\nObstar\xE1vanie zah\u0155\u0148a uzavretie r\xE1mcovej dohody\n\nIV.1.8)\n\nInform\xE1cie o dohode o vl\xE1dnom obstar\xE1van\xED (GPA)\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n2/4\n\n\xDA. v. E\xDA/S S40\n26/02/2021\n100047-2021-SK\n\n3/4\n\nNa toto obstar\xE1vanie sa vz\u0165ahuje dohoda o vl\xE1dnom obstar\xE1van\xED: \xE1no\nIV.2)\n\nAdministrat\xEDvne inform\xE1cie\n\nIV.2.1)\n\nPredch\xE1dzaj\xFAce uverejnenie t\xFDkaj\xFAce sa tohto obstar\xE1vacieho konania\n\u010C\xEDslo ozn\xE1menia v \xDA. v. E\xDA: 2020/S 244-604823\n\nIV.2.8)\n\nInform\xE1cie o ukon\u010Den\xED dynamick\xE9ho n\xE1kupn\xE9ho syst\xE9mu\n\nIV.2.9)\n\nInform\xE1cie o ukon\u010Den\xED v\xFDzvy na s\xFA\u0165a\u017E vo forme predbe\u017En\xE9\
+    ho ozn\xE1menia\nVerejn\xFD obstar\xE1vate\u013E nezad\xE1 \u017Eiadne \u010Fal\u0161ie z\xE1kazky na z\xE1klade vy\u0161\u0161ie uveden\xE9ho predbe\u017En\xE9ho ozn\xE1menia\n\nOddiel V: Zadanie z\xE1kazky\nN\xE1zov:\nZmluva o poskytovan\xED slu\u017Eieb\nZ\xE1kazka/\u010Das\u0165 je pridelen\xE1: \xE1no\nV.2)\n\nZadanie z\xE1kazky\n\nV.2.1)\n\nD\xE1tum uzatvorenia zmluvy:\n22/02/2021\n\nV.2.2)\n\nInform\xE1cie o ponuk\xE1ch\nPo\u010Det prijat\xFDch pon\xFAk: 3\nPo\u010Det pon\xFAk doru\u010Den\xFDch od mal\xFDch a stredn\xFDch podnikov: 3\nPo\u010Det pon\xFAk doru\u010Den\xFDch od uch\xE1dza\u010Dov z in\xFDch \u010Dlensk\xFDch \u0161t\xE1tov E\xDA: 0\nPo\u010Det pon\xFAk doru\u010Den\xFDch od uch\xE1dza\u010Dov zo \u0161t\xE1tov, ktor\xE9 nie s\xFA \u010Dlenmi E\xDA: 0\nPo\u010Det pon\xFAk prijat\xFDch elektronicky: 3\nZ\xE1kazka bola pridelen\xE1 skupine hospod\xE1rskych subjektov: nie\n\nV.2.3)\n\nN\xE1zov a adresa dod\xE1vate\u013Ea\n\xDAradn\xFD n\xE1zov: Lavaton s.r.o.\nIdentifika\u010D\
+    n\xE9 \u010D\xEDslo organiz\xE1cie (I\u010CO): 36244848\nPo\u0161tov\xE1 adresa: Bulharsk\xE1 44\nMesto/obec: Trnava\nK\xF3d NUTS: SK021 Trnavsk\xFD kraj\nPS\u010C: 917 00\n\u0160t\xE1t: Slovensko\nE-mail: info@lavaton.sk\nTelef\xF3n: +421 905243922\nInternetov\xE1 adresa: www.lavaton.sk\nDod\xE1vate\u013Eom je MSP: \xE1no\n\nV.2.4)\n\nInform\xE1cie o hodnote z\xE1kazky/\u010Dasti (bez DPH)\nP\xF4vodn\xE1 predpokladan\xE1 celkov\xE1 hodnota z\xE1kazky/\u010Dasti: 431 430.00 EUR\nCelkov\xE1 hodnota z\xE1kazky/\u010Dasti: 362 664.00 EUR\n\nV.2.5)\n\nInform\xE1cie o subdod\xE1vkach\n\nOddiel VI: Doplnkov\xE9 inform\xE1cie\nVI.3)\nDopl\u0148uj\xFAce inform\xE1cie:\nPredmetn\xE9 verejn\xE9 obstar\xE1vanie nie je zelen\xFDm verejn\xFDm obstar\xE1van\xEDm, ani obstar\xE1van\xEDm inov\xE1ci\xED, nie je ani\nobstar\xE1van\xEDm zameran\xFDm na soci\xE1lne aspekty.\nVI.4)\n\nPostupy presk\xFAmania\n\nVI.4.1)\n\nOrg\xE1n zodpovedn\xFD za presk\xFAmanie\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\
+    \n3/4\n\n\xDA. v. E\xDA/S S40\n26/02/2021\n100047-2021-SK\n\n4/4\n\n\xDAradn\xFD n\xE1zov: \xDArad pre verejn\xE9 obstar\xE1vanie\nPo\u0161tov\xE1 adresa: Ru\u017Eov\xE1 dolina 10, P.O.Box 98\nMesto/obec: Bratislava\nPS\u010C: 820 05\n\u0160t\xE1t: Slovensko\nTelef\xF3n: +421 250264176\nFax: +421 250264219\nInternetov\xE1 adresa: http://www.uvo.gov.sk\nVI.4.4)\n\n\xDAtvar, od ktor\xE9ho mo\u017Eno z\xEDska\u0165 inform\xE1cie o postupe presk\xFAmania\n\xDAradn\xFD n\xE1zov: \xDArad pre verejn\xE9 obstar\xE1vanie\nPo\u0161tov\xE1 adresa: Ru\u017Eov\xE1 dolina 10, P.O.Box 98\nMesto/obec: Bratislava\nPS\u010C: 820 05\n\u0160t\xE1t: Slovensko\nTelef\xF3n: +421 250264176\nFax: +421 250264219\nInternetov\xE1 adresa: http://www.uvo.gov.sk\n\nVI.5)\n\nD\xE1tum odoslania tohto ozn\xE1menia:\n23/02/2021\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n4/4\n```\n"
   required_artifacts:
-    - source_record_file
-    - source_record_metadata
+  - source_record_file
+  - source_record_metadata
+  artifacts:
+  - id: materialized_source_document
+    path: datasets/public-validation-v1/source_documents/structured-public-record-stredoslovensky-100047.md
+    role: source_document
+    media_type: text/markdown
+    source_url: https://ted.europa.eu/en/notice/100047-2021/xml
+    collected_at: '2026-03-20'
+    original_filename: 100047-2021.xml
+    sha256: eef23892fe5023bc8e4fe3f8a5601f5969aac635fb44b7931d55f5beb10dda72
+    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: 'Case bundle from: TED notice XML 100047-2021 | TED notice PDF 100047-2021 (SK) | TED notice detail 100047-2021'
+    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+  - id: original-source-01
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-stredoslovensky-100047/source-01-ted-notice-xml-100047-2021.xml
+    role: original_source_snapshot
+    media_type: application/xml
+    source_url: https://ted.europa.eu/en/notice/100047-2021/xml
+    collected_at: '2026-03-20'
+    original_filename: 100047-2021.xml
+    sha256: 39a8618c6b8fa83edc6d441d3e4aa45d4d3e8a33fcf7b6f1994699f2f5592cf5
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice XML 100047-2021
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-02
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-stredoslovensky-100047/source-02-ted-notice-pdf-100047-2021-sk.pdf
+    role: original_source_snapshot
+    media_type: application/pdf
+    source_url: https://ted.europa.eu/sk/notice/100047-2021/pdfs
+    collected_at: '2026-03-20'
+    original_filename: 100047-2021.pdf
+    sha256: 4767046b204701d1e6ba581ee26f00f5d24bfbf2005a2596d52d8ae531843ce4
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice PDF 100047-2021 (SK)
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-03
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-stredoslovensky-100047/source-03-ted-notice-detail-100047-2021.html
+    role: original_source_snapshot
+    media_type: text/html
+    source_url: https://ted.europa.eu/en/notice/-/detail/100047-2021
+    collected_at: '2026-03-20'
+    original_filename: 100047-2021.html
+    sha256: fe16bdaa50f78be58bd0f236c8f660ce45b8580877e04648b540209061d24508
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice detail 100047-2021
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
 expected_output:
   fields_required:
-    - buyer_name
-    - supplier_name
-    - award_date
-    - amount
-    - category_code
+  - buyer_name
+  - supplier_name
+  - award_date
+  - amount
+  - category_code
 answer_key:
   type: structured_fields
   fields:
-    buyer_name: "Stredoslovenský ústav srdcových a cievnych chorôb, a.s."
+    buyer_name: "Stredoslovensk\xFD \xFAstav srdcov\xFDch a cievnych chor\xF4b, a.s."
     supplier_name: Lavaton s.r.o.
-    award_date: "2021-02-22"
-    amount: 362664.00
-    category_code: "98310000"
+    award_date: '2021-02-22'
+    amount: 362664.0
+    category_code: '98310000'
 notes:
-  - This Slovakia hospital-services notice is a single-award case with one contractor and one awarded total, so the answer key is directly recoverable from the XML award block.
-  - The buyer name carries Slovak diacritics and a corporate suffix, while the narrative description is much longer than the structured CPV field.
+- This Slovakia hospital-services notice is a single-award case with one contractor and one awarded total, so the answer key is directly recoverable from the XML award block.
+- The buyer name carries Slovak diacritics and a corporate suffix, while the narrative description is much longer than the structured CPV field.

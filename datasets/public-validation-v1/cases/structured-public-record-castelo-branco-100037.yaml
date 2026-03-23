@@ -5,41 +5,96 @@ task_type: field_extraction
 answer_mode: exact
 source_family: official_procurement
 source_tier: primary
-target_entity: "TED notice 100037-2021"
+target_entity: TED notice 100037-2021
 sources:
-  - label: TED notice XML 100037-2021
-    url: https://ted.europa.eu/en/notice/100037-2021/xml
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice PDF 100037-2021 (PT)
-    url: https://ted.europa.eu/pt/notice/100037-2021/pdfs
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice detail 100037-2021
-    url: https://ted.europa.eu/en/notice/-/detail/100037-2021
-    checked_on: 2026-03-20
-    provenance: official_portal
+- label: TED notice XML 100037-2021
+  url: https://ted.europa.eu/en/notice/100037-2021/xml
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice PDF 100037-2021 (PT)
+  url: https://ted.europa.eu/pt/notice/100037-2021/pdfs
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice detail 100037-2021
+  url: https://ted.europa.eu/en/notice/-/detail/100037-2021
+  checked_on: 2026-03-20
+  provenance: official_portal
 evidence_bundle:
   kind: structured_record
-  content_markdown: "Materialization pending: fetching source content..."
+  content_markdown: "# Castelo Branco security services contract extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/pt/notice/100037-2021/pdfs\n\n## Listed sources\n- TED notice XML 100037-2021: https://ted.europa.eu/en/notice/100037-2021/xml\n- TED notice PDF 100037-2021 (PT): https://ted.europa.eu/pt/notice/100037-2021/pdfs\n- TED notice detail 100037-2021: https://ted.europa.eu/en/notice/-/detail/100037-2021\n\n## Extracted source text\n\n```text\nJO/S S40\n26/02/2021\n100037-2021-PT\n\n1/3\n\nO presente an\xFAncio no s\xEDtio web do TED: https://ted.europa.eu/udl?uri=TED:NOTICE:100037-2021:TEXT:PT:HTML\n\nPortugal-Castelo Branco: Servi\xE7os de seguran\xE7a\n2021/S 040-100037\nAn\xFAncio de adjudica\xE7\xE3o de contrato\nResultados do concurso\nServi\xE7os\nBase jur\xEDdica:\nDiretiva 2014/24/UE\nSec\xE7\xE3o I: Autoridade adjudicante\nI.1)\nNome e endere\xE7os\nNome oficial: Munic\xEDpio de Castelo Branco\nN\xFA\
+    mero de registo nacional: 501143530\nEndere\xE7o postal: Pra\xE7a do Munic\xEDpio\nLocalidade: Castelo Branco\nC\xF3digo NUTS: PT16H Beira Baixa\nC\xF3digo postal: 6000-458\nPa\xEDs: Portugal\nPessoa de contacto: Presidente do J\xFAri\nCorreio eletr\xF3nico: camara@cm-castelobranco.pt\nTelefone: +351 272330330\nEndere\xE7o(s) Internet:\nEndere\xE7o principal: www.cm-castelobranco.pt\nI.4)\n\nTipo de autoridade adjudicante\nAutoridades regionais ou locais\n\nI.5)\n\nAtividade principal\nServi\xE7os p\xFAblicos gerais\n\nSec\xE7\xE3o II: Objeto\nII.1)\nQuantidade ou \xE2mbito do concurso\nII.1.1)\n\nT\xEDtulo:\nPresta\xE7\xE3o de servi\xE7os de vigil\xE2ncia e seguran\xE7a humana nos parques de estacionamento cobertos do\nmunic\xEDpio, Museu Cargaleiro, zona de mercados e feiras na Quinta Pires Marques, eventos municipais e de\nliga\xE7\xE3o \xE0 central de rece\xE7\xE3o e monitoriza\xE7\xE3o de alarmes com servi\xE7o de piquete de instala\xE7\xF5es municipais\nN\xFAmero de refer\xEAncia:\
+    \ CPI S 160/2020\n\nII.1.2)\n\nC\xF3digo CPV principal\n79710000 Servi\xE7os de seguran\xE7a\n\nII.1.3)\n\nTipo de contrato\nServi\xE7os\n\nII.1.4)\n\nDescri\xE7\xE3o resumida:\nPretende-se a contrata\xE7\xE3o de uma empresa para a presta\xE7\xE3o de servi\xE7os de vigil\xE2ncia e seguran\xE7a humana.\n\nII.1.6)\n\nInforma\xE7\xE3o sobre os lotes\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n1/3\n\nJO/S S40\n26/02/2021\n100037-2021-PT\n\n2/3\n\nContrato dividido em lotes: n\xE3o\nII.1.7)\n\nValor total do concurso (sem IVA)\nValor sem IVA: 786 821.40 EUR\n\nII.2)\n\nDescri\xE7\xE3o\n\nII.2.3)\n\nLocal de execu\xE7\xE3o\nC\xF3digo NUTS: PT16H Beira Baixa\nLocal principal de execu\xE7\xE3o:\nConcelho de Castelo Branco.\n\nII.2.4)\n\nDescri\xE7\xE3o do concurso:\nPretende-se a contrata\xE7\xE3o de uma empresa para a presta\xE7\xE3o de servi\xE7os de vigil\xE2ncia e seguran\xE7a humana.\n\nII.2.5)\n\nCrit\xE9rios de adjudica\xE7\xE3o\ncrit\xE9rios relativos ao custo - Nome: Pre\xE7o /\
+    \ Pondera\xE7\xE3o: 60\ncrit\xE9rios relativos ao custo - Nome: Qualidade de servi\xE7o / Pondera\xE7\xE3o: 15\ncrit\xE9rios relativos ao custo - Nome: Supervis\xE3o de servi\xE7o / Pondera\xE7\xE3o: 15\ncrit\xE9rios relativos ao custo - Nome: Prote\xE7\xE3o pessoal / Pondera\xE7\xE3o: 10\n\nII.2.11)\n\nInforma\xE7\xE3o sobre as op\xE7\xF5es\nOp\xE7\xF5es: n\xE3o\n\nII.2.13)\n\nInforma\xE7\xE3o sobre os fundos da Uni\xE3o Europeia\nO contrato est\xE1 relacionado com um projeto e/ou programa financiado por fundos da Uni\xE3o Europeia: n\xE3o\n\nII.2.14)\n\nInforma\xE7\xE3o adicional\n\nSec\xE7\xE3o IV: Procedimento\nIV.1)\nDescri\xE7\xE3o\nIV.1.1)\n\nTipo de procedimento\nConcurso aberto\n\nIV.1.3)\n\nInforma\xE7\xE3o acerca do acordo-quadro ou sistema de aquisi\xE7\xE3o din\xE2mico\n\nIV.1.8)\n\nInforma\xE7\xE3o relativa ao Acordo sobre Contratos P\xFAblicos (ACP)\nO contrato \xE9 abrangido pelo Acordo sobre Contratos P\xFAblicos: sim\n\nIV.2)\n\nInforma\xE7\xE3o administrativa\n\nIV.2.1)\n\
+    \nPublica\xE7\xE3o anterior referente ao presente concurso\nN\xFAmero do an\xFAncio no JO S: 2020/S 165-400716\n\nIV.2.8)\n\nInforma\xE7\xE3o relativa \xE0 rescis\xE3o do sistema de aquisi\xE7\xE3o din\xE2mico\n\nIV.2.9)\n\nInforma\xE7\xE3o relativa \xE0 rescis\xE3o do convite \xE0 apresenta\xE7\xE3o de propostas sob a forma de um an\xFAncio de\npr\xE9-informa\xE7\xE3o\n\nSec\xE7\xE3o V: Adjudica\xE7\xE3o de contrato\nContrato n.\xBA: 204\nT\xEDtulo:\nPresta\xE7\xE3o de servi\xE7os de vigil\xE2ncia e seguran\xE7a humana nos parques de estacionamento cobertos do\nmunic\xEDpio, Museu Cargaleiro, zona de mercados e feiras na Quinta Pires Marques, eventos municipais e de\nliga\xE7\xE3o\nUm contrato/lote \xE9 adjudicado: sim\nV.2)\n\nAdjudica\xE7\xE3o de contrato\n\nV.2.1)\n\nData de celebra\xE7\xE3o do contrato:\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n2/3\n\nJO/S S40\n26/02/2021\n100037-2021-PT\n\n3/3\n\n11/12/2020\nV.2.2)\n\nInforma\xE7\xE3o sobre as propostas\nN\xFAmero de propostas\
+    \ recebidas: 7\nN\xFAmero de propostas recebidas de PME: 7\nN\xFAmero de propostas recebidas de proponentes de outros Estados-Membros da UE: 0\nN\xFAmero de propostas recebidas de proponentes de pa\xEDses terceiros: 0\nN\xFAmero de propostas recebidas por via eletr\xF3nica: 7\nO contrato foi adjudicado a um agrupamento de operadores econ\xF3micos: n\xE3o\n\nV.2.3)\n\nNome e endere\xE7o do contratante\nNome oficial: Strong Charon \u2014 Solu\xE7\xF5es de Seguran\xE7a, S. A.\nN\xFAmero de registo nacional: 503257567\nEndere\xE7o postal: Rua do Entreposto Industrial, 8, r\xE9s-do-ch\xE3o\nLocalidade: Alfragide\nC\xF3digo NUTS: PT17 \xC1rea Metropolitana de Lisboa\nC\xF3digo postal: 2610-135\nPa\xEDs: Portugal\nCorreio eletr\xF3nico: geral@strongcharon.pt\nTelefone: +351 210420800\nO contratante \xE9 uma PME: sim\n\nV.2.4)\n\nInforma\xE7\xE3o sobre o valor do contrato/lote (sem IVA)\nValor total inicialmente estimado do contrato/lote: 786 821.40 EUR\nValor total do contrato/lote: 663 996.02\
+    \ EUR\n\nV.2.5)\n\nInforma\xE7\xE3o acerca da subcontrata\xE7\xE3o\n\nSec\xE7\xE3o VI: Informa\xE7\xE3o complementar\nVI.3)\nInforma\xE7\xE3o adicional:\nVI.4)\n\nProcedimentos de recurso\n\nVI.4.1)\n\nOrganismo respons\xE1vel pelos processos de recurso\nNome oficial: C\xE2mara Municipal de Castelo Branco\nEndere\xE7o postal: Pra\xE7a do Munic\xEDpio\nLocalidade: Castelo Branco\nC\xF3digo postal: 6000-458\nPa\xEDs: Portugal\nCorreio eletr\xF3nico: camara@cm-castelobranco.pt\nTelefone: +351 272330330\n\nVI.5)\n\nData de envio do presente an\xFAncio:\n23/02/2021\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n3/3\n```\n"
   required_artifacts:
-    - source_record_file
-    - source_record_metadata
+  - source_record_file
+  - source_record_metadata
+  artifacts:
+  - id: materialized_source_document
+    path: datasets/public-validation-v1/source_documents/structured-public-record-castelo-branco-100037.md
+    role: source_document
+    media_type: text/markdown
+    source_url: https://ted.europa.eu/en/notice/100037-2021/xml
+    collected_at: '2026-03-20'
+    original_filename: 100037-2021.xml
+    sha256: 52a441a8b1d6df5fac801163b6d76a8aadbbc27d9745368985dff2a17c1aa313
+    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: 'Case bundle from: TED notice XML 100037-2021 | TED notice PDF 100037-2021 (PT) | TED notice detail 100037-2021'
+    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+  - id: original-source-01
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-castelo-branco-100037/source-01-ted-notice-xml-100037-2021.xml
+    role: original_source_snapshot
+    media_type: application/xml
+    source_url: https://ted.europa.eu/en/notice/100037-2021/xml
+    collected_at: '2026-03-20'
+    original_filename: 100037-2021.xml
+    sha256: 489957e329fe6ca0cf6430ff7f47056ddf0c753d6cf51f82b0dbee09910af808
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice XML 100037-2021
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-02
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-castelo-branco-100037/source-02-ted-notice-pdf-100037-2021-pt.pdf
+    role: original_source_snapshot
+    media_type: application/pdf
+    source_url: https://ted.europa.eu/pt/notice/100037-2021/pdfs
+    collected_at: '2026-03-20'
+    original_filename: 100037-2021.pdf
+    sha256: 5f5e217e4e00bdff5fe4e90aefb9f16ad6988ab64e0747a7d436b7f48e30bd76
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice PDF 100037-2021 (PT)
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-03
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-castelo-branco-100037/source-03-ted-notice-detail-100037-2021.html
+    role: original_source_snapshot
+    media_type: text/html
+    source_url: https://ted.europa.eu/en/notice/-/detail/100037-2021
+    collected_at: '2026-03-20'
+    original_filename: 100037-2021.html
+    sha256: 0371c1c07a1f121ee7baced8ef8ae731b9137346e55dd4548e7ea34c8746c075
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice detail 100037-2021
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
 expected_output:
   fields_required:
-    - buyer_name
-    - supplier_name
-    - award_date
-    - amount
-    - category_code
+  - buyer_name
+  - supplier_name
+  - award_date
+  - amount
+  - category_code
 answer_key:
   type: structured_fields
   fields:
-    buyer_name: Município de Castelo Branco
-    supplier_name: "Strong Charon — Soluções de Segurança, S. A."
-    award_date: "2020-12-11"
+    buyer_name: "Munic\xEDpio de Castelo Branco"
+    supplier_name: "Strong Charon \u2014 Solu\xE7\xF5es de Seguran\xE7a, S. A."
+    award_date: '2020-12-11'
     amount: 663996.02
-    category_code: "79710000"
+    category_code: '79710000'
 notes:
-  - This Portuguese award notice is a no-lot single-supplier case with one awarded amount, which keeps the extraction target narrow.
-  - The supplier name includes an em dash, accents, and corporate punctuation, so the exact answer checks whether extraction preserves the official awarded-contractor field.
+- This Portuguese award notice is a no-lot single-supplier case with one awarded amount, which keeps the extraction target narrow.
+- The supplier name includes an em dash, accents, and corporate punctuation, so the exact answer checks whether extraction preserves the official awarded-contractor field.

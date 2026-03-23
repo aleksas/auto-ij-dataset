@@ -5,37 +5,90 @@ task_type: field_extraction
 answer_mode: exact
 source_family: official_procurement
 source_tier: primary
-target_entity: "TED notice 409374-2019, contract C9264 lot 3"
+target_entity: TED notice 409374-2019, contract C9264 lot 3
 sources:
-  - label: TED notice PDF 409374-2019
-    url: https://ted.europa.eu/en/notice/409374-2019/pdfs
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice HTML 409374-2019
-    url: https://ted.europa.eu/udl?uri=TED:NOTICE:409374-2019:TEXT:EN:HTML
-    checked_on: 2026-03-20
-    provenance: official_portal
+- label: TED notice PDF 409374-2019
+  url: https://ted.europa.eu/en/notice/409374-2019/pdfs
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice HTML 409374-2019
+  url: https://ted.europa.eu/udl?uri=TED:NOTICE:409374-2019:TEXT:EN:HTML
+  checked_on: 2026-03-20
+  provenance: official_portal
 evidence_bundle:
   kind: structured_record
-  content_markdown: "Materialization pending: fetching source content..."
+  content_markdown: "# Home Office ESN lot 3 contract variation extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/en/notice/409374-2019/pdfs\n\n## Listed sources\n- TED notice PDF 409374-2019: https://ted.europa.eu/en/notice/409374-2019/pdfs\n- TED notice HTML 409374-2019: https://ted.europa.eu/udl?uri=TED:NOTICE:409374-2019:TEXT:EN:HTML\n\n## Extracted source text\n\n```text\nOJ/S S167\n30/08/2019\n409374-2019-EN\n\n- - Services - Contract award notice - Negotiated\nprocedure without a call for competition\n\n1/6\n\nThis notice in TED website: https://ted.europa.eu/udl?uri=TED:NOTICE:409374-2019:TEXT:EN:HTML\n\nUnited Kingdom-London: Telecommunications services\n2019/S 167-409374\nContract award notice\nResults of the procurement procedure\nServices\nLegal Basis:\nDirective 2014/24/EU\nSection I: Contracting authority\nI.1)\nName and addresses\nThe Secretary of State for the Home Department, Emergency Services Mobile\
+    \ Communications Programme\n(ESMCP)\n3rd Floor, Clive House, 70 Petty France\nLondon\nSW1H 9EX\nUnited Kingdom\nContact person: ESMCP Commercial Team\nE-mail: esmcpsupplier@homeoffice.gov.uk\nNUTS code: UK\nInternet address(es):\nMain address: https://www.gov.uk/government/organisations/home-office\nI.2)\n\nInformation about joint procurement\nThe contract is awarded by a central purchasing body\n\nI.4)\n\nType of the contracting authority\nMinistry or any other national or federal authority, including their regional or local subdivisions\n\nI.5)\n\nMain activity\nPublic order and safety\n\nSection II: Object\nII.1)\nScope of the procurement\nII.1.1)\n\nTitle:\nEmergency Services Network (ESN) Lot 2 Mobile Services \u2014 Contract Variation Award\nReference number: C9264\n\nII.1.2)\n\nMain CPV code\n64200000\n\nII.1.3)\n\nType of contract\nServices\n\nII.1.4)\n\nShort description:\nIn December 2015, following an OJEU advertisement (2014/S 077-133654), the Home Office concluded \u2018\
+    the\nESN Lot 3 contract\u2019 with EE Ltd (\u2018EE\u2019), for the development and provision of a 4G network, as part of the\n\n30/08/2019\nS167\nhttps://ted.europa.eu/\nTED\n\n- - Services - Contract award notice - Negotiated\nprocedure without a call for competition\nSupplement to the Official Journal of the European Union\n\n1/6\n\nOJ/S S167\n30/08/2019\n409374-2019-EN\n\n- - Services - Contract award notice - Negotiated\nprocedure without a call for competition\n\n2/6\n\nemergency services network (\u2018ESN\u2019) project. ESN will be used by organisations (including the emergency\nservices) requiring a public safety communications solution (\u2018PSCS\u2019). ESN will replace \u2018Airwave\u2019, which uses old\ntechnology and is costly. The new solution will provide \u2018push to talk\u2019 functionality and new data services.\nThe Lot 3 services will provide the network for the push-to-talk and data solution provided by ESN\u2019s Lot 2\nprovider. The Lot 3 network will utilise\
+    \ a network provider\u2019s existing mobile network, but also bespoke services,\nincluding special \u2018coverage\u2019 (e.g. in tunnels and remote locations) and specific services (e.g. priority over other\nnetwork traffic, high availability, security protections and integration with the Lot 2 solution and end-user devices.\nII.1.6)\n\nInformation about lots\nThis contract is divided into lots: no\n\nII.1.7)\n\nTotal value of the procurement (excluding VAT)\nValue excluding VAT: 681 400 000.00 GBP\n\nII.2)\n\nDescription\n\nII.2.1)\n\nTitle:\n\nII.2.2)\n\nAdditional CPV code(s)\n32000000\n32523000\n45232332\n45314000\n48200000\n50312300\n50312600\n50330000\n50334400\n51000000\n64212000\n64225000\n72000000\n72253000\n72253200\n72315000\n72318000\n72322000\n98110000\n\nII.2.3)\n\nPlace of performance\nNUTS code: UK\n\nII.2.4)\n\nDescription of the procurement:\nUnder the existing ESN Lot 3 contract, the main services provided by EE (remaining the same following\nvariation) comprise these\
+    \ key elements:\n\u2014 provision of mobile network coverage, capable of supporting the PSCS,\n\u2014 supply, installation and maintenance of radio equipment to enable coverage in an extended area,\n\u2014 provision of ESN and critical mobile communications services,\n\u2014 technical interfaces,\n\u2014 manage availability and capacity across the ESN mobile network,\n\u2014 support services,\n\n30/08/2019\nS167\nhttps://ted.europa.eu/\nTED\n\n- - Services - Contract award notice - Negotiated\nprocedure without a call for competition\nSupplement to the Official Journal of the European Union\n\n2/6\n\nOJ/S S167\n30/08/2019\n409374-2019-EN\n\n- - Services - Contract award notice - Negotiated\nprocedure without a call for competition\n\n3/6\n\n\u2014 a capability to deliver enhanced ESN coverage, and\n\u2014 testing of mobile devices ESN.\nKey aspects of the variation:\n\u2014 contract period to be extended. Its original term is due to expire on 8.12.2021 (or, insofar as extension\noptions\
+    \ in the original contract are exercised, on 8.12.2022). The variation will extend the term to Dec 2024\nin order to provide a network capable of supporting the new technology throughout the period for \u2018rollout\u2019 of\nthe ESN solution to end users (from approximately Sept 2020 to Dec 2022), and for a relatively short period\nthereafter to enable stabilisation of the ESN solution, and preparation for transition to any new provider,\n\u2014 a new payment structure whereby EE will be paid for delivery of the network on the basis that it is materially\ncompleted; but any infrastructure which is not completed by the milestone date results in payment abatements,\n\u2014 a new methodology which sets out the process and approach to identification of any \u2018gaps\u2019 in the network\nand EE\u2019s obligation to fix gaps,\n\u2014 the testing approach and timetable will be amended to be incremental rather than 'big bang' to align with the\ndelivery of the \u2018Kodiak\u2019 push-to-talk\
+    \ application,\n\u2014 the transition of users onto the EE network will be phased over a 27-month period commencing in Sept 2020,\n\u2014 additional product and testing services to be provided by EE shall be paid for and ordered by the authority to\nsupport changes in the Lot 2 contract (e.g. Wave 7 000 to Kodiak),\n\u2014 joint commitment to build an engineering plan for evolving the ESN core network and IP Multimedia\nsubsystem (\u2018IMS\u2019) (a new standardised and virtualised core network). EE is to have a unilateral right of\ntermination in the event that the ESN programme does not move to an IMS-hosted core,\n\u2014 historic disputes and claims between the Home Office and EE will be settled.\nThe value of the Lot 3 ESN contract when originally procured was 735 800 000 GBP (\u2018m\u2019). Pursuant to other\ndevelopments or changes in the contract over its lifetime, its current value, prior to the amendments described\nherein, was 675 600 000 GBP at the time of the heads of terms.\
+    \ Following the amendments described herein,\nits total value over the lifetime of the contract will be to 895 700 000 GBP, and its prospective value from the\ndate of amendment will be 681 400 000 GBP.\nThe increase in value of 220 100 000 GBP from the 675 600 000 GBP figure to 895 700 000 GBP is made up\nof:\n\u2014 the extension to the contract term 216 000 000 GBP,\n\u2014 an extra 20 000 000 GBP in ROM costs associated with moving to an incremental delivery model, less\n\u2014 15 900 000 GBP in reduced charges due to delayed roll out.\nThe need for these changes is because the ESN project is delayed. It is necessary to extend the Lot 3 contract,\nwhich would otherwise expire during (or at best very shortly after) the ESN rollout period (from Sept 2020\nto Dec 2022); otherwise, there would be a change of network provider during the critical rollout period, or\na high risk of a change of provider during the critical rollout period; or, at best, a change of provider during\nthe important\
+    \ period of stabilisation immediately following rollout. Other changes reflect changes to the Lot 2\ncontract (\u2018incremental\u2019 rollout will mean at least some users being provided with an ESN solution earlier than\nthey would with a \u2018big bang\u2019 rollout; mitigating the delays; and Lot 3 will now need to accommodate the new\n\u2018Kodiak' solution from Lot 2) and refinement of the Home Office\u2019s requirements.\nII.2.5)\n\nAward criteria\nQuality criterion - Name: Service and technical delivery, performance and risk / Weighting: 45\nCost criterion - Name: Overall cost effectiveness / Weighting: 55\n\nII.2.11)\n\nInformation about options\nOptions: no\n\nII.2.13)\n\nInformation about European Union funds\n\n30/08/2019\nS167\nhttps://ted.europa.eu/\nTED\n\n- - Services - Contract award notice - Negotiated\nprocedure without a call for competition\nSupplement to the Official Journal of the European Union\n\n3/6\n\nOJ/S S167\n30/08/2019\n409374-2019-EN\n\n- - Services -\
+    \ Contract award notice - Negotiated\nprocedure without a call for competition\n\n4/6\n\nThe procurement is related to a project and/or programme financed by European Union funds: no\nII.2.14)\n\nAdditional information\n\nSection IV: Procedure\nIV.1)\nDescription\nIV.1.1)\n\nType of procedure\nAward of a contract without prior publication of a call for competition in the Official Journal of the European\nUnion in the cases listed below\n\u2022 The works, supplies or services can be provided only by a particular economic operator for the following reason:\n\u2022 absence of competition for technical reasons\nExplanation:\nThis is a modification of a contract via a new procurement procedure pursuant to paragraph 5 of Article 72 of\nDirective 2014/24/EU.\nThe new procurement procedure is the negotiated procedure without prior publication, under Article 32.\nHaving taken specialist legal advice, the authority's view is that reliance on Regulation 32 is justified because\nthe services being\
+    \ procured under the modified contract can be provided only by EE because competition is\nabsent for technical reasons.\nThe services required by the Home Office consist of the network services needed for a full rollout of the ESN\nsolution as soon as reasonably possible (to transition away from, and avoid the high costs of, Airwave and to\nimprove end users' PSCS).\nIf the Home Office continues to use EE as its Lot 3 provider then it expects that availability of a fully functional\nsolution (known as \u2018prime\u2019 availability) will be ready for the start of rollout to end users in around September\n2020. Rollout is scheduled to require approximately 27 months thereafter, such that it will be complete by\naround December 2022, and Airwave can be switched off in December 2022 (with the high costs of Airwave\ntherefore ending at that point).\nThe Home Office is therefore procuring Lot 3 services which will enable the commencement of rollout in around\nSeptember 2020, and the completion\
+    \ of rollout in around December 2022. Only EE is able to supply such\nservices. There is no realistic prospect of a new Lot 3 provider being in position to facilitate a \u2018prime\u2019 date as\nearly as September 2020. The Home Office estimates that it would take 3 years to procure through a fresh\ncompetition a signed contract with a new provider for a contract as large and complex as this one; and that\nit would then take the new provider a further 2 years to build the requisite coverage and network solution\n(whereas EE has already made very substantial technical progress in building these). On that timetable, for\ntechnical reasons (i.e. the need to build requisite coverage and the network solution), a new provider could\nnot reach \u2018prime\u2019 until mid-2024, i.e. almost 4 years later than with EE. Even if it were somehow possible for a\nnew provider to start providing Lot 3 services earlier than that, it would certainly be unable to do so before the\nstart of the \u2018\
+    rollout\u2019 period in September 2020; and any transition to a new provider during the \u2018rollout\u2019 period, or\nduring stabilisation, would make no sense (for example, making delivery risks unacceptably high, and requiring\na challenging, expensive and probably unreliable interface between EE\u2019s ESN network and the new provider\u2019s\nESN network), especially in the context of critical national infrastructure which must be wholly reliable.\nThe Home Office has therefore concluded that a switch to a new Lot 3 provider would delay the ESN project by\napproximately 4 years, in that it would delay the start of rollout to mid-2024, as compared with a current planned\ndate with EE of September 2020; and delay the completion of rollout to late 2026, as compared with a current\nplanned date of December 2022. The Home Office forecasts that, aside from delaying the rollout of important\nnew functionality to end users in the emergency services, this delay would have a financial cost\
+    \ (principally\nbecause of the high cost of Airwave Services, which cannot be switched off until ESN is fully rolled out) of in\nexcess of 1 600 000 000 GBP.\n\n30/08/2019\nS167\nhttps://ted.europa.eu/\nTED\n\n- - Services - Contract award notice - Negotiated\nprocedure without a call for competition\nSupplement to the Official Journal of the European Union\n\n4/6\n\nOJ/S S167\n30/08/2019\n409374-2019-EN\n\n- - Services - Contract award notice - Negotiated\nprocedure without a call for competition\n\n5/6\n\nTherefore, for technical reasons (ultimately, the requirement for any new provider to build the requisite coverage\nand network solution), the Home Office is procuring services (namely, a network solution and coverage which\nenable the start of rollout by September 2020) which only EE can provide.\nIV.1.3)\n\nInformation about a framework agreement or a dynamic purchasing system\n\nIV.1.6)\n\nInformation about electronic auction\n\nIV.1.8)\n\nInformation about the Government Procurement\
+    \ Agreement (GPA)\nThe procurement is covered by the Government Procurement Agreement: yes\n\nIV.2)\n\nAdministrative information\n\nIV.2.1)\n\nPrevious publication concerning this procedure\nNotice number in the OJ S: 2019/S 140-345862\n\nIV.2.8)\n\nInformation about termination of dynamic purchasing system\n\nIV.2.9)\n\nInformation about termination of call for competition in the form of a prior information notice\n\nSection V: Award of contract\nContract No: C9264\nLot No: 3\nTitle:\nEmergency Services Network (ESN) Lot 3 \u2014 Mobile Services \u2014 Contract Variation Award\nA contract/lot is awarded: yes\nV.2)\n\nAward of contract\n\nV.2.1)\n\nDate of conclusion of the contract:\n31/07/2019\n\nV.2.2)\n\nInformation about tenders\nNumber of tenders received: 1\nThe contract has been awarded to a group of economic operators: no\n\nV.2.3)\n\nName and address of the contractor\nEE Ltd\nTrident Place, Mosquito Way\nHatfield\nAL10 9BW\nUnited Kingdom\nNUTS code: UK\nThe contractor is\
+    \ an SME: no\n\nV.2.4)\n\nInformation on value of the contract/lot (excluding VAT)\nInitial estimated total value of the contract/lot: 681 400 000.00 GBP\nTotal value of the contract/lot: 681 400 000.00 GBP\n\nV.2.5)\n\nInformation about subcontracting\nThe contract is likely to be subcontracted\nValue or proportion likely to be subcontracted to third parties\nProportion: 10 %\nShort description of the part of the contract to be subcontracted:\n\n30/08/2019\nS167\nhttps://ted.europa.eu/\nTED\n\n- - Services - Contract award notice - Negotiated\nprocedure without a call for competition\nSupplement to the Official Journal of the European Union\n\n5/6\n\nOJ/S S167\n30/08/2019\n409374-2019-EN\n\n- - Services - Contract award notice - Negotiated\nprocedure without a call for competition\n\n6/6\n\nThe Services include various specialist technical activities. EE have declared their intention to sub-let some of\nthese elements to relevant specialists. It is intended that these sub-contracted\
+    \ Services account for in the region\nof 10 % of the total contract value.\nSection VI: Complementary information\nVI.3)\nAdditional information:\nVI.4)\n\nProcedures for review\n\nVI.4.1)\n\nReview body\nN/a\nLondon\nUnited Kingdom\n\nVI.4.2)\n\nBody responsible for mediation procedures\n\nVI.4.3)\n\nReview procedure\n\nVI.4.4)\n\nService from which information about the review procedure may be obtained\n\nVI.5)\n\nDate of dispatch of this notice:\n28/08/2019\n\n30/08/2019\nS167\nhttps://ted.europa.eu/\nTED\n\n- - Services - Contract award notice - Negotiated\nprocedure without a call for competition\nSupplement to the Official Journal of the European Union\n\n6/6\n```\n"
   required_artifacts:
-    - source_record_file
-    - source_record_metadata
+  - source_record_file
+  - source_record_metadata
+  artifacts:
+  - id: materialized_source_document
+    path: datasets/public-validation-v1/source_documents/structured-public-record-home-office-409374-lot-3.md
+    role: source_document
+    media_type: text/markdown
+    source_url: https://ted.europa.eu/en/notice/409374-2019/pdfs
+    collected_at: '2026-03-20'
+    original_filename: 409374-2019.pdf
+    sha256: b096af97b002acbdd6e5183716fa134a439102e9e4e58c6639115ebeb39d070d
+    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: 'Case bundle from: TED notice PDF 409374-2019 | TED notice HTML 409374-2019'
+    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+  - id: original-source-01
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-home-office-409374-lot-3/source-01-ted-notice-pdf-409374-2019.pdf
+    role: original_source_snapshot
+    media_type: application/pdf
+    source_url: https://ted.europa.eu/en/notice/409374-2019/pdfs
+    collected_at: '2026-03-20'
+    original_filename: 409374-2019.pdf
+    sha256: 626a697d759d3b9e09fa74ecbfa9972ff2e9f5f8eab9ac6f1abe607983e63395
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice PDF 409374-2019
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-02
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-home-office-409374-lot-3/source-02-ted-notice-html-409374-2019.html
+    role: original_source_snapshot
+    media_type: text/html
+    source_url: https://ted.europa.eu/udl?uri=TED:NOTICE:409374-2019:TEXT:EN:HTML
+    collected_at: '2026-03-20'
+    original_filename: udl.html
+    sha256: 6beab081114b64f4b84eebdd895adb48039150a5ec4189490cad963286f3ec25
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice HTML 409374-2019
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
 expected_output:
   fields_required:
-    - buyer_name
-    - supplier_name
-    - award_date
-    - amount
-    - category_code
+  - buyer_name
+  - supplier_name
+  - award_date
+  - amount
+  - category_code
 answer_key:
   type: structured_fields
   fields:
-    buyer_name: "The Secretary of State for the Home Department, Emergency Services Mobile Communications Programme (ESMCP)"
+    buyer_name: The Secretary of State for the Home Department, Emergency Services Mobile Communications Programme (ESMCP)
     supplier_name: EE Ltd
-    award_date: "2019-07-31"
-    amount: 681400000.00
-    category_code: "64200000"
+    award_date: '2019-07-31'
+    amount: 681400000.0
+    category_code: '64200000'
 notes:
-  - The notice-level object describes the ESN procurement broadly, but section V identifies the awarded contract specifically as contract C9264, lot 3.
-  - This case tests whether extraction stays on the awarded lot and uses EE Ltd with the amended lot value instead of earlier notice-level figures from the contract-variation narrative.
+- The notice-level object describes the ESN procurement broadly, but section V identifies the awarded contract specifically as contract C9264, lot 3.
+- This case tests whether extraction stays on the awarded lot and uses EE Ltd with the amended lot value instead of earlier notice-level figures from the contract-variation narrative.

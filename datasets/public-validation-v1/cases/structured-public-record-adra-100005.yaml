@@ -5,49 +5,96 @@ task_type: field_extraction
 answer_mode: exact
 source_family: official_procurement
 source_tier: primary
-target_entity: "TED notice 100005-2021"
+target_entity: TED notice 100005-2021
 sources:
-  - label: TED notice XML 100005-2021
-    url: https://ted.europa.eu/en/notice/100005-2021/xml
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice PDF 100005-2021 (PT)
-    url: https://ted.europa.eu/pt/notice/100005-2021/pdfs
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice detail 100005-2021
-    url: https://ted.europa.eu/en/notice/-/detail/100005-2021
-    checked_on: 2026-03-20
-    provenance: official_portal
+- label: TED notice XML 100005-2021
+  url: https://ted.europa.eu/en/notice/100005-2021/xml
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice PDF 100005-2021 (PT)
+  url: https://ted.europa.eu/pt/notice/100005-2021/pdfs
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice detail 100005-2021
+  url: https://ted.europa.eu/en/notice/-/detail/100005-2021
+  checked_on: 2026-03-20
+  provenance: official_portal
 evidence_bundle:
   kind: structured_record
-  content_markdown: |
-    # Contract Award Notice - Spain-Adra: Technical consultancy services
-    **Buyer:** Ayuntamiento de Adra (Municipal Council)
-    **Object:** Technical assistance and consultancy services for the 'Adra Ciudad 2020' strategy.
-    **Award Date:** 2020-05-18
-    **Contractor:** GESTION DE PROYECTOS Y OBRAS, S.A.
-    **Total Value:** 51,000.00 EUR
-    **Procedure:** Open procedure.
-  content_markdown: "Materialization pending: fetching source content..."
+  content_markdown: "# AdRA Mouquim wastewater works supervision contract extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/pt/notice/100005-2021/pdfs\n\n## Listed sources\n- TED notice XML 100005-2021: https://ted.europa.eu/en/notice/100005-2021/xml\n- TED notice PDF 100005-2021 (PT): https://ted.europa.eu/pt/notice/100005-2021/pdfs\n- TED notice detail 100005-2021: https://ted.europa.eu/en/notice/-/detail/100005-2021\n\n## Extracted source text\n\n```text\nJO/S S40\n26/02/2021\n100005-2021-PT\n\n1/3\n\nO presente an\xFAncio no s\xEDtio web do TED: https://ted.europa.eu/udl?uri=TED:NOTICE:100005-2021:TEXT:PT:HTML\n\nPortugal-Aveiro: Servi\xE7os de gest\xE3o de obras\n2021/S 040-100005\nAn\xFAncio de adjudica\xE7\xE3o de contrato\nResultados do concurso\nServi\xE7os\nBase jur\xEDdica:\nDiretiva 2014/24/UE\nSec\xE7\xE3o I: Autoridade adjudicante\nI.1)\nNome e endere\xE7os\nNome oficial: \xC1guas da Regi\xE3o de Aveiro\
+    \ (AdRA), S. A.\nN\xFAmero de registo nacional: 509107630\nEndere\xE7o postal: Apartado 3144, EC Taboeira\nLocalidade: Aveiro\nC\xF3digo NUTS: PT16D Regi\xE3o de Aveiro\nC\xF3digo postal: 3801-101\nPa\xEDs: Portugal\nPessoa de contacto: \xC1guas da Regi\xE3o de Aveiro (AdRA), S. A.\nCorreio eletr\xF3nico: adra@adp.pt\nTelefone: +351 234910200\nFax: +351 234910299\nEndere\xE7o(s) Internet:\nEndere\xE7o principal: https://www.adra.pt\nI.4)\n\nTipo de autoridade adjudicante\nOutro tipo: Sociedade an\xF3nima integrada no setor empresarial do Estado\n\nI.5)\n\nAtividade principal\nOutra atividade: Explora\xE7\xE3o de \xE1gua e esgotos\n\nSec\xE7\xE3o II: Objeto\nII.1)\nQuantidade ou \xE2mbito do concurso\nII.1.1)\n\nT\xEDtulo:\nFiscaliza\xE7\xE3o da empreitada: \xE1guas residuais de Mouquim/Vila Nova de Fusos (PAR014): Albergaria-a-Velha\nN\xFAmero de refer\xEAncia: CP 06/2020_DEGA\n\nII.1.2)\n\nC\xF3digo CPV principal\n71540000 Servi\xE7os de gest\xE3o de obras\n\nII.1.3)\n\nTipo de contrato\n\
+    Servi\xE7os\n\nII.1.4)\n\nDescri\xE7\xE3o resumida:\nFiscaliza\xE7\xE3o, gest\xE3o de qualidade, coordena\xE7\xE3o de seguran\xE7a em obra e coordena\xE7\xE3o de gest\xE3o ambiental da\nempreitada: \xE1guas residuais de Mouquim/Vila Nova de Fusos (PAR014): Albergaria-a-Velha.\n\nII.1.6)\n\nInforma\xE7\xE3o sobre os lotes\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n1/3\n\nJO/S S40\n26/02/2021\n100005-2021-PT\n\n2/3\n\nContrato dividido em lotes: n\xE3o\nII.1.7)\n\nValor total do concurso (sem IVA)\nValor sem IVA: 75 000.00 EUR\n\nII.2)\n\nDescri\xE7\xE3o\n\nII.2.3)\n\nLocal de execu\xE7\xE3o\nC\xF3digo NUTS: PT16D Regi\xE3o de Aveiro\nLocal principal de execu\xE7\xE3o:\nMouquim, Vila Nova de Fusos- Albergaria-a-Velha.\n\nII.2.4)\n\nDescri\xE7\xE3o do concurso:\nFiscaliza\xE7\xE3o, gest\xE3o de qualidade, coordena\xE7\xE3o de seguran\xE7a em obra e coordena\xE7\xE3o de gest\xE3o ambiental da\nempreitada: \xE1guas residuais de Mouquim/Vila Nova de Fusos (PAR014): Albergaria-a-Velha.\n\
+    \nII.2.5)\n\nCrit\xE9rios de adjudica\xE7\xE3o\ncrit\xE9rios relativos ao custo - Nome: Qualidade t\xE9cnica da proposta / Pondera\xE7\xE3o: quarenta\ncrit\xE9rios relativos ao custo - Nome: Pre\xE7o global / Pondera\xE7\xE3o: sessenta\n\nII.2.11)\n\nInforma\xE7\xE3o sobre as op\xE7\xF5es\nOp\xE7\xF5es: n\xE3o\n\nII.2.13)\n\nInforma\xE7\xE3o sobre os fundos da Uni\xE3o Europeia\nO contrato est\xE1 relacionado com um projeto e/ou programa financiado por fundos da Uni\xE3o Europeia: n\xE3o\n\nII.2.14)\n\nInforma\xE7\xE3o adicional\n\nSec\xE7\xE3o IV: Procedimento\nIV.1)\nDescri\xE7\xE3o\nIV.1.1)\n\nTipo de procedimento\nConcurso aberto\n\nIV.1.3)\n\nInforma\xE7\xE3o acerca do acordo-quadro ou sistema de aquisi\xE7\xE3o din\xE2mico\n\nIV.1.8)\n\nInforma\xE7\xE3o relativa ao Acordo sobre Contratos P\xFAblicos (ACP)\nO contrato \xE9 abrangido pelo Acordo sobre Contratos P\xFAblicos: n\xE3o\n\nIV.2)\n\nInforma\xE7\xE3o administrativa\n\nIV.2.1)\n\nPublica\xE7\xE3o anterior referente ao presente\
+    \ concurso\nN\xFAmero do an\xFAncio no JO S: 2020/S 049-116363\n\nIV.2.8)\n\nInforma\xE7\xE3o relativa \xE0 rescis\xE3o do sistema de aquisi\xE7\xE3o din\xE2mico\n\nIV.2.9)\n\nInforma\xE7\xE3o relativa \xE0 rescis\xE3o do convite \xE0 apresenta\xE7\xE3o de propostas sob a forma de um an\xFAncio de\npr\xE9-informa\xE7\xE3o\n\nSec\xE7\xE3o V: Adjudica\xE7\xE3o de contrato\nT\xEDtulo:\nFiscaliza\xE7\xE3o da empreitada: \xE1guas residuais de Mouquim/Vila Nova de Fusos (PAR014): Albergaria-a-Velha\nUm contrato/lote \xE9 adjudicado: sim\nV.2)\n\nAdjudica\xE7\xE3o de contrato\n\nV.2.1)\n\nData de celebra\xE7\xE3o do contrato:\n25/01/2021\n\nV.2.2)\n\nInforma\xE7\xE3o sobre as propostas\nN\xFAmero de propostas recebidas: 16\nN\xFAmero de propostas recebidas de PME: 16\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n2/3\n\nJO/S S40\n26/02/2021\n100005-2021-PT\n\n3/3\n\nN\xFAmero de propostas recebidas de proponentes de outros Estados-Membros da UE: 0\nN\xFAmero de propostas recebidas de proponentes\
+    \ de pa\xEDses terceiros: 0\nN\xFAmero de propostas recebidas por via eletr\xF3nica: 16\nO contrato foi adjudicado a um agrupamento de operadores econ\xF3micos: n\xE3o\nV.2.3)\n\nNome e endere\xE7o do contratante\nNome oficial: Engenharia, Fiscaliza\xE7\xE3o e Servi\xE7os (EFS), Lda.\nN\xFAmero de registo nacional: 503240095\nEndere\xE7o postal: Rua General Humberto Delgado, 108, r\xE9s-do-ch\xE3o esquerdo, Canhoso\nLocalidade: Covilh\xE3\nC\xF3digo NUTS: PT16J Beiras e Serra da Estrela\nC\xF3digo postal: 6200-014\nPa\xEDs: Portugal\nO contratante \xE9 uma PME: sim\n\nV.2.4)\n\nInforma\xE7\xE3o sobre o valor do contrato/lote (sem IVA)\nValor total inicialmente estimado do contrato/lote: 75 000.00 EUR\nValor total do contrato/lote: 55 880.00 EUR\n\nV.2.5)\n\nInforma\xE7\xE3o acerca da subcontrata\xE7\xE3o\n\nSec\xE7\xE3o VI: Informa\xE7\xE3o complementar\nVI.3)\nInforma\xE7\xE3o adicional:\nVI.4)\n\nProcedimentos de recurso\n\nVI.4.1)\n\nOrganismo respons\xE1vel pelos processos de recurso\n\
+    Nome oficial: Tribunal Administrativo e Fiscal de Aveiro\nEndere\xE7o postal: Pra\xE7a Marqu\xEAs de Pombal\nLocalidade: Aveiro\nC\xF3digo postal: 3814-505\nPa\xEDs: Portugal\nCorreio eletr\xF3nico: aveiro.taf@tribunais.org.pt\n\nVI.5)\n\nData de envio do presente an\xFAncio:\n23/02/2021\n\n26/02/2021\nS40\nhttps://ted.europa.eu/TED\n\n3/3\n```\n"
   required_artifacts:
-    - source_record_file
-    - source_record_metadata
+  - source_record_file
+  - source_record_metadata
+  artifacts:
+  - id: materialized_source_document
+    path: datasets/public-validation-v1/source_documents/structured-public-record-adra-100005.md
+    role: source_document
+    media_type: text/markdown
+    source_url: https://ted.europa.eu/en/notice/100005-2021/xml
+    collected_at: '2026-03-20'
+    original_filename: 100005-2021.xml
+    sha256: 0e73f87cc13cc843e4849db6fae8dd269b8530ab8c73dada14932e691c44f273
+    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: 'Case bundle from: TED notice XML 100005-2021 | TED notice PDF 100005-2021 (PT) | TED notice detail 100005-2021'
+    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+  - id: original-source-01
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-adra-100005/source-01-ted-notice-xml-100005-2021.xml
+    role: original_source_snapshot
+    media_type: application/xml
+    source_url: https://ted.europa.eu/en/notice/100005-2021/xml
+    collected_at: '2026-03-20'
+    original_filename: 100005-2021.xml
+    sha256: 9373dbcb037d21e015d9bab6d90d7ebd4edcf809c9a236f842df760fcc2bf15f
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice XML 100005-2021
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-02
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-adra-100005/source-02-ted-notice-pdf-100005-2021-pt.pdf
+    role: original_source_snapshot
+    media_type: application/pdf
+    source_url: https://ted.europa.eu/pt/notice/100005-2021/pdfs
+    collected_at: '2026-03-20'
+    original_filename: 100005-2021.pdf
+    sha256: 67fb8b772b9c192497fc9342c735fd75f15a49511738903e869449a5a623245e
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice PDF 100005-2021 (PT)
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-03
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-adra-100005/source-03-ted-notice-detail-100005-2021.html
+    role: original_source_snapshot
+    media_type: text/html
+    source_url: https://ted.europa.eu/en/notice/-/detail/100005-2021
+    collected_at: '2026-03-20'
+    original_filename: 100005-2021.html
+    sha256: b0a1f36499fa2b52ae0c0ffcb46930997ae393fec2c419a55e48b546ba9cd2ca
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice detail 100005-2021
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
 expected_output:
   fields_required:
-    - buyer_name
-    - supplier_name
-    - award_date
-    - amount
-    - category_code
+  - buyer_name
+  - supplier_name
+  - award_date
+  - amount
+  - category_code
 answer_key:
   type: structured_fields
   fields:
-    buyer_name: Águas da Região de Aveiro (AdRA), S. A.
-    supplier_name: Engenharia, Fiscalização e Serviços (EFS), Lda.
-    award_date: "2021-01-25"
-    amount: 55880.00
-    category_code: "71540000"
+    buyer_name: "\xC1guas da Regi\xE3o de Aveiro (AdRA), S. A."
+    supplier_name: "Engenharia, Fiscaliza\xE7\xE3o e Servi\xE7os (EFS), Lda."
+    award_date: '2021-01-25'
+    amount: 55880.0
+    category_code: '71540000'
 notes:
-  - The official record is in Portuguese and the contract title describes works supervision, so extraction should keep the supplier separate from the project description.
-  - The XML-backed award block exposes the exact contract date and awarded amount without requiring arithmetic across multiple lots.
+- The official record is in Portuguese and the contract title describes works supervision, so extraction should keep the supplier separate from the project description.
+- The XML-backed award block exposes the exact contract date and awarded amount without requiring arithmetic across multiple lots.

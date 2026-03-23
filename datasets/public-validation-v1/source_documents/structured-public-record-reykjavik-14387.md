@@ -1,0 +1,299 @@
+# Reykjavik grass cutting contract extraction
+
+Collected from the official TED procurement PDF on 2026-03-20.
+
+Primary source URL: https://ted.europa.eu/en/notice/254314-2019/pdfs
+
+## Listed sources
+- TED notice PDF 254314-2019: https://ted.europa.eu/en/notice/254314-2019/pdfs
+- TED notice HTML 254314-2019: https://ted.europa.eu/udl?uri=TED:NOTICE:254314-2019:TEXT:EN:HTML
+
+## Extracted source text
+
+```text
+OJ/S S104
+31/05/2019
+254314-2019-EN
+
+- - Services - Contract award notice - Open procedure
+
+1/3
+
+This notice in TED website: https://ted.europa.eu/udl?uri=TED:NOTICE:254314-2019:TEXT:EN:HTML
+
+Iceland-Reykjavik: Grassing services
+2019/S 104-254314
+Contract award notice
+Results of the procurement procedure
+Services
+Legal Basis:
+Directive 2014/24/EU
+Section I: Contracting authority
+I.1)
+Name and addresses
+Reykjavik Procurement Department
+Borgartún 12-14
+Reykjavik
+105
+Iceland
+Contact person: Reykjavik Procurement Department
+Telephone: +354 4111111
+E-mail: utbod@reykjavik.is
+NUTS code: IS
+Internet address(es):
+Main address: https://reykjavik.is/utbod
+Address of the buyer profile: https://reykjavik.is/utbod
+I.2)
+
+Information about joint procurement
+
+I.4)
+
+Type of the contracting authority
+Regional or local authority
+
+I.5)
+
+Main activity
+General public services
+
+Section II: Object
+II.1)
+Scope of the procurement
+II.1.1)
+
+Title:
+Grass Cutting on Institutional Sites in Reykjavik 2019-2020
+Reference number: 14387
+
+II.1.2)
+
+Main CPV code
+77314100
+
+II.1.3)
+
+Type of contract
+Services
+
+II.1.4)
+
+Short description:
+Grass cutting on institutional sites in Reykjavik 2019-2020.
+
+31/05/2019
+S104
+https://ted.europa.eu/
+TED
+
+- - Services - Contract award notice - Open procedure
+Supplement to the Official Journal of the European Union
+
+1/3
+
+OJ/S S104
+31/05/2019
+254314-2019-EN
+
+- - Services - Contract award notice - Open procedure
+
+II.1.6)
+
+Information about lots
+This contract is divided into lots: no
+
+II.1.7)
+
+Total value of the procurement (excluding VAT)
+Value excluding VAT: 10 464 428.00 ISK
+
+II.2)
+
+Description
+
+II.2.1)
+
+Title:
+
+II.2.2)
+
+Additional CPV code(s)
+
+II.2.3)
+
+Place of performance
+NUTS code: IE
+
+II.2.4)
+
+Description of the procurement:
+Grass cutting on institutional sites in Reykjavik 2019-2020.
+
+II.2.5)
+
+Award criteria
+Price
+
+II.2.11)
+
+Information about options
+Options: no
+
+II.2.13)
+
+Information about European Union funds
+The procurement is related to a project and/or programme financed by European Union funds: no
+
+II.2.14)
+
+Additional information
+
+2/3
+
+Section IV: Procedure
+IV.1)
+Description
+IV.1.1)
+
+Type of procedure
+Open procedure
+
+IV.1.3)
+
+Information about a framework agreement or a dynamic purchasing system
+
+IV.1.6)
+
+Information about electronic auction
+
+IV.1.8)
+
+Information about the Government Procurement Agreement (GPA)
+The procurement is covered by the Government Procurement Agreement: no
+
+IV.2)
+
+Administrative information
+
+IV.2.1)
+
+Previous publication concerning this procedure
+Notice number in the OJ S: 2019/S 053-123537
+
+IV.2.8)
+
+Information about termination of dynamic purchasing system
+
+IV.2.9)
+
+Information about termination of call for competition in the form of a prior information notice
+
+Section V: Award of contract
+Contract No: 14387
+Title:
+Grass Cutting on Institutional Sites in Reykjavik 2019-2020
+A contract/lot is awarded: yes
+V.2)
+
+Award of contract
+
+V.2.1)
+
+Date of conclusion of the contract:
+16/05/2019
+
+V.2.2)
+
+Information about tenders
+
+31/05/2019
+S104
+https://ted.europa.eu/
+TED
+
+- - Services - Contract award notice - Open procedure
+Supplement to the Official Journal of the European Union
+
+2/3
+
+OJ/S S104
+31/05/2019
+254314-2019-EN
+
+- - Services - Contract award notice - Open procedure
+
+3/3
+
+Number of tenders received: 3
+The contract has been awarded to a group of economic operators: no
+V.2.3)
+
+Name and address of the contractor
+Garðlist ehf
+450598-2409
+Tunguháls 7
+Reykjavík
+110
+Iceland
+Telephone: +354 8966151
+E-mail: gardlist@gardlist.is
+NUTS code: IS
+Internet address: https://gardlist.is/
+The contractor is an SME: yes
+
+V.2.4)
+
+Information on value of the contract/lot (excluding VAT)
+Total value of the contract/lot: 10 464 428.00 ISK
+
+V.2.5)
+
+Information about subcontracting
+
+Section VI: Complementary information
+VI.3)
+Additional information:
+VI.4)
+
+Procedures for review
+
+VI.4.1)
+
+Review body
+The Icelandic Public Procurement Complaint Committe
+Arnarhvoli við Lindargötu
+Reykjavík
+150
+Iceland
+Telephone: +354 5459200
+E-mail: knu@fjr.is
+Internet address: https://www.stjornarradid.is/default.aspx?
+pageid=d562b285-9ab2-11e6-9409-005056bc4d74&itemid=e219adb9-4214-11e7-941a-005056bc530c
+
+VI.4.2)
+
+Body responsible for mediation procedures
+
+VI.4.3)
+
+Review procedure
+
+VI.4.4)
+
+Service from which information about the review procedure may be obtained
+
+VI.5)
+
+Date of dispatch of this notice:
+27/05/2019
+
+31/05/2019
+S104
+https://ted.europa.eu/
+TED
+
+- - Services - Contract award notice - Open procedure
+Supplement to the Official Journal of the European Union
+
+3/3
+```

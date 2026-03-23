@@ -5,37 +5,80 @@ task_type: field_extraction
 answer_mode: exact
 source_family: official_procurement
 source_tier: primary
-target_entity: "TED notice 355878-2020"
+target_entity: TED notice 355878-2020
 sources:
-  - label: TED notice PDF 355878-2020
-    url: https://ted.europa.eu/en/notice/355878-2020/pdfs
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice HTML 355878-2020
-    url: https://ted.europa.eu/udl?uri=TED:NOTICE:355878-2020:TEXT:EN:HTML
-    checked_on: 2026-03-20
-    provenance: official_portal
+- label: TED notice PDF 355878-2020
+  url: https://ted.europa.eu/en/notice/355878-2020/pdfs
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice HTML 355878-2020
+  url: https://ted.europa.eu/udl?uri=TED:NOTICE:355878-2020:TEXT:EN:HTML
+  checked_on: 2026-03-20
+  provenance: official_portal
 evidence_bundle:
   kind: structured_record
-  content_markdown: "Materialization pending: fetching source content..."
+  content_markdown: "# SIVA mobile telephony services extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/en/notice/355878-2020/pdfs\n\n## Listed sources\n- TED notice PDF 355878-2020: https://ted.europa.eu/en/notice/355878-2020/pdfs\n- TED notice HTML 355878-2020: https://ted.europa.eu/udl?uri=TED:NOTICE:355878-2020:TEXT:EN:HTML\n\n## Extracted source text\n\n```text\nOJ/S S144\n28/07/2020\n355878-2020-EN\n\nServices - Contract award notice - Open procedure\n\n1/3\n\nThis notice in TED website: https://ted.europa.eu/udl?uri=TED:NOTICE:355878-2020:TEXT:EN:HTML\n\nNorway-Trondheim: Mobile-telephone services\n2020/S 144-355878\nContract award notice\nResults of the procurement procedure\nServices\nLegal Basis:\nDirective 2014/24/EU\nSection I: Contracting authority\nI.1)\nName and addresses\nOfficial name: SIVA \u2014 Selskapet for industrivekst SF\nNational registration number: 966703032\nPostal address: Postboks 1253 Torgarden\n\
+    Town: Trondheim\nNUTS code: NO NORGE\nPostal code: 7462\nCountry: Norway\nContact person: Tone Egeland\nE-mail: tone.egeland@siva.no\nTelephone: +47 93658729\nInternet address(es):\nMain address: https://permalink.mercell.com/124445927.aspx\nI.2)\n\nInformation about joint procurement\n\nI.4)\n\nType of the contracting authority\nMinistry or any other national or federal authority, including their regional or local subdivisions\n\nI.5)\n\nMain activity\nEconomic and financial affairs\n\nSection II: Object\nII.1)\nScope of the procurement\nII.1.1)\n\nTitle:\nMobile Telephony Services\n\nII.1.2)\n\nMain CPV code\n64212000 Mobile-telephone services\n\nII.1.3)\n\nType of contract\nServices\n\nII.1.4)\n\nShort description:\nThe objective of the implementation of a procurement for the area is to enter into a contract that gives us cost\nefficient systems for telephony and data traffic services for Siva SF's employees. The contract shall provide the\norganisation good and future-oriented communication\
+    \ services that comply with the user requirements.\n\n28/07/2020\nS144\nhttps://ted.europa.eu/\nTED\n\nServices - Contract award notice - Open procedure\nSupplement to the Official Journal of the European Union\n\n1/3\n\nOJ/S S144\n28/07/2020\n355878-2020-EN\n\nServices - Contract award notice - Open procedure\n\n2/3\n\nII.1.6)\n\nInformation about lots\nThis contract is divided into lots: no\n\nII.1.7)\n\nTotal value of the procurement (excluding VAT)\nValue excluding VAT: 4 000 000.00 NOK\n\nII.2)\n\nDescription\n\nII.2.1)\n\nTitle:\n\nII.2.2)\n\nAdditional CPV code(s)\n\nII.2.3)\n\nPlace of performance\nNUTS code: NO NORGE\n\nII.2.4)\n\nDescription of the procurement:\nThis contract includes the parts of the need for communications where telecommunication services can be the\nmost appropriate and cost-effective system for the contracting authority \u2014 either alone or in combination with\nother systems. The contract includes subscriptions and mobile telephony traffic and associated\
+    \ services in the\ntelephony area. The contract must, amongst other things, ensure good mobile coverage and access to mobile\nbroadband in such a way that Siva's employees can conduct their services in a good way.\nRefer to annex 1 the Requirement specification.\n\nII.2.5)\n\nAward criteria\nPrice\n\nII.2.11)\n\nInformation about options\nOptions: yes\nDescription of options:\nThe total contract period is 2 years plus options for 1 year + 1 year extension. The total contract period,\nincluding options, is 4 years (48 months).\n\nII.2.13)\n\nInformation about European Union funds\nThe procurement is related to a project and/or programme financed by European Union funds: no\n\nII.2.14)\n\nAdditional information\n\nSection IV: Procedure\nIV.1)\nDescription\nIV.1.1)\n\nType of procedure\nOpen procedure\n\nIV.1.3)\n\nInformation about a framework agreement or a dynamic purchasing system\n\nIV.1.6)\n\nInformation about electronic auction\n\nIV.1.8)\n\nInformation about the Government Procurement\
+    \ Agreement (GPA)\nThe procurement is covered by the Government Procurement Agreement: yes\n\nIV.2)\n\nAdministrative information\n\nIV.2.1)\n\nPrevious publication concerning this procedure\nNotice number in the OJ S: 2020/S 041-097974\n\nIV.2.8)\n\nInformation about termination of dynamic purchasing system\n\nIV.2.9)\n\nInformation about termination of call for competition in the form of a prior information notice\n\nSection V: Award of contract\nTitle:\n28/07/2020\nS144\nhttps://ted.europa.eu/\nTED\n\nServices - Contract award notice - Open procedure\nSupplement to the Official Journal of the European Union\n\n2/3\n\nOJ/S S144\n28/07/2020\n355878-2020-EN\n\nServices - Contract award notice - Open procedure\n\n3/3\n\nMobile Telephony Services\nA contract/lot is awarded: yes\nV.2)\n\nAward of contract\n\nV.2.1)\n\nDate of conclusion of the contract:\n16/06/2020\n\nV.2.2)\n\nInformation about tenders\nNumber of tenders received: 1\nNumber of tenders received from SMEs: 0\nNumber of tenders\
+    \ received from tenderers from other EU Member States: 1\nNumber of tenders received from tenderers from non-EU Member States: 0\nNumber of tenders received by electronic means: 1\nThe contract has been awarded to a group of economic operators: no\n\nV.2.3)\n\nName and address of the contractor\nOfficial name: Telenor Norge AS (hovedenhet)\nPostal address: Snar\xF8yveien 30\nTown: Fornebu\nNUTS code: NO NORGE\nPostal code: 1331\nCountry: Norway\nTelephone: +47 67114370\nThe contractor is an SME: no\n\nV.2.4)\n\nInformation on value of the contract/lot (excluding VAT)\nTotal value of the contract/lot: 4 000 000.00 NOK\n\nV.2.5)\n\nInformation about subcontracting\n\nSection VI: Complementary information\nVI.3)\nAdditional information:\nVI.4)\n\nProcedures for review\n\nVI.4.1)\n\nReview body\nOfficial name: S\xF8r-Tr\xF8ndelag tingrett\nPostal address: Munkegt. 20, Postboks 2317\nTown: Torgarden\nPostal code: 7004\nCountry: Norway\n\nVI.4.2)\n\nBody responsible for mediation procedures\n\
+    \nVI.4.3)\n\nReview procedure\n\nVI.4.4)\n\nService from which information about the review procedure may be obtained\n\nVI.5)\n\nDate of dispatch of this notice:\n25/07/2020\n\n28/07/2020\nS144\nhttps://ted.europa.eu/\nTED\n\nServices - Contract award notice - Open procedure\nSupplement to the Official Journal of the European Union\n\n3/3\n```\n"
   required_artifacts:
-    - source_record_file
-    - source_record_metadata
+  - source_record_file
+  - source_record_metadata
+  artifacts:
+  - id: materialized_source_document
+    path: datasets/public-validation-v1/source_documents/structured-public-record-siva-355878.md
+    role: source_document
+    media_type: text/markdown
+    source_url: https://ted.europa.eu/en/notice/355878-2020/pdfs
+    collected_at: '2026-03-20'
+    original_filename: 355878-2020.pdf
+    sha256: c04732483e2271820581975c992746e91b3ed16771a3841662bc09f7a07f8592
+    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: 'Case bundle from: TED notice PDF 355878-2020 | TED notice HTML 355878-2020'
+    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+  - id: original-source-01
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-siva-355878/source-01-ted-notice-pdf-355878-2020.pdf
+    role: original_source_snapshot
+    media_type: application/pdf
+    source_url: https://ted.europa.eu/en/notice/355878-2020/pdfs
+    collected_at: '2026-03-20'
+    original_filename: 355878-2020.pdf
+    sha256: c7aa7656fbc0543458d1fa83760c6474e3af9f61a83a4f9b402b0d881ae780c8
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice PDF 355878-2020
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-02
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-siva-355878/source-02-ted-notice-html-355878-2020.html
+    role: original_source_snapshot
+    media_type: text/html
+    source_url: https://ted.europa.eu/udl?uri=TED:NOTICE:355878-2020:TEXT:EN:HTML
+    collected_at: '2026-03-20'
+    original_filename: udl.html
+    sha256: c3705a7924f9ecd881c4f9f8023b435142a8f24db3ea78cdff8f71e9ce1adc7a
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice HTML 355878-2020
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
 expected_output:
   fields_required:
-    - buyer_name
-    - supplier_name
-    - award_date
-    - amount
-    - category_code
+  - buyer_name
+  - supplier_name
+  - award_date
+  - amount
+  - category_code
 answer_key:
   type: structured_fields
   fields:
-    buyer_name: "SIVA — Selskapet for industrivekst SF"
+    buyer_name: "SIVA \u2014 Selskapet for industrivekst SF"
     supplier_name: Telenor Norge AS (hovedenhet)
-    award_date: "2020-06-16"
-    amount: 4000000.00
-    category_code: "64212000"
+    award_date: '2020-06-16'
+    amount: 4000000.0
+    category_code: '64212000'
 notes:
-  - This no-lot Norwegian TED award case extends the exact extraction slice beyond UK and EU institution buyers while keeping the same official notice structure.
-  - The case checks whether extraction preserves the contractor name punctuation and returns the notice-level main CPV code rather than a paraphrase of the service title.
+- This no-lot Norwegian TED award case extends the exact extraction slice beyond UK and EU institution buyers while keeping the same official notice structure.
+- The case checks whether extraction preserves the contractor name punctuation and returns the notice-level main CPV code rather than a paraphrase of the service title.

@@ -5,37 +5,79 @@ task_type: field_extraction
 answer_mode: exact
 source_family: official_procurement
 source_tier: primary
-target_entity: "TED notice 254314-2019, contract 14387"
+target_entity: TED notice 254314-2019, contract 14387
 sources:
-  - label: TED notice PDF 254314-2019
-    url: https://ted.europa.eu/en/notice/254314-2019/pdfs
-    checked_on: 2026-03-20
-    provenance: official_portal
-  - label: TED notice HTML 254314-2019
-    url: https://ted.europa.eu/udl?uri=TED:NOTICE:254314-2019:TEXT:EN:HTML
-    checked_on: 2026-03-20
-    provenance: official_portal
+- label: TED notice PDF 254314-2019
+  url: https://ted.europa.eu/en/notice/254314-2019/pdfs
+  checked_on: 2026-03-20
+  provenance: official_portal
+- label: TED notice HTML 254314-2019
+  url: https://ted.europa.eu/udl?uri=TED:NOTICE:254314-2019:TEXT:EN:HTML
+  checked_on: 2026-03-20
+  provenance: official_portal
 evidence_bundle:
   kind: structured_record
-  content_markdown: "Materialization pending: fetching source content..."
+  content_markdown: "# Reykjavik grass cutting contract extraction\n\nCollected from the official TED procurement PDF on 2026-03-20.\n\nPrimary source URL: https://ted.europa.eu/en/notice/254314-2019/pdfs\n\n## Listed sources\n- TED notice PDF 254314-2019: https://ted.europa.eu/en/notice/254314-2019/pdfs\n- TED notice HTML 254314-2019: https://ted.europa.eu/udl?uri=TED:NOTICE:254314-2019:TEXT:EN:HTML\n\n## Extracted source text\n\n```text\nOJ/S S104\n31/05/2019\n254314-2019-EN\n\n- - Services - Contract award notice - Open procedure\n\n1/3\n\nThis notice in TED website: https://ted.europa.eu/udl?uri=TED:NOTICE:254314-2019:TEXT:EN:HTML\n\nIceland-Reykjavik: Grassing services\n2019/S 104-254314\nContract award notice\nResults of the procurement procedure\nServices\nLegal Basis:\nDirective 2014/24/EU\nSection I: Contracting authority\nI.1)\nName and addresses\nReykjavik Procurement Department\nBorgart\xFAn 12-14\nReykjavik\n105\nIceland\nContact person: Reykjavik Procurement Department\nTelephone:\
+    \ +354 4111111\nE-mail: utbod@reykjavik.is\nNUTS code: IS\nInternet address(es):\nMain address: https://reykjavik.is/utbod\nAddress of the buyer profile: https://reykjavik.is/utbod\nI.2)\n\nInformation about joint procurement\n\nI.4)\n\nType of the contracting authority\nRegional or local authority\n\nI.5)\n\nMain activity\nGeneral public services\n\nSection II: Object\nII.1)\nScope of the procurement\nII.1.1)\n\nTitle:\nGrass Cutting on Institutional Sites in Reykjavik 2019-2020\nReference number: 14387\n\nII.1.2)\n\nMain CPV code\n77314100\n\nII.1.3)\n\nType of contract\nServices\n\nII.1.4)\n\nShort description:\nGrass cutting on institutional sites in Reykjavik 2019-2020.\n\n31/05/2019\nS104\nhttps://ted.europa.eu/\nTED\n\n- - Services - Contract award notice - Open procedure\nSupplement to the Official Journal of the European Union\n\n1/3\n\nOJ/S S104\n31/05/2019\n254314-2019-EN\n\n- - Services - Contract award notice - Open procedure\n\nII.1.6)\n\nInformation about lots\nThis contract\
+    \ is divided into lots: no\n\nII.1.7)\n\nTotal value of the procurement (excluding VAT)\nValue excluding VAT: 10 464 428.00 ISK\n\nII.2)\n\nDescription\n\nII.2.1)\n\nTitle:\n\nII.2.2)\n\nAdditional CPV code(s)\n\nII.2.3)\n\nPlace of performance\nNUTS code: IE\n\nII.2.4)\n\nDescription of the procurement:\nGrass cutting on institutional sites in Reykjavik 2019-2020.\n\nII.2.5)\n\nAward criteria\nPrice\n\nII.2.11)\n\nInformation about options\nOptions: no\n\nII.2.13)\n\nInformation about European Union funds\nThe procurement is related to a project and/or programme financed by European Union funds: no\n\nII.2.14)\n\nAdditional information\n\n2/3\n\nSection IV: Procedure\nIV.1)\nDescription\nIV.1.1)\n\nType of procedure\nOpen procedure\n\nIV.1.3)\n\nInformation about a framework agreement or a dynamic purchasing system\n\nIV.1.6)\n\nInformation about electronic auction\n\nIV.1.8)\n\nInformation about the Government Procurement Agreement (GPA)\nThe procurement is covered by the Government\
+    \ Procurement Agreement: no\n\nIV.2)\n\nAdministrative information\n\nIV.2.1)\n\nPrevious publication concerning this procedure\nNotice number in the OJ S: 2019/S 053-123537\n\nIV.2.8)\n\nInformation about termination of dynamic purchasing system\n\nIV.2.9)\n\nInformation about termination of call for competition in the form of a prior information notice\n\nSection V: Award of contract\nContract No: 14387\nTitle:\nGrass Cutting on Institutional Sites in Reykjavik 2019-2020\nA contract/lot is awarded: yes\nV.2)\n\nAward of contract\n\nV.2.1)\n\nDate of conclusion of the contract:\n16/05/2019\n\nV.2.2)\n\nInformation about tenders\n\n31/05/2019\nS104\nhttps://ted.europa.eu/\nTED\n\n- - Services - Contract award notice - Open procedure\nSupplement to the Official Journal of the European Union\n\n2/3\n\nOJ/S S104\n31/05/2019\n254314-2019-EN\n\n- - Services - Contract award notice - Open procedure\n\n3/3\n\nNumber of tenders received: 3\nThe contract has been awarded to a group of economic\
+    \ operators: no\nV.2.3)\n\nName and address of the contractor\nGar\xF0list ehf\n450598-2409\nTunguh\xE1ls 7\nReykjav\xEDk\n110\nIceland\nTelephone: +354 8966151\nE-mail: gardlist@gardlist.is\nNUTS code: IS\nInternet address: https://gardlist.is/\nThe contractor is an SME: yes\n\nV.2.4)\n\nInformation on value of the contract/lot (excluding VAT)\nTotal value of the contract/lot: 10 464 428.00 ISK\n\nV.2.5)\n\nInformation about subcontracting\n\nSection VI: Complementary information\nVI.3)\nAdditional information:\nVI.4)\n\nProcedures for review\n\nVI.4.1)\n\nReview body\nThe Icelandic Public Procurement Complaint Committe\nArnarhvoli vi\xF0 Lindarg\xF6tu\nReykjav\xEDk\n150\nIceland\nTelephone: +354 5459200\nE-mail: knu@fjr.is\nInternet address: https://www.stjornarradid.is/default.aspx?\npageid=d562b285-9ab2-11e6-9409-005056bc4d74&itemid=e219adb9-4214-11e7-941a-005056bc530c\n\nVI.4.2)\n\nBody responsible for mediation procedures\n\nVI.4.3)\n\nReview procedure\n\nVI.4.4)\n\nService from\
+    \ which information about the review procedure may be obtained\n\nVI.5)\n\nDate of dispatch of this notice:\n27/05/2019\n\n31/05/2019\nS104\nhttps://ted.europa.eu/\nTED\n\n- - Services - Contract award notice - Open procedure\nSupplement to the Official Journal of the European Union\n\n3/3\n```\n"
   required_artifacts:
-    - source_record_file
-    - source_record_metadata
+  - source_record_file
+  - source_record_metadata
+  artifacts:
+  - id: materialized_source_document
+    path: datasets/public-validation-v1/source_documents/structured-public-record-reykjavik-14387.md
+    role: source_document
+    media_type: text/markdown
+    source_url: https://ted.europa.eu/en/notice/254314-2019/pdfs
+    collected_at: '2026-03-20'
+    original_filename: 254314-2019.pdf
+    sha256: b999c7407b2eeedf92c3e4b944b00771cc9c93ae14db444b363b41f1d9be22b7
+    acquisition_method: Fetch the official procurement record from the listed source URLs, prefer machine-readable XML or PDF when available, and preserve the relevant record content in the checked-in markdown artifact.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: 'Case bundle from: TED notice PDF 254314-2019 | TED notice HTML 254314-2019'
+    notes: Checked-in markdown source document used for local validation and Hugging Face export. Factual source content backfilled from the listed upstream sources.
+  - id: original-source-01
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-reykjavik-14387/source-01-ted-notice-pdf-254314-2019.pdf
+    role: original_source_snapshot
+    media_type: application/pdf
+    source_url: https://ted.europa.eu/en/notice/254314-2019/pdfs
+    collected_at: '2026-03-20'
+    original_filename: 254314-2019.pdf
+    sha256: b8d0f356687c39c45b4b0837dbf2feb2655785dc0d1faaf55bdca1f3bbc805ff
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice PDF 254314-2019
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
+  - id: original-source-02
+    path: datasets/public-validation-v1/source_artifacts/structured-public-record-reykjavik-14387/source-02-ted-notice-html-254314-2019.html
+    role: original_source_snapshot
+    media_type: text/html
+    source_url: https://ted.europa.eu/udl?uri=TED:NOTICE:254314-2019:TEXT:EN:HTML
+    collected_at: '2026-03-20'
+    original_filename: udl.html
+    sha256: 78eb7de4c8c39879f19270f31d0119c3f34c4034b4961ad6cd75c4b995efd375
+    acquisition_method: Downloaded the original upstream source URL and preserved the response bytes as a local snapshot for offline validation and Hugging Face export.
+    license: See upstream source terms; redistribution status should be verified against the original publisher.
+    source_dataset: TED notice HTML 254314-2019
+    notes: Original upstream source snapshot preserved alongside the markdownified source document.
 expected_output:
   fields_required:
-    - buyer_name
-    - supplier_name
-    - award_date
-    - amount
-    - category_code
+  - buyer_name
+  - supplier_name
+  - award_date
+  - amount
+  - category_code
 answer_key:
   type: structured_fields
   fields:
     buyer_name: Reykjavik Procurement Department
-    supplier_name: "Garðlist ehf"
-    award_date: "2019-05-16"
-    amount: 10464428.00
-    category_code: "77314100"
+    supplier_name: "Gar\xF0list ehf"
+    award_date: '2019-05-16'
+    amount: 10464428.0
+    category_code: '77314100'
 notes:
-  - This is a no-lot TED award notice with one named contractor and a single contract value.
-  - The buyer, main CPV code, contract conclusion date, contractor, and total value are all stated in the signed notice.
+- This is a no-lot TED award notice with one named contractor and a single contract value.
+- The buyer, main CPV code, contract conclusion date, contractor, and total value are all stated in the signed notice.
