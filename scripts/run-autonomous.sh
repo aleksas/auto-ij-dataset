@@ -14,7 +14,7 @@ set -euo pipefail
 : "${AUTO_DATASET_CODEX_MODEL:=gpt-5.4}"
 : "${AUTO_DATASET_CODEX_REASONING_EFFORT:=medium}"
 : "${AUTO_DATASET_CODEX_EXTRA_ARGS:=}"
-: "${AUTO_DATASET_GEMINI_MODEL:=gemini-2.0-pro}"
+: "${AUTO_DATASET_GEMINI_MODEL:=gemini-3.1-flash-lite}"
 : "${AUTO_DATASET_GEMINI_EXTRA_ARGS:=}"
 : "${AUTO_DATASET_PUBLISH_EVERY:=1}"
 : "${AUTO_DATASET_SKIP_PUBLISH:=0}"
@@ -24,20 +24,25 @@ if [[ -z "${HF_TOKEN:-}" ]]; then
   exit 1
 fi
 
-cd /app
+cd "$(dirname "$0")/.."
 mkdir -p artifacts
 
-git -C /app config user.name "${AUTO_DATASET_GIT_USER_NAME}"
-git -C /app config user.email "${AUTO_DATASET_GIT_USER_EMAIL}"
+git config user.name "${AUTO_DATASET_GIT_USER_NAME}"
+git config user.email "${AUTO_DATASET_GIT_USER_EMAIL}"
 if [[ -n "${AUTO_DATASET_GITHUB_TOKEN}" ]]; then
-  origin_url="$(git -C /app remote get-url origin 2>/dev/null || true)"
+  origin_url="$(git remote get-url origin 2>/dev/null || true)"
   if [[ "${origin_url}" == https://github.com/* ]]; then
-    git -C /app remote set-url origin "https://x-access-token:${AUTO_DATASET_GITHUB_TOKEN}@${origin_url#https://}"
+    git remote set-url origin "https://x-access-token:${AUTO_DATASET_GITHUB_TOKEN}@${origin_url#https://}"
   fi
 fi
 
-if [[ -n "${OPENAI_API_KEY:-}" ]]; then
-  worker_cmd="codex exec --dangerously-bypass-approvals-and-sandbox -C /app -m ${AUTO_DATASET_CODEX_MODEL}"
+if [[ -n "${GEMINI_API_KEY:-}" ]]; then
+  worker_cmd="gemini --approval-mode yolo -m ${AUTO_DATASET_GEMINI_MODEL}"
+  if [[ -n "${AUTO_DATASET_GEMINI_EXTRA_ARGS}" ]]; then
+    worker_cmd+=" ${AUTO_DATASET_GEMINI_EXTRA_ARGS}"
+  fi
+elif [[ -n "${OPENAI_API_KEY:-}" ]]; then
+  worker_cmd="codex exec --dangerously-bypass-approvals-and-sandbox -m ${AUTO_DATASET_CODEX_MODEL}"
   if codex exec --help 2>/dev/null | grep -q -- "--reasoning-effort"; then
     worker_cmd+=" --reasoning-effort ${AUTO_DATASET_CODEX_REASONING_EFFORT}"
   else
@@ -47,18 +52,15 @@ if [[ -n "${OPENAI_API_KEY:-}" ]]; then
     worker_cmd+=" ${AUTO_DATASET_CODEX_EXTRA_ARGS}"
   fi
   worker_cmd+=" -"
-elif [[ -n "${GEMINI_API_KEY:-}" ]]; then
-  worker_cmd="gemini --approval-mode yolo -m ${AUTO_DATASET_GEMINI_MODEL}"
-  if [[ -n "${AUTO_DATASET_GEMINI_EXTRA_ARGS}" ]]; then
-    worker_cmd+=" ${AUTO_DATASET_GEMINI_EXTRA_ARGS}"
-  fi
 else
-  echo "Set OPENAI_API_KEY for default Codex execution, or GEMINI_API_KEY for Gemini fallback" >&2
+  echo "Set GEMINI_API_KEY for default Gemini execution, or OPENAI_API_KEY for Codex fallback" >&2
   exit 1
 fi
 
 runner_args=(
-  python
+  env
+  PYTHONPATH=src
+  python3
   -m
   auto_dataset.cli
   run

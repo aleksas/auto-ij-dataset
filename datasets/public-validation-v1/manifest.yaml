@@ -150,7 +150,7 @@ autonomous_loop:
     - public_documents_with_metadata
     - cross_country_leak_reporting
     - journalist_style_case
-    reject_acquisition_if_family_above_max_share: true
+    reject_acquisition_if_family_above_max_share: false
   family_acquisition_strategies:
     public_entity_link_dataset:
       acquisition_method: Harvest known-relationship cases from public entity-link
