@@ -436,19 +436,22 @@ def run_autonomous_loop(
         if should_publish:
             git_commit_message = f"Update {manifest['suite_id']} dataset sources after run {run_number:03d}"
             hf_commit_message = f"Update intermediate snapshot for {manifest['suite_id']} after run {run_number:03d}"
-            last_publish = _publish_current_state(
-                manifest_path,
-                manifest,
-                cases,
-                output_root=output_root,
-                hf_token=hf_token_value,
-                repo_id=hf_repo_id_value,
-                public=hf_public,
-                git_commit_message=git_commit_message,
-                hf_commit_message=hf_commit_message,
-            )
-            published_runs += 1
-            print(f"run {run_number}: pushed GitHub and Hugging Face sync", flush=True)
+            try:
+                last_publish = _publish_current_state(
+                    manifest_path,
+                    manifest,
+                    cases,
+                    output_root=output_root,
+                    hf_token=hf_token_value,
+                    repo_id=hf_repo_id_value,
+                    public=hf_public,
+                    git_commit_message=git_commit_message,
+                    hf_commit_message=hf_commit_message,
+                )
+                published_runs += 1
+                print(f"run {run_number}: pushed GitHub and Hugging Face sync", flush=True)
+            except (PublishError, Exception) as exc:
+                print(f"run {run_number}: publishing failed (ignoring); {exc}", flush=True)
 
         if sleep_seconds > 0 and run_number < max_runs:
             time.sleep(sleep_seconds)
@@ -461,19 +464,22 @@ def run_autonomous_loop(
             pending_changes = False
 
         if pending_changes:
-            last_publish = _publish_current_state(
-                manifest_path,
-                manifest,
-                cases,
-                output_root=output_root,
-                hf_token=hf_token_value,
-                repo_id=hf_repo_id_value,
-                public=hf_public,
-                git_commit_message=f"Finalize {manifest['suite_id']} dataset sources after autonomous run",
-                hf_commit_message=f"Finalize intermediate snapshot for {manifest['suite_id']}",
-            )
-            published_runs += 1
-            print("final sync: pushed GitHub and Hugging Face", flush=True)
+            try:
+                last_publish = _publish_current_state(
+                    manifest_path,
+                    manifest,
+                    cases,
+                    output_root=output_root,
+                    hf_token=hf_token_value,
+                    repo_id=hf_repo_id_value,
+                    public=hf_public,
+                    git_commit_message=f"Finalize {manifest['suite_id']} dataset sources after autonomous run",
+                    hf_commit_message=f"Finalize intermediate snapshot for {manifest['suite_id']}",
+                )
+                published_runs += 1
+                print("final sync: pushed GitHub and Hugging Face", flush=True)
+            except (PublishError, Exception) as exc:
+                print(f"final sync: publishing failed (ignoring); {exc}", flush=True)
 
     final_manifest, final_cases = load_suite(manifest_path)
     return {

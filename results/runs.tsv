@@ -38,3 +38,4 @@ run-001	2026-03-24T21:17:37+00:00	datasets/public-validation-v1/manifest.yaml	65
 run-001	2026-03-25T05:34:16+00:00	datasets/public-validation-v1/manifest.yaml	65	worker_timeout	worker_batch	acquisition	false	worker timed out after 900 seconds
 run-001	2026-03-25T09:19:41+00:00	datasets/public-validation-v1/manifest.yaml	65	worker_timeout	worker_batch	acquisition	false	worker timed out after 900 seconds
 run-001	2026-03-25T09:41:34+00:00	datasets/public-validation-v1/manifest.yaml	65	worker_timeout	worker_batch	acquisition	false	worker timed out after 900 seconds
+run-001	2026-03-25T10:45:47+00:00	datasets/public-validation-v1/manifest.yaml	65	worker_timeout	worker_batch	acquisition	false	worker timed out after 1800 seconds
