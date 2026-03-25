@@ -6,7 +6,7 @@ services:
     working_dir: /app
     user: "${AUTO_DATASET_UID:-1000}:${AUTO_DATASET_GID:-1000}"
     environment:
-      HOME: /tmp/codex-home
+      HOME: /tmp/home
       GEMINI_CLI_HOME: /tmp/gemini-home
       HF_TOKEN: "${HF_TOKEN}"
       OPENAI_API_KEY: "${OPENAI_API_KEY:-}"
@@ -29,6 +29,6 @@ services:
       AUTO_DATASET_SKIP_PUBLISH: "${AUTO_DATASET_SKIP_PUBLISH:-0}"
     volumes:
       - .:/app
-      - ${HOME}/.codex:/tmp/codex-home/.codex:ro
+      - ${HOME}/.codex:/tmp/home/.codex:ro
       - ${HOME}/.gemini:/tmp/gemini-home/.gemini:ro
     command: ["/app/scripts/run-autonomous.sh"]
