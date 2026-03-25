@@ -9,6 +9,10 @@ description: Convert local documents such as PDF, DOCX, PPTX, XLSX, XLS, HTML, t
 
 Use this skill to turn source documents into project-local Markdown references with a small provenance header. Prefer it when collecting supporting material for dataset work, especially if the document should be reviewed later by humans or LLMs without reopening the original binary file.
 
+## Docker Environment
+
+This skill is pre-installed in the project's Docker environment. When running the autonomous loop via `docker compose up`, the `document-to-markdown` dependencies (MarkItDown, Python 3.12) are already available for use by the agent.
+
 ## Quick Start
 
 Convert one file into `artifacts/markdownified/`:

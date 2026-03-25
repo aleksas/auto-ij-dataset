@@ -10,7 +10,9 @@ The system should improve case coverage, answer keys, and rubrics without weaken
 
 The exact run budget, source-family priority order, loop modes, failure policy, and run-log schema live in the target suite manifest. Treat the manifest as the source of truth, and use `auto-dataset brief <manifest>` to render the current operating contract before each unattended run.
 
-The preferred unattended entrypoint is `auto-dataset run <manifest> --worker-cmd '...'`. The runner drives one worker cycle at a time, validates the suite, appends the run log, and performs git/Hugging Face sync on publish cadence. In that mode, the worker should stop after making one bounded batch and leave log/publish work to the runner. Use `--mode` when you need the runner to switch between acquisition, hardening, and gold-curation behavior; in practice, gold-curation should usually prepare `gold_candidate` cases and defer final `gold` promotion until human review is available.
+The preferred unattended entrypoint is `docker compose up --build`. This uses the included `Dockerfile` and `docker-compose.yml` to provide a consistent, isolated environment with all dependencies (Python, Node.js, Gemini/Codex CLIs) pre-installed. It automatically handles the `auto-dataset run` loop, validation, logging, and publishing.
+
+If running outside of Docker, use `auto-dataset run <manifest> --worker-cmd '...'`. The runner drives one worker cycle at a time, validates the suite, appends the run log, and performs git/Hugging Face sync on publish cadence. In that mode, the worker should stop after making one bounded batch and leave log/publish work to the runner. Use `--mode` when you need the runner to switch between acquisition, hardening, and gold-curation behavior; in practice, gold-curation should usually prepare `gold_candidate` cases and defer final `gold` promotion until human review is available.
 
 ## Fixed surfaces
 

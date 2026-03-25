@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Preferred entrypoint: docker compose up --build
+# This script is a local fallback if Docker is unavailable.
+
 set -euo pipefail
 
 : "${AUTO_DATASET_MANIFEST:=datasets/public-validation-v1/manifest.yaml}"
@@ -14,7 +17,7 @@ set -euo pipefail
 : "${AUTO_DATASET_CODEX_MODEL:=gpt-5.4}"
 : "${AUTO_DATASET_CODEX_REASONING_EFFORT:=medium}"
 : "${AUTO_DATASET_CODEX_EXTRA_ARGS:=}"
-: "${AUTO_DATASET_GEMINI_MODEL:=gemini-3.1-flash-lite}"
+: "${AUTO_DATASET_GEMINI_MODEL:=gemini-3-flash-preview}"
 : "${AUTO_DATASET_GEMINI_EXTRA_ARGS:=}"
 : "${AUTO_DATASET_PUBLISH_EVERY:=1}"
 : "${AUTO_DATASET_SKIP_PUBLISH:=0}"

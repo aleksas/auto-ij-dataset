@@ -175,77 +175,38 @@ That keeps the dataset-building loop reviewable in the Karpathy sense: small mut
 - run-log rollups for acceptance rate, failure rate, change kinds, accepted versus rejected source families, and case-growth trends
 - a `gap_analysis.recommended_next_actions` list for the next missing families, languages, and gold/lifecycle gaps, including whether to prepare `gold_candidate` cases or wait for reviewer signoff
 
-## Autonomous Runner
+## Autonomous Runner (Preferred)
 
-`auto-dataset run` is the one-command orchestration entrypoint for unattended work. It does not bundle a model runtime; instead it drives an external worker command in a loop, validates after each cycle, appends to `results/runs.tsv`, and on publish cadence it commits and pushes git changes and publishes an intermediate Hugging Face snapshot. In runner mode, the worker should not append to `results/runs.tsv` or call `auto-dataset publish`; it should leave the repository ready for validation and let the runner handle logging and publish cadence.
-
-The loop is now mode-aware:
-
-- `acquisition`: optimize for net-new cases and family breadth
-- `hardening`: optimize for provenance completion and promotion to `validated`
-- `gold_curation`: optimize for `gold_candidate` preparation and review packets; only promote to `gold` with human signoff
-
-Select a non-default mode with `--mode`, for example:
+The most reliable way to run the autonomous loop is via **Docker Compose**. This provides a fully isolated environment with Python 3.12, Node.js, and both Gemini and Codex CLIs pre-installed.
 
 ```bash
-auto-dataset brief datasets/public-validation-v1/manifest.yaml --mode hardening
-auto-dataset run datasets/public-validation-v1/manifest.yaml \
-  --mode acquisition \
-  --worker-cmd 'your-agent-command' \
-  --repo-id aleksasp/auto-ij-dataset
-```
-
-Retryable worker failures such as timeouts and environment-style worker failures are now treated separately from nonretryable failures. The runner will continue through a bounded number of retryable failures before stopping, and the dashboard surfaces failure breakdowns by both status and classified failure type.
-
-```bash
+# Set your keys once
 export HF_TOKEN=...
-auto-dataset run datasets/public-validation-v1/manifest.yaml \
-  --worker-cmd 'your-agent-command' \
-  --repo-id aleksasp/auto-ij-dataset
-```
+export GEMINI_API_KEY=...
+# Optional: export OPENAI_API_KEY=...
 
-The worker command is executed by `/bin/bash -c`, receives the runner prompt on stdin, and also gets:
-
-- `AUTO_DATASET_REPO_ROOT`
-- `AUTO_DATASET_MANIFEST`
-- `AUTO_DATASET_RUN_PROMPT_FILE`
-
-If you want to drive it from Docker, the simplest shape is:
-
-```bash
-docker run --rm -it \
-  --user "$(id -u):$(id -g)" \
-  -e HF_TOKEN="$HF_TOKEN" \
-  -v "$PWD":/app \
-  -w /app \
-  python:3.12-slim \
-  bash -lc "apt-get update && apt-get install -y git && python -m pip install -e . && python -m auto_dataset.cli run datasets/public-validation-v1/manifest.yaml --worker-cmd 'your-agent-command' --repo-id aleksasp/auto-ij-dataset"
-```
-
-Using `--user "$(id -u):$(id -g)"` keeps `artifacts/` writable on the host after Docker-based runs and publishes.
-
-For a repeatable headless setup, use the included container files instead of a long shell command:
-
-```bash
-export HF_TOKEN=...
-export OPENAI_API_KEY=...
-# optional fallback if OPENAI_API_KEY is unset
-# export GEMINI_API_KEY=...
+# Start the autonomous loop
 export AUTO_DATASET_UID=$(id -u)
 export AUTO_DATASET_GID=$(id -g)
 docker compose up --build auto-dataset-runner
 ```
 
-The compose service runs headless for `3600` seconds by default, uses `1` max run, gives each worker cycle `900` seconds before timeout, waits `720` seconds between cycles (about 5 runs/hour max), publishes on every run, and defaults to Codex via `codex exec --dangerously-bypass-approvals-and-sandbox`. If `OPENAI_API_KEY` is not set but `GEMINI_API_KEY` is set, it falls back to Gemini via `gemini --approval-mode yolo`. To detach it, use:
+The compose service:
+- runs headless for `3600` seconds by default
+- uses **Gemini 3 Flash Preview** (`gemini-3-flash-preview`) as the default agent
+- falls back to Codex (`gpt-5.4`) if `GEMINI_API_KEY` is missing but `OPENAI_API_KEY` is present
+- automatically handles validation, logging to `results/runs.tsv`, and publishing to Hugging Face
+- preserves local file ownership on the host
 
+To detach it and watch logs:
 ```bash
 docker compose up -d --build auto-dataset-runner
 docker compose logs -f auto-dataset-runner
 ```
 
-By default, the compose runner uses `gpt-5.4`. Override it with `AUTO_DATASET_CODEX_MODEL` if needed. For fallback runs, Gemini defaults to `gemini-2.0-pro` and can be overridden with `AUTO_DATASET_GEMINI_MODEL`.
-It also configures git author identity from `AUTO_DATASET_GIT_USER_NAME` and `AUTO_DATASET_GIT_USER_EMAIL` before publishing.
-For HTTPS pushes to GitHub from inside the container, set `AUTO_DATASET_GITHUB_TOKEN`.
+## Manual Setup (Alternative)
+
+If you prefer not to use Docker, ensure you have Python 3.11+, Node.js, and the necessary CLIs installed.
 
 ## Intermediate Publishing
 

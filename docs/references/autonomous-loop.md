@@ -74,6 +74,23 @@ This is the operational model for the project:
 - logged runs
 - keep only the changes that improve dataset quality
 
+## Execution Model
+
+The autonomous loop is designed to be executed in a consistent, reproducible environment.
+
+### Docker-First Strategy
+
+To minimize environment drift and dependency conflicts, **Docker Compose** is the primary execution model. The `Dockerfile` and `docker-compose.yml` provide a pre-configured environment with all necessary runtimes (Python, Node.js) and tools (Gemini CLI, Codex CLI) already installed.
+
+Using Docker ensures that:
+- The runner and worker processes operate in the same isolated environment.
+- Permissions and file ownership are preserved across host and container.
+- Environment variables for API keys and Hugging Face tokens are handled securely and consistently.
+
+### Local Execution Fallback
+
+When Docker is unavailable, the `scripts/run-autonomous.sh` script provides a local fallback, but requires manual environment setup (Python 3.11+, Node.js, and CLI installations).
+
 ## Design inspiration
 
 - `https://github.com/karpathy/autoresearch`
